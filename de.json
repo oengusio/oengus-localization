@@ -48,8 +48,8 @@
     },
     "submission": {
       "save": {
-        "error": "Fehler beim Einreichen.",
-        "success": "Einreichung erfolgreich gesendet."
+        "error": "Fehler bei der Submission",
+        "success": "Submission erfolgreich gesendet."
       }
     },
     "user": {
@@ -70,8 +70,8 @@
       "upcoming": "Kommende Marathons"
     },
     "plannedFeatures": {
-      "1": "Coop / Rennen Einreichungen",
-      "2": "Auswahlsysteme für mehrere Läufe (Direktauswahl, Abstimmungen ...)",
+      "1": "Coop / Rennen Submissions",
+      "2": "Auswahlsysteme für mehrere Runs (Direktauswahl, Abstimmungen ...)",
       "3": "Einfaches Planungssystem mit Visualisierung der Verfügbarkeit der Runner",
       "4": "Konten werden synchronisiert, um eine Verbindung mit Twitter / Twitch / Google herzustellen",
       "5": "Discord Integration",
@@ -81,8 +81,8 @@
     "starts": "Startet {{duration}}",
     "welcomeText": {
       "loginWithDiscord": "Mit Discord einloggen",
-      "par1": "Oengus ist ein <b> kostenloses </ b> Tool, mit dem Sie Ihre Speedrun-Marathons von der Einreichung bis zum Zeitplan verwalten können.",
-      "par2": "Derzeit unterstützt der Manager in Pre-Alpha nur Übermittlungen. Die folgenden Schritte des Prozesses (Auswahl und Zeitplan für die Ausführung) werden jedoch in zukünftigen Versionen verfügbar sein.",
+      "par1": "Oengus ist ein <b> kostenloses </ b> Tool, mit dem Sie Ihre Speedrun-Marathons von der Submission bis zum Zeitplan verwalten können.",
+      "par2": "Derzeit unterstützt der Manager in Pre-Alpha nur Submissions. Die folgenden Schritte des Prozesses (Auswahl und Zeitplan für die Ausführung) werden jedoch in zukünftigen Versionen verfügbar sein.",
       "par3": "Um auf alle Funktionen zugreifen zu können, melden Sie sich bitte über den folgenden Link an. Sie können neue Marathons erstellen und an vorhandene mitwirken:",
       "par4": {
         "prod": "Wenn Sie die Anwendung testen möchten, bevor Sie eine Anwendung erstellen, rufen Sie die <a href=\"https://sandbox.oengus.io\"> Sandbox-Umgebung </a> auf. Es stehen alle Test- und Erkundungszwecke zur Verfügung.",
@@ -136,16 +136,16 @@
         "selectedRuns": "Ausgewählte Runs",
         "title": "Zeitplanmanagement"
       },
-      "setupBlock": "Einrichtungsblock",
+      "setupBlock": "Setup-Block",
       "table": {
         "actions": "Aktionen",
         "category": "Kategorie",
         "console": "Konsole",
         "estimate": "Estimate",
         "game": "Spiel",
-        "placeholder": "Lassen Sie einen Lauf vom linken Tisch auf diesen fallen. Dieser Text wird automatisch ausgeblendet, sobald ein Lauf im Zeitplan enthalten ist.",
+        "placeholder": "Verschieben sie einen Run von der linken Tabelle in diese. Dieser Text verschwindet Automatisch, sobald ein Run im Zeitplan vorhanden ist.",
         "runner": "Runner(s)",
-        "setup": "Aufbauzeit",
+        "setup": "Setup-Zeit",
         "time": "Zeit"
       },
       "timezone": "Alle Daten und Zeiten sind in Ihrer lokalen Zeitzone angegeben.",
@@ -156,10 +156,10 @@
         "publish": "Auswahl veröffentlichen"
       },
       "availabilities": {
-        "help": "Klicken Sie auf das Kalendersymbol neben den Läufern, um deren Verfügbarkeit anzuzeigen oder auszublenden."
+        "help": "Klicken Sie auf das Kalendersymbol neben den Runnern, um deren Verfügbarkeit anzuzeigen oder auszublenden."
       },
       "publish": {
-        "help": "Klicken Sie auf \"Speichern\", um Ihre aktuelle Auswahl in einem beliebigen Zustand zu speichern. Sie können Ihre Auswahl erst veröffentlichen, wenn alle Läufe einen anderen Status als \"Zu erledigen\" haben. Warnung: Bei Auswahl der Veröffentlichung werden die Übermittlungen automatisch geschlossen. Sobald die Auswahl veröffentlicht wurde, ist sie für alle Betrachter auf der Seite \"Beiträge anzeigen\" sichtbar."
+        "help": "Klicken Sie auf \"Speichern\", um Ihre aktuelle Auswahl in einem beliebigen Zustand zu speichern. Sie können Ihre Auswahl erst veröffentlichen, wenn alle Runner einen anderen Status als \"Zu erledigen\" haben. Warnung: Bei Auswahl der Veröffentlichung werden die Submissions automatisch geschlossen. Sobald die Auswahl veröffentlicht wurde, ist sie für alle Betrachter auf der Seite \"Submissions anzeigen\" sichtbar."
       },
       "selection": {
         "title": "Auswahl"
@@ -167,12 +167,12 @@
       "statistics": {
         "table": {
           "averageEstimate": "Durchschnittliche estimate",
-          "defaultSetupTime": "Standard-Setup-Zeit",
+          "defaultSetupTime": "Standard Setup-Zeit",
           "marathonLength": "Marathonlänge",
           "numberOfRunners": "Anzahl der Runner",
           "numberOfRuns": "Anzahl der Runs",
           "totalTime": "Gesamtzeit",
-          "totalTimeValidated": "Gesamtzeit der validierten Runs (einschließlich Standard-Setup-Zeit)"
+          "totalTimeValidated": "Gesamtzeit der validierten Runs (einschließlich Standard Setup-Zeit)"
         },
         "title": "Statistiken"
       },
@@ -192,7 +192,7 @@
       "defaultSetupTime": {
         "error": {
           "pattern": "Die Standard Setupzeit ist ungültig. Folgendes Format wird benötigt (HH)H:MM:SS",
-          "required": "Standard Setupzeit"
+          "required": "Standard Setupzeit wird benötigt"
         },
         "label": "Standard Setupzeit"
       },
@@ -248,7 +248,7 @@
           "min": "Die maximale Anzahl von Bildschirmen muss ein positiver Wert sein",
           "required": "Die maximale Anzahl von Bildschirmen ist erforderlich"
         },
-        "help": "Wenn Sie Mehrspieler-Runs zulassen, können Sie die Anzahl der im Stream angezeigten Bildschirme begrenzen, um die Anzahl der Spieler zu begrenzen, die an einem einzelnen Race / Coop-Beitrag teilnehmen können",
+        "help": "Wenn Sie Mehrspieler-Runs zulassen, können Sie die Anzahl der im Stream angezeigten Bildschirme begrenzen, um die Anzahl der Spieler zu begrenzen, die an einer einzelnen Race / Coop Submission teilnehmen können",
         "label": "Maximale Anzahl von Bildschirmen pro Spiel"
       },
       "moderators": {
@@ -263,18 +263,18 @@
         "error": {
           "max": "Der Name des Marathons ist zu lang",
           "min": "Der Name des Marathons ist zu kurz",
-          "pattern": "Der Marathonname ist ungültig",
-          "required": "Marathon-Name ist erforderlich"
+          "pattern": "Der Marathon Name ist ungültig",
+          "required": "Marathon Name ist erforderlich"
         },
         "label": "Name"
       },
       "shortname": {
         "error": {
-          "exists": "Marathon-Kurzname existiert bereits",
-          "max": "Marathon-Kurzname ist zu lang",
-          "min": "Marathon-Kurzname ist zu kurz",
-          "pattern": "Marathon-Kurzname ist ungültig",
-          "required": "Marathon-Kurzname ist erforderlich"
+          "exists": "Marathon Kurzname existiert bereits",
+          "max": "Marathon Kurzname ist zu lang",
+          "min": "Marathon Kurzname ist zu kurz",
+          "pattern": "Marathon Kurzname ist ungültig",
+          "required": "Marathon Kurzname ist erforderlich"
         },
         "label": "Kurzname"
       },
@@ -290,7 +290,7 @@
         "open": "Submissions sind geöffnet"
       },
       "submissionsTitle": "Submissions Einstellungen",
-      "title": "Marathon-Einstellungen",
+      "title": "Marathon Einstellungen",
       "twitch": {
         "error": {
           "max": "Twitch Name ist zu lang",
@@ -304,7 +304,7 @@
         }
       },
       "type": {
-        "label": "Marathon-Typ",
+        "label": "Art des Marathons",
         "online": "Online",
         "onsite": "Vor Ort / IRL"
       }
@@ -336,12 +336,12 @@
         },
         "from": "Von",
         "label": "Verfügbarkeit",
-        "to": "zu"
+        "to": "bis"
       },
       "category": {
         "description": {
           "error": {
-            "required": "Kategoriebeschreibung ist erforderlich"
+            "required": "Kategorie beschreibung ist erforderlich"
           },
           "help": "Geben Sie Details zu dieser Kategorie an",
           "label": "Kategorie beschreibung"
@@ -441,36 +441,36 @@
       },
       "srcom": {
         "error": {
-          "max": "Der Speedrun.com Benutzername ist zu lang.",
-          "pattern": "Der Speedrun.com Benutzername ist ungültig."
+          "max": "Der Speedrun.com Benutzername ist zu lang",
+          "pattern": "Der Speedrun.com Benutzername ist ungültig"
         }
       },
       "title": "Profil bearbeiten",
       "twitch": {
         "error": {
-          "max": "Der Twitch Name ist zu lang.",
-          "pattern": "Der Twitch Name ist ungültig."
+          "max": "Der Twitch Name ist zu lang",
+          "pattern": "Der Twitch Name ist ungültig"
         }
       },
       "twitter": {
         "error": {
-          "max": "Der Twitter Name ist zu lang.",
-          "pattern": "Der Twitter Name ist ungültig."
+          "max": "Der Twitter Name ist zu lang",
+          "pattern": "Der Twitter Name ist ungültig"
         }
       },
       "username": {
         "error": {
-          "exists": "Der Benutzername existiert schon.",
-          "max": "Der Benutzername ist zu lang.",
-          "min": "Der Benutzername ist zu kurz.",
-          "pattern": "Der Benutzername darf nur Großbuchstaben, Kleinbuchstaben. _ und - enthalten.",
-          "required": "Benutzername erforderlich."
+          "exists": "Der Benutzername existiert schon",
+          "max": "Der Benutzername ist zu lang",
+          "min": "Der Benutzername ist zu kurz",
+          "pattern": "Der Benutzername darf nur Großbuchstaben, Kleinbuchstaben. _ und - enthalten",
+          "required": "Benutzername erforderlich"
         },
         "label": "Benutzername"
       },
       "usernameJapanese": {
         "error": {
-          "max": "Der Japanische Benutzername ist zu lang."
+          "max": "Der Japanische Benutzername ist zu lang"
         },
         "help": "Wenn Ihr Benutzername ins Japanische übersetzt wird, verwenden Sie dieses Feld, um es mit japanischen Zeichen anzuzeigen. Es wird nur angezeigt, wenn die Sprache auf Japanisch eingestellt ist. Dieses Feld ist optional.",
         "label": "Benutzername (Japanisch)"
