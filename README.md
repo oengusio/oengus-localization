@@ -4,7 +4,7 @@ This is a repository to store and update localization files for [Oengus](https:/
 
 Localization files are JSON files (one per language) structured per location in the application.
 
-To update existing files, clone the repository and make a pull request everytime you make an update. The JSON files are automatically 
+To update existing files, clone the repository and make a pull request everytime you make an update.
 
 For any new language, contact Gyoo on the [Oengus Discord server](https://discord.gg/ZZFS8YT) first
 
