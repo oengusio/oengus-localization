@@ -172,7 +172,7 @@
           "numberOfRunners": "Anzahl der Runner",
           "numberOfRuns": "Anzahl der Runs",
           "totalTime": "Gesamtzeit",
-          "totalTimeValidated": "Gesamtzeit der validierten Runs (einschließlich Standard Setup-Zeit)"
+          "totalTimeValidated": "Gesamtzeit der Akzeptierten Runs (einschließlich Standard Setup-Zeit)"
         },
         "title": "Statistiken"
       },
@@ -180,7 +180,7 @@
         "BONUS": "Bonus",
         "REJECTED": "Abgelehnt",
         "TODO": "To-Do",
-        "VALIDATED": "Validiert"
+        "VALIDATED": "Akzeptiert"
       },
       "title": "Runs auswählen"
     },
@@ -313,9 +313,11 @@
       "table": {
         "actions": "Aktionen",
         "category": "Kategorie",
+        "categoryDescription": "Kategorie beschreibung",
         "console": "Konsole",
         "estimate": "Estimate",
         "game": "Spiel",
+        "gameDescription": "Spiel Beschreibung",
         "runner": "Runner",
         "status": "Status"
       },
