@@ -313,10 +313,11 @@
       "table": {
         "actions": "Actions",
         "category": "Catégorie",
+        "categoryDescription": "Description de la catégorie",
         "console": "Console",
-        "description": "Description",
         "estimate": "Estimation",
         "game": "Jeu",
+        "gameDescription": "Description du jeu",
         "runner": "Runner",
         "status": "Statut"
       },
