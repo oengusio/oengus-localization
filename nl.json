@@ -2,13 +2,13 @@
   "aboutPage": {
     "about": {
       "par1": "Oengus is een website die hulpmiddelen beschikbaar stelt voor het organiseren van speedrun marathons.",
-      "par2": "Speedrunning is het spelen van een game met het doel om het zo snel mogelijk uit te spelen, voor entertainment en/of competitieve doeleinden. Je kan meer lezen hierover op <a href=\"https://nl.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedia</a>.",
-      "par3": "Speedrunning marathons zijn evenementen waar speedrunners bijeenkomen om hun speedruns te laten zien aan een publiek, zoweel on- als offline. De meest populaire speedrun marathon is <a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a> een marathon die tweemaal per jaar wordt georganiseerd.",
-      "par4": "Deze website is gemaakt door <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>. Speler in de speedrun community sinds 2013, heeft hij bijgedragen aan de speedrun community op veel manieren: Global Moderator op <a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a> voor 3 jaar, maker van de  <a href=\"https://twitter.com/SpeedrunWRs\">Speedrun wereldrecord Twitter bot</a>, lid van het Franse Restream team, welke restreams doet van internationale marathons voor een frans publiek, en oprichter van Bourg la Run, de franse equivalent van Games Done Quick. Na het ophalen van al deze ervaringen, en beoordeeld te hebben dat er geen goede hulpmiddelen zijn voor het organiseren van marathons, heeft hij besloten er een te maken. En Oengus is het resultaat.",
+      "par2": "Speedrunning is het spelen van een game met het doel om het zo snel mogelijk uit te spelen, voor entertainment en/of competitieve doeleinden. Je kan hier meer over lezen hierover op <a href=\"https://nl.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedia</a>.",
+      "par3": "Speedrunning marathons zijn evenementen waar speedrunners bijeenkomen om hun speedruns te laten zien aan een publiek, zowel on- als offline. De meest populaire speedrun marathon is <a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a>, een marathon die tweemaal per jaar wordt georganiseerd.",
+      "par4": "Deze website is gemaakt door <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>. Een speler in de speedrun community sinds 2013, heeft hij bijgedragen aan de speedrun community op veel manieren: Global Moderator op <a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a> voor 3 jaar, maker van de  <a href=\"https://twitter.com/SpeedrunWRs\">Speedrun wereldrecord Twitter bot</a>, lid van het Franse Restream team, welke restreams doet van internationale marathons voor een frans publiek, en oprichter van Bourg la Run, de franse equivalent van Games Done Quick. Na het ophalen van al deze ervaringen, en beoordeeld te hebben dat er geen goede hulpmiddelen zijn voor het organiseren van marathons, heeft hij besloten er een te maken. En Oengus is het resultaat.",
       "title": "Over"
     },
     "contact": {
-      "par1": "Heb je een bug gevonden? Heb je vragen over de website? Join onze <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">Discord server</a>",
+      "par1": "Heb je een bug gevonden? Heb je vragen over de website? Join onze <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">Discord server</a>!",
       "par2": "Voor zakelijke en PR vragen, schrijf een email naar contact@oengus.io",
       "title": "Contact"
     }
@@ -78,11 +78,11 @@
       "6": "Mail notificaties",
       "title": "Geplande functies"
     },
-    "starts": "Start op {{duration}}",
+    "starts": "Start {{duration}}",
     "welcomeText": {
       "loginWithDiscord": "Login met  Discord",
       "par1": "Oengus is een <b>gratis</b> hulpmiddel om je speedrunning marathons te beheren, van de submissions tot het schema.",
-      "par2": "Momenteel in pre-alpha, zijn alleen de submissions beschikbaar, maar de volgende stappen (runs selectie en het schedule) zullen in de volgende versies beschikbaar worden.",
+      "par2": "Momenteel is deze applicatie in pre-alpha, en zijn alleen de submissions beschikbaar, maar de volgende stappen (run-selectie en het schema) zullen in de volgende versies beschikbaar worden.",
       "par3": "Om toegang te hebben tot alle functies, log in met de volgende link. Je zal nieuwe marathons kunnen aanmaken en submitten naar bestaande marathons:",
       "par4": {
         "prod": "Als je deze applicatie wil testen voor je een applicatie aanmaakt, ga naar de <a href=\"https://sandbox.oengus.io\">sandbox omgeving</a>. Deze is beschikbaar voor al het testen en ontwikkelingsdoeleinden.",
@@ -102,13 +102,13 @@
       "from": "Van",
       "language": "Taal",
       "location": "Locatie",
-      "to": "Naar"
+      "to": "Tot"
     },
     "menu": {
       "admin": "Administrator",
       "home": "Home",
       "loginToSubmit": "Log in om runs te submitten",
-      "manageSchedule": "Schema beheren",
+      "manageSchedule": "Schema beheer",
       "moderators": "Moderators",
       "overview": "Overzicht",
       "schedule": "Schema",
@@ -129,7 +129,7 @@
           "publish": "Schema publiceren"
         },
         "help": {
-          "dragAndDrop": "Je kan regels van de ene tabel naar de andere slepen door de hengsels te gebruiken:",
+          "dragAndDrop": "Je kan regels van de ene tabel naar de andere slepen door de 3 lijntjes te gebruiken:",
           "save": "Druk op \"Opslaan\" om een concept op te slaan of om het gepubliceerde schema bij te werken. Druk op \"schema publiceren\" om het schema live te publiceren. Waarschuwing: Wanneer het schema is gepubliceerd, zal de eind-datum automatisch herberekend worden bij elke schema update."
         },
         "schedule": "Schema",
@@ -207,7 +207,7 @@
         }
       },
       "discordPrivacy": {
-        "help": "Als de Discord op privé is gezet, zal de invite link niet op de homepage getoond worden, maar alleen zichtbaar zijn in de emails die de runners krijgen.",
+        "help": "Als je de Discord op privé zet, zal de invite link niet op de homepage worden getoond. Deze is alleen zichtbaar in de emails die naar de runners worden gestuurd.",
         "label": "Discord privacy",
         "private": "Discord is privé"
       },
@@ -313,9 +313,11 @@
       "table": {
         "actions": "Acties",
         "category": "Categorie",
+        "categoryDescription": "Category beschrijving",
         "console": "Console",
         "estimate": "Geschatte tijd",
         "game": "Game",
+        "gameDescription": "Game beschrijving",
         "runner": "Runner",
         "status": "Status"
       },
@@ -411,7 +413,7 @@
     "about": "Over",
     "createMarathon": "Nieuwe Marathon",
     "login": "Inloggen",
-    "logout": "uitloggen",
+    "logout": "Uitloggen",
     "settings": "Instellingen"
   },
   "user": {
