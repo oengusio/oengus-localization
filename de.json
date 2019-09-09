@@ -66,7 +66,7 @@
     "ends": "Endet {{duration}}",
     "marathons": {
       "live": "Live-Marathons",
-      "open": "Submissions offen",
+      "open": "Offene Submissions",
       "upcoming": "Kommende Marathons"
     },
     "plannedFeatures": {
@@ -81,7 +81,7 @@
     "starts": "Startet {{duration}}",
     "welcomeText": {
       "loginWithDiscord": "Mit Discord einloggen",
-      "par1": "Oengus ist ein <b> kostenloses </ b> Tool, mit dem Sie Ihre Speedrun-Marathons von der Submission bis zum Zeitplan verwalten können.",
+      "par1": "Oengus ist ein <b> kostenloses </b> Tool, mit dem Sie Ihre Speedrun-Marathons von der Submission bis zum Zeitplan verwalten können.",
       "par2": "Derzeit unterstützt der Manager in Pre-Alpha nur Submissions. Die folgenden Schritte des Prozesses (Auswahl und Zeitplan für die Ausführung) werden jedoch in zukünftigen Versionen verfügbar sein.",
       "par3": "Um auf alle Funktionen zugreifen zu können, melden Sie sich bitte über den folgenden Link an. Sie können neue Marathons erstellen und an vorhandene mitwirken:",
       "par4": {
