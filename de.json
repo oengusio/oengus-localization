@@ -3,7 +3,7 @@
     "about": {
       "par1": "Oengus ist eine Website, die Tools zum Organisieren von Speedrun-Marathons bereitstellt.",
       "par2": "Speedrunning ist das Spielen eines Videospiels mit der Absicht, es zu Unterhaltungs- und / oder Wettbewerbszwecken so schnell wie möglich zu beenden. Weitere Informationen zu Speedrunning finden Sie auf <a href=\"https://en.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedia</a>.",
-      "par3": "Speedrun-Marathons sind Veranstaltungen, bei denen sich Speedrunner versammeln, um ihre Läufe online, vor Ort oder vor beidem einem Publikum zu präsentieren. Die beliebtesten Veranstaltungen sind die zweimal jährlich stattfindenden <a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a>.",
+      "par3": "Speedrun-Marathons sind Veranstaltungen, bei denen sich Speedrunner versammeln, um ihre Runs Online, vor Ort oder vor beidem einem Publikum zu präsentieren. Die beliebtesten Veranstaltungen sind die zweimal jährlich stattfindenden <a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a>.",
       "par4": "Diese Website wurde von <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a> erstellt. Er ist seit 2013 in der Speedrunning-Community aktiv und hat in vielerlei Hinsicht zur Speedrunning-Community beigetragen: Globaler Moderator von <a href=\"https://speedrun.com\" target=\"_blank\"> speedrun.com </a> für drei Jahre, Schöpfer des <a href=\"https://twitter.com/SpeedrunWRs\"> Speedrun WRs Twitter-Bots </a>, Mitglied des französischen Restream-Teams, das einem französischen Publikum Restreams von internationalen Marathons bietet, und Gründer von Bourg la Run, der französischen Variante von Games Done Quick. Nachdem er all diese Erfahrungen gesammelt und festgestellt hatte, dass es kein gutes öffentliches Instrument für die Organisation von Marathons gab, entschloss er sich, eines zu schaffen, und Oengus war das Ergebnis.",
       "title": "Über"
     },
@@ -65,7 +65,7 @@
   "homepage": {
     "ends": "Endet {{duration}}",
     "marathons": {
-      "live": "Live-Marathons",
+      "live": "Laufende Marathons",
       "open": "Offene Submissions",
       "upcoming": "Kommende Marathons"
     },
@@ -80,16 +80,16 @@
     },
     "starts": "Startet {{duration}}",
     "welcomeText": {
-      "loginWithDiscord": "Mit Discord einloggen",
-      "par1": "Oengus ist ein <b> kostenloses </b> Tool, mit dem Sie Ihre Speedrun-Marathons von der Submission bis zum Zeitplan verwalten können.",
-      "par2": "Derzeit unterstützt der Manager in Pre-Alpha nur Submissions. Die folgenden Schritte des Prozesses (Auswahl und Zeitplan für die Ausführung) werden jedoch in zukünftigen Versionen verfügbar sein.",
+      "loginWithDiscord": "Mit Discord Anmelden",
+      "par1": "Oengus ist ein <b>kostenloses</b> Tool, mit dem Sie Ihre Speedrun-Marathons von der Submission bis zum Zeitplan verwalten können.",
+      "par2": "Derzeit unterstützt der Manager in Pre-Alpha nur Submissions. Die folgenden Schritte des Prozesses (Run Auswahl und Zeitplan für die Ausführung) werden jedoch in zukünftigen Versionen verfügbar sein.",
       "par3": "Um auf alle Funktionen zugreifen zu können, melden Sie sich bitte über den folgenden Link an. Sie können neue Marathons erstellen und an vorhandene mitwirken:",
       "par4": {
         "prod": "Wenn Sie die Anwendung testen möchten, bevor Sie eine Anwendung erstellen, rufen Sie die <a href=\"https://sandbox.oengus.io\"> Sandbox-Umgebung </a> auf. Es stehen alle Test- und Erkundungszwecke zur Verfügung.",
-        "sandbox": "<b> Sie befinden sich in der Sandbox-Umgebung, die zu Test- und Erkundungszwecke zur Verfügung steht. Wenn Sie einen aktuellen Marathon erstellen möchten, rufen Sie die <a href=\"https://oengus.io\"> Hauptwebsite </a> auf. </ B>"
+        "sandbox": "<b>Sie befinden sich in der Sandbox-Umgebung, die zu Test- und Erkundungszwecke zur Verfügung steht. Wenn Sie einen aktuellen Marathon erstellen möchten, rufen Sie die <a href=\"https://oengus.io\"> Hauptwebsite </a> auf. </b>"
       }
     },
-    "welcomeTitle": "WIllkommen beu Oengus!"
+    "welcomeTitle": "Willkommen bei Oengus!"
   },
   "login": {
     "authInProgress": "Authentifizierung wird durchgeführt, bitte warten ..."
@@ -102,7 +102,7 @@
       "from": "Von",
       "language": "Sprache",
       "location": "Ort",
-      "to": "Zu"
+      "to": "Bis"
     },
     "menu": {
       "admin": "Administration",
@@ -115,7 +115,7 @@
       "selectRuns": "Runs auswählen",
       "settings": "Einstellungen",
       "submitRuns": "Runs einreichen",
-      "viewSubmissions": "Einreichungen ansehen"
+      "viewSubmissions": "Submissions ansehen"
     },
     "new": {
       "description": "Die folgenden Informationen sind obligatorisch, um einen neuen Marathon zu erstellen. Nach der Erstellung können Sie weitere Details konfigurieren.",
