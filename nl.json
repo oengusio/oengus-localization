@@ -8,7 +8,7 @@
       "title": "Over"
     },
     "contact": {
-      "par1": "Heb je een bug gevonden? Heb je vragen over de website? Join onze <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">Discord server</a>!",
+      "par1": "Heb je een bug gevonden? Heb je vragen over de website? Join onze <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">Discord server</a>",
       "par2": "Voor zakelijke en PR vragen, schrijf een email naar contact@oengus.io",
       "title": "Contact"
     }
@@ -49,7 +49,7 @@
     "submission": {
       "save": {
         "error": "Fout tijdens het opgeven van je submission",
-        "success": "Submission succesvol verzonden."
+        "success": "Submission succesvol verzonden"
       }
     },
     "user": {
@@ -66,7 +66,7 @@
     "ends": "Eindigt op {{duration}}",
     "marathons": {
       "live": "Live marathons",
-      "open": "Submissions open",
+      "open": "Submissions zijn open",
       "upcoming": "Aankomende marathons"
     },
     "plannedFeatures": {
@@ -119,7 +119,7 @@
     },
     "new": {
       "description": "De volgende informatie is verplicht om een marathon aan te maken. Na dit proces kan je meer details aanpassen.",
-      "title": "Maak een nieuwe marathon aan."
+      "title": "Maak een nieuwe marathon aan"
     },
     "schedule": {
       "management": {
@@ -200,7 +200,7 @@
         "action": "Marathon verwijderen",
         "confirmText": "Weet je zeker dat je je marathon wil verwijderen? Om dit te bevestigen, schrijf de \"shortname\" van de marathon en druk op \"Bevestigen\""
       },
-      "description": "Hier kan je de instellingen van je marathon wijzigen.",
+      "description": "Hier kan je de instellingen van je marathon wijzigen",
       "discord": {
         "error": {
           "pattern": "Discord link is ongeldig"
@@ -333,7 +333,7 @@
         "add": "Beschikbaarheid toevoegen",
         "error": {
           "dateRequired": "Datum is verplicht",
-          "required": "Je moet tenminste 1 beschikbaarheidsperiode toevoegen."
+          "required": "Je moet tenminste 1 beschikbaarheidsperiode toevoegen"
         },
         "from": "Van",
         "label": "Beschikbaarheid",
@@ -349,7 +349,7 @@
         },
         "estimate": {
           "error": {
-            "min": "Geschatte lengte is ongeldig. Deze moet langer duren dan 0 seconden.",
+            "min": "Geschatte lengte is ongeldig. Deze moet langer duren dan 0 seconden",
             "pattern": "Geschatte lengte is ongeldig. Deze moet in het volgende formaat worden ingevoerd: (HH)H:MM:SS",
             "required": "Geschatte lengte is verplicht"
           },
@@ -464,14 +464,14 @@
           "exists": "Gebruikernaam bestaat al",
           "max": "Gebruikersnaam is te lang",
           "min": "Gebruikersnaam is te kort",
-          "pattern": "Gebruikersnamen mogen alleen kleine letters, hoofdletters, _ en - bevatten.",
+          "pattern": "Gebruikersnamen mogen alleen kleine letters, hoofdletters, _ en - bevatten",
           "required": "Gebruikersnaam is verplicht"
         },
         "label": "Gebruikersnaam"
       },
       "usernameJapanese": {
         "error": {
-          "max": "Japanse gebruikersnaam is te lang"
+          "max": "Japanse gebruikersnaam is te lang."
         },
         "help": "Als je gebruikersnaam naar het japans te vertalen is, gebruik dit veld om het te tonen met japanse karakters. Dit zal alleen tonen als het locale naar het japans is gezet. Dit veld is optioneel.",
         "label": "Gebruikersnaam (Japans)"

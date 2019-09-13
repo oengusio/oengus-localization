@@ -411,10 +411,14 @@
   },
   "navbar": {
     "about": "About",
+    "bugtracker": "Report bus and suggestions",
     "createMarathon": "New Marathon",
+    "discord": "Join the official Discord server",
     "login": "Log in",
     "logout": "Log out",
-    "settings": "Settings"
+    "settings": "Settings",
+    "translate": "Help translate the site",
+    "twitter": "Follow us on Twitter"
   },
   "user": {
     "settings": {
