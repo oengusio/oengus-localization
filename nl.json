@@ -66,7 +66,7 @@
         "ends": "Eindigt op {{duration}}",
         "marathons": {
             "live": "Live marathons",
-            "open": "Submissions zijn open",
+            "open": "Open submissions",
             "upcoming": "Aankomende marathons"
         },
         "plannedFeatures": {
@@ -85,7 +85,7 @@
             "par2": "Momenteel is deze applicatie in pre-alpha, en zijn alleen de submissions beschikbaar, maar de volgende stappen (run-selectie en het schema) zullen in de volgende versies beschikbaar worden.",
             "par3": "Om toegang te hebben tot alle functies, log in met de volgende link. Je zal nieuwe marathons kunnen aanmaken en submitten naar bestaande marathons:",
             "par4": {
-                "prod": "Als je deze applicatie wil testen voor je een applicatie aanmaakt, ga naar de <a href=\"https://sandbox.oengus.io\">sandbox omgeving</a>. Deze is beschikbaar voor al het testen en ontwikkelingsdoeleinden.",
+                "prod": "Als je deze applicatie wil testen voor je een applicatie aanmaakt, ga dan naar de <a href=\"https://sandbox.oengus.io\">sandbox omgeving</a>. Deze is beschikbaar voor alle testing en ontwikkelingsdoeleinden.",
                 "sandbox": "<b>Je bent in de sandbox omgeving, deze is beschikbaar voor testen en ontwikkelingsdoeleinden. Als je een daadwerkelijke marathon wil aanmaken, ga alsjeblieft naar de <a href=\"https://oengus.io\">hoofd website</a>.</b>"
             }
         },
