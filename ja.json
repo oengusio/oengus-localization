@@ -1,452 +1,454 @@
 {
-  "aboutPage": {
-    "about": {},
-    "contact": {}
-  },
-  "action": {
-    "cancel": "キャンセル",
-    "confirm": "確認",
-    "save": "保存",
-    "submit": "送信"
-  },
-  "alert": {
+    "action": {
+        "cancel": "キャンセル",
+        "confirm": "確認",
+        "save": "保存",
+        "submit": "送信"
+    },
+    "alert": {
+        "marathon": {
+            "creation": {
+                "error": "マラソン作成時に失敗しました",
+                "success": "マラソンが作成されました"
+            },
+            "deletion": {
+                "error": "マラソンの削除に失敗しました",
+                "success": "マラソンを削除しました"
+            },
+            "update": {
+                "error": "マラソンの更新に失敗しました",
+                "success": "マラソンの情報を更新しました"
+            }
+        },
+        "schedule": {
+            "save": {
+                "error": "スケジュールの保存に失敗しました",
+                "success": "スケジュールを保存しました"
+            }
+        },
+        "selection": {
+            "save": {
+                "error": "応募の選定の保存に失敗しました",
+                "success": "応募の選定を保存しました"
+            }
+        },
+        "submission": {
+            "save": {
+                "error": "応募に失敗しました",
+                "success": "応募に成功しました"
+            }
+        },
+        "user": {
+            "update": {
+                "error": "ユーザー情報の更新に失敗しました",
+                "success": "ユーザー情報を保存しました"
+            }
+        }
+    },
+    "global": {
+        "emu": "[エミュ]"
+    },
+    "homepage": {
+        "ends": "{{duration}}終了",
+        "marathons": {
+            "live": "進行中のマラソン",
+            "open": "応募受付中",
+            "upcoming": "今後のマラソン"
+        },
+        "plannedFeatures": {
+            "1": "協力プレイや並走の応募",
+            "2": "様々なゲーム選定システム (直接選択、投票など)",
+            "3": "走者の参加可能時間の可視化による簡単なスケジュール作成",
+            "4": "ツイッター・Twitch・Googleとアカウント連携",
+            "5": "Discord連携",
+            "6": "メール通知",
+            "title": "計画中の機能"
+        },
+        "starts": "{{duration}}開始",
+        "welcomeText": {
+            "loginWithDiscord": "Discordでログイン",
+            "par1": "Oengusは<b>無料</b>で使える、マラソンの応募やスケジュール管理ツールです。",
+            "par2": "現在はプレアルファで、応募のみサポートしていますが、今後のリリースで募集後の段階もサポートします (ゲーム選定やスケジュール)。",
+            "par3": "全ての機能を使うには以下のリンクからログインしてください。マラソンの新規作成や応募ができるようになります:"
+        },
+        "welcomeTitle": "Oengusへようこそ!"
+    },
+    "login": {
+        "authInProgress": "認証中です..."
+    },
     "marathon": {
-      "creation": {
-        "error": "マラソン作成時に失敗しました",
-        "success": "マラソンが作成されました"
-      },
-      "deletion": {
-        "error": "マラソンの削除に失敗しました",
-        "success": "マラソンを削除しました"
-      },
-      "update": {
-        "error": "マラソンの更新に失敗しました",
-        "success": "マラソンの情報を更新しました"
-      }
+        "home": {
+            "from": "開始",
+            "language": "言語",
+            "location": "場所",
+            "to": "終了"
+        },
+        "menu": {
+            "admin": "管理者",
+            "home": "ホーム",
+            "loginToSubmit": "ログインしてゲーム応募する",
+            "manageSchedule": "スケジュール管理",
+            "moderators": "モデレーター",
+            "overview": "概要",
+            "schedule": "スケジュール",
+            "selectRuns": "ゲームを選ぶ",
+            "settings": "設定",
+            "submitRuns": "ゲームを応募",
+            "viewSubmissions": "応募一覧"
+        },
+        "new": {
+            "description": "以下は新しいマラソンの作成に必須です。作成後にその他詳細を設定できます。",
+            "title": "マラソンの新規作成"
+        },
+        "schedule": {
+            "management": {
+                "action": {
+                    "alreadyPublished": "スケジュールは既に公開されています",
+                    "publish": "スケジュールの公開"
+                },
+                "help": {
+                    "dragAndDrop": "各行をドラッグアンドドロップすることで他のテーブルに動かすことができます:",
+                    "save": "「保存」をクリックしてスケジュールの下書き保存や更新ができます。「スケジュールの公開」でスケジュールを公開できます。注意: スケジュールを公開すると、スケジュールが更新されるたびにマラソンの終了日時が自動で再計算されます。"
+                },
+                "schedule": "スケジュール",
+                "selectedRuns": "選定されたゲーム",
+                "title": "スケジュール管理"
+            },
+            "table": {
+                "actions": "操作",
+                "category": "カテゴリー",
+                "console": "機種",
+                "estimate": "予定タイム",
+                "game": "ゲームタイトル",
+                "placeholder": "左のテーブルからゲームを移動してください。このテキストはゲームが追加されたら消えます。",
+                "runner": "走者",
+                "setup": "セットアップタイム",
+                "time": "タイム"
+            },
+            "timezone": "日時は全てあなたのタイムゾーンで表示されています。",
+            "title": "スケジュール",
+            "setupBlock": "セットアップブロック"
+        },
+        "selection": {
+            "action": {
+                "publish": "選定の公開"
+            },
+            "publish": {
+                "help": "「保存」をクリックしてスケジュールの下書き保存や更新ができます。「スケジュールの公開」でスケジュールを公開できます。注意: スケジュールを公開すると、スケジュールが更新されるたびにマラソンの終了日時が自動で再計算されます。"
+            },
+            "selection": {
+                "title": "選定"
+            },
+            "statistics": {
+                "table": {
+                    "averageEstimate": "平均予定タイム",
+                    "defaultSetupTime": "既定のセットアップタイム",
+                    "marathonLength": "マラソン期間",
+                    "numberOfRunners": "走者数",
+                    "numberOfRuns": "ゲーム数",
+                    "totalTime": "総時間",
+                    "totalTimeValidated": "選定されたゲームとセットアップの総時間"
+                },
+                "title": "統計"
+            },
+            "status": {
+                "BONUS": "ボーナス",
+                "REJECTED": "落選",
+                "TODO": "TODO",
+                "VALIDATED": "当選"
+            },
+            "title": "ゲーム選定"
+        },
+        "settings": {
+            "country": {
+                "label": "国"
+            },
+            "dangerZone": "危険ゾーン",
+            "defaultSetupTime": {
+                "error": {
+                    "pattern": "「時:分:秒」のフォーマットで入力してください",
+                    "required": "既定のセットアップタイムは必須です"
+                },
+                "label": "既定のセットアップタイム"
+            },
+            "delete": {
+                "action": "マラソンの削除",
+                "confirmText": "本当にマラソンを削除しますか？ 確認のためにマラソンの略称を入力して「確認」を押してください"
+            },
+            "description": "ここではマラソンの設定を変更できます",
+            "discord": {
+                "error": {
+                    "pattern": "Discordのリンクが無効です"
+                }
+            },
+            "discordPrivacy": {
+                "help": "Discordがプライベートに設定されている場合、招待リンクはページには表示されませんが、選定された走者へのメールには表示されます。",
+                "label": "Discordプライベート設定",
+                "private": "Discordはプライベートです"
+            },
+            "endDate": {
+                "error": {
+                    "required": "予定終了日時は必須です"
+                },
+                "label": "予定終了日時"
+            },
+            "generalTitle": "一般設定",
+            "language": {
+                "label": "言語"
+            },
+            "location": {
+                "label": "場所"
+            },
+            "marathonDescription": {
+                "help": "マークダウンが使えます",
+                "label": "概要"
+            },
+            "maxCategoriesPerGame": {
+                "error": {
+                    "max": "ゲームごとの最大カテゴリー数が大きすぎます",
+                    "min": "ゲームごとの最大カテゴリー数は正の数にしてください",
+                    "required": "ゲームごとの最大カテゴリー数は必須です"
+                },
+                "label": "ゲームごとの最大カテゴリー数"
+            },
+            "maxGamesPerRunner": {
+                "error": {
+                    "min": "走者ごとの最大ゲーム数は正の数にしてください",
+                    "required": "走者ごとの最大ゲーム数は必須です"
+                },
+                "label": "走者ごとの最大ゲーム数"
+            },
+            "maxNumberOfScreens": {
+                "error": {
+                    "min": "最大画面数は正の数にしてください",
+                    "required": "最大画面数は必須です"
+                },
+                "help": "複数人同時にプレイする協力プレイやレースで、配信に表示できる最大画面数を設定することができます",
+                "label": "最大画面数"
+            },
+            "moderators": {
+                "label": "モデレーター"
+            },
+            "multiplayer": {
+                "allowed": "協力プレイ、レースの応募ができます",
+                "forbidden": "協力プレイ、レースの応募はできません",
+                "label": "複数走者"
+            },
+            "name": {
+                "error": {
+                    "max": "マラソン名が長すぎます",
+                    "min": "マラソン名が短すぎます",
+                    "pattern": "マラソン名が無効です",
+                    "required": "マラソン名は必須です"
+                },
+                "label": "名前"
+            },
+            "shortname": {
+                "error": {
+                    "exists": "マラソンの略称は既にあります",
+                    "max": "マラソンの略称が長すぎます",
+                    "min": "マラソンの略称が短すぎます",
+                    "required": "マラソンの略称は必須です"
+                },
+                "label": "略称"
+            },
+            "startDate": {
+                "error": {
+                    "required": "開始日時は必須です"
+                },
+                "label": "開始日時"
+            },
+            "submissions": {
+                "closed": "募集は締め切りました",
+                "label": "募集",
+                "open": "募集中です"
+            },
+            "submissionsTitle": "募集設定",
+            "title": "マラソン設定",
+            "twitch": {
+                "error": {
+                    "max": "Twitch名が長すぎます",
+                    "pattern": "Twitch名が短すぎます"
+                }
+            },
+            "twitter": {
+                "error": {
+                    "max": "ツイッター名が長すぎます",
+                    "pattern": "ツイッター名が無効です"
+                }
+            },
+            "type": {
+                "label": "マラソンの種類",
+                "online": "オンライン",
+                "onsite": "会場"
+            }
+        },
+        "submissions": {
+            "table": {
+                "actions": "操作",
+                "category": "カテゴリー",
+                "console": "機種",
+                "estimate": "予定タイム",
+                "game": "ゲームタイトル",
+                "runner": "走者",
+                "status": "ステータス"
+            },
+            "title": "応募"
+        },
+        "submit": {
+            "action": {
+                "addCategory": "カテゴリ追加",
+                "removeGame": "ゲーム削除"
+            },
+            "availabilities": {
+                "actions": "操作",
+                "add": "参加可能時間を追加",
+                "error": {
+                    "dateRequired": "日付は必須です",
+                    "required": "1つ以上の参加可能時間を追加してください"
+                },
+                "from": "開始",
+                "label": "参加可能時間",
+                "to": "終了"
+            },
+            "category": {
+                "description": {
+                    "error": {
+                        "required": "カテゴリー概要は必須です"
+                    },
+                    "help": "このカテゴリーの説明",
+                    "label": "カテゴリー概要"
+                },
+                "estimate": {
+                    "error": {
+                        "min": "0秒より大きくしてください",
+                        "pattern": "予定タイムが無効です。時:分:秒のフォーマットにしてください",
+                        "required": "予定タイムは必須です"
+                    },
+                    "label": "予定タイム"
+                },
+                "name": {
+                    "error": {
+                        "required": "カテゴリー名は必須です"
+                    },
+                    "label": "カテゴリー"
+                },
+                "video": {
+                    "error": {
+                        "required": "動画リンクは必須です"
+                    },
+                    "label": "動画リンク"
+                }
+            },
+            "game": {
+                "console": {
+                    "emulated": "エミュレーター",
+                    "error": {
+                        "required": "機種は必須です"
+                    },
+                    "label": "機種"
+                },
+                "description": {
+                    "error": {
+                        "required": "ゲーム概要は必須です"
+                    },
+                    "help": "ゲームや行われるRTAについての説明",
+                    "label": "ゲーム概要"
+                },
+                "name": {
+                    "error": {
+                        "required": "ゲームタイトルは必須です"
+                    },
+                    "label": "ゲームタイトル"
+                },
+                "ratio": {
+                    "error": {
+                        "required": "アスペクト比は必須です"
+                    },
+                    "label": "アスペクト比 (16:9, 4:3,...)"
+                }
+            },
+            "maxCategoriesPerGame": "ゲームごとの最大カテゴリー数",
+            "maxGamesPerRunner": "走者ごとの最大ゲーム数",
+            "maxNumberOfScreens": "レースや協力プレイでの最大走者数",
+            "racesAllowed": "レースや協力プレイも応募できます",
+            "submissions": "応募",
+            "table": {
+                "actions": "操作",
+                "categories": "カテゴリー",
+                "games": "ゲーム"
+            },
+            "title": "ゲーム応募"
+        }
     },
-    "schedule": {
-      "save": {
-        "error": "スケジュールの保存に失敗しました",
-        "success": "スケジュールを保存しました"
-      }
-    },
-    "selection": {
-      "save": {
-        "error": "応募の選定の保存に失敗しました",
-        "success": "応募の選定を保存しました"
-      }
-    },
-    "submission": {
-      "save": {
-        "error": "応募に失敗しました",
-        "success": "応募に成功しました"
-      }
+    "navbar": {
+        "createMarathon": "マラソン作成",
+        "login": "ログイン",
+        "logout": "ログアウト",
+        "settings": "設定"
     },
     "user": {
-      "update": {
-        "error": "ユーザー情報の更新に失敗しました",
-        "success": "ユーザー情報を保存しました"
-      }
+        "settings": {
+            "accountSync": {
+                "description": "Oengusのアカウントとソーシャルメディアを連携することができます。連携後に保存するのを忘れないでください。",
+                "error": {
+                    "noService": "最低1つの連携が必要です"
+                },
+                "soon": "近日公開",
+                "sync": "アカウント連携",
+                "title": "アカウント連携",
+                "unsync": "アカウント削除"
+            },
+            "email": {
+                "error": {
+                    "email": "メールアドレスが無効です",
+                    "required": "メールアドレスは必須です"
+                },
+                "label": "メールアドレス"
+            },
+            "general": "一般設定",
+            "new": {
+                "beforeWeStart": "まず最初に...",
+                "description": "追加で必要な情報を入力してください。"
+            },
+            "title": "プロフィール変更",
+            "twitch": {
+                "error": {
+                    "max": "Twitch名が長すぎます",
+                    "pattern": "Twitch名が無効です"
+                }
+            },
+            "twitter": {
+                "error": {
+                    "max": "ツイッター名が長すぎます",
+                    "pattern": "ツイッター名が無効です"
+                }
+            },
+            "username": {
+                "error": {
+                    "exists": "そのユーザーネームは既に使われています",
+                    "max": "ユーザーネームが長すぎます",
+                    "min": "ユーザーネームが短すぎます",
+                    "pattern": "ユーザーネームは、小文字・大文字・_・-のみ使えます",
+                    "required": "ユーザーネームは必須です"
+                },
+                "label": "ユーザーネーム"
+            },
+            "usernameJapanese": {
+                "label": "ユーザーネーム (日本語)"
+            }
+        }
+    },
+    "aboutPage": {
+        "contact": {
+            "par2": "お仕事やPRの連絡は、contact@oengus.ioにメールをしてください",
+            "title": "コンタクト"
+        },
+        "about": {
+            "title": "このサイトについて",
+            "par3": "RTAマラソンは、RTA走者が集まり、オンライン又はオフラインで観客に向けて披露するものです。最も有名なイベントは年2回行われる<a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a>です。",
+            "par2": "RTA(又はspeedrun)とは、ゲームをどれだけ早くクリアできるかで遊んだり競ったりするやりこみの一つです。詳しくは<a href=\"https://en.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedia</a>をごらんください。",
+            "par1": "OengusはRTAイベントのためのツールを提供するサイトです。"
+        }
     }
-  },
-  "global": {
-    "emu": "[エミュレーター]"
-  },
-  "homepage": {
-    "ends": "{{duration}}終了",
-    "marathons": {
-      "live": "進行中のマラソン",
-      "open": "応募受付中",
-      "upcoming": "今後のマラソン"
-    },
-    "plannedFeatures": {
-      "1": "協力プレイや並走の応募",
-      "2": "様々なゲーム選定システム (直接選択、投票など)",
-      "3": "走者の参加可能時間の可視化による簡単なスケジュール作成",
-      "4": "ツイッター・Twitch・Googleとアカウント連携",
-      "5": "Discord連携",
-      "6": "メール通知",
-      "title": "計画中の機能"
-    },
-    "starts": "{{duration}}開始",
-    "welcomeText": {
-      "loginWithDiscord": "Discordでログイン",
-      "par1": "Oengusは<b>無料</b>で使える、マラソンの応募やスケジュール管理ツールです。",
-      "par2": "現在はプレアルファで、応募のみサポートしていますが、今後のリリースで募集後の段階もサポートします (ゲーム選定やスケジュール)。",
-      "par3": "全ての機能を使うには以下のリンクからログインしてください。マラソンの新規作成や応募ができるようになります:",
-      "par4": {}
-    },
-    "welcomeTitle": "Oengusへようこそ!"
-  },
-  "login": {
-    "authInProgress": "認証中です..."
-  },
-  "marathon": {
-    "help": {},
-    "home": {
-      "from": "開始",
-      "language": "言語",
-      "location": "場所",
-      "to": "終了"
-    },
-    "menu": {
-      "admin": "管理者",
-      "home": "ホーム",
-      "loginToSubmit": "ログインしてゲーム応募する",
-      "manageSchedule": "スケジュール管理",
-      "moderators": "モデレーター",
-      "overview": "概要",
-      "schedule": "スケジュール",
-      "selectRuns": "ゲームを選ぶ",
-      "settings": "設定",
-      "submitRuns": "ゲームを応募",
-      "viewSubmissions": "応募一覧"
-    },
-    "new": {
-      "description": "以下は新しいマラソンの作成に必須です。作成後にその他詳細を設定できます。",
-      "title": "マラソンの新規作成"
-    },
-    "schedule": {
-      "management": {
-        "action": {
-          "alreadyPublished": "スケジュールは既に公開されています",
-          "publish": "スケジュールの公開"
-        },
-        "help": {
-          "dragAndDrop": "各行をドラッグアンドドロップすることで他のテーブルに動かすことができます:",
-          "save": "「保存」をクリックしてスケジュールの下書き保存や更新ができます。「スケジュールの公開」でスケジュールを公開できます。注意: スケジュールを公開すると、スケジュールが更新されるたびにマラソンの終了日時が自動で再計算されます。"
-        },
-        "schedule": "スケジュール",
-        "selectedRuns": "選定されたゲーム",
-        "title": "スケジュール管理"
-      },
-      "table": {
-        "actions": "操作",
-        "category": "カテゴリー",
-        "console": "機種",
-        "estimate": "予定タイム",
-        "game": "ゲームタイトル",
-        "placeholder": "左のテーブルからゲームを移動してください。このテキストはゲームが追加されたら消えます。",
-        "runner": "走者",
-        "setup": "セットアップタイム",
-        "time": "タイム"
-      },
-      "timezone": "日時は全てあなたのタイムゾーンで表示されています。",
-      "title": "スケジュール"
-    },
-    "selection": {
-      "action": {
-        "publish": "選定の公開"
-      },
-      "availabilities": {},
-      "publish": {
-        "help": "「保存」をクリックしてスケジュールの下書き保存や更新ができます。「スケジュールの公開」でスケジュールを公開できます。注意: スケジュールを公開すると、スケジュールが更新されるたびにマラソンの終了日時が自動で再計算されます。"
-      },
-      "selection": {
-        "title": "選定"
-      },
-      "statistics": {
-        "table": {
-          "averageEstimate": "平均予定タイム",
-          "defaultSetupTime": "既定のセットアップタイム",
-          "marathonLength": "マラソン期間",
-          "numberOfRunners": "走者数",
-          "numberOfRuns": "ゲーム数",
-          "totalTime": "総時間",
-          "totalTimeValidated": "選定されたゲームとセットアップの総時間"
-        },
-        "title": "統計"
-      },
-      "status": {
-        "BONUS": "ボーナス",
-        "REJECTED": "落選",
-        "TODO": "TODO",
-        "VALIDATED": "当選"
-      },
-      "title": "ゲーム選定"
-    },
-    "settings": {
-      "country": {
-        "label": "国"
-      },
-      "dangerZone": "危険ゾーン",
-      "defaultSetupTime": {
-        "error": {
-          "pattern": "既定のセットアップタイムが無効です。時:分:秒のフォーマットで入力してください。",
-          "required": "既定のセットアップタイムは必須です。"
-        },
-        "label": "既定のセットアップタイム"
-      },
-      "delete": {
-        "action": "マラソンの削除",
-        "confirmText": "本当にマラソンを削除しますか? 確認のためにマラソンの略称を入力して「確認」を押してください。"
-      },
-      "description": "ここではマラソンの設定を変更できます",
-      "discord": {
-        "error": {
-          "pattern": "Discordのリンクが無効です"
-        }
-      },
-      "discordPrivacy": {
-        "help": "Discordがプライベートに設定されている場合、招待リンクはページには表示されませんが、選定された走者へのメールには表示されます。",
-        "label": "Discordプライベート設定",
-        "private": "Discordはプライベートです"
-      },
-      "endDate": {
-        "error": {
-          "required": "予定終了日時は必須です"
-        },
-        "label": "予定終了日時"
-      },
-      "generalTitle": "一般設定",
-      "language": {
-        "label": "言語"
-      },
-      "location": {
-        "label": "場所"
-      },
-      "marathonDescription": {
-        "help": "マークダウンが使えます",
-        "label": "概要"
-      },
-      "maxCategoriesPerGame": {
-        "error": {
-          "max": "ゲームごとの最大カテゴリー数が大きすぎます",
-          "min": "ゲームごとの最大カテゴリー数は正の数にしてください",
-          "required": "ゲームごとの最大カテゴリー数は必須です"
-        },
-        "label": "ゲームごとの最大カテゴリー数"
-      },
-      "maxGamesPerRunner": {
-        "error": {
-          "min": "走者ごとの最大ゲーム数は正の数にしてください",
-          "required": "走者ごとの最大ゲーム数は必須です"
-        },
-        "label": "走者ごとの最大ゲーム数"
-      },
-      "maxNumberOfScreens": {
-        "error": {
-          "min": "最大画面数は正の数にしてください",
-          "required": "最大画面数は必須です"
-        },
-        "help": "複数人同時にプレイする協力プレイやレースで、配信に表示できる最大画面数を設定することができます",
-        "label": "最大画面数"
-      },
-      "moderators": {
-        "label": "モデレーター"
-      },
-      "multiplayer": {
-        "allowed": "協力プレイ、レースの応募ができます",
-        "forbidden": "協力プレイ、レースの応募はできません",
-        "label": "複数走者"
-      },
-      "name": {
-        "error": {
-          "max": "マラソン名が長すぎます",
-          "min": "マラソン名が短すぎます",
-          "pattern": "マラソン名が無効です",
-          "required": "マラソン名は必須です"
-        },
-        "label": "名前"
-      },
-      "shortname": {
-        "error": {
-          "exists": "マラソンの略称は既にあります",
-          "max": "マラソンの略称が長すぎます",
-          "min": "マラソンの略称が短すぎます",
-          "required": "マラソンの略称は必須です"
-        },
-        "label": "略称"
-      },
-      "startDate": {
-        "error": {
-          "required": "開始日時は必須です"
-        },
-        "label": "開始日時"
-      },
-      "submissions": {
-        "closed": "募集は締め切りました",
-        "label": "募集",
-        "open": "募集中です"
-      },
-      "submissionsTitle": "募集設定",
-      "title": "マラソン設定",
-      "twitch": {
-        "error": {
-          "max": "Twitch名が長すぎます",
-          "pattern": "Twitch名が短すぎます"
-        }
-      },
-      "twitter": {
-        "error": {
-          "max": "ツイッター名が長すぎます",
-          "pattern": "ツイッター名が無効です"
-        }
-      },
-      "type": {
-        "label": "マラソンの種類",
-        "online": "オンライン",
-        "onsite": "会場"
-      }
-    },
-    "submissions": {
-      "table": {
-        "actions": "操作",
-        "category": "カテゴリー",
-        "console": "機種",
-        "estimate": "予定タイム",
-        "game": "ゲームタイトル",
-        "runner": "走者",
-        "status": "ステータス"
-      },
-      "title": "応募"
-    },
-    "submit": {
-      "action": {
-        "addCategory": "カテゴリーを追加",
-        "removeGame": "ゲームを削除"
-      },
-      "availabilities": {
-        "actions": "操作",
-        "add": "参加可能時間を追加",
-        "error": {
-          "dateRequired": "日付は必須です",
-          "required": "1つ以上の参加可能時間を追加してください"
-        },
-        "from": "開始",
-        "label": "参加可能時間",
-        "to": "終了"
-      },
-      "category": {
-        "description": {
-          "error": {
-            "required": "カテゴリー概要は必須です"
-          },
-          "help": "このカテゴリーの説明",
-          "label": "カテゴリー概要"
-        },
-        "estimate": {
-          "error": {
-            "min": "予定タイムが無効です。0秒より大きくしてください",
-            "pattern": "予定タイムが無効です。時:分:秒のフォーマットにしてください",
-            "required": "予定タイムは必須です"
-          },
-          "label": "予定タイム"
-        },
-        "name": {
-          "error": {
-            "required": "カテゴリー名は必須です"
-          },
-          "label": "カテゴリー"
-        },
-        "video": {
-          "error": {
-            "required": "動画リンクは必須です"
-          },
-          "label": "動画リンク"
-        }
-      },
-      "game": {
-        "console": {
-          "emulated": "エミュレーター",
-          "error": {
-            "required": "機種は必須です"
-          },
-          "label": "機種"
-        },
-        "description": {
-          "error": {
-            "required": "ゲーム概要は必須です"
-          },
-          "help": "ゲームや行われるRTAについての説明",
-          "label": "ゲーム概要"
-        },
-        "name": {
-          "error": {
-            "required": "ゲームタイトルは必須です"
-          },
-          "label": "ゲームタイトル"
-        },
-        "ratio": {
-          "error": {
-            "required": "アスペクト比は必須です"
-          },
-          "label": "アスペクト比 (16:9, 4:3,...)"
-        }
-      },
-      "maxCategoriesPerGame": "ゲームごとの最大カテゴリー数",
-      "maxGamesPerRunner": "走者ごとの最大ゲーム数",
-      "maxNumberOfScreens": "レースや協力プレイでの最大走者数",
-      "racesAllowed": "レースや協力プレイも応募できます",
-      "submissions": "応募",
-      "table": {
-        "actions": "操作",
-        "categories": "カテゴリー",
-        "games": "ゲーム"
-      },
-      "title": "ゲーム応募"
-    }
-  },
-  "navbar": {
-    "createMarathon": "マラソン作成",
-    "login": "ログイン",
-    "logout": "ログアウト",
-    "settings": "設定"
-  },
-  "user": {
-    "settings": {
-      "accountSync": {
-        "description": "Oengusのアカウントとソーシャルメディアを連携することができます。連携後に保存するのを忘れないでください。",
-        "error": {
-          "noService": "最低1つの連携が必要です。"
-        },
-        "soon": "近日公開",
-        "sync": "アカウント連携",
-        "title": "アカウント連携",
-        "unsync": "アカウント削除"
-      },
-      "email": {
-        "error": {
-          "email": "メールアドレスが無効です",
-          "required": "メールアドレスは必須です"
-        },
-        "label": "メールアドレス"
-      },
-      "general": "一般設定",
-      "new": {
-        "beforeWeStart": "まず最初に...",
-        "description": "追加で必要な情報を入力してください。"
-      },
-      "srcom": {
-        "error": {}
-      },
-      "title": "プロフィール変更",
-      "twitch": {
-        "error": {
-          "max": "Twitch名が長すぎます",
-          "pattern": "Twitch名が無効です"
-        }
-      },
-      "twitter": {
-        "error": {
-          "max": "ツイッター名が長すぎます",
-          "pattern": "ツイッター名が無効です"
-        }
-      },
-      "username": {
-        "error": {
-          "exists": "そのユーザーネームは既に使われています",
-          "max": "ユーザーネームが長すぎます",
-          "min": "ユーザーネームが短すぎます",
-          "pattern": "ユーザーネームは、小文字・大文字・_・-のみ使えます",
-          "required": "ユーザーネームは必須です"
-        },
-        "label": "ユーザーネーム"
-      },
-      "usernameJapanese": {
-        "error": {},
-        "label": "ユーザーネーム (日本語)"
-      }
-    }
-  }
 }
