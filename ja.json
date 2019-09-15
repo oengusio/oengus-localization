@@ -56,10 +56,10 @@
             "upcoming": "今後のマラソン"
         },
         "plannedFeatures": {
-            "1": "協力プレイや並走の応募",
+            "1": "協力プレイやレースの応募",
             "2": "様々なゲーム選定システム (直接選択、投票など)",
             "3": "走者の参加可能時間の可視化による簡単なスケジュール作成",
-            "4": "ツイッター・Twitch・Googleとアカウント連携",
+            "4": "Twitter・Twitch・Googleとアカウント連携",
             "5": "Discord連携",
             "6": "メール通知",
             "title": "計画中の機能"
@@ -69,7 +69,11 @@
             "loginWithDiscord": "Discordでログイン",
             "par1": "Oengusは<b>無料</b>で使える、マラソンの応募やスケジュール管理ツールです。",
             "par2": "現在はプレアルファで、応募のみサポートしていますが、今後のリリースで募集後の段階もサポートします (ゲーム選定やスケジュール)。",
-            "par3": "全ての機能を使うには以下のリンクからログインしてください。マラソンの新規作成や応募ができるようになります:"
+            "par3": "全ての機能を使うには以下のリンクからログインしてください。マラソンの新規作成や応募ができるようになります:",
+            "par4": {
+                "prod": "アプリを作成する前にテストしたい場合は<a href=\"https://sandbox.oengus.io\">sandbox</a>で行ってください。テストや目的発見のために利用できます。",
+                "sandbox": "<b>このサイトはsandbox環境で、テストや目的発見のために利用できます。実際にマラソンを作成する場合は、<a href=\"https://oengus.io\">メインウェブサイト</a>で行ったください。</b>"
+            }
         },
         "welcomeTitle": "Oengusへようこそ!"
     },
@@ -104,7 +108,8 @@
             "management": {
                 "action": {
                     "alreadyPublished": "スケジュールは既に公開されています",
-                    "publish": "スケジュールの公開"
+                    "publish": "スケジュールの公開",
+                    "addSetupBlock": "セットアップブロックの追加"
                 },
                 "help": {
                     "dragAndDrop": "各行をドラッグアンドドロップすることで他のテーブルに動かすことができます:",
@@ -118,12 +123,12 @@
                 "actions": "操作",
                 "category": "カテゴリー",
                 "console": "機種",
-                "estimate": "予定タイム",
+                "estimate": "予定時間",
                 "game": "ゲームタイトル",
                 "placeholder": "左のテーブルからゲームを移動してください。このテキストはゲームが追加されたら消えます。",
                 "runner": "走者",
                 "setup": "セットアップタイム",
-                "time": "タイム"
+                "time": "時間"
             },
             "timezone": "日時は全てあなたのタイムゾーンで表示されています。",
             "title": "スケジュール",
@@ -141,13 +146,13 @@
             },
             "statistics": {
                 "table": {
-                    "averageEstimate": "平均予定タイム",
+                    "averageEstimate": "平均予定時間",
                     "defaultSetupTime": "既定のセットアップタイム",
                     "marathonLength": "マラソン期間",
                     "numberOfRunners": "走者数",
                     "numberOfRuns": "ゲーム数",
                     "totalTime": "総時間",
-                    "totalTimeValidated": "選定されたゲームとセットアップの総時間"
+                    "totalTimeValidated": "選定されたゲームとセットアップタイムの総時間"
                 },
                 "title": "統計"
             },
@@ -248,7 +253,8 @@
                     "exists": "マラソンの略称は既にあります",
                     "max": "マラソンの略称が長すぎます",
                     "min": "マラソンの略称が短すぎます",
-                    "required": "マラソンの略称は必須です"
+                    "required": "マラソンの略称は必須です",
+                    "pattern": "マラソンの略称が無効です"
                 },
                 "label": "略称"
             },
@@ -267,14 +273,14 @@
             "title": "マラソン設定",
             "twitch": {
                 "error": {
-                    "max": "Twitch名が長すぎます",
-                    "pattern": "Twitch名が短すぎます"
+                    "max": "Twitchのアカウント名が長すぎます",
+                    "pattern": "Twitchのアカウント名が無効です"
                 }
             },
             "twitter": {
                 "error": {
-                    "max": "ツイッター名が長すぎます",
-                    "pattern": "ツイッター名が無効です"
+                    "max": "Twitterのアカウント名が長すぎます",
+                    "pattern": "Twitterのアカウント名が無効です"
                 }
             },
             "type": {
@@ -288,16 +294,18 @@
                 "actions": "操作",
                 "category": "カテゴリー",
                 "console": "機種",
-                "estimate": "予定タイム",
+                "estimate": "予定時間",
                 "game": "ゲームタイトル",
                 "runner": "走者",
-                "status": "ステータス"
+                "status": "ステータス",
+                "categoryDescription": "カテゴリー概要",
+                "gameDescription": "ゲーム概要"
             },
             "title": "応募"
         },
         "submit": {
             "action": {
-                "addCategory": "カテゴリ追加",
+                "addCategory": "カテゴリー追加",
                 "removeGame": "ゲーム削除"
             },
             "availabilities": {
@@ -322,10 +330,10 @@
                 "estimate": {
                     "error": {
                         "min": "0秒より大きくしてください",
-                        "pattern": "予定タイムが無効です。時:分:秒のフォーマットにしてください",
-                        "required": "予定タイムは必須です"
+                        "pattern": "予定時間が無効です。時:分:秒のフォーマットにしてください",
+                        "required": "予定時間は必須です"
                     },
-                    "label": "予定タイム"
+                    "label": "予定時間"
                 },
                 "name": {
                     "error": {
@@ -379,13 +387,21 @@
                 "games": "ゲーム"
             },
             "title": "ゲーム応募"
+        },
+        "help": {
+            "isArchived": "このマラソンはアーカイブで、読み取り専用モードになっています。"
         }
     },
     "navbar": {
         "createMarathon": "マラソン作成",
         "login": "ログイン",
         "logout": "ログアウト",
-        "settings": "設定"
+        "settings": "設定",
+        "about": "このサイトについて",
+        "twitter": "Twitterをフォロー",
+        "discord": "公式Discordサーバーに参加",
+        "bugtracker": "バグと提案の報告",
+        "translate": "翻訳者募集"
     },
     "user": {
         "settings": {
@@ -414,14 +430,14 @@
             "title": "プロフィール変更",
             "twitch": {
                 "error": {
-                    "max": "Twitch名が長すぎます",
-                    "pattern": "Twitch名が無効です"
+                    "max": "Twitchのユーザーネームが長すぎます",
+                    "pattern": "Twitchのユーザーネームが無効です"
                 }
             },
             "twitter": {
                 "error": {
-                    "max": "ツイッター名が長すぎます",
-                    "pattern": "ツイッター名が無効です"
+                    "max": "Twitterのユーザーネームが長すぎます",
+                    "pattern": "Twitterのユーザーネームが無効です"
                 }
             },
             "username": {
@@ -435,20 +451,32 @@
                 "label": "ユーザーネーム"
             },
             "usernameJapanese": {
-                "label": "ユーザーネーム (日本語)"
+                "label": "ユーザーネーム (日本語)",
+                "help": "ユーザーネームが日本語に翻訳されている場合、この項目を使用して日本語の文字で表示します。現在地が日本に設定されている場合にのみ表示されます。この項目は任意です。",
+                "error": {
+                    "max": "日本語のユーザーネームが長すぎます。"
+                }
+            },
+            "srcom": {
+                "error": {
+                    "max": "Speedrun.comのユーザーネームが長すぎます。",
+                    "pattern": "Speedrun.comのユーザーネームが無効です。"
+                }
             }
         }
     },
     "aboutPage": {
         "contact": {
             "par2": "お仕事やPRの連絡は、contact@oengus.ioにメールをしてください",
-            "title": "コンタクト"
+            "title": "コンタクト",
+            "par1": "バグを発見したり、このサイトに質問があれば、<a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">Discordサーバー</a>に入ってください。"
         },
         "about": {
             "title": "このサイトについて",
-            "par3": "RTAマラソンは、RTA走者が集まり、オンライン又はオフラインで観客に向けて披露するものです。最も有名なイベントは年2回行われる<a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a>です。",
+            "par3": "RTAマラソンは、RTA走者が集まり、オンライン又はオフラインで観客に向けてRTAを披露するものです。最も有名なイベントは年2回行われる<a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a>です。",
             "par2": "RTA(又はspeedrun)とは、ゲームをどれだけ早くクリアできるかで遊んだり競ったりするやりこみの一つです。詳しくは<a href=\"https://en.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedia</a>をごらんください。",
-            "par1": "OengusはRTAイベントのためのツールを提供するサイトです。"
+            "par1": "OengusはRTAマラソンの運営を支援するツールを提供するサイトです。",
+            "par4": "このサイトは<a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>\nにより作成されました。\n\n氏は2013年からspeedrunコミュニティで活躍しています。具体的には、<a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a>のグローバルモデレータを3年間、<a href=\"https://twitter.com/SpeedrunWRs\">Speedrun WRs Twitter bot</a>の作成、\nフランスの視聴者のために国際的なマラソンの再配信を行うFrench Restreamチームのメンバー、\nフランス版のGames Done Quick、Bourg la Runの創設者として貢献してきました。\n\n上記経験を活かし、マラソンを運営するための優れた公開ツールが存在しないという背景から開発を決め、その結果、Oengusが生まれました。"
         }
     }
 }
