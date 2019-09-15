@@ -152,7 +152,7 @@
                     "numberOfRunners": "走者数",
                     "numberOfRuns": "ゲーム数",
                     "totalTime": "総時間",
-                    "totalTimeValidated": "選定されたゲームとセットアップタイムの総時間"
+                    "totalTimeValidated": "総時間"
                 },
                 "title": "統計"
             },
