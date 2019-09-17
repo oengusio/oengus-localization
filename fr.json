@@ -15,6 +15,7 @@
   },
   "action": {
     "cancel": "Annuler",
+    "clearAvailabilities": "Retirer les disponibilités sélectionnées",
     "confirm": "Confirmer",
     "save": "Sauvegarder",
     "submit": "Envoyer"
@@ -82,7 +83,6 @@
     "welcomeText": {
       "loginWithDiscord": "Connexion avec Discord",
       "par1": "Oengus est un outil <b>gratuit</b> pour gérer vos marathons de speedrun, des candidatures au planning.",
-      "par2": "Actuellement en pré-alpha, l'outil ne possède que l'étape de candidatures, mais les étapes suivantes (sélection et planning) viendront dans de futures versions.",
       "par3": "Pour accéder à toutes les fonctionnalités, veuillez vous connecter avec le lien ci-dessous. Vous pourrez créer des marathons et candidater sur les existants :",
       "par4": {
         "prod": "Si vous souhaitez tester l'application avant de créer un événement, vous pouvez vous rendre sur l'<a href=\"https://sandbox.oengus.io\">environnement bac à sable</a>, disponible spécifiquement pour découvrir les fonctionnalités.",
