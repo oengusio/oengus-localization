@@ -129,7 +129,7 @@
           "publish": "Publier le planning"
         },
         "help": {
-          "dragAndDrop": "Vous pouvez glisser et déposer les lignes d'un tableau à l'autre en utilisant le symbole",
+          "dragAndDrop": "Utilisez les flèches sur chaque ligne pour ajouter ou retirer des runs du programme. Vous pouvez glisser et déposer les lignes sur le programme en utilisant le symbole",
           "save": "Cliquez sur \"Sauvegarder\" pour enregistrer un brouillon de planning ou mettre à jour le planning publié. Cliquez sur \"Publier le planning\" pour que le planning soit rendu public. Attention : une fois le planning publié, la date de fin du marathon sera automatiquement recalculée à chaque mise à jour du planning."
         },
         "schedule": "Planning",

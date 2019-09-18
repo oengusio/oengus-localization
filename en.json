@@ -129,7 +129,7 @@
           "publish": "Publish schedule"
         },
         "help": {
-          "dragAndDrop": "You can drag and drop lines from one table to the other by using the handles on each line:",
+          "dragAndDrop": "Use the arrows on each line to add or remove a run from the schedule. You can drag and drop lines on the schedule by using the handles",
           "save": "Click on \"Save\" to save a draft or update the live schedule. Click on \"Publish schedule\" to make to schedule public. Warning: once the schedule is published, the end date of the marathon will be automatically recalculated at each schedule update."
         },
         "schedule": "Schedule",
