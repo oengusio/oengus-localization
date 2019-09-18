@@ -129,7 +129,7 @@
                     "publish": "Schema publiceren"
                 },
                 "help": {
-                    "dragAndDrop": "Je kan regels van de ene tabel naar de andere slepen door de 3 lijntjes te gebruiken:",
+                    "dragAndDrop": "Je kan de pijltjes op elke regel gebruiken om een run aan het schema toe te voegen of te verwijderen. Je kan elke regel slepen door de 3 lijntjes te gebruiken",
                     "save": "Druk op \"Opslaan\" om een concept op te slaan of om het gepubliceerde schema bij te werken. Druk op \"schema publiceren\" om het schema live te publiceren. Waarschuwing: Wanneer het schema is gepubliceerd, zal de eind-datum automatisch herberekend worden bij elke schema update."
                 },
                 "schedule": "Schema",
