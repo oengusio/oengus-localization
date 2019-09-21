@@ -54,6 +54,9 @@
       }
     },
     "user": {
+      "login": {
+        "error": "An error happened during authentication. Please retry or contact an administrator."
+      },
       "update": {
         "error": "Error during user data update",
         "success": "User data updated successfully"
