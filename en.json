@@ -162,7 +162,7 @@
         "help": "Click on the calendar icon next to the runners to show or hide their availabilities."
       },
       "publish": {
-        "help": "Click on \"Save\" to save your current selection at any state. You can only publish your selection once all runs have a status other than \"To do\". Warning: publishing selection will automatically close submissions. Once the selection is published, it will be visible for all viewers in the \"View submissions\" page."
+        "help": "Click on \"Save\" to save your current selection at any state. You can only publish your selection once all runs have a status other than \"To do\". Saving or publishing selection can take some time depending on the amount of runs. Warning: publishing selection will automatically close submissions. Once the selection is published, it will be visible for all viewers in the \"View submissions\" page."
       },
       "selection": {
         "title": "Selection"

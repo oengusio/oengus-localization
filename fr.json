@@ -162,7 +162,7 @@
         "help": "Cliquez sur l'icone de calendrier pour afficher ou cacher leurs disponibilités."
       },
       "publish": {
-        "help": "Cliquez sur \"Sauvegarder\" pour sauvegarder vos choix à n'importe quel instant. Vous ne pourrez publier la sélection que lorsqu'aucune run n'aura le statut \"À faire\". Attention : la publication de la sélection clôturera automatiquement les candidatures. Une fois la sélection publiée, elle sera visible par tous sur la page \"Voir les candidatures\"."
+        "help": "Cliquez sur \"Sauvegarder\" pour sauvegarder vos choix à n'importe quel instant. Vous ne pourrez publier la sélection que lorsqu'aucune run n'aura le statut \"À faire\". Sauvegarder ou publier la sélection peut prendre du temps en fonction du nombre de candidatures. Attention : la publication de la sélection clôturera automatiquement les candidatures. Une fois la sélection publiée, elle sera visible par tous sur la page \"Voir les candidatures\"."
       },
       "selection": {
         "title": "Sélection"
