@@ -57,6 +57,7 @@
       "login": {
         "error": "Während der Authentifizierung ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder wenden Sie sich an einen Administrator."
       },
+      "sync": {},
       "update": {
         "error": "Fehler beim Aktualisieren der Benutzerdaten",
         "success": "Benutzerdaten wurden erfolgreich aktualisiert"
@@ -418,7 +419,9 @@
     "bugtracker": "Fehler oder Vorschläge einreichen",
     "createMarathon": "Neuer Marathon",
     "discord": "Trete dem Offiziellen Discord Server bei",
-    "login": "Anmelden",
+    "login": {
+      "title": "Anmelden"
+    },
     "logout": "Abmelden",
     "settings": "Einstellungen",
     "translate": "Unterstütze beim Übersetzen der Seite",
@@ -456,6 +459,7 @@
       },
       "title": "Profil bearbeiten",
       "twitch": {
+        "disabled": {},
         "error": {
           "max": "Der Twitch Name ist zu lang",
           "pattern": "Der Twitch Name ist ungültig"

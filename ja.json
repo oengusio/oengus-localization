@@ -57,6 +57,7 @@
       "login": {
         "error": "認証中にエラーが発生しました。再度試してみるか、管理者に問い合わせてください。"
       },
+      "sync": {},
       "update": {
         "error": "ユーザー情報の更新に失敗しました",
         "success": "ユーザー情報を保存しました"
@@ -418,7 +419,9 @@
     "bugtracker": "バグや提案の送信",
     "createMarathon": "マラソン作成",
     "discord": "公式Discordサーバーに参加",
-    "login": "ログイン",
+    "login": {
+      "title": "ログイン"
+    },
     "logout": "ログアウト",
     "settings": "設定",
     "translate": "翻訳の手伝い",
@@ -456,6 +459,7 @@
       },
       "title": "プロフィール変更",
       "twitch": {
+        "disabled": {},
         "error": {
           "max": "Twitchのユーザーネームが長すぎます",
           "pattern": "Twitchのユーザーネームが無効です"

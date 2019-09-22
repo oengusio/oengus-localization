@@ -58,6 +58,10 @@
       "login": {
         "error": "An error happened during authentication. Please retry or contact an administrator."
       },
+      "sync": {
+        "alreadySynced": "Error: This account is already used",
+        "error": "An error happened during account synchronization. Please retry or contact an administrator."
+      },
       "update": {
         "error": "Error during user data update",
         "success": "User data updated successfully"
@@ -424,7 +428,11 @@
     "bugtracker": "Report bugs and suggestions",
     "createMarathon": "New Marathon",
     "discord": "Join the official Discord server",
-    "login": "Log in",
+    "login": {
+      "discord": "Log in with Discord",
+      "title": "Log in",
+      "twitch": "Log in with Twitch"
+    },
     "logout": "Log out",
     "settings": "Settings",
     "translate": "Help translate the site",
@@ -462,6 +470,9 @@
       },
       "title": "Modify my profile",
       "twitch": {
+        "disabled": {
+          "help": "This field is disabled because you have synchronised your Twitch account. If your Twitch name has changed, please synchronize your Twitch account again to update it."
+        },
         "error": {
           "max": "Twitch name is too long",
           "pattern": "Twitch name is invalid"

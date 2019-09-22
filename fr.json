@@ -58,6 +58,10 @@
       "login": {
         "error": "Une erreur est survenue lors de l'authentification. Merci de réessayer ou de contacter un administrateur."
       },
+      "sync": {
+        "alreadySynced": "Erreur : ce compte est déjà utilisé",
+        "error": "Une erreur est survenue lors de la synchronisation du compte. Veuillez réessayer ou contacter un administrateur."
+      },
       "update": {
         "error": "Erreur lors de la mise à jour de l'utilisateur",
         "success": "Utilisateur mis à jour avec succès"
@@ -424,7 +428,11 @@
     "bugtracker": "Signaler un bug ou une suggestion",
     "createMarathon": "Nouveau marathon",
     "discord": "Rejoindre le serveur Discord officiel",
-    "login": "Se connecter",
+    "login": {
+      "discord": "Connexion avec Discord",
+      "title": "Connexion",
+      "twitch": "Connexion avec Twitch"
+    },
     "logout": "Se déconnecter",
     "settings": "Paramètres",
     "translate": "Aidez à la traduction du site",
@@ -462,6 +470,9 @@
       },
       "title": "Modifier mon profil",
       "twitch": {
+        "disabled": {
+          "help": "Ce champ est désactivé car vous avez synchronisé votre compte Twitch. Si votre nom de compte Twitch a changé, veuillez resynchroniser votre compte pour prendre en compte la modification."
+        },
         "error": {
           "max": "Le nom de compte Twitch est trop long",
           "pattern": "Le nom de compte Twitch est invalide"

@@ -57,6 +57,7 @@
       "login": {
         "error": "Er is een fout opgetreden tijdens de authenticatie. Probeer het opnieuw of contacteer een administrator."
       },
+      "sync": {},
       "update": {
         "error": "Fout tijdens het bijwerken van gebruikers data",
         "success": "Gebruikers data succesvol bijgewerkt"
@@ -418,7 +419,9 @@
     "bugtracker": "Meld fouten en suggesties",
     "createMarathon": "Nieuwe Marathon",
     "discord": "Word lid van de officiele Discord server",
-    "login": "Inloggen",
+    "login": {
+      "title": "Inloggen"
+    },
     "logout": "Uitloggen",
     "settings": "Instellingen",
     "translate": "Help deze website te vertalen",
@@ -456,6 +459,7 @@
       },
       "title": "Wijzig mijn profiel",
       "twitch": {
+        "disabled": {},
         "error": {
           "max": "Twitch naam is te lang",
           "pattern": "Twitch naam is ongeldig"
