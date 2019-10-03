@@ -22,6 +22,16 @@
     "submit": "Submit"
   },
   "alert": {
+    "incentives": {
+      "delete": {
+        "error": "Error during incentive deletion. Please retry or contact an administrator.",
+        "success": "Incentive deleted successfully"
+      },
+      "save": {
+        "error": "An error happened during incentives save. Please retry or contact an administrator.",
+        "success": "Incentives saved successfully."
+      }
+    },
     "marathon": {
       "creation": {
         "error": "Error during marathon creation",
@@ -112,10 +122,54 @@
       "location": "Location",
       "to": "To"
     },
+    "incentives": {
+      "management": {
+        "action": {
+          "add": "Add incentive"
+        },
+        "bidName": {
+          "error": {
+            "required": "Bid name is required"
+          }
+        },
+        "bidWar": "Bid war",
+        "currentAmount": {
+          "error": {
+            "required": "Current amount is required"
+          }
+        },
+        "donationGoal": "Donation goal",
+        "goal": {
+          "error": {
+            "required": "Donation goal is required"
+          }
+        },
+        "name": {
+          "error": {
+            "required": "Name is required"
+          }
+        },
+        "table": {
+          "actions": "Actions",
+          "currentAmount": "Current amount",
+          "description": "Description",
+          "game": "Game",
+          "goal": "Goal",
+          "incentive": "Incentive name",
+          "isBidWar": "Donation goal/Bid War",
+          "locked": "Locked",
+          "progress": "Progress"
+        },
+        "title": "Incentives management"
+      },
+      "title": "Incentives"
+    },
     "menu": {
       "admin": "Admin",
       "home": "Home",
+      "incentives": "Incentives",
       "loginToSubmit": "Login to submit runs",
+      "manageIncentives": "Manage incentives",
       "manageSchedule": "Manage schedule",
       "moderators": "Moderators",
       "overview": "Overview",
@@ -196,6 +250,18 @@
       "country": {
         "label": "Country"
       },
+      "currency": {
+        "error": {
+          "max": "Currency symbol is too long",
+          "required": "Currency symbol is required"
+        },
+        "label": "Currency symbol ($, €...)"
+      },
+      "currencyPosition": {
+        "after": "After amount",
+        "before": "Before amount",
+        "label": "Currency symbol position"
+      },
       "dangerZone": "Danger zone",
       "defaultSetupTime": {
         "error": {
@@ -226,6 +292,11 @@
         "label": "Estimated end date"
       },
       "generalTitle": "General settings",
+      "incentives": {
+        "hasIncentives": "This marathon has incentives",
+        "label": "Incentives status"
+      },
+      "incentivesTitle": "Incentives settings",
       "language": {
         "label": "Language"
       },
@@ -304,6 +375,12 @@
         "open": "Submissions are open"
       },
       "submissionsTitle": "Submissions settings",
+      "tabs": {
+        "dangerZone": "Danger zone",
+        "general": "General",
+        "incentives": "Incentives",
+        "submissions": "Submissions"
+      },
       "title": "Marathon settings",
       "twitch": {
         "error": {

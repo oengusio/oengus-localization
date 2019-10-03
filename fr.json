@@ -22,6 +22,16 @@
     "submit": "Envoyer"
   },
   "alert": {
+    "incentives": {
+      "delete": {
+        "error": "Une erreur est survenue lors de la suppression de l'incentive. Veuillez recommencer ou contacter un administrateur.",
+        "success": "L'incentive a bien été supprimé"
+      },
+      "save": {
+        "error": "Une erreur est survenue lors de la sauvegarde des incentives. Veuillez recommencer ou contacter un administrateur.",
+        "success": "Les incentives ont bien été sauvegardés."
+      }
+    },
     "marathon": {
       "creation": {
         "error": "Erreur lors de la création du marathon",
@@ -112,10 +122,54 @@
       "location": "Localisation",
       "to": "Au"
     },
+    "incentives": {
+      "management": {
+        "action": {
+          "add": "Ajouter incentive"
+        },
+        "bidName": {
+          "error": {
+            "required": "Le nom de l'enchère est requis"
+          }
+        },
+        "bidWar": "Enchères",
+        "currentAmount": {
+          "error": {
+            "required": "Le montant actuel est requis"
+          }
+        },
+        "donationGoal": "Objectif de dons",
+        "goal": {
+          "error": {
+            "required": "L'objectif de dons est requis"
+          }
+        },
+        "name": {
+          "error": {
+            "required": "Le nom est requis"
+          }
+        },
+        "table": {
+          "actions": "Actions",
+          "currentAmount": "Montant actuel",
+          "description": "Description",
+          "game": "Jeu",
+          "goal": "Objectif",
+          "incentive": "Nom de l'incentive",
+          "isBidWar": "Objectif de dons/Enchères",
+          "locked": "Bloqué",
+          "progress": "Progression"
+        },
+        "title": "Gestion des incentives"
+      },
+      "title": "Incentives"
+    },
     "menu": {
       "admin": "Administration",
       "home": "Accueil",
+      "incentives": "Incentives",
       "loginToSubmit": "Se connecter pour postuler",
+      "manageIncentives": "Gestion des incentives",
       "manageSchedule": "Gestion du planning",
       "moderators": "Modérateurs",
       "overview": "Vue d'ensemble",
@@ -196,6 +250,18 @@
       "country": {
         "label": "Pays"
       },
+      "currency": {
+        "error": {
+          "max": "Le symbole monétaire est trop long",
+          "required": "Le symbole monétaire est requis"
+        },
+        "label": "Symbole monétaire ($, €...)"
+      },
+      "currencyPosition": {
+        "after": "Après le montant",
+        "before": "Avant le montant",
+        "label": "Position du symbole monétaire"
+      },
       "dangerZone": "Zone à risques",
       "defaultSetupTime": {
         "error": {
@@ -226,6 +292,11 @@
         "label": "Date de fin estimée"
       },
       "generalTitle": "Paramètres généraux",
+      "incentives": {
+        "hasIncentives": "Ce marathon a des incentives",
+        "label": "Présence des incentives"
+      },
+      "incentivesTitle": "Paramètres d'incentives",
       "language": {
         "label": "Langue"
       },
@@ -304,6 +375,12 @@
         "open": "Candidatures ouvertes"
       },
       "submissionsTitle": "Paramètres de candidatures",
+      "tabs": {
+        "dangerZone": "Zone à risques",
+        "general": "Général",
+        "incentives": "Incentives",
+        "submissions": "Candidatures"
+      },
       "title": "Paramètres du marathon",
       "twitch": {
         "error": {
