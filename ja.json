@@ -221,6 +221,19 @@
         "error": {}
       },
       "currencyPosition": {},
+      "customFields": {
+        "action": {},
+        "label": {
+          "error": {}
+        },
+        "option": {
+          "error": {}
+        },
+        "required": {},
+        "type": {
+          "option": {}
+        }
+      },
       "dangerZone": "危険ゾーン",
       "defaultSetupTime": {
         "error": {

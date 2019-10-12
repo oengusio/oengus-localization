@@ -262,6 +262,35 @@
         "before": "Before amount",
         "label": "Currency symbol position"
       },
+      "customFields": {
+        "action": {},
+        "description1": "You can add custom fields to ask for details specific to your marathon to the runners. They can answer these fields during their submission. It is recommended not to add new fields after submissions are open, since runners who have already submitted may not answer if they don't come edit their submission.",
+        "description2": "Answers hints: simple text fields are restricted to 50 characters maximum. Text areas are restricted to 500 characters maximum.",
+        "label": {
+          "error": {
+            "required": "Label is required"
+          },
+          "title": "Label",
+          "type": "Type"
+        },
+        "option": {
+          "error": {
+            "required": "Option name is required"
+          }
+        },
+        "required": {
+          "title": "Required"
+        },
+        "title": "Custom fields",
+        "type": {
+          "option": {
+            "checkbox": "Checkbox",
+            "select": "Select",
+            "text": "Text",
+            "textArea": "Text area"
+          }
+        }
+      },
       "dangerZone": "Danger zone",
       "defaultSetupTime": {
         "error": {

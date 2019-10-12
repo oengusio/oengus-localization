@@ -262,6 +262,35 @@
         "before": "Avant le montant",
         "label": "Position du symbole monétaire"
       },
+      "customFields": {
+        "action": {},
+        "description1": "Vous pouvez rajouter des champs personnalisés pour demander des détails spécifiques à votre marathon aux runners. Ils pourront remplir ces informations lors de leur candidature. Il est recommandé de ne pas rajouter de nouveaux champs après l'ouverture des candidatures, car les runners qui ont déjà postulé ne répondront peut-être pas s'ils n'éditent pas leur candidature.",
+        "description2": "Informations concernant les réponses : les champs texte simple sont limités à 50 caractères. Les champs texte large donc limités à 500 caractères.",
+        "label": {
+          "error": {
+            "required": "Le libellé est requis"
+          },
+          "title": "Libellé",
+          "type": "Type"
+        },
+        "option": {
+          "error": {
+            "required": "Le nom de l'option est requis"
+          }
+        },
+        "required": {
+          "title": "Requis"
+        },
+        "title": "Champs personnalisés",
+        "type": {
+          "option": {
+            "checkbox": "Case à cocher",
+            "select": "Sélection",
+            "text": "Texte simple",
+            "textArea": "Texte large"
+          }
+        }
+      },
       "dangerZone": "Zone à risques",
       "defaultSetupTime": {
         "error": {
