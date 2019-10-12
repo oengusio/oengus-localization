@@ -490,12 +490,6 @@
           "label": "Video link"
         }
       },
-      "customField": {
-        "error": {
-          "required": "Field is required"
-        }
-      },
-      "details": "Details",
       "game": {
         "console": {
           "emulated": "Emulated",

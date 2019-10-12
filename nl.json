@@ -472,9 +472,6 @@
           "label": "Video link"
         }
       },
-      "customField": {
-        "error": {}
-      },
       "game": {
         "console": {
           "emulated": "Geëmuleerd",
