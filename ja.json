@@ -467,6 +467,9 @@
           "label": "動画リンク"
         }
       },
+      "customField": {
+        "error": {}
+      },
       "game": {
         "console": {
           "emulated": "エミュレーター",

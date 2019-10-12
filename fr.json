@@ -490,6 +490,12 @@
           "label": "Vidéo"
         }
       },
+      "customField": {
+        "error": {
+          "required": "Ce champ est requis"
+        }
+      },
+      "details": "Détails",
       "game": {
         "console": {
           "emulated": "Émulée",
