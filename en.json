@@ -434,20 +434,14 @@
     "submissions": {
       "table": {
         "actions": "Actions",
-        "answer": "Answer",
         "category": "Category",
         "categoryDescription": "Category description",
         "console": "Console",
         "estimate": "Estimate",
         "game": "Game",
         "gameDescription": "Game description",
-        "question": "Question",
         "runner": "Runner",
         "status": "Status"
-      },
-      "tabs": {
-        "answers": "Answers",
-        "submissions": "Submissions"
       },
       "title": "Submissions"
     },
