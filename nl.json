@@ -5,7 +5,7 @@
             "par2": "Speedrunning is het spelen van een game met het doel om het zo snel mogelijk uit te spelen, voor entertainment en/of competitieve doeleinden. Je kan hier meer over lezen hierover op <a href=\"https://nl.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedia</a>.",
             "par3": "Speedrunning marathons zijn evenementen waar speedrunners bijeenkomen om hun speedruns te laten zien aan een publiek, zowel on- als offline. De meest populaire speedrun marathon is <a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a>, een marathon die tweemaal per jaar wordt georganiseerd.",
             "par4": "Deze website is gemaakt door <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>. Een speler in de speedrun community sinds 2013, heeft hij bijgedragen aan de speedrun community op veel manieren: Global Moderator op <a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a> voor 3 jaar, maker van de  <a href=\"https://twitter.com/SpeedrunWRs\">Speedrun wereldrecord Twitter bot</a>, lid van het Franse Restream team, welke restreams doet van internationale marathons voor een frans publiek, en oprichter van Bourg la Run, de franse equivalent van Games Done Quick. Na het ophalen van al deze ervaringen, en beoordeeld te hebben dat er geen goede hulpmiddelen zijn voor het organiseren van marathons, heeft hij besloten er een te maken. En Oengus is het resultaat.",
-            "par5": "Trivia: Oengus is Keltische goddelijkheid die de leiding heeft over tijd en de eeuwigheid. Over een fittende naam voor speedrun marathons gesproken!",
+            "par5": "Trivia: Oengus is een Keltische goddelijkheid die de leiding heeft over tijd en de eeuwigheid. Over een fittende naam voor speedrun marathons gesproken!",
             "title": "Over"
         },
         "contact": {
@@ -520,7 +520,7 @@
             },
             "maxCategoriesPerGame": "Maximaal aantal categorieën per game",
             "maxGamesPerRunner": "Maximaal aantal games per runner",
-            "maxNumberOfScreens": "Maximaal antal runners per race/coop",
+            "maxNumberOfScreens": "Maximaal aantal runners per race/coop",
             "racesAllowed": "Races/Coop toegestaan",
             "submissions": "Submissions",
             "table": {
