@@ -434,14 +434,20 @@
     "submissions": {
       "table": {
         "actions": "Actions",
+        "answer": "Réponse",
         "category": "Catégorie",
         "categoryDescription": "Description de la catégorie",
         "console": "Console",
         "estimate": "Estimation",
         "game": "Jeu",
         "gameDescription": "Description du jeu",
+        "question": "Question",
         "runner": "Runner",
         "status": "Statut"
+      },
+      "tabs": {
+        "answers": "Réponses",
+        "submissions": "Candidatures"
       },
       "title": "Candidatures"
     },
