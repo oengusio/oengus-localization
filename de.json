@@ -211,7 +211,8 @@
         "time": "Zeit"
       },
       "timezone": "Alle Daten und Zeiten sind in Ihrer lokalen Zeitzone angegeben.",
-      "title": "Zeitplan"
+      "title": "Zeitplan",
+      "type": {}
     },
     "selection": {
       "action": {

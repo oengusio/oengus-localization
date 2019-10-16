@@ -208,10 +208,17 @@
         "placeholder": "Déposez une run depuis le tableau de gauche dans celui-ci. Ce texte disparaîtra automatiquement une fois qu'une run sera rajoutée au planning.",
         "runner": "Runner(s)",
         "setup": "Temps de préparation",
-        "time": "Heure"
+        "time": "Heure",
+        "type": "Type"
       },
       "timezone": "Toutes les dates et heures sont affichées dans votre fuseau horaire.",
-      "title": "Planning"
+      "title": "Planning",
+      "type": {
+        "COOP": "Run coop",
+        "COOP_RACE": "Course coop",
+        "RACE": "Course",
+        "SINGLE": "Run solo"
+      }
     },
     "selection": {
       "action": {

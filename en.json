@@ -208,10 +208,17 @@
         "placeholder": "Drop any run from the left table to this one. This text will automatically disappear as soon as one run is in the schedule.",
         "runner": "Runner(s)",
         "setup": "Setup time",
-        "time": "Time"
+        "time": "Time",
+        "type": "Type"
       },
       "timezone": "All dates and times are given in your local timezone.",
-      "title": "Schedule"
+      "title": "Schedule",
+      "type": {
+        "COOP": "Coop run",
+        "COOP_RACE": "Coop race",
+        "RACE": "Race",
+        "SINGLE": "Single run"
+      }
     },
     "selection": {
       "action": {
