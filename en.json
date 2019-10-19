@@ -22,6 +22,11 @@
     "submit": "Submit"
   },
   "alert": {
+    "game": {
+      "export": {
+        "error": "An error happened during export. Please try again or contact an administrator."
+      }
+    },
     "incentives": {
       "delete": {
         "error": "Error during incentive deletion. Please retry or contact an administrator.",
@@ -273,6 +278,7 @@
         "action": {
           "title": "Action"
         },
+        "add": "Add new custom field",
         "description1": "You can add custom fields to ask for details specific to your marathon to the runners. They can answer these fields during their submission. It is recommended not to add new fields after submissions are open, since runners who have already submitted may not answer if they don't come edit their submission.",
         "description2": "Answers hints: simple text fields are restricted to 50 characters maximum. Text areas are restricted to 500 characters maximum.",
         "label": {
@@ -439,6 +445,7 @@
       }
     },
     "submissions": {
+      "export": "Export to CSV",
       "table": {
         "actions": "Actions",
         "answer": "Answer",

@@ -22,6 +22,11 @@
     "submit": "Envoyer"
   },
   "alert": {
+    "game": {
+      "export": {
+        "error": "Une erreur est survenue lors de l'export. Veuillez recommencer ou contacter un administrateur."
+      }
+    },
     "incentives": {
       "delete": {
         "error": "Une erreur est survenue lors de la suppression de l'incentive. Veuillez recommencer ou contacter un administrateur.",
@@ -273,6 +278,7 @@
         "action": {
           "title": "Action"
         },
+        "add": "Ajouter nouveau champ personnalisé",
         "description1": "Vous pouvez rajouter des champs personnalisés pour demander des détails spécifiques à votre marathon aux runners. Ils pourront remplir ces informations lors de leur candidature. Il est recommandé de ne pas rajouter de nouveaux champs après l'ouverture des candidatures, car les runners qui ont déjà postulé ne répondront peut-être pas s'ils n'éditent pas leur candidature.",
         "description2": "Informations concernant les réponses : les champs texte simple sont limités à 50 caractères. Les champs texte large donc limités à 500 caractères.",
         "label": {
@@ -439,6 +445,7 @@
       }
     },
     "submissions": {
+      "export": "Exporter en CSV",
       "table": {
         "actions": "Actions",
         "answer": "Réponse",
