@@ -22,9 +22,6 @@
     "submit": "送信"
   },
   "alert": {
-    "game": {
-      "export": {}
-    },
     "incentives": {
       "delete": {
         "error": "インセンティブの削除に失敗しました。再度実行するか管理者に連絡してください。",
@@ -130,9 +127,6 @@
         "action": {
           "add": "インセンティブ追加"
         },
-        "bidName": {
-          "error": {}
-        },
         "currentAmount": {
           "error": {
             "required": "現在の額は必須です"
@@ -209,8 +203,7 @@
         "time": "時間"
       },
       "timezone": "日時は全てあなたのタイムゾーンで表示されています。",
-      "title": "スケジュール",
-      "type": {}
+      "title": "スケジュール"
     },
     "selection": {
       "action": {
@@ -260,19 +253,6 @@
         "after": "数字の後",
         "before": "数字の前",
         "label": "通貨記号の場所"
-      },
-      "customFields": {
-        "action": {},
-        "label": {
-          "error": {}
-        },
-        "option": {
-          "error": {}
-        },
-        "required": {},
-        "type": {
-          "option": {}
-        }
       },
       "dangerZone": "危険ゾーン",
       "defaultSetupTime": {
@@ -424,7 +404,6 @@
         "runner": "走者",
         "status": "ステータス"
       },
-      "tabs": {},
       "title": "応募"
     },
     "submit": {
@@ -472,9 +451,6 @@
           "label": "動画リンク"
         }
       },
-      "customField": {
-        "error": {}
-      },
       "game": {
         "console": {
           "emulated": "エミュレーター",
@@ -513,8 +489,7 @@
         "categories": "カテゴリー",
         "games": "ゲーム"
       },
-      "title": "ゲーム応募",
-      "tweet": {}
+      "title": "ゲーム応募"
     }
   },
   "navbar": {
