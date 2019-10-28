@@ -626,7 +626,7 @@
       },
       "username": {
         "error": {
-          "exists": "Ce pseudonyme existe déjà",
+          "exists": "Ce pseudonyme existe déjà. Veuillez en choisir un autre ou vérifier que vous n'avez pas déjà un profil synchronisé avec un autre compte externe (Twitch  ou Discord)",
           "max": "Pseudonyme trop long",
           "min": "Pseudonyme trop court",
           "pattern": "Un pseudonyme doit être composé uniquement de caractères minuscules ou majuscules, ainsi que _ ou -",

@@ -626,7 +626,7 @@
       },
       "username": {
         "error": {
-          "exists": "Username already exists",
+          "exists": "Username already exists. Please use another one or make sure you don't already have a profile synchronized with another external account (Twitch or Discord)",
           "max": "Username is too long",
           "min": "Username is too short",
           "pattern": "Username is only composed of lowercase characters, uppercase characters, _ and -",
