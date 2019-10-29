@@ -84,6 +84,9 @@
       }
     }
   },
+  "footer": {
+    "text": "<strong>Oengus</strong> by <a href=\"https://twitter.com/GyooRunsStuff\">Gyoo</a>.<br/>\nAll times are converted to your timezone. Detected timezone: {{timezone}}"
+  },
   "global": {
     "emu": "[Emu]"
   },

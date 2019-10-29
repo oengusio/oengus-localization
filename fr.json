@@ -84,6 +84,9 @@
       }
     }
   },
+  "footer": {
+    "text": "<strong>Oengus</strong> par <a href=\"https://twitter.com/GyooRunsStuff\">Gyoo</a>.<br/>\nTous les horaires sont convertis dans votre fuseau horaire. Fuseau horaire détecté : {{timezone}}"
+  },
   "global": {
     "emu": "[Emu]"
   },
