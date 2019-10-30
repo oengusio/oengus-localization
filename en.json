@@ -94,6 +94,7 @@
     "ends": "Ends {{duration}}",
     "marathons": {
       "live": "Live marathons",
+      "moderated": "Moderated marathons",
       "open": "Submissions open",
       "upcoming": "Upcoming marathons"
     },

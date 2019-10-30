@@ -94,6 +94,7 @@
     "ends": "Se termine {{duration}}",
     "marathons": {
       "live": "Marathons en cours",
+      "moderated": "Marathons modérés",
       "open": "Candidatures ouvertes",
       "upcoming": "Marathons à venir"
     },
