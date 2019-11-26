@@ -53,6 +53,9 @@
       }
     },
     "schedule": {
+      "export": {
+        "error": "Er is een fout opgetreden tijdens de export. Probeer het opnieuw of contacteer een administrator."
+      },
       "save": {
         "error": "Fout tijdens het opslaan van het schema",
         "success": "Schema succesvol opgeslagen"
@@ -195,6 +198,7 @@
       "title": "Maak een nieuwe marathon aan"
     },
     "schedule": {
+      "export": "Exporteer naar CSV bestand",
       "management": {
         "action": {
           "addRun": "Run toevoegen",

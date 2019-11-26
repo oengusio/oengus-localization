@@ -54,6 +54,9 @@
       }
     },
     "schedule": {
+      "export": {
+        "error": "Une erreur est survenue lors de l'export. Veuillez recommencer ou contacter un administrateur."
+      },
       "save": {
         "error": "Erreur lors de la sauvegarde du planning",
         "success": "Planning mis à jour avec succès"
@@ -203,6 +206,7 @@
       "title": "Créer un nouveau marathon"
     },
     "schedule": {
+      "export": "Exporter en CSV",
       "management": {
         "action": {
           "addRun": "Ajouter une run",
@@ -578,8 +582,7 @@
       "maxNumberOfScreens": "Maximum de runners par course/coop",
       "multiplayer": {
         "code": {
-          "help": "Pour rejoindre une catégorie multijoueurs, veuillez rentrer le code fourni ci-dessous",
-          "label": "Code"
+          "help": "Pour rejoindre une catégorie multijoueurs, veuillez rentrer le code fourni ci-dessous"
         },
         "title": "Catégories multijoueurs"
       },

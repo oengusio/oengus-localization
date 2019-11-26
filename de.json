@@ -53,6 +53,9 @@
       }
     },
     "schedule": {
+      "export": {
+        "error": "Beim Export ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder wenden Sie sich an einen Administrator."
+      },
       "save": {
         "error": "Fehler beim Speichern des Zeitplans",
         "success": "Zeitplan erfolgreich gespeichert"
@@ -191,6 +194,7 @@
       "title": "Erstelle einen neuen Marathon"
     },
     "schedule": {
+      "export": "In CSV exportieren",
       "management": {
         "action": {
           "addRun": "Run hinzufügen",
