@@ -206,7 +206,12 @@
       "title": "Créer un nouveau marathon"
     },
     "schedule": {
-      "export": "Exporter en CSV",
+      "export": {
+        "csv": "Exporter en CSV",
+        "json": "Exporter en JSON (Horaro)",
+        "jsonAlert": "Attention: les estimations sur Horaro incluent le temps de préparation car Horaro ne supporte pas les temps de préparation par run",
+        "title": "Exporter le planning"
+      },
       "management": {
         "action": {
           "addRun": "Ajouter une run",

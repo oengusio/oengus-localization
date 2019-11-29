@@ -184,6 +184,7 @@
       "title": "マラソンの新規作成"
     },
     "schedule": {
+      "export": {},
       "management": {
         "action": {
           "addSetupBlock": "セットアップブロックの追加",
