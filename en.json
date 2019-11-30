@@ -208,6 +208,7 @@
     "schedule": {
       "export": {
         "csv": "Export to CSV",
+        "ics": "Export to ICS",
         "json": "Export to JSON (Horaro)",
         "jsonAlert": "Warning: estimates on Horaro will include setup time because it doesn't support different setup times per run",
         "title": "Export schedule"
