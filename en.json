@@ -599,6 +599,7 @@
       },
       "racesAllowed": "Races/Coop allowed",
       "submissions": "Submissions",
+      "submitsClosed": "Submissions are now closed. You can only update your availabilities until the schedule is published.",
       "table": {
         "actions": "Actions",
         "categories": "Categories",

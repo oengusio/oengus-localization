@@ -599,6 +599,7 @@
       },
       "racesAllowed": "Courses/Coop autorisés",
       "submissions": "Candidatures",
+      "submitsClosed": "Les candidatures sont désormais fermées. Vous pouvez uniquement modifier vos disponibilités jusqu'à publication du planning.",
       "table": {
         "actions": "Actions",
         "categories": "Catégories",
