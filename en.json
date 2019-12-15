@@ -685,7 +685,8 @@
       },
       "usernameJapanese": {
         "error": {
-          "max": "Japanese username is too long."
+          "max": "Japanese username is too long.",
+          "pattern": "Japanese username is invalid"
         },
         "help": "If your username translates to japanese, use this field to display it with japanese characters. It will only be displayed if the locale is set to japanese. This field is optional.",
         "label": "Username (Japanese)"

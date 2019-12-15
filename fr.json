@@ -685,7 +685,8 @@
       },
       "usernameJapanese": {
         "error": {
-          "max": "Le nom de compte en japonais est trop long."
+          "max": "Le nom de compte en japonais est trop long.",
+          "pattern": "Le pseudonyme (japonais) est invalide"
         },
         "help": "Si votre pseudonyme se traduit en japonais, vous pouvez utiliser ce champ pour l'écrire en caractère japonais. Il ne sera affiché que si la langue du site est en japonais. Ce champ est optionnel.",
         "label": "Pseudonyme (Japonais)"
