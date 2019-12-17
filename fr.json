@@ -15,9 +15,11 @@
     }
   },
   "action": {
+    "accept": "Accepter",
     "cancel": "Annuler",
     "clearAvailabilities": "Retirer les disponibilités sélectionnées",
     "confirm": "Confirmer",
+    "decline": "Refuser",
     "join": "Rejoindre",
     "save": "Sauvegarder",
     "sendTweet": "Tweeter",
@@ -623,6 +625,7 @@
       "twitch": "Connexion avec Twitch"
     },
     "logout": "Se déconnecter",
+    "privacyConsent": "En cliquant sur Accepter, vous autorisez Oengus à utiliser des cookies à des fins d'analyses de trafic. Plus de détails dans la section À propos.",
     "settings": "Paramètres",
     "translate": "Aidez à la traduction du site",
     "twitter": "Suivez-nous sur Twitter"
