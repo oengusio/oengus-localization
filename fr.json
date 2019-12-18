@@ -507,6 +507,7 @@
       "availabilities": {
         "actions": "Actions",
         "add": "Ajouter une disponibilité",
+        "duplicate": "Dupliquer pour le jour suivant",
         "error": {
           "dateRequired": "Date requise",
           "required": "Vous devez ajouter au moins une période de disponibilité"

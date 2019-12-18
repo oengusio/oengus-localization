@@ -507,6 +507,7 @@
       "availabilities": {
         "actions": "Actions",
         "add": "Add availability",
+        "duplicate": "Duplicate for next day",
         "error": {
           "dateRequired": "Date is required",
           "required": "You must add one or more periods of availability"
