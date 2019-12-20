@@ -620,7 +620,8 @@
     "login": {
       "discord": "Log in met Discord",
       "title": "Inloggen",
-      "twitch": "Log in met Twitch"
+      "twitch": "Log in met Twitch",
+      "twitter": "Log in met Twitter"
     },
     "logout": "Uitloggen",
     "settings": "Instellingen",
@@ -634,7 +635,6 @@
         "error": {
           "noService": "Je moet op z'n minst 1 service synroniseren met je account"
         },
-        "soon": "Soon™",
         "sync": "Synchroniseer account",
         "title": "Accounts synchroniseren",
         "unsync": "Verwijder account"
@@ -668,6 +668,9 @@
         }
       },
       "twitter": {
+        "disabled": {
+          "help": "Dit veld is uitgeschakeld omdat je gesynchroniseerd hebt met je Twitter account. Als je Twitter naam veranderd is, synchroniseer dan opnieuw met je Twitter account om deze te updaten."
+        },
         "error": {
           "max": "Twitter naam is te lang",
           "pattern": "Twitter naam is ongeldig"

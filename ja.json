@@ -537,7 +537,8 @@
     "login": {
       "discord": "Discordでログイン",
       "title": "ログイン",
-      "twitch": "Twitchでログイン"
+      "twitch": "Twitchでログイン",
+      "twitter": "Twitterでログイン"
     },
     "logout": "ログアウト",
     "settings": "設定",
@@ -551,7 +552,6 @@
         "error": {
           "noService": "最低1つの連携が必要です"
         },
-        "soon": "近日公開",
         "sync": "アカウント連携",
         "title": "アカウント連携",
         "unsync": "アカウント削除"
@@ -585,6 +585,9 @@
         }
       },
       "twitter": {
+        "disabled": {
+          "help": "この項目は、Twitterアカウントが既に連携されているため無効になっています。Twitterアカウント名が変わったときには再び連携をして更新してください。"
+        },
         "error": {
           "max": "Twitterのユーザーネームが長すぎます",
           "pattern": "Twitterのユーザーネームが無効です"

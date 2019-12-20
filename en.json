@@ -621,9 +621,11 @@
     "createMarathon": "New Marathon",
     "discord": "Join the official Discord server",
     "login": {
+      "disclaimer": "Warning: if you already have a profile on Oengus, please make sure you log in with an external account already synced with your profile, otherwise a new profile will be created",
       "discord": "Log in with Discord",
       "title": "Log in",
-      "twitch": "Log in with Twitch"
+      "twitch": "Log in with Twitch",
+      "twitter": "Log in with Twitter"
     },
     "logout": "Log out",
     "privacyConsent": "By clicking on Accept, you allow Oengus to use cookies for traffic analytics purposes. Learn more about our privacy policy in the About page.",
@@ -638,7 +640,6 @@
         "error": {
           "noService": "You need to have at least one service synchronised with your account"
         },
-        "soon": "Soon™",
         "sync": "Synchronize account",
         "title": "Account synchronization",
         "unsync": "Remove account"
@@ -672,6 +673,9 @@
         }
       },
       "twitter": {
+        "disabled": {
+          "help": "This field is disabled because you have synchronised your Twitter account. If your Twitter name has changed, please synchronize your Twitter account again to update it."
+        },
         "error": {
           "max": "Twitter name is too long",
           "pattern": "Twitter name is invalid"

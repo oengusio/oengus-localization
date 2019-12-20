@@ -609,7 +609,8 @@
     "login": {
       "discord": "Mit Discord anmelden",
       "title": "Anmelden",
-      "twitch": "Mit Twitch anmelden"
+      "twitch": "Mit Twitch anmelden",
+      "twitter": "Mit Twitter anmelden"
     },
     "logout": "Abmelden",
     "settings": "Einstellungen",
@@ -623,7 +624,6 @@
         "error": {
           "noService": "Sie müssen mindestens einen Dienst mit Ihrem Konto synchronisieren"
         },
-        "soon": "Bald™",
         "sync": "Konto synchronisieren",
         "title": "Kontosynchronisierung",
         "unsync": "Account entfernen"
@@ -657,6 +657,9 @@
         }
       },
       "twitter": {
+        "disabled": {
+          "help": "Dieses Feld ist deaktiviert, weil Sie Ihr Twitter-Konto synchronisiert haben. Wenn sich IhrTwitter-Name geändert hat, synchronisieren Sie Ihr Twitter-Konto erneut, um es zu aktualisieren."
+        },
         "error": {
           "max": "Der Twitter Name ist zu lang",
           "pattern": "Der Twitter Name ist ungültig"
