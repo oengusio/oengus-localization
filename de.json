@@ -83,6 +83,7 @@
       "SAME_USER": "Du kannst dich keiner Kategorie hinzufügen, die Du erstellt hast"
     },
     "user": {
+      "deactivate": {},
       "login": {
         "error": "Während der Authentifizierung ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder wenden Sie sich an einen Administrator.",
         "usernameExists": "Der Benutzername, der an das Konto gebunden ist, mit dem Du dich anmelden möchten, ist bereits vorhanden. Stellen Sie sicher, dass Du noch kein Oengus-Profil mit einer anderen Anmeldemethode erstellt haben. Wenn Du glaubst, dass es sich um ein Fehler handelt, wende dich an einen Administrator."
@@ -628,6 +629,7 @@
         "title": "Kontosynchronisierung",
         "unsync": "Account entfernen"
       },
+      "deactivateAccount": {},
       "email": {
         "error": {
           "email": "Email ist ungültig",

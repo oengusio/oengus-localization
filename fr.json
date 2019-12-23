@@ -19,6 +19,7 @@
     "cancel": "Annuler",
     "clearAvailabilities": "Retirer les disponibilités sélectionnées",
     "confirm": "Confirmer",
+    "deactivate": "Désactiver votre compte",
     "decline": "Refuser",
     "join": "Rejoindre",
     "save": "Sauvegarder",
@@ -85,7 +86,11 @@
       "SAME_USER": "Vous ne pouvez pas vous ajouter à une catégorie que vous avez créé"
     },
     "user": {
+      "deactivate": {
+        "success": "Votre compte a bien été désactivé"
+      },
       "login": {
+        "disabledAccount": "Votre compte est désactivé. Si vous souhaitez l'utiliser à nouveau, veuillez contacter un administrateur.",
         "error": "Une erreur est survenue lors de l'authentification. Merci de réessayer ou de contacter un administrateur.",
         "usernameExists": "Le nom associé au compte avec lequel vous essayez de vous inscrire existe déjà. Veuillez vous assurer que vous n'avez pas déjà un profil Oengus synchronisé avec un autre compte externe. Si vous pensez qu'il s'agit d'un faux positif, veuillez contacter un administrateur."
       },
@@ -645,6 +650,10 @@
         "sync": "Synchroniser le compte",
         "title": "Synchronisation de comptes",
         "unsync": "Retirer le compte"
+      },
+      "deactivateAccount": {
+        "description": "Désactiver votre compte vous empêchera de pouvoir vous connecter à nouveau, et les modérateurs ne pourront plsu vous ajouter en tant que modérateur d'un marathon ou runner sur un planning. Toutes les données restent stockées, mais vos réseaux sociaux ne seront plus affichés sur les listes de candidatures ou les plannings. Si vous souhaitez utiliser votre compte à nouveau dans le futur, veuillez contacter un administrateur.",
+        "title": "Désactiver votre compte"
       },
       "email": {
         "error": {

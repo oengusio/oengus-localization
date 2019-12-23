@@ -19,6 +19,7 @@
     "cancel": "Cancel",
     "clearAvailabilities": "Clear selected availabilities",
     "confirm": "Confirm",
+    "deactivate": "Deactivate your account",
     "decline": "Decline",
     "join": "Join",
     "save": "Save",
@@ -85,7 +86,11 @@
       "SAME_USER": "You cannot add yourself to a category you have created"
     },
     "user": {
+      "deactivate": {
+        "success": "Your account has been deactivated successfully"
+      },
       "login": {
+        "disabledAccount": "Your account is disabled. If you wish to use it again, please contact an administrator.",
         "error": "An error happened during authentication. Please retry or contact an administrator.",
         "usernameExists": "The username bound to the account you try to login with already exists. Make sure you didn't already create an Oengus profile with another login method. If you think it is a false positive, please contact an administrator."
       },
@@ -645,6 +650,10 @@
         "sync": "Synchronize account",
         "title": "Account synchronization",
         "unsync": "Remove account"
+      },
+      "deactivateAccount": {
+        "description": "Deactivating your account will prevent you from logging in again, and moderators will not be able to add you as a moderator of a marathon or a runner on a schedule. All the data is kept for consistency, but your social networks will not show up anymore on schedules or submissions lists. If you wish to use your account again in the future, please contact an administrator.",
+        "title": "Deactivate your account"
       },
       "email": {
         "error": {
