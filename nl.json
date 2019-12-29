@@ -23,7 +23,8 @@
         "sendTweet": "Verstuur tweet",
         "submit": "Opslaan",
         "decline": "Afwijzen",
-        "accept": "Accepteren"
+        "accept": "Accepteren",
+        "deactivate": "Deactiveer je account"
     },
     "alert": {
         "game": {
@@ -87,7 +88,8 @@
         "user": {
             "login": {
                 "error": "Er is een fout opgetreden tijdens de authenticatie. Probeer het opnieuw of contacteer een administrator.",
-                "usernameExists": "De gebruikersnaam die aan het account vastzit waarmee je probeert in te loggen bestaat al. Check even of je niet al een Oengus profiel gecreëerd hebt met een andere login methode. Als je denkt dat dit foutief is, neem dan contact op met een administrator."
+                "usernameExists": "De gebruikersnaam die aan het account vastzit waarmee je probeert in te loggen bestaat al. Check even of je niet al een Oengus profiel gecreëerd hebt met een andere login methode. Als je denkt dat dit foutief is, neem dan contact op met een administrator.",
+                "disabledAccount": "Jouw account is uitgeschakeld. Als je deze weer wil gebruiken, contacteer een administrator."
             },
             "sync": {
                 "alreadySynced": "Foutmelding: Dit account wordt al gebruikt",
@@ -96,6 +98,9 @@
             "update": {
                 "error": "Fout tijdens het bijwerken van gebruikers data",
                 "success": "Gebruikers data succesvol bijgewerkt"
+            },
+            "deactivate": {
+                "success": "Jouw account is succesvol gedeactiveerd"
             }
         }
     },
@@ -700,6 +705,10 @@
                 },
                 "help": "Als je gebruikersnaam naar het japans te vertalen is, gebruik dit veld om het te tonen met japanse karakters. Dit zal alleen tonen als het locale naar het japans is gezet. Dit veld is optioneel.",
                 "label": "Gebruikersnaam (Japans)"
+            },
+            "deactivateAccount": {
+                "title": "Deactiveer je account",
+                "description": "Je account deactiveren zal voorkomen dat je kan inloggen, en moderators kunnen je dan niet toevoegen aan een marathon als moderator, of als een runner aan een schema. Alle data blijft bewaard voor consistentie, maar je sociale netwerken zullen niet meer verschijnen op schema's en in submissie lijsten. Als je je account in de toekomst weer wil gebruiken, contacteer een administrator."
             }
         }
     }
