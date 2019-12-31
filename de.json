@@ -24,6 +24,9 @@
     "submit": "Absenden"
   },
   "alert": {
+    "donation": {
+      "validate": {}
+    },
     "game": {
       "export": {
         "error": "Beim Export ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder wenden Sie sich an einen Administrator."
@@ -137,6 +140,34 @@
     "authInProgress": "Authentifizierung wird durchgeführt, bitte warten ..."
   },
   "marathon": {
+    "donate": {
+      "address": {
+        "error": {}
+      },
+      "amount": {
+        "error": {}
+      },
+      "city": {
+        "error": {}
+      },
+      "comment": {},
+      "country": {
+        "error": {}
+      },
+      "extra": {},
+      "firstName": {
+        "error": {}
+      },
+      "lastName": {
+        "error": {}
+      },
+      "nickname": {
+        "error": {}
+      },
+      "zipcode": {
+        "error": {}
+      }
+    },
     "help": {
       "isArchived": "Dieser Marathon ist archiviert. Es ist schreibgeschützt."
     },
@@ -291,6 +322,9 @@
         },
         "label": "Währungssymbol ($, € ...)"
       },
+      "currencyIso": {
+        "error": {}
+      },
       "currencyPosition": {
         "after": "Nach Summe",
         "before": "Vor Summe",
@@ -351,6 +385,7 @@
         "label": "Discord Privatsphäre",
         "private": "Discord ist Privat"
       },
+      "donations": {},
       "endDate": {
         "error": {
           "required": "Voraussichtliches Enddatum ist erforderlich"
@@ -413,6 +448,9 @@
         },
         "label": "Name"
       },
+      "payee": {
+        "error": {}
+      },
       "privacy": {
         "help": "Private Marathons funktionieren wie alle anderen, mit der Ausnahme, dass sie nicht auf der Hauptseite angezeigt werden. Sie können nur über die URL darauf zugreifen.",
         "label": "Marathon Privatsphäre",
@@ -441,6 +479,9 @@
         "open": "Submissions sind geöffnet"
       },
       "submissionsTitle": "Submissions Einstellungen",
+      "supportedCharity": {
+        "error": {}
+      },
       "tabs": {
         "dangerZone": "Gefahrenzone",
         "general": "Allgemein",

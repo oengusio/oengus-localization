@@ -22,6 +22,9 @@
     "submit": "送信"
   },
   "alert": {
+    "donation": {
+      "validate": {}
+    },
     "game": {
       "export": {}
     },
@@ -120,6 +123,34 @@
     "authInProgress": "認証中です..."
   },
   "marathon": {
+    "donate": {
+      "address": {
+        "error": {}
+      },
+      "amount": {
+        "error": {}
+      },
+      "city": {
+        "error": {}
+      },
+      "comment": {},
+      "country": {
+        "error": {}
+      },
+      "extra": {},
+      "firstName": {
+        "error": {}
+      },
+      "lastName": {
+        "error": {}
+      },
+      "nickname": {
+        "error": {}
+      },
+      "zipcode": {
+        "error": {}
+      }
+    },
     "help": {
       "isArchived": "このマラソン読み取り専用モードです。"
     },
@@ -261,6 +292,9 @@
         },
         "label": "通貨記号 ($, €...)"
       },
+      "currencyIso": {
+        "error": {}
+      },
       "currencyPosition": {
         "after": "数字の後",
         "before": "数字の前",
@@ -302,6 +336,7 @@
         "label": "Discordプライベート設定",
         "private": "Discordはプライベートです"
       },
+      "donations": {},
       "endDate": {
         "error": {
           "required": "予定終了日時は必須です"
@@ -364,6 +399,9 @@
         },
         "label": "名前"
       },
+      "payee": {
+        "error": {}
+      },
       "privacy": {
         "help": "非公開マラソンはトップページに表示されません。URLでのみアクセスできます。",
         "label": "マラソン公開設定",
@@ -392,6 +430,9 @@
         "open": "募集中です"
       },
       "submissionsTitle": "募集設定",
+      "supportedCharity": {
+        "error": {}
+      },
       "tabs": {
         "dangerZone": "危険ゾーン",
         "general": "一般",

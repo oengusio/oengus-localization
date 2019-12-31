@@ -27,6 +27,11 @@
     "submit": "Submit"
   },
   "alert": {
+    "donation": {
+      "validate": {
+        "success": "Your donation has been successfully sent. Thank you for donating!"
+      }
+    },
     "game": {
       "export": {
         "error": "An error happened during export. Please try again or contact an administrator."
@@ -148,6 +153,68 @@
     "authInProgress": "Authentication in progress, please wait..."
   },
   "marathon": {
+    "donate": {
+      "address": {
+        "error": {
+          "max": "Address is too long"
+        },
+        "label": "Address"
+      },
+      "amount": {
+        "error": {
+          "minNumber": "Donation amount must be superior to zero",
+          "required": "Donation amount is required"
+        },
+        "label": "Donation amount"
+      },
+      "city": {
+        "error": {
+          "max": "City name is too long"
+        },
+        "label": "City"
+      },
+      "comment": {
+        "label": "Comment"
+      },
+      "country": {
+        "error": {
+          "max": "Country name is too long"
+        },
+        "label": "Country"
+      },
+      "description": "Donations are supporting {{supportedCharity}}",
+      "extra": {
+        "description": "The following fields are not required. They are necessary in case donating for this event opens for tax reduction. The data is not displayed publicly anywhere, and is deleted one month after the end of the event.",
+        "title": "Extra information"
+      },
+      "firstName": {
+        "error": {
+          "max": "First name is too long"
+        },
+        "label": "First name"
+      },
+      "lastName": {
+        "error": {
+          "max": "Last name is too long"
+        },
+        "label": "Last name"
+      },
+      "nickname": {
+        "error": {
+          "max": "Nickname is too long",
+          "pattern": "Nickname is only composed of lowercase characters, uppercase characters, _ and -",
+          "required": "Nickname is required"
+        },
+        "label": "Nickname"
+      },
+      "title": "Donate",
+      "zipcode": {
+        "error": {
+          "max": "Zipcode is too lon"
+        },
+        "label": "Zip code"
+      }
+    },
     "help": {
       "isArchived": "This marathon is archived. It is in read-only mode."
     },
@@ -308,6 +375,14 @@
         },
         "label": "Currency symbol ($, €...)"
       },
+      "currencyIso": {
+        "error": {
+          "max": "Currency code is too long",
+          "required": "Currency code is required"
+        },
+        "help": "Currency code must be in ISO-4217 format for Paypal",
+        "label": "Currency code"
+      },
       "currencyPosition": {
         "after": "After amount",
         "before": "Before amount",
@@ -367,6 +442,10 @@
         "help": "If Discord is set to private, the invite link will not be displayed in the homepage, but only in the emails selected runners will get.",
         "label": "Discord privacy",
         "private": "Discord is private"
+      },
+      "donations": {
+        "hasDonations": "This is a charity event",
+        "label": "Donations suppor"
       },
       "endDate": {
         "error": {
@@ -430,6 +509,9 @@
         },
         "label": "Name"
       },
+      "payee": {
+        "error": {}
+      },
       "privacy": {
         "help": "Private marathons work just like any other, except they are not displayed on the main page. You can only access them by URL.",
         "label": "Marathon privacy",
@@ -458,6 +540,13 @@
         "open": "Submissions are open"
       },
       "submissionsTitle": "Submissions settings",
+      "supportedCharity": {
+        "error": {
+          "max": "Supported charity name is too long",
+          "required": "Supported charity name is required"
+        },
+        "label": "Supported charity"
+      },
       "tabs": {
         "dangerZone": "Danger zone",
         "general": "General",

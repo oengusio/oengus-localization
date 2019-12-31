@@ -27,6 +27,11 @@
     "submit": "Envoyer"
   },
   "alert": {
+    "donation": {
+      "validate": {
+        "success": "Votre don a été envoyé avec succès. Merci pour votre don !"
+      }
+    },
     "game": {
       "export": {
         "error": "Une erreur est survenue lors de l'export. Veuillez recommencer ou contacter un administrateur."
@@ -148,6 +153,67 @@
     "authInProgress": "Authentification en cours, veuillez patienter..."
   },
   "marathon": {
+    "donate": {
+      "address": {
+        "error": {
+          "max": "L'adresse est trop longue"
+        },
+        "label": "Adresse"
+      },
+      "amount": {
+        "error": {
+          "minNumber": "Le montant du don doit être supérieur à zéro",
+          "required": "Le montant du don est requis"
+        },
+        "label": "Montant du don"
+      },
+      "city": {
+        "error": {
+          "max": "Le nom de la ville est trop long"
+        },
+        "label": "Ville"
+      },
+      "comment": {
+        "label": "Commentaire"
+      },
+      "country": {
+        "error": {
+          "max": "Le nom du pays est trop long"
+        }
+      },
+      "description": "Les dons vont en soutien à {{supportedCharity}}",
+      "extra": {
+        "description": "Les informations suivantes ne sont pas requises. Elles sont nécessaires dans le cas où les dons sont déductibles d'impôts. Ces informations ne sont pas affichées publiquement et seront supprimées un mois après la fin de l'événement.",
+        "title": "Informations supplémentaires"
+      },
+      "firstName": {
+        "error": {
+          "max": "Le prénom est trop long"
+        },
+        "label": "Prénom"
+      },
+      "lastName": {
+        "error": {
+          "max": "Le nom est trop long"
+        },
+        "label": "Nom"
+      },
+      "nickname": {
+        "error": {
+          "max": "Le pseudonyme est trop long",
+          "pattern": "Un pseudonyme doit être composé uniquement de caractères minuscules ou majuscules, ainsi que _ ou -",
+          "required": "Le pseudonyme est requis"
+        },
+        "label": "Pseudonyme"
+      },
+      "title": "Faire un don",
+      "zipcode": {
+        "error": {
+          "max": "Le code postal est trop long"
+        },
+        "label": "Code postal"
+      }
+    },
     "help": {
       "isArchived": "Ce marathon est archivé. Il est en lecture seule."
     },
@@ -308,6 +374,14 @@
         },
         "label": "Symbole monétaire ($, €...)"
       },
+      "currencyIso": {
+        "error": {
+          "max": "Le code de devise est trop long",
+          "required": "Le code de devise est requis"
+        },
+        "help": "Le code de devise doit être au format ISO-4217 pour Paypal",
+        "label": "Code de devise"
+      },
       "currencyPosition": {
         "after": "Après le montant",
         "before": "Avant le montant",
@@ -367,6 +441,10 @@
         "help": "Si Discord est en mode privé, le lien d'invitation ne sera pas affiché sur la page d'accueil, mais uniquement dans les mails que les runners sélectionnés recevront.",
         "label": "Confidentialité du serveur Discord",
         "private": "Discord est privé"
+      },
+      "donations": {
+        "hasDonations": "C'est un événement caritatif",
+        "label": "Support des dons"
       },
       "endDate": {
         "error": {
@@ -430,6 +508,9 @@
         },
         "label": "Nom"
       },
+      "payee": {
+        "error": {}
+      },
       "privacy": {
         "help": "Les marathons privés fonctionnent comme n'importe quel autre marathon, mais ne sont pas affichés sur la page d'accueil. Vous ne pouvez y accéder qu'avec le lien direct.",
         "label": "Confidentialité du marathon",
@@ -458,6 +539,13 @@
         "open": "Candidatures ouvertes"
       },
       "submissionsTitle": "Paramètres de candidatures",
+      "supportedCharity": {
+        "error": {
+          "max": "Le nom de l'organisme soutenu est trop long",
+          "required": "Le nom de l'organisme soutenu est requis"
+        },
+        "label": "Organisme soutenu"
+      },
       "tabs": {
         "dangerZone": "Zone à risques",
         "general": "Général",
