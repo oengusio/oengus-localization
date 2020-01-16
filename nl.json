@@ -179,6 +179,9 @@
         "error": {}
       }
     },
+    "donations": {
+      "table": {}
+    },
     "help": {
       "isArchived": "Deze marathon is gearchiveerd. Deze is in alleen-lezen modus."
     },
@@ -474,6 +477,7 @@
         "private": "Privé",
         "public": "Publiekelijk"
       },
+      "sandbox": {},
       "shortname": {
         "error": {
           "exists": "Marathon shortname bestaat al",

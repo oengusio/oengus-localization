@@ -151,6 +151,9 @@
         "error": {}
       }
     },
+    "donations": {
+      "table": {}
+    },
     "help": {
       "isArchived": "このマラソン読み取り専用モードです。"
     },
@@ -408,6 +411,7 @@
         "private": "非公開",
         "public": "公開"
       },
+      "sandbox": {},
       "shortname": {
         "error": {
           "exists": "マラソンの略称は既にあります",

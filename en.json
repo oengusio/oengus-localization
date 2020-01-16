@@ -215,6 +215,15 @@
         "label": "Zip code"
       }
     },
+    "donations": {
+      "table": {
+        "amount": "Amount",
+        "comment": "Comment",
+        "date": "Date",
+        "name": "Name"
+      },
+      "title": "Donations"
+    },
     "help": {
       "isArchived": "This marathon is archived. It is in read-only mode."
     },
@@ -268,6 +277,8 @@
     },
     "menu": {
       "admin": "Admin",
+      "donate": "Donate",
+      "donations": "Donations",
       "home": "Home",
       "incentives": "Incentives",
       "loginToSubmit": "Login to submit runs",
@@ -445,7 +456,7 @@
       },
       "donations": {
         "hasDonations": "This is a charity event",
-        "label": "Donations suppor"
+        "label": "Donations support"
       },
       "endDate": {
         "error": {
@@ -510,13 +521,21 @@
         "label": "Name"
       },
       "payee": {
-        "error": {}
+        "error": {
+          "email": "Payee must be an email address",
+          "max": "Payee is too long",
+          "required": "Payee is required"
+        },
+        "label": "Payee"
       },
       "privacy": {
         "help": "Private marathons work just like any other, except they are not displayed on the main page. You can only access them by URL.",
         "label": "Marathon privacy",
         "private": "Private",
         "public": "Public"
+      },
+      "sandbox": {
+        "warning": "Caution: Oengus.sandbox is communicating with Paypal's sandbox environment. You need to use a Paypal sandbox email address as the payee for (fake) donations to work."
       },
       "shortname": {
         "error": {

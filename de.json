@@ -168,6 +168,9 @@
         "error": {}
       }
     },
+    "donations": {
+      "table": {}
+    },
     "help": {
       "isArchived": "Dieser Marathon ist archiviert. Es ist schreibgeschützt."
     },
@@ -457,6 +460,7 @@
         "private": "Privat",
         "public": "Öffentlich"
       },
+      "sandbox": {},
       "shortname": {
         "error": {
           "exists": "Marathon Kurzname existiert bereits",
