@@ -216,13 +216,17 @@
       }
     },
     "donations": {
+      "average": "Average donation",
+      "count": "Number of donations",
+      "max": "Max donation",
       "table": {
         "amount": "Amount",
         "comment": "Comment",
         "date": "Date",
         "name": "Name"
       },
-      "title": "Donations"
+      "title": "Donations",
+      "total": "Donation total"
     },
     "help": {
       "isArchived": "This marathon is archived. It is in read-only mode."
@@ -379,13 +383,6 @@
       "country": {
         "label": "Country"
       },
-      "currency": {
-        "error": {
-          "max": "Currency symbol is too long",
-          "required": "Currency symbol is required"
-        },
-        "label": "Currency symbol ($, €...)"
-      },
       "currencyIso": {
         "error": {
           "max": "Currency code is too long",
@@ -393,11 +390,6 @@
         },
         "help": "Currency code must be in ISO-4217 format for Paypal",
         "label": "Currency code"
-      },
-      "currencyPosition": {
-        "after": "After amount",
-        "before": "Before amount",
-        "label": "Currency symbol position"
       },
       "customFields": {
         "action": {

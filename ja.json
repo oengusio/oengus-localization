@@ -288,20 +288,8 @@
       "country": {
         "label": "国"
       },
-      "currency": {
-        "error": {
-          "max": "通貨記号が長すぎます",
-          "required": "通貨記号は必須です"
-        },
-        "label": "通貨記号 ($, €...)"
-      },
       "currencyIso": {
         "error": {}
-      },
-      "currencyPosition": {
-        "after": "数字の後",
-        "before": "数字の前",
-        "label": "通貨記号の場所"
       },
       "customFields": {
         "action": {},

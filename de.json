@@ -318,20 +318,8 @@
       "country": {
         "label": "Land"
       },
-      "currency": {
-        "error": {
-          "max": "Währungssymbol ist zu lang",
-          "required": "Währungssymbol ist erforderlich"
-        },
-        "label": "Währungssymbol ($, € ...)"
-      },
       "currencyIso": {
         "error": {}
-      },
-      "currencyPosition": {
-        "after": "Nach Summe",
-        "before": "Vor Summe",
-        "label": "Währungssymbol Position"
       },
       "customFields": {
         "action": {

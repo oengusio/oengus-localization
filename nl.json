@@ -335,20 +335,8 @@
       "country": {
         "label": "Land"
       },
-      "currency": {
-        "error": {
-          "max": "Valuta symbool is te lang",
-          "required": "Valuta symbool is vereist"
-        },
-        "label": "Valuta symbool ($, €...)"
-      },
       "currencyIso": {
         "error": {}
-      },
-      "currencyPosition": {
-        "after": "Na bedrag",
-        "before": "Voor bedrag",
-        "label": "Valuta symbool positie"
       },
       "customFields": {
         "action": {
