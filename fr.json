@@ -136,6 +136,7 @@
       "4": "Synchronisation avec Twitter/Twitch/Google",
       "5": "Intégration Discord",
       "6": "Notifications par mail",
+      "7": "Gestion des dons via Paypal",
       "title": "Fonctionnalités prévues"
     },
     "starts": "Débute {{duration}}",
@@ -294,6 +295,7 @@
       "selectRuns": "Sélectionner runs",
       "settings": "Paramètres",
       "submitRuns": "Postuler",
+      "tracker": "Tracker",
       "viewSubmissions": "Voir les candidatures"
     },
     "new": {

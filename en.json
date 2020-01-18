@@ -136,6 +136,7 @@
       "4": "Accounts sync to connect with Twitter/Twitch/Google",
       "5": "Discord integration",
       "6": "Mail notifications",
+      "7": "Donations management through Paypal",
       "title": "Planned features"
     },
     "starts": "Starts {{duration}}",
@@ -294,6 +295,7 @@
       "selectRuns": "Select runs",
       "settings": "Settings",
       "submitRuns": "Submit runs",
+      "tracker": "Tracker",
       "viewSubmissions": "View submissions"
     },
     "new": {

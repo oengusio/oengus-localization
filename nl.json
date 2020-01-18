@@ -1,815 +1,815 @@
 {
-    "aboutPage": {
-        "about": {
-            "par1": "Oengus is een website die hulpmiddelen beschikbaar stelt voor het organiseren van speedrun marathons.",
-            "par2": "Speedrunning is het spelen van een game met het doel om het zo snel mogelijk uit te spelen, voor amuserende en/of competitieve doeleinden. Je kan hier meer over lezen hierover op <a href=\"https://nl.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedia</a>.",
-            "par3": "Speedrunning marathons zijn evenementen waar speedrunners bijeenkomen om hun speedruns te laten zien aan een publiek, zowel on- als offline. De meest populaire speedrun marathon is <a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a>, een marathon die tweemaal per jaar wordt georganiseerd.",
-            "par4": "Deze website is gemaakt door <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>. Een speler in de speedrun community sinds 2013, heeft hij bijgedragen aan de speedrun community op veel manieren: Global Moderator op <a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a> voor 3 jaar, maker van de  <a href=\"https://twitter.com/SpeedrunWRs\">Speedrun wereldrecord Twitter bot</a>, lid van het Franse Restream team, welke restreams doet van internationale marathons voor een frans publiek, en oprichter van Bourg la Run, de franse equivalent van Games Done Quick. Na het ophalen van al deze ervaringen, en beoordeeld te hebben dat er geen goede hulpmiddelen zijn voor het organiseren van marathons, heeft hij besloten er een te maken. En Oengus is het resultaat.",
-            "par5": "Trivia: Oengus is een Keltische goddelijkheid die de leiding heeft over tijd en de eeuwigheid. Over een fittende naam voor speedrun marathons gesproken!",
-            "title": "Over ons"
-        },
-        "contact": {
-            "par1": "Heb je een bug gevonden? Heb je vragen over de website? Join onze <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">Discord server</a>",
-            "par2": "Voor zakelijke en PR vragen, schrijf een email naar contact@oengus.io",
-            "title": "Contact"
-        }
+  "aboutPage": {
+    "about": {
+      "par1": "Oengus is een website die hulpmiddelen beschikbaar stelt voor het organiseren van speedrun marathons.",
+      "par2": "Speedrunning is het spelen van een game met het doel om het zo snel mogelijk uit te spelen, voor amuserende en/of competitieve doeleinden. Je kan hier meer over lezen hierover op <a href=\"https://nl.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedia</a>.",
+      "par3": "Speedrunning marathons zijn evenementen waar speedrunners bijeenkomen om hun speedruns te laten zien aan een publiek, zowel on- als offline. De meest populaire speedrun marathon is <a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a>, een marathon die tweemaal per jaar wordt georganiseerd.",
+      "par4": "Deze website is gemaakt door <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>. Een speler in de speedrun community sinds 2013, heeft hij bijgedragen aan de speedrun community op veel manieren: Global Moderator op <a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a> voor 3 jaar, maker van de  <a href=\"https://twitter.com/SpeedrunWRs\">Speedrun wereldrecord Twitter bot</a>, lid van het Franse Restream team, welke restreams doet van internationale marathons voor een frans publiek, en oprichter van Bourg la Run, de franse equivalent van Games Done Quick. Na het ophalen van al deze ervaringen, en beoordeeld te hebben dat er geen goede hulpmiddelen zijn voor het organiseren van marathons, heeft hij besloten er een te maken. En Oengus is het resultaat.",
+      "par5": "Trivia: Oengus is een Keltische goddelijkheid die de leiding heeft over tijd en de eeuwigheid. Over een fittende naam voor speedrun marathons gesproken!",
+      "title": "Over ons"
     },
-    "action": {
-        "accept": "Accepteren",
-        "cancel": "Annuleren",
-        "clearAvailabilities": "Reset beschikbaarheids overzicht",
-        "confirm": "Bevestigen",
-        "deactivate": "Deactiveer je account",
-        "decline": "Afwijzen",
-        "join": "Deelnemen",
-        "save": "Opslaan",
-        "sendTweet": "Verstuur tweet",
-        "submit": "Opslaan"
+    "contact": {
+      "par1": "Heb je een bug gevonden? Heb je vragen over de website? Join onze <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">Discord server</a>",
+      "par2": "Voor zakelijke en PR vragen, schrijf een email naar contact@oengus.io",
+      "title": "Contact"
+    }
+  },
+  "action": {
+    "accept": "Accepteren",
+    "cancel": "Annuleren",
+    "clearAvailabilities": "Reset beschikbaarheids overzicht",
+    "confirm": "Bevestigen",
+    "deactivate": "Deactiveer je account",
+    "decline": "Afwijzen",
+    "join": "Deelnemen",
+    "save": "Opslaan",
+    "sendTweet": "Verstuur tweet",
+    "submit": "Opslaan"
+  },
+  "alert": {
+    "donation": {
+      "validate": {
+        "success": "Jouw donatie is succesvol verstuurd. Veel dank voor het doneren!"
+      }
     },
-    "alert": {
-        "game": {
-            "export": {
-                "error": "Er is een fout opgetreden tijdens de export. Probeer het opnieuw of contacteer een administrator."
-            }
-        },
-        "incentives": {
-            "delete": {
-                "error": "Er is een fout opgetreden tijdens het verwijderen van een donatie-incentive. Probeer het opnieuw of neem contact op met een administrator.",
-                "success": "Donatie-incentive succesvol verwijdert"
-            },
-            "save": {
-                "error": "Er heeft zich een fout opgetreden tijdens het opslaan van een donatie-incentive. Probeer het opnieuw of neem contact op met een administrator.",
-                "success": "Donatie-incentive succesvol opgeslagen."
-            }
-        },
-        "marathon": {
-            "creation": {
-                "error": "Fout tijdens het maken van de marathon",
-                "success": "Marathon succesvol aangemaakt"
-            },
-            "deletion": {
-                "error": "Fout tijdens het verwijderen van de marathon",
-                "success": "Marathon succesvol verwijdert"
-            },
-            "update": {
-                "error": "Fout tijdens het bijwerken van de marathon",
-                "success": "Marathon succesvol bijgewerkt"
-            }
-        },
-        "schedule": {
-            "export": {
-                "error": "Er is een fout opgetreden tijdens de export. Probeer het opnieuw of contacteer een administrator."
-            },
-            "save": {
-                "error": "Fout tijdens het opslaan van het schema",
-                "success": "Schema succesvol opgeslagen"
-            }
-        },
-        "selection": {
-            "save": {
-                "error": "Fout tijdens het opslaan van deze selectie",
-                "success": "Selectie succesvol opgeslagen"
-            }
-        },
-        "submission": {
-            "save": {
-                "error": "Fout tijdens het opgeven van je submission",
-                "success": "Submission succesvol verzonden"
-            }
-        },
-        "submit": {
-            "ALREADY_IN_OPPONENTS": "Jij maakt al deel uit van deze categorie",
-            "CODE_NOT_FOUND": "Deze code bestaat niet",
-            "DIFFERENT_MARATHON": "Deze code is voor een andere marathon",
-            "MAX_SIZE_REACHED": "Deze submissie heeft al het maximum aantal runners bereikt",
-            "NOT_MULTIPLAYER": "Dit is geen multiplayer categorie",
-            "SAME_USER": "Je kan jezelf niet toevoegen aan een categorie die je zelf hebt gemaakt"
-        },
-        "user": {
-            "deactivate": {
-                "success": "Jouw account is succesvol gedeactiveerd"
-            },
-            "login": {
-                "disabledAccount": "Jouw account is uitgeschakeld. Als je deze weer wil gebruiken, contacteer een administrator.",
-                "error": "Er is een fout opgetreden tijdens de authenticatie. Probeer het opnieuw of contacteer een administrator.",
-                "usernameExists": "De gebruikersnaam die aan het account vastzit waarmee je probeert in te loggen bestaat al. Check even of je niet al een Oengus profiel gecreëerd hebt met een andere login methode. Als je denkt dat dit foutief is, neem dan contact op met een administrator."
-            },
-            "sync": {
-                "alreadySynced": "Foutmelding: Dit account wordt al gebruikt",
-                "error": "Er is een fout opgetreden gedurende account synchronisatie. Probeer het opnieuw of contacteer een administrator."
-            },
-            "update": {
-                "error": "Fout tijdens het bijwerken van gebruikers data",
-                "success": "Gebruikers data succesvol bijgewerkt"
-            }
-        },
-        "donation": {
-            "validate": {
-                "success": "Jouw donatie is succesvol verstuurd. Veel dank voor het doneren!"
-            }
-        }
+    "game": {
+      "export": {
+        "error": "Er is een fout opgetreden tijdens de export. Probeer het opnieuw of contacteer een administrator."
+      }
     },
-    "calendar": {
-        "help": "Je gaat naar de event-pagina als je op een evenement drukt",
-        "title": "Marathon kalender"
-    },
-    "footer": {
-        "donate": "Als je Oengus te gek vindt, overweeg om  <a href=\"{{donationLink}}\" target=\"_blank\">te doneren</a>",
-        "text": "<strong>Oengus</strong> door <a href=\"https://twitter.com/GyooRunsStuff\">Gyoo</a>.<br/>\nAlle tijden zijn omgerekend naar jouw tijdzone. Gedetecteerde tijdzone: {{timezone}}"
-    },
-    "global": {
-        "emu": "[Emu]"
-    },
-    "homepage": {
-        "ends": "Eindigt op {{duration}}",
-        "marathons": {
-            "calendar": "Volledige kalender",
-            "live": "Live marathons",
-            "moderated": "Gemodereerde marathons",
-            "open": "Open submissions",
-            "upcoming": "Aankomende marathons"
-        },
-        "plannedFeatures": {
-            "1": "Coop/races submissions",
-            "2": "Meerdere runs selectie systeem (direct kiezen, stemmen...)",
-            "3": "Gemakkelijk schema systeem met runners' beschikbaarheid-visualisatie",
-            "4": "Accounts sync voor verbinding met Twitter/Twitch/Google",
-            "5": "Discord integratie",
-            "6": "Mail notificaties",
-            "title": "Geplande functies"
-        },
-        "starts": "Start {{duration}}",
-        "welcomeText": {
-            "par1": "Oengus is een <b>gratis</b> hulpmiddel om je speedrunning marathons te beheren, van de submissions tot het schema.",
-            "par3": "Om toegang te hebben tot alle functies, log in met de volgende link. Je zal nieuwe marathons kunnen aanmaken en submitten naar bestaande marathons:",
-            "par4": {
-                "prod": "Als je deze applicatie wil testen voor je een applicatie aanmaakt, ga dan naar de <a href=\"https://sandbox.oengus.io\">sandbox omgeving</a>. Deze is beschikbaar voor alle testing en ontwikkelingsdoeleinden.",
-                "sandbox": "<b>Je bent in de sandbox omgeving, deze is beschikbaar voor testen en ontwikkelingsdoeleinden. Als je een daadwerkelijke marathon wil aanmaken, ga alstublieft naar de <a href=\"https://oengus.io\">hoofd website</a>.</b>"
-            }
-        },
-        "welcomeTitle": "Welkom bij Oengus!"
-    },
-    "login": {
-        "authInProgress": "Bezig met authenticeren, even geduld alstublieft..."
+    "incentives": {
+      "delete": {
+        "error": "Er is een fout opgetreden tijdens het verwijderen van een donatie-incentive. Probeer het opnieuw of neem contact op met een administrator.",
+        "success": "Donatie-incentive succesvol verwijdert"
+      },
+      "save": {
+        "error": "Er heeft zich een fout opgetreden tijdens het opslaan van een donatie-incentive. Probeer het opnieuw of neem contact op met een administrator.",
+        "success": "Donatie-incentive succesvol opgeslagen."
+      }
     },
     "marathon": {
-        "help": {
-            "isArchived": "Deze marathon is gearchiveerd. Deze is in alleen-lezen modus."
-        },
-        "home": {
-            "from": "Van",
-            "language": "Taal",
-            "location": "Locatie",
-            "to": "Tot"
-        },
-        "incentives": {
-            "management": {
-                "action": {
-                    "add": "Voeg donatie-incentive toe"
-                },
-                "bidName": {
-                    "error": {
-                        "required": "Bod naam is benodigd"
-                    }
-                },
-                "bidWar": "Bied-strijd",
-                "currentAmount": {
-                    "error": {
-                        "required": "Huidig bedrag is verplicht"
-                    }
-                },
-                "donationGoal": "Donatie doel",
-                "goal": {
-                    "error": {
-                        "required": "Donatie doel is verplicht"
-                    }
-                },
-                "name": {
-                    "error": {
-                        "required": "Naam is vereist"
-                    }
-                },
-                "table": {
-                    "actions": "Acties",
-                    "currentAmount": "Huidig bedrag",
-                    "description": "Beschrijving",
-                    "game": "Game",
-                    "goal": "Doel",
-                    "incentive": "Donatie-incentive naam",
-                    "isBidWar": "Donatie doel/bied strijd",
-                    "locked": "Gesloten",
-                    "progress": "Voortgang"
-                },
-                "title": "Donatie-incentive beheer"
-            },
-            "title": "Donatie-incentives"
-        },
-        "menu": {
-            "admin": "Administrator",
-            "home": "Home",
-            "incentives": "Donatie-incentives",
-            "loginToSubmit": "Log in om runs te submitten",
-            "manageIncentives": "Beheer donation-incentives",
-            "manageSchedule": "Schema beheer",
-            "moderators": "Moderators",
-            "overview": "Overzicht",
-            "schedule": "Schema",
-            "selectRuns": "Runs selecteren",
-            "settings": "Instellingen",
-            "submitRuns": "Submit runs",
-            "viewSubmissions": "Submissions bekijken",
-            "donations": "Donaties",
-            "donate": "Doneer"
-        },
-        "new": {
-            "description": "De volgende informatie is verplicht om een marathon aan te maken. Na dit proces kan je meer details aanpassen.",
-            "title": "Maak een nieuwe marathon aan"
-        },
-        "schedule": {
-            "export": {
-                "csv": "Exporteer naar CSV",
-                "ics": "Exporteer naar ICS",
-                "json": "Exporteer nar JSON (Horaro)",
-                "jsonAlert": "Waarschuwing: Estimates op Horaro zullen setup tijd erbij toegevoegd hebben omdat horaro geen verschillende setup tijden per run accepteren",
-                "title": "Exporteer schema"
-            },
-            "management": {
-                "action": {
-                    "addRun": "Run toevoegen",
-                    "addSetupBlock": "Voeg setup block toe",
-                    "alreadyPublished": "Schema is al gepubliceerd",
-                    "publish": "Schema publiceren"
-                },
-                "help": {
-                    "dragAndDrop": "Je kan de pijltjes op elke regel gebruiken om een run aan het schema toe te voegen of te verwijderen. Je kan elke regel slepen door de 3 lijntjes te gebruiken",
-                    "save": "Druk op \"Opslaan\" om een concept op te slaan of om het gepubliceerde schema bij te werken. Druk op \"schema publiceren\" om het schema live te publiceren. Waarschuwing: Wanneer het schema is gepubliceerd, zal de eind-datum automatisch herberekend worden bij elke schema update."
-                },
-                "schedule": "Schema",
-                "selectedRuns": "Geselecteerde runs",
-                "title": "Schema beheer"
-            },
-            "setupBlock": "Setup block",
-            "table": {
-                "actions": "Acties",
-                "category": "Categorie",
-                "console": "Console",
-                "estimate": "Geschatte lengte",
-                "game": "Game",
-                "placeholder": "Sleep een willekeurige run van de linker-tabel naar deze. Deze tekst zal autonmatisch verdwijnen als 1 run in het schema is gesleept.",
-                "runner": "Runner(s)",
-                "setup": "Setup tijd",
-                "time": "Tijd",
-                "type": "Type"
-            },
-            "timezone": "Alle tijden staan in jouw lokale tijdzone.",
-            "title": "Schema",
-            "type": {
-                "COOP": "Coop run",
-                "COOP_RACE": "Coop race",
-                "OTHER": "Overig",
-                "RACE": "Race",
-                "SINGLE": "Solo run"
-            }
-        },
-        "selection": {
-            "action": {
-                "publish": "Selectie publiceren"
-            },
-            "availabilities": {
-                "help": "Druk op het kalendar icoontje naast de runners om hun beschikbaarheid te tonen of te verbergen."
-            },
-            "publish": {
-                "help": "Klik op \"Opslaan\" om je huidige selectie op te slaan. Je kan je selectie alleen publiceren als alle runs een status anders dan  \"nog te doen\" hebben. Het opslaan of publiceren van een selectie kan even duren. Dit hangt af van het aantal runs. Waarschuwing: selecties publiceren zal automatisch de submissions sluiten. Wanneer de selectie is gepubliceerd, zal deze voor alle runners beschikbaar en in te zien zijn op de \"Submissions bekijken\" pagina."
-            },
-            "selection": {
-                "title": "Selectie"
-            },
-            "statistics": {
-                "table": {
-                    "averageEstimate": "Gemiddelde geschatte tijd",
-                    "defaultSetupTime": "standaard setup time",
-                    "marathonLength": "Marathon lengte",
-                    "numberOfRunners": "Aantal runners",
-                    "numberOfRuns": "Aantal runs",
-                    "totalTime": "Totale tijd",
-                    "totalTimeValidated": "Totale tijd met  (default setup time included)"
-                },
-                "title": "Statistieken"
-            },
-            "status": {
-                "BONUS": "Bonus",
-                "REJECTED": "Geweigerd",
-                "TODO": "Nog te doen",
-                "VALIDATED": "Geaccepteerd"
-            },
-            "title": "Selecteer runs"
-        },
-        "settings": {
-            "country": {
-                "label": "Land"
-            },
-            "customFields": {
-                "action": {
-                    "title": "Actie"
-                },
-                "add": "Voeg een nieuw aangepast veld toe",
-                "description1": "Je kan aangepaste invoer velden toevoegen om details te vragen, die specifiek zijn voor je marathon aan de runners. Deze kunnen ze invoeren tijdens de submissions. Het is aangeraden om geen nieuwe velden toe te voegen nadat de submissions geopend zijn, aangezien runners die al gesubmit hebben deze nieuwe velden missen als ze niet terug komen om hun submissions aan te passen.",
-                "description2": "Vraag hint: Simpele tekstvelden zijn beperkt tot een maximum van 50 karakters. Grotere tekstvelden zijn beperkt tot een maximum van 500 karakters.",
-                "label": {
-                    "error": {
-                        "required": "Label is verplicht"
-                    },
-                    "title": "Label",
-                    "type": "Type"
-                },
-                "option": {
-                    "error": {
-                        "required": "Optie naam is verplicht"
-                    }
-                },
-                "required": {
-                    "title": "Verplicht"
-                },
-                "title": "Aangepaste velden",
-                "type": {
-                    "option": {
-                        "checkbox": "Selectievakje",
-                        "select": "Selecteer",
-                        "text": "Tekst",
-                        "textArea": "Tekst veld"
-                    }
-                }
-            },
-            "dangerZone": "Gevarenzone",
-            "defaultSetupTime": {
-                "error": {
-                    "pattern": "Standaard setup time is ongeldig. Deze moet in de het volgende formaat ingevoerd worden: (HH)H:MM:SS",
-                    "required": "Default setup tijd is verplicht"
-                },
-                "label": "Standaard setup tijd"
-            },
-            "delete": {
-                "action": "Marathon verwijderen",
-                "confirmText": "Weet je zeker dat je je marathon wil verwijderen? Om dit te bevestigen, schrijf de \"shortname\" van de marathon en druk op \"Bevestigen\""
-            },
-            "description": "Hier kan je de instellingen van je marathon wijzigen",
-            "discord": {
-                "error": {
-                    "pattern": "Discord link is ongeldig"
-                }
-            },
-            "discordPrivacy": {
-                "help": "Als je de Discord op privé zet, zal de invite link niet op de homepage worden getoond. Deze is alleen zichtbaar in de emails die naar de runners worden gestuurd.",
-                "label": "Discord privacy",
-                "private": "Discord is privé"
-            },
-            "endDate": {
-                "error": {
-                    "required": "Geschatte eindtijd is verplicht"
-                },
-                "label": "Geschatte eindtijd"
-            },
-            "generalTitle": "Algemene instellingen",
-            "incentives": {
-                "hasIncentives": "Deze marathon heeft donatie-incentives",
-                "label": "Donatie-incentive status"
-            },
-            "incentivesTitle": "Donatie-incentive instellingen",
-            "language": {
-                "label": "Taal"
-            },
-            "location": {
-                "label": "Locatie"
-            },
-            "marathonDescription": {
-                "help": "Markdown wordt ondersteund",
-                "label": "Beschrijving"
-            },
-            "maxCategoriesPerGame": {
-                "error": {
-                    "max": "Maximale categorieën per spel is te hoog",
-                    "min": "Maximale categorieën per spel moet een positieve waarde zijn",
-                    "required": "Maximele categorieën is verplicht"
-                },
-                "label": "Maximaal aantal categorieën per game"
-            },
-            "maxGamesPerRunner": {
-                "error": {
-                    "min": "Maximale games per runner moet een positieve waarde zijn",
-                    "required": "Maximale games per speler is verplicht"
-                },
-                "label": "Maximale games per runner"
-            },
-            "maxNumberOfScreens": {
-                "error": {
-                    "min": "Maximaal aantal schermen moet een positieve waarde zijn",
-                    "required": "Maximaal aantal schermen is verplicht"
-                },
-                "help": "Als je multiplayer runs toestaat, kan je het aantal schermen op stream limiteren zodat je een max aantal spelers kan limiteren",
-                "label": "Maximum aantal schermen per game"
-            },
-            "moderators": {
-                "label": "Moderators"
-            },
-            "multiplayer": {
-                "allowed": "Races/Coop runs zijn toegestaan",
-                "forbidden": "Races/Coop runs zijn niet toegestaan",
-                "label": "Multiplayer"
-            },
-            "name": {
-                "error": {
-                    "max": "Marathon naam is te lang",
-                    "min": "Marathon naam is te kort",
-                    "pattern": "Marathon naam is ongeldig",
-                    "required": "Marathon naam is verplicht"
-                },
-                "label": "Naam"
-            },
-            "privacy": {
-                "help": "Privé marathons werken net zoals gewone marathons, behalve dat ze niet zichtbaar zijn op de hoofdpagina. Je kan ze alleen bereiken via een URL.",
-                "label": "Marathon privacy",
-                "private": "Privé",
-                "public": "Publiekelijk"
-            },
-            "shortname": {
-                "error": {
-                    "exists": "Marathon shortname bestaat al",
-                    "max": "Marathon shortname is te lang",
-                    "min": "Marathon shortname is te kort",
-                    "pattern": "Marathon shortname is ongeldig",
-                    "required": "Marathon shortname is verplicht"
-                },
-                "label": "Shortname"
-            },
-            "startDate": {
-                "error": {
-                    "required": "Start datum is verplicht"
-                },
-                "label": "Start datum"
-            },
-            "submissions": {
-                "closed": "Submissions zijn gesloten",
-                "label": "Submissions",
-                "open": "Submissions zijn open"
-            },
-            "submissionsTitle": "Submission instellingen",
-            "tabs": {
-                "dangerZone": "Gevarenzone",
-                "general": "Algemeen",
-                "incentives": "Donatie-incentives",
-                "submissions": "Submissions"
-            },
-            "title": "Marathon instellingen",
-            "twitch": {
-                "error": {
-                    "max": "Twitch naam is te lang",
-                    "pattern": "Twitch naam is ongeldig"
-                }
-            },
-            "twitter": {
-                "error": {
-                    "max": "Twitter naam is te lang",
-                    "pattern": "Twitter naam is ongeldig"
-                }
-            },
-            "type": {
-                "label": "Marathon type",
-                "online": "Online",
-                "onsite": "Onsite / in persoon"
-            },
-            "supportedCharity": {
-                "label": "Ondersteunende liefdadigheidsnaam",
-                "error": {
-                    "required": "Ondersteunende liefdadigheidsnaam is benodigd",
-                    "max": "Ondersteunende liefdadigheidsnaam is te lang"
-                }
-            },
-            "sandbox": {
-                "warning": "Voorzichtig: Oengus.sandbox is aan het communiceren met Paypal's sandbox omgeving. Je moet een Paypal sandbox email-adres gebruiken als begunstigde om (nep)donaties te laten werken."
-            },
-            "payee": {
-                "label": "Begunstigde",
-                "error": {
-                    "required": "Begunstigde is benodigd",
-                    "max": "Begunstigde is te lang",
-                    "email": "Begunstigde moet een email adres zijn"
-                }
-            },
-            "donations": {
-                "label": "Donatie ondersteuning",
-                "hasDonations": "Dit is een liefdadigheidsevenement"
-            },
-            "currencyIso": {
-                "label": "Valuta code",
-                "help": "Valuta code moet in ISO-4217 formaat zijn voor Paypal",
-                "error": {
-                    "required": "Valuta code is benodigd",
-                    "max": "Valuta code is te lang"
-                }
-            }
-        },
-        "submissions": {
-            "export": "Exporteer naar CSV bestand",
-            "table": {
-                "actions": "Acties",
-                "answer": "Antwoord",
-                "category": "Categorie",
-                "categoryDescription": "Category beschrijving",
-                "console": "Console",
-                "estimate": "Geschatte tijd",
-                "game": "Game",
-                "gameDescription": "Game beschrijving",
-                "question": "Vraag",
-                "runner": "Runner",
-                "status": "Status",
-                "type": "Type"
-            },
-            "tabs": {
-                "answers": "Antwoorden",
-                "submissions": "Submissions"
-            },
-            "title": "Submissions"
-        },
-        "submit": {
-            "action": {
-                "addCategory": "Categorie toevoegen",
-                "removeGame": "Game verwijderen"
-            },
-            "availabilities": {
-                "actions": "Acties",
-                "add": "Beschikbaarheid toevoegen",
-                "duplicate": "Dupliceren naar de volgende dag",
-                "error": {
-                    "dateRequired": "Datum is verplicht",
-                    "required": "Je moet tenminste 1 beschikbaarheidsperiode toevoegen"
-                },
-                "from": "Van",
-                "label": "Beschikbaarheid",
-                "to": "Tot"
-            },
-            "category": {
-                "code": {
-                    "help": {
-                        "noCode": "Nadat je deze submissie opgeslagen hebt, zal je een code worden uitgereikt die je aan andere geïnteresseerde runners kan geven",
-                        "withCode": "Geef de volgende code aan andere runners zodat zij bij deze submission kunnen aansluiten:"
-                    }
-                },
-                "description": {
-                    "error": {
-                        "required": "Categorie beschrijving is verplicht"
-                    },
-                    "help": "Geef details voor deze categorie",
-                    "label": "Categorie beschrijving"
-                },
-                "estimate": {
-                    "error": {
-                        "min": "Geschatte lengte is ongeldig. Deze moet langer duren dan 0 seconden",
-                        "pattern": "Geschatte lengte is ongeldig. Deze moet in het volgende formaat worden ingevoerd: (HH)H:MM:SS",
-                        "required": "Geschatte lengte is verplicht"
-                    },
-                    "label": "Geschatte lengte"
-                },
-                "name": {
-                    "error": {
-                        "required": "Categorie naam is verplicht"
-                    },
-                    "label": "Categorie naam"
-                },
-                "opponent": {
-                    "with": "Met:"
-                },
-                "type": {
-                    "label": "Type"
-                },
-                "video": {
-                    "error": {
-                        "required": "Video link is verplicht"
-                    },
-                    "label": "Video link"
-                }
-            },
-            "customField": {
-                "error": {
-                    "required": "Veld is verplicht"
-                }
-            },
-            "details": "Details",
-            "game": {
-                "console": {
-                    "emulated": "Geëmuleerd",
-                    "error": {
-                        "required": "Console is verplicht"
-                    },
-                    "label": "Console"
-                },
-                "description": {
-                    "error": {
-                        "required": "Game beschrijving is verplicht"
-                    },
-                    "help": "Beschrijf de game en algemeenheden van de run",
-                    "label": "Game beschrijving"
-                },
-                "name": {
-                    "error": {
-                        "required": "Game naam is verplicht"
-                    },
-                    "label": "Game naam"
-                },
-                "ratio": {
-                    "error": {
-                        "required": "Video aspect ratio is required"
-                    },
-                    "label": "Video aspect ratio (16/9, 4/3...)"
-                }
-            },
-            "maxCategoriesPerGame": "Maximaal aantal categorieën per game",
-            "maxGamesPerRunner": "Maximaal aantal games per runner",
-            "maxNumberOfScreens": "Maximaal aantal runners per race/coop",
-            "multiplayer": {
-                "code": {
-                    "help": "Voer hier een code in om je bij deze multiplayer submission aan te sluiten"
-                },
-                "title": "Multiplayer categorieën"
-            },
-            "racesAllowed": "Races/Coop toegestaan",
-            "submissions": "Submissions",
-            "submitsClosed": "Submissions zijn nu gesloten. Je kan alleen je beschikbaarheid nog bijwerken tot het schema gepubliceerd is.",
-            "table": {
-                "actions": "Acties",
-                "categories": "Categorieën",
-                "games": "Games",
-                "runners": "Runners"
-            },
-            "title": "Runs submitten",
-            "tweet": {
-                "submit": "Ik heb {{games}} gesubmit naar {{marathon}}"
-            }
-        },
-        "donations": {
-            "total": "Donatie-totaal",
-            "title": "Donaties",
-            "table": {
-                "name": "Naam",
-                "date": "Datum",
-                "comment": "Opmerking",
-                "amount": "Aantal"
-            },
-            "max": "Hoogste donatie",
-            "count": "Aantal donaties",
-            "average": "Gemiddelde donatie"
-        },
-        "donate": {
-            "zipcode": {
-                "label": "Postcode",
-                "error": {
-                    "max": "Postcode is te lang"
-                }
-            },
-            "title": "Doneer",
-            "nickname": {
-                "label": "Bijnaam",
-                "error": {
-                    "required": "Bijnaam is verplicht",
-                    "pattern": "Bijnamen kunnen alleen gemaakt worden met hoofdletters, kleine letters, _ en -",
-                    "max": "Bijnaam is te lang"
-                }
-            },
-            "lastName": {
-                "label": "Achternaam",
-                "error": {
-                    "max": "Achternaam is te lang"
-                }
-            },
-            "firstName": {
-                "label": "Voornaam",
-                "error": {
-                    "max": "Voornaam is te lang"
-                }
-            },
-            "extra": {
-                "title": "Extra informatie",
-                "description": "De volgende velden zijn niet verplicht in te vullen. Deze zijn nodig in het geval dat dit event zichzelf opent voor belastingsvermindering. Deze data zal nergens publiekelijk vertoond worden, en zal 1 maand na het einde van dit evenement verwijderd worden."
-            },
-            "description": "Donaties ondersteunen {{supportedCharity}}",
-            "country": {
-                "label": "Land",
-                "error": {
-                    "max": "Landnaam is te lang"
-                }
-            },
-            "comment": {
-                "label": "Opmerking"
-            },
-            "city": {
-                "label": "Stad",
-                "error": {
-                    "max": "Stadsnaam is te lang"
-                }
-            },
-            "amount": {
-                "label": "Donatie bedrag",
-                "error": {
-                    "required": "Donatie bedrag is benodigd",
-                    "minNumber": "Donatie bedrag moet hoger zijn dan nul"
-                }
-            },
-            "address": {
-                "label": "Adres",
-                "error": {
-                    "max": "Adres is te lang"
-                }
-            }
-        }
+      "creation": {
+        "error": "Fout tijdens het maken van de marathon",
+        "success": "Marathon succesvol aangemaakt"
+      },
+      "deletion": {
+        "error": "Fout tijdens het verwijderen van de marathon",
+        "success": "Marathon succesvol verwijdert"
+      },
+      "update": {
+        "error": "Fout tijdens het bijwerken van de marathon",
+        "success": "Marathon succesvol bijgewerkt"
+      }
     },
-    "navbar": {
-        "about": "Over",
-        "bugtracker": "Meld fouten en suggesties",
-        "createMarathon": "Nieuwe Marathon",
-        "discord": "Word lid van de officiele Discord server",
-        "donate": "Doneren",
-        "login": {
-            "disclaimer": "Waarschuwing: Als je al een profiel hebt op Oengus, wees er zeker van dat je inlogt met een extern account dat al is gesynchroniseerd met je profiel. Anders wordt er een nieuw profiel gemaakt",
-            "discord": "Log in met Discord",
-            "title": "Inloggen",
-            "twitch": "Log in met Twitch",
-            "twitter": "Log in met Twitter"
-        },
-        "logout": "Uitloggen",
-        "privacyConsent": "Door op accepteren te klikken, sta je Oengus toe om cookies te plaatsen voor webverkeer-analytische doeleinden. Lees meer over onze privacybeleid op onze \"Over ons\" pagina.",
-        "settings": "Instellingen",
-        "translate": "Help deze website te vertalen",
-        "twitter": "Volg ons op Twitter"
+    "schedule": {
+      "export": {
+        "error": "Er is een fout opgetreden tijdens de export. Probeer het opnieuw of contacteer een administrator."
+      },
+      "save": {
+        "error": "Fout tijdens het opslaan van het schema",
+        "success": "Schema succesvol opgeslagen"
+      }
+    },
+    "selection": {
+      "save": {
+        "error": "Fout tijdens het opslaan van deze selectie",
+        "success": "Selectie succesvol opgeslagen"
+      }
+    },
+    "submission": {
+      "save": {
+        "error": "Fout tijdens het opgeven van je submission",
+        "success": "Submission succesvol verzonden"
+      }
+    },
+    "submit": {
+      "ALREADY_IN_OPPONENTS": "Jij maakt al deel uit van deze categorie",
+      "CODE_NOT_FOUND": "Deze code bestaat niet",
+      "DIFFERENT_MARATHON": "Deze code is voor een andere marathon",
+      "MAX_SIZE_REACHED": "Deze submissie heeft al het maximum aantal runners bereikt",
+      "NOT_MULTIPLAYER": "Dit is geen multiplayer categorie",
+      "SAME_USER": "Je kan jezelf niet toevoegen aan een categorie die je zelf hebt gemaakt"
     },
     "user": {
-        "settings": {
-            "accountSync": {
-                "description": "Je kan hier je social media accounts synchroniseren. Je kan hierna naar je Oengus account verbinden met je gesynchroniseerde accounts. Vergeet niet om op \"Opslaan\" te drukken na het synchroniseren.",
-                "error": {
-                    "noService": "Je moet op z'n minst 1 service synroniseren met je account"
-                },
-                "sync": "Synchroniseer account",
-                "title": "Accounts synchroniseren",
-                "unsync": "Verwijder account"
-            },
-            "deactivateAccount": {
-                "description": "Je account deactiveren zal voorkomen dat je kan inloggen, en moderators kunnen je dan niet toevoegen aan een marathon als moderator, of als een runner aan een schema. Alle data blijft bewaard voor consistentie, maar je sociale netwerken zullen niet meer verschijnen op schema's en in submissie lijsten. Als je je account in de toekomst weer wil gebruiken, contacteer een administrator.",
-                "title": "Deactiveer je account"
-            },
-            "email": {
-                "error": {
-                    "email": "Email is ongeldig",
-                    "required": "Email is verplicht"
-                },
-                "label": "Email"
-            },
-            "general": "Algemene informatie",
-            "new": {
-                "beforeWeStart": "Voor we beginnen...",
-                "description": "We hebben wat extra informatie over jou nodig. Neem even de tijd om de gaten in te vullen."
-            },
-            "srcom": {
-                "error": {
-                    "max": "Speedrun.com gebruikersnaam is te lang",
-                    "pattern": "Speedrun.com gebruikersnaam is ongeldig"
-                }
-            },
-            "title": "Wijzig mijn profiel",
-            "twitch": {
-                "disabled": {
-                    "help": "Dit veld is uitgeschakeld omdat je gesynchroniseerd hebt met je Twitch account. Als je Twitch naam veranderd is, synchroniseer dan opnieuw met je Twitch account om deze te updaten."
-                },
-                "error": {
-                    "max": "Twitch naam is te lang",
-                    "pattern": "Twitch naam is ongeldig"
-                }
-            },
-            "twitter": {
-                "disabled": {
-                    "help": "Dit veld is uitgeschakeld omdat je gesynchroniseerd hebt met je Twitter account. Als je Twitter naam veranderd is, synchroniseer dan opnieuw met je Twitter account om deze te updaten."
-                },
-                "error": {
-                    "max": "Twitter naam is te lang",
-                    "pattern": "Twitter naam is ongeldig"
-                }
-            },
-            "username": {
-                "error": {
-                    "exists": "Gebruikernaam bestaat al. Kies een andere of kijk of je al een ander profiel gesynchroniseerd hebt met een ander extern account (Twitch of Discord)",
-                    "max": "Gebruikersnaam is te lang",
-                    "min": "Gebruikersnaam is te kort",
-                    "pattern": "Gebruikersnamen mogen alleen kleine letters, hoofdletters, _ en - bevatten",
-                    "required": "Gebruikersnaam is verplicht"
-                },
-                "label": "Gebruikersnaam"
-            },
-            "usernameJapanese": {
-                "error": {
-                    "max": "Japanse gebruikersnaam is te lang.",
-                    "pattern": "Japanse gebruikersnaam is ongeldig"
-                },
-                "help": "Als je gebruikersnaam naar het japans te vertalen is, gebruik dit veld om het te tonen met japanse karakters. Dit zal alleen tonen als het locale naar het japans is gezet. Dit veld is optioneel.",
-                "label": "Gebruikersnaam (Japans)"
-            }
-        }
+      "deactivate": {
+        "success": "Jouw account is succesvol gedeactiveerd"
+      },
+      "login": {
+        "disabledAccount": "Jouw account is uitgeschakeld. Als je deze weer wil gebruiken, contacteer een administrator.",
+        "error": "Er is een fout opgetreden tijdens de authenticatie. Probeer het opnieuw of contacteer een administrator.",
+        "usernameExists": "De gebruikersnaam die aan het account vastzit waarmee je probeert in te loggen bestaat al. Check even of je niet al een Oengus profiel gecreëerd hebt met een andere login methode. Als je denkt dat dit foutief is, neem dan contact op met een administrator."
+      },
+      "sync": {
+        "alreadySynced": "Foutmelding: Dit account wordt al gebruikt",
+        "error": "Er is een fout opgetreden gedurende account synchronisatie. Probeer het opnieuw of contacteer een administrator."
+      },
+      "update": {
+        "error": "Fout tijdens het bijwerken van gebruikers data",
+        "success": "Gebruikers data succesvol bijgewerkt"
+      }
     }
+  },
+  "calendar": {
+    "help": "Je gaat naar de event-pagina als je op een evenement drukt",
+    "title": "Marathon kalender"
+  },
+  "footer": {
+    "donate": "Als je Oengus te gek vindt, overweeg om  <a href=\"{{donationLink}}\" target=\"_blank\">te doneren</a>",
+    "text": "<strong>Oengus</strong> door <a href=\"https://twitter.com/GyooRunsStuff\">Gyoo</a>.<br/>\nAlle tijden zijn omgerekend naar jouw tijdzone. Gedetecteerde tijdzone: {{timezone}}"
+  },
+  "global": {
+    "emu": "[Emu]"
+  },
+  "homepage": {
+    "ends": "Eindigt op {{duration}}",
+    "marathons": {
+      "calendar": "Volledige kalender",
+      "live": "Live marathons",
+      "moderated": "Gemodereerde marathons",
+      "open": "Open submissions",
+      "upcoming": "Aankomende marathons"
+    },
+    "plannedFeatures": {
+      "1": "Coop/races submissions",
+      "2": "Meerdere runs selectie systeem (direct kiezen, stemmen...)",
+      "3": "Gemakkelijk schema systeem met runners' beschikbaarheid-visualisatie",
+      "4": "Accounts sync voor verbinding met Twitter/Twitch/Google",
+      "5": "Discord integratie",
+      "6": "Mail notificaties",
+      "title": "Geplande functies"
+    },
+    "starts": "Start {{duration}}",
+    "welcomeText": {
+      "par1": "Oengus is een <b>gratis</b> hulpmiddel om je speedrunning marathons te beheren, van de submissions tot het schema.",
+      "par3": "Om toegang te hebben tot alle functies, log in met de volgende link. Je zal nieuwe marathons kunnen aanmaken en submitten naar bestaande marathons:",
+      "par4": {
+        "prod": "Als je deze applicatie wil testen voor je een applicatie aanmaakt, ga dan naar de <a href=\"https://sandbox.oengus.io\">sandbox omgeving</a>. Deze is beschikbaar voor alle testing en ontwikkelingsdoeleinden.",
+        "sandbox": "<b>Je bent in de sandbox omgeving, deze is beschikbaar voor testen en ontwikkelingsdoeleinden. Als je een daadwerkelijke marathon wil aanmaken, ga alstublieft naar de <a href=\"https://oengus.io\">hoofd website</a>.</b>"
+      }
+    },
+    "welcomeTitle": "Welkom bij Oengus!"
+  },
+  "login": {
+    "authInProgress": "Bezig met authenticeren, even geduld alstublieft..."
+  },
+  "marathon": {
+    "donate": {
+      "address": {
+        "error": {
+          "max": "Adres is te lang"
+        },
+        "label": "Adres"
+      },
+      "amount": {
+        "error": {
+          "minNumber": "Donatie bedrag moet hoger zijn dan nul",
+          "required": "Donatie bedrag is benodigd"
+        },
+        "label": "Donatie bedrag"
+      },
+      "city": {
+        "error": {
+          "max": "Stadsnaam is te lang"
+        },
+        "label": "Stad"
+      },
+      "comment": {
+        "label": "Opmerking"
+      },
+      "country": {
+        "error": {
+          "max": "Landnaam is te lang"
+        },
+        "label": "Land"
+      },
+      "description": "Donaties ondersteunen {{supportedCharity}}",
+      "extra": {
+        "description": "De volgende velden zijn niet verplicht in te vullen. Deze zijn nodig in het geval dat dit event zichzelf opent voor belastingsvermindering. Deze data zal nergens publiekelijk vertoond worden, en zal 1 maand na het einde van dit evenement verwijderd worden.",
+        "title": "Extra informatie"
+      },
+      "firstName": {
+        "error": {
+          "max": "Voornaam is te lang"
+        },
+        "label": "Voornaam"
+      },
+      "lastName": {
+        "error": {
+          "max": "Achternaam is te lang"
+        },
+        "label": "Achternaam"
+      },
+      "nickname": {
+        "error": {
+          "max": "Bijnaam is te lang",
+          "pattern": "Bijnamen kunnen alleen gemaakt worden met hoofdletters, kleine letters, _ en -",
+          "required": "Bijnaam is verplicht"
+        },
+        "label": "Bijnaam"
+      },
+      "title": "Doneer",
+      "zipcode": {
+        "error": {
+          "max": "Postcode is te lang"
+        },
+        "label": "Postcode"
+      }
+    },
+    "donations": {
+      "average": "Gemiddelde donatie",
+      "count": "Aantal donaties",
+      "max": "Hoogste donatie",
+      "table": {
+        "amount": "Aantal",
+        "comment": "Opmerking",
+        "date": "Datum",
+        "name": "Naam"
+      },
+      "title": "Donaties",
+      "total": "Donatie-totaal"
+    },
+    "help": {
+      "isArchived": "Deze marathon is gearchiveerd. Deze is in alleen-lezen modus."
+    },
+    "home": {
+      "from": "Van",
+      "language": "Taal",
+      "location": "Locatie",
+      "to": "Tot"
+    },
+    "incentives": {
+      "management": {
+        "action": {
+          "add": "Voeg donatie-incentive toe"
+        },
+        "bidName": {
+          "error": {
+            "required": "Bod naam is benodigd"
+          }
+        },
+        "bidWar": "Bied-strijd",
+        "currentAmount": {
+          "error": {
+            "required": "Huidig bedrag is verplicht"
+          }
+        },
+        "donationGoal": "Donatie doel",
+        "goal": {
+          "error": {
+            "required": "Donatie doel is verplicht"
+          }
+        },
+        "name": {
+          "error": {
+            "required": "Naam is vereist"
+          }
+        },
+        "table": {
+          "actions": "Acties",
+          "currentAmount": "Huidig bedrag",
+          "description": "Beschrijving",
+          "game": "Game",
+          "goal": "Doel",
+          "incentive": "Donatie-incentive naam",
+          "isBidWar": "Donatie doel/bied strijd",
+          "locked": "Gesloten",
+          "progress": "Voortgang"
+        },
+        "title": "Donatie-incentive beheer"
+      },
+      "title": "Donatie-incentives"
+    },
+    "menu": {
+      "admin": "Administrator",
+      "donate": "Doneer",
+      "donations": "Donaties",
+      "home": "Home",
+      "incentives": "Donatie-incentives",
+      "loginToSubmit": "Log in om runs te submitten",
+      "manageIncentives": "Beheer donation-incentives",
+      "manageSchedule": "Schema beheer",
+      "moderators": "Moderators",
+      "overview": "Overzicht",
+      "schedule": "Schema",
+      "selectRuns": "Runs selecteren",
+      "settings": "Instellingen",
+      "submitRuns": "Submit runs",
+      "viewSubmissions": "Submissions bekijken"
+    },
+    "new": {
+      "description": "De volgende informatie is verplicht om een marathon aan te maken. Na dit proces kan je meer details aanpassen.",
+      "title": "Maak een nieuwe marathon aan"
+    },
+    "schedule": {
+      "export": {
+        "csv": "Exporteer naar CSV",
+        "ics": "Exporteer naar ICS",
+        "json": "Exporteer nar JSON (Horaro)",
+        "jsonAlert": "Waarschuwing: Estimates op Horaro zullen setup tijd erbij toegevoegd hebben omdat horaro geen verschillende setup tijden per run accepteren",
+        "title": "Exporteer schema"
+      },
+      "management": {
+        "action": {
+          "addRun": "Run toevoegen",
+          "addSetupBlock": "Voeg setup block toe",
+          "alreadyPublished": "Schema is al gepubliceerd",
+          "publish": "Schema publiceren"
+        },
+        "help": {
+          "dragAndDrop": "Je kan de pijltjes op elke regel gebruiken om een run aan het schema toe te voegen of te verwijderen. Je kan elke regel slepen door de 3 lijntjes te gebruiken",
+          "save": "Druk op \"Opslaan\" om een concept op te slaan of om het gepubliceerde schema bij te werken. Druk op \"schema publiceren\" om het schema live te publiceren. Waarschuwing: Wanneer het schema is gepubliceerd, zal de eind-datum automatisch herberekend worden bij elke schema update."
+        },
+        "schedule": "Schema",
+        "selectedRuns": "Geselecteerde runs",
+        "title": "Schema beheer"
+      },
+      "setupBlock": "Setup block",
+      "table": {
+        "actions": "Acties",
+        "category": "Categorie",
+        "console": "Console",
+        "estimate": "Geschatte lengte",
+        "game": "Game",
+        "placeholder": "Sleep een willekeurige run van de linker-tabel naar deze. Deze tekst zal autonmatisch verdwijnen als 1 run in het schema is gesleept.",
+        "runner": "Runner(s)",
+        "setup": "Setup tijd",
+        "time": "Tijd",
+        "type": "Type"
+      },
+      "timezone": "Alle tijden staan in jouw lokale tijdzone.",
+      "title": "Schema",
+      "type": {
+        "COOP": "Coop run",
+        "COOP_RACE": "Coop race",
+        "OTHER": "Overig",
+        "RACE": "Race",
+        "SINGLE": "Solo run"
+      }
+    },
+    "selection": {
+      "action": {
+        "publish": "Selectie publiceren"
+      },
+      "availabilities": {
+        "help": "Druk op het kalendar icoontje naast de runners om hun beschikbaarheid te tonen of te verbergen."
+      },
+      "publish": {
+        "help": "Klik op \"Opslaan\" om je huidige selectie op te slaan. Je kan je selectie alleen publiceren als alle runs een status anders dan  \"nog te doen\" hebben. Het opslaan of publiceren van een selectie kan even duren. Dit hangt af van het aantal runs. Waarschuwing: selecties publiceren zal automatisch de submissions sluiten. Wanneer de selectie is gepubliceerd, zal deze voor alle runners beschikbaar en in te zien zijn op de \"Submissions bekijken\" pagina."
+      },
+      "selection": {
+        "title": "Selectie"
+      },
+      "statistics": {
+        "table": {
+          "averageEstimate": "Gemiddelde geschatte tijd",
+          "defaultSetupTime": "standaard setup time",
+          "marathonLength": "Marathon lengte",
+          "numberOfRunners": "Aantal runners",
+          "numberOfRuns": "Aantal runs",
+          "totalTime": "Totale tijd",
+          "totalTimeValidated": "Totale tijd met  (default setup time included)"
+        },
+        "title": "Statistieken"
+      },
+      "status": {
+        "BONUS": "Bonus",
+        "REJECTED": "Geweigerd",
+        "TODO": "Nog te doen",
+        "VALIDATED": "Geaccepteerd"
+      },
+      "title": "Selecteer runs"
+    },
+    "settings": {
+      "country": {
+        "label": "Land"
+      },
+      "currencyIso": {
+        "error": {
+          "max": "Valuta code is te lang",
+          "required": "Valuta code is benodigd"
+        },
+        "help": "Valuta code moet in ISO-4217 formaat zijn voor Paypal",
+        "label": "Valuta code"
+      },
+      "customFields": {
+        "action": {
+          "title": "Actie"
+        },
+        "add": "Voeg een nieuw aangepast veld toe",
+        "description1": "Je kan aangepaste invoer velden toevoegen om details te vragen, die specifiek zijn voor je marathon aan de runners. Deze kunnen ze invoeren tijdens de submissions. Het is aangeraden om geen nieuwe velden toe te voegen nadat de submissions geopend zijn, aangezien runners die al gesubmit hebben deze nieuwe velden missen als ze niet terug komen om hun submissions aan te passen.",
+        "description2": "Vraag hint: Simpele tekstvelden zijn beperkt tot een maximum van 50 karakters. Grotere tekstvelden zijn beperkt tot een maximum van 500 karakters.",
+        "label": {
+          "error": {
+            "required": "Label is verplicht"
+          },
+          "title": "Label",
+          "type": "Type"
+        },
+        "option": {
+          "error": {
+            "required": "Optie naam is verplicht"
+          }
+        },
+        "required": {
+          "title": "Verplicht"
+        },
+        "title": "Aangepaste velden",
+        "type": {
+          "option": {
+            "checkbox": "Selectievakje",
+            "select": "Selecteer",
+            "text": "Tekst",
+            "textArea": "Tekst veld"
+          }
+        }
+      },
+      "dangerZone": "Gevarenzone",
+      "defaultSetupTime": {
+        "error": {
+          "pattern": "Standaard setup time is ongeldig. Deze moet in de het volgende formaat ingevoerd worden: (HH)H:MM:SS",
+          "required": "Default setup tijd is verplicht"
+        },
+        "label": "Standaard setup tijd"
+      },
+      "delete": {
+        "action": "Marathon verwijderen",
+        "confirmText": "Weet je zeker dat je je marathon wil verwijderen? Om dit te bevestigen, schrijf de \"shortname\" van de marathon en druk op \"Bevestigen\""
+      },
+      "description": "Hier kan je de instellingen van je marathon wijzigen",
+      "discord": {
+        "error": {
+          "pattern": "Discord link is ongeldig"
+        }
+      },
+      "discordPrivacy": {
+        "help": "Als je de Discord op privé zet, zal de invite link niet op de homepage worden getoond. Deze is alleen zichtbaar in de emails die naar de runners worden gestuurd.",
+        "label": "Discord privacy",
+        "private": "Discord is privé"
+      },
+      "donations": {
+        "hasDonations": "Dit is een liefdadigheidsevenement",
+        "label": "Donatie ondersteuning"
+      },
+      "endDate": {
+        "error": {
+          "required": "Geschatte eindtijd is verplicht"
+        },
+        "label": "Geschatte eindtijd"
+      },
+      "generalTitle": "Algemene instellingen",
+      "incentives": {
+        "hasIncentives": "Deze marathon heeft donatie-incentives",
+        "label": "Donatie-incentive status"
+      },
+      "incentivesTitle": "Donatie-incentive instellingen",
+      "language": {
+        "label": "Taal"
+      },
+      "location": {
+        "label": "Locatie"
+      },
+      "marathonDescription": {
+        "help": "Markdown wordt ondersteund",
+        "label": "Beschrijving"
+      },
+      "maxCategoriesPerGame": {
+        "error": {
+          "max": "Maximale categorieën per spel is te hoog",
+          "min": "Maximale categorieën per spel moet een positieve waarde zijn",
+          "required": "Maximele categorieën is verplicht"
+        },
+        "label": "Maximaal aantal categorieën per game"
+      },
+      "maxGamesPerRunner": {
+        "error": {
+          "min": "Maximale games per runner moet een positieve waarde zijn",
+          "required": "Maximale games per speler is verplicht"
+        },
+        "label": "Maximale games per runner"
+      },
+      "maxNumberOfScreens": {
+        "error": {
+          "min": "Maximaal aantal schermen moet een positieve waarde zijn",
+          "required": "Maximaal aantal schermen is verplicht"
+        },
+        "help": "Als je multiplayer runs toestaat, kan je het aantal schermen op stream limiteren zodat je een max aantal spelers kan limiteren",
+        "label": "Maximum aantal schermen per game"
+      },
+      "moderators": {
+        "label": "Moderators"
+      },
+      "multiplayer": {
+        "allowed": "Races/Coop runs zijn toegestaan",
+        "forbidden": "Races/Coop runs zijn niet toegestaan",
+        "label": "Multiplayer"
+      },
+      "name": {
+        "error": {
+          "max": "Marathon naam is te lang",
+          "min": "Marathon naam is te kort",
+          "pattern": "Marathon naam is ongeldig",
+          "required": "Marathon naam is verplicht"
+        },
+        "label": "Naam"
+      },
+      "payee": {
+        "error": {
+          "email": "Begunstigde moet een email adres zijn",
+          "max": "Begunstigde is te lang",
+          "required": "Begunstigde is benodigd"
+        },
+        "label": "Begunstigde"
+      },
+      "privacy": {
+        "help": "Privé marathons werken net zoals gewone marathons, behalve dat ze niet zichtbaar zijn op de hoofdpagina. Je kan ze alleen bereiken via een URL.",
+        "label": "Marathon privacy",
+        "private": "Privé",
+        "public": "Publiekelijk"
+      },
+      "sandbox": {
+        "warning": "Voorzichtig: Oengus.sandbox is aan het communiceren met Paypal's sandbox omgeving. Je moet een Paypal sandbox email-adres gebruiken als begunstigde om (nep)donaties te laten werken."
+      },
+      "shortname": {
+        "error": {
+          "exists": "Marathon shortname bestaat al",
+          "max": "Marathon shortname is te lang",
+          "min": "Marathon shortname is te kort",
+          "pattern": "Marathon shortname is ongeldig",
+          "required": "Marathon shortname is verplicht"
+        },
+        "label": "Shortname"
+      },
+      "startDate": {
+        "error": {
+          "required": "Start datum is verplicht"
+        },
+        "label": "Start datum"
+      },
+      "submissions": {
+        "closed": "Submissions zijn gesloten",
+        "label": "Submissions",
+        "open": "Submissions zijn open"
+      },
+      "submissionsTitle": "Submission instellingen",
+      "supportedCharity": {
+        "error": {
+          "max": "Ondersteunende liefdadigheidsnaam is te lang",
+          "required": "Ondersteunende liefdadigheidsnaam is benodigd"
+        },
+        "label": "Ondersteunende liefdadigheidsnaam"
+      },
+      "tabs": {
+        "dangerZone": "Gevarenzone",
+        "general": "Algemeen",
+        "incentives": "Donatie-incentives",
+        "submissions": "Submissions"
+      },
+      "title": "Marathon instellingen",
+      "twitch": {
+        "error": {
+          "max": "Twitch naam is te lang",
+          "pattern": "Twitch naam is ongeldig"
+        }
+      },
+      "twitter": {
+        "error": {
+          "max": "Twitter naam is te lang",
+          "pattern": "Twitter naam is ongeldig"
+        }
+      },
+      "type": {
+        "label": "Marathon type",
+        "online": "Online",
+        "onsite": "Onsite / in persoon"
+      }
+    },
+    "submissions": {
+      "export": "Exporteer naar CSV bestand",
+      "table": {
+        "actions": "Acties",
+        "answer": "Antwoord",
+        "category": "Categorie",
+        "categoryDescription": "Category beschrijving",
+        "console": "Console",
+        "estimate": "Geschatte tijd",
+        "game": "Game",
+        "gameDescription": "Game beschrijving",
+        "question": "Vraag",
+        "runner": "Runner",
+        "status": "Status",
+        "type": "Type"
+      },
+      "tabs": {
+        "answers": "Antwoorden",
+        "submissions": "Submissions"
+      },
+      "title": "Submissions"
+    },
+    "submit": {
+      "action": {
+        "addCategory": "Categorie toevoegen",
+        "removeGame": "Game verwijderen"
+      },
+      "availabilities": {
+        "actions": "Acties",
+        "add": "Beschikbaarheid toevoegen",
+        "duplicate": "Dupliceren naar de volgende dag",
+        "error": {
+          "dateRequired": "Datum is verplicht",
+          "required": "Je moet tenminste 1 beschikbaarheidsperiode toevoegen"
+        },
+        "from": "Van",
+        "label": "Beschikbaarheid",
+        "to": "Tot"
+      },
+      "category": {
+        "code": {
+          "help": {
+            "noCode": "Nadat je deze submissie opgeslagen hebt, zal je een code worden uitgereikt die je aan andere geïnteresseerde runners kan geven",
+            "withCode": "Geef de volgende code aan andere runners zodat zij bij deze submission kunnen aansluiten:"
+          }
+        },
+        "description": {
+          "error": {
+            "required": "Categorie beschrijving is verplicht"
+          },
+          "help": "Geef details voor deze categorie",
+          "label": "Categorie beschrijving"
+        },
+        "estimate": {
+          "error": {
+            "min": "Geschatte lengte is ongeldig. Deze moet langer duren dan 0 seconden",
+            "pattern": "Geschatte lengte is ongeldig. Deze moet in het volgende formaat worden ingevoerd: (HH)H:MM:SS",
+            "required": "Geschatte lengte is verplicht"
+          },
+          "label": "Geschatte lengte"
+        },
+        "name": {
+          "error": {
+            "required": "Categorie naam is verplicht"
+          },
+          "label": "Categorie naam"
+        },
+        "opponent": {
+          "with": "Met:"
+        },
+        "type": {
+          "label": "Type"
+        },
+        "video": {
+          "error": {
+            "required": "Video link is verplicht"
+          },
+          "label": "Video link"
+        }
+      },
+      "customField": {
+        "error": {
+          "required": "Veld is verplicht"
+        }
+      },
+      "details": "Details",
+      "game": {
+        "console": {
+          "emulated": "Geëmuleerd",
+          "error": {
+            "required": "Console is verplicht"
+          },
+          "label": "Console"
+        },
+        "description": {
+          "error": {
+            "required": "Game beschrijving is verplicht"
+          },
+          "help": "Beschrijf de game en algemeenheden van de run",
+          "label": "Game beschrijving"
+        },
+        "name": {
+          "error": {
+            "required": "Game naam is verplicht"
+          },
+          "label": "Game naam"
+        },
+        "ratio": {
+          "error": {
+            "required": "Video aspect ratio is required"
+          },
+          "label": "Video aspect ratio (16/9, 4/3...)"
+        }
+      },
+      "maxCategoriesPerGame": "Maximaal aantal categorieën per game",
+      "maxGamesPerRunner": "Maximaal aantal games per runner",
+      "maxNumberOfScreens": "Maximaal aantal runners per race/coop",
+      "multiplayer": {
+        "code": {
+          "help": "Voer hier een code in om je bij deze multiplayer submission aan te sluiten"
+        },
+        "title": "Multiplayer categorieën"
+      },
+      "racesAllowed": "Races/Coop toegestaan",
+      "submissions": "Submissions",
+      "submitsClosed": "Submissions zijn nu gesloten. Je kan alleen je beschikbaarheid nog bijwerken tot het schema gepubliceerd is.",
+      "table": {
+        "actions": "Acties",
+        "categories": "Categorieën",
+        "games": "Games",
+        "runners": "Runners"
+      },
+      "title": "Runs submitten",
+      "tweet": {
+        "submit": "Ik heb {{games}} gesubmit naar {{marathon}}"
+      }
+    }
+  },
+  "navbar": {
+    "about": "Over",
+    "bugtracker": "Meld fouten en suggesties",
+    "createMarathon": "Nieuwe Marathon",
+    "discord": "Word lid van de officiele Discord server",
+    "donate": "Doneren",
+    "login": {
+      "disclaimer": "Waarschuwing: Als je al een profiel hebt op Oengus, wees er zeker van dat je inlogt met een extern account dat al is gesynchroniseerd met je profiel. Anders wordt er een nieuw profiel gemaakt",
+      "discord": "Log in met Discord",
+      "title": "Inloggen",
+      "twitch": "Log in met Twitch",
+      "twitter": "Log in met Twitter"
+    },
+    "logout": "Uitloggen",
+    "privacyConsent": "Door op accepteren te klikken, sta je Oengus toe om cookies te plaatsen voor webverkeer-analytische doeleinden. Lees meer over onze privacybeleid op onze \"Over ons\" pagina.",
+    "settings": "Instellingen",
+    "translate": "Help deze website te vertalen",
+    "twitter": "Volg ons op Twitter"
+  },
+  "user": {
+    "settings": {
+      "accountSync": {
+        "description": "Je kan hier je social media accounts synchroniseren. Je kan hierna naar je Oengus account verbinden met je gesynchroniseerde accounts. Vergeet niet om op \"Opslaan\" te drukken na het synchroniseren.",
+        "error": {
+          "noService": "Je moet op z'n minst 1 service synroniseren met je account"
+        },
+        "sync": "Synchroniseer account",
+        "title": "Accounts synchroniseren",
+        "unsync": "Verwijder account"
+      },
+      "deactivateAccount": {
+        "description": "Je account deactiveren zal voorkomen dat je kan inloggen, en moderators kunnen je dan niet toevoegen aan een marathon als moderator, of als een runner aan een schema. Alle data blijft bewaard voor consistentie, maar je sociale netwerken zullen niet meer verschijnen op schema's en in submissie lijsten. Als je je account in de toekomst weer wil gebruiken, contacteer een administrator.",
+        "title": "Deactiveer je account"
+      },
+      "email": {
+        "error": {
+          "email": "Email is ongeldig",
+          "required": "Email is verplicht"
+        },
+        "label": "Email"
+      },
+      "general": "Algemene informatie",
+      "new": {
+        "beforeWeStart": "Voor we beginnen...",
+        "description": "We hebben wat extra informatie over jou nodig. Neem even de tijd om de gaten in te vullen."
+      },
+      "srcom": {
+        "error": {
+          "max": "Speedrun.com gebruikersnaam is te lang",
+          "pattern": "Speedrun.com gebruikersnaam is ongeldig"
+        }
+      },
+      "title": "Wijzig mijn profiel",
+      "twitch": {
+        "disabled": {
+          "help": "Dit veld is uitgeschakeld omdat je gesynchroniseerd hebt met je Twitch account. Als je Twitch naam veranderd is, synchroniseer dan opnieuw met je Twitch account om deze te updaten."
+        },
+        "error": {
+          "max": "Twitch naam is te lang",
+          "pattern": "Twitch naam is ongeldig"
+        }
+      },
+      "twitter": {
+        "disabled": {
+          "help": "Dit veld is uitgeschakeld omdat je gesynchroniseerd hebt met je Twitter account. Als je Twitter naam veranderd is, synchroniseer dan opnieuw met je Twitter account om deze te updaten."
+        },
+        "error": {
+          "max": "Twitter naam is te lang",
+          "pattern": "Twitter naam is ongeldig"
+        }
+      },
+      "username": {
+        "error": {
+          "exists": "Gebruikernaam bestaat al. Kies een andere of kijk of je al een ander profiel gesynchroniseerd hebt met een ander extern account (Twitch of Discord)",
+          "max": "Gebruikersnaam is te lang",
+          "min": "Gebruikersnaam is te kort",
+          "pattern": "Gebruikersnamen mogen alleen kleine letters, hoofdletters, _ en - bevatten",
+          "required": "Gebruikersnaam is verplicht"
+        },
+        "label": "Gebruikersnaam"
+      },
+      "usernameJapanese": {
+        "error": {
+          "max": "Japanse gebruikersnaam is te lang.",
+          "pattern": "Japanse gebruikersnaam is ongeldig"
+        },
+        "help": "Als je gebruikersnaam naar het japans te vertalen is, gebruik dit veld om het te tonen met japanse karakters. Dit zal alleen tonen als het locale naar het japans is gezet. Dit veld is optioneel.",
+        "label": "Gebruikersnaam (Japans)"
+      }
+    }
+  }
 }
