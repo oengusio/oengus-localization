@@ -155,12 +155,6 @@
   },
   "marathon": {
     "donate": {
-      "address": {
-        "error": {
-          "max": "L'adresse est trop longue"
-        },
-        "label": "Adresse"
-      },
       "amount": {
         "error": {
           "minNumber": "Le montant du don doit être supérieur à zéro",
@@ -168,53 +162,22 @@
         },
         "label": "Montant du don"
       },
-      "city": {
-        "error": {
-          "max": "Le nom de la ville est trop long"
-        },
-        "label": "Ville"
-      },
       "comment": {
         "label": "Commentaire"
       },
-      "country": {
-        "error": {
-          "max": "Le nom du pays est trop long"
-        },
-        "label": "Pays"
-      },
       "description": "Les dons vont en soutien à {{supportedCharity}}",
       "extra": {
-        "description": "Les informations suivantes ne sont pas requises. Elles sont nécessaires dans le cas où les dons sont déductibles d'impôts. Ces informations ne sont pas affichées publiquement et seront supprimées un mois après la fin de l'événement.",
+        "description": "Les informations suivantes sont nécessaires dans le cas où les dons sont déductibles d'impôts. Ces informations ne sont pas affichées publiquement et seront supprimées un mois après la fin de l'événement.",
         "title": "Informations supplémentaires"
-      },
-      "firstName": {
-        "error": {
-          "max": "Le prénom est trop long"
-        },
-        "label": "Prénom"
-      },
-      "lastName": {
-        "error": {
-          "max": "Le nom est trop long"
-        },
-        "label": "Nom"
       },
       "nickname": {
         "error": {
           "max": "Le pseudonyme est trop long",
-          "pattern": "Un pseudonyme doit être composé uniquement de caractères minuscules ou majuscules, ainsi que _ ou -",
-          "required": "Le pseudonyme est requis"
+          "pattern": "Un pseudonyme doit être composé uniquement de caractères minuscules ou majuscules, ainsi que _ ou -"
         },
         "label": "Pseudonyme"
       },
-      "title": "Faire un don",
-      "zipcode": {
-        "error": {
-          "max": "Le code postal est trop long"
-        },
-        "label": "Code postal"
-      }
+      "title": "Faire un don"
     },
     "donations": {
       "average": "Don moyen",
@@ -420,6 +383,7 @@
         "type": {
           "option": {
             "checkbox": "Case à cocher",
+            "freetext": "Texte libre",
             "select": "Sélection",
             "text": "Texte simple",
             "textArea": "Texte large"

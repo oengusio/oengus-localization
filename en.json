@@ -155,12 +155,6 @@
   },
   "marathon": {
     "donate": {
-      "address": {
-        "error": {
-          "max": "Address is too long"
-        },
-        "label": "Address"
-      },
       "amount": {
         "error": {
           "minNumber": "Donation amount must be superior to zero",
@@ -168,53 +162,22 @@
         },
         "label": "Donation amount"
       },
-      "city": {
-        "error": {
-          "max": "City name is too long"
-        },
-        "label": "City"
-      },
       "comment": {
         "label": "Comment"
       },
-      "country": {
-        "error": {
-          "max": "Country name is too long"
-        },
-        "label": "Country"
-      },
       "description": "Donations are supporting {{supportedCharity}}",
       "extra": {
-        "description": "The following fields are not required. They are necessary in case donating for this event opens for tax reduction. The data is not displayed publicly anywhere, and is deleted one month after the end of the event.",
+        "description": "The following fields are necessary in case donating for this event opens for tax reduction. The data is not displayed publicly anywhere, and is deleted one month after the end of the event.",
         "title": "Extra information"
-      },
-      "firstName": {
-        "error": {
-          "max": "First name is too long"
-        },
-        "label": "First name"
-      },
-      "lastName": {
-        "error": {
-          "max": "Last name is too long"
-        },
-        "label": "Last name"
       },
       "nickname": {
         "error": {
           "max": "Nickname is too long",
-          "pattern": "Nickname is only composed of lowercase characters, uppercase characters, _ and -",
-          "required": "Nickname is required"
+          "pattern": "Nickname is only composed of lowercase characters, uppercase characters, _ and -"
         },
         "label": "Nickname"
       },
-      "title": "Donate",
-      "zipcode": {
-        "error": {
-          "max": "Zipcode is too lon"
-        },
-        "label": "Zip code"
-      }
+      "title": "Donate"
     },
     "donations": {
       "average": "Average donation",
@@ -420,6 +383,7 @@
         "type": {
           "option": {
             "checkbox": "Checkbox",
+            "freetext": "Free text",
             "select": "Select",
             "text": "Text",
             "textArea": "Text area"

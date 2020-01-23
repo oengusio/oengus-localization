@@ -124,30 +124,12 @@
   },
   "marathon": {
     "donate": {
-      "address": {
-        "error": {}
-      },
       "amount": {
         "error": {}
       },
-      "city": {
-        "error": {}
-      },
       "comment": {},
-      "country": {
-        "error": {}
-      },
       "extra": {},
-      "firstName": {
-        "error": {}
-      },
-      "lastName": {
-        "error": {}
-      },
       "nickname": {
-        "error": {}
-      },
-      "zipcode": {
         "error": {}
       }
     },

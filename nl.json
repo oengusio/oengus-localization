@@ -154,12 +154,6 @@
   },
   "marathon": {
     "donate": {
-      "address": {
-        "error": {
-          "max": "Adres is te lang"
-        },
-        "label": "Adres"
-      },
       "amount": {
         "error": {
           "minNumber": "Donatie bedrag moet hoger zijn dan nul",
@@ -167,53 +161,22 @@
         },
         "label": "Donatie bedrag"
       },
-      "city": {
-        "error": {
-          "max": "Stadsnaam is te lang"
-        },
-        "label": "Stad"
-      },
       "comment": {
         "label": "Opmerking"
-      },
-      "country": {
-        "error": {
-          "max": "Landnaam is te lang"
-        },
-        "label": "Land"
       },
       "description": "Donaties ondersteunen {{supportedCharity}}",
       "extra": {
         "description": "De volgende velden zijn niet verplicht in te vullen. Deze zijn nodig in het geval dat dit event zichzelf opent voor belastingsvermindering. Deze data zal nergens publiekelijk vertoond worden, en zal 1 maand na het einde van dit evenement verwijderd worden.",
         "title": "Extra informatie"
       },
-      "firstName": {
-        "error": {
-          "max": "Voornaam is te lang"
-        },
-        "label": "Voornaam"
-      },
-      "lastName": {
-        "error": {
-          "max": "Achternaam is te lang"
-        },
-        "label": "Achternaam"
-      },
       "nickname": {
         "error": {
           "max": "Bijnaam is te lang",
-          "pattern": "Bijnamen kunnen alleen gemaakt worden met hoofdletters, kleine letters, _ en -",
-          "required": "Bijnaam is verplicht"
+          "pattern": "Bijnamen kunnen alleen gemaakt worden met hoofdletters, kleine letters, _ en -"
         },
         "label": "Bijnaam"
       },
-      "title": "Doneer",
-      "zipcode": {
-        "error": {
-          "max": "Postcode is te lang"
-        },
-        "label": "Postcode"
-      }
+      "title": "Doneer"
     },
     "donations": {
       "average": "Gemiddelde donatie",
