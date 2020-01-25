@@ -19,7 +19,6 @@
     "cancel": "Abbrechen",
     "clearAvailabilities": "Verfügbarkeiten zurücksetzen",
     "confirm": "Bestätigen",
-    "deactivate": "Account Deaktivieren",
     "decline": "Ablehnen",
     "join": "Beitreten",
     "save": "Speichern",
@@ -28,6 +27,9 @@
   },
   "alert": {
     "donation": {
+      "export": {
+        "error": "Beim Export ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder wenden Sie sich an einen Administrator."
+      },
       "validate": {
         "success": "Ihre Spende wurde erfolgreich versendet. Vielen Dank für Ihre Spende!"
       }

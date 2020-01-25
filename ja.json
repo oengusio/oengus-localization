@@ -23,6 +23,7 @@
   },
   "alert": {
     "donation": {
+      "export": {},
       "validate": {}
     },
     "game": {

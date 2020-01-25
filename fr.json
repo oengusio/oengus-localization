@@ -19,7 +19,6 @@
     "cancel": "Annuler",
     "clearAvailabilities": "Retirer les disponibilités sélectionnées",
     "confirm": "Confirmer",
-    "deactivate": "Désactiver votre compte",
     "decline": "Refuser",
     "join": "Rejoindre",
     "save": "Sauvegarder",
@@ -28,6 +27,9 @@
   },
   "alert": {
     "donation": {
+      "export": {
+        "error": "Une erreur est survenue lors de l'export. Veuillez recommencer ou contacter un administrateur."
+      },
       "validate": {
         "success": "Votre don a été envoyé avec succès. Merci pour votre don !"
       }
@@ -182,6 +184,7 @@
     "donations": {
       "average": "Don moyen",
       "count": "Nombre de dons",
+      "export": "Exporter en CSV",
       "max": "Montant maximal donné",
       "table": {
         "amount": "Montant",
@@ -719,6 +722,8 @@
         "unsync": "Retirer le compte"
       },
       "deactivateAccount": {
+        "action": "Désactiver",
+        "confirmText": "Êtes vous certain de vouloir désactiver votre compte ? Pour confirmer, veuillez écrire votre pseudonyme et cliquer sur \"Confirmer\"",
         "description": "Désactiver votre compte vous empêchera de pouvoir vous connecter à nouveau, et les modérateurs ne pourront plsu vous ajouter en tant que modérateur d'un marathon ou runner sur un planning. Toutes les données restent stockées, mais vos réseaux sociaux ne seront plus affichés sur les listes de candidatures ou les plannings. Si vous souhaitez utiliser votre compte à nouveau dans le futur, veuillez contacter un administrateur.",
         "title": "Désactiver votre compte"
       },
