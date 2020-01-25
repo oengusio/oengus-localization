@@ -773,6 +773,7 @@
       },
       "usernameJapanese": {
         "error": {
+          "exists": "Gebruikernaam bestaat al.",
           "max": "Japanse gebruikersnaam is te lang.",
           "pattern": "Japanse gebruikersnaam is ongeldig"
         },

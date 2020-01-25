@@ -270,6 +270,7 @@
       "title": "Create a new marathon"
     },
     "schedule": {
+      "currentRun": "Current run",
       "export": {
         "csv": "Export to CSV",
         "ics": "Export to ICS",
@@ -292,6 +293,7 @@
         "selectedRuns": "Selected runs",
         "title": "Schedule management"
       },
+      "nextRun": "Next run {{duration}}",
       "setupBlock": "Setup block",
       "table": {
         "actions": "Actions",
@@ -776,6 +778,7 @@
       },
       "usernameJapanese": {
         "error": {
+          "exists": "Username already exists.",
           "max": "Japanese username is too long.",
           "pattern": "Japanese username is invalid"
         },

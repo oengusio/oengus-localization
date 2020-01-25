@@ -772,6 +772,7 @@
       },
       "usernameJapanese": {
         "error": {
+          "exists": "Der Benutzername existiert schon.",
           "max": "Der Japanische Benutzername ist zu lang.",
           "pattern": "Der japanische Benutzername ist ungültig"
         },
