@@ -172,6 +172,15 @@
         "description": "Die folgenden Felder sind nicht erforderlich. Sie werden benötigt, wenn eine Spende für diese Veranstaltung zur Steuerermäßigung eröffnet wird. Die Daten werden nirgendwo öffentlich angezeigt und einen Monat nach Veranstaltungsende gelöscht.",
         "title": "Zusatzinformation"
       },
+      "incentiveAmount": {
+        "error": {}
+      },
+      "incentives": {
+        "header": {}
+      },
+      "name": {
+        "error": {}
+      },
       "nickname": {
         "error": {
           "max": "Spitzname ist zu lang",
@@ -179,7 +188,10 @@
         },
         "label": "Spitzname"
       },
-      "title": "Spenden"
+      "title": "Spenden",
+      "total": {
+        "error": {}
+      }
     },
     "donations": {
       "average": "Durchschnittliche Spende",

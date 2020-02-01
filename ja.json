@@ -130,7 +130,19 @@
       },
       "comment": {},
       "extra": {},
+      "incentiveAmount": {
+        "error": {}
+      },
+      "incentives": {
+        "header": {}
+      },
+      "name": {
+        "error": {}
+      },
       "nickname": {
+        "error": {}
+      },
+      "total": {
         "error": {}
       }
     },

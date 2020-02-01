@@ -172,6 +172,26 @@
         "description": "The following fields are necessary in case donating for this event opens for tax reduction. The data is not displayed publicly anywhere, and is deleted one month after the end of the event.",
         "title": "Extra information"
       },
+      "incentiveAmount": {
+        "error": {
+          "minNumber": "Amount must be superior to zero",
+          "required": "Amount is required"
+        }
+      },
+      "incentives": {
+        "add": "Add incentive",
+        "description": "Donation incentives can be used to add challenges and influence choices by runners. Would you like to put your donation towards an incentive?",
+        "header": {
+          "action": "Action",
+          "amount": "Amount",
+          "incentive": "Incentive"
+        },
+        "left": "Available amount left:",
+        "title": "Incentives"
+      },
+      "name": {
+        "error": {}
+      },
       "nickname": {
         "error": {
           "max": "Nickname is too long",
@@ -179,7 +199,10 @@
         },
         "label": "Nickname"
       },
-      "title": "Donate"
+      "title": "Donate",
+      "total": {
+        "error": {}
+      }
     },
     "donations": {
       "average": "Average donation",
@@ -209,6 +232,7 @@
         "action": {
           "add": "Add incentive"
         },
+        "approveBid": "This bid has been created by a donator and needs to be approved. Make sure to save after approving!",
         "bidName": {
           "error": {
             "required": "Bid name is required"
