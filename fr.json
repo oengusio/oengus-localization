@@ -180,6 +180,9 @@
       },
       "incentives": {
         "add": "Ajouter un incentive",
+        "bid": {
+          "new": "(Nouveau)"
+        },
         "description": "Les incentives peuvent être utilisés pour ajouter de nouveaux défis et influencer les choix des runners. Voulez vous lier votre don à un ou plusieurs incentives ?",
         "header": {
           "action": "Action",
@@ -255,6 +258,7 @@
             "required": "Le nom est requis"
           }
         },
+        "openBid": "Les donateurs peuvent ajouter de nouvelles enchères",
         "table": {
           "actions": "Actions",
           "currentAmount": "Montant actuel",

@@ -180,6 +180,9 @@
       },
       "incentives": {
         "add": "Add incentive",
+        "bid": {
+          "new": "(New)"
+        },
         "description": "Donation incentives can be used to add challenges and influence choices by runners. Would you like to put your donation towards an incentive?",
         "header": {
           "action": "Action",
@@ -255,6 +258,7 @@
             "required": "Name is required"
           }
         },
+        "openBid": "Donators can add new bids",
         "table": {
           "actions": "Actions",
           "currentAmount": "Current amount",

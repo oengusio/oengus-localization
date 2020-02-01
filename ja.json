@@ -134,6 +134,7 @@
         "error": {}
       },
       "incentives": {
+        "bid": {},
         "header": {}
       },
       "name": {
