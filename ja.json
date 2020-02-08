@@ -323,6 +323,9 @@
         "label": "Discordプライベート設定",
         "private": "Discordはプライベートです"
       },
+      "donationWebhook": {
+        "error": {}
+      },
       "donations": {},
       "endDate": {
         "error": {

@@ -299,6 +299,7 @@
     },
     "schedule": {
       "currentRun": "Run en cours",
+      "dstChange": "Un changement d'heure a lieu pendant le marathon.",
       "export": {
         "csv": "Exporter en CSV",
         "ics": "Exporter en ICS",
@@ -445,6 +446,14 @@
         "help": "Si Discord est en mode privé, le lien d'invitation ne sera pas affiché sur la page d'accueil, mais uniquement dans les mails que les runners sélectionnés recevront.",
         "label": "Confidentialité du serveur Discord",
         "private": "Discord est privé"
+      },
+      "donationWebhook": {
+        "error": {
+          "max": "La taille du lien du webhook est trop longue",
+          "offline": "Le webhook n'a pas pu être atteint. Êtes-vous sûr de l'URL ?"
+        },
+        "help": "Vous pouvez ajouter un webhook pour déclencher un événement à chaque fois qu'un don est fait. Veuillez contacter un administrateur pour plus de détails.",
+        "label": "Webhook"
       },
       "donations": {
         "hasDonations": "C'est un événement caritatif",

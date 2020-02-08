@@ -427,6 +427,9 @@
         "label": "Discord Privatsphäre",
         "private": "Discord ist Privat"
       },
+      "donationWebhook": {
+        "error": {}
+      },
       "donations": {
         "hasDonations": "Dies ist eine Wohltätigkeitsveranstaltung",
         "label": "Spendenunterstützung"
