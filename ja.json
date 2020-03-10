@@ -327,6 +327,7 @@
         "error": {}
       },
       "donations": {},
+      "donationsOpen": {},
       "endDate": {
         "error": {
           "required": "予定終了日時は必須です"

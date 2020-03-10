@@ -169,7 +169,7 @@
       },
       "description": "Donations are supporting {{supportedCharity}}",
       "extra": {
-        "description": "The following fields are necessary in case donating for this event opens for tax reduction. The data is not displayed publicly anywhere, and is deleted one month after the end of the event.",
+        "description": "The data is not displayed publicly anywhere, and is deleted one month after the end of the event.",
         "title": "Extra information"
       },
       "incentiveAmount": {
@@ -456,8 +456,12 @@
         "label": "Webhook"
       },
       "donations": {
+        "donationsOpen": "Donations are open",
         "hasDonations": "This is a charity event",
         "label": "Donations support"
+      },
+      "donationsOpen": {
+        "label": "Donations page display"
       },
       "endDate": {
         "error": {

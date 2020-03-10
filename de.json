@@ -169,7 +169,7 @@
       },
       "description": "Spenden unterstützen {{supportedCharity}}",
       "extra": {
-        "description": "Die folgenden Felder sind nicht erforderlich. Sie werden benötigt, wenn eine Spende für diese Veranstaltung zur Steuerermäßigung eröffnet wird. Die Daten werden nirgendwo öffentlich angezeigt und einen Monat nach Veranstaltungsende gelöscht.",
+        "description": "Die Daten werden nirgendwo öffentlich angezeigt und einen Monat nach Veranstaltungsende gelöscht.",
         "title": "Zusatzinformation"
       },
       "incentiveAmount": {
@@ -434,6 +434,7 @@
         "hasDonations": "Dies ist eine Wohltätigkeitsveranstaltung",
         "label": "Spendenunterstützung"
       },
+      "donationsOpen": {},
       "endDate": {
         "error": {
           "required": "Voraussichtliches Enddatum ist erforderlich"

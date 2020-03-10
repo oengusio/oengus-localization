@@ -167,9 +167,9 @@
       "comment": {
         "label": "Commentaire"
       },
-      "description": "Les dons vont en soutien à {{supportedCharity}}",
+      "description": "Vos dons font les actions de {{supportedCharity}}",
       "extra": {
-        "description": "Les informations suivantes sont nécessaires dans le cas où les dons sont déductibles d'impôts. Ces informations ne sont pas affichées publiquement et seront supprimées un mois après la fin de l'événement.",
+        "description": "Ces informations ne sont pas affichées publiquement et seront supprimées un mois après la fin de l'événement.",
         "title": "Informations supplémentaires"
       },
       "incentiveAmount": {
@@ -456,8 +456,12 @@
         "label": "Webhook"
       },
       "donations": {
+        "donationsOpen": "Les dons sont ouverts",
         "hasDonations": "C'est un événement caritatif",
         "label": "Support des dons"
+      },
+      "donationsOpen": {
+        "label": "Affichage de la page de dons"
       },
       "endDate": {
         "error": {

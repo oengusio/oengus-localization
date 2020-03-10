@@ -169,7 +169,7 @@
       },
       "description": "Donaties ondersteunen {{supportedCharity}}",
       "extra": {
-        "description": "De volgende velden zijn nodig in het geval dat dit event zichzelf opent voor belastingsvermindering. Deze data zal nergens publiekelijk vertoond worden, en zal 1 maand na het einde van dit evenement verwijderd worden.",
+        "description": "Deze data zal nergens publiekelijk vertoond worden, en zal 1 maand na het einde van dit evenement verwijderd worden.",
         "title": "Extra informatie"
       },
       "incentiveAmount": {
@@ -438,6 +438,7 @@
         "hasDonations": "Dit is een liefdadigheidsevenement",
         "label": "Donatie ondersteuning"
       },
+      "donationsOpen": {},
       "endDate": {
         "error": {
           "required": "Geschatte eindtijd is verplicht"
