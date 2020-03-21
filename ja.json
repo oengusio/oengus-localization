@@ -331,6 +331,7 @@
       },
       "donations": {},
       "donationsOpen": {},
+      "emulatorAuthorized": {},
       "endDate": {
         "error": {
           "required": "予定終了日時は必須です"
@@ -451,7 +452,8 @@
         "label": "マラソンの種類",
         "online": "オンライン",
         "onsite": "会場"
-      }
+      },
+      "videoRequired": {}
     },
     "submissions": {
       "table": {

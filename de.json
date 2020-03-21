@@ -435,6 +435,7 @@
         "label": "Spendenunterstützung"
       },
       "donationsOpen": {},
+      "emulatorAuthorized": {},
       "endDate": {
         "error": {
           "required": "Voraussichtliches Enddatum ist erforderlich"
@@ -566,7 +567,8 @@
         "label": "Art des Marathons",
         "online": "Online",
         "onsite": "Vor Ort / IRL"
-      }
+      },
+      "videoRequired": {}
     },
     "submissions": {
       "export": "In CSV exportieren",

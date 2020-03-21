@@ -463,6 +463,7 @@
       "donationsOpen": {
         "label": "Donatie pagina weergave"
       },
+      "emulatorAuthorized": {},
       "endDate": {
         "error": {
           "required": "Geschatte eindtijd is verplicht"
@@ -594,7 +595,8 @@
         "label": "Marathon type",
         "online": "Online",
         "onsite": "Onsite / in persoon"
-      }
+      },
+      "videoRequired": {}
     },
     "submissions": {
       "export": "Exporteer naar CSV bestand",

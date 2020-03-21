@@ -466,6 +466,10 @@
       "donationsOpen": {
         "label": "Donations page display"
       },
+      "emulatorAuthorized": {
+        "allowed": "Emulators are allowed",
+        "label": "Emulators"
+      },
       "endDate": {
         "error": {
           "required": "Estimated end date is required"
@@ -597,6 +601,11 @@
         "label": "Marathon type",
         "online": "Online",
         "onsite": "Onsite/IRL"
+      },
+      "unlimited": "Unlimited",
+      "videoRequired": {
+        "allowed": "Video is required",
+        "label": "Video requirement"
       }
     },
     "submissions": {
@@ -688,6 +697,7 @@
       "game": {
         "console": {
           "emulated": "Emulated",
+          "emulatorNotAllowed": "Emulators are not allowed for this marathon",
           "error": {
             "required": "Console is required"
           },
