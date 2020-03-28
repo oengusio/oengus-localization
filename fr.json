@@ -258,6 +258,7 @@
             "required": "Le nom est requis"
           }
         },
+        "noSchedule": "Vous devez ajouter des éléments à votre planning avant d'ajouter des incentives",
         "openBid": "Les donateurs peuvent ajouter de nouvelles enchères",
         "table": {
           "actions": "Actions",

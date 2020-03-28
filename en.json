@@ -258,6 +258,7 @@
             "required": "Name is required"
           }
         },
+        "noSchedule": "You must add elements to your schedule before adding incentives",
         "openBid": "Donators can add new bids",
         "table": {
           "actions": "Actions",
