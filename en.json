@@ -625,10 +625,16 @@
       }
     },
     "submissions": {
-      "category": {},
+      "category": {
+        "delete": "Delete the category"
+      },
       "export": "Export to CSV",
-      "game": {},
-      "submission": {},
+      "game": {
+        "delete": "Delete the game. It will also delete its categories."
+      },
+      "submission": {
+        "delete": "Delete submission. This will delete all games from this user for this marathon."
+      },
       "table": {
         "actions": "Actions",
         "answer": "Answer",
