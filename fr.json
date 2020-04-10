@@ -26,15 +26,26 @@
     "submit": "Envoyer"
   },
   "alert": {
+    "category": {
+      "deletion": {
+        "error": "Une erreur est survenue lors de la suppression de la catégorie. Veuillez recommencer ou contacter un administrateur.",
+        "success": "La catégorie a été supprimée"
+      }
+    },
     "donation": {
       "export": {
         "error": "Une erreur est survenue lors de l'export. Veuillez recommencer ou contacter un administrateur."
       },
       "validate": {
+        "error": "Une erreur est survenue lors du processus de don. Veuillez recommencer ou contacter un administrateur.",
         "success": "Votre don a été envoyé avec succès. Merci pour votre don !"
       }
     },
     "game": {
+      "deletion": {
+        "error": "Une erreur est survenue lors de la suppression du jeu. Veuillez recommencer ou contacter un administrateur.",
+        "success": "Le jeu a été supprimé"
+      },
       "export": {
         "error": "Une erreur est survenue lors de l'export. Veuillez recommencer ou contacter un administrateur."
       }
@@ -79,6 +90,10 @@
       }
     },
     "submission": {
+      "deletion": {
+        "error": "Une erreur est survenue lors de la suppression de la candidature. Veuillez recommencer ou contacter un administrateur.",
+        "success": "La candidature a été supprimée"
+      },
       "save": {
         "error": "Erreur lors de l'envoi de la candidature",
         "success": "Candidature envoyée avec succès"
@@ -610,7 +625,10 @@
       }
     },
     "submissions": {
+      "category": {},
       "export": "Exporter en CSV",
+      "game": {},
+      "submission": {},
       "table": {
         "actions": "Actions",
         "answer": "Réponse",

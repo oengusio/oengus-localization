@@ -1,1 +1,292 @@
-{}
+{
+  "aboutPage": {
+    "about": {},
+    "contact": {}
+  },
+  "action": {},
+  "alert": {
+    "category": {
+      "deletion": {}
+    },
+    "donation": {
+      "export": {},
+      "validate": {}
+    },
+    "game": {
+      "deletion": {},
+      "export": {}
+    },
+    "incentives": {
+      "delete": {},
+      "save": {}
+    },
+    "marathon": {
+      "creation": {},
+      "deletion": {},
+      "update": {}
+    },
+    "schedule": {
+      "export": {},
+      "save": {}
+    },
+    "selection": {
+      "save": {}
+    },
+    "submission": {
+      "deletion": {},
+      "save": {}
+    },
+    "submit": {},
+    "user": {
+      "deactivate": {},
+      "login": {},
+      "sync": {},
+      "update": {}
+    }
+  },
+  "calendar": {},
+  "footer": {},
+  "global": {},
+  "homepage": {
+    "marathons": {},
+    "plannedFeatures": {},
+    "welcomeText": {
+      "par4": {}
+    }
+  },
+  "login": {},
+  "marathon": {
+    "donate": {
+      "amount": {
+        "error": {}
+      },
+      "comment": {},
+      "extra": {},
+      "incentiveAmount": {
+        "error": {}
+      },
+      "incentives": {
+        "bid": {},
+        "header": {}
+      },
+      "name": {
+        "error": {}
+      },
+      "nickname": {
+        "error": {}
+      },
+      "total": {
+        "error": {}
+      }
+    },
+    "donations": {
+      "table": {}
+    },
+    "help": {},
+    "home": {},
+    "incentives": {
+      "management": {
+        "action": {},
+        "bidName": {
+          "error": {}
+        },
+        "currentAmount": {
+          "error": {}
+        },
+        "goal": {
+          "error": {}
+        },
+        "name": {
+          "error": {}
+        },
+        "table": {}
+      }
+    },
+    "menu": {},
+    "new": {},
+    "schedule": {
+      "export": {},
+      "management": {
+        "action": {},
+        "help": {}
+      },
+      "table": {},
+      "type": {}
+    },
+    "selection": {
+      "action": {},
+      "availabilities": {},
+      "help": {},
+      "publish": {},
+      "selection": {},
+      "statistics": {
+        "table": {}
+      },
+      "status": {}
+    },
+    "settings": {
+      "country": {},
+      "currencyIso": {
+        "error": {}
+      },
+      "customFields": {
+        "action": {},
+        "label": {
+          "error": {}
+        },
+        "option": {
+          "error": {}
+        },
+        "required": {},
+        "type": {
+          "option": {}
+        }
+      },
+      "defaultSetupTime": {
+        "error": {}
+      },
+      "delete": {},
+      "discord": {
+        "error": {}
+      },
+      "discordPrivacy": {},
+      "donationWebhook": {
+        "error": {}
+      },
+      "donations": {},
+      "donationsOpen": {},
+      "emulatorAuthorized": {},
+      "endDate": {
+        "error": {}
+      },
+      "incentives": {},
+      "language": {},
+      "location": {},
+      "marathonDescription": {},
+      "maxCategoriesPerGame": {
+        "error": {}
+      },
+      "maxGamesPerRunner": {
+        "error": {}
+      },
+      "maxNumberOfScreens": {
+        "error": {}
+      },
+      "moderators": {},
+      "multiplayer": {},
+      "name": {
+        "error": {}
+      },
+      "payee": {
+        "error": {}
+      },
+      "privacy": {},
+      "sandbox": {},
+      "shortname": {
+        "error": {}
+      },
+      "startDate": {
+        "error": {}
+      },
+      "submissions": {},
+      "supportedCharity": {
+        "error": {}
+      },
+      "tabs": {},
+      "twitch": {
+        "error": {}
+      },
+      "twitter": {
+        "error": {}
+      },
+      "type": {},
+      "videoRequired": {}
+    },
+    "submissions": {
+      "category": {},
+      "game": {},
+      "submission": {},
+      "table": {},
+      "tabs": {}
+    },
+    "submit": {
+      "action": {},
+      "availabilities": {
+        "error": {}
+      },
+      "category": {
+        "code": {
+          "help": {}
+        },
+        "description": {
+          "error": {}
+        },
+        "estimate": {
+          "error": {}
+        },
+        "name": {
+          "error": {}
+        },
+        "opponent": {},
+        "type": {},
+        "video": {
+          "error": {}
+        }
+      },
+      "customField": {
+        "error": {}
+      },
+      "game": {
+        "console": {
+          "error": {}
+        },
+        "description": {
+          "error": {}
+        },
+        "name": {
+          "error": {}
+        },
+        "ratio": {
+          "error": {}
+        }
+      },
+      "multiplayer": {
+        "code": {}
+      },
+      "table": {},
+      "tweet": {}
+    }
+  },
+  "navbar": {
+    "login": {}
+  },
+  "user": {
+    "settings": {
+      "accountSync": {
+        "error": {}
+      },
+      "deactivateAccount": {},
+      "email": {
+        "error": {}
+      },
+      "new": {},
+      "srcom": {
+        "error": {}
+      },
+      "twitch": {
+        "disabled": {},
+        "error": {}
+      },
+      "twitter": {
+        "disabled": {},
+        "error": {}
+      },
+      "username": {
+        "error": {}
+      },
+      "usernameJapanese": {
+        "error": {}
+      }
+    }
+  }
+}

@@ -22,11 +22,15 @@
     "submit": "送信"
   },
   "alert": {
+    "category": {
+      "deletion": {}
+    },
     "donation": {
       "export": {},
       "validate": {}
     },
     "game": {
+      "deletion": {},
       "export": {}
     },
     "incentives": {
@@ -69,6 +73,7 @@
       }
     },
     "submission": {
+      "deletion": {},
       "save": {
         "error": "応募に失敗しました",
         "success": "応募に成功しました"
@@ -456,6 +461,9 @@
       "videoRequired": {}
     },
     "submissions": {
+      "category": {},
+      "game": {},
+      "submission": {},
       "table": {
         "actions": "操作",
         "category": "カテゴリー",

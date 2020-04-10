@@ -26,6 +26,9 @@
     "submit": "Opslaan"
   },
   "alert": {
+    "category": {
+      "deletion": {}
+    },
     "donation": {
       "export": {
         "error": "Er is een fout opgetreden tijdens de export. Probeer het opnieuw of contacteer een administrator."
@@ -35,6 +38,7 @@
       }
     },
     "game": {
+      "deletion": {},
       "export": {
         "error": "Er is een fout opgetreden tijdens de export. Probeer het opnieuw of contacteer een administrator."
       }
@@ -79,6 +83,7 @@
       }
     },
     "submission": {
+      "deletion": {},
       "save": {
         "error": "Fout tijdens het opgeven van je submission",
         "success": "Submission succesvol verzonden"
@@ -599,7 +604,10 @@
       "videoRequired": {}
     },
     "submissions": {
+      "category": {},
       "export": "Exporteer naar CSV bestand",
+      "game": {},
+      "submission": {},
       "table": {
         "actions": "Acties",
         "answer": "Antwoord",

@@ -26,15 +26,26 @@
     "submit": "Submit"
   },
   "alert": {
+    "category": {
+      "deletion": {
+        "error": "An error happened during category deletion. Please try again or contact an administrator.",
+        "success": "Category successfully deleted"
+      }
+    },
     "donation": {
       "export": {
         "error": "An error happened during export. Please try again or contact an administrator."
       },
       "validate": {
+        "error": "An error happened during the donation process. Please try again or contact an administrator.",
         "success": "Your donation has been successfully sent. Thank you for donating!"
       }
     },
     "game": {
+      "deletion": {
+        "error": "An error happened during game deletion. Please try again or contact an administrator.",
+        "success": "Game was successfully deleted"
+      },
       "export": {
         "error": "An error happened during export. Please try again or contact an administrator."
       }
@@ -79,6 +90,10 @@
       }
     },
     "submission": {
+      "deletion": {
+        "error": "An error happened during submission deletion. Please try again or contact an administrator.",
+        "success": "Submission successfully deleted"
+      },
       "save": {
         "error": "Error during submission process",
         "success": "Submission sent successfully"
@@ -610,7 +625,10 @@
       }
     },
     "submissions": {
+      "category": {},
       "export": "Export to CSV",
+      "game": {},
+      "submission": {},
       "table": {
         "actions": "Actions",
         "answer": "Answer",

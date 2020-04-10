@@ -26,6 +26,9 @@
     "submit": "Absenden"
   },
   "alert": {
+    "category": {
+      "deletion": {}
+    },
     "donation": {
       "export": {
         "error": "Beim Export ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder wenden Sie sich an einen Administrator."
@@ -35,6 +38,7 @@
       }
     },
     "game": {
+      "deletion": {},
       "export": {
         "error": "Beim Export ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder wenden Sie sich an einen Administrator."
       }
@@ -79,6 +83,7 @@
       }
     },
     "submission": {
+      "deletion": {},
       "save": {
         "error": "Fehler bei der Submission",
         "success": "Submission erfolgreich gesendet"
@@ -571,7 +576,10 @@
       "videoRequired": {}
     },
     "submissions": {
+      "category": {},
       "export": "In CSV exportieren",
+      "game": {},
+      "submission": {},
       "table": {
         "actions": "Aktionen",
         "answer": "Antwort",
