@@ -162,7 +162,18 @@
     "marathon": {
         "menu": {
             "donate": "Dona",
-            "editSubmission": "Editar juego postulado"
+            "editSubmission": "Editar juego postulado",
+            "admin": "Administrador",
+            "donations": "Donaciones",
+            "home": "Inicio",
+            "incentives": "Incentivos",
+            "loginToSubmit": "Inicia sesión para poder postular",
+            "manageIncentives": "Gestión de incentivos",
+            "manageSchedule": "Gestionar horario",
+            "settings": "Configuración",
+            "moderators": "Moderadores",
+            "overview": "Vista previa",
+            "schedule": "Horario"
         },
         "donate": {
             "description": "Las donaciones van destinadas a {{supportedCharity}}",
