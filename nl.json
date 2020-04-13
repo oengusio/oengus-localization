@@ -601,7 +601,11 @@
         "online": "Online",
         "onsite": "Onsite / in persoon"
       },
-      "videoRequired": {}
+      "videoRequired": {},
+      "youtube": {
+        "error": {},
+        "help": {}
+      }
     },
     "submissions": {
       "category": {},

@@ -554,6 +554,7 @@
           "max": "Payee is too long",
           "required": "Payee is required"
         },
+        "help": "Payee must be an email address linked to a Paypal account",
         "label": "Payee"
       },
       "privacy": {
@@ -622,6 +623,14 @@
       "videoRequired": {
         "allowed": "Video is required",
         "label": "Video requirement"
+      },
+      "youtube": {
+        "error": {
+          "pattern": "Youtube channel URL is invalid"
+        },
+        "help": {
+          "url": "Full URL must be entered"
+        }
       }
     },
     "submissions": {

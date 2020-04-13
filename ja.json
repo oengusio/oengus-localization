@@ -458,7 +458,11 @@
         "online": "オンライン",
         "onsite": "会場"
       },
-      "videoRequired": {}
+      "videoRequired": {},
+      "youtube": {
+        "error": {},
+        "help": {}
+      }
     },
     "submissions": {
       "category": {},

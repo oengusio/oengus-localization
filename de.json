@@ -573,7 +573,11 @@
         "online": "Online",
         "onsite": "Vor Ort / IRL"
       },
-      "videoRequired": {}
+      "videoRequired": {},
+      "youtube": {
+        "error": {},
+        "help": {}
+      }
     },
     "submissions": {
       "category": {},

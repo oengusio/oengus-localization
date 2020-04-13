@@ -1,87 +1,87 @@
 {
-    "aboutPage": {
-        "about": {
-            "par5": "Trivia: Oengus es la divinidad celta del tiempo y la eternidad. ¡Un nombre perfecto para maratones de speedrun!",
-            "par4": "Esta plataforma ha sido creado por <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>. Participante en la comunidad speedrunner desde 2013, ha contribuido en la comunidad de muchas maneras: moderador global de <a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a> durante tres años, creador del <a href=\"https://twitter.com/SpeedrunWRs\">Speedrun WRs Twitter bot</a>, miembro del equipo francés de restream, que proporciona restreams de maratones internacionales para la audiencia francesa, y fundador de Bourg la Run, el equivalente francés a Games Done Quick. Después de acumular toda esta experiencia, y tras evaluar que no hay herramientas públicas de buena calidad para organizar maratones, ha decidido crear una y Oengus es el resultado.",
-            "title": "Acerca de",
-            "par1": "Oengus es una plataforma que proporciona herramientas para la organización de maratones de speedrun.",
-            "par2": "El Speedrunning es el acto de jugar a un videojuego con la intención de completarlo lo mas rápido posible, con el propósito de entretener y/o de forma competitiva. Puedes leer mas acerca del speedrunning en \n<a href=\"https://es.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedia</a>.",
-            "par3": "Los maratones de speedrunning son eventos donde los speedrunners se reúnen para mostrar sus runs a los espectadores, bien de forma online, presencial, o ambas. Los eventos mas populares son los \n<a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a> , organizados de forma semestral."
-        },
-        "contact": {
-            "par1": "¿Has encontrado un bug? ¿Tienes dudas acerca de la plataforma? Entra a <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">nuestro servidor de Discord</a>",
-            "par2": "Para consultas de negocios y/o relaciones públicas, escribe un correo a contact@oengus.io",
-            "title": "Contacto"
-        }
+  "aboutPage": {
+    "about": {
+      "par1": "Oengus es una plataforma que proporciona herramientas para la organización de maratones de speedrun.",
+      "par2": "El Speedrunning es el acto de jugar a un videojuego con la intención de completarlo lo mas rápido posible, con el propósito de entretener y/o de forma competitiva. Puedes leer mas acerca del speedrunning en \n<a href=\"https://es.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedia</a>.",
+      "par3": "Los maratones de speedrunning son eventos donde los speedrunners se reúnen para mostrar sus runs a los espectadores, bien de forma online, presencial, o ambas. Los eventos mas populares son los \n<a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a> , organizados de forma semestral.",
+      "par4": "Esta plataforma ha sido creado por <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>. Participante en la comunidad speedrunner desde 2013, ha contribuido en la comunidad de muchas maneras: moderador global de <a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a> durante tres años, creador del <a href=\"https://twitter.com/SpeedrunWRs\">Speedrun WRs Twitter bot</a>, miembro del equipo francés de restream, que proporciona restreams de maratones internacionales para la audiencia francesa, y fundador de Bourg la Run, el equivalente francés a Games Done Quick. Después de acumular toda esta experiencia, y tras evaluar que no hay herramientas públicas de buena calidad para organizar maratones, ha decidido crear una y Oengus es el resultado.",
+      "par5": "Trivia: Oengus es la divinidad celta del tiempo y la eternidad. ¡Un nombre perfecto para maratones de speedrun!",
+      "title": "Acerca de"
     },
-    "action": {
-        "clearAvailabilities": "Borrar disponibilidades seleccionadas",
-        "decline": "Rechazar",
-        "save": "Guardar",
-        "sendTweet": "Enviar Tweet",
-        "submit": "Enviar",
-        "accept": "Aceptar",
-        "cancel": "Cancelar",
-        "confirm": "Confirmar",
-        "join": "Únete"
-    },
-    "alert": {
-        "category": {
-            "deletion": {
-                "error": "Ha ocurrido un error durante el borrado de la categoría. Por favor, inténtelo de nuevo o contacta con un administrador.",
-                "success": "Categoría borrada correctamente"
-            }
-        },
-        "donation": {
-            "export": {
-                "error": "Ha ocurrido un error durante la exportación. Por favor, inténtelo de nuevo o contacta con un administrador."
-            },
-            "validate": {
-                "error": "Ha ocurrido un error durante el proceso de donación. Por favor, inténtelo de nuevo o contacta con un administrador.",
-                "success": "Tu donación se ha enviado correctamente. ¡Gracias por donar!"
-            }
-        },
-        "incentives": {
-            "delete": {
-                "success": "Incentivo borrado correctamente",
-                "error": "Ha ocurrido un error durante el borrado del incentivo. Por favor, inténtelo de nuevo o contacta con un administrador."
-            },
-            "save": {
-                "error": "Ha ocurrido un error durante el guardado de incentivos. Por favor, inténtelo de nuevo o contacta con un administrador.",
-                "success": "Incentivos guardados correctamente."
-            }
-        },
-        "marathon": {
-            "creation": {
-                "success": "Maratón creada correctamente",
-                "error": "Ha ocurrido un error durante la creación de la maratón"
-            },
-            "update": {
-                "success": "Maratón actualizada correctamente",
-                "error": "Ha ocurrido un error al actualizar la maratón"
-            },
-            "deletion": {
-                "error": "Ha ocurrido un error durante el borrado de la maratón",
-                "success": "Maratón borrada correctamente"
-            }
-        },
-        "schedule": {
-            "export": {
-                "error": "Ha ocurrido un error al exportar. Por favor, inténtelo de nuevo o contacta con un administrador."
-            },
-            "save": {
-                "error": "Ha ocurrido un error al guardar el horario",
-                "success": "Horario guardado correctamente"
-            }
-        },
-        "game": {
-            "export": {
-                "error": "Ha ocurrido un error al exportar. Por favor, inténtelo de nuevo o contacta con un administrador."
-            },
-            "deletion": {
-                "error": "Ha ocurrido un error al borrar el juego. Por favor, inténtelo de nuevo o contacta con un administrador.",
-                "success": "El juego ha sido borrado correctamente"
-            }
-        }
+    "contact": {
+      "par1": "¿Has encontrado un bug? ¿Tienes dudas acerca de la plataforma? Entra a <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">nuestro servidor de Discord</a>",
+      "par2": "Para consultas de negocios y/o relaciones públicas, escribe un correo a contact@oengus.io",
+      "title": "Contacto"
     }
+  },
+  "action": {
+    "accept": "Aceptar",
+    "cancel": "Cancelar",
+    "clearAvailabilities": "Borrar disponibilidades seleccionadas",
+    "confirm": "Confirmar",
+    "decline": "Rechazar",
+    "join": "Únete",
+    "save": "Guardar",
+    "sendTweet": "Enviar Tweet",
+    "submit": "Enviar"
+  },
+  "alert": {
+    "category": {
+      "deletion": {
+        "error": "Ha ocurrido un error durante el borrado de la categoría. Por favor, inténtelo de nuevo o contacta con un administrador.",
+        "success": "Categoría borrada correctamente"
+      }
+    },
+    "donation": {
+      "export": {
+        "error": "Ha ocurrido un error durante la exportación. Por favor, inténtelo de nuevo o contacta con un administrador."
+      },
+      "validate": {
+        "error": "Ha ocurrido un error durante el proceso de donación. Por favor, inténtelo de nuevo o contacta con un administrador.",
+        "success": "Tu donación se ha enviado correctamente. ¡Gracias por donar!"
+      }
+    },
+    "game": {
+      "deletion": {
+        "error": "Ha ocurrido un error al borrar el juego. Por favor, inténtelo de nuevo o contacta con un administrador.",
+        "success": "El juego ha sido borrado correctamente"
+      },
+      "export": {
+        "error": "Ha ocurrido un error al exportar. Por favor, inténtelo de nuevo o contacta con un administrador."
+      }
+    },
+    "incentives": {
+      "delete": {
+        "error": "Ha ocurrido un error durante el borrado del incentivo. Por favor, inténtelo de nuevo o contacta con un administrador.",
+        "success": "Incentivo borrado correctamente"
+      },
+      "save": {
+        "error": "Ha ocurrido un error durante el guardado de incentivos. Por favor, inténtelo de nuevo o contacta con un administrador.",
+        "success": "Incentivos guardados correctamente."
+      }
+    },
+    "marathon": {
+      "creation": {
+        "error": "Ha ocurrido un error durante la creación de la maratón",
+        "success": "Maratón creada correctamente"
+      },
+      "deletion": {
+        "error": "Ha ocurrido un error durante el borrado de la maratón",
+        "success": "Maratón borrada correctamente"
+      },
+      "update": {
+        "error": "Ha ocurrido un error al actualizar la maratón",
+        "success": "Maratón actualizada correctamente"
+      }
+    },
+    "schedule": {
+      "export": {
+        "error": "Ha ocurrido un error al exportar. Por favor, inténtelo de nuevo o contacta con un administrador."
+      },
+      "save": {
+        "error": "Ha ocurrido un error al guardar el horario",
+        "success": "Horario guardado correctamente"
+      }
+    }
+  }
 }
