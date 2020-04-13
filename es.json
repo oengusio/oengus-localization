@@ -170,7 +170,7 @@
             "loginToSubmit": "Inicia sesión para poder postular",
             "manageIncentives": "Gestión de incentivos",
             "manageSchedule": "Gestionar horario",
-            "settings": "Configuración",
+            "settings": "Ajustes",
             "moderators": "Moderadores",
             "overview": "Vista previa",
             "schedule": "Horario"
@@ -255,6 +255,115 @@
             "title": "Donaciones",
             "total": "Donaciones totales",
             "export": "Exportar como CSV"
+        },
+        "schedule": {
+            "dstChange": "Se produce un cambio de huso horario durante esta maratón.",
+            "export": {
+                "title": "Exportar horario"
+            }
+        },
+        "settings": {
+            "currencyIso": {
+                "error": {
+                    "required": "Se requiere un código de divisa"
+                },
+                "help": "El código de divisa debe estar en formato ISO-4217 para Paypal",
+                "label": "Código de divisa"
+            },
+            "customFields": {
+                "description2": "Sugerencia: los campos de texto simple están restringidos a un máximo de 50 caracteres. Los bloques de texto están restringidos a un máximo de 500 caracteres.",
+                "label": {
+                    "error": {
+                        "required": "Se requiere una etiqueta"
+                    },
+                    "title": "Etiqueta"
+                },
+                "type": {
+                    "option": {
+                        "textArea": "Área de texto"
+                    }
+                },
+                "add": "Añadir un nuevo campo personalizado"
+            },
+            "dangerZone": "Zona de peligro",
+            "defaultSetupTime": {
+                "label": "Tiempo de setup por defecto",
+                "error": {
+                    "required": "Se requiere un tiempo de setup por defecto",
+                    "pattern": "El tiempo de setup por defecto es inválido. Debe estar en formato (HH)H:MM:SS"
+                }
+            },
+            "delete": {
+                "confirmText": "¿Estás seguro de querer eliminar tu maratón? Para confirmar, por favor, escribe la abreviatura de la maratón y haz click en \"Confirmar\"",
+                "action": "Eliminar maratón"
+            },
+            "discordPrivacy": {
+                "help": "Si Discord está configurado en privado, el link de invitación no será mostrado en la página principal, únicamente lo recibirán en su correo los runners seleccionados.",
+                "label": "Privacidad del Discord",
+                "private": "Discord privado"
+            },
+            "donationWebhook": {
+                "error": {
+                    "max": "El enlace de Webhook es muy largo",
+                    "offline": "No se pudo acceder al enlace de Webhook. ¿Estás seguro que es la URL correcta?"
+                },
+                "help": "Puedes añadir un webhook a los eventos cuando se haga una nueva donación. Por favor, contacta un administrador para mas detalles.",
+                "label": "Webhook"
+            },
+            "location": {
+                "label": "Ubicación"
+            },
+            "endDate": {
+                "label": "Fecha estimada de finalización",
+                "error": {
+                    "required": "Se requiere una fecha estimada de finalización"
+                }
+            },
+            "country": {
+                "label": "País"
+            },
+            "description": "Aquí puedes actualizar los ajustes para tu maratón",
+            "discord": {
+                "error": {
+                    "pattern": "El link de Discord es inválido"
+                }
+            },
+            "generalTitle": "Ajustes generales",
+            "language": {
+                "label": "Idioma"
+            },
+            "marathonDescription": {
+                "help": "Compatible con Markdown",
+                "label": "Descripción"
+            },
+            "incentives": {
+                "hasIncentives": "Esta maratón tiene incentivos",
+                "label": "Estado de los incentivos"
+            },
+            "incentivesTitle": "Ajuste de los incentivos",
+            "donations": {
+                "hasDonations": "Esto es un evento de caridad",
+                "label": "Permitir donaciones",
+                "donationsOpen": "Las donaciones están abiertas"
+            },
+            "emulatorAuthorized": {
+                "allowed": "Los emuladores están permitidos",
+                "label": "Emuladores"
+            }
+        },
+        "new": {
+            "title": "Crear una nueva maratón"
+        },
+        "selection": {
+            "statistics": {
+                "table": {
+                    "numberOfRuns": "Número de runs"
+                }
+            },
+            "status": {
+                "TODO": "Pendiente de hacer"
+            },
+            "title": "Seleccionar runs"
         }
     },
     "calendar": {
