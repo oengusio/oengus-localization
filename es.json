@@ -173,7 +173,8 @@
             "settings": "Ajustes",
             "moderators": "Moderadores",
             "overview": "Vista previa",
-            "schedule": "Horario"
+            "schedule": "Horario",
+            "viewSubmissions": "Ver postulaciones"
         },
         "donate": {
             "description": "Las donaciones van destinadas a {{supportedCharity}}",
@@ -259,8 +260,24 @@
         "schedule": {
             "dstChange": "Se produce un cambio de huso horario durante esta maratón.",
             "export": {
-                "title": "Exportar horario"
-            }
+                "title": "Exportar horario",
+                "csv": "Exportar a CSV",
+                "ics": "Exportar a ICS",
+                "json": "Exportar a JSON (Horaro)"
+            },
+            "type": {
+                "RACE": "Carrera",
+                "SINGLE": "Run en solitario"
+            },
+            "management": {
+                "action": {
+                    "addSetupBlock": "Añadir bloque de setup",
+                    "alreadyPublished": "El horario ya ha sido publicado",
+                    "publish": "Publicar horario",
+                    "addRun": "Añadir run"
+                }
+            },
+            "currentRun": "Run actual"
         },
         "settings": {
             "currencyIso": {
@@ -276,14 +293,23 @@
                     "error": {
                         "required": "Se requiere una etiqueta"
                     },
-                    "title": "Etiqueta"
+                    "title": "Etiqueta",
+                    "type": "Tipo"
                 },
                 "type": {
                     "option": {
-                        "textArea": "Área de texto"
+                        "textArea": "Área de texto",
+                        "checkbox": "Casilla",
+                        "select": "Selecciónar",
+                        "text": "Texto",
+                        "freetext": "Texto libre"
                     }
                 },
-                "add": "Añadir un nuevo campo personalizado"
+                "add": "Añadir un nuevo campo personalizado",
+                "required": {
+                    "title": "Requerido"
+                },
+                "title": "Campos personalizados"
             },
             "dangerZone": "Zona de peligro",
             "defaultSetupTime": {
@@ -349,21 +375,46 @@
             "emulatorAuthorized": {
                 "allowed": "Los emuladores están permitidos",
                 "label": "Emuladores"
+            },
+            "maxCategoriesPerGame": {
+                "error": {
+                    "max": "El máximo de categorias por juego es demasiado alto"
+                }
             }
         },
         "new": {
-            "title": "Crear una nueva maratón"
+            "title": "Crear una nueva maratón",
+            "description": "La siguiente información es necesaria para crear una nueva maratón. Después de su creación, podrás configurar mas detalles."
         },
         "selection": {
             "statistics": {
                 "table": {
-                    "numberOfRuns": "Número de runs"
-                }
+                    "numberOfRuns": "Número de runs",
+                    "numberOfRunners": "Número de runners",
+                    "totalTime": "Tiempo total",
+                    "totalTimeValidated": "Tiempo total de las runs validadas (el tiempo por defecto de las setups esta incluido)",
+                    "averageEstimate": "Estimado medio",
+                    "defaultSetupTime": "Tiempo de setup por defecto",
+                    "marathonLength": "Duración de la maratón"
+                },
+                "title": "Estadísticas"
             },
             "status": {
-                "TODO": "Pendiente de hacer"
+                "TODO": "Pendiente de hacer",
+                "VALIDATED": "Aceptada",
+                "REJECTED": "Rechazada",
+                "BACKUP": "Reserva"
             },
-            "title": "Seleccionar runs"
+            "title": "Seleccionar runs",
+            "action": {
+                "publish": "Publicar selección"
+            },
+            "availabilities": {
+                "help": "Haz Click en el icono del calendario al lado de los runners para mostrar o esconder su disponibilidad."
+            },
+            "selection": {
+                "title": "Selección"
+            }
         }
     },
     "calendar": {
