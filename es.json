@@ -630,7 +630,7 @@
             },
             "title": "Postulaciones",
             "game": {
-                "delete": "Eliminar Juego. También eliminará sus categorías."
+                "delete": "Eliminar juego. También eliminará sus categorías."
             }
         },
         "submit": {
