@@ -713,12 +713,15 @@
             "table": {
                 "actions": "Acciones",
                 "categories": "Categorías",
-                "games": "Juegos"
+                "games": "Juegos",
+                "runners": "Runners"
             },
             "title": "Postular runs",
             "tweet": {
                 "submit": "He postulado {{games}} a {{marathon}}"
-            }
+            },
+            "maxCategoriesPerGame": "Máximo de categorías por juego",
+            "maxGamesPerRunner": "Máximo de juegos por runner"
         }
     },
     "calendar": {
@@ -739,7 +742,8 @@
             },
             "deactivateAccount": {
                 "action": "Desactivar",
-                "title": "Desactiva tu cuenta"
+                "title": "Desactiva tu cuenta",
+                "confirmText": "¿ Estas seguro de que quieres desactivar tu cuenta? Para confirmad, por favor escribe tu usuario y haga click en \"Confirmar\""
             },
             "email": {
                 "error": {
@@ -779,11 +783,13 @@
         "login": {
             "title": "Iniciar sesión",
             "twitch": "Iniciar sesión con Twitch",
-            "twitter": "Iniciar sesión con Twitter"
+            "twitter": "Iniciar sesión con Twitter",
+            "discord": "Iniciar sesión con Discord"
         },
         "privacyConsent": "Al hacer click en Aceptar, permites a Oengus usar cookies con fines de análisis de tráfico. Lea mas sobre nuestra política de privacidad en Acerca de.",
         "logout": "Cerrar sesión",
         "bugtracker": "Informa sobre bugs y sugerencias",
-        "donate": "Donar"
+        "donate": "Donar",
+        "about": "Acerca de"
     }
 }
