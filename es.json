@@ -623,7 +623,8 @@
             },
             "table": {
                 "type": "Tipo",
-                "actions": "Acciones"
+                "actions": "Acciones",
+                "answer": "Respuesta"
             },
             "tabs": {
                 "answers": "Respuestas",
