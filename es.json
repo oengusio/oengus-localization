@@ -315,7 +315,7 @@
                     "addRun": "Añadir run"
                 },
                 "help": {
-                    "dragAndDrop": "Usa las flechas en cada línea para añadir o borrar un run del horario. Puedes arrastrar y soltar líneas en el horario",
+                    "dragAndDrop": "Usa las flechas en cada línea para añadir o borrar un run del horario. Puedes arrastrar y soltar líneas en el horario usando los iconos",
                     "save": "Haz clic en \"Guardar\" para actualizar el horario o guardar un borrador. Haz clic en \"Publicar horario\" para hacerlo público. Atención: una vez el horario sea publicado, la fecha de finalización de la maratón será automáticamente recalculada tras cada actualización del horario."
                 },
                 "schedule": "Horario",
@@ -511,9 +511,10 @@
             "submissionsTitle": "Ajustes de postulaciones",
             "supportedCharity": {
                 "error": {
-                    "required": "Se requiere un nombre de caridad",
-                    "max": "El nombre de la caridad es muy largo"
-                }
+                    "required": "Se requiere el nombre de la organización de caridad",
+                    "max": "El nombre de la organización de caridad es muy largo"
+                },
+                "label": "Organización de caridad apoyada"
             },
             "tabs": {
                 "dangerZone": "Zona de peligro",
@@ -561,12 +562,17 @@
             },
             "maxNumberOfScreens": {
                 "error": {
-                    "min": "El número máximo de ventanas debe ser un valor positivo",
-                    "required": "Se requiere un Máximo numero de pantallas"
-                }
+                    "min": "El número máximo de pantallas debe ser un valor positivo",
+                    "required": "Se requiere un número máximo de pantallas"
+                },
+                "help": "Si permites runs multijugador, puedes limitar el número de pantallas mostrados en stream, para restringir el número de jugadores que pueden unirse a una carrera o run cooperativa",
+                "label": "Número máximo de pantallas por juego"
             },
             "donationsOpen": {
                 "label": "Visualización de la página de donaciones"
+            },
+            "sandbox": {
+                "warning": "Precaución: Oengus.sandbox se está comunicando con el entorno de pruebas de Paypal. Necesitas usar una cuenta de Paypal de pruebas como beneficiario para que las (falsas) donaciones funcionen."
             }
         },
         "new": {
