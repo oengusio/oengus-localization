@@ -776,7 +776,7 @@
             "twitch": {
                 "error": {
                     "max": "El nombre de Twitch es muy largo",
-                    "pattern": "El nombre de Twitch es inválido"
+                    "pattern": "El nombre de Twitch no es válido"
                 }
             }
         }
