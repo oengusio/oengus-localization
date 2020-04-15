@@ -738,7 +738,8 @@
     "user": {
         "settings": {
             "new": {
-                "beforeWeStart": "Antes de empezar…"
+                "beforeWeStart": "Antes de empezar…",
+                "description": "Necesitamos información extra sobre ti. Por favor tomese un momento para llenar los huecos vacíos."
             },
             "deactivateAccount": {
                 "action": "Desactivar",
