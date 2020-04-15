@@ -776,7 +776,8 @@
                     "exists": "Este nombre de usuario ya existe.",
                     "max": "El nombre de usuario en japonés es demasiado largo",
                     "pattern": "El nombre de usuario en japonés no es válido"
-                }
+                },
+                "help": "Si tu nombre de usuario se traduce al japones, usa este campo para mostrarlo con carácteres japoneses. Esto se mostrara solo si el idioma local esta puesto en japones. Este campo es opcional."
             },
             "twitch": {
                 "error": {
