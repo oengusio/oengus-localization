@@ -771,18 +771,27 @@
             },
             "title": "Modificar mi perfil",
             "usernameJapanese": {
-                "label": "Nombre de usuario (Japonés)"
+                "label": "Nombre de usuario (Japonés)",
+                "error": {
+                    "exists": "Este nombre de usuario ya existe."
+                }
             },
             "twitch": {
                 "error": {
                     "max": "El nombre de Twitch es muy largo",
                     "pattern": "El nombre de Twitch no es válido"
+                },
+                "disabled": {
+                    "help": "Este campo está desactivado porque has sincronizado tu cuenta de Twitch. Si tu nombre de Twitch ha cambiado, por favor sincroníza de nuevo tu cuenta de Twitch y actualízalo."
                 }
             },
             "twitter": {
                 "error": {
                     "max": "El nombre de Twitter es muy largo",
-                    "pattern": "El nombre de Twitter es inválido"
+                    "pattern": "El nombre de Twitter no es válido"
+                },
+                "disabled": {
+                    "help": "Este campo está desactivado porque has sincronizado tu cuenta de Twitter. Si tu nombre de Twitter ha cambiado, por favor sincroníza de nuevo tu cuenta de Twitter y actualízalo."
                 }
             }
         }
