@@ -624,7 +624,8 @@
             "table": {
                 "type": "Tipo",
                 "actions": "Acciones",
-                "answer": "Respuesta"
+                "answer": "Respuesta",
+                "category": "Categoría"
             },
             "tabs": {
                 "answers": "Respuestas",
