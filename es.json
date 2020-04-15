@@ -628,7 +628,10 @@
                 "answers": "Respuestas",
                 "submissions": "Postulaciones"
             },
-            "title": "Postulaciones"
+            "title": "Postulaciones",
+            "game": {
+                "delete": "Eliminar Juego. También eliminará sus categorías."
+            }
         },
         "submit": {
             "availabilities": {
