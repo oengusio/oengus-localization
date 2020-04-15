@@ -622,7 +622,8 @@
                 "delete": "Eliminar la categoría"
             },
             "table": {
-                "type": "Tipo"
+                "type": "Tipo",
+                "actions": "Acciones"
             },
             "tabs": {
                 "answers": "Respuestas",
