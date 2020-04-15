@@ -743,7 +743,7 @@
             "deactivateAccount": {
                 "action": "Desactivar",
                 "title": "Desactiva tu cuenta",
-                "confirmText": "¿ Estas seguro de que quieres desactivar tu cuenta? Para confirmad, por favor escribe tu usuario y haga click en \"Confirmar\""
+                "confirmText": "¿Estás seguro de que quieres desactivar tu cuenta? Para confirmar, por favor, escribe tu nombre usuario y haga click en \"Confirmar\""
             },
             "email": {
                 "error": {
