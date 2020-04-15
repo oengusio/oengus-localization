@@ -598,7 +598,15 @@
             "export": "Exportar a CSV",
             "category": {
                 "delete": "Eliminar la categoría"
-            }
+            },
+            "table": {
+                "type": "Tipo"
+            },
+            "tabs": {
+                "answers": "Respuestas",
+                "submissions": "Postulaciones"
+            },
+            "title": "Postulaciones"
         },
         "submit": {
             "availabilities": {
@@ -606,7 +614,11 @@
                     "dateRequired": "Se requiere una fecha",
                     "required": "Debes añadir uno o mas periodos de disponibilidad"
                 },
-                "from": "De"
+                "from": "De",
+                "actions": "Acciones",
+                "add": "Añadir disponibilidad",
+                "label": "Disponibilidades",
+                "to": "Hasta"
             },
             "category": {
                 "code": {
@@ -616,7 +628,11 @@
                     }
                 },
                 "description": {
-                    "help": "Proporciona detalles acerca de esta categoría"
+                    "help": "Proporciona detalles acerca de esta categoría",
+                    "error": {
+                        "required": "Se requiere una descripción de la categoría"
+                    },
+                    "label": "Descripción de la categoría"
                 },
                 "estimate": {
                     "error": {
@@ -657,7 +673,8 @@
                     "error": {
                         "required": "Se requiere una consola"
                     },
-                    "label": "Consola"
+                    "label": "Consola",
+                    "emulatorNotAllowed": "Los emuladores no están permitidos en esta maratón"
                 },
                 "description": {
                     "error": {
@@ -669,8 +686,19 @@
                 "name": {
                     "error": {
                         "required": "Se requiere el nombre del juego"
+                    },
+                    "label": "Nombre del juego"
+                },
+                "ratio": {
+                    "label": "Relación de aspecto",
+                    "error": {
+                        "required": "Se requiere la relación de aspecto del video "
                     }
                 }
+            },
+            "action": {
+                "addCategory": "Añadir categoría",
+                "removeGame": "Eliminar juego"
             }
         }
     },
