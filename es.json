@@ -630,10 +630,10 @@
             },
             "title": "Postulaciones",
             "game": {
-                "delete": "Eliminar juego. También eliminará sus categorías."
+                "delete": "Eliminar juego. Esta acción eliminará también sus categorías."
             },
             "submission": {
-                "delete": "Eliminar postulacion. Esto eliminará todos los juegos del usuario para esta maratón."
+                "delete": "Eliminar postulación. Esta acción eliminará todos los juegos del usuario para esta maratón."
             }
         },
         "submit": {
