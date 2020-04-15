@@ -774,7 +774,8 @@
                 "label": "Nombre de usuario (Japonés)",
                 "error": {
                     "exists": "Este nombre de usuario ya existe.",
-                    "max": "Nombre de usuario en japones es demasiado largo"
+                    "max": "El nombre de usuario en japonés es demasiado largo",
+                    "pattern": "El nombre de usuario en japonés no es válido"
                 }
             },
             "twitch": {
