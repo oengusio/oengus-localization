@@ -263,7 +263,8 @@
                 },
                 "title": "Gestionar incentivos",
                 "openBid": "Los donadores pueden añadir nuevos incentivos",
-                "noSchedule": "Debes añadir elementos a tu horario antes de incluir incentivos"
+                "noSchedule": "Debes añadir elementos a tu horario antes de incluir incentivos",
+                "bidWar": "Guerra de pujas"
             },
             "title": "Incentivos"
         },
@@ -597,6 +598,79 @@
             "export": "Exportar a CSV",
             "category": {
                 "delete": "Eliminar la categoría"
+            }
+        },
+        "submit": {
+            "availabilities": {
+                "error": {
+                    "dateRequired": "Se requiere una fecha",
+                    "required": "Debes añadir uno o mas periodos de disponibilidad"
+                },
+                "from": "De"
+            },
+            "category": {
+                "code": {
+                    "help": {
+                        "noCode": "Se te proporcionará un código para compartir la categoría con los otros runners interesados tras guardar tu postulación",
+                        "withCode": "Proporciona el siguiente código a los otros runners para que puedan unirse a esta postulación:"
+                    }
+                },
+                "description": {
+                    "help": "Proporciona detalles acerca de esta categoría"
+                },
+                "estimate": {
+                    "error": {
+                        "min": "El estimado es inválido. Debe ser superior a 0 segundos",
+                        "pattern": "El estimado es inválido. Debe estar en formato (HH)H:MM:SS",
+                        "required": "Se requiere un estimado"
+                    },
+                    "label": "Estimado"
+                },
+                "name": {
+                    "error": {
+                        "required": "Se requiere un nombre de categoría"
+                    },
+                    "label": "Nombre de la categoría"
+                },
+                "opponent": {
+                    "with": "Con:"
+                },
+                "type": {
+                    "label": "Tipo"
+                },
+                "video": {
+                    "error": {
+                        "required": "Se requiere un enlace del vídeo"
+                    },
+                    "label": "Enlace del vídeo"
+                }
+            },
+            "customField": {
+                "error": {
+                    "required": "Se requiere rellenar el campo"
+                }
+            },
+            "details": "Detalles",
+            "game": {
+                "console": {
+                    "emulated": "Emulado",
+                    "error": {
+                        "required": "Se requiere una consola"
+                    },
+                    "label": "Consola"
+                },
+                "description": {
+                    "error": {
+                        "required": "Se requiere una descripción del juego"
+                    },
+                    "help": "Describe el juego y el run en general",
+                    "label": "Descripción del juego"
+                },
+                "name": {
+                    "error": {
+                        "required": "Se requiere el nombre del juego"
+                    }
+                }
             }
         }
     },
