@@ -778,6 +778,11 @@
                     "max": "El nombre de Twitch es muy largo",
                     "pattern": "El nombre de Twitch no es válido"
                 }
+            },
+            "twitter": {
+                "error": {
+                    "max": "El nombre de Twitter es muy largo"
+                }
             }
         }
     },
