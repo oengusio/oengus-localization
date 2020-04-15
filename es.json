@@ -561,7 +561,8 @@
             },
             "maxNumberOfScreens": {
                 "error": {
-                    "min": "El número máximo de ventanas debe ser un valor positivo"
+                    "min": "El número máximo de ventanas debe ser un valor positivo",
+                    "required": "Se requiere un Máximo numero de pantallas"
                 }
             },
             "donationsOpen": {
