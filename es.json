@@ -781,7 +781,8 @@
             },
             "twitter": {
                 "error": {
-                    "max": "El nombre de Twitter es muy largo"
+                    "max": "El nombre de Twitter es muy largo",
+                    "pattern": "El nombre de Twitter es inválido"
                 }
             }
         }
