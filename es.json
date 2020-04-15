@@ -3,7 +3,7 @@
         "about": {
             "par1": "Oengus es una plataforma que proporciona herramientas para la organización de maratones de speedrun.",
             "par2": "El Speedrunning es el acto de jugar a un videojuego con la intención de completarlo lo mas rápido posible, con el propósito de entretener y/o de forma competitiva. Puedes leer mas acerca del speedrunning en <a href=\"https://es.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedia</a>.",
-            "par3": "Los maratones de speedrunning son eventos donde los runners se reúnen para mostrar sus runs a los espectadores, bien de forma online, presencial, o ambas. Los eventos mas populares son los \n <a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a> organizados de forma semestral.",
+            "par3": "Los maratones de speedrunning son eventos donde los runners se reúnen para mostrar sus runs a los espectadores, bien de forma online, presencial, o ambas. Los eventos mas populares son los \n<a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a> organizados de forma semestral.",
             "par4": "Esta plataforma ha sido creado por <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>. Participante en la comunidad speedrunner desde 2013, ha contribuido en la comunidad de muchas maneras: moderador global de <a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a> durante tres años, creador del <a href=\"https://twitter.com/SpeedrunWRs\">Speedrun WRs Twitter bot</a>, miembro del equipo francés de restream, que proporciona restreams de maratones internacionales para la audiencia francesa, y fundador de Bourg la Run, el equivalente francés a Games Done Quick. Después de acumular toda esta experiencia, y tras evaluar que no hay herramientas públicas de buena calidad para organizar maratones, ha decidido crear una y Oengus es el resultado.",
             "par5": "Trivia: Oengus es la divinidad celta del tiempo y la eternidad. ¡Un nombre perfecto para maratones de speedrun!",
             "title": "Acerca de"
@@ -253,7 +253,8 @@
                     "game": "Juego",
                     "goal": "Objetivo",
                     "locked": "Bloqueado",
-                    "progress": "Progreso"
+                    "progress": "Progreso",
+                    "isBidWar": "Objetivo del incentivo/puja"
                 },
                 "donationGoal": "Cantidad objetivo de la donación",
                 "goal": {
@@ -314,7 +315,8 @@
                     "addRun": "Añadir run"
                 },
                 "help": {
-                    "dragAndDrop": "Usa las flechas en cada línea para añadir o borrar un run del horario. Puedes arrastrar y soltar líneas en el horario"
+                    "dragAndDrop": "Usa las flechas en cada línea para añadir o borrar un run del horario. Puedes arrastrar y soltar líneas en el horario",
+                    "save": "Haz clic en \"Guardar\" para actualizar el horario o guardar un borrador. Haz clic en \"Publicar horario\" para hacerlo público. Atención: una vez el horario sea publicado, la fecha de finalización de la maratón será automáticamente recalculada tras cada actualización del horario."
                 },
                 "schedule": "Horario",
                 "selectedRuns": "Runs seleccionadas",
@@ -329,8 +331,9 @@
                 "time": "Tiempo",
                 "actions": "Acciones",
                 "category": "Categoría",
-                "setup": "Tiempo de setup",
-                "type": "Tipo"
+                "setup": "Tiempo de preparación",
+                "type": "Tipo",
+                "placeholder": "Suelta cualquier run de la tabla de la izquierda a esta de aquí. El texto desaparecerá automáticamente tan pronto como haya un run en el horario."
             },
             "setupBlock": "Bloque de reserva",
             "title": "Horario",
@@ -376,7 +379,8 @@
                     "error": {
                         "required": "Se requiere un nombre de opción"
                     }
-                }
+                },
+                "description1": "Puedes añadir campos personalizados para preguntar a los runners detalles específicos para tu maratón. Ellos pueden responder a esos campos durante sus postulaciones. Se recomienda no añadir nuevos campos una vez abiertas las postulaciones, ya que los runners que ya hayan postulado pueden no responder si no editan sus postulaciones."
             },
             "dangerZone": "Zona de peligro",
             "defaultSetupTime": {
@@ -554,6 +558,14 @@
                     "required": "Se requiere un número máximo de juegos por runner"
                 },
                 "label": "Número máximo de juegos por runner"
+            },
+            "maxNumberOfScreens": {
+                "error": {
+                    "min": "El número máximo de ventanas debe ser un valor positivo"
+                }
+            },
+            "donationsOpen": {
+                "label": "Visualización de la página de donaciones"
             }
         },
         "new": {
@@ -574,7 +586,7 @@
                 "title": "Estadísticas"
             },
             "status": {
-                "TODO": "Pendiente de hacer",
+                "TODO": "Por determinar",
                 "VALIDATED": "Aceptada",
                 "REJECTED": "Rechazada",
                 "BACKUP": "Reserva",
@@ -592,6 +604,9 @@
             },
             "help": {
                 "BACKUP": "Los juegos de reserva no se añaden a la lista de juegos seleccionados en la gestión de horarios. Para añadirlos a esa lista, cambia su estado a Aceptado o Bonus si es necesario."
+            },
+            "publish": {
+                "help": "Haz clic en \"Guardar\" para guardar tu selección actual en cualquier estado. Solo puedes publicar tu selección una vez todos los runs tengan un estado diferente a \"Por determinar\". Guardar o publicar la selección puede tomar cierto tiempo dependiendo del número de runs. Atención: publicar la selección de juegos cerrará automáticamente las postulantes. Una vez publicado la selección, será visible para toda la gente en la página \"Ver postulaciones\"."
             }
         },
         "submissions": {
@@ -692,7 +707,7 @@
                 "ratio": {
                     "label": "Relación de aspecto (16:9, 4:3...)",
                     "error": {
-                        "required": "Se requiere la relación de aspecto del video "
+                        "required": "Se requiere la relación de aspecto del vídeo"
                     }
                 }
             },
@@ -774,10 +789,10 @@
                 "label": "Nombre de usuario (Japonés)",
                 "error": {
                     "exists": "Este nombre de usuario ya existe.",
-                    "max": "El nombre de usuario en japonés es demasiado largo",
+                    "max": "El nombre de usuario en japonés es demasiado largo.",
                     "pattern": "El nombre de usuario en japonés no es válido"
                 },
-                "help": "Si tu nombre de usuario se traduce al japones, usa este campo para mostrarlo con carácteres japoneses. Esto se mostrara solo si el idioma local esta puesto en japones. Este campo es opcional."
+                "help": "Si tu nombre de usuario se traduce al japonés, usa este campo para mostrarlo con caracteres japoneses. Esto se mostrará solo si el idioma local está puesto en japonés. Este campo es opcional."
             },
             "twitch": {
                 "error": {
