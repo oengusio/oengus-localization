@@ -739,7 +739,7 @@
         "settings": {
             "new": {
                 "beforeWeStart": "Antes de empezar…",
-                "description": "Necesitamos información extra sobre ti. Por favor tomese un momento para llenar los huecos vacíos."
+                "description": "Necesitamos información adicional sobre ti. Por favor, tómese un momento para rellenar la información requerida."
             },
             "deactivateAccount": {
                 "action": "Desactivar",
