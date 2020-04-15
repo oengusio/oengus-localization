@@ -773,7 +773,8 @@
             "usernameJapanese": {
                 "label": "Nombre de usuario (Japonés)",
                 "error": {
-                    "exists": "Este nombre de usuario ya existe."
+                    "exists": "Este nombre de usuario ya existe.",
+                    "max": "Nombre de usuario en japones es demasiado largo"
                 }
             },
             "twitch": {
@@ -793,6 +794,14 @@
                 "disabled": {
                     "help": "Este campo está desactivado porque has sincronizado tu cuenta de Twitter. Si tu nombre de Twitter ha cambiado, por favor sincroníza de nuevo tu cuenta de Twitter y actualízalo."
                 }
+            },
+            "username": {
+                "error": {
+                    "max": "El nombre de usuario es muy largo",
+                    "min": "El nombre de usuario es muy corto",
+                    "required": "Se requiere un nombre de usuario"
+                },
+                "label": "Nombre de usuario"
             }
         }
     },
