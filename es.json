@@ -391,7 +391,7 @@
                 }
             },
             "delete": {
-                "confirmText": "¿Estás seguro de querer eliminar tu maratón? Para confirmar, por favor, escribe la abreviatura de la maratón y haz click en \"Confirmar\"",
+                "confirmText": "¿Estás seguro de querer eliminar tu maratón? Para confirmar, por favor, escribe la abreviatura de la maratón y haz clic en \"Confirmar\"",
                 "action": "Eliminar maratón"
             },
             "discordPrivacy": {
@@ -604,7 +604,7 @@
                 "publish": "Publicar selección"
             },
             "availabilities": {
-                "help": "Haz Click en el icono del calendario al lado de los runners para mostrar o esconder su disponibilidad."
+                "help": "Haz clic en el icono del calendario al lado de los runners para mostrar o esconder su disponibilidad."
             },
             "selection": {
                 "title": "Selección"
@@ -657,7 +657,8 @@
                 "actions": "Acciones",
                 "add": "Añadir disponibilidad",
                 "label": "Disponibilidades",
-                "to": "Hasta"
+                "to": "Hasta",
+                "duplicate": "Hacer duplicado para el día siguiente"
             },
             "category": {
                 "code": {
@@ -765,7 +766,7 @@
     },
     "calendar": {
         "title": "Calendario de maratones",
-        "help": "Haciendo click en este evento te redirigirá a su página"
+        "help": "Haciendo clic en este evento te redirigirá a su página"
     },
     "global": {
         "emu": "[Emu]"
@@ -783,7 +784,8 @@
             "deactivateAccount": {
                 "action": "Desactivar",
                 "title": "Desactiva tu cuenta",
-                "confirmText": "¿Estás seguro de que quieres desactivar tu cuenta? Para confirmar, por favor, escribe tu nombre usuario y haga click en \"Confirmar\""
+                "confirmText": "¿Estás seguro de que quieres desactivar tu cuenta? Para confirmar, por favor, escribe tu nombre usuario y haga clic en \"Confirmar\"",
+                "description": "Desactivar tu cuenta evitará que puedas iniciar sesión de nuevo, y los moderadores no podrán añadir como moderador de una maratón o como runner en un horario. Toda la información se conservará para mantener la coherencia, pero tus redes sociales ya no se mostrarán en horarios o listas de postulaciones. Si deseas usar tu cuenta en un futuro, por favor contacta con un administrador."
             },
             "email": {
                 "error": {
@@ -840,7 +842,9 @@
                 "error": {
                     "max": "El nombre de usuario es muy largo",
                     "min": "El nombre de usuario es muy corto",
-                    "required": "Se requiere un nombre de usuario"
+                    "required": "Se requiere un nombre de usuario",
+                    "exists": "El nombre de usuario ya existe. Por favor uso otro nombre o asegúrate que no tienes ningún perfil sincronizado con otra cuenta externa (Twitch o Discord)",
+                    "pattern": "El nombre de usuario solo puede estar compuesto por caracteres en minúscula, caracteres en mayúscula, _ o -"
                 },
                 "label": "Nombre de usuario"
             }
@@ -856,9 +860,10 @@
             "title": "Iniciar sesión",
             "twitch": "Iniciar sesión con Twitch",
             "twitter": "Iniciar sesión con Twitter",
-            "discord": "Iniciar sesión con Discord"
+            "discord": "Iniciar sesión con Discord",
+            "disclaimer": "Precaución: Si ya tienes un perfil en Oengus, por favor asegúrate de iniciar sesión con una cuenta externa ya sincronizada con tu perfil, de otra manera se creará un nuevo perfil"
         },
-        "privacyConsent": "Al hacer click en Aceptar, permites a Oengus usar cookies con fines de análisis de tráfico. Lea mas sobre nuestra política de privacidad en Acerca de.",
+        "privacyConsent": "Al hacer clic en Aceptar, permites a Oengus usar cookies con fines de análisis de tráfico. Lea mas sobre nuestra política de privacidad en Acerca de.",
         "logout": "Cerrar sesión",
         "bugtracker": "Informa sobre bugs y sugerencias",
         "donate": "Donar",
