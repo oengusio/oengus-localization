@@ -772,6 +772,11 @@
             "title": "Modificar mi perfil",
             "usernameJapanese": {
                 "label": "Nombre de usuario (Japonés)"
+            },
+            "twitch": {
+                "error": {
+                    "max": "El nombre de Twitch es muy largo"
+                }
             }
         }
     },
