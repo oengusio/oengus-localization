@@ -690,7 +690,7 @@
                     "label": "Nombre del juego"
                 },
                 "ratio": {
-                    "label": "Relación de aspecto",
+                    "label": "Relación de aspecto (16:9, 4:3...)",
                     "error": {
                         "required": "Se requiere la relación de aspecto del video "
                     }
@@ -699,6 +699,25 @@
             "action": {
                 "addCategory": "Añadir categoría",
                 "removeGame": "Eliminar juego"
+            },
+            "maxNumberOfScreens": "Número máximo de runners por carrera/cooperativo",
+            "multiplayer": {
+                "code": {
+                    "help": "Por favor, introduce abajo el código para unirte a una postulación multijugador"
+                },
+                "title": "Categorías multijugador"
+            },
+            "racesAllowed": "Se permiten runs cooperativos y carreras",
+            "submissions": "Postulaciones",
+            "submitsClosed": "Las postulaciones están cerradas. Solo puedes actualizar tu disponibilidad hasta que el horario sea publicado.",
+            "table": {
+                "actions": "Acciones",
+                "categories": "Categorías",
+                "games": "Juegos"
+            },
+            "title": "Postular runs",
+            "tweet": {
+                "submit": "He postulado {{games}} a {{marathon}}"
             }
         }
     },
@@ -735,7 +754,8 @@
                 },
                 "sync": "Sincroniza tu cuenta",
                 "title": "Sincronización de cuenta",
-                "unsync": "Eliminar cuenta"
+                "unsync": "Eliminar cuenta",
+                "description": "Puedes sincronizar tus redes sociales aquí. Podrás conectarte posteriormente a Oengus a través de tus cuentas sincronizadas. No te olvides de guardar después de sincronizar tus cuentas."
             },
             "general": "Información general",
             "srcom": {
@@ -753,6 +773,17 @@
     "navbar": {
         "settings": "Ajustes",
         "translate": "Ayuda traduciendo la página",
-        "twitter": "Síguenos en Twitter"
+        "twitter": "Síguenos en Twitter",
+        "createMarathon": "Nueva maratón",
+        "discord": "Únete al servidor oficial de Discord",
+        "login": {
+            "title": "Iniciar sesión",
+            "twitch": "Iniciar sesión con Twitch",
+            "twitter": "Iniciar sesión con Twitter"
+        },
+        "privacyConsent": "Al hacer click en Aceptar, permites a Oengus usar cookies con fines de análisis de tráfico. Lea mas sobre nuestra política de privacidad en Acerca de.",
+        "logout": "Cerrar sesión",
+        "bugtracker": "Informa sobre bugs y sugerencias",
+        "donate": "Donar"
     }
 }
