@@ -626,7 +626,14 @@
                 "actions": "Acciones",
                 "answer": "Respuesta",
                 "category": "Categoría",
-                "categoryDescription": "Descripción de la categoría"
+                "categoryDescription": "Descripción de la categoría",
+                "console": "Consola",
+                "estimate": "Estimado",
+                "game": "Juego",
+                "gameDescription": "Descripción del juego",
+                "question": "Pregunta",
+                "runner": "Runner",
+                "status": "Estado"
             },
             "tabs": {
                 "answers": "Respuestas",
