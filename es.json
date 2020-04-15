@@ -625,7 +625,8 @@
                 "type": "Tipo",
                 "actions": "Acciones",
                 "answer": "Respuesta",
-                "category": "Categoría"
+                "category": "Categoría",
+                "categoryDescription": "Descripción de la categoría"
             },
             "tabs": {
                 "answers": "Respuestas",
