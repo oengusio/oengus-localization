@@ -730,7 +730,7 @@
                     "label": "Nombre del juego"
                 },
                 "ratio": {
-                    "label": "Relación de aspecto (16:9, 4:3...)",
+                    "label": "Relación de aspecto/Resolución (16:9, 4:3, 1920x1080...)",
                     "error": {
                         "required": "Se requiere la relación de aspecto del vídeo"
                     }
