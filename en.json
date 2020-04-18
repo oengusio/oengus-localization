@@ -748,7 +748,7 @@
                     "error": {
                         "required": "Video ratio is required"
                     },
-                    "label": "Video ratio (16:9, 4:3…)"
+                    "label": "Video ratio/Resolution (16:9, 4:3, 1920x1080…)"
                 }
             },
             "maxCategoriesPerGame": "Maximum categories per game",
