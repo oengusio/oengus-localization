@@ -569,6 +569,12 @@
         "label": "Submissions",
         "open": "Submissions zijn open"
       },
+      "submissionsEndDate": {
+        "error": {}
+      },
+      "submissionsStartDate": {
+        "error": {}
+      },
       "submissionsTitle": "Submission instellingen",
       "supportedCharity": {
         "error": {

@@ -541,6 +541,12 @@
         "label": "Submissions",
         "open": "Submissions sind geöffnet"
       },
+      "submissionsEndDate": {
+        "error": {}
+      },
+      "submissionsStartDate": {
+        "error": {}
+      },
       "submissionsTitle": "Submissions Einstellungen",
       "supportedCharity": {
         "error": {

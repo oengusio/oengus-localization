@@ -430,6 +430,12 @@
         "label": "募集",
         "open": "募集中です"
       },
+      "submissionsEndDate": {
+        "error": {}
+      },
+      "submissionsStartDate": {
+        "error": {}
+      },
       "submissionsTitle": "募集設定",
       "supportedCharity": {
         "error": {}
