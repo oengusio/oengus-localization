@@ -666,6 +666,7 @@
         "game": "Game",
         "gameDescription": "Game description",
         "question": "Question",
+        "ratio": "Ratio/Resolution",
         "runner": "Runner",
         "status": "Status",
         "type": "Type"
