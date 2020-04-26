@@ -250,6 +250,7 @@
       "customField": {
         "error": {}
       },
+      "delete": {},
       "game": {
         "console": {
           "error": {}

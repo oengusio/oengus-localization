@@ -740,6 +740,10 @@
           "required": "Ce champ est requis"
         }
       },
+      "dangerZone": "Zone à risques",
+      "delete": {
+        "action": "Supprimer candidature"
+      },
       "details": "Détails",
       "game": {
         "console": {

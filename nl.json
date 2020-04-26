@@ -739,6 +739,7 @@
           "required": "Veld is verplicht"
         }
       },
+      "delete": {},
       "details": "Details",
       "game": {
         "console": {

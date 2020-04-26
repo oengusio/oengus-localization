@@ -673,6 +673,7 @@
           "required": "Feld ist erforderlich"
         }
       },
+      "delete": {},
       "details": "Einzelheiten",
       "game": {
         "console": {

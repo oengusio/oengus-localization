@@ -541,6 +541,7 @@
       "customField": {
         "error": {}
       },
+      "delete": {},
       "game": {
         "console": {
           "emulated": "エミュレーター",

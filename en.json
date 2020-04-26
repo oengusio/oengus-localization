@@ -740,6 +740,10 @@
           "required": "Field is required"
         }
       },
+      "dangerZone": "Danger zone",
+      "delete": {
+        "action": "Delete submission"
+      },
       "details": "Details",
       "game": {
         "console": {
