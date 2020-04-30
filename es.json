@@ -785,6 +785,10 @@
             "title": "Postular runs",
             "tweet": {
                 "submit": "He postulado {{games}} a {{marathon}}"
+            },
+            "dangerZone": "Zona de peligro",
+            "delete": {
+                "action": "Borrar postulación"
             }
         }
     },
