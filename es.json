@@ -132,7 +132,7 @@
     },
     "footer": {
         "donate": "Si te gusta Oengus, por favor considera <a href=\"{{donationLink}}\" target=\"_blank\">hacer una donación</a>",
-        "text": "<strong>Oengus</strong> por <a href=\"https://twitter.com/GyooRunsStuff\">Gyoo</a>.<br/>\nTodo los tiempos han sido convertidos a tu zona horaria. Zona horaria detectada: {{timezone}}"
+        "text": "<strong>Oengus</strong> por <a href=\"https://twitter.com/GyooRunsStuff\">Gyoo</a>.<br/>\nTodos los tiempos han sido convertidos a tu zona horaria. Zona horaria detectada: {{timezone}}"
     },
     "global": {
         "emu": "[Emu]"
@@ -234,10 +234,10 @@
             "isArchived": "Esta maratón esta archivada. Está en modo de solo lectura."
         },
         "home": {
-            "from": "Desde",
+            "from": "Inicio",
             "language": "Idioma",
             "location": "Ubicación",
-            "to": "Para"
+            "to": "Fin"
         },
         "incentives": {
             "management": {
@@ -345,7 +345,7 @@
                 "time": "Tiempo",
                 "type": "Tipo"
             },
-            "timezone": "Todas las fechas y tiempo se muestra en tu zona horaria.",
+            "timezone": "Todas las fechas y tiempos se muestran en tu zona horaria.",
             "title": "Horario",
             "type": {
                 "COOP": "Run cooperativo",
@@ -761,7 +761,7 @@
                     "error": {
                         "required": "Se requiere la relación de aspecto del vídeo"
                     },
-                    "label": "Relación de aspecto/Resolución (16:9, 4:3, 1920x1080...)"
+                    "label": "Relación de aspecto (16:9, 4:3...)"
                 }
             },
             "maxCategoriesPerGame": "Máximo de categorías por juego",
