@@ -604,6 +604,7 @@
     "twitter": "Twitterをフォロー"
   },
   "user": {
+    "profile": {},
     "settings": {
       "accountSync": {
         "description": "Oengusのアカウントとソーシャルメディアを連携することができます。連携後に保存するのを忘れないでください。",

@@ -276,6 +276,7 @@
     "login": {}
   },
   "user": {
+    "profile": {},
     "settings": {
       "accountSync": {
         "error": {}

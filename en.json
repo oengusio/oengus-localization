@@ -665,6 +665,7 @@
         "estimate": "Estimate",
         "game": "Game",
         "gameDescription": "Game description",
+        "marathon": "Marathon",
         "question": "Question",
         "ratio": "Ratio/Resolution",
         "runner": "Runner",
@@ -813,11 +814,16 @@
     },
     "logout": "Log out",
     "privacyConsent": "By clicking on Accept, you allow Oengus to use cookies for traffic analytics purposes. Learn more about our privacy policy in the About page.",
+    "profile": "My profile",
     "settings": "Settings",
     "translate": "Help translate the site",
     "twitter": "Follow us on Twitter"
   },
   "user": {
+    "profile": {
+      "moderator": "Moderated events",
+      "submissions": "Submissions history"
+    },
     "settings": {
       "accountSync": {
         "description": "You can synchronize your social media accounts here. You can then connect to your Oengus account with all your synchronized accounts. Don't forget to save after synchronizing accounts.",
