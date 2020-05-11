@@ -1,1 +1,15 @@
-{}
+{
+    "aboutPage": {
+        "contact": {
+            "par1": "Encontrou um bug ? Tem dúvidas sobre o site ? Entre em nosso <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">servidor de Discord</a>"
+        },
+        "about": {
+            "title": "Sobre",
+            "par5": "Trivia: Oengus é a divindade celta que está encarregada do tempo e da eternidade. Com certeza é um nome que combina com maratonas de Speedruns!",
+            "par4": "Este site foi criado pelo <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>. Participativo na comunidade de speedruns desde 2013, ele já contribuiu com a comunidade de speedruns de diversas formas: moderador global do <a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a> por três anos, criador do bot de Twitter<a href=\"https://twitter.com/SpeedrunWRs\">Speedrun WRs</a>, membro da equipe de Restream Francesa, que fornece restreams de maratonas internacionais para a audiência francesa e fundador da Bourg La Run, a equivalente a Games Done Quick porém da França. Depois de obter toda esta experiência e depois de perceber que não havia nenhuma ferramenta pública boa para organização de maratonas, ele decidiu criar uma e o Oengus é o resultado.",
+            "par3": "Maratonas de speedruns são eventos one os speedrunners se reúnem para exibir suas runs para uma audiência, seja online, presencial ou ambos. Os eventos mais populares são da <a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a> que são organizados algumas vezes ao ano.",
+            "par2": "Speedrunning é a ação de jogar video game com a intenção de completar o jogo o mais rápido possível, seja isto com um propósito de entretenimento e/ou competitivo. Você pode ler mais a respeito de Speedruns na <a href=\"https://pt.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedia</a>.",
+            "par1": "Oengus é um site que fornece ferramentas para a organização de maratonas de speedruns."
+        }
+    }
+}
