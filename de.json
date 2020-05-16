@@ -747,7 +747,12 @@
     "twitter": "Folge uns auf Twitter"
   },
   "user": {
-    "profile": {},
+    "profile": {
+      "filter": {
+        "status": {},
+        "temporality": {}
+      }
+    },
     "settings": {
       "accountSync": {
         "description": "Hier können Sie Ihre Social Media Accounts synchronisieren. Sie können dann mit all Ihren synchronisierten Konten eine Verbindung zu Ihrem Oengus-Konto herstellen. Vergessen Sie nicht, nach der Synchronisierung der Konten zu speichern.",

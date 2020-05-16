@@ -1,64 +1,349 @@
 {
-    "aboutPage": {
-        "about": {
-            "par1": "Mae Oengus yn wefan sy'n darparu offer er mwyn trefnu marathonau speedrun.",
-            "par2": "Diffiniad o speedrun ydi i chwarae gêm cyfrifiadurol gyda'r bwriad o'i gwblhau mor sydyn a sy'n bosib, â phwrpas adloniant a / neu cystadleuaeth. Gallwch ddarllen mwy am speedrunning ar <a href=\"https://en.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wicipedia</a>.",
-            "par3": "Mae marathonau speedrun yn ddigwyddiadau ble mae speedrunners yn dod at eu gilydd i ddangos eu gemau i ffwrdd i gynulleidfa, unai ar lein, mewn safle, neu gymysgedd o'r ddwy ffordd. Y digwyddiadau mwyaf poblogaidd yw'r digwyddiadau <a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a> a drefnwyd dwy waith y flwyddyn.",
-            "title": "Am",
-            "par5": "Manion: Mae Oengus yn ddewiniaeth celtaidd sy'n gofalu am amser a thragwydddoldeb. Siarad am enw addas ar gyfer marathonau speedrun!",
-            "par4": "Cafodd y wefan hon ei gru gan <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>. Actor yn y gymuned speedrunning ers 2013, mae o wedi cyfranu yn y gymuned speedrunning mewn llawer o wahanol ffyrdd: cymedrolwr byd-eang o <a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a> am dair blynedd, crëwr o'r <a href=\"https://twitter.com/SpeedrunWRs\">bot Trydar RyB mewn Speedruns</a>, aelod o'r tîm ail-ddarllediad Ffrangeg, sy'n darparu ail-ddarllediadau o farathonau rhyngwladol ar gyfer cynulleidfa Ffrangeg, a syflaenydd o Bourg la Run, y gyfwerth Ffrangeg o \"Games Done Quick\". Ar ôl casglu'r profiadau hyn i gyd, a asesu nad oes yna offer cyhoeddus ar gael er mwyn trefnu marathonau, fe ddewiswyd i greu un ac Oengus oedd y canlyniad."
-        },
-        "contact": {
-            "title": "Cyswllt",
-            "par2": "Ar gyfer ymholiadau busnes/CC, ysgrifennwch ebost at contact@oengus.io",
-            "par1": "Wedi cael hyd i fyg? Gyda cwestiwn am y wefan? Ymunwch â'r <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">serfiwr Discord</a>"
-        }
+  "aboutPage": {
+    "about": {
+      "par1": "Mae Oengus yn wefan sy'n darparu offer er mwyn trefnu marathonau speedrun.",
+      "par2": "Diffiniad o speedrun ydi i chwarae gêm cyfrifiadurol gyda'r bwriad o'i gwblhau mor sydyn a sy'n bosib, â phwrpas adloniant a / neu cystadleuaeth. Gallwch ddarllen mwy am speedrunning ar <a href=\"https://en.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wicipedia</a>.",
+      "par3": "Mae marathonau speedrun yn ddigwyddiadau ble mae speedrunners yn dod at eu gilydd i ddangos eu gemau i ffwrdd i gynulleidfa, unai ar lein, mewn safle, neu gymysgedd o'r ddwy ffordd. Y digwyddiadau mwyaf poblogaidd yw'r digwyddiadau <a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a> a drefnwyd dwy waith y flwyddyn.",
+      "par4": "Cafodd y wefan hon ei gru gan <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>. Actor yn y gymuned speedrunning ers 2013, mae o wedi cyfranu yn y gymuned speedrunning mewn llawer o wahanol ffyrdd: cymedrolwr byd-eang o <a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a> am dair blynedd, crëwr o'r <a href=\"https://twitter.com/SpeedrunWRs\">bot Trydar RyB mewn Speedruns</a>, aelod o'r tîm ail-ddarllediad Ffrangeg, sy'n darparu ail-ddarllediadau o farathonau rhyngwladol ar gyfer cynulleidfa Ffrangeg, a syflaenydd o Bourg la Run, y gyfwerth Ffrangeg o \"Games Done Quick\". Ar ôl casglu'r profiadau hyn i gyd, a asesu nad oes yna offer cyhoeddus ar gael er mwyn trefnu marathonau, fe ddewiswyd i greu un ac Oengus oedd y canlyniad.",
+      "par5": "Manion: Mae Oengus yn ddewiniaeth celtaidd sy'n gofalu am amser a thragwydddoldeb. Siarad am enw addas ar gyfer marathonau speedrun!",
+      "title": "Am"
     },
-    "alert": {
-        "game": {
-            "deletion": {
-                "success": "Mae'r gêm wedi'i ddileu'n llwyddiadnnus",
-                "error": "Mae gwall wedi digwydd yn ystod y broses dileu gêm. Triwch eto neu cysylltwch gyda'r gweinyddwr."
-            },
-            "export": {
-                "error": "Mae gwall wedi digwydd yn ystod y broses lawrlwytho. Triwch eto neu cysylltwch gyda'r gweinyddwr."
-            }
-        },
-        "incentives": {
-            "delete": {
-                "success": "Mae'r cymhelliant wedi'i ddileu'n llwyddiannus",
-                "error": "Mae gwall wedi digwydd yn ystod y broses i ddileu cymhelliant. Triwch eto neu cysylltwch gyda'r gweinyddwr."
-            },
-            "save": {
-                "success": "Cymhelliannau wedi.u arbed yn llwyddiannus.",
-                "error": "Mae gwall wedi digwydd yn ystod y broses i arbed cymhelliannau. Triwch eto neu cysylltwch gyda'r gweinyddwr."
-            }
-        },
-        "donation": {
-            "validate": {
-                "success": "Mae eich rhodd wedi'i yrru'n llwyddiannus. Diolch am eich rhodd!",
-                "error": "Mae gwall wedi digwydd yn ystod y broses rhoi. Triwch eto neu cysylltwch gyda'r gweinyddwr."
-            },
-            "export": {
-                "error": "Mae gwall wedi digwydd yn ystod y broses lawrlwytho. Triwch eto neu cysylltwch gyda'r gweinyddwr."
-            }
-        },
-        "category": {
-            "deletion": {
-                "success": "Categori wedi'i ddileu'n llwyddiannus",
-                "error": "Mae gwall wedi digwydd yn ystod y broses i ddileu categori. Triwch eto neu cysylltwch gyda'r gweinyddwr."
-            }
-        }
-    },
-    "action": {
-        "submit": "Cyflwyno",
-        "sendTweet": "Gyrru Tweet",
-        "save": "Arbed",
-        "join": "Ymuno",
-        "decline": "Dirywiad",
-        "confirm": "Cadarnhau",
-        "clearAvailabilities": "Clirio argaeledd wedi'u dewis",
-        "cancel": "Canslo",
-        "accept": "Derbyn"
+    "contact": {
+      "par1": "Wedi cael hyd i fyg? Gyda cwestiwn am y wefan? Ymunwch â'r <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">serfiwr Discord</a>",
+      "par2": "Ar gyfer ymholiadau busnes/CC, ysgrifennwch ebost at contact@oengus.io",
+      "title": "Cyswllt"
     }
+  },
+  "action": {
+    "accept": "Derbyn",
+    "cancel": "Canslo",
+    "clearAvailabilities": "Clirio argaeledd wedi'u dewis",
+    "confirm": "Cadarnhau",
+    "decline": "Dirywiad",
+    "join": "Ymuno",
+    "save": "Arbed",
+    "sendTweet": "Gyrru Tweet",
+    "submit": "Cyflwyno"
+  },
+  "alert": {
+    "category": {
+      "deletion": {
+        "error": "Mae gwall wedi digwydd yn ystod y broses i ddileu categori. Triwch eto neu cysylltwch gyda'r gweinyddwr.",
+        "success": "Categori wedi'i ddileu'n llwyddiannus"
+      }
+    },
+    "donation": {
+      "export": {
+        "error": "Mae gwall wedi digwydd yn ystod y broses lawrlwytho. Triwch eto neu cysylltwch gyda'r gweinyddwr."
+      },
+      "validate": {
+        "error": "Mae gwall wedi digwydd yn ystod y broses rhoi. Triwch eto neu cysylltwch gyda'r gweinyddwr.",
+        "success": "Mae eich rhodd wedi'i yrru'n llwyddiannus. Diolch am eich rhodd!"
+      }
+    },
+    "game": {
+      "deletion": {
+        "error": "Mae gwall wedi digwydd yn ystod y broses dileu gêm. Triwch eto neu cysylltwch gyda'r gweinyddwr.",
+        "success": "Mae'r gêm wedi'i ddileu'n llwyddiadnnus"
+      },
+      "export": {
+        "error": "Mae gwall wedi digwydd yn ystod y broses lawrlwytho. Triwch eto neu cysylltwch gyda'r gweinyddwr."
+      }
+    },
+    "incentives": {
+      "delete": {
+        "error": "Mae gwall wedi digwydd yn ystod y broses i ddileu cymhelliant. Triwch eto neu cysylltwch gyda'r gweinyddwr.",
+        "success": "Mae'r cymhelliant wedi'i ddileu'n llwyddiannus"
+      },
+      "save": {
+        "error": "Mae gwall wedi digwydd yn ystod y broses i arbed cymhelliannau. Triwch eto neu cysylltwch gyda'r gweinyddwr.",
+        "success": "Cymhelliannau wedi.u arbed yn llwyddiannus."
+      }
+    },
+    "marathon": {
+      "creation": {},
+      "deletion": {},
+      "update": {}
+    },
+    "schedule": {
+      "export": {},
+      "save": {}
+    },
+    "selection": {
+      "save": {}
+    },
+    "submission": {
+      "deletion": {},
+      "save": {}
+    },
+    "submit": {},
+    "user": {
+      "deactivate": {},
+      "login": {},
+      "sync": {},
+      "update": {}
+    }
+  },
+  "calendar": {},
+  "footer": {},
+  "global": {},
+  "homepage": {
+    "marathons": {},
+    "plannedFeatures": {},
+    "welcomeText": {
+      "par4": {}
+    }
+  },
+  "login": {},
+  "marathon": {
+    "donate": {
+      "amount": {
+        "error": {}
+      },
+      "comment": {},
+      "extra": {},
+      "incentiveAmount": {
+        "error": {}
+      },
+      "incentives": {
+        "bid": {},
+        "header": {}
+      },
+      "name": {
+        "error": {}
+      },
+      "nickname": {
+        "error": {}
+      },
+      "total": {
+        "error": {}
+      }
+    },
+    "donations": {
+      "table": {}
+    },
+    "help": {},
+    "home": {},
+    "incentives": {
+      "management": {
+        "action": {},
+        "bidName": {
+          "error": {}
+        },
+        "currentAmount": {
+          "error": {}
+        },
+        "goal": {
+          "error": {}
+        },
+        "name": {
+          "error": {}
+        },
+        "table": {}
+      }
+    },
+    "menu": {},
+    "new": {},
+    "schedule": {
+      "export": {},
+      "management": {
+        "action": {},
+        "help": {}
+      },
+      "table": {},
+      "type": {}
+    },
+    "selection": {
+      "action": {},
+      "availabilities": {},
+      "help": {},
+      "publish": {},
+      "selection": {},
+      "statistics": {
+        "table": {}
+      },
+      "status": {}
+    },
+    "settings": {
+      "country": {},
+      "currencyIso": {
+        "error": {}
+      },
+      "customFields": {
+        "action": {},
+        "label": {
+          "error": {}
+        },
+        "option": {
+          "error": {}
+        },
+        "required": {},
+        "type": {
+          "option": {}
+        }
+      },
+      "defaultSetupTime": {
+        "error": {}
+      },
+      "delete": {},
+      "discord": {
+        "error": {}
+      },
+      "discordPrivacy": {},
+      "donationWebhook": {
+        "error": {}
+      },
+      "donations": {},
+      "donationsOpen": {},
+      "emulatorAuthorized": {},
+      "endDate": {
+        "error": {}
+      },
+      "incentives": {},
+      "language": {},
+      "location": {},
+      "marathonDescription": {},
+      "maxCategoriesPerGame": {
+        "error": {}
+      },
+      "maxGamesPerRunner": {
+        "error": {}
+      },
+      "maxNumberOfScreens": {
+        "error": {}
+      },
+      "moderators": {},
+      "multiplayer": {},
+      "name": {
+        "error": {}
+      },
+      "payee": {
+        "error": {}
+      },
+      "privacy": {},
+      "sandbox": {},
+      "shortname": {
+        "error": {}
+      },
+      "startDate": {
+        "error": {}
+      },
+      "submissions": {},
+      "submissionsEndDate": {
+        "error": {}
+      },
+      "submissionsStartDate": {
+        "error": {}
+      },
+      "supportedCharity": {
+        "error": {}
+      },
+      "tabs": {},
+      "twitch": {
+        "error": {}
+      },
+      "twitter": {
+        "error": {}
+      },
+      "type": {},
+      "videoRequired": {},
+      "youtube": {
+        "error": {},
+        "help": {}
+      }
+    },
+    "submissions": {
+      "category": {},
+      "game": {},
+      "submission": {},
+      "table": {},
+      "tabs": {}
+    },
+    "submit": {
+      "action": {},
+      "availabilities": {
+        "error": {}
+      },
+      "category": {
+        "code": {
+          "help": {}
+        },
+        "description": {
+          "error": {}
+        },
+        "estimate": {
+          "error": {}
+        },
+        "name": {
+          "error": {}
+        },
+        "opponent": {},
+        "type": {},
+        "video": {
+          "error": {}
+        }
+      },
+      "customField": {
+        "error": {}
+      },
+      "delete": {},
+      "game": {
+        "console": {
+          "error": {}
+        },
+        "description": {
+          "error": {}
+        },
+        "name": {
+          "error": {}
+        },
+        "ratio": {
+          "error": {}
+        }
+      },
+      "multiplayer": {
+        "code": {}
+      },
+      "table": {},
+      "tweet": {}
+    }
+  },
+  "navbar": {
+    "login": {}
+  },
+  "user": {
+    "profile": {
+      "filter": {
+        "status": {},
+        "temporality": {}
+      }
+    },
+    "settings": {
+      "accountSync": {
+        "error": {}
+      },
+      "deactivateAccount": {},
+      "email": {
+        "error": {}
+      },
+      "new": {},
+      "srcom": {
+        "error": {}
+      },
+      "twitch": {
+        "disabled": {},
+        "error": {}
+      },
+      "twitter": {
+        "disabled": {},
+        "error": {}
+      },
+      "username": {
+        "error": {}
+      },
+      "usernameJapanese": {
+        "error": {}
+      }
+    }
+  }
 }

@@ -821,6 +821,16 @@
   },
   "user": {
     "profile": {
+      "filter": {
+        "status": {
+          "title": "Statut"
+        },
+        "temporality": {
+          "FUTURE": "Marathons futurs",
+          "PAST": "Marathons passés",
+          "title": "Temporalité"
+        }
+      },
       "moderator": "Événements modérés",
       "submissions": "Historique des candidatures"
     },

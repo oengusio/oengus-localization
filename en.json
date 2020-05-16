@@ -821,6 +821,16 @@
   },
   "user": {
     "profile": {
+      "filter": {
+        "status": {
+          "title": "Status"
+        },
+        "temporality": {
+          "FUTURE": "Future marathons",
+          "PAST": "Past marathons",
+          "title": "Temporality"
+        }
+      },
       "moderator": "Moderated events",
       "submissions": "Submissions history"
     },
