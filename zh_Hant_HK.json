@@ -1,1 +1,11 @@
-{}
+{
+    "aboutPage": {
+        "contact": {
+            "par1": "發現了錯誤？對網站有疑問嗎？加入<a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\"> Discord伺服器</a>吧"
+        },
+        "about": {
+            "title": "關於",
+            "par1": "Oengus是一個提供組織競速破關的工具的網站。"
+        }
+    }
+}
