@@ -1,11 +1,104 @@
 {
     "aboutPage": {
         "contact": {
-            "par1": "發現了錯誤？對網站有疑問嗎？加入<a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\"> Discord伺服器</a>吧"
+            "par1": "發現了錯誤？對網站有疑問嗎？加入<a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\"> Discord伺服器</a>吧",
+            "title": "聯絡",
+            "par2": "對於業務/公關諮詢，請發送電子郵件至contact@oengus.io"
         },
         "about": {
             "title": "關於",
             "par1": "Oengus是一個提供組織競速破關的工具的網站。"
         }
+    },
+    "alert": {
+        "submit": {
+            "DIFFERENT_MARATHON": "該代碼是另一場馬拉鬆比賽",
+            "CODE_NOT_FOUND": "該代碼不存在",
+            "ALREADY_IN_OPPONENTS": "您已經屬於此類別"
+        },
+        "submission": {
+            "save": {
+                "success": "提交成功發送",
+                "error": "提交過程中出錯"
+            },
+            "deletion": {
+                "success": "提交已成功刪除",
+                "error": "提交刪除期間發生錯誤。請重試或聯繫管理員。"
+            }
+        },
+        "selection": {
+            "save": {
+                "success": "選擇保存成功",
+                "error": "選擇保存時出錯"
+            }
+        },
+        "schedule": {
+            "save": {
+                "success": "日程保存成功",
+                "error": "日程保存期間發生錯誤"
+            },
+            "export": {
+                "error": "導出過程中發生錯誤，請重試或聯繫管理員。"
+            }
+        },
+        "marathon": {
+            "update": {
+                "success": "馬拉松更新成功",
+                "error": "馬拉松更新時出錯"
+            },
+            "deletion": {
+                "success": "馬拉鬆成功刪除",
+                "error": "馬拉松刪除時出錯"
+            },
+            "creation": {
+                "success": "馬拉鬆比賽成功創建",
+                "error": "創建馬拉鬆時出錯"
+            }
+        },
+        "incentives": {
+            "save": {
+                "success": "激勵已成功保存。",
+                "error": "激勵保存過程中發生錯誤。請重試或聯繫管理員。"
+            },
+            "delete": {
+                "error": "激勵刪除期間出錯。請重試或聯繫管理員。",
+                "success": "激勵已成功刪除"
+            }
+        },
+        "game": {
+            "export": {
+                "error": "導出期間發生錯誤。請重試或聯繫管理員。"
+            },
+            "deletion": {
+                "success": "遊戲已成功刪除",
+                "error": "刪除遊戲時發生錯誤。請重試或聯繫管理員。"
+            }
+        },
+        "donation": {
+            "validate": {
+                "success": "您的捐款已成功發送。感謝您的捐款！",
+                "error": "捐贈過程中發生錯誤。請重試或聯繫管理員。"
+            },
+            "export": {
+                "error": "導出期間發生錯誤。請重試或聯繫管理員。"
+            }
+        },
+        "category": {
+            "deletion": {
+                "success": "類別已成功刪除",
+                "error": "刪除類別時發生錯誤。請重試或聯繫管理員。"
+            }
+        }
+    },
+    "action": {
+        "submit": "提交",
+        "sendTweet": "發送推文",
+        "save": "保存",
+        "join": "加入",
+        "decline": "拒絕",
+        "confirm": "確認",
+        "clearAvailabilities": "清除選定的可用性",
+        "cancel": "取消",
+        "accept": "接受"
     }
 }
