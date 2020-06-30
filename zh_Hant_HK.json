@@ -130,13 +130,15 @@
         "donate": {
             "incentiveAmount": {
                 "error": {
-                    "required": "金額為必填項",
-                    "minNumber": "金額必須大於零"
+                    "required": "數量為必填項",
+                    "minNumber": "數量必須大於零"
                 }
             },
             "incentives": {
                 "header": {
-                    "action": "行動"
+                    "action": "行動",
+                    "incentive": "激勵",
+                    "amount": "數量"
                 },
                 "description": "捐贈激勵可以用來增加挑戰並影響跑步者的選擇。您想將捐款用於激勵嗎？",
                 "bid": {
