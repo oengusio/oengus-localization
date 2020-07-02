@@ -144,7 +144,8 @@
                 "bid": {
                     "new": "（新）"
                 },
-                "add": "增加激勵"
+                "add": "增加激勵",
+                "title": "激勵"
             },
             "extra": {
                 "title": "額外的信息",
@@ -160,7 +161,51 @@
                     "required": "捐款金額為必填項",
                     "minNumber": "捐款金額必須大於零"
                 }
+            },
+            "title": "捐贈",
+            "nickname": {
+                "label": "暱稱",
+                "error": {
+                    "pattern": "暱稱僅由小寫字母，大寫字母，_和-組成",
+                    "max": "暱稱太長"
+                }
             }
+        },
+        "incentives": {
+            "management": {
+                "goal": {
+                    "error": {
+                        "required": "捐款目標為必填項"
+                    }
+                },
+                "name": {
+                    "error": {
+                        "required": "名稱為必填項"
+                    }
+                },
+                "donationGoal": "捐款目標",
+                "action": {
+                    "add": "增加激勵"
+                }
+            }
+        },
+        "home": {
+            "to": "至",
+            "language": "語言",
+            "from": "從"
+        },
+        "donations": {
+            "total": "捐款總額",
+            "title": "捐款",
+            "table": {
+                "name": "名稱",
+                "date": "日期",
+                "comment": "評論"
+            },
+            "max": "最高捐款額",
+            "export": "導出為CSV",
+            "count": "捐款數量",
+            "average": "平均捐款"
         }
     },
     "login": {
