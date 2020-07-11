@@ -1,255 +1,472 @@
 {
-    "aboutPage": {
-        "contact": {
-            "par1": "發現了錯誤？對網站有疑問嗎？加入<a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\"> Discord伺服器</a>吧",
-            "title": "聯絡",
-            "par2": "對於業務/公關諮詢，請發送電子郵件至contact@oengus.io"
-        },
-        "about": {
-            "title": "關於",
-            "par1": "Oengus是一個提供組織競速破關的工具的網站。",
-            "par5": "細節：Oengus是凱爾特神靈，負責時間和永恆。談論速跑馬拉鬆的合適名稱！",
-            "par4": "該網站是由<a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>創建的。自2013年以來擔任Speedrunning社區的工作人員，他以多種方式為Speedrunning社區做出了貢獻：<a href=\"https://speedrun.com\" target=\"_blank\"> speedrun.com </a>的全球工作人員，<a href=\"https://twitter.com/SpeedrunWRs\"> Speedrun WRs Twitter機器人</a>的創辦人，法國重播團隊的成員，該團隊為法國觀眾提供國際馬拉松重播，是Bourg la Run的創始人，在法語中相當於Games Done Quick。在收集了所有這些經驗並評估了組織馬拉鬆的公共工具後，他決定創建一個，而Oengus就是結果。",
-            "par3": "競速破關馬拉松是指速跑者聚集在一起的活動，以在線、現場或兩者同時向觀眾展示其跑步。最受歡迎的活動是每年組織兩次的<a href=\"https://gamesdonequick.com\" target=\"_blank\">Game Done Quick</a>。",
-            "par2": "競速破關是為了娛樂和/或競爭目的而在最短時間內將電子遊戲破關的遊戲方式。您可以在<a href=\"https://en.wikipedia.org/wiki/Speedrun\" target=\"_blank\"> Wikipedia</a>上了解有關speedrunning的更多信息。"
-        }
+  "aboutPage": {
+    "about": {
+      "par1": "Oengus是一個提供組織競速破關的工具的網站。",
+      "par2": "競速破關是為了娛樂和/或競爭目的而在最短時間內將電子遊戲破關的遊戲方式。您可以在<a href=\"https://en.wikipedia.org/wiki/Speedrun\" target=\"_blank\"> Wikipedia</a>上了解有關speedrunning的更多信息。",
+      "par3": "競速破關馬拉松是指速跑者聚集在一起的活動，以在線、現場或兩者同時向觀眾展示其跑步。最受歡迎的活動是每年組織兩次的<a href=\"https://gamesdonequick.com\" target=\"_blank\">Game Done Quick</a>。",
+      "par4": "該網站是由<a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>創建的。自2013年以來擔任Speedrunning社區的工作人員，他以多種方式為Speedrunning社區做出了貢獻：<a href=\"https://speedrun.com\" target=\"_blank\"> speedrun.com </a>的全球工作人員，<a href=\"https://twitter.com/SpeedrunWRs\"> Speedrun WRs Twitter機器人</a>的創辦人，法國重播團隊的成員，該團隊為法國觀眾提供國際馬拉松重播，是Bourg la Run的創始人，在法語中相當於Games Done Quick。在收集了所有這些經驗並評估了組織馬拉鬆的公共工具後，他決定創建一個，而Oengus就是結果。",
+      "par5": "細節：Oengus是凱爾特神靈，負責時間和永恆。談論速跑馬拉鬆的合適名稱！",
+      "title": "關於"
     },
-    "alert": {
-        "submit": {
-            "DIFFERENT_MARATHON": "該代碼是另一場馬拉鬆比賽",
-            "CODE_NOT_FOUND": "該代碼不存在",
-            "ALREADY_IN_OPPONENTS": "您已經屬於此類別",
-            "SAME_USER": "您無法將自己添加到已創建的類別中",
-            "NOT_MULTIPLAYER": "這不是多人遊戲的分類",
-            "MAX_SIZE_REACHED": "此提交已達到參賽人數上限"
-        },
-        "submission": {
-            "save": {
-                "success": "提交成功發送",
-                "error": "提交過程中出錯"
-            },
-            "deletion": {
-                "success": "提交已成功刪除",
-                "error": "提交刪除期間發生錯誤。請重試或聯繫管理員。"
-            }
-        },
-        "selection": {
-            "save": {
-                "success": "選擇保存成功",
-                "error": "選擇保存時出錯"
-            }
-        },
-        "schedule": {
-            "save": {
-                "success": "日程保存成功",
-                "error": "日程保存期間發生錯誤"
-            },
-            "export": {
-                "error": "導出過程中發生錯誤，請重試或聯繫管理員。"
-            }
-        },
-        "marathon": {
-            "update": {
-                "success": "馬拉松更新成功",
-                "error": "馬拉松更新時出錯"
-            },
-            "deletion": {
-                "success": "馬拉鬆成功刪除",
-                "error": "馬拉松刪除時出錯"
-            },
-            "creation": {
-                "success": "馬拉鬆比賽成功創建",
-                "error": "創建馬拉鬆時出錯"
-            }
-        },
-        "incentives": {
-            "save": {
-                "success": "激勵已成功保存。",
-                "error": "激勵保存過程中發生錯誤。請重試或聯繫管理員。"
-            },
-            "delete": {
-                "error": "激勵刪除期間出錯。請重試或聯繫管理員。",
-                "success": "激勵已成功刪除"
-            }
-        },
-        "game": {
-            "export": {
-                "error": "導出期間發生錯誤。請重試或聯繫管理員。"
-            },
-            "deletion": {
-                "success": "遊戲已成功刪除",
-                "error": "刪除遊戲時發生錯誤。請重試或聯繫管理員。"
-            }
-        },
-        "donation": {
-            "validate": {
-                "success": "您的捐款已成功發送。感謝您的捐款！",
-                "error": "捐贈過程中發生錯誤。請重試或聯繫管理員。"
-            },
-            "export": {
-                "error": "導出期間發生錯誤。請重試或聯繫管理員。"
-            }
-        },
-        "category": {
-            "deletion": {
-                "success": "類別已成功刪除",
-                "error": "刪除類別時發生錯誤。請重試或聯繫管理員。"
-            }
-        },
-        "user": {
-            "login": {
-                "usernameExists": "您嘗試登錄的帳戶綁定的用戶名已經存在。確保您尚未使用其他登錄方法創建Oengus個人資料。如果您認為這是誤報，請與管理員聯繫。",
-                "error": "身份驗證期間發生錯誤。請重試或聯繫管理員。",
-                "disabledAccount": "您的帳戶已被禁用。如果您想再次使用它，請聯繫管理員。"
-            },
-            "update": {
-                "success": "用戶數據更新成功",
-                "error": "用戶數據更新期間出錯"
-            },
-            "sync": {
-                "error": "帳戶同步期間發生錯誤。請重試或聯繫管理員。",
-                "alreadySynced": "錯誤：此帳戶已被使用"
-            },
-            "deactivate": {
-                "success": "您的帳戶已成功停用"
-            }
-        }
+    "contact": {
+      "par1": "發現了錯誤？對網站有疑問嗎？加入<a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\"> Discord伺服器</a>吧",
+      "par2": "對於業務/公關諮詢，請發送電子郵件至contact@oengus.io",
+      "title": "聯絡"
+    }
+  },
+  "action": {
+    "accept": "接受",
+    "cancel": "取消",
+    "clearAvailabilities": "清除選定的可用性",
+    "confirm": "確認",
+    "decline": "拒絕",
+    "join": "加入",
+    "save": "保存",
+    "sendTweet": "發送推文",
+    "submit": "提交"
+  },
+  "alert": {
+    "category": {
+      "deletion": {
+        "error": "刪除類別時發生錯誤。請重試或聯繫管理員。",
+        "success": "類別已成功刪除"
+      }
     },
-    "action": {
-        "submit": "提交",
-        "sendTweet": "發送推文",
-        "save": "保存",
-        "join": "加入",
-        "decline": "拒絕",
-        "confirm": "確認",
-        "clearAvailabilities": "清除選定的可用性",
-        "cancel": "取消",
-        "accept": "接受"
+    "donation": {
+      "export": {
+        "error": "導出期間發生錯誤。請重試或聯繫管理員。"
+      },
+      "validate": {
+        "error": "捐贈過程中發生錯誤。請重試或聯繫管理員。",
+        "success": "您的捐款已成功發送。感謝您的捐款！"
+      }
+    },
+    "game": {
+      "deletion": {
+        "error": "刪除遊戲時發生錯誤。請重試或聯繫管理員。",
+        "success": "遊戲已成功刪除"
+      },
+      "export": {
+        "error": "導出期間發生錯誤。請重試或聯繫管理員。"
+      }
+    },
+    "incentives": {
+      "delete": {
+        "error": "激勵刪除期間出錯。請重試或聯繫管理員。",
+        "success": "激勵已成功刪除"
+      },
+      "save": {
+        "error": "激勵保存過程中發生錯誤。請重試或聯繫管理員。",
+        "success": "激勵已成功保存。"
+      }
     },
     "marathon": {
-        "donate": {
-            "incentiveAmount": {
-                "error": {
-                    "required": "數量為必填項",
-                    "minNumber": "數量必須大於零"
-                }
-            },
-            "incentives": {
-                "header": {
-                    "action": "行動",
-                    "incentive": "激勵",
-                    "amount": "數量"
-                },
-                "description": "捐贈激勵可以用來增加挑戰並影響跑步者的選擇。您想將捐款用於激勵嗎？",
-                "bid": {
-                    "new": "（新）"
-                },
-                "add": "增加激勵",
-                "title": "激勵"
-            },
-            "extra": {
-                "title": "額外的信息",
-                "description": "數據不會在任何地方公開顯示，並在活動結束後一個月刪除。"
-            },
-            "description": "捐款支持{{supportedCharity}}",
-            "comment": {
-                "label": "評論"
-            },
-            "amount": {
-                "label": "捐款金額",
-                "error": {
-                    "required": "捐款金額為必填項",
-                    "minNumber": "捐款金額必須大於零"
-                }
-            },
-            "title": "捐贈",
-            "nickname": {
-                "label": "暱稱",
-                "error": {
-                    "pattern": "暱稱僅由小寫字母，大寫字母，_和-組成",
-                    "max": "暱稱太長"
-                }
-            }
-        },
-        "incentives": {
-            "management": {
-                "goal": {
-                    "error": {
-                        "required": "捐款目標為必填項"
-                    }
-                },
-                "name": {
-                    "error": {
-                        "required": "名稱為必填項"
-                    }
-                },
-                "donationGoal": "捐款目標",
-                "action": {
-                    "add": "增加激勵"
-                }
-            }
-        },
-        "home": {
-            "to": "至",
-            "language": "語言",
-            "from": "從"
-        },
-        "donations": {
-            "total": "捐款總額",
-            "title": "捐款",
-            "table": {
-                "name": "名稱",
-                "date": "日期",
-                "comment": "評論"
-            },
-            "max": "最高捐款額",
-            "export": "導出為CSV",
-            "count": "捐款數量",
-            "average": "平均捐款"
-        }
+      "creation": {
+        "error": "創建馬拉鬆時出錯",
+        "success": "馬拉鬆比賽成功創建"
+      },
+      "deletion": {
+        "error": "馬拉松刪除時出錯",
+        "success": "馬拉鬆成功刪除"
+      },
+      "update": {
+        "error": "馬拉松更新時出錯",
+        "success": "馬拉松更新成功"
+      }
     },
-    "login": {
-        "authInProgress": "正在進行認證，請稍候…"
+    "schedule": {
+      "export": {
+        "error": "導出過程中發生錯誤，請重試或聯繫管理員。"
+      },
+      "save": {
+        "error": "日程保存期間發生錯誤",
+        "success": "日程保存成功"
+      }
     },
-    "homepage": {
-        "welcomeTitle": "歡迎來到Oengus！",
-        "welcomeText": {
-            "par4": {
-                "sandbox": "<b>您可以在沙盒中測試和發現。如果您想創建實際的馬拉鬆比賽，請訪問<a href=\"https://oengus.io\">主網站</a>。</b>",
-                "prod": "如果要在創建申請之前測試申請，請轉到<a href=\"https://sandbox.oengus.io\">沙盒</a>。它可用於所有測試和發現目的。"
-            },
-            "par3": "要所有功能，請使用以下鏈接登錄。您將能夠創建新的馬拉松並提交給現有的：",
-            "par1": "Oengus是<b>免費</b>的工具，用於管理從提交到計劃的馬拉松。"
-        },
-        "plannedFeatures": {
-            "5": "連接Discord",
-            "3": "通過可視化跑步者的可用時間輕鬆創建時間表",
-            "2": "各種遊戲選擇系統（直接選擇，投票等）",
-            "1": "合作/競賽提交",
-            "title": "計劃功能",
-            "7": "通過Paypal進行捐贈管理",
-            "6": "郵件通知",
-            "4": "帳戶同步以連接Twitter / Twitch / Google"
-        },
-        "marathons": {
-            "open": "提交開啟",
-            "moderated": "管理中的馬拉松",
-            "upcoming": "即將舉行的馬拉鬆",
-            "live": "直播中的馬拉松",
-            "calendar": "完整日曆"
-        },
-        "starts": "開始{{duration}}",
-        "ends": "{{duration}}結束了"
+    "selection": {
+      "save": {
+        "error": "選擇保存時出錯",
+        "success": "選擇保存成功"
+      }
     },
-    "footer": {
-        "text": "<strong>Oengus</strong>由<a href=\"https://twitter.com/GyooRunsStuff\">Gyoo</a>。<br/>\n所有時間都會轉換為您的時區。檢測到的時區：{{timezone}}",
-        "donate": "如果您喜歡Oengus，請考慮<a href=\"{{donationLink}}\" target=\"_blank\">捐贈</a>"
+    "submission": {
+      "deletion": {
+        "error": "提交刪除期間發生錯誤。請重試或聯繫管理員。",
+        "success": "提交已成功刪除"
+      },
+      "save": {
+        "error": "提交過程中出錯",
+        "success": "提交成功發送"
+      }
     },
-    "global": {
-        "emu": "[模擬器]"
+    "submit": {
+      "ALREADY_IN_OPPONENTS": "您已經屬於此類別",
+      "CODE_NOT_FOUND": "該代碼不存在",
+      "DIFFERENT_MARATHON": "該代碼是另一場馬拉鬆比賽",
+      "MAX_SIZE_REACHED": "此提交已達到參賽人數上限",
+      "NOT_MULTIPLAYER": "這不是多人遊戲的分類",
+      "SAME_USER": "您無法將自己添加到已創建的類別中"
     },
-    "calendar": {
-        "title": "馬拉松日曆",
-        "help": "單擊一個活動會將您重定向到其頁面"
+    "user": {
+      "deactivate": {
+        "success": "您的帳戶已成功停用"
+      },
+      "login": {
+        "disabledAccount": "您的帳戶已被禁用。如果您想再次使用它，請聯繫管理員。",
+        "error": "身份驗證期間發生錯誤。請重試或聯繫管理員。",
+        "usernameExists": "您嘗試登錄的帳戶綁定的用戶名已經存在。確保您尚未使用其他登錄方法創建Oengus個人資料。如果您認為這是誤報，請與管理員聯繫。"
+      },
+      "sync": {
+        "alreadySynced": "錯誤：此帳戶已被使用",
+        "error": "帳戶同步期間發生錯誤。請重試或聯繫管理員。"
+      },
+      "update": {
+        "error": "用戶數據更新期間出錯",
+        "success": "用戶數據更新成功"
+      }
     }
+  },
+  "calendar": {
+    "help": "單擊一個活動會將您重定向到其頁面",
+    "title": "馬拉松日曆"
+  },
+  "footer": {
+    "donate": "如果您喜歡Oengus，請考慮<a href=\"{{donationLink}}\" target=\"_blank\">捐贈</a>",
+    "text": "<strong>Oengus</strong>由<a href=\"https://twitter.com/GyooRunsStuff\">Gyoo</a>。<br/>\n所有時間都會轉換為您的時區。檢測到的時區：{{timezone}}"
+  },
+  "global": {
+    "emu": "[模擬器]"
+  },
+  "homepage": {
+    "ends": "{{duration}}結束了",
+    "marathons": {
+      "calendar": "完整日曆",
+      "live": "直播中的馬拉松",
+      "moderated": "管理中的馬拉松",
+      "open": "提交開啟",
+      "upcoming": "即將舉行的馬拉鬆"
+    },
+    "plannedFeatures": {
+      "1": "合作/競賽提交",
+      "2": "各種遊戲選擇系統（直接選擇，投票等）",
+      "3": "通過可視化跑步者的可用時間輕鬆創建時間表",
+      "4": "帳戶同步以連接Twitter / Twitch / Google",
+      "5": "連接Discord",
+      "6": "郵件通知",
+      "7": "通過Paypal進行捐贈管理",
+      "title": "計劃功能"
+    },
+    "starts": "開始{{duration}}",
+    "welcomeText": {
+      "par1": "Oengus是<b>免費</b>的工具，用於管理從提交到計劃的馬拉松。",
+      "par3": "要所有功能，請使用以下鏈接登錄。您將能夠創建新的馬拉松並提交給現有的：",
+      "par4": {
+        "prod": "如果要在創建申請之前測試申請，請轉到<a href=\"https://sandbox.oengus.io\">沙盒</a>。它可用於所有測試和發現目的。",
+        "sandbox": "<b>您可以在沙盒中測試和發現。如果您想創建實際的馬拉鬆比賽，請訪問<a href=\"https://oengus.io\">主網站</a>。</b>"
+      }
+    },
+    "welcomeTitle": "歡迎來到Oengus！"
+  },
+  "login": {
+    "authInProgress": "正在進行認證，請稍候…"
+  },
+  "marathon": {
+    "donate": {
+      "amount": {
+        "error": {
+          "minNumber": "捐款金額必須大於零",
+          "required": "捐款金額為必填項"
+        },
+        "label": "捐款金額"
+      },
+      "comment": {
+        "label": "評論"
+      },
+      "description": "捐款支持{{supportedCharity}}",
+      "extra": {
+        "description": "數據不會在任何地方公開顯示，並在活動結束後一個月刪除。",
+        "title": "額外的信息"
+      },
+      "incentiveAmount": {
+        "error": {
+          "minNumber": "數量必須大於零",
+          "required": "數量為必填項"
+        }
+      },
+      "incentives": {
+        "add": "增加激勵",
+        "bid": {
+          "new": "（新）"
+        },
+        "description": "捐贈激勵可以用來增加挑戰並影響跑步者的選擇。您想將捐款用於激勵嗎？",
+        "header": {
+          "action": "行動",
+          "amount": "數量",
+          "incentive": "激勵"
+        },
+        "title": "激勵"
+      },
+      "name": {
+        "error": {}
+      },
+      "nickname": {
+        "error": {
+          "max": "暱稱太長",
+          "pattern": "暱稱僅由小寫字母，大寫字母，_和-組成"
+        },
+        "label": "暱稱"
+      },
+      "title": "捐贈",
+      "total": {
+        "error": {}
+      }
+    },
+    "donations": {
+      "average": "平均捐款",
+      "count": "捐款數量",
+      "export": "導出為CSV",
+      "max": "最高捐款額",
+      "table": {
+        "comment": "評論",
+        "date": "日期",
+        "name": "名稱"
+      },
+      "title": "捐款",
+      "total": "捐款總額"
+    },
+    "help": {},
+    "home": {
+      "from": "從",
+      "language": "語言",
+      "to": "至"
+    },
+    "incentives": {
+      "management": {
+        "action": {
+          "add": "增加激勵"
+        },
+        "bidName": {
+          "error": {}
+        },
+        "currentAmount": {
+          "error": {}
+        },
+        "donationGoal": "捐款目標",
+        "goal": {
+          "error": {
+            "required": "捐款目標為必填項"
+          }
+        },
+        "name": {
+          "error": {
+            "required": "名稱為必填項"
+          }
+        },
+        "table": {}
+      }
+    },
+    "menu": {},
+    "new": {},
+    "schedule": {
+      "export": {},
+      "management": {
+        "action": {},
+        "help": {}
+      },
+      "table": {},
+      "type": {}
+    },
+    "selection": {
+      "action": {},
+      "availabilities": {},
+      "help": {},
+      "publish": {},
+      "selection": {},
+      "statistics": {
+        "table": {}
+      },
+      "status": {}
+    },
+    "settings": {
+      "country": {},
+      "currencyIso": {
+        "error": {}
+      },
+      "customFields": {
+        "action": {},
+        "label": {
+          "error": {}
+        },
+        "option": {
+          "error": {}
+        },
+        "required": {},
+        "type": {
+          "option": {}
+        }
+      },
+      "defaultSetupTime": {
+        "error": {}
+      },
+      "delete": {},
+      "discord": {
+        "error": {}
+      },
+      "discordPrivacy": {},
+      "donationWebhook": {
+        "error": {}
+      },
+      "donations": {},
+      "donationsOpen": {},
+      "emulatorAuthorized": {},
+      "endDate": {
+        "error": {}
+      },
+      "incentives": {},
+      "language": {},
+      "location": {},
+      "marathonDescription": {},
+      "maxCategoriesPerGame": {
+        "error": {}
+      },
+      "maxGamesPerRunner": {
+        "error": {}
+      },
+      "maxNumberOfScreens": {
+        "error": {}
+      },
+      "moderators": {},
+      "multiplayer": {},
+      "name": {
+        "error": {}
+      },
+      "payee": {
+        "error": {}
+      },
+      "privacy": {},
+      "sandbox": {},
+      "shortname": {
+        "error": {}
+      },
+      "startDate": {
+        "error": {}
+      },
+      "submissions": {},
+      "submissionsEndDate": {
+        "error": {}
+      },
+      "submissionsStartDate": {
+        "error": {}
+      },
+      "supportedCharity": {
+        "error": {}
+      },
+      "tabs": {},
+      "twitch": {
+        "error": {}
+      },
+      "twitter": {
+        "error": {}
+      },
+      "type": {},
+      "videoRequired": {},
+      "youtube": {
+        "error": {},
+        "help": {}
+      }
+    },
+    "submissions": {
+      "category": {},
+      "game": {},
+      "submission": {},
+      "table": {},
+      "tabs": {}
+    },
+    "submit": {
+      "action": {},
+      "availabilities": {
+        "error": {}
+      },
+      "category": {
+        "code": {
+          "help": {}
+        },
+        "description": {
+          "error": {}
+        },
+        "estimate": {
+          "error": {}
+        },
+        "name": {
+          "error": {}
+        },
+        "opponent": {},
+        "type": {},
+        "video": {
+          "error": {}
+        }
+      },
+      "customField": {
+        "error": {}
+      },
+      "delete": {},
+      "game": {
+        "console": {
+          "error": {}
+        },
+        "description": {
+          "error": {}
+        },
+        "name": {
+          "error": {}
+        },
+        "ratio": {
+          "error": {}
+        }
+      },
+      "multiplayer": {
+        "code": {}
+      },
+      "table": {},
+      "tweet": {}
+    }
+  },
+  "navbar": {
+    "login": {}
+  },
+  "user": {
+    "profile": {
+      "filter": {
+        "status": {},
+        "temporality": {}
+      }
+    },
+    "settings": {
+      "accountSync": {
+        "error": {}
+      },
+      "deactivateAccount": {},
+      "email": {
+        "error": {}
+      },
+      "new": {},
+      "srcom": {
+        "error": {}
+      },
+      "twitch": {
+        "disabled": {},
+        "error": {}
+      },
+      "twitter": {
+        "disabled": {},
+        "error": {}
+      },
+      "username": {
+        "error": {}
+      },
+      "usernameJapanese": {
+        "error": {}
+      }
+    }
+  }
 }
