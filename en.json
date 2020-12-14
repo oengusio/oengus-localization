@@ -156,6 +156,10 @@
       "7": "Donations management through Paypal",
       "title": "Planned features"
     },
+    "sponsors": {
+      "esa": "oengus.io is hosted by the <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>",
+      "title": "Sponsors"
+    },
     "starts": "Starts {{duration}}",
     "welcomeText": {
       "par1": "Oengus is a <b>free</b> tool to manage your speedrunning marathons from submissions to schedule.",
