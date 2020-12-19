@@ -132,7 +132,7 @@
   },
   "footer": {
     "donate": "Wenn dir Oengus gefällt, wie wäre es mit einer  <a href=\"{{donationLink}}\" target=\"_blank\">Spende</a>",
-    "text": "<strong>Oengus</strong> by <a href=\"https://twitter.com/GyooRunsStuff\">Gyoo</a>.<br/>\nAlle Zeiten werden in Ihre Zeitzone konvertiert. Erkannte Zeitzone: {{timezone}}"
+    "text": "Alle Zeiten werden in Ihre Zeitzone konvertiert. Erkannte Zeitzone: {{timezone}}"
   },
   "global": {
     "emu": "[Emu]"

@@ -132,7 +132,7 @@
   },
   "footer": {
     "donate": "如果您喜歡Oengus，請考慮<a href=\"{{donationLink}}\" target=\"_blank\">捐贈</a>",
-    "text": "<strong>Oengus</strong>由<a href=\"https://twitter.com/GyooRunsStuff\">Gyoo</a>。<br/>\n所有時間都會轉換為您的時區。檢測到的時區：{{timezone}}"
+    "text": "所有時間都會轉換為您的時區。檢測到的時區：{{timezone}}"
   },
   "global": {
     "emu": "[模擬器]"

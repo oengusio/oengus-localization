@@ -132,7 +132,7 @@
   },
   "footer": {
     "donate": "Se você gostou do Oengus, por favor considere <a href=\"{{donationLink}}\" target=\"_blank\">realizar uma doação</a>",
-    "text": "<strong>Oengus</strong> desenvolvido por <a href=\"https://twitter.com/GyooRunsStuff\">Gyoo</a>.<br/>\nTodos os horários são convertidos para o seu fuso horário. Fuso horário detectado: {{timezone}}"
+    "text": "Todos os horários são convertidos para o seu fuso horário. Fuso horário detectado: {{timezone}}"
   },
   "global": {
     "emu": "[Emu]"
