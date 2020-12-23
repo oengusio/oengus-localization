@@ -806,6 +806,7 @@
   },
   "navbar": {
     "about": "About",
+    "patrons": "Our Patrons",
     "bugtracker": "Report bugs and suggestions",
     "createMarathon": "New Marathon",
     "discord": "Join the official Discord server",
