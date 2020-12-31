@@ -920,5 +920,13 @@
     "par1": "Thank you to our patrons for helping keep Oengus.io up and running",
     "par2": "The people listed on this page are the ones that donate $25 or more to our <a href=\"https://www.patreon.com/oengusio\" target=\"_blank\">Patreon Campaign</a>",
     "noPatrons": "Nobody to display here, why not <a href=\"https://www.patreon.com/oengusio\" target=\"_blank\">become the first one</a>?"
+  },
+  "errors": {
+    "404": {
+      "title0": "Your WR has been rejected",
+      "title1": "Hold your horses, you're too fast",
+      "title2": "Going too fast there buddy",
+      "body": "The page <em>{{path}}</em> was not found on Angus"
+    }
   }
 }
