@@ -136,7 +136,8 @@
     "text": "All times are converted to your timezone. Detected timezone: {{timezone}}"
   },
   "global": {
-    "emu": "[Emu]"
+    "emu": "[Emu]",
+    "adblocker": "Hey there, it seems that you are blocking ads, please turn off your ad blocker on oengus as we rely on ads and donations to survive."
   },
   "homepage": {
     "ends": "Ends {{duration}}",
