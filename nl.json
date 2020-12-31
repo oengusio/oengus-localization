@@ -4,7 +4,7 @@
             "par1": "Oengus is een website die hulpmiddelen beschikbaar stelt voor het organiseren van speedrun marathons.",
             "par2": "Speedrunning is het spelen van een game met het doel om het zo snel mogelijk uit te spelen, voor amuserende en/of competitieve doeleinden. Je kan hier meer over lezen hierover op <a href=\"https://nl.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedia</a>.",
             "par3": "Speedrunning marathons zijn evenementen waar speedrunners bijeenkomen om hun speedruns te laten zien aan een publiek, zowel on- als offline. De meest populaire speedrun marathon is <a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a>, een marathon die tweemaal per jaar wordt georganiseerd.",
-            "par4": "Deze website is gemaakt door <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>. Een speler in de speedrun community sinds 2013, heeft hij bijgedragen aan de speedrun community op veel manieren: Global Moderator op <a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a> voor 3 jaar, maker van de  <a href=\"https://twitter.com/SpeedrunWRs\">Speedrun wereldrecord Twitter bot</a>, lid van het Franse Restream team, welke restreams doet van internationale marathons voor een frans publiek, en oprichter van Bourg la Run, de franse equivalent van Games Done Quick. Na het ophalen van al deze ervaringen, en beoordeeld te hebben dat er geen goede hulpmiddelen zijn voor het organiseren van marathons, heeft hij besloten er een te maken. En Oengus is het resultaat.",
+            "par4": "Deze website is gemaakt door <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>. Een speler in de speedrun community sinds 2013, heeft hij bijgedragen aan de speedrun community op veel manieren: Global Moderator op <a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a> voor 3 jaar, maker van de <a href=\"https://twitter.com/SpeedrunWRs\">Speedrun wereldrecord Twitter bot</a>, lid van het Franse Restream team, welke restreams doet van internationale marathons voor een frans publiek, en oprichter van Bourg la Run, de franse equivalent van Games Done Quick. Na het ophalen van al deze ervaringen, en beoordeeld te hebben dat er geen goede hulpmiddelen zijn voor het organiseren van marathons, heeft hij besloten er een te maken. En Oengus is het resultaat.",
             "par6": "Trivia: Oengus is een Keltische goddelijkheid die de leiding heeft over tijd en de eeuwigheid. Over een fittende naam voor speedrun marathons gesproken!",
             "title": "Over ons",
             "par5": "Vanaf Januari 2021 wordt deze site beheerd door <a href=\"https://twitter.com/duncte123\" target=\"_blank\">duncte123</a>."
@@ -136,7 +136,8 @@
         "text": "Alle tijden zijn omgerekend naar jouw tijdzone. Gedetecteerde tijdzone: {{timezone}}"
     },
     "global": {
-        "emu": "[Emu]"
+        "emu": "[Emu]",
+        "adblocker": "Hey, het ziet eruit alsof jij ads blokkeert, schakel alsjeblieft je ad blocker uit op oengus aangezien wij afhangen van advertenties en donaties om te overleven."
     },
     "homepage": {
         "ends": "Eindigt op {{duration}}",
@@ -148,7 +149,7 @@
             "upcoming": "Aankomende marathons"
         },
         "plannedFeatures": {
-            "1": "Coop/races submissions",
+            "1": "Coop/races submissies",
             "2": "Meerdere runs selectie systeem (direct kiezen, stemmen...)",
             "3": "Gemakkelijk schema systeem met runners' beschikbaarheid-visualisatie",
             "4": "Accounts sync voor verbinding met Twitter/Twitch/Google",
@@ -294,7 +295,7 @@
             "donate": "Doneer",
             "donations": "Donaties",
             "editSubmission": "Wijzig submission",
-            "home": "Home",
+            "home": "Startpagina",
             "incentives": "Donatie-incentives",
             "loginToSubmit": "Log in om runs te submitten",
             "manageIncentives": "Beheer donation-incentives",
@@ -304,7 +305,7 @@
             "schedule": "Schema",
             "selectRuns": "Runs selecteren",
             "settings": "Instellingen",
-            "submitRuns": "Submit runs",
+            "submitRuns": "Runs voorleggen",
             "tracker": "Tracker",
             "viewSubmissions": "Submissions bekijken"
         },
@@ -371,7 +372,7 @@
                 "BACKUP": "Backup runs worden niet toegevoegd aan de lijst van geselecteerde runs in schema beheer. Om ze aan de lijst toe te voegen, verander de runs naar Geaccepteerd of Bonus status als gewenst."
             },
             "publish": {
-                "help": "Klik op \"Opslaan\" om je huidige selectie op te slaan. Je kan je selectie alleen publiceren als alle runs een status anders dan  \"nog te doen\" hebben. Het opslaan of publiceren van een selectie kan even duren. Dit hangt af van het aantal runs. Waarschuwing: selecties publiceren zal automatisch de submissions sluiten. Wanneer de selectie is gepubliceerd, zal deze voor alle runners beschikbaar en in te zien zijn op de \"Submissions bekijken\" pagina."
+                "help": "Klik op \"Opslaan\" om je huidige selectie op te slaan. Je kan je selectie alleen publiceren als alle runs een status anders dan \"nog te doen\" hebben. Het opslaan of publiceren van een selectie kan even duren. Dit hangt af van het aantal runs. Waarschuwing: selecties publiceren zal automatisch de submissions sluiten. Wanneer de selectie is gepubliceerd, zal deze voor alle runners beschikbaar en in te zien zijn op de \"Submissions bekijken\" pagina."
             },
             "selection": {
                 "title": "Selectie"
@@ -384,7 +385,7 @@
                     "numberOfRunners": "Aantal runners",
                     "numberOfRuns": "Aantal runs",
                     "totalTime": "Totale tijd",
-                    "totalTimeValidated": "Totale tijd met  (default setup time included)"
+                    "totalTimeValidated": "Totale tijd met (default setup time included)"
                 },
                 "title": "Statistieken"
             },
@@ -583,7 +584,7 @@
             },
             "submissions": {
                 "closed": "Submissions zijn gesloten",
-                "label": "Submissions",
+                "label": "Submissies",
                 "open": "Submissions zijn open"
             },
             "submissionsEndDate": {
@@ -610,7 +611,7 @@
                 "dangerZone": "Gevarenzone",
                 "general": "Algemeen",
                 "incentives": "Donatie-incentives",
-                "submissions": "Submissions"
+                "submissions": "Submissies"
             },
             "title": "Marathon instellingen",
             "twitch": {
@@ -673,9 +674,9 @@
             },
             "tabs": {
                 "answers": "Antwoorden",
-                "submissions": "Submissions"
+                "submissions": "Submissies"
             },
-            "title": "Submissions"
+            "title": "Submissies"
         },
         "submit": {
             "action": {
@@ -784,7 +785,7 @@
                 "title": "Multiplayer categorieën"
             },
             "racesAllowed": "Races/Coop toegestaan",
-            "submissions": "Submissions",
+            "submissions": "Submissies",
             "submitsClosed": "Submissions zijn nu gesloten. Je kan alleen je beschikbaarheid nog bijwerken tot het schema gepubliceerd is.",
             "table": {
                 "actions": "Acties",
@@ -912,6 +913,15 @@
     "patrons": {
         "par2": "De mensen op deze pagina hebben $25 of meer gedoneerd naar onze <a href=\"https://www.patreon.com/oengusio\" target=\"_blank\">Patreon campagne</a>",
         "par1": "Bedankt aan onze Patrons voor het helpen om Oengus.io draaiende te houden",
-        "title": "Onze Patrons"
+        "title": "Onze Patrons",
+        "noPatrons": "Hier staat nog niemand, waarom<a href=\"https://www.patreon.com/oengusio\" target=\"_blank\"> wordt jij de eerste niet</a>?"
+    },
+    "errors": {
+        "404": {
+            "body": "De pagina <em>{{path}}</em> is niet gevonden op Angus",
+            "title2": "Je gaat iets te snel hier, makker",
+            "title1": "Kalm aan, je bent te snel",
+            "title0": "Jouw wereld record is afgekeurd"
+        }
     }
 }
