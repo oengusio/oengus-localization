@@ -13,3 +13,8 @@ For any new language, contact Gyoo on the [Oengus Discord server](https://discor
 There are 2 ways to translate :
 - Either you're comfortable editing the JSON file directly, then go for it, it works,
 - Or you want something a bit more user-friendly, then I recommend using [i18n-editor](https://github.com/jcbvm/i18n-editor) for the task. After opening it, go to `File > Import Project...` and select the folder that contains translations. A settings file is provided in the folder so it should open nicely.
+
+# Weblate
+This project uses weblate for its translations, you can contribute by visiting https://hosted.weblate.org/projects/oengusio/site
+
+This repo is a submodule for the main respository: https://github.com/esamarathon/oengus-webapp
