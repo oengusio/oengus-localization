@@ -756,9 +756,6 @@
         "console": {
           "emulated": "Emulated",
           "emulatorNotAllowed": "Emulators are not allowed for this marathon",
-          "error": {
-            "required": "Console is required"
-          },
           "label": "Console"
         },
         "description": {
