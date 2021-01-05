@@ -916,7 +916,7 @@
   "patrons": {
     "title": "Our Patrons",
     "par1": "Thank you to our patrons for helping keep Oengus.io up and running",
-    "par2": "The people and organisations listed on this page are the ones that donate $25 or more to our <a href=\"https://www.patreon.com/oengusio\" target=\"_blank\">Patreon Campaign</a>",
+    "par2": "The people and organisations listed on this page are the ones that have donated to our <a href=\"https://www.patreon.com/oengusio\" target=\"_blank\">Patreon Campaign</a> and help keep oengus free for everyone.",
     "noPatrons": "Nobody to display here, why not <a href=\"https://www.patreon.com/oengusio\" target=\"_blank\">become the first one</a>?"
   },
   "errors": {
