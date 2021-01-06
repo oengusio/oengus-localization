@@ -911,7 +911,7 @@
         }
     },
     "patrons": {
-        "par2": "De mensen en organisaties op deze pagina hebben $25 of meer gedoneerd naar onze <a href=\"https://www.patreon.com/oengusio\" target=\"_blank\">Patreon campagne</a>",
+        "par2": "De mensen en organisaties op deze pagina hebben gedoneerd naar onze <a href=\"https://www.patreon.com/oengusio\" target=\"_blank\">Patreon campagne</a> om Oengus gratis voor iedereen te houden.",
         "par1": "Bedankt aan onze Patrons voor het helpen om Oengus.io draaiende te houden",
         "title": "Onze Patrons",
         "noPatrons": "Hier staat nog niemand, waarom<a href=\"https://www.patreon.com/oengusio\" target=\"_blank\"> wordt jij de eerste niet</a>?"
