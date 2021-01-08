@@ -914,7 +914,7 @@
         "par1": "Merci à nos donateurs d'avoir aidé à maintenir Oengus.io opérationnel",
         "title": "Nos donateurs",
         "noPatrons": "Personne à afficher ici, pourquoi ne pas <a href=\"https://www.patreon.com/oengusio\" target=\"_blank\">devenir le premier</a> ?",
-        "par2": "Les personnes et organisations répertoriées sur cette page sont celles qui donnent 25 $ ou plus à notre <a href=\"https://www.patreon.com/oengusio\" target=\"_blank\">campagne Patreon</a>"
+        "par2": "Les personnes et organisations répertoriées sur cette page sont celles qui ont donné à notre <a href=\"https://www.patreon.com/oengusio\" target=\"_blank\">campagne Patreon</a> et aidé à garder oengus gratuit pour tout le monde."
     },
     "errors": {
         "404": {
