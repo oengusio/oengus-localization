@@ -826,6 +826,8 @@
   },
   "user": {
     "profile": {
+      "ban": "Ban User",
+      "unban": "Unban User",
       "filter": {
         "status": {
           "title": "Status"
