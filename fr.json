@@ -834,7 +834,9 @@
                 }
             },
             "moderator": "Événements modérés",
-            "submissions": "Historique des candidatures"
+            "submissions": "Historique des candidatures",
+            "unban": "Débannir utilisateur",
+            "ban": "Bannir utilisateur"
         },
         "settings": {
             "accountSync": {
