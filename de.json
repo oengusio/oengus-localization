@@ -132,7 +132,7 @@
         "title": "Marathon Kalender"
     },
     "footer": {
-        "donate": "Wenn dir Oengus gefällt, wie wäre es mit einer  <a href=\"{{donationLink}}\" target=\"_blank\">Spende</a>",
+        "donate": "Wenn dir Oengus gefällt, wie wäre es mit einer <a href=\"{{donationLink}}\" target=\"_blank\">Spende</a>",
         "text": "Alle Zeiten werden in Ihre Zeitzone konvertiert. Erkannte Zeitzone: {{timezone}}"
     },
     "global": {
@@ -256,7 +256,7 @@
                         "required": "Bid Name ist erforderlich"
                     }
                 },
-                "bidWar": "Bid war",
+                "bidWar": "Bidwar",
                 "currentAmount": {
                     "error": {
                         "required": "Aktueller Betrag ist erforderlich"
@@ -343,7 +343,7 @@
                 "actions": "Aktionen",
                 "category": "Kategorie",
                 "console": "Konsole",
-                "estimate": "Estimate",
+                "estimate": "Geschätzte Zeit",
                 "game": "Spiel",
                 "placeholder": "Verschieben sie einen Run von der linken Tabelle in diese. Dieser Text verschwindet Automatisch, sobald ein Run im Zeitplan vorhanden ist.",
                 "runner": "Runner(s)",
@@ -357,7 +357,7 @@
                 "COOP": "Co-Op Run",
                 "COOP_RACE": "Co-Op Race",
                 "OTHER": "Andere",
-                "RACE": "Race",
+                "RACE": "Rennen",
                 "SINGLE": "Einzel Run"
             }
         },
@@ -391,7 +391,7 @@
             },
             "status": {
                 "BACKUP": "Backup",
-                "BONUS": "Bonus",
+                "BONUS": "Zusatz",
                 "REJECTED": "Abgelehnt",
                 "TODO": "To-Do",
                 "VALIDATED": "Akzeptiert"
@@ -662,7 +662,7 @@
                 "category": "Kategorie",
                 "categoryDescription": "Kategorie beschreibung",
                 "console": "Konsole",
-                "estimate": "Estimate",
+                "estimate": "Geschätzte Zeit",
                 "game": "Spiel",
                 "gameDescription": "Spiel Beschreibung",
                 "marathon": "Marathon",
@@ -715,7 +715,7 @@
                         "pattern": "Estimate ist ungültig. Sie muss folgendes Format haben (HH)H:MM:SS",
                         "required": "Estimate ist erforderlich"
                     },
-                    "label": "Estimate"
+                    "label": "Geschätzte Zeit"
                 },
                 "name": {
                     "error": {
@@ -818,7 +818,8 @@
         "settings": "Einstellungen",
         "translate": "Unterstütze beim Übersetzen der Seite",
         "twitter": "Folge uns auf Twitter",
-        "sourceCode": "Quellcode"
+        "sourceCode": "Quellcode",
+        "patrons": "Unsere Unterstützer"
     },
     "user": {
         "profile": {
@@ -833,7 +834,9 @@
                 }
             },
             "moderator": "Moderierte Veranstaltungen",
-            "submissions": "Submissions verlauf"
+            "submissions": "Submissions verlauf",
+            "unban": "Benutzer entsperren",
+            "ban": "Benutzer sperren"
         },
         "settings": {
             "accountSync": {
@@ -911,6 +914,16 @@
     },
     "patrons": {
         "par1": "Vielen Dank an unsere Spender, die dazu beigetragen haben, Oengus.io am Laufen zu halten",
-        "par2": "Die auf dieser Seite aufgeführten Personen und Organisationen spenden mindestens 25 US$ für unsere <a href=\"https://www.patreon.com/oengusio\" target=\"_blank\">Patreon-Kampagne</a>"
+        "par2": "Die auf dieser Seite aufgeführten Personen und Organisationen haben für unsere <a href=\"https://www.patreon.com/oengusio\" target=\"_blank\">Patreon-Kampagne</a> gespendet und helfen somit kostenlosen Zugriff für alle auf Oengus.",
+        "noPatrons": "Hier ist niemand der angezeigt werden kann, warum <a href=\"https://www.patreon.com/oengusio\" target=\"_blank\">wirst du nicht der erste</a>?",
+        "title": "Unsere Unterstützer"
+    },
+    "errors": {
+        "404": {
+            "body": "Die Seite <em>{{path}}</em> konnte auf Angus nicht gefunden werden",
+            "title2": "Du bist zu schnell",
+            "title1": "Immer langsam mit den jungen Pferden, du bist zu schnell",
+            "title0": "Dein Weltrekord wurde abgelehnt"
+        }
     }
 }
