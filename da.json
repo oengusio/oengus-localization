@@ -1,1 +1,64 @@
-{}
+{
+    "alert": {
+        "incentives": {
+            "save": {
+                "error": "Der opstod en fejl under lagring incitament. Venligst prøv igen eller kontakt en administrator."
+            },
+            "delete": {
+                "success": "Incitament succesfuldt slettet",
+                "error": "Fejl under incitamentsletning. Venligst prøv igen eller kontakt en administrator."
+            }
+        },
+        "game": {
+            "export": {
+                "error": "Der opstod en fejl under eksportering. Venligst prøv igen eller kontakt en administrator."
+            },
+            "deletion": {
+                "success": "Spil blev succesfuldt slettet",
+                "error": "Der opstod en fejl under spilsletning. Venligst prøv igen eller kontakt en administrator."
+            }
+        },
+        "donation": {
+            "validate": {
+                "success": "Din donation er succesfuldt sendt. Tak fordi at du donerede!",
+                "error": "Der opstod en fejl ved donationsprocessen. Venligst prøv igen eller kontakt en administrator."
+            },
+            "export": {
+                "error": "Der opstod en fejl ved eksportering. Venligst prøv igen eller kontakt en administrator."
+            }
+        },
+        "category": {
+            "deletion": {
+                "success": "Kategorisletning fuldført",
+                "error": "Der opstod en fejl under kategorisletning. Venligst prøv igen eller kontakt en administrator."
+            }
+        }
+    },
+    "action": {
+        "submit": "Indsend",
+        "sendTweet": "Send Tweet",
+        "save": "Gem",
+        "join": "Tilmeld",
+        "decline": "Afvis",
+        "confirm": "Bekræft",
+        "clearAvailabilities": "Ryd valgte tilgængeligheder",
+        "cancel": "Annuller",
+        "accept": "Godkend"
+    },
+    "aboutPage": {
+        "contact": {
+            "title": "Kontakt",
+            "par2": "For henvendelser omkring forretning/PR, skriv en email til contact@oengus.io",
+            "par1": "Fundet en fejl? Har du spørgsmål om siden? Forbind dig til <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">Discord serveren</a>"
+        },
+        "about": {
+            "title": "Om",
+            "par6": "Trivia: Oengus er en keltisk guddommelighed som har ansvaret for tid og evighed. Så kan man snakke om et passende navn til speedrunning maratoner!",
+            "par5": "Fra januar 2021 og fremad er siden vedligeholdt af <a href=\"https://twitter.com/duncte123\" target=\"_blank\">duncte123</a>.",
+            "par4": "Denne side er skabt af <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>. Aktør i speedrunning-fællesskabet siden 2013, han har bidraget til speedrunning-fællesskabet på mange måder: global moderator af <a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a> i tre år, skaber af <a href=\"https://twitter.com/SpeedrunWRs\">Speedrun WRs Twitter bot</a>, medlem af det franske restream hold, som giver genspillelser af internationale maratoner for det franske publikum, og grundlægger af Bourg la Run, den franske udgave af Games Done Quick. Efter at have indsamlet al denne erfaring, og vurderet, at der ikke fandtes nogen gode, offentlige værktøjer til at organisere maratoner, bestemte han sig for at skabe én, og Oengus er resultatet.",
+            "par3": "Speedrunnning maratoner er begivenheder, hvor speedrunnere samles for at fremvise deres runs til et publikum, enten online, på stedet, eller begge. Den mest populære begivenhed er <a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a>, organiseret to gange om året.",
+            "par2": "Speedrunning er det at spille et videospil med intentionen at gennemføre det så hurtigt som muligt, med formålet at underholde og / eller konkurrere. Du kan læse mere om speedrunning på <a href=\"https://en.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedia</a>.",
+            "par1": "Oengus er en side der bidrager med værktøjer for at organisere speedrunning maratoner."
+        }
+    }
+}
