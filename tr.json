@@ -163,13 +163,13 @@
         "welcomeTitle": "Oengus'a hoşgeldiniz!",
         "welcomeText": {
             "par4": {
-                "sandbox": "<b>Test ve keşif için size sunulmuş olan sandbox alanındasınız. Gerçek bir maraton oluşturmak için, lütfen <a href=\"https://oengus.io\">ana siteye</a>gidiniz.</b>",
+                "sandbox": "<b>Test ve keşif için size sunulmuş olan sandbox alanındasınız. Gerçek bir maraton oluşturmak için, lütfen <a href=\"https://oengus.io\">ana siteye</a> gidiniz.</b>",
                 "prod": "Eğer bir maraton oluşturmadan önce uygulamayı denemek isterseniz, lütfen <a href=\"https://sandbox.oengus.io\">sandbox alanımıza</a> gidin. Sandbox, tüm testleriniz ve keşifleriniz için size sunulmuştur."
             },
             "par3": "Tüm özelliklere erişmek için lütfen aşağıdaki linkten giriş yapın. Yeni maratonlar yaratabileceğiniz gibi, varolan maratonlara başvuru da gönderebileceksiniz:",
             "par1": "Oengus, speedrun maratonlarının başvurulardan planlamaya kadar tüm işlemlerini yönetmeye yarayan <b>ücretsiz</b> bir araçtır."
         },
-        "starts": "{{duration}} içinde başlıyor",
+        "starts": "{{duration}} başlıyor",
         "sponsors": {
             "title": "Sponsorlar",
             "esa": "oengus.io, <a href=\"https://esamarathon.com/\" target=\"_blank\"> European Speedrunner Assembly</a> tarafından barındırılmaktadır"
