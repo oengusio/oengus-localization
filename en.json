@@ -466,18 +466,10 @@
                 "label": "Discord privacy",
                 "private": "Discord is private"
             },
-            "donationWebhook": {
-                "error": {
-                    "max": "Webhook link is too long",
-                    "offline": "Could not reach webhook. Are you sure this is the right URL?"
-                },
-                "help": "You can add a webhook to get events when a new donation is made. Please contact an administrator for more details.",
-                "label": "Webhook"
-            },
             "webhook": {
               "error": {
                 "max": "Webhook link is too long",
-                "offline": "Could not reach webhook. Are you sure this is the right URL? (HINT: <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS\" target=\"_blank\">CORS</a> must be enabled)"
+                "offline": "Could not reach webhook. Are you sure this is the right URL?"
               },
               "help": "You can add a webhook to get events when a new submission/donation is made. Please contact an administrator for more details.",
               "label": "Webhook"
