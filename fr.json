@@ -3,7 +3,7 @@
         "about": {
             "par1": "Oengus est un site donnant accès à des outils d'organisation de marathons de speedrun.",
             "par2": "Le speedrun est une pratique liée aux jeux vidéo dans laquelle le but est d'atteindre le plus rapidement possible un objectif donné, le plus souvent terminer le jeu. Plus d'informations sur <a href=\"https://fr.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipédia</a>.",
-            "par3": "Les marathons de speedrun sont des événements durant lesquels des speedrunners se relaient afin de montrer leurs runs à des spectateurs, soit en ligne ou sur site, ou les deux. Les marathons les plus populaire sont les <a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a>, organisés deux fois par an.",
+            "par3": "Les marathons de speedrun sont des évènements durant lesquels des speedrunners se relaient afin de montrer leurs runs à des spectateurs, soit en ligne ou sur site, ou les deux. Les marathons les plus populaire sont les <a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a>, organisés deux fois par an.",
             "par4": "Ce site a été créé par <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>. Acteur sur la scène speedrun depuis 2013, il a contribué à la communauté de plusieurs manières : modérateur global de <a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a> pendant trois an, créateur du <a href=\"https://twitter.com/SpeedrunWRs\">Speedrun WRs Twitter bot</a>, membre de l'association Le French Restream, qui retransmet en français des marathons internationaux, et fondateur de Bourg la Run, l'équivalent français des Games Done Quick. Après avoir accumulé cette expérience, et constaté qu'il n'existait pas de bon outil public pour organiser des marathons, il a décidé de prendre les choses en main et Oengus en est le résultat.",
             "par6": "Trivia : Oengus est une divinité celtique dont le temps et l'éternité sont sous sa responsabilité. Pour les marathons de speedrun, c'est plutôt raccord !",
             "title": "À propos",
@@ -128,7 +128,7 @@
         }
     },
     "calendar": {
-        "help": "Cliquer sur un événement vous amènera à sa page",
+        "help": "Cliquer sur un évènement vous amènera à sa page",
         "title": "Calendrier des marathons"
     },
     "footer": {
@@ -163,7 +163,7 @@
             "par1": "Oengus est un outil <b>gratuit</b> pour gérer vos marathons de speedrun, des candidatures au planning.",
             "par3": "Pour accéder à toutes les fonctionnalités, veuillez vous connecter avec le lien ci-dessous. Vous pourrez créer des marathons et candidater sur les existants :",
             "par4": {
-                "prod": "Si vous souhaitez tester l'application avant de créer un événement, vous pouvez vous rendre sur l'<a href=\"https://sandbox.oengus.io\">environnement bac à sable</a>, disponible spécifiquement pour découvrir les fonctionnalités.",
+                "prod": "Si vous souhaitez tester l'application avant de créer un évènement, vous pouvez vous rendre sur l'<a href=\"https://sandbox.oengus.io\">environnement bac à sable</a>, disponible spécifiquement pour découvrir les fonctionnalités.",
                 "sandbox": "<b>Vous êtes sur l'environnement bac à sable, mis à disposition pour tester et découvrir l'application. Si vous souhaitez créer un vrai marathon, rendez-vous sur le <a href=\"https://oengus.io\">site principal</a>.</b>"
             }
         },
@@ -190,7 +190,7 @@
             },
             "description": "Vos dons font les actions de {{supportedCharity}}",
             "extra": {
-                "description": "Ces informations ne sont pas affichées publiquement et seront supprimées un mois après la fin de l'événement.",
+                "description": "Ces informations ne sont pas affichées publiquement et seront supprimées un mois après la fin de l'évènement.",
                 "title": "Informations supplémentaires"
             },
             "incentiveAmount": {
@@ -476,7 +476,7 @@
             },
             "donations": {
                 "donationsOpen": "Les dons sont ouverts",
-                "hasDonations": "C'est un événement caritatif",
+                "hasDonations": "C'est un évènement caritatif",
                 "label": "Support des dons"
             },
             "donationsOpen": {
@@ -642,6 +642,14 @@
                 },
                 "help": {
                     "url": "L'URL complète doit être renseignée"
+                }
+            },
+            "webhook": {
+                "label": "Webhook",
+                "help": "Vous pouvez ajouter un webhook pour obtenir des évènements lors d'une nouvelle soumission / un nouveau don. Veuillez contacter un administrateur pour plus de détails.",
+                "error": {
+                    "offline": "Impossible d'accéder au webhook. Êtes-vous sûr·e que c'est la bonne URL ?",
+                    "max": "Le lien Webhook est trop long"
                 }
             }
         },
@@ -833,7 +841,7 @@
                     "title": "Temporalité"
                 }
             },
-            "moderator": "Événements modérés",
+            "moderator": "Évènements modérés",
             "submissions": "Historique des candidatures",
             "unban": "Débannir utilisateur",
             "ban": "Bannir utilisateur"
