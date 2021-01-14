@@ -21,7 +21,16 @@
             "live": "진행 중인 마라톤",
             "calendar": "전체 달력"
         },
-        "ends": "{{duration}} 종료"
+        "ends": "{{duration}} 종료",
+        "welcomeTitle": "Oengus에 오신 것을 환영합니다!",
+        "welcomeText": {
+            "par4": {
+                "sandbox": "<b>이곳은 샌드박스 환경입니다. 테스트 목적으로 사용됩니다. 실제 행사를 생성하려면 <a href=\"https://oengus.io\">메인 웹사이트</a>로 이동해주세요.</b>",
+                "prod": "행사를 생헝하기 전에 시험해보고 싶다면, <a href=\"https://sandbox.oengus.io\">샌드박스 환경</a>으로 가주세요. 누구나 시험용으로 사용할 수 있는 사이트입니다."
+            },
+            "par3": "모든 기능에 접근하려면 다음 링크로 로그인하십시오. 새로운 마라톤을 생성하거나 기존 마라톤에 제출할 수 있습니다:",
+            "par1": "Oengus는 스피드런 마라톤을 제출부터 스케줄까지 관리할 수 있도록 해주는 <b>무료</b> 도구입니다."
+        }
     },
     "global": {
         "adblocker": "광고를 차단하고 계신 모양이네요. Oengus는 생존하기 위해 광고와 기부에 의존하고 있습니다. 광고 차단기를 꺼주세요.",
@@ -161,5 +170,195 @@
             "par2": "스피드런이란 엔터테인먼트 / 경쟁을 목적으로 가능한 한 빨리 게임을 깨는 행위를 말합니다. 스피드런에 관한 자세한 내용은 <a href=\"https://en.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedia</a>에서 확인할 수 있습니다.",
             "par1": "Oengus는 스피드런 마라톤을 조직하기 위한 도구를 제공하는 사이트입니다."
         }
+    },
+    "marathon": {
+        "selection": {
+            "availabilities": {
+                "help": "러너 옆의 달력 아이콘을 클릭하면 시간을 표시하거나 가릴 수 있습니다."
+            },
+            "action": {
+                "publish": "선택 항목 게시"
+            }
+        },
+        "schedule": {
+            "type": {
+                "SINGLE": "단독 런",
+                "RACE": "레이스",
+                "OTHER": "기타",
+                "COOP_RACE": "협동 레이스",
+                "COOP": "협동 런"
+            },
+            "title": "일정",
+            "timezone": "모든 일정은 접속자의 시간대에 맞춰 표시됩니다.",
+            "table": {
+                "type": "유형",
+                "time": "시간",
+                "setup": "셋팅 시간",
+                "runner": "러너",
+                "game": "게임",
+                "estimate": "예상",
+                "console": "콘솔",
+                "category": "범주"
+            },
+            "setupBlock": "셋팅 단계",
+            "nextRun": "{{duration}} 후 다음 런",
+            "management": {
+                "title": "일정 관리",
+                "selectedRuns": "선택된 런",
+                "schedule": "일정",
+                "help": {
+                    "save": "초안을 저장하거나 실시간 일정을 업데이트하려면 \"저장\"을 클릭하세요. 일정을 공개하려면 \"일정 게시\"를 클릭하세요. 일정이 한 번 개시되면 마라톤 종료 날짜는 일정을 업데이트할 때마다 자동으로 다시 계산됩니다.",
+                    "dragAndDrop": "일정에서 런을 추가하거나 제거하려면 각 줄의 화살표를 이용해주세요. 핸들을 사용하여 일정에 선을 끌어다 놓을 수 있습니다."
+                },
+                "action": {
+                    "publish": "일정 게시",
+                    "alreadyPublished": "이미 게시된 일정",
+                    "addSetupBlock": "셋팅 단계 추가",
+                    "addRun": "런 추가"
+                }
+            },
+            "export": {
+                "title": "일정 내보내기",
+                "json": "JSON (Horaro)로 내보내기",
+                "ics": "ICS로 내보내기",
+                "csv": "CSV로 내보내기"
+            },
+            "dstChange": "마라톤 중에 DST 변경이 발생합니다.",
+            "currentRun": "현재 런"
+        },
+        "new": {
+            "title": "새로운 마라톤 생성",
+            "description": "새로운 마라톤을 만들려면 다음 정보가 반드시 필요합니다. 생성이 끝나면 더 많은 세부 정보를 설정할 수 있습니다."
+        },
+        "menu": {
+            "viewSubmissions": "제출 보기",
+            "tracker": "트래커",
+            "submitRuns": "런 제출",
+            "settings": "설정",
+            "selectRuns": "런 선택",
+            "schedule": "일정 관리",
+            "overview": "개요",
+            "moderators": "모더레이터",
+            "manageSchedule": "일정 관리",
+            "manageIncentives": "인센티브 관리",
+            "loginToSubmit": "로그인하여 런 제출",
+            "incentives": "인센티브",
+            "home": "홈",
+            "editSubmission": "제출 수정",
+            "donations": "후원",
+            "donate": "후원",
+            "admin": "관리자"
+        },
+        "incentives": {
+            "title": "인센티브",
+            "management": {
+                "title": "인센티브 관리",
+                "table": {
+                    "progress": "진행도",
+                    "locked": "잠김",
+                    "isBidWar": "후원 목표/입찰 전쟁",
+                    "incentive": "인센티브명",
+                    "goal": "목표",
+                    "game": "게임",
+                    "description": "설명",
+                    "currentAmount": "현재 금액"
+                },
+                "openBid": "후원자는 새 입찰을 추가할 수 있습니다",
+                "noSchedule": "인센티브를 추가하기 전에 일정에 내용을 추가해야 합니다.",
+                "name": {
+                    "error": {
+                        "required": "이름이 필요합니다"
+                    }
+                },
+                "goal": {
+                    "error": {
+                        "required": "후원 목표가 필요합니다"
+                    }
+                },
+                "donationGoal": "후원 목표",
+                "currentAmount": {
+                    "error": {
+                        "required": "현재 금액이 필요합니다"
+                    }
+                },
+                "bidWar": "입찰 전쟁",
+                "bidName": {
+                    "error": {
+                        "required": "입찰 이름이 필요합니다"
+                    }
+                },
+                "approveBid": "이 입찰은 후원자가 생성했으며 승인이 필요합니다. 승인 후 반드시 저장하세요!",
+                "action": {
+                    "add": "인센티브 추가"
+                }
+            }
+        },
+        "home": {
+            "language": "언어"
+        },
+        "help": {
+            "isArchived": "이 마라톤은 보관됩니다. 읽기 전용 모드입니다."
+        },
+        "donations": {
+            "total": "후원 총액",
+            "title": "후원",
+            "table": {
+                "name": "이름",
+                "date": "날짜",
+                "comment": "한마디",
+                "amount": "양"
+            },
+            "max": "최대 후원",
+            "export": "CSV로 내보내기",
+            "count": "후원 횟수",
+            "average": "평균 후원"
+        },
+        "donate": {
+            "title": "후원",
+            "nickname": {
+                "label": "닉네임",
+                "error": {
+                    "pattern": "닉네임은 소문자, 대문자, _ 및-로만 구성될 수 있습니다",
+                    "max": "닉네임이 너무 깁니다"
+                }
+            },
+            "incentives": {
+                "title": "인센티브",
+                "left": "남은 사용 가능 금액 :",
+                "header": {
+                    "incentive": "인센티브",
+                    "amount": "양"
+                },
+                "description": "후원 인센티브는 도전을 추가하고 러너의 선택에 영향을 미치는 데 사용할 수 있습니다. 후원금을 인센티브로 사용하시겠습니까?",
+                "bid": {
+                    "new": "(신규)"
+                },
+                "add": "인센티브 추가"
+            },
+            "incentiveAmount": {
+                "error": {
+                    "required": "금액을 입력해주세요",
+                    "minNumber": "금액은 0보다 커야 합니다"
+                }
+            },
+            "extra": {
+                "title": "추가 정보",
+                "description": "데이터는 어디에도 공개적으로 표시되지 않으며, 이벤트 종료 한 달 후에 삭제됩니다."
+            },
+            "description": "후원금은 {{supportedCharity}}를 지원합니다",
+            "comment": {
+                "label": "한마디"
+            },
+            "amount": {
+                "label": "후원 금액",
+                "error": {
+                    "required": "후원 금액을 입력해주세요",
+                    "minNumber": "후원 금액은 0보다 커야 합니다."
+                }
+            }
+        }
+    },
+    "login": {
+        "authInProgress": "인증이 진행 중입니다. 잠시 기다려주십시오…"
     }
 }
