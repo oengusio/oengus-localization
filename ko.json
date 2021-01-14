@@ -1,1 +1,165 @@
-{}
+{
+    "homepage": {
+        "sponsors": {
+            "esa": "oengus.io는 <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>를 통해 운영되고 있습니다",
+            "title": "스폰서"
+        },
+        "starts": "{{duration}} 시작",
+        "plannedFeatures": {
+            "title": "예정된 기능",
+            "7": "Paypal을 통한 후원 관리",
+            "6": "이메일 알림",
+            "5": "Discord 통합",
+            "4": "Twitter/Twitch/Google 계정을 연동하여 동기화 제공",
+            "3": "직관적인 인터페이스로 제공되는 편한 일정 관리 시스템",
+            "2": "다중 런 선택 시스템 (직접 선택, 투표 등)",
+            "1": "협동/레이스 제출"
+        },
+        "marathons": {
+            "upcoming": "예정된 마라톤",
+            "open": "제출 열기",
+            "live": "진행 중인 마라톤",
+            "calendar": "전체 달력"
+        },
+        "ends": "{{duration}} 종료"
+    },
+    "global": {
+        "adblocker": "광고를 차단하고 계신 모양이네요. Oengus는 생존하기 위해 광고와 기부에 의존하고 있습니다. 광고 차단기를 꺼주세요.",
+        "emu": "[Emu]"
+    },
+    "footer": {
+        "text": "모든 시간은 접속자의 시간대로 변한됩니다. 감지된 시간대: {{timezone}}",
+        "donate": "Oengus를 잘 이용하고 계시다면, <a href=\"{{donationLink}}\" target=\"_blank\">후원</a>하는 걸 고려해보세요."
+    },
+    "calendar": {
+        "title": "마라톤 달력",
+        "help": "이벤트를 클릭하면 해당 페이지로 리디렉션됩니다."
+    },
+    "alert": {
+        "user": {
+            "update": {
+                "success": "사용자 데이터가 업데이트되었습니다.",
+                "error": "사용자 데이터 업데이트 중 오류가 발생했습니다."
+            },
+            "sync": {
+                "error": "계정을 동기화하는 동안 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오.",
+                "alreadySynced": "오류: 이 계정은 이미 사용되고 있습니다."
+            },
+            "login": {
+                "usernameExists": "로그인하려는 계정에 할당된 사용자 이름이 이미 존재합니다. 다른 로그인 방법을 이용하여 Oengus 프로필을 생성한 건 아닌지 확인하십시오. 잘못되었다고 생각되면 관리자에게 문의해주세요.",
+                "error": "인증하는 동안 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오.",
+                "disabledAccount": "계정이 비활성화되었습니다. 다시 사용하려면 관리자에게 문의하십시오."
+            },
+            "deactivate": {
+                "success": "성공적으로 계정이 비활성화되었습니다."
+            }
+        },
+        "submit": {
+            "SAME_USER": "자신이 생성한 카테고리에 자신을 추가할 수 없습니다.",
+            "NOT_MULTIPLAYER": "멀티플레이어 범주가 아닙니다.",
+            "MAX_SIZE_REACHED": "이미 최대 러너 수에 도달하였습니다.",
+            "DIFFERENT_MARATHON": "이 코드는 다른 마라톤을 위한 것입니다.",
+            "CODE_NOT_FOUND": "존재하지 않는 코드입니다",
+            "ALREADY_IN_OPPONENTS": "이미 이 범주에 속합니다."
+        },
+        "submission": {
+            "save": {
+                "success": "성공적으로 제출이 전송되었습니다.",
+                "error": "제출 중 오류가 발생했습니다."
+            },
+            "deletion": {
+                "success": "성공적으로 제출이 삭제되었습니다.",
+                "error": "제출 삭제 중 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오."
+            }
+        },
+        "selection": {
+            "save": {
+                "success": "선택이 성공적으로 저장되었습니다.",
+                "error": "선택 항목 저장 중 오류가 발생했습니다."
+            }
+        },
+        "schedule": {
+            "save": {
+                "success": "예약이 성공적으로 저장되었습니다.",
+                "error": "예약 저장 중 오류가 발생했습니다."
+            },
+            "export": {
+                "error": "내보내는 동안 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오."
+            }
+        },
+        "marathon": {
+            "update": {
+                "success": "성공적으로 마라톤이 업데이트되었습니다.",
+                "error": "마라톤 업데이트 중 오류가 발생했습니다."
+            },
+            "deletion": {
+                "success": "성공적으로 마라톤을 삭제했습니다.",
+                "error": "마라톤 삭제 중 오류가 발생했습니다."
+            },
+            "creation": {
+                "success": "성공적으로 마라톤을 생성하였습니다.",
+                "error": "마라톤 생성 중 오류가 발생했습니다."
+            }
+        },
+        "incentives": {
+            "save": {
+                "success": "성공적으로 인센티브가 저장되었습니다.",
+                "error": "인센티브를 저장하는 동안 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오."
+            },
+            "delete": {
+                "success": "성공적으로 인센티브가 삭제되었습니다.",
+                "error": "인센티브 삭제 중 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오."
+            }
+        },
+        "game": {
+            "export": {
+                "error": "내보내는 동안 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오."
+            },
+            "deletion": {
+                "success": "성공적으로 게임이 삭제되었습니다.",
+                "error": "게임을 삭제하는 동안 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오."
+            }
+        },
+        "donation": {
+            "validate": {
+                "success": "성공적으로 후원했습니다. 후원해주셔서 감사합니다!",
+                "error": "후원 과정에서 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오."
+            },
+            "export": {
+                "error": "내보내는 동안 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오."
+            }
+        },
+        "category": {
+            "deletion": {
+                "success": "범주가 삭제되었습니다.",
+                "error": "범주를 삭제하는 동안 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오."
+            }
+        }
+    },
+    "action": {
+        "submit": "제출",
+        "sendTweet": "트윗 전송",
+        "save": "저장",
+        "join": "가입",
+        "decline": "거절",
+        "confirm": "확인",
+        "cancel": "취소",
+        "accept": "확인"
+    },
+    "aboutPage": {
+        "contact": {
+            "title": "문의",
+            "par2": "사업/PR 관련 문의는 contact@oengus.io로 메일을 부탁드립니다",
+            "par1": "버그를 발견했나요 ? 사이트에 관한 문의가 있으신가요 ? <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">Discord 서버</a>에 들어오세요"
+        },
+        "about": {
+            "title": "관하여",
+            "par6": "정보: Oengus는 시간과 영원을 관장하는 켈트 신입니다. 스피드런 마라톤에 적합한 이름에 관해서 말해보세요!",
+            "par5": "2021년 1월부터 이 사이트는 <a href=\"https://twitter.com/duncte123\" target=\"_blank\">duncte123</a>이 관리합니다.",
+            "par4": "이 사이트는 <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>가 제작하였습니다. Gyoo는 2013년부터 스피드런 커뮤니티에서 진행자로 활동하였으며 다양한 방식으로 스피드런 커뮤니티에 기여하였습니다. <a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a>의 글로벌 모더레이션을 3년간 했으며, <a href=\"https://twitter.com/SpeedrunWRs\">Speedrun WRs Twitter bot</a>을 개발하였고, 프랑스 청중을 위해 국제 마라톤의 재방송을 제공하는 French Restream 팀의 일원이며, 프랑스의 Games Done Quick인 Bourg la Run의 설립자입니다. 이 모든 경험을 한 곳에 모아 마라톤을 조직하는 데 좋은 공공 도구가 없다는 것을 알고선 Gyoo는 하나를 만들기로 결심했습니다. 그 결과가 바로 Oengus입니다.",
+            "par3": "스피드런 마라톤은 스피드러너들이 모여 온라인 혹은 오프라인에서 청중에게 자신의 런을 보여주는 이벤트입니다. 가장 인기있는 이벤트는 1년에 두 번 열리는 <a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a>입니다.",
+            "par2": "스피드런이란 엔터테인먼트 / 경쟁을 목적으로 가능한 한 빨리 게임을 깨는 행위를 말합니다. 스피드런에 관한 자세한 내용은 <a href=\"https://en.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedia</a>에서 확인할 수 있습니다.",
+            "par1": "Oengus는 스피드런 마라톤을 조직하기 위한 도구를 제공하는 사이트입니다."
+        }
+    }
+}
