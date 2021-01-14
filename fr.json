@@ -651,6 +651,21 @@
                     "offline": "Impossible d'accéder au webhook. Êtes-vous sûr·e que c'est la bonne URL ?",
                     "max": "Le lien Webhook est trop long"
                 }
+            },
+            "discordRequirement": {
+                "found": {
+                    "id": "Identifiant de guilde : <em>{{guildId}}</em>",
+                    "name": "Nom de guilde : <em>{{guildName}}</em>",
+                    "title": "Guilde de l'invitation trouvée"
+                },
+                "help": {
+                    "3": "Votre Discord est défini comme public.",
+                    "2": "Votre invitation Discord est remplie et valide.",
+                    "1": "Le bot Oengus est dans votre serveur Discord.",
+                    "title": "Cette fonction peut être utilisée seulement quand les conditions suivantes sont remplies :"
+                },
+                "required": "Exiger de l'utilisateur d'être dans votre Discord",
+                "label": "Exigence Discord"
             }
         },
         "submissions": {
