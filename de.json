@@ -643,6 +643,9 @@
                 "help": {
                     "url": "Die vollständige URL muss eingegeben werden"
                 }
+            },
+            "discordRequirement": {
+                "label": "Discord-Anforderung"
             }
         },
         "submissions": {
