@@ -464,7 +464,12 @@
             "discordRequirement": {
               "label": "Discord requirement",
               "required": "Require user to be in your discord",
-              "help": "This feature can only be used when the following conditions are met:<br/>Oengus bot is your discord server, your discord invite is filled in and valid, your discord is set to public.",
+              "help": {
+                "title": "This feature can only be used when the following conditions are met:",
+                "1": "Oengus bot is in your discord server.",
+                "2": "Your discord invite is filled in and valid.",
+                "3": "Your discord is set to public."
+              },
               "found": {
                 "title": "Guild from invite found",
                 "name": "Guild Name: <em>{{guildName}}</em>",
