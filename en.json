@@ -461,6 +461,16 @@
                     "pattern": "Discord link is invalid"
                 }
             },
+            "discordRequirement": {
+              "label": "Discord requirement",
+              "required": "Require user to be in your discord",
+              "help": "This feature can only be used when the following conditions are met:<br/>Oengus bot is your discord server, your discord invite is filled in and valid, your discord is set to public.",
+              "found": {
+                "title": "Guild from invite found",
+                "name": "Guild Name: <em>{{guildName}}</em>",
+                "id": "Guild Id: <em>{{guildId}}</em>"
+              }
+            },
             "discordPrivacy": {
                 "help": "If Discord is set to private, the invite link will not be displayed in the homepage, but only in the emails selected runners will get.",
                 "label": "Discord privacy",
