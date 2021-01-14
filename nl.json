@@ -643,6 +643,29 @@
                 "help": {
                     "url": "Volledige URL moet ingevuld worden"
                 }
+            },
+            "webhook": {
+                "label": "Webhook",
+                "help": "Je kan een webhook toevoegen om events te krijgen als er is gedoneerd/run gesubmit. Contacteer een administrator voor meer details.",
+                "error": {
+                    "offline": "Kan de webhook niet bereiken. Weet je zeker dat dit de goede URL is?",
+                    "max": "Webhook link is te lang"
+                }
+            },
+            "discordRequirement": {
+                "found": {
+                    "id": "Gilde Id: <em>{{guildId}}</em>",
+                    "name": "Gilde naam: <em>{{guildName}}</em>",
+                    "title": "Gilde van uitnodiging gevonden"
+                },
+                "help": {
+                    "3": "Je discord is gezet naar publiekelijk.",
+                    "2": "Je discord uitnodiging is ingevuld en valide.",
+                    "1": "De Oengus bot is in je discord server.",
+                    "title": "Deze functie kan alleen gebruikt worden als je aan de volgende condities voldoet:"
+                },
+                "required": "Verplicht runner om in de discord te zijn",
+                "label": "Discord verplichting"
             }
         },
         "submissions": {
