@@ -645,7 +645,27 @@
                 }
             },
             "discordRequirement": {
-                "label": "Discord-Anforderung"
+                "label": "Discord-Anforderung",
+                "found": {
+                    "id": "Discord Server ID: <em>{{guildId}}</em>",
+                    "name": "Discord Server Name <em>{{guildName}}</em>",
+                    "title": "Discord Server durch Einladung gefunden"
+                },
+                "help": {
+                    "3": "Dein Discord is nun öffentlich.",
+                    "2": "Deine Discord Einladung is ausgefüllt und gültig.",
+                    "1": "Oengus bot ist in deinem Discord Server.",
+                    "title": "Diese Funktion kann nur unter den folgenden Vorraussetzungen genutzt werden:"
+                },
+                "required": "Benutzer muss auf deinem Discord sein"
+            },
+            "webhook": {
+                "label": "Webhook",
+                "help": "Du kannst einen webhook hinzufügen um Events zu bekommen wenn eine neue Submission/Spende gemacht wird. Kontaktiere bitte einen Administrator für weitere Details.",
+                "error": {
+                    "offline": "Keine Verbindung zum webhook hergestellt. Bis du sicher, dass das die richtige URL ist?",
+                    "max": "Webhook Link ist zu lang"
+                }
             }
         },
         "submissions": {
