@@ -815,7 +815,7 @@
                 "lead": "This marathon requires you to be in their Discord server in order to submit",
                 "par1": "Click \"check\" below to check if you are in the Discord server for this marathon.",
                 "par2": "You will not be able to submit if you are not in the Discord server.",
-                "syncNoticeTest": [
+                "syncNotice": [
                   "IMPORTANT: before you can do this check you will need to sync Discord with your account in your",
                   "user settings",
                   "."
