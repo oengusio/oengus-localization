@@ -483,11 +483,13 @@
             },
             "webhook": {
               "error": {
+                "marathonParameter": "You are missing the required marathon parameter",
                 "max": "Webhook link is too long",
                 "offline": "Could not reach webhook. Are you sure this is the right URL?"
               },
               "help": "You can add a webhook to get events when a new submission/donation is made. Please contact an administrator for more details.",
-              "label": "Webhook"
+              "label": "Webhook",
+              "botNotice": "This is an Oengus bot webhook, meaning that the oengus bot will send embeds to the channels you specify"
             },
             "donations": {
                 "donationsOpen": "Donations are open",
