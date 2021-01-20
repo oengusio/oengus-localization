@@ -510,6 +510,24 @@
             },
             "tweet": {
                 "submit": "{{marathon}}에 {{games}}(으)로 참여하겠다고 제출했어요"
+            },
+            "requirements": {
+                "discord": {
+                    "errors": {
+                        "userMissing": "이 마라톤의 디스코드 서버에 가입해주세요 <a href=\"{{invite}}\" target=\"_blank\">{{invite}}</a>",
+                        "botMissing": "이 마라톤의 중재자에게 Oengus 디스코드 봇을 초대해달라고 요청하세요"
+                    },
+                    "back": "뒤로",
+                    "check": "확인!",
+                    "syncNotice": [
+                        "중요: 확인하기 전에 계정과 Discord를 동기화해야 합니다. 자세한 내용은",
+                        "유저 설정"
+                    ],
+                    "par2": "Discord 서버에 가입돼있지 않으면 제출할 수 없습니다.",
+                    "par1": "마라톤을 제출하기 위해 Discord 서버에 가입돼있는지 확인하려면 아래 \"확인\"을 클릭하세요.",
+                    "lead": "이 마라톤을 제출하려면 Discord 서버에 가입돼있어야 합니다",
+                    "title": "잠시만요!"
+                }
             }
         },
         "submissions": {
@@ -721,8 +739,10 @@
                 "help": "웹훅을 추가하여 새로운 제출이나 후원이 발생했을 때 정보를 가져올 수 있습니다. 자세한 내용은 관리자에게 문의해주세요.",
                 "error": {
                     "max": "웹훅 링크가 너무 깁니다",
-                    "offline": "웹훅에 연결할 수 없습니다. 올바른 주소인지 확인해주세요"
-                }
+                    "offline": "웹훅에 연결할 수 없습니다. 올바른 주소인지 확인해주세요",
+                    "marathonParameter": "필수 마라톤 매개 변수가 누락되었습니다"
+                },
+                "botNotice": "이것은 Oengus 봇 웹훅입니다. Oengus 봇이 지정된 채널에 임베딩을 보냅니다"
             },
             "discordPrivacy": {
                 "private": "Discord는 비공개입니다",
