@@ -106,7 +106,8 @@
             "DIFFERENT_MARATHON": "This code is for another marathon",
             "MAX_SIZE_REACHED": "This submission has already reached the maximum number of runners",
             "NOT_MULTIPLAYER": "This is not a multiplayer category",
-            "SAME_USER": "You cannot add yourself to a category you have created"
+            "SAME_USER": "You cannot add yourself to a category you have created",
+            "DISCORD_VERIFIED": "Verified that you are in the discord server, you may now submit"
         },
         "user": {
             "deactivate": {
