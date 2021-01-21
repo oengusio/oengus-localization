@@ -554,7 +554,7 @@
                     "max": "Le bénéficiaire est trop long",
                     "required": "Le bénéficiaire est requis"
                 },
-                "help": "Le bénéficiare doit être une adresse courriel liée à un compte Paypal",
+                "help": "Le bénéficiaire doit être une adresse courriel liée à un compte Paypal",
                 "label": "Bénéficiaire"
             },
             "privacy": {
@@ -649,8 +649,10 @@
                 "help": "Vous pouvez ajouter un webhook pour obtenir des évènements lors d'une nouvelle soumission / un nouveau don. Veuillez contacter un administrateur pour plus de détails.",
                 "error": {
                     "offline": "Impossible d'accéder au webhook. Êtes-vous sûr·e que c'est la bonne URL ?",
-                    "max": "Le lien Webhook est trop long"
-                }
+                    "max": "Le lien Webhook est trop long",
+                    "marathonParameter": "Il vous manque le paramètre marathon requis"
+                },
+                "botNotice": "Ceci est un webhook de bot Oengus, ce qui signifie que le bot oengus enverra des incorporations aux canaux que vous spécifiez"
             },
             "discordRequirement": {
                 "found": {
@@ -819,6 +821,24 @@
             "title": "Postuler",
             "tweet": {
                 "submit": "J'ai postulé pour le {{marathon}} avec {{games}}"
+            },
+            "requirements": {
+                "discord": {
+                    "errors": {
+                        "userMissing": "Veuillez rejoindre le serveur Discord pour ce marathon <a href=\"{{invite}}\" target=\"_blank\">{{invite}}</a>",
+                        "botMissing": "Veuillez demander aux modérateurs de ce marathon d'inviter le bot Oengus discord"
+                    },
+                    "back": "Retour",
+                    "check": "Vérifier !",
+                    "syncNotice": [
+                        "IMPORTANT : avant de pouvoir effectuer cette vérification, vous devrez synchroniser Discord avec votre compte dans vos",
+                        "paramètres utilisateur"
+                    ],
+                    "par2": "Vous ne pourrez pas soumettre si vous n'êtes pas sur le serveur Discord.",
+                    "par1": "Cliquez sur « vérifier » ci-dessous pour vérifier si vous êtes sur le serveur Discord pour ce marathon.",
+                    "lead": "Ce marathon nécessite que vous soyez sur leur serveur Discord afin de soumettre",
+                    "title": "Attendez !"
+                }
             }
         }
     },
