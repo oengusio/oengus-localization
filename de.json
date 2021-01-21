@@ -1,7 +1,7 @@
 {
     "aboutPage": {
         "about": {
-            "par1": "Oengus ist eine Website, die Tools zum Organisieren von Speedrun-Marathons bereitstellt.",
+            "par1": "Oengus ist eine Website, die Werkzeuge zum Organisieren von Speedrun-Marathons bereitstellt.",
             "par2": "Speedrunning ist das Spielen eines Videospiels mit der Absicht, es zu Unterhaltungs- und / oder Wettbewerbszwecken so schnell wie möglich zu beenden. Weitere Informationen zu Speedrunning finden Sie auf <a href=\"https://de.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedia</a>.",
             "par3": "Speedrun-Marathons sind Veranstaltungen, bei denen sich Speedrunner versammeln, um ihre Runs Online, vor Ort oder vor beidem einem Publikum zu präsentieren. Die beliebtesten Veranstaltungen sind die zweimal jährlich stattfindenden <a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a>.",
             "par4": "Diese Website wurde von <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a> erstellt. Er ist seit 2013 in der Speedrunning-Community aktiv und hat in vielerlei Hinsicht zur Speedrunning-Community beigetragen: Globaler Moderator von <a href=\"https://speedrun.com\" target=\"_blank\"> speedrun.com </a> für drei Jahre, Schöpfer des <a href=\"https://twitter.com/SpeedrunWRs\"> Speedrun WRs Twitter-Bots </a>, Mitglied des französischen Restream-Teams, das einem französischen Publikum Restreams von internationalen Marathons bietet, und Gründer von Bourg la Run, der französischen Variante von Games Done Quick. Nachdem er all diese Erfahrungen gesammelt und festgestellt hatte, dass es kein gutes öffentliches Instrument für die Organisation von Marathons gab, entschloss er sich, eines zu schaffen, und Oengus war das Ergebnis.",
@@ -160,7 +160,7 @@
         },
         "starts": "Startet {{duration}}",
         "welcomeText": {
-            "par1": "Oengus ist ein <b>kostenloses</b> Tool, mit dem Sie Ihre Speedrun-Marathons von der Submission bis zum Zeitplan verwalten können.",
+            "par1": "Oengus ist ein <b>kostenloses</b> Werkzeug, mit dem Sie Ihre Speedrun-Marathons von der Submission bis zum Zeitplan verwalten können.",
             "par3": "Um auf alle Funktionen zugreifen zu können, melden Sie sich bitte über den folgenden Link an. Sie können neue Marathons erstellen und an vorhandene mitwirken:",
             "par4": {
                 "prod": "Wenn Sie die Anwendung testen möchten, bevor Sie eine Anwendung erstellen, rufen Sie die <a href=\"https://sandbox.oengus.io\"> Sandbox-Umgebung </a> auf. Es stehen alle Test- und Erkundungszwecke zur Verfügung.",
@@ -664,8 +664,10 @@
                 "help": "Du kannst einen webhook hinzufügen um Events zu bekommen wenn eine neue Submission/Spende gemacht wird. Kontaktiere bitte einen Administrator für weitere Details.",
                 "error": {
                     "offline": "Keine Verbindung zum webhook hergestellt. Bis du sicher, dass das die richtige URL ist?",
-                    "max": "Webhook Link ist zu lang"
-                }
+                    "max": "Webhook Link ist zu lang",
+                    "marathonParameter": "Ihnen fehlt der erforderliche Marathon-Parameter"
+                },
+                "botNotice": "Dies ist ein Oengus-Bot-Webhook. Dies bedeutet, dass der Oengus-Bot Einbettungen an die von Ihnen angegebenen Kanäle sendet"
             }
         },
         "submissions": {
@@ -819,6 +821,24 @@
             "title": "Runs einreichen",
             "tweet": {
                 "submit": "Ich habe {{games}} bei {{marathon}} eingereicht"
+            },
+            "requirements": {
+                "discord": {
+                    "errors": {
+                        "userMissing": "Bitte treten Sie dem Discord-Server für diesen Marathon bei <a href=\"{{invite}}\" target=\"_blank\">{{invite}}</a>",
+                        "botMissing": "Bitte bitten Sie die Moderatoren dieses Marathons, den Oengus-Discord-Bot einzuladen"
+                    },
+                    "back": "Zurück",
+                    "par1": "Klicken Sie unten auf „Prüfen“, um zu überprüfen, ob Sie sich für diesen Marathon auf dem Discord-Server befinden.",
+                    "check": "Prüfen!",
+                    "syncNotice": [
+                        "WICHTIG: Bevor Sie diese Prüfung durchführen können, müssen Sie Discord mit Ihrem Konto synchronisieren. Dies kann man in der",
+                        "Benutzereinstellungen"
+                    ],
+                    "par2": "Sie können nicht senden, wenn Sie sich nicht auf dem Discord-Server befinden.",
+                    "lead": "Für diesen Marathon müssen Sie sich auf dem Discord-Server befinden, um einreichen zu können",
+                    "title": "Warten Sie!"
+                }
             }
         }
     },
