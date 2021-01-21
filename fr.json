@@ -106,7 +106,8 @@
             "DIFFERENT_MARATHON": "Ce code est pour un autre marathon",
             "MAX_SIZE_REACHED": "Cette candidature a déjà atteint le nombre maximal de runners",
             "NOT_MULTIPLAYER": "Ce n'est pas une catégorie multijoueurs",
-            "SAME_USER": "Vous ne pouvez pas vous ajouter à une catégorie que vous avez créé"
+            "SAME_USER": "Vous ne pouvez pas vous ajouter à une catégorie que vous avez créé",
+            "DISCORD_VERIFIED": "Vous êtes bien sur le serveur Discord, vous pouvez désormais postuler"
         },
         "user": {
             "deactivate": {
@@ -407,7 +408,7 @@
                     "max": "Le code de devise est trop long",
                     "required": "Le code de devise est requis"
                 },
-                "help": "Le code de devise doit être au format ISO-4217 pour Paypal",
+                "help": "Le code de devise doit être au format ISO-4217 pour Paypal et DOIT être la devise du bénéficiaire",
                 "label": "Code de devise"
             },
             "customFields": {
@@ -663,7 +664,7 @@
                 "help": {
                     "3": "Votre Discord est défini comme public.",
                     "2": "Votre invitation Discord est remplie et valide.",
-                    "1": "Le bot Oengus est dans votre serveur Discord.",
+                    "1": "Le bot Oengus est dans votre serveur Discord. Lien d'invitation :",
                     "title": "Cette fonction peut être utilisée seulement quand les conditions suivantes sont remplies :"
                 },
                 "required": "Exiger de l'utilisateur d'être dans votre Discord",
@@ -832,7 +833,8 @@
                     "check": "Vérifier !",
                     "syncNotice": [
                         "IMPORTANT : avant de pouvoir effectuer cette vérification, vous devrez synchroniser Discord avec votre compte dans vos",
-                        "paramètres utilisateur"
+                        "paramètres utilisateur",
+                        "."
                     ],
                     "par2": "Vous ne pourrez pas soumettre si vous n'êtes pas sur le serveur Discord.",
                     "par1": "Cliquez sur « vérifier » ci-dessous pour vérifier si vous êtes sur le serveur Discord pour ce marathon.",
