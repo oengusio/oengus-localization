@@ -407,7 +407,7 @@
                     "max": "Currency code is too long",
                     "required": "Currency code is required"
                 },
-                "help": "Currency code must be in ISO-4217 format for Paypal",
+                "help": "Currency code must be in ISO-4217 format for Paypal and MUST be the primary currency of the payee",
                 "label": "Currency code"
             },
             "customFields": {
