@@ -106,7 +106,8 @@
             "DIFFERENT_MARATHON": "Deze code is voor een andere marathon",
             "MAX_SIZE_REACHED": "Deze submissie heeft al het maximum aantal runners bereikt",
             "NOT_MULTIPLAYER": "Dit is geen multiplayer categorie",
-            "SAME_USER": "Je kan jezelf niet toevoegen aan een categorie die je zelf hebt gemaakt"
+            "SAME_USER": "Je kan jezelf niet toevoegen aan een categorie die je zelf hebt gemaakt",
+            "DISCORD_VERIFIED": "Geverifieerd dat je in de discord server zit, je kan nu submitten"
         },
         "user": {
             "deactivate": {
@@ -407,7 +408,7 @@
                     "max": "Valuta code is te lang",
                     "required": "Valuta code is benodigd"
                 },
-                "help": "Valuta code moet in ISO-4217 formaat zijn voor Paypal",
+                "help": "Valuta code moet in ISO-4217 formaat zijn voor Paypal en MOET de primaire valuta zijn voor de betaler",
                 "label": "Valuta code"
             },
             "customFields": {
@@ -649,8 +650,10 @@
                 "help": "Je kan een webhook toevoegen om events te krijgen als er is gedoneerd/run gesubmit. Contacteer een administrator voor meer details.",
                 "error": {
                     "offline": "Kan de webhook niet bereiken. Weet je zeker dat dit de goede URL is?",
-                    "max": "Webhook link is te lang"
-                }
+                    "max": "Webhook link is te lang",
+                    "marathonParameter": "Je mist de benodigde marathon parameter"
+                },
+                "botNotice": "Dit is een Oengus bot webhook, dit betekent dat de oengus bot je ingesloten berichten stuurt naar jouw gekozen kanaal"
             },
             "discordRequirement": {
                 "found": {
@@ -661,7 +664,7 @@
                 "help": {
                     "3": "Je discord is gezet naar publiekelijk.",
                     "2": "Je discord uitnodiging is ingevuld en valide.",
-                    "1": "De Oengus bot is in je discord server.",
+                    "1": "De Oengus bot is in je discord server. Invite link:",
                     "title": "Deze functie kan alleen gebruikt worden als je aan de volgende condities voldoet:"
                 },
                 "required": "Verplicht runner om in de discord te zijn",
@@ -819,6 +822,24 @@
             "title": "Runs submitten",
             "tweet": {
                 "submit": "Ik heb {{games}} gesubmit naar {{marathon}}"
+            },
+            "requirements": {
+                "discord": {
+                    "errors": {
+                        "userMissing": "Neem alsjeblieft deel aan de discord server voor deze marathon <a href=\"{{invite}}\" target=\"_blank\">{{invite}}</a>",
+                        "botMissing": "Vraag de moderators van deze marathon om de Oengus discord bot toe te voegen"
+                    },
+                    "back": "Ga terug",
+                    "check": "Check!",
+                    "syncNotice": [
+                        "BELANGRIJK: Voordat je deze controle kan doen moet je eerst je Discord synchroniseren met je account in je",
+                        "gebruikersinstellingen"
+                    ],
+                    "par2": "Je kan niet submitten als je niet in de Discord server zit.",
+                    "par1": "Klik op \"check\" hier beneden om te controleren of je in de Discord server van deze marathon bent.",
+                    "lead": "Deze marathon vind het nodig dat je in hun Discord server zit om je runs te submitten",
+                    "title": "Wacht even!"
+                }
             }
         }
     },
