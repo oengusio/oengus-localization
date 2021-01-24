@@ -7,7 +7,7 @@
             "par4": "Esta plataforma ha sido creado por <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>. Participante en la comunidad speedrunner desde 2013, ha contribuido en la comunidad de muchas maneras: moderador global de <a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a> durante tres años, creador del <a href=\"https://twitter.com/SpeedrunWRs\">Speedrun WRs Twitter bot</a>, miembro del equipo francés de restream, que proporciona restreams de maratones internacionales para la audiencia francesa, y fundador de Bourg la Run, el equivalente francés a Games Done Quick. Después de acumular toda esta experiencia, y tras evaluar que no hay herramientas públicas de buena calidad para organizar maratones, ha decidido crear una y Oengus es el resultado.",
             "par6": "Trivia: Oengus es la divinidad celta del tiempo y la eternidad. ¡Un nombre perfecto para maratones de speedrun!",
             "title": "Acerca de",
-            "par5": "Desde enero de 2021, este portal es mantenido por <a href=\"https://twitter.com/duncte123\" target=\"_blank\"></a>"
+            "par5": "Desde enero de 2021, este portal es mantenido por <a href=\"https://twitter.com/duncte123\" target=\"_blank\"></a>."
         },
         "contact": {
             "par1": "¿Has encontrado un bug? ¿Tienes dudas acerca de la plataforma? Entra a <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">nuestro servidor de Discord</a>",
@@ -106,7 +106,8 @@
             "DIFFERENT_MARATHON": "Este código es para otra maratón",
             "MAX_SIZE_REACHED": "Esta postulación ya ha alcanzado el máximo número de runners",
             "NOT_MULTIPLAYER": "Esta no es una categoría multijugador",
-            "SAME_USER": "No te puedes añadir a ti mismo a una categoría que has creado"
+            "SAME_USER": "No te puedes añadir a ti mismo a una categoría que has creado",
+            "DISCORD_VERIFIED": "Una vez verificado que estás en el servidor de Discord, ya puedes postular"
         },
         "user": {
             "deactivate": {
@@ -170,7 +171,7 @@
         "welcomeTitle": "¡Bienvenido a Oengus!",
         "sponsors": {
             "title": "Patrocinadores",
-            "esa": "Oengus.io esta alojado por <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>"
+            "esa": "Oengus.io está gestionado por <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>"
         }
     },
     "login": {
@@ -407,7 +408,7 @@
                     "max": "El código de divisa es muy largo",
                     "required": "Se requiere un código de divisa"
                 },
-                "help": "El código de divisa debe estar en formato ISO-4217 para Paypal",
+                "help": "El código de divisa debe estar en formato ISO-4217 para Paypal y DEBE ser la moneda principal del beneficiario",
                 "label": "Código de divisa"
             },
             "customFields": {
@@ -555,7 +556,7 @@
                     "required": "Se requiere Payee"
                 },
                 "help": "Payee debe ser una dirección de correo vinculado a una cuenta de Paypal",
-                "label": "Payee"
+                "label": "Beneficiario"
             },
             "privacy": {
                 "help": "Las maratones privadas funcionan igual que las demás, solo que no se muestran en la página principal. Solo puedes acceder a ellas a través de URL.",
@@ -663,7 +664,7 @@
                 "help": {
                     "3": "Tu Discord está configurado en público.",
                     "2": "Tu invitación de Discord está rellenada y es valida.",
-                    "1": "El bot de Oengus está en tu servidor de Discord.",
+                    "1": "El bot de Oengus está en tu servidor de Discord. Enlace de invitación:",
                     "title": "Esta característica solo puede ser usada si las siguiente condiciones son cumplidas:"
                 },
                 "required": "Se requiere que el usuario esté en tu Discord",
@@ -832,7 +833,8 @@
                     "check": "¡Comprobado!",
                     "syncNotice": [
                         "IMPORTANTE: antes de que pueda hacer esta verificación, deberás sincronizar Discord con tu cuenta en tu",
-                        "ajustes de usuario"
+                        "ajustes de usuario",
+                        "."
                     ],
                     "par2": "No podrás postular si no estás en el servidor de Discord.",
                     "par1": "Haz clic en \"Comprobar\" a continuación para comprobar si estás en el servidor de Discord para este maratón.",
