@@ -463,19 +463,19 @@
                 }
             },
             "discordRequirement": {
-              "label": "Discord requirement",
-              "required": "Require user to be in your discord",
-              "help": {
-                "title": "This feature can only be used when the following conditions are met:",
-                "1": "Oengus bot is in your discord server. Invite link:",
-                "2": "Your discord invite is filled in and valid.",
-                "3": "Your discord is set to public."
-              },
-              "found": {
-                "title": "Guild from invite found",
-                "name": "Guild Name: <em>{{guildName}}</em>",
-                "id": "Guild Id: <em>{{guildId}}</em>"
-              }
+                "label": "Discord requirement",
+                "required": "Require user to be in your discord",
+                "help": {
+                    "title": "This feature can only be used when the following conditions are met:",
+                    "1": "Oengus bot is in your discord server. Invite link:",
+                    "2": "Your discord invite is filled in and valid.",
+                    "3": "Your discord is set to public."
+                },
+                "found": {
+                    "title": "Server from invite found",
+                    "name": "Server Name: <em>{{guildName}}</em>",
+                    "id": "Server Id: <em>{{guildId}}</em>"
+                }
             },
             "discordPrivacy": {
                 "help": "If Discord is set to private, the invite link will not be displayed in the homepage, but only in the emails selected runners will get.",
@@ -483,14 +483,14 @@
                 "private": "Discord is private"
             },
             "webhook": {
-              "error": {
-                "marathonParameter": "You are missing the required marathon parameter",
-                "max": "Webhook link is too long",
-                "offline": "Could not reach webhook. Are you sure this is the right URL?"
-              },
-              "help": "You can add a webhook to get events when a new submission/donation is made. Please contact an administrator for more details.",
-              "label": "Webhook",
-              "botNotice": "This is an Oengus bot webhook, meaning that the oengus bot will send embeds to the channels you specify"
+                "error": {
+                    "marathonParameter": "You are missing the required marathon parameter",
+                    "max": "Webhook link is too long",
+                    "offline": "Could not reach webhook. Are you sure this is the right URL?"
+                },
+                "help": "You can add a webhook to get events when a new submission/donation is made. Please contact an administrator for more details.",
+                "label": "Webhook",
+                "botNotice": "This is an Oengus bot webhook, meaning that the oengus bot will send embeds to the channels you specify"
             },
             "donations": {
                 "donationsOpen": "Donations are open",
@@ -813,23 +813,23 @@
                 "submit": "I submitted {{games}} to {{marathon}}"
             },
             "requirements": {
-              "discord": {
-                "title": "Hold up!",
-                "lead": "This marathon requires you to be in their Discord server in order to submit",
-                "par1": "Click \"check\" below to check if you are in the Discord server for this marathon.",
-                "par2": "You will not be able to submit if you are not in the Discord server.",
-                "syncNotice": [
-                  "IMPORTANT: before you can do this check you will need to sync Discord with your account in your",
-                  "user settings",
-                  "."
-                ],
-                "check": "Check!",
-                "back": "Go Back",
-                "errors": {
-                  "botMissing": "Please ask the moderators of this marathon to invite the Oengus discord bot",
-                  "userMissing": "Please join the discord server for this marathon <a href=\"{{invite}}\" target=\"_blank\">{{invite}}</a>"
+                "discord": {
+                    "title": "Hold up!",
+                    "lead": "This marathon requires you to be in their Discord server in order to submit",
+                    "par1": "Click \"check\" below to check if you are in the Discord server for this marathon.",
+                    "par2": "You will not be able to submit if you are not in the Discord server.",
+                    "syncNotice": [
+                        "IMPORTANT: before you can do this check you will need to sync Discord with your account in your",
+                        "user settings",
+                        "."
+                    ],
+                    "check": "Check!",
+                    "back": "Go Back",
+                    "errors": {
+                        "botMissing": "Please ask the moderators of this marathon to invite the Oengus discord bot",
+                        "userMissing": "Please join the discord server for this marathon <a href=\"{{invite}}\" target=\"_blank\">{{invite}}</a>"
+                    }
                 }
-              }
             }
         }
     },
