@@ -654,9 +654,9 @@
             },
             "discordRequirement": {
                 "found": {
-                    "id": "Gilde Id: <em>{{guildId}}</em>",
-                    "name": "Gilde naam: <em>{{guildName}}</em>",
-                    "title": "Gilde van uitnodiging gevonden"
+                    "id": "Server Id: <em>{{guildId}}</em>",
+                    "name": "Server naam: <em>{{guildName}}</em>",
+                    "title": "Server van uitnodiging gevonden"
                 },
                 "help": {
                     "3": "Je discord is gezet naar publiekelijk.",
