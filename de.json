@@ -106,7 +106,8 @@
             "DIFFERENT_MARATHON": "Dieser Code ist für einen anderen Marathon",
             "MAX_SIZE_REACHED": "Diese Submission hat bereits die maximale Teilnehmerzahl erreicht",
             "NOT_MULTIPLAYER": "Dies ist keine Mehrspieler-Kategorie",
-            "SAME_USER": "Du kannst dich keiner Kategorie hinzufügen, die Du erstellt hast"
+            "SAME_USER": "Du kannst dich keiner Kategorie hinzufügen, die Du erstellt hast",
+            "DISCORD_VERIFIED": "Bestätigt das du dich auf dem Discord Server befindest, du kannst nun Übermitteln"
         },
         "user": {
             "deactivate": {
@@ -833,7 +834,8 @@
                     "check": "Prüfen!",
                     "syncNotice": [
                         "WICHTIG: Bevor Sie diese Prüfung durchführen können, müssen Sie Discord mit Ihrem Konto synchronisieren. Dies kann man in der",
-                        "Benutzereinstellungen"
+                        "Benutzereinstellungen",
+                        "."
                     ],
                     "par2": "Sie können nicht senden, wenn Sie sich nicht auf dem Discord-Server befinden.",
                     "lead": "Für diesen Marathon müssen Sie sich auf dem Discord-Server befinden, um einreichen zu können",
