@@ -27,7 +27,7 @@
         "welcomeText": {
             "par4": {
                 "sandbox": "<b>이곳은 샌드박스 환경입니다. 테스트 목적으로 사용됩니다. 실제 행사를 생성하려면 <a href=\"https://oengus.io\">메인 웹사이트</a>로 이동해주세요.</b>",
-                "prod": "행사를 생헝하기 전에 시험해보고 싶다면, <a href=\"https://sandbox.oengus.io\">샌드박스 환경</a>으로 가주세요. 누구나 시험용으로 사용할 수 있는 사이트입니다."
+                "prod": "행사를 생성하기 전에 시험해보고 싶다면, <a href=\"https://sandbox.oengus.io\">샌드박스 환경</a>으로 가주세요. 누구나 시험용으로 사용할 수 있는 사이트입니다."
             },
             "par3": "모든 기능에 접근하려면 다음 링크로 로그인하십시오. 새로운 마라톤을 생성하거나 기존 마라톤에 제출할 수 있습니다:",
             "par1": "Oengus는 스피드런 마라톤을 제출부터 스케줄까지 관리할 수 있도록 해주는 <b>무료</b> 도구입니다."
@@ -70,7 +70,8 @@
             "MAX_SIZE_REACHED": "이미 최대 러너 수에 도달하였습니다",
             "DIFFERENT_MARATHON": "이 코드는 다른 마라톤을 위한 것입니다",
             "CODE_NOT_FOUND": "존재하지 않는 코드입니다",
-            "ALREADY_IN_OPPONENTS": "이미 이 카테고리에 속합니다"
+            "ALREADY_IN_OPPONENTS": "이미 이 카테고리에 속합니다",
+            "DISCORD_VERIFIED": "Discord 서버 가입 여부를 확인됐습니다. 이제 제출할 수 있습니다"
         },
         "submission": {
             "save": {
@@ -521,7 +522,8 @@
                     "check": "확인!",
                     "syncNotice": [
                         "중요: 확인하기 전에 계정과 Discord를 동기화해야 합니다. 자세한 내용은",
-                        "유저 설정"
+                        "유저 설정",
+                        "에서 확인해주세요."
                     ],
                     "par2": "Discord 서버에 가입돼있지 않으면 제출할 수 없습니다.",
                     "par1": "마라톤을 제출하기 위해 Discord 서버에 가입돼있는지 확인하려면 아래 \"확인\"을 클릭하세요.",
@@ -629,7 +631,7 @@
             "startDate": {
                 "label": "시작일을 입력해주세요",
                 "error": {
-                    "required": "시작일을 입력해주세요"
+                    "required": "시작일이 필요합니다"
                 }
             },
             "shortname": {
@@ -797,7 +799,7 @@
             },
             "currencyIso": {
                 "label": "통화 코드",
-                "help": "Paypal의 통화 코드는 ISO-4217 형식이어야 합니다",
+                "help": "Paypal의 통화 코드는 ISO-4217 형식이어야 하며 수취인의 기본 통화여야 합니다",
                 "error": {
                     "required": "통화 코드가 필요합니다",
                     "max": "통화 코드가 너무 깁니다"
@@ -813,14 +815,14 @@
             },
             "discordRequirement": {
                 "found": {
-                    "id": "길드 ID: <em>{{guildId}}</em>",
-                    "name": "길드 이름: <em>{{guildName}}</em>",
-                    "title": "초대에서 길드 발견"
+                    "id": "서버 ID: <em>{{guildId}}</em>",
+                    "name": "서버 이름: <em>{{guildName}}</em>",
+                    "title": "초대에서 서버 발견"
                 },
                 "help": {
                     "3": "Discord 그룹이 공개 상태여야 합니다.",
                     "2": "Discord 초대 링크가 작성돼있어야 하며 유효해야 합니다.",
-                    "1": "Oengus 봇이 Discord 서버에 있어야 합니다.",
+                    "1": "Oengus 봇이 Discord 서버에 있어야 합니다. 초대 링크:",
                     "title": "이 기능은 다음 조건이 충족되는 경우에만 사용할 수 있습니다:"
                 },
                 "required": "Discord 채널에 소속된 상태여야 하도록 요구",
