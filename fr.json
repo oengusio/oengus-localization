@@ -657,9 +657,9 @@
             },
             "discordRequirement": {
                 "found": {
-                    "id": "Identifiant de guilde : <em>{{guildId}}</em>",
-                    "name": "Nom de guilde : <em>{{guildName}}</em>",
-                    "title": "Guilde de l'invitation trouvée"
+                    "id": "Identifiant du serveur : <em>{{guildId}}</em>",
+                    "name": "Nom du serveur : <em>{{guildName}}</em>",
+                    "title": "Serveur de l'invitation trouvé"
                 },
                 "help": {
                     "3": "Votre Discord est défini comme public.",
