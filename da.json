@@ -130,9 +130,36 @@
     "homepage": {
         "marathons": {
             "live": "Live maratoner",
-            "calendar": "Fuld kalender"
+            "calendar": "Fuld kalender",
+            "upcoming": "Kommende maratoner",
+            "open": "Tilmeldinger åbne",
+            "moderated": "Modererede maratoner"
         },
-        "ends": "Slutter {{duration}}"
+        "ends": "Slutter {{duration}}",
+        "welcomeTitle": "Velkommen til Oengus!",
+        "welcomeText": {
+            "par4": {
+                "prod": "Hvis du ønsker at teste applikationen før du skaber en applikation, venligst besøg <a href=\"https://sandbox.oengus.io\">sandbox-miljøet</a>. Det er tilgængeligt til alle dine test- og opdagelsesformål.",
+                "sandbox": "<b>Du er i sandbox-miljøet, tilgængelig til test- og opdagelsesformål. Hvis du ønsker at skabe et rigtigt maraton, venligst besøg <a href=\"https://oengus.io\">hovedwebstedet</a>.</b>"
+            },
+            "par1": "Oengus er et <b>gratis</b> værktøj til at håndtere dine speedrunning maratoner fra tilmeldinger til skemalægning.",
+            "par3": "For at få adgang til alle funktioner, venligst log ind med det følgende link. Du vil være i stand til at skabe nye maratoner og tilmelde til eksisterende:"
+        },
+        "starts": "Starter {{duration}}",
+        "sponsors": {
+            "title": "Sponsorer",
+            "esa": "oengus.io er hosted af <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>"
+        },
+        "plannedFeatures": {
+            "title": "Planlagte funktioner",
+            "7": "Donationsbehandling gennem Paypal",
+            "6": "Mail notifikationer",
+            "5": "Discord integration",
+            "4": "Kontoer synkroniserer for at forbinde med Twitter/Twitch/Google",
+            "3": "Nemt skemalægningssystem med runners tilgængelighedsvisualisering",
+            "2": "Adskillige runs valgsystem (direkte valg, stemmer...)",
+            "1": "Samarbejds-/ræstilmeldinger"
+        }
     },
     "global": {
         "adblocker": "Hejsa, det ser ud til at du blokerer reklamer, sluk venligst for din reklameblokker fra på Oengus, da vi er afhængige af reklamer og donationer for at overleve.",
@@ -145,5 +172,33 @@
     "calendar": {
         "title": "Maratonskalender",
         "help": "Ved at klikke på en begivenhed omdirigeres du til dens side"
+    },
+    "marathon": {
+        "donate": {
+            "incentiveAmount": {
+                "error": {
+                    "required": "Beløb er påkrævet",
+                    "minNumber": "Beløbet skal være højere end nul"
+                }
+            },
+            "extra": {
+                "title": "Ekstra information",
+                "description": "Dataene vises ikke offentligt nogen steder, og bliver slettet én måned efter arrangementet er slut."
+            },
+            "description": "Donationer støtter {{supportedCharity}}",
+            "comment": {
+                "label": "Kommentar"
+            },
+            "amount": {
+                "label": "Donationsbeløb",
+                "error": {
+                    "required": "Donationsbeløb er påkrævet",
+                    "minNumber": "Donationsbeløbet skal være højere end nul"
+                }
+            }
+        }
+    },
+    "login": {
+        "authInProgress": "Godkendelse er i gang, vent venligst…"
     }
 }
