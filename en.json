@@ -874,7 +874,7 @@
         },
         "settings": {
             "accountSync": {
-                "description": "You can synchronize your social media accounts here. You can then connect to your Oengus account with all your synchronized accounts. Don't forget to save after synchronizing accounts.",
+                "description": "You can synchronize your social media accounts here. You can then connect to your Oengus account with all your synchronized accounts.",
                 "error": {
                     "noService": "You need to have at least one service synchronised with your account"
                 },
