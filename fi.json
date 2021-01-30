@@ -1,1 +1,14 @@
-{}
+{
+    "alert": {
+        "submit": {
+            "SAME_USER": "Et voi lisätä itseäsi luomaasi kategoriaan"
+        }
+    },
+    "action": {
+        "sendTweet": "Lähetä twiitti",
+        "save": "Tallenna",
+        "confirm": "Varmista",
+        "cancel": "Peruuta",
+        "accept": "Hyväksy"
+    }
+}
