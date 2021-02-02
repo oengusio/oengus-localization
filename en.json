@@ -391,6 +391,7 @@
                 "title": "Statistics"
             },
             "status": {
+                "ALL": "All",
                 "BACKUP": "Backup",
                 "BONUS": "Bonus",
                 "REJECTED": "Declined",
