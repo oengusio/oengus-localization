@@ -157,6 +157,7 @@
             "5": "Discord integration",
             "6": "Mail notifications",
             "7": "Donations management through Paypal",
+            "volunteerManager": "Volunteer application manager",
             "title": "Planned features"
         },
         "sponsors": {
