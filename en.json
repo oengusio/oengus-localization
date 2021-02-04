@@ -665,6 +665,7 @@
             }
         },
         "submissions": {
+            "filter": "Filter users and games",
             "category": {
                 "delete": "Delete the category"
             },
