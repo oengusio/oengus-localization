@@ -395,7 +395,8 @@
                 "BONUS": "Bonus",
                 "REJECTED": "Geweigerd",
                 "TODO": "Nog te doen",
-                "VALIDATED": "Geaccepteerd"
+                "VALIDATED": "Geaccepteerd",
+                "ALL": "Alles"
             },
             "title": "Selecteer runs"
         },
@@ -702,7 +703,8 @@
                 "answers": "Antwoorden",
                 "submissions": "Submissies"
             },
-            "title": "Submissies"
+            "title": "Submissies",
+            "filter": "Filter gebruikers en games"
         },
         "submit": {
             "action": {
@@ -833,7 +835,8 @@
                     "check": "Check!",
                     "syncNotice": [
                         "BELANGRIJK: Voordat je deze controle kan doen moet je eerst je Discord synchroniseren met je account in je",
-                        "gebruikersinstellingen"
+                        "gebruikersinstellingen",
+                        "."
                     ],
                     "par2": "Je kan niet submitten als je niet in de Discord server zit.",
                     "par1": "Klik op \"check\" hier beneden om te controleren of je in de Discord server van deze marathon bent.",
@@ -884,7 +887,7 @@
         },
         "settings": {
             "accountSync": {
-                "description": "Je kan hier je social media accounts synchroniseren. Je kan hierna naar je Oengus account verbinden met je gesynchroniseerde accounts. Vergeet niet om op \"Opslaan\" te drukken na het synchroniseren.",
+                "description": "Je kan hier je social media accounts synchroniseren. Je kan hierna naar je Oengus account verbinden met je gesynchroniseerde accounts.",
                 "error": {
                     "noService": "Je moet op z'n minst 1 service synroniseren met je account"
                 },
