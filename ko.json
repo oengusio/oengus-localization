@@ -13,7 +13,8 @@
             "4": "Twitter/Twitch/Google 계정을 연동하여 동기화 제공",
             "3": "직관적인 인터페이스로 제공되는 편한 일정 관리 시스템",
             "2": "다중 런 선택 시스템 (직접 선택, 투표 등)",
-            "1": "협동/경쟁 제출"
+            "1": "협동/경쟁 제출",
+            "volunteerManager": "자원봉사 신청 관리"
         },
         "marathons": {
             "upcoming": "예정된 마라톤",
@@ -188,7 +189,8 @@
                 "TODO": "확인 필요",
                 "REJECTED": "거부",
                 "BONUS": "보너스",
-                "BACKUP": "백업"
+                "BACKUP": "백업",
+                "ALL": "전부"
             },
             "statistics": {
                 "title": "통계",
@@ -563,7 +565,8 @@
             "export": "CSV로 내보내기",
             "category": {
                 "delete": "카테고리 삭제"
-            }
+            },
+            "filter": "유저 및 게임 필터"
         },
         "settings": {
             "youtube": {
