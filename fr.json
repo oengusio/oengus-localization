@@ -157,7 +157,8 @@
             "5": "Intégration Discord",
             "6": "Notifications par courriel",
             "7": "Gestion des dons via Paypal",
-            "title": "Fonctionnalités prévues"
+            "title": "Fonctionnalités prévues",
+            "volunteerManager": "Gestionnaire de bénévoles"
         },
         "starts": "Débute {{duration}}",
         "welcomeText": {
@@ -395,7 +396,8 @@
                 "BONUS": "Bonus",
                 "REJECTED": "Refusé",
                 "TODO": "À faire",
-                "VALIDATED": "Accepté"
+                "VALIDATED": "Accepté",
+                "ALL": "Tout"
             },
             "title": "Sélection des runs"
         },
@@ -702,7 +704,8 @@
                 "answers": "Réponses",
                 "submissions": "Candidatures"
             },
-            "title": "Candidatures"
+            "title": "Candidatures",
+            "filter": "Filtrer les jeux et les utilisateurs"
         },
         "submit": {
             "action": {
@@ -885,7 +888,7 @@
         },
         "settings": {
             "accountSync": {
-                "description": "Vous pouvez synchroniser vos comptes de réseaux sociaux ici. Vous pourrez ensuite vous connecter à votre compte Oengus avec n'importe quel réseau social synchronisé. N'oubliez pas de sauvegarder après avoir synchronisé vos comptes.",
+                "description": "Vous pouvez synchroniser vos comptes de réseaux sociaux ici. Vous pourrez ensuite vous connecter à votre compte Oengus avec n'importe quel réseau social synchronisé.",
                 "error": {
                     "noService": "Vous devez avoir au moins un compte synchronisé"
                 },
