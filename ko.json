@@ -39,7 +39,7 @@
         "emu": "[Emu]"
     },
     "footer": {
-        "text": "모든 시간은 접속자의 시간대로 변한됩니다. 감지된 시간대: {{timezone}}",
+        "text": "모든 시간은 접속자의 시간대로 변환됩니다. 감지된 시간대: {{timezone}}",
         "donate": "Oengus를 잘 이용하고 계시다면, <a href=\"{{donationLink}}\" target=\"_blank\">후원</a>하는 걸 고려해보세요"
     },
     "calendar": {
@@ -842,7 +842,7 @@
                 "error": {
                     "noService": "계정과 동기화된 서비스가 하나 이상 있어야 합니다"
                 },
-                "description": "이곳에서 SNS 계정을 동기화할 수 있습니다. 그 다음 동기화된 모든 계정으로 Oengus 계정에 연동할 수 있습니다. 계정을 동기화한 후 저장하는 걸 잊지 마세요.",
+                "description": "이곳에서 SNS 계정을 동기화할 수 있습니다. 그 다음 동기화된 모든 계정으로 Oengus 계정에 연동할 수 있습니다.",
                 "unsync": "계정 삭제",
                 "title": "계정 동기화",
                 "sync": "계정 동기화"
