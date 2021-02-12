@@ -313,7 +313,8 @@
         },
         "new": {
             "description": "The following information is mandatory to create a new marathon. After its creation, you will be able to configure more details.",
-            "title": "Create a new marathon"
+            "title": "Create a new marathon",
+            "shortDomain": "This short domain is automatically generated for you to share in your social media posts"
         },
         "schedule": {
             "currentRun": "Current run",
