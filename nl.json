@@ -157,7 +157,8 @@
             "5": "Discord integratie",
             "6": "E-mail notificaties",
             "7": "Donatie management via Paypal",
-            "title": "Geplande functies"
+            "title": "Geplande functies",
+            "volunteerManager": "Vrijwilliger applicatiebeheer"
         },
         "starts": "Start {{duration}}",
         "welcomeText": {
@@ -312,7 +313,8 @@
         },
         "new": {
             "description": "De volgende informatie is verplicht om een marathon aan te maken. Na dit proces kan je meer details aanpassen.",
-            "title": "Maak een nieuwe marathon aan"
+            "title": "Maak een nieuwe marathon aan",
+            "shortDomain": "Dit korte domein is automatisch gegenereerd voor jou om te delen in je social media posts"
         },
         "schedule": {
             "currentRun": "Huidige run",
