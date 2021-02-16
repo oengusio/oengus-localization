@@ -1,446 +1,211 @@
 {
-  "aboutPage": {
-    "about": {
-      "par1": "Oengus é um site que fornece ferramentas para a organização de maratonas de speedruns.",
-      "par2": "Speedrunning é a ação de jogar video game com a intenção de completar o jogo o mais rápido possível, seja isto com um propósito de entretenimento e/ou competitivo. Você pode ler mais a respeito de Speedruns na <a href=\"https://pt.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedia</a>.",
-      "par3": "Maratonas de speedruns são eventos one os speedrunners se reúnem para exibir suas runs para uma audiência, seja online, presencial ou ambos. Os eventos mais populares são da <a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a> que são organizados algumas vezes ao ano.",
-      "par4": "Este site foi criado pelo <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>. Participativo na comunidade de speedruns desde 2013, ele já contribuiu com a comunidade de speedruns de diversas formas: moderador global do <a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a> por três anos, criador do bot de Twitter<a href=\"https://twitter.com/SpeedrunWRs\">Speedrun WRs</a>, membro da equipe de Restream Francesa, que fornece restreams de maratonas internacionais para a audiência francesa e fundador da Bourg La Run, a equivalente a Games Done Quick porém da França. Depois de obter toda esta experiência e depois de perceber que não havia nenhuma ferramenta pública boa para organização de maratonas, ele decidiu criar uma e o Oengus é o resultado.",
-      "par6": "Trivia: Oengus é a divindade celta que está encarregada do tempo e da eternidade. Com certeza é um nome que combina com maratonas de Speedruns!",
-      "title": "Sobre"
+    "aboutPage": {
+        "about": {
+            "par1": "Oengus é um site que fornece ferramentas para a organização de maratonas de speedruns.",
+            "par2": "Speedrunning é a ação de jogar video game com a intenção de completar o jogo o mais rápido possível, seja isto com um propósito de entretenimento e/ou competitivo. Você pode ler mais a respeito de Speedruns na <a href=\"https://pt.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedia</a>.",
+            "par3": "Maratonas de speedruns são eventos one os speedrunners se reúnem para exibir suas runs para uma audiência, seja online, presencial ou ambos. Os eventos mais populares são da <a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a> que são organizados algumas vezes ao ano.",
+            "par4": "Este site foi criado pelo <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>. Participativo na comunidade de speedruns desde 2013, ele já contribuiu com a comunidade de speedruns de diversas formas: moderador global do <a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a> por três anos, criador do bot de Twitter<a href=\"https://twitter.com/SpeedrunWRs\">Speedrun WRs</a>, membro da equipe de Restream Francesa, que fornece restreams de maratonas internacionais para a audiência francesa e fundador da Bourg La Run, a equivalente a Games Done Quick porém da França. Depois de obter toda esta experiência e depois de perceber que não havia nenhuma ferramenta pública boa para organização de maratonas, ele decidiu criar uma e o Oengus é o resultado.",
+            "par6": "Trivia: Oengus é a divindade celta que está encarregada do tempo e da eternidade. Com certeza é um nome que combina com maratonas de Speedruns!",
+            "title": "Sobre"
+        },
+        "contact": {
+            "par1": "Encontrou um bug ? Tem dúvidas sobre o site ? Entre em nosso <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">servidor de Discord</a>",
+            "par2": "Para contatos financeiros/relações públicas, entre em contato através do e-mail contact@oengus.io",
+            "title": "Contato"
+        }
     },
-    "contact": {
-      "par1": "Encontrou um bug ? Tem dúvidas sobre o site ? Entre em nosso <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">servidor de Discord</a>",
-      "par2": "Para contatos financeiros/relações públicas, entre em contato através do e-mail contact@oengus.io",
-      "title": "Contato"
-    }
-  },
-  "action": {
-    "accept": "Aceitar",
-    "cancel": "Cancelar",
-    "clearAvailabilities": "Limpar seleções disponíveis",
-    "confirm": "Confirmar",
-    "decline": "Negar",
-    "join": "Entrar",
-    "save": "Salvar",
-    "sendTweet": "Enviar Tweet",
-    "submit": "Submeter"
-  },
-  "alert": {
-    "category": {
-      "deletion": {
-        "error": "Um erro ocorreu durante o processo de deletar uma categoria. Por favor tente novamente ou entre em contato com um administrador.",
-        "success": "Categoria deletada com sucesso"
-      }
+    "action": {
+        "accept": "Aceitar",
+        "cancel": "Cancelar",
+        "clearAvailabilities": "Limpar seleções disponíveis",
+        "confirm": "Confirmar",
+        "decline": "Negar",
+        "join": "Entrar",
+        "save": "Salvar",
+        "sendTweet": "Enviar Tweet",
+        "submit": "Submeter"
     },
-    "donation": {
-      "export": {
-        "error": "Um erro ocorreu durante a exportação. Por favor tente novamente ou contate um administrador."
-      },
-      "validate": {
-        "error": "Um erro ocorreu durante o processo de doação. Por favor tente novamente ou contate um administrador.",
-        "success": "Sua doação foi enviada com sucesso. Obrigado por doar!"
-      }
+    "alert": {
+        "category": {
+            "deletion": {
+                "error": "Um erro ocorreu durante o processo de deletar uma categoria. Por favor tente novamente ou entre em contato com um administrador.",
+                "success": "Categoria deletada com sucesso"
+            }
+        },
+        "donation": {
+            "export": {
+                "error": "Um erro ocorreu durante a exportação. Por favor tente novamente ou contate um administrador."
+            },
+            "validate": {
+                "error": "Um erro ocorreu durante o processo de doação. Por favor tente novamente ou contate um administrador.",
+                "success": "Sua doação foi enviada com sucesso. Obrigado por doar!"
+            }
+        },
+        "game": {
+            "deletion": {
+                "error": "Um erro ocorreu durante o processo de deletar um jogo. Por favor tente novamente ou contate um administrador.",
+                "success": "O jogo foi excluído com sucesso"
+            },
+            "export": {
+                "error": "Um erro aconteceu durante a exportação. Por favor tente novamente ou contate um administrador."
+            }
+        },
+        "incentives": {
+            "delete": {
+                "error": "Erro durante a exclusão do incentivo. Por favor tente novamente ou contate um administrador.",
+                "success": "Incentivo deletado com sucesso"
+            },
+            "save": {
+                "error": "Um erro ocorreu durante o processo de salvar os incentivos. Por favor tente novamente ou contate um administrador.",
+                "success": "Incentivos salvos com sucesso."
+            }
+        },
+        "marathon": {
+            "creation": {
+                "error": "Erro durante a criação da maratona",
+                "success": "Maratona criada com sucesso"
+            },
+            "deletion": {
+                "error": "Erro durante a exclusão da maratona",
+                "success": "Maratona excluída com sucesso"
+            },
+            "update": {
+                "error": "Erro durante a atualização da maratona",
+                "success": "Maratona atualizada com sucesso"
+            }
+        },
+        "schedule": {
+            "export": {
+                "error": "Um erro aconteceu durante a exportação. Por favor tente novamente ou contate um administrador."
+            },
+            "save": {
+                "error": "Erro durante o processo de salvar a agenda",
+                "success": "Agenda salva com sucesso"
+            }
+        },
+        "selection": {
+            "save": {
+                "error": "Erro durante o processo de salvar a seleção",
+                "success": "Seleção salva com sucesso"
+            }
+        },
+        "submission": {
+            "deletion": {
+                "error": "Um erro ocorreu durante a exclusão de uma submissão. Por favor tente novamente ou contate um administrador.",
+                "success": "Submissão excluída com sucesso"
+            },
+            "save": {
+                "error": "Erro durante o processo de submissão",
+                "success": "Submissão enviada com sucesso"
+            }
+        },
+        "submit": {
+            "ALREADY_IN_OPPONENTS": "Você já faz parte desta categoria",
+            "CODE_NOT_FOUND": "Este código não existe",
+            "DIFFERENT_MARATHON": "Este código é para outra maratona",
+            "MAX_SIZE_REACHED": "Esta submissão já atingiu o número máximo de corredores",
+            "NOT_MULTIPLAYER": "Esta não é uma categoria para múltiplos jogadores",
+            "SAME_USER": "Você não pode adicionar você mesmo em uma categoria que você criou"
+        },
+        "user": {
+            "deactivate": {
+                "success": "Sua conta foi desativada com sucesso"
+            },
+            "login": {
+                "disabledAccount": "Sua conta está desabilitada. Se você deseja utilizar ela novamente, contate um administrador.",
+                "error": "Um erro ocorreu durante a autenticação. Por favor tente novamente ou contate um administrador.",
+                "usernameExists": "O nome de usuário vinculado na conta que você está tentando logar já existe. Tenha certeza que você já não criou um perfil no Oengus com outro método de login. Se você acha que este é um falso positivo, por favor contate um administrador."
+            },
+            "sync": {
+                "alreadySynced": "Erro: Esta conta já existe",
+                "error": "Um erro ocorreu durante a sincronização de contas. Por favor tente novamente ou um administrador."
+            },
+            "update": {
+                "error": "Erro durante a atualização dos dados de usuário",
+                "success": "Dados de usuário atualizados com sucesso"
+            }
+        }
     },
-    "game": {
-      "deletion": {
-        "error": "Um erro ocorreu durante o processo de deletar um jogo. Por favor tente novamente ou contate um administrador.",
-        "success": "O jogo foi excluído com sucesso"
-      },
-      "export": {
-        "error": "Um erro aconteceu durante a exportação. Por favor tente novamente ou contate um administrador."
-      }
+    "calendar": {
+        "help": "Clicar em um evento irá lhe redirecionar para a página deste evento",
+        "title": "Calendário de maratonas"
     },
-    "incentives": {
-      "delete": {
-        "error": "Erro durante a exclusão do incentivo. Por favor tente novamente ou contate um administrador.",
-        "success": "Incentivo deletado com sucesso"
-      },
-      "save": {
-        "error": "Um erro ocorreu durante o processo de salvar os incentivos. Por favor tente novamente ou contate um administrador.",
-        "success": "Incentivos salvos com sucesso."
-      }
+    "footer": {
+        "donate": "Se você gostou do Oengus, por favor considere <a href=\"{{donationLink}}\" target=\"_blank\">realizar uma doação</a>",
+        "text": "Todos os horários são convertidos para o seu fuso horário. Fuso horário detectado: {{timezone}}"
+    },
+    "global": {
+        "emu": "[Emu]"
+    },
+    "homepage": {
+        "ends": "Termina em {{duration}}",
+        "marathons": {
+            "calendar": "Calendário completo",
+            "live": "Maratonas ao vivo",
+            "moderated": "Maratonas moderadas",
+            "open": "Submissões abertas",
+            "upcoming": "Maratonas futuras"
+        },
+        "plannedFeatures": {
+            "1": "Submissões coop/races",
+            "2": "Sistema de seleção para múltiplas corridas (escolha direta, votação...)",
+            "3": "Sistema fácil de visualização de disponibilidade dos corredores",
+            "4": "Sincronia de contas para conectar com Twitter/Twitch/Google",
+            "5": "Integração com Discord",
+            "6": "Notificações por e-mails",
+            "7": "Gerenciamento de doações através do PayPal",
+            "title": "Funcionalidades planejadas"
+        },
+        "starts": "Começa em {{duration}}",
+        "welcomeText": {
+            "par1": "Oengus é uma ferramenta <b>gratuita</b> para gerenciar as maratonas de speedruns, desde as submissões até a agenda do evento.",
+            "par3": "Para ter acesso a todas funcionalidades, por favor acesse através do próximo link. Você poderá criar novas maratonas e realizar submissões para as existentes:",
+            "par4": {
+                "prod": "Se você deseja testar a ferramenta antes de criar a sua maratona, por favor visite o <a href=\"https://sandbox.oengus.io\">ambiente de testes</a>. Ele está disponível para todos os testes e descobertas.",
+                "sandbox": "<b>Você está no ambiente de testes, disponível para testes e descobertas. Se você deseja criar uma maratona real, por favor acesse o <a href=\"https://oengus.io\">site principal</a>.</b>"
+            }
+        },
+        "welcomeTitle": "Seja bem vindo ao Oengus!"
+    },
+    "login": {
+        "authInProgress": "Autenticação em progresso, por favor aguarde…"
     },
     "marathon": {
-      "creation": {
-        "error": "Erro durante a criação da maratona",
-        "success": "Maratona criada com sucesso"
-      },
-      "deletion": {
-        "error": "Erro durante a exclusão da maratona",
-        "success": "Maratona excluída com sucesso"
-      },
-      "update": {
-        "error": "Erro durante a atualização da maratona",
-        "success": "Maratona atualizada com sucesso"
-      }
-    },
-    "schedule": {
-      "export": {
-        "error": "Um erro aconteceu durante a exportação. Por favor tente novamente ou contate um administrador."
-      },
-      "save": {
-        "error": "Erro durante o processo de salvar a agenda",
-        "success": "Agenda salva com sucesso"
-      }
-    },
-    "selection": {
-      "save": {
-        "error": "Erro durante o processo de salvar a seleção",
-        "success": "Seleção salva com sucesso"
-      }
-    },
-    "submission": {
-      "deletion": {
-        "error": "Um erro ocorreu durante a exclusão de uma submissão. Por favor tente novamente ou contate um administrador.",
-        "success": "Submissão excluída com sucesso"
-      },
-      "save": {
-        "error": "Erro durante o processo de submissão",
-        "success": "Submissão enviada com sucesso"
-      }
-    },
-    "submit": {
-      "ALREADY_IN_OPPONENTS": "Você já faz parte desta categoria",
-      "CODE_NOT_FOUND": "Este código não existe",
-      "DIFFERENT_MARATHON": "Este código é para outra maratona",
-      "MAX_SIZE_REACHED": "Esta submissão já atingiu o número máximo de corredores",
-      "NOT_MULTIPLAYER": "Esta não é uma categoria para múltiplos jogadores",
-      "SAME_USER": "Você não pode adicionar você mesmo em uma categoria que você criou"
-    },
-    "user": {
-      "deactivate": {
-        "success": "Sua conta foi desativada com sucesso"
-      },
-      "login": {
-        "disabledAccount": "Sua conta está desabilitada. Se você deseja utilizar ela novamente, contate um administrador.",
-        "error": "Um erro ocorreu durante a autenticação. Por favor tente novamente ou contate um administrador.",
-        "usernameExists": "O nome de usuário vinculado na conta que você está tentando logar já existe. Tenha certeza que você já não criou um perfil no Oengus com outro método de login. Se você acha que este é um falso positivo, por favor contate um administrador."
-      },
-      "sync": {
-        "alreadySynced": "Erro: Esta conta já existe",
-        "error": "Um erro ocorreu durante a sincronização de contas. Por favor tente novamente ou um administrador."
-      },
-      "update": {
-        "error": "Erro durante a atualização dos dados de usuário",
-        "success": "Dados de usuário atualizados com sucesso"
-      }
+        "donate": {
+            "amount": {
+                "error": {
+                    "minNumber": "A quantia a ser doada tem que ser mais do que zero",
+                    "required": "A quantia a ser doada tem que ser preenchida"
+                },
+                "label": "Quantia da doação"
+            },
+            "comment": {
+                "label": "Comentário"
+            },
+            "description": "As doações ajudam a {{supportedCharity}}",
+            "extra": {
+                "description": "A informação não está pública em nenhum lugar e será excluída um mês depois da conclusão do evento.",
+                "title": "Informação extra"
+            },
+            "incentiveAmount": {
+                "error": {
+                    "minNumber": "A quantia tem que ser acima de zero",
+                    "required": "A quantia é necessária"
+                }
+            },
+            "incentives": {
+                "add": "Adicionar incentivos",
+                "bid": {
+                    "new": "(Novo)"
+                },
+                "description": "Incentivo de doações podem ser usado para adicionar desafios ou influenciar as escolhas do corredor. Você gostaria de atribuir a sua doação para um incentivo?",
+                "header": {
+                    "action": "Ação",
+                    "amount": "Quantidade",
+                    "incentive": "Incentivo"
+                },
+                "left": "Quantia ainda disponível:"
+            }
+        }
     }
-  },
-  "calendar": {
-    "help": "Clicar em um evento irá lhe redirecionar para a página deste evento",
-    "title": "Calendário de maratonas"
-  },
-  "footer": {
-    "donate": "Se você gostou do Oengus, por favor considere <a href=\"{{donationLink}}\" target=\"_blank\">realizar uma doação</a>",
-    "text": "Todos os horários são convertidos para o seu fuso horário. Fuso horário detectado: {{timezone}}"
-  },
-  "global": {
-    "emu": "[Emu]"
-  },
-  "homepage": {
-    "ends": "Termina em {{duration}}",
-    "marathons": {
-      "calendar": "Calendário completo",
-      "live": "Maratonas ao vivo",
-      "moderated": "Maratonas moderadas",
-      "open": "Submissões abertas",
-      "upcoming": "Maratonas futuras"
-    },
-    "plannedFeatures": {
-      "1": "Submissões coop/races",
-      "2": "Sistema de seleção para múltiplas corridas (escolha direta, votação...)",
-      "3": "Sistema fácil de visualização de disponibilidade dos corredores",
-      "4": "Sincronia de contas para conectar com Twitter/Twitch/Google",
-      "5": "Integração com Discord",
-      "6": "Notificações por e-mails",
-      "7": "Gerenciamento de doações através do Paypal",
-      "title": "Funcionalidades planejadas"
-    },
-    "starts": "Começa em {{duration}}",
-    "welcomeText": {
-      "par1": "Oengus é uma ferramenta <b>gratuita</b> para gerenciar as maratonas de speedruns, desde as submissões até a agenda do evento.",
-      "par3": "Para ter acesso a todas funcionalidades, por favor acesse através do próximo link. Você poderá criar novas maratonas e realizar submissões para as existentes:",
-      "par4": {
-        "prod": "Se você deseja testar a ferramenta antes de criar a sua maratona, por favor visite o <a href=\"https://sandbox.oengus.io\">ambiente de testes</a>. Ele está disponível para todos os testes e descobertas.",
-        "sandbox": "<b>Você está no ambiente de testes, disponível para testes e descobertas. Se você deseja criar uma maratona real, por favor acesse o <a href=\"https://oengus.io\">site principal</a>.</b>"
-      }
-    },
-    "welcomeTitle": "Seja bem vindo ao Oengus!"
-  },
-  "login": {
-    "authInProgress": "Autenticação em progresso, por favor aguarde…"
-  },
-  "marathon": {
-    "donate": {
-      "amount": {
-        "error": {
-          "minNumber": "A quantia a ser doada tem que ser mais do que zero",
-          "required": "A quantia a ser doada tem que ser preenchida"
-        },
-        "label": "Quantia da doação"
-      },
-      "comment": {
-        "label": "Comentário"
-      },
-      "description": "As doações ajudam a {{supportedCharity}}",
-      "extra": {
-        "description": "A informação não está pública em nenhum lugar e será excluída um mês depois da conclusão do evento.",
-        "title": "Informação extra"
-      },
-      "incentiveAmount": {
-        "error": {
-          "minNumber": "A quantia tem que ser acima de zero",
-          "required": "A quantia é necessária"
-        }
-      },
-      "incentives": {
-        "add": "Adicionar incentivos",
-        "bid": {
-          "new": "(Novo)"
-        },
-        "description": "Incentivo de doações podem ser usado para adicionar desafios ou influenciar as escolhas do corredor. Você gostaria de atribuir a sua doação para um incentivo?",
-        "header": {
-          "action": "Ação",
-          "amount": "Quantidade",
-          "incentive": "Incentivo"
-        },
-        "left": "Quantia ainda disponível:"
-      },
-      "name": {
-        "error": {}
-      },
-      "nickname": {
-        "error": {}
-      },
-      "total": {
-        "error": {}
-      }
-    },
-    "donations": {
-      "table": {}
-    },
-    "help": {},
-    "home": {},
-    "incentives": {
-      "management": {
-        "action": {},
-        "bidName": {
-          "error": {}
-        },
-        "currentAmount": {
-          "error": {}
-        },
-        "goal": {
-          "error": {}
-        },
-        "name": {
-          "error": {}
-        },
-        "table": {}
-      }
-    },
-    "menu": {},
-    "new": {},
-    "schedule": {
-      "export": {},
-      "management": {
-        "action": {},
-        "help": {}
-      },
-      "table": {},
-      "type": {}
-    },
-    "selection": {
-      "action": {},
-      "availabilities": {},
-      "help": {},
-      "publish": {},
-      "selection": {},
-      "statistics": {
-        "table": {}
-      },
-      "status": {}
-    },
-    "settings": {
-      "country": {},
-      "currencyIso": {
-        "error": {}
-      },
-      "customFields": {
-        "action": {},
-        "label": {
-          "error": {}
-        },
-        "option": {
-          "error": {}
-        },
-        "required": {},
-        "type": {
-          "option": {}
-        }
-      },
-      "defaultSetupTime": {
-        "error": {}
-      },
-      "delete": {},
-      "discord": {
-        "error": {}
-      },
-      "discordPrivacy": {},
-      "donationWebhook": {
-        "error": {}
-      },
-      "donations": {},
-      "donationsOpen": {},
-      "emulatorAuthorized": {},
-      "endDate": {
-        "error": {}
-      },
-      "incentives": {},
-      "language": {},
-      "location": {},
-      "marathonDescription": {},
-      "maxCategoriesPerGame": {
-        "error": {}
-      },
-      "maxGamesPerRunner": {
-        "error": {}
-      },
-      "maxNumberOfScreens": {
-        "error": {}
-      },
-      "moderators": {},
-      "multiplayer": {},
-      "name": {
-        "error": {}
-      },
-      "payee": {
-        "error": {}
-      },
-      "privacy": {},
-      "sandbox": {},
-      "shortname": {
-        "error": {}
-      },
-      "startDate": {
-        "error": {}
-      },
-      "submissions": {},
-      "submissionsEndDate": {
-        "error": {}
-      },
-      "submissionsStartDate": {
-        "error": {}
-      },
-      "supportedCharity": {
-        "error": {}
-      },
-      "tabs": {},
-      "twitch": {
-        "error": {}
-      },
-      "twitter": {
-        "error": {}
-      },
-      "type": {},
-      "videoRequired": {},
-      "youtube": {
-        "error": {},
-        "help": {}
-      }
-    },
-    "submissions": {
-      "category": {},
-      "game": {},
-      "submission": {},
-      "table": {},
-      "tabs": {}
-    },
-    "submit": {
-      "action": {},
-      "availabilities": {
-        "error": {}
-      },
-      "category": {
-        "code": {
-          "help": {}
-        },
-        "description": {
-          "error": {}
-        },
-        "estimate": {
-          "error": {}
-        },
-        "name": {
-          "error": {}
-        },
-        "opponent": {},
-        "type": {},
-        "video": {
-          "error": {}
-        }
-      },
-      "customField": {
-        "error": {}
-      },
-      "delete": {},
-      "game": {
-        "console": {
-          "error": {}
-        },
-        "description": {
-          "error": {}
-        },
-        "name": {
-          "error": {}
-        },
-        "ratio": {
-          "error": {}
-        }
-      },
-      "multiplayer": {
-        "code": {}
-      },
-      "table": {},
-      "tweet": {}
-    }
-  },
-  "navbar": {
-    "login": {}
-  },
-  "user": {
-    "profile": {
-      "filter": {
-        "status": {},
-        "temporality": {}
-      }
-    },
-    "settings": {
-      "accountSync": {
-        "error": {}
-      },
-      "deactivateAccount": {},
-      "email": {
-        "error": {}
-      },
-      "new": {},
-      "srcom": {
-        "error": {}
-      },
-      "twitch": {
-        "disabled": {},
-        "error": {}
-      },
-      "twitter": {
-        "disabled": {},
-        "error": {}
-      },
-      "username": {
-        "error": {}
-      },
-      "usernameJapanese": {
-        "error": {}
-      }
-    }
-  }
 }
