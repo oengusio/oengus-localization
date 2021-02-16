@@ -152,7 +152,7 @@
         },
         "plannedFeatures": {
             "title": "Planlagte funktioner",
-            "7": "Donationsbehandling gennem Paypal",
+            "7": "Donationsbehandling gennem PayPal",
             "6": "Mail notifikationer",
             "5": "Discord integration",
             "4": "Kontoer synkroniserer for at forbinde med Twitter/Twitch/Google",
