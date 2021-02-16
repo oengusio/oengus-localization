@@ -156,7 +156,7 @@
             "4": "Sincroniza tus cuentas con Twitter/Twitch/Google",
             "5": "Integración con Discord",
             "6": "Notificaciones por correo",
-            "7": "Administración de donaciones a través de Paypal",
+            "7": "Administración de donaciones a través de PayPal",
             "title": "Funciones planificadas"
         },
         "starts": "Comienza {{duration}}",
@@ -639,7 +639,7 @@
             },
             "youtube": {
                 "error": {
-                    "pattern": "Canal de Youtube no es válido"
+                    "pattern": "Canal de YouTube no es válido"
                 },
                 "help": {
                     "url": "Se debe introducir el URL completo"
@@ -657,7 +657,7 @@
             },
             "discordRequirement": {
                 "found": {
-                    "id": "Discord Id: <em>{{guildId}}</em>",
+                    "id": "Discord ID: <em>{{guildId}}</em>",
                     "name": "Nombre Discord: <em>{{guildName}}</em>",
                     "title": "Invitación de Discord encontrada"
                 },
