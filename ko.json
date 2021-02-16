@@ -7,7 +7,7 @@
         "starts": "{{duration}} 시작",
         "plannedFeatures": {
             "title": "예정된 기능",
-            "7": "Paypal을 통한 후원 관리",
+            "7": "PayPal을 통한 후원 관리",
             "6": "이메일 알림",
             "5": "Discord 통합",
             "4": "Twitter/Twitch/Google 계정을 연동하여 동기화 제공",
