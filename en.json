@@ -30,7 +30,7 @@
         "category": {
             "deletion": {
                 "error": "An error happened during category deletion. Please try again or contact an administrator.",
-                "success": "Category successfully deleted"
+                "success": "Category deleted"
             }
         },
         "donation": {
@@ -39,13 +39,13 @@
             },
             "validate": {
                 "error": "An error happened during the donation process. Please try again or contact an administrator.",
-                "success": "Your donation has been successfully sent. Thank you for donating!"
+                "success": "Your donation was sent. Thank you for donating!"
             }
         },
         "game": {
             "deletion": {
                 "error": "An error happened during game deletion. Please try again or contact an administrator.",
-                "success": "Game was successfully deleted"
+                "success": "Game deleted"
             },
             "export": {
                 "error": "An error happened during export. Please try again or contact an administrator."
@@ -54,25 +54,25 @@
         "incentives": {
             "delete": {
                 "error": "Error during incentive deletion. Please retry or contact an administrator.",
-                "success": "Incentive deleted successfully"
+                "success": "Incentive deleted"
             },
             "save": {
                 "error": "An error happened during incentives save. Please retry or contact an administrator.",
-                "success": "Incentives saved successfully."
+                "success": "Incentives saved."
             }
         },
         "marathon": {
             "creation": {
                 "error": "Error during marathon creation",
-                "success": "Marathon created successfully"
+                "success": "Marathon created"
             },
             "deletion": {
                 "error": "Error during marathon deletion",
-                "success": "Marathon deleted successfully"
+                "success": "Marathon deleted"
             },
             "update": {
                 "error": "Error during marathon update",
-                "success": "Marathon updated successfully"
+                "success": "Marathon updated"
             }
         },
         "schedule": {
@@ -81,23 +81,23 @@
             },
             "save": {
                 "error": "Error during schedule save",
-                "success": "Schedule saved successfully"
+                "success": "Schedule saved"
             }
         },
         "selection": {
             "save": {
                 "error": "Error during selection save",
-                "success": "Selection saved successfully"
+                "success": "Selection saved"
             }
         },
         "submission": {
             "deletion": {
                 "error": "An error happened during submission deletion. Please try again or contact an administrator.",
-                "success": "Submission successfully deleted"
+                "success": "Submission deleted"
             },
             "save": {
                 "error": "Error during submission process",
-                "success": "Submission sent successfully"
+                "success": "Submission sent"
             }
         },
         "submit": {
@@ -111,7 +111,7 @@
         },
         "user": {
             "deactivate": {
-                "success": "Your account has been deactivated successfully"
+                "success": "Your account has been deactivated"
             },
             "login": {
                 "disabledAccount": "Your account is disabled. If you wish to use it again, please contact an administrator.",
@@ -124,7 +124,7 @@
             },
             "update": {
                 "error": "Error during user data update",
-                "success": "User data updated successfully"
+                "success": "User data updated"
             }
         }
     },
@@ -156,7 +156,7 @@
             "4": "Accounts sync to connect with Twitter/Twitch/Google",
             "5": "Discord integration",
             "6": "Mail notifications",
-            "7": "Donations management through Paypal",
+            "7": "Donation management through PayPal",
             "volunteerManager": "Volunteer application manager",
             "title": "Planned features"
         },
@@ -299,7 +299,7 @@
             "editSubmission": "Edit submission",
             "home": "Home",
             "incentives": "Incentives",
-            "loginToSubmit": "Login to submit runs",
+            "loginToSubmit": "Log in to submit runs",
             "manageIncentives": "Manage incentives",
             "manageSchedule": "Manage schedule",
             "moderators": "Moderators",
@@ -467,17 +467,17 @@
             },
             "discordRequirement": {
                 "label": "Discord requirement",
-                "required": "Require user to be in your discord",
+                "required": "Require user to be in your Discord",
                 "help": {
                     "title": "This feature can only be used when the following conditions are met:",
-                    "1": "Oengus bot is in your discord server. Invite link:",
-                    "2": "Your discord invite is filled in and valid.",
-                    "3": "Your discord is set to public."
+                    "1": "Oengus bot is in your Discord server. Invite link:",
+                    "2": "Your Discord invite looks good to go.",
+                    "3": "Your Discord is set to public."
                 },
                 "found": {
                     "title": "Server from invite found",
                     "name": "Server Name: <em>{{guildName}}</em>",
-                    "id": "Server Id: <em>{{guildId}}</em>"
+                    "id": "Server ID: <em>{{guildId}}</em>"
                 }
             },
             "discordPrivacy": {
@@ -659,7 +659,7 @@
             },
             "youtube": {
                 "error": {
-                    "pattern": "Youtube channel URL is invalid"
+                    "pattern": "The YouTube channel URL is invalid"
                 },
                 "help": {
                     "url": "Full URL must be entered"
