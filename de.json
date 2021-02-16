@@ -156,7 +156,7 @@
             "4": "Konten werden synchronisiert, um eine Verbindung mit Twitter / Twitch / Google herzustellen",
             "5": "Discord Integration",
             "6": "E-Mail-Benachrichtigungen",
-            "7": "Spendenverwaltung über Paypal",
+            "7": "Spendenverwaltung über PayPal",
             "title": "Geplante Funktionen"
         },
         "starts": "Startet {{duration}}",
@@ -639,7 +639,7 @@
             },
             "youtube": {
                 "error": {
-                    "pattern": "Die URL des Youtube-Kanals ist ungültig"
+                    "pattern": "Die URL des YouTube-Kanals ist ungültig"
                 },
                 "help": {
                     "url": "Die vollständige URL muss eingegeben werden"
