@@ -153,7 +153,7 @@
             "4": "帳戶同步以連接Twitter / Twitch / Google",
             "5": "連接Discord",
             "6": "郵件通知",
-            "7": "通過Paypal進行捐贈管理",
+            "7": "通過PayPal進行捐贈管理",
             "title": "計劃功能"
         },
         "starts": "開始{{duration}}",
