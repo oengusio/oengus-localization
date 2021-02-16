@@ -156,7 +156,7 @@
             "4": "Accounts sync voor verbinding met Twitter/Twitch/Google",
             "5": "Discord integratie",
             "6": "E-mail notificaties",
-            "7": "Donatie management via Paypal",
+            "7": "Donatie management via PayPal",
             "title": "Geplande functies",
             "volunteerManager": "Vrijwilliger applicatiebeheer"
         },
@@ -660,17 +660,17 @@
             },
             "discordRequirement": {
                 "found": {
-                    "id": "Server Id: <em>{{guildId}}</em>",
+                    "id": "Server ID: <em>{{guildId}}</em>",
                     "name": "Server naam: <em>{{guildName}}</em>",
                     "title": "Server van uitnodiging gevonden"
                 },
                 "help": {
-                    "3": "Je discord is gezet naar publiekelijk.",
-                    "2": "Je discord uitnodiging is ingevuld en valide.",
-                    "1": "De Oengus bot is in je discord server. Invite link:",
+                    "3": "Je Discord is gezet naar publiekelijk.",
+                    "2": "Je Discord uitnodiging is ingevuld en valide.",
+                    "1": "De Oengus bot is in je Discord server. Invite link:",
                     "title": "Deze functie kan alleen gebruikt worden als je aan de volgende condities voldoet:"
                 },
-                "required": "Verplicht runner om in de discord te zijn",
+                "required": "Verplicht runner om in de Discord te zijn",
                 "label": "Discord verplichting"
             }
         },
