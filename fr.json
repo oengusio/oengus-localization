@@ -156,7 +156,7 @@
             "4": "Synchronisation avec Twitter/Twitch/Google",
             "5": "Intégration Discord",
             "6": "Notifications par courriel",
-            "7": "Gestion des dons via Paypal",
+            "7": "Gestion des dons via PayPal",
             "title": "Fonctionnalités prévues",
             "volunteerManager": "Gestionnaire de bénévoles"
         },
@@ -641,7 +641,7 @@
             },
             "youtube": {
                 "error": {
-                    "pattern": "L'URL de la chaine Youtube est invalide"
+                    "pattern": "L'URL de la chaine YouTube est invalide"
                 },
                 "help": {
                     "url": "L'URL complète doit être renseignée"
