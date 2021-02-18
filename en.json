@@ -471,7 +471,7 @@
                 "help": {
                     "title": "This feature can only be used when the following conditions are met:",
                     "1": "Oengus bot is in your Discord server. Invite link:",
-                    "2": "Your Discord invite looks good to go.",
+                    "2": "Your Discord invite is filled in and valid.",
                     "3": "Your Discord is set to public."
                 },
                 "found": {
