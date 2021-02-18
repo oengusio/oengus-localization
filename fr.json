@@ -39,7 +39,7 @@
             },
             "validate": {
                 "error": "Une erreur est survenue lors du processus de don. Veuillez recommencer ou contacter un administrateur.",
-                "success": "Votre don a été envoyé avec succès. Merci pour votre don !"
+                "success": "Votre don a été envoyé. Merci pour votre don !"
             }
         },
         "game": {
@@ -54,25 +54,25 @@
         "incentives": {
             "delete": {
                 "error": "Une erreur est survenue lors de la suppression de l'incentive. Veuillez recommencer ou contacter un administrateur.",
-                "success": "L'incentive a bien été supprimé"
+                "success": "L'incentive a été supprimé"
             },
             "save": {
                 "error": "Une erreur est survenue lors de la sauvegarde des incentives. Veuillez recommencer ou contacter un administrateur.",
-                "success": "Les incentives ont bien été sauvegardés."
+                "success": "Les incentives ont été sauvegardés."
             }
         },
         "marathon": {
             "creation": {
                 "error": "Erreur lors de la création du marathon",
-                "success": "Marathon créé avec succès"
+                "success": "Marathon créé"
             },
             "deletion": {
                 "error": "Erreur lors de la suppression du marathon",
-                "success": "Marathon supprimé avec succès"
+                "success": "Marathon supprimé"
             },
             "update": {
                 "error": "Erreur lors de la mise à jour du marathon",
-                "success": "Marathon mis à jour avec succès"
+                "success": "Marathon mis à jour"
             }
         },
         "schedule": {
@@ -81,13 +81,13 @@
             },
             "save": {
                 "error": "Erreur lors de la sauvegarde du planning",
-                "success": "Planning mis à jour avec succès"
+                "success": "Planning mis à jour"
             }
         },
         "selection": {
             "save": {
                 "error": "Erreur lors de la sauvegarde de la sélection",
-                "success": "Sélection mise à jour avec succès"
+                "success": "Sélection mise à jour"
             }
         },
         "submission": {
@@ -97,7 +97,7 @@
             },
             "save": {
                 "error": "Erreur lors de l'envoi de la candidature",
-                "success": "Candidature envoyée avec succès"
+                "success": "Candidature envoyée"
             }
         },
         "submit": {
@@ -111,7 +111,7 @@
         },
         "user": {
             "deactivate": {
-                "success": "Votre compte a bien été désactivé"
+                "success": "Votre compte a été désactivé"
             },
             "login": {
                 "disabledAccount": "Votre compte est désactivé. Si vous souhaitez l'utiliser à nouveau, veuillez contacter un administrateur.",
@@ -124,7 +124,7 @@
             },
             "update": {
                 "error": "Erreur lors de la mise à jour de l'utilisateur",
-                "success": "Utilisateur mis à jour avec succès"
+                "success": "Utilisateur mis à jour"
             }
         }
     },
@@ -313,7 +313,8 @@
         },
         "new": {
             "description": "Les informations suivantes sont nécessaires à la création d'un marathon. Une fois créé, vous pourrez rajouter plus de détails.",
-            "title": "Créer un nouveau marathon"
+            "title": "Créer un nouveau marathon",
+            "shortDomain": "Ce lien court est généré automatiquement pour le partager sur les réseaux sociaux"
         },
         "schedule": {
             "currentRun": "Run en cours",
@@ -665,7 +666,7 @@
                 },
                 "help": {
                     "3": "Votre Discord est défini comme public.",
-                    "2": "Votre invitation Discord est remplie et valide.",
+                    "2": "Votre invitation Discord est valide.",
                     "1": "Le bot Oengus est dans votre serveur Discord. Lien d'invitation :",
                     "title": "Cette fonction peut être utilisée seulement quand les conditions suivantes sont remplies :"
                 },
