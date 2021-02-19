@@ -30,7 +30,7 @@
         "category": {
             "deletion": {
                 "error": "Ha ocurrido un error durante el borrado de la categoría. Por favor, inténtelo de nuevo o contacta con un administrador.",
-                "success": "Categoría borrada correctamente"
+                "success": "Categoría eliminada"
             }
         },
         "donation": {
@@ -39,13 +39,13 @@
             },
             "validate": {
                 "error": "Ha ocurrido un error durante el proceso de donación. Por favor, inténtelo de nuevo o contacta con un administrador.",
-                "success": "Tu donación se ha enviado correctamente. ¡Gracias por donar!"
+                "success": "Tu donación se ha enviado. ¡Gracias por donar!"
             }
         },
         "game": {
             "deletion": {
                 "error": "Ha ocurrido un error al borrar el juego. Por favor, inténtelo de nuevo o contacta con un administrador.",
-                "success": "El juego ha sido borrado correctamente"
+                "success": "Juego eliminado"
             },
             "export": {
                 "error": "Ha ocurrido un error al exportar. Por favor, inténtelo de nuevo o contacta con un administrador."
@@ -54,25 +54,25 @@
         "incentives": {
             "delete": {
                 "error": "Ha ocurrido un error durante el borrado del incentivo. Por favor, inténtelo de nuevo o contacta con un administrador.",
-                "success": "Incentivo borrado correctamente"
+                "success": "Incentivo eliminado"
             },
             "save": {
                 "error": "Ha ocurrido un error durante el guardado de incentivos. Por favor, inténtelo de nuevo o contacta con un administrador.",
-                "success": "Incentivos guardados correctamente."
+                "success": "Incentivos guardados."
             }
         },
         "marathon": {
             "creation": {
                 "error": "Ha ocurrido un error durante la creación de la maratón",
-                "success": "Maratón creada correctamente"
+                "success": "Maratón creada"
             },
             "deletion": {
                 "error": "Ha ocurrido un error durante el borrado de la maratón",
-                "success": "Maratón borrada correctamente"
+                "success": "Maratón borrada"
             },
             "update": {
                 "error": "Ha ocurrido un error al actualizar la maratón",
-                "success": "Maratón actualizada correctamente"
+                "success": "Maratón actualizada"
             }
         },
         "schedule": {
@@ -81,23 +81,23 @@
             },
             "save": {
                 "error": "Ha ocurrido un error al guardar el horario",
-                "success": "Horario guardado correctamente"
+                "success": "Horario guardado"
             }
         },
         "selection": {
             "save": {
                 "error": "Ha ocurrido un error al guardar la selección",
-                "success": "Selección guardada correctamente"
+                "success": "Selección guardada"
             }
         },
         "submission": {
             "deletion": {
                 "error": "Ha ocurrido un error durante el borrado del juego postulado. Por favor, inténtelo de nuevo o contacta con un administrador.",
-                "success": "Postulación del juego borrada correctamente"
+                "success": "Postulación eliminada"
             },
             "save": {
                 "error": "Ha ocurrido un error durante el proceso de postulación",
-                "success": "Juego postulado correctamente"
+                "success": "Juego postulado"
             }
         },
         "submit": {
@@ -111,7 +111,7 @@
         },
         "user": {
             "deactivate": {
-                "success": "Tu cuenta ha sido desactivada correctamente"
+                "success": "Tu cuenta ha sido desactivada"
             },
             "login": {
                 "disabledAccount": "Tu cuenta ha sido deshabilitada. Si deseas usarla de nuevo, por favor, contacta con un administrador.",
@@ -124,7 +124,7 @@
             },
             "update": {
                 "error": "Ha ocurrido un error durante la actualización de la información de usuario",
-                "success": "Información de usuario actualizada correctamente"
+                "success": "Información de usuario actualizada"
             }
         }
     },
@@ -157,7 +157,8 @@
             "5": "Integración con Discord",
             "6": "Notificaciones por correo",
             "7": "Administración de donaciones a través de PayPal",
-            "title": "Funciones planificadas"
+            "title": "Funciones planificadas",
+            "volunteerManager": "Gestor de solicitud de voluntarios"
         },
         "starts": "Comienza {{duration}}",
         "welcomeText": {
@@ -312,7 +313,8 @@
         },
         "new": {
             "description": "La siguiente información es necesaria para crear una nueva maratón. Después de su creación, podrás configurar mas detalles.",
-            "title": "Crear una nueva maratón"
+            "title": "Crear una nueva maratón",
+            "shortDomain": "Este dominio corto se ha generado automáticamente para compartirlo en redes sociales"
         },
         "schedule": {
             "currentRun": "Run actual",
@@ -395,7 +397,8 @@
                 "BONUS": "Bonus",
                 "REJECTED": "Rechazada",
                 "TODO": "Por determinar",
-                "VALIDATED": "Aceptada"
+                "VALIDATED": "Aceptada",
+                "ALL": "Todos"
             },
             "title": "Seleccionar runs"
         },
@@ -639,7 +642,7 @@
             },
             "youtube": {
                 "error": {
-                    "pattern": "Canal de YouTube no es válido"
+                    "pattern": "El enlace del canal de YouTube no es válido"
                 },
                 "help": {
                     "url": "Se debe introducir el URL completo"
@@ -702,7 +705,8 @@
                 "answers": "Respuestas",
                 "submissions": "Postulaciones"
             },
-            "title": "Postulaciones"
+            "title": "Postulaciones",
+            "filter": "Filtrar usuarios y juegos"
         },
         "submit": {
             "action": {
@@ -885,7 +889,7 @@
         },
         "settings": {
             "accountSync": {
-                "description": "Puedes sincronizar tus redes sociales aquí. Podrás conectarte posteriormente a Oengus a través de tus cuentas sincronizadas. No te olvides de guardar después de sincronizar tus cuentas.",
+                "description": "Puedes sincronizar tus redes sociales aquí. Podrás conectarte posteriormente a Oengus a través de tus cuentas sincronizadas.",
                 "error": {
                     "noService": "Necesitas tener al menos un servicio sincronizado con tu cuenta"
                 },
