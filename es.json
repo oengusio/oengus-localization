@@ -958,6 +958,16 @@
                 },
                 "help": "Si tu nombre de usuario se traduce al japonés, usa este campo para mostrarlo con caracteres japoneses. Esto se mostrará solo si el idioma local está puesto en japonés. Este campo es opcional.",
                 "label": "Nombre de usuario (Japonés)"
+            },
+            "deletingAccount": {
+                "success": "Tu cuenta ha sido eliminada",
+                "btnCancel": "Cancelar :)",
+                "btnDelete": "Eliminar cuenta :(",
+                "body": [
+                    "Estás a punto de eliminar tu cuenta de Oengus.",
+                    "¡ESTA ACCIÓN NO PUEDE SER ANULADA!"
+                ],
+                "title": "¡ADVERTENCIA!"
             }
         }
     },
