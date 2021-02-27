@@ -958,6 +958,16 @@
                 },
                 "help": "Si votre pseudonyme se traduit en japonais, vous pouvez utiliser ce champ pour l'écrire en caractère japonais. Il ne sera affiché que si la langue du site est en japonais. Ce champ est optionnel.",
                 "label": "Pseudonyme (Japonais)"
+            },
+            "deletingAccount": {
+                "success": "Votre compte a été supprimé",
+                "btnCancel": "Annuler :)",
+                "btnDelete": "Supprimer compte :(",
+                "body": [
+                    "Vous êtes sur le point de supprimer votre compte Oengus.",
+                    "CETTE ACTION NE PEUT ÊTRE ANNULÉE !"
+                ],
+                "title": "Attention !"
             }
         }
     },
