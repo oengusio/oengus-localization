@@ -892,6 +892,17 @@
                 "description": "Deactivating your account will prevent you from logging in again, and moderators will not be able to add you as a moderator of a marathon or a runner on a schedule. All the data is kept for consistency, but your social networks will not show up anymore on schedules or submissions lists. If you wish to use your account again in the future, please contact an administrator.",
                 "title": "Deactivate your account"
             },
+            "deletingAccount": {
+              "title": "WARNING!",
+              "body": [
+                "You are about to delete your Oengus account.",
+                "THIS ACTION CANNOT BE REVERSED!",
+                "Please type your username in this box to confirm that you want to delete your account."
+              ],
+              "btnDelete": "Delete account :(",
+              "btnCancel": "Cancel :)",
+              "success": "Your account has been deleted"
+            },
             "email": {
                 "error": {
                     "email": "Email is invalid",
