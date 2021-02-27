@@ -958,6 +958,16 @@
                 },
                 "help": "Als je gebruikersnaam naar het japans te vertalen is, gebruik dit veld om het te tonen met japanse karakters. Dit zal alleen tonen als het locale naar het japans is gezet. Dit veld is optioneel.",
                 "label": "Gebruikersnaam (Japans)"
+            },
+            "deletingAccount": {
+                "success": "Uw account is verwijderd",
+                "btnCancel": "Annuleren :)",
+                "btnDelete": "Verwijder account :(",
+                "body": [
+                    "Je staat op het punt je Oengus account te verwijderen.",
+                    "DEZE ACTIE KAN NIET ONGEDAAN GEMAAKT WORDEN!"
+                ],
+                "title": "OPGEPAST!"
             }
         }
     },
