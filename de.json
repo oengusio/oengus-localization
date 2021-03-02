@@ -137,7 +137,7 @@
         "text": "Alle Zeiten werden in Ihre Zeitzone konvertiert. Erkannte Zeitzone: {{timezone}}"
     },
     "global": {
-        "emu": "[Emu]",
+        "emu": "[Emulator]",
         "adblocker": "Hallo, es scheint, dass Sie Anzeigen blockieren. Schalten Sie Ihren Werbeblocker bei oengus aus, da wir auf Anzeigen und Spenden angewiesen sind, um zu überleben."
     },
     "homepage": {
@@ -157,7 +157,8 @@
             "5": "Discord Integration",
             "6": "E-Mail-Benachrichtigungen",
             "7": "Spendenverwaltung über PayPal",
-            "title": "Geplante Funktionen"
+            "title": "Geplante Funktionen",
+            "volunteerManager": "Volunteer application manager"
         },
         "starts": "Startet {{duration}}",
         "welcomeText": {
@@ -884,7 +885,9 @@
             "moderator": "Moderierte Veranstaltungen",
             "submissions": "Submissions verlauf",
             "unban": "Benutzer entsperren",
-            "ban": "Benutzer sperren"
+            "ban": "Benutzer sperren",
+            "deactivate": "Benutzer deaktivieren",
+            "activate": "Benutzer aktivieren"
         },
         "settings": {
             "accountSync": {
@@ -964,9 +967,11 @@
                 "btnDelete": "Account löschen :(",
                 "body": [
                     "Du bist im Stande deinen Oengus account zu löschen.",
-                    "DIESE AKTION KANN NICHT RÜCKGÄNGIG GEMACHT WERDEN!"
+                    "DIESE AKTION KANN NICHT RÜCKGÄNGIG GEMACHT WERDEN!",
+                    "Bitte tippe deinen Benutzernamen in die Box und bestätige dass du deinen Account löschen willst."
                 ],
-                "title": "WARNUNG!"
+                "title": "WARNUNG!",
+                "settingsDeleteBtn": "Account löschen"
             }
         }
     },
