@@ -30,7 +30,7 @@
         "category": {
             "deletion": {
                 "error": "Er heeft een fout opgespeeld tijdens het verwijderen van de categorie. Probeer het opnieuw of contacteer een administrator.",
-                "success": "Categorie succesvol verwijderd"
+                "success": "Categorie verwijderd"
             }
         },
         "donation": {
@@ -39,13 +39,13 @@
             },
             "validate": {
                 "error": "Er heeft zich een fout opgespeeld gedurende het donatie proces. Probeer het opnieuw of contacteer een administrator.",
-                "success": "Jouw donatie is succesvol verstuurd. Veel dank voor het doneren!"
+                "success": "Jouw donatie is verstuurd. Veel dank voor het doneren!"
             }
         },
         "game": {
             "deletion": {
                 "error": "Er heeft zich een fout opgespeeld tijdens het verwijderen van de game. Probeer het opnieuw of contacteer een administrator.",
-                "success": "Game is succesvol verwijderd"
+                "success": "Game is verwijderd"
             },
             "export": {
                 "error": "Er is een fout opgetreden tijdens de export. Probeer het opnieuw of contacteer een administrator."
@@ -54,25 +54,25 @@
         "incentives": {
             "delete": {
                 "error": "Er is een fout opgetreden tijdens het verwijderen van een donatie-incentive. Probeer het opnieuw of neem contact op met een administrator.",
-                "success": "Donatie-incentive succesvol verwijdert"
+                "success": "Donatie-incentive verwijdert"
             },
             "save": {
                 "error": "Er heeft zich een fout opgetreden tijdens het opslaan van een donatie-incentive. Probeer het opnieuw of neem contact op met een administrator.",
-                "success": "Donatie-incentive succesvol opgeslagen."
+                "success": "Donatie-incentive opgeslagen."
             }
         },
         "marathon": {
             "creation": {
                 "error": "Fout tijdens het maken van de marathon",
-                "success": "Marathon succesvol aangemaakt"
+                "success": "Marathon aangemaakt"
             },
             "deletion": {
                 "error": "Fout tijdens het verwijderen van de marathon",
-                "success": "Marathon succesvol verwijdert"
+                "success": "Marathon verwijdert"
             },
             "update": {
                 "error": "Fout tijdens het bijwerken van de marathon",
-                "success": "Marathon succesvol bijgewerkt"
+                "success": "Marathon bijgewerkt"
             }
         },
         "schedule": {
@@ -81,23 +81,23 @@
             },
             "save": {
                 "error": "Fout tijdens het opslaan van het schema",
-                "success": "Schema succesvol opgeslagen"
+                "success": "Schema opgeslagen"
             }
         },
         "selection": {
             "save": {
                 "error": "Fout tijdens het opslaan van deze selectie",
-                "success": "Selectie succesvol opgeslagen"
+                "success": "Selectie opgeslagen"
             }
         },
         "submission": {
             "deletion": {
                 "error": "Er heeft zich een fout opgespeeld tijdens het verwijderen van een submission. Probeer het opnieuw of neem contacteer een administrator.",
-                "success": "Submissie succesvol verwijderd"
+                "success": "Submissie verwijderd"
             },
             "save": {
                 "error": "Fout tijdens het opgeven van je submission",
-                "success": "Submission succesvol verzonden"
+                "success": "Submission verzonden"
             }
         },
         "submit": {
@@ -111,7 +111,7 @@
         },
         "user": {
             "deactivate": {
-                "success": "Jouw account is succesvol gedeactiveerd"
+                "success": "Jouw account is gedeactiveerd"
             },
             "login": {
                 "disabledAccount": "Jouw account is uitgeschakeld. Als je deze weer wil gebruiken, contacteer een administrator.",
@@ -124,7 +124,7 @@
             },
             "update": {
                 "error": "Fout tijdens het bijwerken van gebruikers data",
-                "success": "Gebruikers data succesvol bijgewerkt"
+                "success": "Gebruikers data bijgewerkt"
             }
         }
     },
@@ -642,7 +642,7 @@
             },
             "youtube": {
                 "error": {
-                    "pattern": "YouTube kanaal naam is ongeldig"
+                    "pattern": "De YouTube kanaal naam is ongeldig"
                 },
                 "help": {
                     "url": "Volledige URL moet ingevuld worden"
@@ -885,7 +885,9 @@
                 }
             },
             "unban": "Verbanning ongedaan maken",
-            "ban": "Gebruiker verbannen"
+            "ban": "Gebruiker verbannen",
+            "deactivate": "Gebruiker deactiveren",
+            "activate": "Gebruiker activeren"
         },
         "settings": {
             "accountSync": {
@@ -965,9 +967,11 @@
                 "btnDelete": "Verwijder account :(",
                 "body": [
                     "Je staat op het punt je Oengus account te verwijderen.",
-                    "DEZE ACTIE KAN NIET ONGEDAAN GEMAAKT WORDEN!"
+                    "DEZE ACTIE KAN NIET ONGEDAAN GEMAAKT WORDEN!",
+                    "Typ uw gebruikersnaam in dit vak om te bevestigen dat u uw account wilt verwijderen."
                 ],
-                "title": "OPGEPAST!"
+                "title": "OPGEPAST!",
+                "settingsDeleteBtn": "Account verwijderen"
             }
         }
     },
