@@ -899,6 +899,7 @@
                 "THIS ACTION CANNOT BE REVERSED!",
                 "Please type your username in this box to confirm that you want to delete your account."
               ],
+              "settingsDeleteBtn": "Delete account",
               "btnDelete": "Delete account :(",
               "btnCancel": "Cancel :)",
               "success": "Your account has been deleted"
