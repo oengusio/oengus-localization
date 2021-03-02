@@ -863,6 +863,8 @@
         "profile": {
             "ban": "Ban User",
             "unban": "Unban User",
+            "activate": "Activate User",
+            "deactivate": "Deactivate User",
             "filter": {
                 "status": {
                     "title": "Status"
