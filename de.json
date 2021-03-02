@@ -30,7 +30,7 @@
         "category": {
             "deletion": {
                 "error": "Beim Löschen der Kategorie ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder wenden Sie sich an einen Administrator.",
-                "success": "Kategorie erfolgreich gelöscht"
+                "success": "Kategorie gelöscht"
             }
         },
         "donation": {
@@ -39,13 +39,13 @@
             },
             "validate": {
                 "error": "Während des Spendenprozesses ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder wenden Sie sich an einen Administrator.",
-                "success": "Ihre Spende wurde erfolgreich versendet. Vielen Dank für Ihre Spende!"
+                "success": "Ihre Spende wurde versendet. Vielen Dank für Ihre Spende!"
             }
         },
         "game": {
             "deletion": {
                 "error": "Beim Löschen des Spiels ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder wenden Sie sich an einen Administrator.",
-                "success": "Spiel wurde erfolgreich gelöscht"
+                "success": "Spiel wurde gelöscht"
             },
             "export": {
                 "error": "Beim Export ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder wenden Sie sich an einen Administrator."
@@ -54,25 +54,25 @@
         "incentives": {
             "delete": {
                 "error": "Fehler beim Löschen des Incentives. Bitte versuchen Sie es erneut oder wenden Sie sich an einen Administrator.",
-                "success": "Incentive erfolgreich gelöscht"
+                "success": "Incentive gelöscht"
             },
             "save": {
                 "error": "Beim Speichern von Incentives ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder wenden Sie sich an einen Administrator.",
-                "success": "Incentives wurden erfolgreich gespeichert."
+                "success": "Incentives wurden gespeichert."
             }
         },
         "marathon": {
             "creation": {
                 "error": "Fehler beim Erstellen des Marathons",
-                "success": "Marathon erfolgreich erstellt"
+                "success": "Marathon erstellt"
             },
             "deletion": {
                 "error": "Fehler beim Löschen des Marathons",
-                "success": "Marathon erfolgreich gelöscht"
+                "success": "Marathon gelöscht"
             },
             "update": {
                 "error": "Fehler beim Marathon-Update",
-                "success": "Marathon erfolgreich aktualisiert"
+                "success": "Marathon aktualisiert"
             }
         },
         "schedule": {
@@ -81,23 +81,23 @@
             },
             "save": {
                 "error": "Fehler beim Speichern des Zeitplans",
-                "success": "Zeitplan erfolgreich gespeichert"
+                "success": "Zeitplan gespeichert"
             }
         },
         "selection": {
             "save": {
                 "error": "Fehler beim Speichern der Auswahl",
-                "success": "Auswahl erfolgreich gespeichert"
+                "success": "Auswahl gespeichert"
             }
         },
         "submission": {
             "deletion": {
                 "error": "Beim Löschen der Submission ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder wenden Sie sich an einen Administrator.",
-                "success": "Submission erfolgreich gelöscht"
+                "success": "Submission gelöscht"
             },
             "save": {
                 "error": "Fehler bei der Submission",
-                "success": "Submission erfolgreich gesendet"
+                "success": "Submission gesendet"
             }
         },
         "submit": {
@@ -111,7 +111,7 @@
         },
         "user": {
             "deactivate": {
-                "success": "Dein Konto wurde erfolgreich deaktiviert"
+                "success": "Dein Konto wurde deaktiviert"
             },
             "login": {
                 "disabledAccount": "Dein Konto ist deaktiviert. Wenn Du es erneut verwenden möchtest, wenden dich an einen Administrator.",
@@ -124,7 +124,7 @@
             },
             "update": {
                 "error": "Fehler beim Aktualisieren der Benutzerdaten",
-                "success": "Benutzerdaten wurden erfolgreich aktualisiert"
+                "success": "Benutzerdaten wurden aktualisiert"
             }
         }
     },
@@ -298,7 +298,7 @@
             "editSubmission": "Submission bearbeiten",
             "home": "Startseite",
             "incentives": "Incentives",
-            "loginToSubmit": "Anmelden, um Runs einzureichen",
+            "loginToSubmit": "Anmelden um Runs einzureichen",
             "manageIncentives": "Incentives verwalten",
             "manageSchedule": "Zeitplan verwalten",
             "moderators": "Moderatoren",
@@ -312,7 +312,8 @@
         },
         "new": {
             "description": "Die folgenden Informationen sind obligatorisch, um einen neuen Marathon zu erstellen. Nach der Erstellung können Sie weitere Details konfigurieren.",
-            "title": "Erstelle einen neuen Marathon"
+            "title": "Erstelle einen neuen Marathon",
+            "shortDomain": "Dies ist ein für dich automatisch generierter Link, um ihn in deinen Sozialen Medien zuteilen"
         },
         "schedule": {
             "currentRun": "Aktueller run",
@@ -395,7 +396,8 @@
                 "BONUS": "Zusatz",
                 "REJECTED": "Abgelehnt",
                 "TODO": "To-Do",
-                "VALIDATED": "Akzeptiert"
+                "VALIDATED": "Akzeptiert",
+                "ALL": "Alle"
             },
             "title": "Runs auswählen"
         },
@@ -408,7 +410,7 @@
                     "max": "Währungscode ist zu lang",
                     "required": "Währungscode ist erforderlich"
                 },
-                "help": "Der Währungscode muss für Paypal im ISO-4217-Format vorliegen",
+                "help": "Der Währungscode muss für Paypal im ISO-4217-Format vorliegen und muss die primäre Währung des Zahlenden sein",
                 "label": "Währungscode"
             },
             "customFields": {
@@ -655,7 +657,7 @@
                 "help": {
                     "3": "Dein Discord is nun öffentlich.",
                     "2": "Deine Discord Einladung is ausgefüllt und gültig.",
-                    "1": "Oengus bot ist in deinem Discord Server.",
+                    "1": "Oengus bot befindet sich auf deinem Discord Server. Einladungslink:",
                     "title": "Diese Funktion kann nur unter den folgenden Vorraussetzungen genutzt werden:"
                 },
                 "required": "Benutzer muss auf deinem Discord sein"
@@ -702,7 +704,8 @@
                 "answers": "Antworten",
                 "submissions": "Submissions"
             },
-            "title": "Submissions"
+            "title": "Submissions",
+            "filter": "Filtern nach Benutzern und Spielen"
         },
         "submit": {
             "action": {
@@ -885,7 +888,7 @@
         },
         "settings": {
             "accountSync": {
-                "description": "Hier können Sie Ihre Social Media Accounts synchronisieren. Sie können dann mit all Ihren synchronisierten Konten eine Verbindung zu Ihrem Oengus-Konto herstellen. Vergessen Sie nicht, nach der Synchronisierung der Konten zu speichern.",
+                "description": "Hier können Sie Ihre Social Media Accounts synchronisieren. Sie können dann mit all Ihren synchronisierten Konten eine Verbindung zu Ihrem Oengus-Konto herstellen.",
                 "error": {
                     "noService": "Sie müssen mindestens einen Dienst mit Ihrem Konto synchronisieren"
                 },
@@ -954,6 +957,16 @@
                 },
                 "help": "Wenn Ihr Benutzername ins Japanische übersetzt wird, verwenden Sie dieses Feld, um es mit japanischen Zeichen anzuzeigen. Es wird nur angezeigt, wenn die Sprache auf Japanisch eingestellt ist. Dieses Feld ist optional.",
                 "label": "Benutzername (Japanisch)"
+            },
+            "deletingAccount": {
+                "success": "Dein Account wurde gelöscht",
+                "btnCancel": "Abbrechen :)",
+                "btnDelete": "Account löschen :(",
+                "body": [
+                    "Du bist im Stande deinen Oengus account zu löschen.",
+                    "DIESE AKTION KANN NICHT RÜCKGÄNGIG GEMACHT WERDEN!"
+                ],
+                "title": "WARNUNG!"
             }
         }
     },
