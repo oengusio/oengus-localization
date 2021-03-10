@@ -10,7 +10,10 @@
                     "alreadyPublished": "Program zaten yayınlandı",
                     "addSetupBlock": "Kurulum bloğu ekle",
                     "addRun": "Oyun ekle"
-                }
+                },
+                "title": "Plan yönetimi",
+                "selectedRuns": "Seçili runlar",
+                "schedule": "Plan"
             },
             "export": {
                 "title": "Planı dışa aktar",
@@ -19,11 +22,34 @@
                 "csv": "CSV’ye aktar"
             },
             "dstChange": "Maraton sırasında yaz saati uygulaması değişimi olacaktır.",
-            "currentRun": "Şu anda koşulan oyun"
+            "currentRun": "Şu anda koşulan oyun",
+            "type": {
+                "COOP": "Kooperatif",
+                "SINGLE": "Solo run",
+                "RACE": "Yarış",
+                "OTHER": "Diğer",
+                "COOP_RACE": "Kooperatif yarış"
+            },
+            "title": "Plan",
+            "timezone": "Tüm tarih ve zamanlar yerel saatinize göre verilmiştir.",
+            "table": {
+                "type": "Tip",
+                "time": "Süre",
+                "setup": "Kurulum süresi",
+                "runner": "Oyuncu(lar)",
+                "game": "Oyun",
+                "estimate": "Tahmini",
+                "console": "Konsol",
+                "category": "Kategori",
+                "actions": "Aksiyonlar"
+            },
+            "setupBlock": "Kurulum bloğu",
+            "nextRun": "Bir sonraki run {{duration}}"
         },
         "new": {
             "title": "Yeni bir maraton oluşturun",
-            "description": "Yeni bir maraton oluşturmak için aşağıdaki bilgiler zorunludur. Maraton oluştuktan sonra daha detaylı yapılandırabileceksiniz."
+            "description": "Yeni bir maraton oluşturmak için aşağıdaki bilgiler zorunludur. Maraton oluştuktan sonra daha detaylı yapılandırabileceksiniz.",
+            "shortDomain": "Bu kısa web adresi sosyal medya paylaşımlarınız için otomatik olarak üretilmiştir"
         },
         "menu": {
             "viewSubmissions": "Başvuruları görüntüle",
@@ -40,7 +66,9 @@
             "editSubmission": "Başvuruyu düzenleyin",
             "donations": "Bağışlar",
             "donate": "Bağış yap",
-            "admin": "Yönetici"
+            "admin": "Yönetici",
+            "submitRuns": "Run gönderin",
+            "selectRuns": "Run seçin"
         },
         "incentives": {
             "title": "Teşvikler",
@@ -154,6 +182,17 @@
                     "minNumber": "Bağış miktarı sıfırdan büyük olmalıdır"
                 }
             }
+        },
+        "selection": {
+            "selection": {
+                "title": "Seçim"
+            },
+            "availabilities": {
+                "help": "Uygunluklarını görüntülemek için runnerların yanındaki takvim ikonuna basın."
+            },
+            "action": {
+                "publish": "Seçimi yayınla"
+            }
         }
     },
     "login": {
@@ -182,7 +221,8 @@
             "4": "Hesaplar Twitter/Twitch/Google ile eşlenebilir",
             "3": "Oyuncuların uygunluklarını görselleştirerek kolay planlama sistemi",
             "2": "Birden fazla seçim yöntemi (direk seçim, oylama...)",
-            "1": "Kooperatif/yarış başvuruları"
+            "1": "Kooperatif/yarış başvuruları",
+            "volunteerManager": "Gönüllü başvuru yöneticisi"
         },
         "marathons": {
             "upcoming": "Yakındaki maratonlar",
@@ -224,7 +264,7 @@
     "alert": {
         "user": {
             "update": {
-                "success": "Kullanıcı verisi başarıyla güncellendi",
+                "success": "Kullanıcı verisi güncellendi",
                 "error": "Kullanıcı veri güncellemesi sırasında hata"
             },
             "sync": {
@@ -237,7 +277,7 @@
                 "disabledAccount": "Hesabınız devre dışıdır. Kullanıma açmak isterseniz bir admin ile irtibata geçiniz."
             },
             "deactivate": {
-                "success": "Hesabınız başarıyla devre dışı bırakılmıştır"
+                "success": "Hesabınız devre dışı bırakılmıştır"
             }
         },
         "submit": {
@@ -246,27 +286,28 @@
             "MAX_SIZE_REACHED": "Bu başvuru maksimum sayıda oyuncuya ulaşmıştır",
             "DIFFERENT_MARATHON": "Bu kod başka maraton içindir",
             "CODE_NOT_FOUND": "Bu kod bulunamadı",
-            "ALREADY_IN_OPPONENTS": "Bu kategoriye zaten dahilsiniz"
+            "ALREADY_IN_OPPONENTS": "Bu kategoriye zaten dahilsiniz",
+            "DISCORD_VERIFIED": "Discord sunucusunda olduğunuz doğrulandı, artık gönderebilirsiniz"
         },
         "submission": {
             "save": {
-                "success": "Başvuru başarıyla gönderildi",
+                "success": "Başvuru gönderildi",
                 "error": "Başvuru işlemi sırasında hata"
             },
             "deletion": {
-                "success": "Başvuru başarıyla silindi",
+                "success": "Başvuru silindi",
                 "error": "Başvuru silinirken bir hata meydana geldi. Lütfen tekrar deneyiniz veya bir admin ile irtibata geçiniz."
             }
         },
         "selection": {
             "save": {
-                "success": "Seçim başarıyla kaydedildi",
+                "success": "Seçim kaydedildi",
                 "error": "Seçim sırasında hata"
             }
         },
         "schedule": {
             "save": {
-                "success": "Plan başarıyla kaydedildi",
+                "success": "Plan kaydedildi",
                 "error": "Plan kaydı sırasında hata"
             },
             "export": {
@@ -275,32 +316,32 @@
         },
         "marathon": {
             "update": {
-                "success": "Maraton başarıyla güncellendi",
+                "success": "Maraton güncellendi",
                 "error": "Maraton güncellenirken hata"
             },
             "deletion": {
-                "success": "Maraton başarıyla silindi",
+                "success": "Maraton silindi",
                 "error": "Maraton silinirken hata"
             },
             "creation": {
-                "success": "Maraton başarıyla oluşturuldu",
+                "success": "Maraton oluşturuldu",
                 "error": "Maraton yaratımında hata"
             }
         },
         "incentives": {
             "save": {
                 "error": "Teşvikler kaydedilirken bir hata meydana geldi. Lütfen tekrar deneyiniz veya bir admin ile irtibata geçiniz.",
-                "success": "Teşvikler başarıyla kaydedildi."
+                "success": "Teşvikler kaydedildi."
             },
             "delete": {
-                "success": "Teşvik başarıyla silindi",
+                "success": "Teşvik silindi",
                 "error": "Teşvik silinirken bir hata meydana geldi. Lütfen tekrar deneyiniz veya bir admin ile irtibata geçiniz."
             }
         },
         "category": {
             "deletion": {
                 "error": "Kategori silinirken bir hata meydana geldi. Lütfen tekrar deneyiniz veya bir admin ile irtibata geçiniz.",
-                "success": "Kategori başarıyla silindi"
+                "success": "Kategori silindi"
             }
         },
         "donation": {
@@ -309,7 +350,7 @@
             },
             "validate": {
                 "error": "Bağış sırasında bir hata meydana geldi. Lütfen tekrar deneyiniz veya bir admin ile irtibata geçiniz.",
-                "success": "Bağışınız başarıyla gönderildi. Teşekkürler!"
+                "success": "Bağışınız gönderildi. Teşekkürler!"
             }
         },
         "game": {
@@ -317,7 +358,7 @@
                 "error": "Dışa aktarım sırasında bir hata meydana geldi. Lütfen tekrar deneyiniz veya bir admin ile irtibata geçiniz."
             },
             "deletion": {
-                "success": "Oyun başarıyla silindi",
+                "success": "Oyun silindi",
                 "error": "Oyun silinirken bir hata meydana geldi. Lütfen tekrar deneyiniz veya bir admin ile irtibata geçiniz."
             }
         }
