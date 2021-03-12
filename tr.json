@@ -193,6 +193,131 @@
             "action": {
                 "publish": "Seçimi yayınla"
             }
+        },
+        "submissions": {
+            "table": {
+                "categoryDescription": "Kategori tanımı",
+                "category": "Kategori",
+                "answer": "Cevap",
+                "actions": "Aksiyonlar"
+            },
+            "submission": {
+                "delete": "Başvuruyu sil. Bu seçenek bu maraton için bu kullanıcıdan gelen tüm oyunları siler."
+            },
+            "game": {
+                "delete": "Oyunu sil. Oyuna bağlı kategorileri de siler."
+            },
+            "export": "CSV olarak dışa aktar",
+            "category": {
+                "delete": "Kategoriyi sil"
+            },
+            "filter": "Kullanıcı ve oyun filtreleme"
+        },
+        "settings": {
+            "youtube": {
+                "help": {
+                    "url": "Tam URL girilmelidir"
+                },
+                "error": {
+                    "pattern": "YouTube kanal URL'i geçersizdir"
+                }
+            },
+            "videoRequired": {
+                "label": "Video gereksinimi",
+                "allowed": "Video gereklidir"
+            },
+            "unlimited": "Limitsiz",
+            "type": {
+                "onsite": "Canlı/IRL",
+                "online": "Online",
+                "label": "Maraton tipi"
+            },
+            "twitter": {
+                "error": {
+                    "pattern": "Twitter ismi geçersiz",
+                    "max": "Twitter ismi çok uzun"
+                }
+            },
+            "twitch": {
+                "error": {
+                    "pattern": "Twitch ismi geçersiz",
+                    "max": "Twitch ismi çok uzun"
+                }
+            },
+            "title": "Maraton ayarları",
+            "tabs": {
+                "submissions": "Başvurular",
+                "incentives": "Teşvikler",
+                "general": "Genel",
+                "dangerZone": "Tehlike bölgesi"
+            },
+            "supportedCharity": {
+                "label": "Desteklenen dernek",
+                "error": {
+                    "required": "Desteklenen derneğin adı girilmelidir",
+                    "max": "Desteklenen derneğin adı çok uzun"
+                }
+            },
+            "submissionsTitle": "Başvuru ayarları",
+            "submissionsStartDate": {
+                "label": "Başvuruların açılma tarihi",
+                "error": {
+                    "required": "Eğer başvuru kapanma tarihi girilmişse başvuru açılma tarihi de girilmelidir"
+                }
+            },
+            "submissionsEndDate": {
+                "label": "Başvuruların kapanma tarihi",
+                "error": {
+                    "required": "Eğer başvuru açılma tarihi girilmişse başvuru kapanma tarihi de girilmelidir"
+                }
+            },
+            "submissions": {
+                "open": "Başvurular açık",
+                "label": "Başvurular",
+                "closed": "Başvurular kapanmıştır"
+            },
+            "startDate": {
+                "label": "Başlama tarihi",
+                "error": {
+                    "required": "Başlama tarihi gereklidir"
+                }
+            },
+            "shortname": {
+                "label": "Kısa ad",
+                "error": {
+                    "required": "Maraton kısa adı gereklidir",
+                    "pattern": "Maraton kısa adı geçersiz",
+                    "min": "Maraton kısa adı çok kısa",
+                    "max": "Maraton kısa adı çok uzun",
+                    "exists": "Maraton kısa adı zaten girilmiş"
+                }
+            },
+            "sandbox": {
+                "warning": "Dikkat: Oengus.sandbox Paypal'ın sandbox ortamı ile iletişim halindedir. (Sahte) bağışların çalışması için alıcı adresi olarak sandbox Paypal email adresi kullanmalısınız."
+            },
+            "privacy": {
+                "public": "Herkese açık",
+                "private": "Gizli",
+                "label": "Maraton gizliliği",
+                "help": "Özel maratonlar diğerleri gibi çalışır, fakat ana sayfada gösterilmezler. Sadece URL ile ulaşabilirsiniz."
+            },
+            "payee": {
+                "label": "Alıcı",
+                "help": "Alıcı Paypal ile ilişkilendirilmiş bir email adresi olmalıdır",
+                "error": {
+                    "required": "Alıcı gerekmektedir",
+                    "max": "Alıcı çok uzun",
+                    "email": "Alıcı email adresi olmalıdır"
+                }
+            },
+            "name": {
+                "label": "İsim",
+                "error": {
+                    "required": "Maraton adı girilmesi gerekmektedir",
+                    "pattern": "Maraton adı geçersiz",
+                    "min": "Maraton adı çok kısa"
+                }
+            }
         }
     },
     "login": {
