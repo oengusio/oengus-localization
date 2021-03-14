@@ -157,7 +157,7 @@
         "confirm": "확인",
         "cancel": "취소",
         "accept": "확인",
-        "clearAvailabilities": "선택한 가능한 시간대 지우기"
+        "clearAvailabilities": "선택한 가능한 시간대 선택 해제"
     },
     "aboutPage": {
         "contact": {
@@ -240,7 +240,7 @@
             "nextRun": "{{duration}} 후 다음 런",
             "management": {
                 "title": "일정 관리",
-                "selectedRuns": "선택된 런",
+                "selectedRuns": "선발된 런",
                 "schedule": "일정",
                 "help": {
                     "save": "초안을 저장하거나 실시간 일정을 업데이트하려면 \"저장\"을 클릭하세요. 일정을 공개하려면 \"일정 게시\"를 클릭하세요. 일정이 한 번 개시되면 마라톤 종료 날짜는 일정을 업데이트할 때마다 자동으로 다시 계산됩니다.",
@@ -273,7 +273,7 @@
             "submitRuns": "런 제출",
             "settings": "설정",
             "selectRuns": "런 선택",
-            "schedule": "일정 관리",
+            "schedule": "일정",
             "overview": "개요",
             "moderators": "중재자",
             "manageSchedule": "일정 관리",
