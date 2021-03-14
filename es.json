@@ -885,7 +885,9 @@
             "moderator": "Eventos moderados",
             "submissions": "Historial de postulaciones",
             "unban": "Desbloquear usuario",
-            "ban": "Bloquear usuario"
+            "ban": "Bloquear usuario",
+            "deactivate": "Desactivar Usuario",
+            "activate": "Activar Usuario"
         },
         "settings": {
             "accountSync": {
@@ -965,9 +967,11 @@
                 "btnDelete": "Eliminar cuenta :(",
                 "body": [
                     "Estás a punto de eliminar tu cuenta de Oengus.",
-                    "¡ESTA ACCIÓN NO PUEDE SER ANULADA!"
+                    "¡ESTA ACCIÓN NO PUEDE SER ANULADA!",
+                    "Por favor, escribe tu nombre de usuario en esta caja de texto para confirmar que quieres eliminar tu cuenta."
                 ],
-                "title": "¡ADVERTENCIA!"
+                "title": "¡ADVERTENCIA!",
+                "settingsDeleteBtn": "Eliminar cuenta"
             }
         }
     },
