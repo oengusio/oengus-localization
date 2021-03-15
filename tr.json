@@ -3,7 +3,8 @@
         "schedule": {
             "management": {
                 "help": {
-                    "dragAndDrop": "Programdan bir oyun eklemek veya kaldırmak için satırlardaki okları kullanın. Tutamaçları kullanarak programdaki çizgileri sürükleyip bırakabilirsiniz"
+                    "dragAndDrop": "Programdan bir oyun eklemek veya kaldırmak için satırlardaki okları kullanın. Tutamaçları kullanarak programdaki çizgileri sürükleyip bırakabilirsiniz",
+                    "save": "Canlı programı güncellemek veya taslak kaydetmek için \"Kaydet\"e basın. Programı yayınlamak için \"Programı yayınla\"ya basın. Dikkat: program bir kez yayınlandığında, planı her güncellediğinizde maratonun bitiş tarihi tekrardan hesaplanıp güncellenecektir."
                 },
                 "action": {
                     "publish": "Programı yayınla",
@@ -11,12 +12,12 @@
                     "addSetupBlock": "Kurulum bloğu ekle",
                     "addRun": "Oyun ekle"
                 },
-                "title": "Plan yönetimi",
+                "title": "Program yönetimi",
                 "selectedRuns": "Seçili runlar",
-                "schedule": "Plan"
+                "schedule": "Program"
             },
             "export": {
-                "title": "Planı dışa aktar",
+                "title": "Programı dışa aktar",
                 "json": "JSON'a (Horaro) aktar",
                 "ics": "ICS'ye aktar",
                 "csv": "CSV’ye aktar"
@@ -30,7 +31,7 @@
                 "OTHER": "Diğer",
                 "COOP_RACE": "Kooperatif yarış"
             },
-            "title": "Plan",
+            "title": "Program",
             "timezone": "Tüm tarih ve zamanlar yerel saatinize göre verilmiştir.",
             "table": {
                 "type": "Tip",
@@ -41,7 +42,8 @@
                 "estimate": "Tahmini",
                 "console": "Konsol",
                 "category": "Kategori",
-                "actions": "Aksiyonlar"
+                "actions": "Aksiyonlar",
+                "placeholder": "Soldaki tablodan buraya herhangi bir run çekin. Bu yazı programa bir run girdiği anda kaybolacaktır."
             },
             "setupBlock": "Kurulum bloğu",
             "nextRun": "Bir sonraki run {{duration}}"
@@ -188,7 +190,7 @@
                 "title": "Seçim"
             },
             "availabilities": {
-                "help": "Uygunluklarını görüntülemek için runnerların yanındaki takvim ikonuna basın."
+                "help": "Uygunluklarını görüntülemek için oyuncuların yanındaki takvim ikonuna basın."
             },
             "action": {
                 "publish": "Seçimi yayınla"
