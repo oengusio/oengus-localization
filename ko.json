@@ -18,7 +18,7 @@
         },
         "marathons": {
             "upcoming": "예정된 마라톤",
-            "open": "제출 열기",
+            "open": "제출이 열린 마라톤",
             "live": "진행 중인 마라톤",
             "calendar": "전체 달력",
             "moderated": "중재한 마라톤"
