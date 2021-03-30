@@ -7,7 +7,17 @@
             "home": "Inici",
             "editSubmission": "Edita proposta",
             "donations": "Donacions",
-            "donate": "Dona"
+            "donate": "Dona",
+            "viewSubmissions": "Veure propostes",
+            "tracker": "Registre",
+            "submitRuns": "Proposa intents",
+            "settings": "Opcions",
+            "selectRuns": "Tria intents",
+            "admin": "Admin",
+            "schedule": "Horari",
+            "overview": "Resum",
+            "moderators": "Moderadors",
+            "manageSchedule": "Gestiona l'horari"
         },
         "incentives": {
             "title": "Incentius",
@@ -121,6 +131,530 @@
                     "minNumber": "La quantitat de donació ha de ser superior a zero"
                 }
             }
+        },
+        "submit": {
+            "requirements": {
+                "discord": {
+                    "errors": {
+                        "userMissing": "Si us plau, entra al servidor de discord d'aquesta marató <a href=\"{{invite}}\" target=\"_blank\">{{invite}}</a>",
+                        "botMissing": "Si us plau, demana als moderadors d'aquesta marató que conviden el bot de discord d'Oengus"
+                    },
+                    "back": "Torna",
+                    "check": "Comprova!",
+                    "syncNotice": [
+                        "IMPORTANT: abans d'això hauràs de sincronitzar Discord amb el teu compte en la teva",
+                        "configuració d'usuari"
+                    ],
+                    "par2": "No podràs fer propostes si no hi ets.",
+                    "par1": "Clica \"Comprova\" per a comprovar si ets al servidor de Discord d'aquesta marató.",
+                    "lead": "Aquesta marató demana que siguis al servidor de Discord per a proposar",
+                    "title": "Un moment!"
+                }
+            },
+            "tweet": {
+                "submit": "He proposat {{games}} a {{marathon}}"
+            },
+            "title": "Proposa intents",
+            "table": {
+                "runners": "Participants",
+                "games": "Jocs",
+                "categories": "Categories",
+                "actions": "Accions"
+            },
+            "submitsClosed": "S'han tancat les propostes. Ara només pots actualitzar la teva disponibilitat fins que es publiqui l'horari.",
+            "submissions": "Propostes",
+            "racesAllowed": "Es permeten carreres/coop",
+            "multiplayer": {
+                "title": "Categories multijugador",
+                "code": {
+                    "help": "Si us plau, introdueix el codi per participar en una proposta multijugador"
+                }
+            },
+            "maxNumberOfScreens": "Màxim de participants per carrera/coop",
+            "maxGamesPerRunner": "Màxim de jocs per participant",
+            "maxCategoriesPerGame": "Màxim de categories per joc",
+            "game": {
+                "ratio": {
+                    "label": "Ràtio d'imatge/Resolució (16:9, 4:3, 1920x1080...)",
+                    "error": {
+                        "required": "Cal ràtio d'imatge"
+                    }
+                },
+                "name": {
+                    "label": "Nom del joc",
+                    "error": {
+                        "required": "Cal un nom del joc"
+                    }
+                },
+                "description": {
+                    "label": "Descripció del joc",
+                    "help": "Descriu el joc i generalitats de l'intent",
+                    "error": {
+                        "required": "Cal una descripció del joc"
+                    }
+                },
+                "console": {
+                    "label": "Consola",
+                    "emulatorNotAllowed": "No s'accepten emuladors en aquesta marató",
+                    "emulated": "Emulat"
+                }
+            },
+            "details": "Detalls",
+            "delete": {
+                "action": "Esborra proposta"
+            },
+            "dangerZone": "Zona de risc",
+            "customField": {
+                "error": {
+                    "required": "Cal un camp"
+                }
+            },
+            "category": {
+                "video": {
+                    "label": "Enllaç de vídeo",
+                    "error": {
+                        "required": "Cal un enllaç de vídeo"
+                    }
+                },
+                "type": {
+                    "label": "Tipus"
+                },
+                "opponent": {
+                    "with": "Amb:"
+                },
+                "name": {
+                    "label": "Nom de categoria",
+                    "error": {
+                        "required": "Cal un nom de categoria"
+                    }
+                },
+                "estimate": {
+                    "label": "Estimat",
+                    "error": {
+                        "required": "Cal un estimat",
+                        "pattern": "Estimat invàlid. Ha de tenir un format (HH)H:MM:SS",
+                        "min": "Estimat invàlid. Ha de ser superior a 0 segons"
+                    }
+                },
+                "description": {
+                    "label": "Descripció de la categoria",
+                    "help": "Dona detalls sobre aquesta categoria",
+                    "error": {
+                        "required": "Cal una descripció de la categoria"
+                    }
+                },
+                "code": {
+                    "help": {
+                        "withCode": "Dona aquest codi als alters participants perquè puguin unir-s'hi:",
+                        "noCode": "Rebràs un codi per compartir aquesta categoria amb els altres participants interessats desprès de desar la teua proposta"
+                    }
+                }
+            },
+            "availabilities": {
+                "to": "Fins a",
+                "label": "Disponibilitats",
+                "from": "Des de",
+                "error": {
+                    "required": "Has d'afegir un període o més de disponibilitat",
+                    "dateRequired": "Cal una data"
+                },
+                "duplicate": "Duplica pel següent dia",
+                "add": "Afegeix disponibilitat",
+                "actions": "Accions"
+            },
+            "action": {
+                "removeGame": "Elimina joc",
+                "addCategory": "Afegeix categoria"
+            }
+        },
+        "settings": {
+            "tabs": {
+                "dangerZone": "Zona de risc",
+                "submissions": "Propostes",
+                "incentives": "Incentius",
+                "general": "General"
+            },
+            "dangerZone": "Zona de risc",
+            "youtube": {
+                "help": {
+                    "url": "Cal introduir tot l'enllaç"
+                },
+                "error": {
+                    "pattern": "L'enllaç al canal de YouTube és invàlid"
+                }
+            },
+            "videoRequired": {
+                "label": "Demana vídeo",
+                "allowed": "Cal vídeo"
+            },
+            "unlimited": "Sense límit",
+            "type": {
+                "onsite": "Presencial",
+                "online": "En línia",
+                "label": "Tipus de marató"
+            },
+            "twitter": {
+                "error": {
+                    "pattern": "El nom de Twitch és invàlid",
+                    "max": "El nom de Twitch és massa llarg"
+                }
+            },
+            "twitch": {
+                "error": {
+                    "pattern": "El nom de Twitch és invàlid",
+                    "max": "El nom de Twitch és massa llarg"
+                }
+            },
+            "title": "Opcions de la marató",
+            "supportedCharity": {
+                "label": "Donar a una ONG",
+                "error": {
+                    "required": "Cal el nom de l'ONG",
+                    "max": "El nom de l'ONG és massa llarg"
+                }
+            },
+            "submissionsTitle": "Configuració de propostes",
+            "submissionsStartDate": {
+                "label": "Data d'obertura de propostes",
+                "error": {
+                    "required": "Cal indicar una data d'inici si hi ha una data de tancament"
+                }
+            },
+            "submissionsEndDate": {
+                "label": "Data de tancament de propostes",
+                "error": {
+                    "required": "S'ha d'especificar una data de tancament de propostes si hi ha una data d'inici"
+                }
+            },
+            "submissions": {
+                "open": "S'admeten propostes",
+                "label": "Propostes",
+                "closed": "No s'admeten més propostes"
+            },
+            "startDate": {
+                "label": "Data d'inici",
+                "error": {
+                    "required": "Cal una data d'inici"
+                }
+            },
+            "shortname": {
+                "label": "Nom abreujat",
+                "error": {
+                    "required": "Cal un nom abreujat de la marató",
+                    "pattern": "El nom abreujat de la marató és invàlid",
+                    "min": "El nom abreujat de la marató és massa curt",
+                    "max": "El nom abreujat és massa llarg",
+                    "exists": "Aquest nom abreujat ja existeix"
+                }
+            },
+            "sandbox": {
+                "warning": "Alerta: Oengus.sandbox s'està comunicat amb l'ambient de sandbox de Paybal. Cal que uses una adreça de sandbox de Paypal com a rebedor perquè funcionen les donacions (falses)."
+            },
+            "privacy": {
+                "private": "Privada",
+                "public": "Pública",
+                "label": "Privacitat de la marató",
+                "help": "Les maratons privades funcionen com qualsevol altra, llevat que no es mostren en la pàgina principal. Només hi pots accedir mitjançant una adreça."
+            },
+            "payee": {
+                "label": "Rebedor",
+                "help": "El rebedor ha de ser una adreça de correu vinculada a un compte de Paypal",
+                "error": {
+                    "required": "Cal un rebedor",
+                    "max": "El rebedor és massa llarg",
+                    "email": "El rebedor ha de ser una adreça de correu"
+                }
+            },
+            "name": {
+                "label": "Nom",
+                "error": {
+                    "required": "Cal un nom per la marató",
+                    "pattern": "El nom de la marató és invàlid",
+                    "min": "El nom de la marató és massa curt",
+                    "max": "El nom de la marató és massa llarg"
+                }
+            },
+            "multiplayer": {
+                "label": "Multijugador",
+                "forbidden": "No es permeten intents de carreres/coop",
+                "allowed": "Es permeten partides de carreres/coop"
+            },
+            "moderators": {
+                "label": "Moderadors"
+            },
+            "maxNumberOfScreens": {
+                "error": {
+                    "min": "El nombre màxim de pantalles ha de ser un valor positiu",
+                    "required": "Cal un nombre màxim de pantalles"
+                },
+                "label": "Quantitat màxima de pantalles per joc",
+                "help": "Si permets partides multijugador, pots limitar la quantitat de pantalles en l'stream, per restringir els jugadors participantns en una sola proposta de partida coop/carrera"
+            },
+            "donations": {
+                "hasDonations": "Aquest és un esdeveniment benèfic",
+                "donationsOpen": "Donacions obertes",
+                "label": "Suport de donacions"
+            },
+            "webhook": {
+                "botNotice": "Això és un webhook del bot d'Oengus. Això vol dir que el bot d'Oengus enviarà miniatures als canals que especifiquis",
+                "label": "Webhook",
+                "help": "Pots afegir-hi un webhook per rebre avisos quan es fa una nova proposta/donació. Si us plau, contacta amb un administrador per a més detalls.",
+                "error": {
+                    "offline": "No puc arribar al webhook. Segur que l'enllaç és correcte?",
+                    "max": "L'enllaç de webhook és massa llarg",
+                    "marathonParameter": "Falta el paràmetre exigit de marató"
+                }
+            },
+            "discordPrivacy": {
+                "private": "El Discord és privat",
+                "label": "Privacitat del Discord",
+                "help": "Si tens el Discord configurat en privat, l'enllaç d'invitació no es mostrarà en la pàgina principal, i només trobaran l'enllaç per correu alguns participants."
+            },
+            "discordRequirement": {
+                "found": {
+                    "id": "ID del servidor: <em>{{guildId}}</em>",
+                    "name": "Nom del servidor: <em>{{guildName}}</em>",
+                    "title": "S'ha trobat el servidor de la invitació"
+                },
+                "help": {
+                    "3": "El teu Discord és públic.",
+                    "2": "La teva invitació a Discord s'ha enregistrat i és vàlida.",
+                    "1": "Tens el bot d'Oengus al teu servidor de Discord. Enllaç d'invitació:",
+                    "title": "Aquesta característica només es pot fer servir sota les següents condicions:"
+                },
+                "required": "Demana que l'usuari siga al teu Discord",
+                "label": "Cal Discord"
+            },
+            "discord": {
+                "error": {
+                    "pattern": "L'enllaç de Discord és invàlid"
+                }
+            },
+            "description": "Aquí pots actualitzar la configuració de la teva marató",
+            "delete": {
+                "confirmText": "Segur que vols esborrar la teva marató? Per confirmar-ho, si us plau escriu el nom abreujat de la marató i clica en \"Confirma\"",
+                "action": "Elimina la marató"
+            },
+            "defaultSetupTime": {
+                "label": "Temps de preparació per defecte",
+                "error": {
+                    "required": "Cal un temps de preparació per defecte",
+                    "pattern": "El temps de preparació per defecte és invàlid. Ha de tindre el format (HH)H:MM:SS"
+                }
+            },
+            "customFields": {
+                "type": {
+                    "option": {
+                        "textArea": "Àrea de text",
+                        "text": "Text",
+                        "select": "Selecciona",
+                        "freetext": "Text lliure",
+                        "checkbox": "Casella de selecció"
+                    }
+                },
+                "title": "Camps personalitzats",
+                "required": {
+                    "title": "Requerit"
+                },
+                "option": {
+                    "error": {
+                        "required": "Cal un nom de l'opció"
+                    }
+                },
+                "label": {
+                    "type": "Tipus",
+                    "title": "Etiqueta",
+                    "error": {
+                        "required": "Cal una etiqueta"
+                    }
+                },
+                "description2": "Recomanació: els camps de text simple estan restringits a un màxim de 50 caràcters. Les àrees de text estan restringides a 500.",
+                "description1": "Pots afegir camps personalitzar per a demanar detalls específics de la teua marató per als participants. Poden respondre aquests camps durant la seua proposta. Es recomana no afegir-ne de nous després d'obrir les propostes, ja que els participants que ja han publicat propostes poden no respondre si no tornen a editar-la.",
+                "add": "Afegeix un camp personalitzat",
+                "action": {
+                    "title": "Acció"
+                }
+            },
+            "currencyIso": {
+                "label": "Codi de moneda",
+                "help": "El codi de la moneda ha d'estar en format ISO-4217 per Paypal i HA de ser la moneda primària del rebedor",
+                "error": {
+                    "required": "Cal el codi de moneda",
+                    "max": "Codi de moneda massa llarg"
+                }
+            },
+            "country": {
+                "label": "País"
+            },
+            "maxGamesPerRunner": {
+                "label": "Màxim de jocs per participant",
+                "error": {
+                    "required": "Cal un nombre màxim de jocs per participant",
+                    "min": "El màxim de jocs per participant ha de ser un valor positiu"
+                }
+            },
+            "maxCategoriesPerGame": {
+                "label": "Màxim de categories per joc",
+                "error": {
+                    "required": "Cal un nombre màxim de categories per joc",
+                    "min": "El màxim de categories per joc ha de ser un valor positiu",
+                    "max": "Hi ha massa categories per joc"
+                }
+            },
+            "marathonDescription": {
+                "label": "Descripció",
+                "help": "S'accepta Markdown"
+            },
+            "location": {
+                "label": "Lloc"
+            },
+            "language": {
+                "label": "Idioma"
+            },
+            "incentivesTitle": "Configuració d'incentius",
+            "incentives": {
+                "label": "Estat d'incentius",
+                "hasIncentives": "Aquesta marató té incentius"
+            },
+            "generalTitle": "Configuració general",
+            "endDate": {
+                "label": "Data de finalització estimada",
+                "error": {
+                    "required": "Cal una data de finalització estimada"
+                }
+            },
+            "emulatorAuthorized": {
+                "label": "Emuladors",
+                "allowed": "S'accepten emuladors"
+            },
+            "donationsOpen": {
+                "label": "Mostra la pàgina de donacions"
+            }
+        },
+        "submissions": {
+            "title": "Propostes",
+            "tabs": {
+                "submissions": "Propostes",
+                "answers": "Respostes"
+            },
+            "table": {
+                "type": "Tipus",
+                "status": "Estat",
+                "runner": "Participant",
+                "ratio": "Ratio/Resolució",
+                "question": "Pregunta",
+                "marathon": "Marató",
+                "gameDescription": "Descripció del joc",
+                "game": "Joc",
+                "estimate": "Estimat",
+                "console": "Consola",
+                "categoryDescription": "Descripció de la categoria",
+                "category": "Categoria",
+                "answer": "Resposta",
+                "actions": "Accions"
+            },
+            "submission": {
+                "delete": "Elimina proposta. Això eliminarà tots els jocs d'aquest usuari d'aquesta marató."
+            },
+            "game": {
+                "delete": "Elimina el joc. Això també eliminarà les seves categories."
+            },
+            "export": "Exporta a CSV",
+            "category": {
+                "delete": "Elimina la categoria"
+            },
+            "filter": "Filtra usuaris i jocs"
+        },
+        "selection": {
+            "title": "Selecciona intents",
+            "status": {
+                "VALIDATED": "Acceptat",
+                "TODO": "Pendent",
+                "REJECTED": "Rebutjat",
+                "BONUS": "Extra",
+                "BACKUP": "Reserva",
+                "ALL": "Tot"
+            },
+            "statistics": {
+                "title": "Estadístiques",
+                "table": {
+                    "totalTimeValidated": "Temps total d'intents validats (inclou temps de preparació))",
+                    "totalTime": "Temps total",
+                    "numberOfRuns": "Nombre d'intents",
+                    "numberOfRunners": "Nombre de participants",
+                    "marathonLength": "Duració de la marató",
+                    "defaultSetupTime": "Temps de preparació per defecte",
+                    "averageEstimate": "Estimat de mitjana"
+                }
+            },
+            "selection": {
+                "title": "Selecció"
+            },
+            "publish": {
+                "help": "Clica en \"Desa\" per desar la teva selecció actual en qualsevol moment. Només pots publicar la selecció quan tots els intents tenen un estatus diferent de \"Pendent\". Desar o publicar la selecció pot necessitar alguns temps, depenent de la quantitat d'intents. Alerta: publicar la selecció tancarà automàticament les propostes. Una volta que s'ha publicat la selecció, serà visible per tothom en la pàgina de \"Veure propostes\"."
+            },
+            "help": {
+                "BACKUP": "Els intents de reserva no s'afigen a la llista d'intents seleccionats en la gestió de l'horari. Per afegir-los a aquesta llista, canvia'ls si cal a l'estat d'Acceptat o Extra."
+            },
+            "availabilities": {
+                "help": "Clica en la icona del calendari a la vora dels participants per mostrar o amagar la seua disponibilitat."
+            },
+            "action": {
+                "publish": "Publica selecció"
+            }
+        },
+        "schedule": {
+            "type": {
+                "SINGLE": "Intent únic",
+                "RACE": "Carrera",
+                "OTHER": "Altre",
+                "COOP_RACE": "Carrera cooperativa",
+                "COOP": "Intent cooperatiu"
+            },
+            "title": "Horari",
+            "timezone": "Totes les dates es mostren en la zona horària local.",
+            "table": {
+                "type": "Tipus",
+                "time": "Temps",
+                "setup": "Temps de preparació",
+                "runner": "Participant(s)",
+                "placeholder": "Arrossega un intent de la graella esquerra a aquesta. Aquest text desapareixerà en incloure un intent en l'horari.",
+                "game": "Joc",
+                "estimate": "Estimat",
+                "console": "Consola",
+                "category": "Categoria",
+                "actions": "Accions"
+            },
+            "setupBlock": "Bloc de preparació",
+            "nextRun": "Pròxim intent {{duration}}",
+            "management": {
+                "title": "Gestió de l'horari",
+                "selectedRuns": "Intents seleccionats",
+                "schedule": "Horari",
+                "help": {
+                    "save": "Clica en \"Desa\" per desar un esborrany o actualitzar l'horari en directe. Clica en \"Publica l'horari\" per fer-lo públic. Alerta: quan es publique l'horari, la data final de la marató es recalcularà de forma automàtica en cada actualització.",
+                    "dragAndDrop": "Fes ús de les fletxes en cada línia per afegir o eliminar un intent de l'horari. Pots arrossegar les línies en l'horari fent servir les anses"
+                },
+                "action": {
+                    "publish": "Publica l'horari",
+                    "alreadyPublished": "Ja s'ha publicat l'horari",
+                    "addSetupBlock": "Afegeix-hi bloc de preparació",
+                    "addRun": "Afegeix-hi intent"
+                }
+            },
+            "export": {
+                "title": "Exporta l'horari",
+                "json": "Exporta a JSON (Horaro)",
+                "ics": "Exporta a ICS",
+                "csv": "Exporta a CSV"
+            },
+            "dstChange": "Hi ha un canvi d'horari d'estiu durant la marató.",
+            "currentRun": "Intent actual"
+        },
+        "new": {
+            "shortDomain": "Aquest petit enllaç es genera automàticament perquè el comparteixis en les xarxes socials",
+            "title": "Crea una nova marató",
+            "description": "Cal que ompliu la informació següent per a crear una nova marató. Després de crear-la, podràs configurar-ne més detalls."
         }
     },
     "login": {
@@ -130,10 +664,10 @@
         "welcomeTitle": "Benvingut/da a Oengus!",
         "welcomeText": {
             "par4": {
-                "sandbox": "<b>Et trobes a l'ambient sandbox, disponible per a descobrir i fer proves. Si vols fer una marató real, per favor visita la <a href=\"https://oengus.io\">pàgina principal</a></b>",
-                "prod": "Si vols provar l'aplicació abans de crear una proposta, per favor vés a l'<a href=\"https://sandbox.oengus.io\">ambient sandbox</a>. És disponible per a tots els propòsits de proves i descobriment."
+                "sandbox": "<b>Et trobes a l'ambient sandbox, disponible per a descobrir i fer proves. Si vols fer una marató real, si us plau visita la <a href=\"https://oengus.io\">pàgina principal</a></b>",
+                "prod": "Si vols provar l'aplicació abans de crear una proposta, si us plau ves a l'<a href=\"https://sandbox.oengus.io\">ambient sandbox</a>. És disponible per a tots els propòsits de proves i descobriment."
             },
-            "par3": "Per a accedir a totes les característiques, per favor inicia sessió amb l'enllaç següent. Podràs crear noves maratons i fer propostes en les ja existents:",
+            "par3": "Per a accedir a totes les característiques, si us plau inicia sessió amb l'enllaç següent. Podràs crear noves maratons i fer propostes en les ja existents:",
             "par1": "Oengus és una eina <b>gratuïta</b> per a gestionar les teves maratons d'speedrunnings, des de les propostes a l'horari."
         },
         "starts": "Comença {{duration}}",
@@ -180,12 +714,12 @@
                 "error": "Error actualitzant les dades d'usuari"
             },
             "sync": {
-                "error": "Ha hagut un error durant la sincronització de comptes. Per favor, torna a intentar-ho o contacta un administrador.",
+                "error": "Ha hagut un error durant la sincronització de comptes. Si us plau, intenta-ho de nou o contacta amb un administrador.",
                 "alreadySynced": "Error: Aquest compte ja és en ús"
             },
             "login": {
                 "usernameExists": "El nom d'usuari del compte amb el qual intentes iniciar sessió ja existeix. Assegura't que no has creat abans un compte en Oengus amb algun altre mètode d'inici de sessió. Si creus que és un fals positiu, contacta un administrador.",
-                "error": "Ha hagut un error durant l'autenticació. Per favor, torna a intentar-ho o contacta un administrador.",
+                "error": "Ha hagut un error durant l'autenticació. Si us plau, intenta-ho de nou o contacta amb un administrador.",
                 "disabledAccount": "El teu compte és desactivat. Si el vols tornar a fer servir, contacta un administrador."
             },
             "deactivate": {
@@ -196,7 +730,7 @@
             "DISCORD_VERIFIED": "Verificat que ets al servidor de Discord, ja hi pots proposar",
             "SAME_USER": "No pots afegir-te a una categoria que tu has creat",
             "NOT_MULTIPLAYER": "Aquesta categoria no és multijugador",
-            "MAX_SIZE_REACHED": "Aquesta proposta ja ha arribat al nombre màxim de corredors",
+            "MAX_SIZE_REACHED": "Aquesta proposta ja ha arribat al nombre màxim de participants",
             "DIFFERENT_MARATHON": "Aquest codi és per una altra marató",
             "CODE_NOT_FOUND": "Aquest codi no existeix",
             "ALREADY_IN_OPPONENTS": "Ja formes part d'aquesta categoria"
@@ -208,7 +742,7 @@
             },
             "deletion": {
                 "success": "Proposta eliminada",
-                "error": "Ha ocorregut un error eliminant aquesta proposta. Per favor, torna a intentar-ho o contacta un administrador."
+                "error": "Ha ocorregut un error eliminant aquesta proposta. Si us plau, intenta-ho de nou o contacta amb un administrador."
             }
         },
         "schedule": {
@@ -217,7 +751,7 @@
                 "error": "Error desant l'horari"
             },
             "export": {
-                "error": "Ha hagut un error amb l'exportació. Per favor, torna a intentar-ho o contacta un administrador."
+                "error": "Ha hagut un error amb l'exportació. Si us plau, intenta-ho de nou o contacta amb un administrador."
             }
         },
         "marathon": {
@@ -237,35 +771,41 @@
         "incentives": {
             "save": {
                 "success": "Incentius desats.",
-                "error": "Ha hagut un error guardant els incentius. Per favor, torna a intentar-ho o contacta un administrador."
+                "error": "Ha hagut un error guardant els incentius. Si us plau, intenta-ho de nou o contacta amb un administrador."
             },
             "delete": {
                 "success": "Incentiu eliminat",
-                "error": "Error eliminant l'incentiu. Per favor, intenta-ho de nou o contacta un administrador."
+                "error": "Error eliminant l'incentiu. Si us plau, intenta-ho de nou o contacta amb un administrador."
             }
         },
         "game": {
             "export": {
-                "error": "Ha hagut un error durant l'exportació. Per favor, intenta-ho de nou o contacta un administrador."
+                "error": "Ha hagut un error durant l'exportació. Si us plau, intenta-ho de nou o contacta amb un administrador."
             },
             "deletion": {
                 "success": "Joc eliminat",
-                "error": "Ha hagut un error eliminant el joc. Per favor, intenta-ho de nou o contacta un administrador."
+                "error": "Ha hagut un error eliminant el joc. Si us plau, intenta-ho de nou o contacta amb un administrador."
             }
         },
         "donation": {
             "validate": {
                 "success": "S'ha enviat la vostra donació. Gràcies per donar!",
-                "error": "Ha hagut un error en el procés de donació. Per favor, intenta-ho de nou o contacta un administrador."
+                "error": "Ha hagut un error en el procés de donació. Si us plau, intenta-ho de nou o contacta amb un administrador."
             },
             "export": {
-                "error": "Ha hagut un error exportant. Per favor, intenta-ho de nou o contacta un administrador."
+                "error": "Ha hagut un error exportant. Si us plau, intenta-ho de nou o contacta amb un administrador."
             }
         },
         "category": {
             "deletion": {
                 "success": "Categoria eliminada",
-                "error": "Ha hagut un error mentre eliminàvem la categoria. Per favor, intenta-ho de nou o contacta amb un administrador."
+                "error": "Ha hagut un error mentre eliminàvem la categoria. Si us plau, intenta-ho de nou o contacta amb un administrador."
+            }
+        },
+        "selection": {
+            "save": {
+                "success": "Selecció desada",
+                "error": "Error desant la selecció"
             }
         }
     },
@@ -295,5 +835,145 @@
             "par2": "L'speedrunning és jugar a un videojoc amb la intenció de completar-lo el més ràpid possible, amb un objectiu d'entreteniment o competició. Pots llegir-ne més quant a l'speedrunning en <a href=\"https://ca.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedia</a>.",
             "par1": "Oengus és un lloc web que ofereix eines per organitzar maratons d'speedrunning."
         }
+    },
+    "errors": {
+        "404": {
+            "body": "No s'ha trobat la pàgina <em>{{path}}</em> en Angus",
+            "title2": "Vas massa ràpid, amic",
+            "title1": "Paciència, vas massa ràpid",
+            "title0": "S'ha rebutjat el teu rècord mundial"
+        }
+    },
+    "patrons": {
+        "noPatrons": "No hi ha ningú per mostrar aquí, per què no <a href=\"https://www.patreon.com/oengusio\" target=\"_blank\">ser el primer</a>?",
+        "par2": "Les persones i organitzacions que es mostren en aquesta pàgina són les que han donat en la nostra <a href=\"https://www.patreon.com/oengusio\" target=\"_blank\">campanya</a> i ens ajuden a mantenir Oengus gratuït per a tots.",
+        "par1": "Gràcies als nostres patrons per ajudar a mantenir Oengus.io en funcionament",
+        "title": "Els nostres patrons"
+    },
+    "user": {
+        "settings": {
+            "usernameJapanese": {
+                "label": "Nom d'usuari (japonès)",
+                "help": "Si el teu nom d'usuari té una traducció en japonès, feu servir aquest camp per a mostrar-lo amb caràcters japonesos. Només es mostrarà si la llengua està configurada en japonès. Aquest camp és opcional.",
+                "error": {
+                    "pattern": "El nom d'usuari japonès és invàlid",
+                    "max": "El nom d'usuari en japonès és massa llarg.",
+                    "exists": "Aquest nom d'usuari ja existeix."
+                }
+            },
+            "username": {
+                "label": "Nom d'usuari",
+                "error": {
+                    "required": "Cal un nom d'usuari",
+                    "pattern": "El nom d'usuari només pot incloure lletres minúscules, majúscules, _ i -",
+                    "min": "El nom d'usuari és massa curt",
+                    "max": "El nom d'usuari és massa llarg",
+                    "exists": "Aquest nom d'usuari ja existeix. Si us plau, feu servir un altre o assegura't que no tens ja un perfil sincronitzat amb altre compte extern (Twitch o Discord)"
+                }
+            },
+            "accountSync": {
+                "sync": "Sincronitza el compte",
+                "error": {
+                    "noService": "Cal que tinguis almenys un servei sincronitzat amb el teu compte"
+                },
+                "description": "Pots sincronitzar els teus comptes de xarxes socials aquí. Llavors podràs sincronitzar-les totes amb el teu compte Oengus.",
+                "unsync": "Elimina el compte",
+                "title": "Sincronització del compte"
+            },
+            "twitter": {
+                "error": {
+                    "pattern": "El nom de Twitter és invàlid",
+                    "max": "El nom de Twitter és massa llarg"
+                },
+                "disabled": {
+                    "help": "Aquest camp es troba desactivat perquè has sincronitzat el teu compte de Twitter. Si el teu usuari de Twitter ha canviat, si us plau torneu a sincronitzar el teu compte de Twitter per actualitzar-lo."
+                }
+            },
+            "twitch": {
+                "error": {
+                    "pattern": "El nom de Twitch és invàlid",
+                    "max": "El nom de Twitch és massa llarg"
+                },
+                "disabled": {
+                    "help": "Aquest camp és desactivat perquè has sincronitzat el teu compte de Twitch. Si el teu nom de Twitch ha canviat, si us plau torna a sincronitzar el teu compte de Twitch."
+                }
+            },
+            "title": "Modifica el meu perfil",
+            "srcom": {
+                "error": {
+                    "pattern": "El nom d'usuari d'speedrun.com és invàlid",
+                    "max": "El nom d'usuari d'speedrun.com és massa llarg"
+                }
+            },
+            "new": {
+                "description": "Necessitem un poc d'informació extra sobre tu mateix. Si us plau pren uns minuts per a omplir els buits.",
+                "beforeWeStart": "Abans de començar…"
+            },
+            "general": "Informació general",
+            "email": {
+                "label": "Correu",
+                "error": {
+                    "required": "Cal un correu",
+                    "email": "El correu és invàlid"
+                }
+            },
+            "deletingAccount": {
+                "success": "S'ha esborrat el teu compte",
+                "btnCancel": "Cancel·la :)",
+                "btnDelete": "Esborra el compte :(",
+                "settingsDeleteBtn": "Esborra el compte",
+                "body": [
+                    "Ets a punt d'esborrar el teu compte Oengus.",
+                    "AQUESTA ACCIÓ NO ES POT REVERTIR!"
+                ],
+                "title": "ALERTA!"
+            },
+            "deactivateAccount": {
+                "title": "Desactiva el teu compte",
+                "description": "Desactivar el teu compte previndrà que tornes a iniciar sessió, i els moderadors no podran afegir-te com a moderador d'una marató o com a participant en un horari. Totes les dades romandran per consistència, però les teues xarxes socials no apareixeran més en les llistes de propostes ni horaris. Si vols usar el teu compte de nou en el futur, si us plau contacta un administrador.",
+                "confirmText": "Segur que vols desactivar el teu compte? Per a confirmar-ho, per favor escriu el teu nom d'usuari i clica en \"Confirma\"",
+                "action": "Desactiva"
+            }
+        },
+        "profile": {
+            "submissions": "Historial de propostes",
+            "moderator": "Esdeveniments moderats",
+            "filter": {
+                "temporality": {
+                    "title": "Temporaliltat",
+                    "PAST": "Maratons anteriors",
+                    "FUTURE": "Maratons futures"
+                },
+                "status": {
+                    "title": "Estat"
+                }
+            },
+            "deactivate": "Desactiva l'usuari",
+            "activate": "Activa l'usuari",
+            "unban": "Desbandeja usuari",
+            "ban": "Bandeja usuari"
+        }
+    },
+    "navbar": {
+        "twitter": "Segueix-nos en Twitter",
+        "translate": "Ajuda a traduir la pàgina",
+        "sourceCode": "Codi font",
+        "settings": "Opcions",
+        "profile": "El meu perfil",
+        "privacyConsent": "Fent clic en Acceptar, permets que Oengus faci ús de les galetes amb el propòsit d'anàlisi de trànsit. Aprèn-ne més sobre la nostra política de privacitat en la pàgina Quant a.",
+        "logout": "Tanca la sessió",
+        "login": {
+            "twitter": "Inicia sessió amb Twitter",
+            "twitch": "Inicia sessió amb Twitch",
+            "title": "Inicia sessió",
+            "discord": "Inicia sessió amb Discord",
+            "disclaimer": "Alerta: si ja tens un perfil en Oengus, si us plau assegura't d'iniciar sessió amb un compte extern ja vinculat al teu perfil, o es crearà un nou perfil"
+        },
+        "donate": "Dona",
+        "discord": "Entra al Discord oficial",
+        "createMarathon": "Nova marató",
+        "bugtracker": "Reporta bugs i suggeriments",
+        "patrons": "Els nostres patrons",
+        "about": "Quant a"
     }
 }
