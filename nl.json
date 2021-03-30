@@ -578,7 +578,8 @@
                     "pattern": "Marathon shortname is ongeldig",
                     "required": "Marathon shortname is verplicht"
                 },
-                "label": "Shortname"
+                "label": "Shortname",
+                "shorturl": "Korte url"
             },
             "startDate": {
                 "error": {
