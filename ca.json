@@ -143,7 +143,8 @@
                     "check": "Comprova!",
                     "syncNotice": [
                         "IMPORTANT: abans d'això hauràs de sincronitzar Discord amb el teu compte en la teva",
-                        "configuració d'usuari"
+                        "configuració d'usuari",
+                        "."
                     ],
                     "par2": "No podràs fer propostes si no hi ets.",
                     "par1": "Clica \"Comprova\" per a comprovar si ets al servidor de Discord d'aquesta marató.",
@@ -345,7 +346,8 @@
                     "min": "El nom abreujat de la marató és massa curt",
                     "max": "El nom abreujat és massa llarg",
                     "exists": "Aquest nom abreujat ja existeix"
-                }
+                },
+                "shorturl": "Enllaç curt"
             },
             "sandbox": {
                 "warning": "Alerta: Oengus.sandbox s'està comunicat amb l'ambient de sandbox de Paybal. Cal que uses una adreça de sandbox de Paypal com a rebedor perquè funcionen les donacions (falses)."
@@ -924,7 +926,8 @@
                 "settingsDeleteBtn": "Esborra el compte",
                 "body": [
                     "Ets a punt d'esborrar el teu compte Oengus.",
-                    "AQUESTA ACCIÓ NO ES POT REVERTIR!"
+                    "AQUESTA ACCIÓ NO ES POT REVERTIR!",
+                    "Si us plau, escriu el vostre nom d'usuari en aquesta caixa per a confirmar que vols esborrar el teu compte."
                 ],
                 "title": "ALERTA!"
             },
