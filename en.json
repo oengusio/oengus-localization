@@ -595,7 +595,8 @@
                     "pattern": "Marathon shortname is invalid",
                     "required": "Marathon shortname is required"
                 },
-                "label": "Shortname"
+                "label": "Shortname",
+                "shorturl": "Short url"
             },
             "startDate": {
                 "error": {
