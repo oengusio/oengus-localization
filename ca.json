@@ -1,0 +1,299 @@
+{
+    "marathon": {
+        "menu": {
+            "manageIncentives": "Gestiona els incentius",
+            "loginToSubmit": "Inicia sessió per a proposar intents",
+            "incentives": "Incentius",
+            "home": "Inici",
+            "editSubmission": "Edita proposta",
+            "donations": "Donacions",
+            "donate": "Dona"
+        },
+        "incentives": {
+            "title": "Incentius",
+            "management": {
+                "title": "Gestió dels incentius",
+                "table": {
+                    "progress": "Progrès",
+                    "locked": "Blocat",
+                    "isBidWar": "Objectiu de donacions/Guerra d'ofertes",
+                    "incentive": "Nom de l'incentiu",
+                    "goal": "Objectiu",
+                    "game": "Joc",
+                    "description": "Descripció",
+                    "currentAmount": "Quantitat actual",
+                    "actions": "Accions"
+                },
+                "goal": {
+                    "error": {
+                        "required": "Cal un objectiu de donacions"
+                    }
+                },
+                "donationGoal": "Objectiu de donacions",
+                "openBid": "Els donants poden afegir noves ofertes",
+                "bidWar": "Guerra d'ofertes",
+                "bidName": {
+                    "error": {
+                        "required": "Cal posar nom a l'oferta"
+                    }
+                },
+                "approveBid": "Aquesta oferta s'ha creat per un donant i cal ser aprovada. Assegura't de desar després d'aprovar-la!",
+                "noSchedule": "Has d'afegir elements al teu horari abans d'afegir-hi incentius",
+                "name": {
+                    "error": {
+                        "required": "Cal un nom"
+                    }
+                },
+                "currentAmount": {
+                    "error": {
+                        "required": "Cal la quantitat actual"
+                    }
+                },
+                "action": {
+                    "add": "Afegeix incentiu"
+                }
+            }
+        },
+        "home": {
+            "to": "Fins",
+            "location": "Lloc",
+            "language": "Idioma",
+            "from": "Des de"
+        },
+        "help": {
+            "isArchived": "Aquesta marató és arxivada. És en mode de només lectura."
+        },
+        "donations": {
+            "total": "Total de donació",
+            "title": "Donacions",
+            "table": {
+                "name": "Nom",
+                "date": "Data",
+                "comment": "Comentari",
+                "amount": "Quantitat"
+            },
+            "max": "Donació màxima",
+            "export": "Exporta com a CSV",
+            "count": "Nombre de donacions",
+            "average": "Donació mitjana"
+        },
+        "donate": {
+            "title": "Dona",
+            "nickname": {
+                "label": "Nom",
+                "error": {
+                    "pattern": "El nom només pot tindre lletres minúscules, majúscules, _ i -",
+                    "max": "El nom és massa llarg"
+                }
+            },
+            "incentives": {
+                "title": "Incentius",
+                "left": "Quantitat disponible restant:",
+                "header": {
+                    "incentive": "Incentiu",
+                    "amount": "Quantitat",
+                    "action": "Acció"
+                },
+                "description": "Els incentius es poden fer servir per a afegir reptes i influenciar les decisions dels competidors. T'agradaria posar la teva donació cap un incentiu?",
+                "bid": {
+                    "new": "(Nou)"
+                },
+                "add": "Afegeix incentiu"
+            },
+            "incentiveAmount": {
+                "error": {
+                    "required": "Cal una quantitat",
+                    "minNumber": "La quantitat ha de ser superior a zero"
+                }
+            },
+            "extra": {
+                "title": "Informació addicional",
+                "description": "Aquestes dades no es mostren públicament enlloc, i s'esborren un mes desprès de la fi de l'esdeveniment."
+            },
+            "description": "Les donacions són en suport de {{supportedCharity}}",
+            "comment": {
+                "label": "Comentari"
+            },
+            "amount": {
+                "label": "Quantitat de donació",
+                "error": {
+                    "required": "Cal que especifiqueu la quantitat",
+                    "minNumber": "La quantitat de donació ha de ser superior a zero"
+                }
+            }
+        }
+    },
+    "login": {
+        "authInProgress": "S'està autenticant. Si us plau, espera…"
+    },
+    "homepage": {
+        "welcomeTitle": "Benvingut/da a Oengus!",
+        "welcomeText": {
+            "par4": {
+                "sandbox": "<b>Et trobes a l'ambient sandbox, disponible per a descobrir i fer proves. Si vols fer una marató real, per favor visita la <a href=\"https://oengus.io\">pàgina principal</a></b>",
+                "prod": "Si vols provar l'aplicació abans de crear una proposta, per favor vés a l'<a href=\"https://sandbox.oengus.io\">ambient sandbox</a>. És disponible per a tots els propòsits de proves i descobriment."
+            },
+            "par3": "Per a accedir a totes les característiques, per favor inicia sessió amb l'enllaç següent. Podràs crear noves maratons i fer propostes en les ja existents:",
+            "par1": "Oengus és una eina <b>gratuïta</b> per a gestionar les teves maratons d'speedrunnings, des de les propostes a l'horari."
+        },
+        "starts": "Comença {{duration}}",
+        "sponsors": {
+            "title": "Anunciants",
+            "esa": "oengus.io és allotjat per la <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>"
+        },
+        "plannedFeatures": {
+            "title": "Característiques planificades",
+            "volunteerManager": "Gestió de propostes de voluntaris",
+            "7": "Gestió de donacions per PayPal",
+            "6": "Notificacions per correu",
+            "5": "Integració amb Discord",
+            "4": "Els comptes es sincronitzen amb Twitter/Twitch/Google",
+            "3": "Sistema de calendarització senzill amb visualització de la disponibilitat dels participants",
+            "2": "Múltiples sistemes de selecció d'intents (selecció directa, vots...)",
+            "1": "Propostes cooperatives/carreres"
+        },
+        "marathons": {
+            "upcoming": "Pròximes maratons",
+            "open": "Propostes obertes",
+            "moderated": "Maratons moderades",
+            "live": "Maratons en directe",
+            "calendar": "Calendari complet"
+        },
+        "ends": "Acaba {{duration}}"
+    },
+    "global": {
+        "adblocker": "Hola, sembla que estàs bloquejant la publicitat. Si us plau, desactiveu l'adblocker en Oengus, ja que funcionem gràcies a les donacions i els anuncis.",
+        "emu": "[Emu]"
+    },
+    "footer": {
+        "text": "Tots els horaris són convertits a la teua zona horària. Zona horària detectada: {{timezone}}",
+        "donate": "Si t'agrada Oengus, si us plau considera <a href=\"{{donationLink}}\" target=\"_blank\">fer una donació</a>"
+    },
+    "calendar": {
+        "title": "Calendari de maratons",
+        "help": "Clicar en un esdeveniment et portarà a la seva pàgina"
+    },
+    "alert": {
+        "user": {
+            "update": {
+                "success": "Dades d'usuari actualitzades",
+                "error": "Error actualitzant les dades d'usuari"
+            },
+            "sync": {
+                "error": "Ha hagut un error durant la sincronització de comptes. Per favor, torna a intentar-ho o contacta un administrador.",
+                "alreadySynced": "Error: Aquest compte ja és en ús"
+            },
+            "login": {
+                "usernameExists": "El nom d'usuari del compte amb el qual intentes iniciar sessió ja existeix. Assegura't que no has creat abans un compte en Oengus amb algun altre mètode d'inici de sessió. Si creus que és un fals positiu, contacta un administrador.",
+                "error": "Ha hagut un error durant l'autenticació. Per favor, torna a intentar-ho o contacta un administrador.",
+                "disabledAccount": "El teu compte és desactivat. Si el vols tornar a fer servir, contacta un administrador."
+            },
+            "deactivate": {
+                "success": "S'ha desactivat el teu compte"
+            }
+        },
+        "submit": {
+            "DISCORD_VERIFIED": "Verificat que ets al servidor de Discord, ja hi pots proposar",
+            "SAME_USER": "No pots afegir-te a una categoria que tu has creat",
+            "NOT_MULTIPLAYER": "Aquesta categoria no és multijugador",
+            "MAX_SIZE_REACHED": "Aquesta proposta ja ha arribat al nombre màxim de corredors",
+            "DIFFERENT_MARATHON": "Aquest codi és per una altra marató",
+            "CODE_NOT_FOUND": "Aquest codi no existeix",
+            "ALREADY_IN_OPPONENTS": "Ja formes part d'aquesta categoria"
+        },
+        "submission": {
+            "save": {
+                "success": "Proposta enviada",
+                "error": "Error durant el procés de proposta"
+            },
+            "deletion": {
+                "success": "Proposta eliminada",
+                "error": "Ha ocorregut un error eliminant aquesta proposta. Per favor, torna a intentar-ho o contacta un administrador."
+            }
+        },
+        "schedule": {
+            "save": {
+                "success": "Horari desat",
+                "error": "Error desant l'horari"
+            },
+            "export": {
+                "error": "Ha hagut un error amb l'exportació. Per favor, torna a intentar-ho o contacta un administrador."
+            }
+        },
+        "marathon": {
+            "update": {
+                "success": "Marató actualitzada",
+                "error": "Error actualitzant la marató"
+            },
+            "deletion": {
+                "success": "Marató eliminada",
+                "error": "Error eliminant la marató"
+            },
+            "creation": {
+                "success": "Marató creada",
+                "error": "Error creant la marató"
+            }
+        },
+        "incentives": {
+            "save": {
+                "success": "Incentius desats.",
+                "error": "Ha hagut un error guardant els incentius. Per favor, torna a intentar-ho o contacta un administrador."
+            },
+            "delete": {
+                "success": "Incentiu eliminat",
+                "error": "Error eliminant l'incentiu. Per favor, intenta-ho de nou o contacta un administrador."
+            }
+        },
+        "game": {
+            "export": {
+                "error": "Ha hagut un error durant l'exportació. Per favor, intenta-ho de nou o contacta un administrador."
+            },
+            "deletion": {
+                "success": "Joc eliminat",
+                "error": "Ha hagut un error eliminant el joc. Per favor, intenta-ho de nou o contacta un administrador."
+            }
+        },
+        "donation": {
+            "validate": {
+                "success": "S'ha enviat la vostra donació. Gràcies per donar!",
+                "error": "Ha hagut un error en el procés de donació. Per favor, intenta-ho de nou o contacta un administrador."
+            },
+            "export": {
+                "error": "Ha hagut un error exportant. Per favor, intenta-ho de nou o contacta un administrador."
+            }
+        },
+        "category": {
+            "deletion": {
+                "success": "Categoria eliminada",
+                "error": "Ha hagut un error mentre eliminàvem la categoria. Per favor, intenta-ho de nou o contacta amb un administrador."
+            }
+        }
+    },
+    "action": {
+        "submit": "Proposa",
+        "sendTweet": "Envia tuit",
+        "save": "Desa",
+        "join": "Participa",
+        "decline": "Refusa",
+        "confirm": "Confirma",
+        "clearAvailabilities": "Neteja les disponibilitats sel·leccionades",
+        "cancel": "Cancel·la",
+        "accept": "Accepta"
+    },
+    "aboutPage": {
+        "contact": {
+            "title": "Contacta",
+            "par2": "Per a qüestions de negocis/RRPP, escriu-nos un correu a contact@oengus.io",
+            "par1": "Has trobat algun bug? Tens preguntes del lloc web? Visita el <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">servidor de Discord.</a>"
+        },
+        "about": {
+            "title": "Quant a",
+            "par6": "Dada: Oengus és la divinitat cèltica encarregada del temps i l'eternitat. Quin nom més adient per a les maratons d'speedrunning!",
+            "par5": "Des de gener de 2021 endavant el lloc web és mantingut per <a href=\"https://twitter.com/duncte123\" target=\"_blank\">duncte123</a>.",
+            "par4": "Aquest lloc web ha estat creat per <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>. Actor de la comunitat d'speedrunning des de 2013, ha contribuït a la comunitat d'speedrunning de moltes formes: és moderador global de <a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a> durant tres anys, creador del <a href=\"https://twitter.com/SpeedrunWRs\">bot de Twitter de rècords d'speedruns</a>, membre de l'equip de retransmissió francès, que proveeix retransmissions de maratons internacionals per a l'audiència francesa, i fundador de Bourg la Run, l'equivalent francès de Games Done Quick. Desprès d'adquirir tota aquesta experiència, i adonant-se que no existia cap eina pública per a organitzar maratons, va decidir crear-ne una i Oengus n'és el resultat.",
+            "par3": "Les maratons d'speedrunning són esdeveniments en els quals els speedrunners es reuneixen per a mostrar els seus intents a una audiència, siga en línia, presencialment, o de totes dos formes. Els esdeveniments més populars són els <a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a> organitzats dos vegades a l'any.",
+            "par2": "L'speedrunning és jugar a un videojoc amb la intenció de completar-lo el més ràpid possible, amb un objectiu d'entreteniment o competició. Pots llegir-ne més quant a l'speedrunning en <a href=\"https://ca.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedia</a>.",
+            "par1": "Oengus és un lloc web que ofereix eines per organitzar maratons d'speedrunning."
+        }
+    }
+}
