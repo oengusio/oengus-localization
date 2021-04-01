@@ -578,7 +578,8 @@
                     "pattern": "El nombre abreviado de la maratón no es válido",
                     "required": "Se requiere un nombre abreviado de la maratón"
                 },
-                "label": "Nombre abreviado"
+                "label": "Nombre abreviado",
+                "shorturl": "Url acortado"
             },
             "startDate": {
                 "error": {
