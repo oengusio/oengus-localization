@@ -903,8 +903,8 @@
             "deactivateAccount": {
                 "action": "Desactivar",
                 "confirmText": "¿Estás seguro de que quieres desactivar tu cuenta? Para confirmar, por favor, escribe tu nombre usuario y haga clic en \"Confirmar\"",
-                "description": "Desactivar tu cuenta evitará que puedas iniciar sesión de nuevo, y los moderadores no podrán añadir como moderador de una maratón o como runner en un horario. Toda la información se conservará para mantener la coherencia, pero tus redes sociales ya no se mostrarán en horarios o listas de postulaciones. Si deseas usar tu cuenta en un futuro, por favor contacta con un administrador.",
-                "title": "Desactiva tu cuenta"
+                "description": "Desactivar tu cuenta evitará que puedas iniciar sesión de nuevo, y los moderadores no podrán añadir como moderador de una maratón o como runner en un horario. Toda la información se conservará para mantener la coherencia, pero tus redes sociales no se mostrarán en horarios o listas de postulaciones pero permanecerán vinculadas a tu cuenta. Si deseas usar tu cuenta en un futuro, por favor contacta con un administrador.",
+                "title": "Desactiva o elimina tu cuenta"
             },
             "email": {
                 "error": {
