@@ -578,7 +578,8 @@
                     "pattern": "L'identifiant du marathon est invalide",
                     "required": "L'identifiant du marathon est requis"
                 },
-                "label": "Identifiant"
+                "label": "Identifiant",
+                "shorturl": "Lien court"
             },
             "startDate": {
                 "error": {
@@ -902,8 +903,8 @@
             "deactivateAccount": {
                 "action": "Désactiver",
                 "confirmText": "Êtes-vous sûr·e de vouloir désactiver votre compte ? Pour confirmer, veuillez écrire votre pseudonyme et cliquer sur « Confirmer »",
-                "description": "Désactiver votre compte vous empêchera de pouvoir vous connecter à nouveau, et les modérateurs ne pourront plus vous ajouter en tant que modérateur d'un marathon ou runner sur un planning. Toutes les données restent stockées, mais vos réseaux sociaux ne seront plus affichés sur les listes de candidatures ou les plannings. Si vous souhaitez utiliser votre compte à nouveau dans le futur, veuillez contacter un administrateur.",
-                "title": "Désactiver votre compte"
+                "description": "Désactiver votre compte vous empêchera de pouvoir vous connecter à nouveau, et les modérateurs ne pourront plus vous ajouter en tant que modérateur d'un marathon ou runner sur un planning. Toutes les données restent stockées, mais vos réseaux sociaux ne seront plus affichés sur les listes de candidatures ou les plannings. Ils restent toutefois liés à votre compte. Si vous souhaitez utiliser votre compte à nouveau dans le futur, veuillez contacter un administrateur.",
+                "title": "Désactiver ou supprimer votre compte"
             },
             "email": {
                 "error": {
