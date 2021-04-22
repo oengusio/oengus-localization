@@ -932,8 +932,8 @@
                 "title": "ALERTA!"
             },
             "deactivateAccount": {
-                "title": "Desactiva el teu compte",
-                "description": "Desactivar el teu compte previndrà que tornes a iniciar sessió, i els moderadors no podran afegir-te com a moderador d'una marató o com a participant en un horari. Totes les dades romandran per consistència, però les teues xarxes socials no apareixeran més en les llistes de propostes ni horaris. Si vols usar el teu compte de nou en el futur, si us plau contacta un administrador.",
+                "title": "Desactiva o esborra el teu compte",
+                "description": "Desactivar el teu compte previndrà que tornes a iniciar sessió, i els moderadors no podran afegir-te com a moderador d'una marató o com a participant en un horari. Totes les dades romandran per consistència, però les teues xarxes socials no apareixeran més en les llistes de propostes ni horaris, encara que seguiran connectades al teu compte. Si vols usar el teu compte de nou en el futur, si us plau contacta un administrador.",
                 "confirmText": "Segur que vols desactivar el teu compte? Per a confirmar-ho, per favor escriu el teu nom d'usuari i clica en \"Confirma\"",
                 "action": "Desactiva"
             }
