@@ -158,7 +158,7 @@
             "6": "E-Mail-Benachrichtigungen",
             "7": "Spendenverwaltung über PayPal",
             "title": "Geplante Funktionen",
-            "volunteerManager": "Volunteer application manager"
+            "volunteerManager": "Manager für Freiwillige"
         },
         "starts": "Startet {{duration}}",
         "welcomeText": {
@@ -210,10 +210,10 @@
                 "header": {
                     "action": "Aktion",
                     "amount": "Menge",
-                    "incentive": "Incentive"
+                    "incentive": "incentive"
                 },
                 "left": "Verfügbare Menge übrig:",
-                "title": "Incentives"
+                "title": "incentives"
             },
             "nickname": {
                 "error": {
@@ -290,7 +290,7 @@
                 },
                 "title": "Incentive management"
             },
-            "title": "Incentives"
+            "title": "incentives"
         },
         "menu": {
             "admin": "Administration",
@@ -298,7 +298,7 @@
             "donations": "Spenden",
             "editSubmission": "Submission bearbeiten",
             "home": "Startseite",
-            "incentives": "Incentives",
+            "incentives": "incentives",
             "loginToSubmit": "Anmelden um Runs einzureichen",
             "manageIncentives": "Incentives verwalten",
             "manageSchedule": "Zeitplan verwalten",
@@ -578,7 +578,8 @@
                     "pattern": "Marathon Kurzname ist ungültig",
                     "required": "Marathon Kurzname ist erforderlich"
                 },
-                "label": "Kurzname"
+                "label": "Kurzname",
+                "shorturl": "Kurz url"
             },
             "startDate": {
                 "error": {
@@ -902,8 +903,8 @@
             "deactivateAccount": {
                 "action": "Deaktivieren",
                 "confirmText": "Möchten Sie Ihr Konto wirklich deaktivieren? Zur Bestätigung geben Sie bitte Ihren Benutzernamen ein und klicken Sie auf \"Bestätigen\"",
-                "description": "Durch Deaktivieren Ihres Kontos kannst du dich nicht erneut anmelden, und Moderatoren können dich nicht als Moderator eines Marathons oder Runners zu einem festgelegten Zeitpunkt hinzufügen. Alle Daten werden aus Gründen der Konsistenz gespeichert, Ihre sozialen Netzwerke werden jedoch nicht mehr in Schedules oder Submissions angezeigt. Wenn du dein Konto in Zukunft erneut verwenden möchten, wende dich an einen Administrator.",
-                "title": "Deaktiviere dein Konto"
+                "description": "Durch Deaktivieren Ihres Kontos kannst du dich nicht erneut anmelden, und Moderatoren können dich nicht als Moderator eines Marathons oder Runners zu einem festgelegten Zeitpunkt hinzufügen. Alle Daten werden aus Gründen der Konsistenz gespeichert, Ihre sozialen Netzwerke werden jedoch nicht mehr in Schedules oder Submissions angezeigt, bleiben jedoch verlinkt mit Ihrem Konto. Wenn du dein Konto in Zukunft erneut verwenden möchten, wende dich an einen Administrator.",
+                "title": "Deaktiviere oder lösche dein Konto"
             },
             "email": {
                 "error": {
