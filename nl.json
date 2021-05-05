@@ -138,7 +138,9 @@
     },
     "global": {
         "emu": "[Emu]",
-        "adblocker": "Hey, het ziet eruit alsof jij ads blokkeert, schakel alsjeblieft je ad blocker uit op oengus aangezien wij afhangen van advertenties en donaties om te overleven."
+        "adblocker": "Hey, het ziet eruit alsof jij ads blokkeert, schakel alsjeblieft je ad blocker uit op oengus aangezien wij afhangen van advertenties en donaties om te overleven.",
+        "disabled": "Uitgeschakeld",
+        "enabled": "Ingeschakeled"
     },
     "homepage": {
         "ends": "Eindigt op {{duration}}",
@@ -657,7 +659,10 @@
                     "max": "Webhook link is te lang",
                     "marathonParameter": "Je mist de benodigde marathon parameter"
                 },
-                "botNotice": "Dit is een Oengus bot webhook, dit betekent dat de oengus bot je ingesloten berichten stuurt naar jouw gekozen kanaal"
+                "botNotice": "Dit is een Oengus bot webhook, dit betekent dat de oengus bot je ingesloten berichten stuurt naar jouw gekozen kanaal",
+                "announceAcceptedSubmissions": {
+                    "title": "Geaccepteerde runs aankondigen"
+                }
             },
             "discordRequirement": {
                 "found": {
@@ -903,8 +908,8 @@
             "deactivateAccount": {
                 "action": "Deactiveer",
                 "confirmText": "Weet je zeker dat je je account wil deactiveren? Om te bevestigen, schrijf je gebruikersnaam op en druk op \"Bevestigen\"",
-                "description": "Je account deactiveren zal voorkomen dat je kan inloggen, en moderators kunnen je dan niet toevoegen aan een marathon als moderator, of als een runner aan een schema. Alle data blijft bewaard voor consistentie, maar je sociale netwerken zullen niet meer verschijnen op schema's en in submissie lijsten. Als je je account in de toekomst weer wil gebruiken, contacteer een administrator.",
-                "title": "Deactiveer je account"
+                "description": "Je account deactiveren zal voorkomen dat je kan inloggen, en moderators kunnen je dan niet toevoegen aan een marathon als moderator, of als een runner aan een schema. Alle data blijft bewaard voor consistentie, maar je sociale netwerken zullen niet meer verschijnen op schema's en in submissie lijsten, maar zullen verbonden blijven met je account. Als je je account in de toekomst weer wil gebruiken, contacteer een administrator.",
+                "title": "Deactiveer of verwijder je account"
             },
             "email": {
                 "error": {
