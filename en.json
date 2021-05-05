@@ -138,7 +138,9 @@
     },
     "global": {
         "emu": "[Emu]",
-        "adblocker": "Hey there, it seems that you are blocking ads, please turn off your ad blocker on oengus as we rely on ads and donations to survive."
+        "adblocker": "Hey there, it seems that you are blocking ads, please turn off your ad blocker on oengus as we rely on ads and donations to survive.",
+        "enabled": "Enabled",
+        "disabled": "Disabled"
     },
     "homepage": {
         "ends": "Ends {{duration}}",
@@ -486,6 +488,9 @@
                 "private": "Discord is private"
             },
             "webhook": {
+                "announceAcceptedSubmissions": {
+                  "title": "Announce accepted runs"
+                },
                 "error": {
                     "marathonParameter": "You are missing the required marathon parameter",
                     "max": "Webhook link is too long",
