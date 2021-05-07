@@ -138,7 +138,9 @@
     },
     "global": {
         "emu": "[Emu]",
-        "adblocker": "Salut, il semble que vous bloquiez les publicités, veuillez désactiver votre bloqueur de publicités sur oengus car nous comptons sur les publicités et les dons pour survivre."
+        "adblocker": "Salut, il semble que vous bloquiez les publicités, veuillez désactiver votre bloqueur de publicités sur oengus car nous comptons sur les publicités et les dons pour survivre.",
+        "disabled": "Désactivé",
+        "enabled": "Activé"
     },
     "homepage": {
         "ends": "Se termine {{duration}}",
@@ -657,7 +659,10 @@
                     "max": "Le lien Webhook est trop long",
                     "marathonParameter": "Il vous manque le paramètre marathon requis"
                 },
-                "botNotice": "Ceci est un webhook de bot Oengus, ce qui signifie que le bot oengus enverra des incorporations aux canaux que vous spécifiez"
+                "botNotice": "Ceci est un webhook de bot Oengus, ce qui signifie que le bot oengus enverra des incorporations aux canaux que vous spécifiez",
+                "announceAcceptedSubmissions": {
+                    "title": "Annoncer les runs acceptés"
+                }
             },
             "discordRequirement": {
                 "found": {
