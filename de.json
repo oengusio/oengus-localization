@@ -138,7 +138,9 @@
     },
     "global": {
         "emu": "[Emulator]",
-        "adblocker": "Hallo, es scheint, dass Sie Anzeigen blockieren. Schalten Sie Ihren Werbeblocker bei oengus aus, da wir auf Anzeigen und Spenden angewiesen sind, um zu überleben."
+        "adblocker": "Hallo, es scheint, dass Sie Anzeigen blockieren. Schalten Sie Ihren Werbeblocker bei oengus aus, da wir auf Anzeigen und Spenden angewiesen sind, um zu überleben.",
+        "disabled": "Deaktiviert",
+        "enabled": "Aktiviert"
     },
     "homepage": {
         "ends": "Endet {{duration}}",
@@ -652,14 +654,14 @@
             "discordRequirement": {
                 "label": "Discord-Anforderung",
                 "found": {
-                    "id": "Discord Server ID: <em>{{guildId}}</em>",
-                    "name": "Discord Server Name <em>{{guildName}}</em>",
+                    "id": "Server-ID: <em>{{guildId}}</em>",
+                    "name": "Servername: <em>{{guildName}}</em>",
                     "title": "Discord Server durch Einladung gefunden"
                 },
                 "help": {
                     "3": "Dein Discord is nun öffentlich.",
-                    "2": "Deine Discord Einladung is ausgefüllt und gültig.",
-                    "1": "Oengus bot befindet sich auf deinem Discord Server. Einladungslink:",
+                    "2": "Deine Discord-Einladung is ausgefüllt und gültig.",
+                    "1": "Oengus-Bot befindet sich auf deinem Discord-Server. Einladungslink:",
                     "title": "Diese Funktion kann nur unter den folgenden Vorraussetzungen genutzt werden:"
                 },
                 "required": "Benutzer muss auf deinem Discord sein"
