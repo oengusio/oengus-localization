@@ -359,6 +359,8 @@
             "timezone": "All dates and times are given in your local timezone.",
             "title": "Schedule",
             "type": {
+                "RELAY": "Relay run",
+                "RELAY_RACE": "Relay race",
                 "COOP": "Coop run",
                 "COOP_RACE": "Coop race",
                 "OTHER": "Other",
