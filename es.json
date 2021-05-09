@@ -138,7 +138,9 @@
     },
     "global": {
         "emu": "[Emu]",
-        "adblocker": "Hey, parece que estás bloqueando los anuncios, considera desactivar tu bloqueador en Oengus ya que dependemos de los anuncios y las donaciones para sobrevivir."
+        "adblocker": "Hey, parece que estás bloqueando los anuncios, considera desactivar tu bloqueador en Oengus ya que dependemos de los anuncios y las donaciones para sobrevivir.",
+        "disabled": "Desactivado",
+        "enabled": "Activado"
     },
     "homepage": {
         "ends": "Finaliza {{duration}}",
@@ -361,7 +363,9 @@
                 "COOP_RACE": "Carrera cooperativa",
                 "OTHER": "Otros",
                 "RACE": "Carrera",
-                "SINGLE": "Run en solitario"
+                "SINGLE": "Run en solitario",
+                "RELAY_RACE": "Carrera de relevos",
+                "RELAY": "Run de relevos"
             }
         },
         "selection": {
@@ -657,6 +661,9 @@
                     "offline": "No se pudo acceder al webhook. ¿Estás seguro de que esta es la URL correcta?",
                     "max": "El enlace Webhook es demasiado largo",
                     "marathonParameter": "Falta el parámetro de maratón obligatorio"
+                },
+                "announceAcceptedSubmissions": {
+                    "title": "Anunciar runs aceptadas"
                 }
             },
             "discordRequirement": {
