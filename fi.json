@@ -2,6 +2,16 @@
     "alert": {
         "submit": {
             "SAME_USER": "Et voi lisätä itseäsi luomaasi kategoriaan"
+        },
+        "donation": {
+            "export": {
+                "error": "Tuonnin aikana tapahtui virhe. Ole hyvä ja yritä uudestaan, tai ota yhteyttä ylläpitoon."
+            }
+        },
+        "category": {
+            "deletion": {
+                "success": "Kategoria poistettu"
+            }
         }
     },
     "action": {
@@ -9,6 +19,196 @@
         "save": "Tallenna",
         "confirm": "Varmista",
         "cancel": "Peruuta",
-        "accept": "Hyväksy"
+        "accept": "Hyväksy",
+        "join": "Liity"
+    },
+    "marathon": {
+        "submit": {
+            "submissions": "Ilmoittautumiset",
+            "game": {
+                "console": {
+                    "label": "Konsoli",
+                    "emulated": "Emuloitu"
+                }
+            },
+            "category": {
+                "type": {
+                    "label": "Tyyppi"
+                },
+                "opponent": {
+                    "with": "Kanssa:"
+                },
+                "estimate": {
+                    "label": "Aika-arvio"
+                }
+            },
+            "availabilities": {
+                "to": "Mihin",
+                "label": "Saatavuus",
+                "from": "Mistä",
+                "actions": "Toiminnot"
+            }
+        },
+        "submissions": {
+            "title": "Ilmoittautumiset",
+            "tabs": {
+                "submissions": "Ilmoittautumiset",
+                "answers": "Vastaukset"
+            },
+            "table": {
+                "runner": "Pelaaja",
+                "ratio": "Kuvasuhde/resoluutio",
+                "question": "Kysymys",
+                "game": "Peli",
+                "estimate": "Aika-arvio",
+                "console": "Konsoli",
+                "category": "Kategoria",
+                "answer": "Vastaus"
+            }
+        },
+        "settings": {
+            "type": {
+                "online": "Online"
+            },
+            "tabs": {
+                "submissions": "Ilmoittautumiset",
+                "incentives": "Kannusteet",
+                "general": "Yleinen"
+            },
+            "submissions": {
+                "label": "Ilmoittautumiset"
+            },
+            "privacy": {
+                "public": "Julkinen",
+                "private": "Yksityinen"
+            },
+            "payee": {
+                "label": "Maksunsaaja"
+            },
+            "name": {
+                "label": "Nimi"
+            },
+            "multiplayer": {
+                "label": "Moninpeli"
+            },
+            "moderators": {
+                "label": "Moderaattorit"
+            },
+            "marathonDescription": {
+                "label": "Kuvaus"
+            },
+            "location": {
+                "label": "Sijainti"
+            },
+            "language": {
+                "label": "Kieli"
+            },
+            "emulatorAuthorized": {
+                "label": "Emulaattorit"
+            },
+            "customFields": {
+                "type": {
+                    "option": {
+                        "text": "Teksti",
+                        "checkbox": "Valintaruutu"
+                    }
+                },
+                "required": {
+                    "title": "Vaaditaan"
+                }
+            }
+        },
+        "selection": {
+            "status": {
+                "VALIDATED": "Hyväksytty",
+                "REJECTED": "Hylätty",
+                "BONUS": "Bonus"
+            },
+            "statistics": {
+                "title": "Tilastot"
+            }
+        },
+        "schedule": {
+            "type": {
+                "RACE": "Kisa",
+                "OTHER": "Muu"
+            },
+            "title": "Aikataulu",
+            "table": {
+                "runner": "Pelaaja(t)",
+                "game": "Peli",
+                "estimate": "Aika-arvio",
+                "console": "Konsoli",
+                "category": "Kategoria",
+                "actions": "Toiminnot"
+            },
+            "management": {
+                "schedule": "Aikataulu"
+            }
+        },
+        "menu": {
+            "settings": "Asetukset",
+            "schedule": "Aikataulu",
+            "overview": "Yleiskatsaus",
+            "moderators": "Moderaattorit",
+            "incentives": "Kannusteet",
+            "home": "Koti",
+            "donations": "Lahjoitukset",
+            "donate": "Lahjoita",
+            "admin": "Ylläpitäjä"
+        },
+        "incentives": {
+            "title": "Kannusteet",
+            "management": {
+                "table": {
+                    "locked": "Lukittu",
+                    "goal": "Tavoite",
+                    "game": "Peli",
+                    "description": "Kuvaus"
+                }
+            }
+        },
+        "home": {
+            "language": "Kieli"
+        },
+        "donations": {
+            "title": "Lahjoitukset",
+            "table": {
+                "name": "Nimi",
+                "date": "Päivämäärä"
+            }
+        },
+        "donate": {
+            "title": "Lahjoita",
+            "nickname": {
+                "label": "Nimimerkki"
+            },
+            "incentives": {
+                "title": "Kannusteet",
+                "header": {
+                    "incentive": "Kannuste",
+                    "amount": "Määrä"
+                },
+                "bid": {
+                    "new": "(Uusi)"
+                }
+            },
+            "comment": {
+                "label": "Kommentti"
+            }
+        }
+    },
+    "homepage": {
+        "sponsors": {
+            "title": "Sponsorit"
+        }
+    },
+    "global": {
+        "emu": "[EMU]"
+    },
+    "aboutPage": {
+        "about": {
+            "par1": "Oengus tarjoaa välineitä speedrun-tapahtumien organisointiin ja järjestämiseen."
+        }
     }
 }
