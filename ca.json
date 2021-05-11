@@ -405,6 +405,9 @@
                     "offline": "No puc arribar al webhook. Segur que l'enllaç és correcte?",
                     "max": "L'enllaç de webhook és massa llarg",
                     "marathonParameter": "Falta el paràmetre exigit de marató"
+                },
+                "announceAcceptedSubmissions": {
+                    "title": "Publica intents acceptats"
                 }
             },
             "discordPrivacy": {
@@ -611,7 +614,9 @@
                 "RACE": "Carrera",
                 "OTHER": "Altre",
                 "COOP_RACE": "Carrera cooperativa",
-                "COOP": "Intent cooperatiu"
+                "COOP": "Intent cooperatiu",
+                "RELAY_RACE": "Carrera de relleus",
+                "RELAY": "Carrera de relleus"
             },
             "title": "Horari",
             "timezone": "Totes les dates es mostren en la zona horària local.",
@@ -699,7 +704,9 @@
     },
     "global": {
         "adblocker": "Hola, sembla que estàs bloquejant la publicitat. Si us plau, desactiveu l'adblocker en Oengus, ja que funcionem gràcies a les donacions i els anuncis.",
-        "emu": "[Emu]"
+        "emu": "[Emu]",
+        "disabled": "Desactivat",
+        "enabled": "Activat"
     },
     "footer": {
         "text": "Tots els horaris són convertits a la teua zona horària. Zona horària detectada: {{timezone}}",
