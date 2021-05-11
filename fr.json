@@ -363,7 +363,9 @@
                 "COOP_RACE": "Course coop",
                 "OTHER": "Autre",
                 "RACE": "Course",
-                "SINGLE": "Run solo"
+                "SINGLE": "Run solo",
+                "RELAY_RACE": "Course relai",
+                "RELAY": "Relai"
             }
         },
         "selection": {
