@@ -344,7 +344,11 @@
                 },
                 "schedule": "Schedule",
                 "selectedRuns": "Selected runs",
-                "title": "Schedule management"
+                "title": "Schedule management",
+                "customData": {
+                  "inputText": "Custom data stored as text, this allows you to add \"hidden\" data to this schedule line",
+                  "text": "Hide/Show custom data fields"
+                }
             },
             "nextRun": "Next run {{duration}}",
             "setupBlock": "Setup block",
