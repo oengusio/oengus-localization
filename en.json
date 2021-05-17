@@ -163,6 +163,10 @@
             "title": "Planned features"
         },
         "sponsors": {
+            "kaspersky": {
+              "banner": "Thanks to the sponsorship of Kaspersky, Oengus v2 is now under development.",
+              "box": "Thanks to the sponsorship of Kaspersky, Oengus v2 is now under development. <a href=\"{{readMoreUrl}}\" target=\"_blank\">Read more</a>"
+            },
             "esa": "oengus.io is hosted by the <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>",
             "title": "Sponsors"
         },
