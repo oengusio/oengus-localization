@@ -680,7 +680,11 @@
         "starts": "Comença {{duration}}",
         "sponsors": {
             "title": "Anunciants",
-            "esa": "oengus.io és allotjat per la <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>"
+            "esa": "oengus.io és allotjat per la <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>",
+            "kaspersky": {
+                "box": "Gràcies al patrocini de Kaspersky, Oengus v2 es troba en desenvolupament. <a href=\"{{readMoreUrl}}\" target=\"_blank\">Llegir més</a>",
+                "banner": "Gràcies al patrocini de Kaspersky, Oengus v2 es troba en desenvolupament."
+            }
         },
         "plannedFeatures": {
             "title": "Característiques planificades",
