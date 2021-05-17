@@ -174,7 +174,11 @@
         "welcomeTitle": "Welkom bij Oengus!",
         "sponsors": {
             "title": "Sponsoren",
-            "esa": "oengus.io wordt gehost door de <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>"
+            "esa": "oengus.io wordt gehost door de <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>",
+            "kaspersky": {
+                "box": "Dankzij de sponsoring van Kaspersky, is Oengus v2 nu in ontwikkeling. <a href=\"{{readMoreUrl}}\" target=\"_blank\">Lees meer</a>",
+                "banner": "Met dank door de sponsoring van Kaspersky, is Oengus v2 nu in ontwikkeling."
+            }
         }
     },
     "login": {
@@ -363,7 +367,9 @@
                 "COOP_RACE": "Coop race",
                 "OTHER": "Overig",
                 "RACE": "Race",
-                "SINGLE": "Solo run"
+                "SINGLE": "Solo run",
+                "RELAY_RACE": "Relay race",
+                "RELAY": "Relay run"
             }
         },
         "selection": {
