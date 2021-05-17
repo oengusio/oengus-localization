@@ -174,7 +174,11 @@
         "welcomeTitle": "¡Bienvenido a Oengus!",
         "sponsors": {
             "title": "Patrocinadores",
-            "esa": "Oengus.io está gestionado por <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>"
+            "esa": "Oengus.io está gestionado por <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>",
+            "kaspersky": {
+                "box": "Gracias al patrocinio de Karpersky, Oengus v2 está ahora en desarrollo. <a href=\"{{readMoreUrl}}\" target=\"_blank\">Leer mas</a>",
+                "banner": "Gracias al patrocinio de Karpersky, Oengus v2 está ahora en desarrollo."
+            }
         }
     },
     "login": {
