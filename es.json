@@ -344,7 +344,11 @@
                 },
                 "schedule": "Horario",
                 "selectedRuns": "Runs seleccionadas",
-                "title": "Gestión de horarios"
+                "title": "Gestión de horarios",
+                "customData": {
+                    "text": "Ocultar/Mostrar campos de datos personalizados",
+                    "inputText": "Los datos personalizados son almacenados como texto, esto le permite añadir datos \"ocultos\" a esta línea del horario"
+                }
             },
             "nextRun": "Próximo run {{duration}}",
             "setupBlock": "Bloque de reserva",
