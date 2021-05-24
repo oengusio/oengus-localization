@@ -344,7 +344,11 @@
                 },
                 "schedule": "Schema",
                 "selectedRuns": "Geselecteerde runs",
-                "title": "Schema beheer"
+                "title": "Schema beheer",
+                "customData": {
+                    "text": "Verberg/Toon aangepasta data velden",
+                    "inputText": "Aangepaste gegevens opgeslagen in tekst, dit laat je \"verborgen\" data toevoegen aan deze schema-rij"
+                }
             },
             "nextRun": "Volgende run {{duration}}",
             "setupBlock": "Setup block",
