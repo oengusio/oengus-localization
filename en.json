@@ -171,6 +171,7 @@
             "title": "Sponsors"
         },
         "starts": "Starts {{duration}}",
+        "submissions_close": "Submissions close {{duration}}",
         "welcomeText": {
             "par1": "Oengus is a <b>free</b> tool to manage your speedrunning marathons from submissions to schedule.",
             "par3": "To have access to all features, please log in with the following link. You will be able to create new marathons and submit to existing ones:",
