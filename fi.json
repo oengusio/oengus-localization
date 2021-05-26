@@ -1,7 +1,13 @@
 {
     "alert": {
         "submit": {
-            "SAME_USER": "Et voi lisätä itseäsi luomaasi kategoriaan"
+            "SAME_USER": "Et voi lisätä itseäsi ilmoittamaasi kategoriaan",
+            "DISCORD_VERIFIED": "Olet Discord-palvelimella, voit nyt ilmoittautua",
+            "NOT_MULTIPLAYER": "Tämä ei ole moninpelikategoria",
+            "MAX_SIZE_REACHED": "Tässä ilmoittautumisessa on jo maksimimäärä pelaajia",
+            "DIFFERENT_MARATHON": "Tämä koodi on toista maratonia varten",
+            "CODE_NOT_FOUND": "Tätä koodia ei ole olemassa",
+            "ALREADY_IN_OPPONENTS": "Olet jo osana tätä kategoriaa"
         },
         "donation": {
             "export": {
@@ -16,6 +22,28 @@
         "incentives": {
             "delete": {
                 "success": "Kannuste poistettu"
+            }
+        },
+        "user": {
+            "update": {
+                "success": "Käyttäjätiedot päivitetty",
+                "error": "Virhe käyttäjätietojen päivityksessä"
+            },
+            "sync": {
+                "error": "Synkronisoinnin aikana tapahtui virhe. Ole hyvä ja yritä uudelleen, tai ota yhteyttä ylläpitoon.",
+                "alreadySynced": "Virhe: Tämä tunnus on jo käytössä"
+            },
+            "login": {
+                "error": "Todennuksen aikana tapahtui virhe. Ole hyvä ja yritä uudelleen, tai ota yhteyttä ylläpitoon.",
+                "disabledAccount": "Käyttäjätunnuksesi on suljettu. Jos haluat sen takaisin, ota yhteyttä ylläpitoon."
+            },
+            "deactivate": {
+                "success": "Käyttäjätunnuksesi on suljettu"
+            }
+        },
+        "submission": {
+            "deletion": {
+                "success": "Ilmoittautuminen poistettu"
             }
         }
     },
@@ -206,15 +234,44 @@
     },
     "homepage": {
         "sponsors": {
-            "title": "Sponsorit"
-        }
+            "title": "Sponsorit",
+            "kaspersky": {
+                "banner": "Oenguksen uusi versio on kehitteillä. Kiitos tuesta Kaspersky."
+            }
+        },
+        "welcomeText": {
+            "par1": "Oengus on <b>ilmainen</b> speedrun-tapahtumien hallinnointityökalu."
+        },
+        "starts": "Alkaa {{duration}}",
+        "plannedFeatures": {
+            "title": "Tulevia ominaisuuksia",
+            "7": "Lahjoitusten hallinta PayPalin kautta",
+            "6": "Sähköposti-ilmoitukset",
+            "5": "Discord-integrointi",
+            "4": "Käyttäjätunnuksen yhdistäminen Twitter/Twitch/Google kanssa",
+            "2": "Useampi valintakeino peleille (suora valinta, äänestys...)",
+            "1": "Co-op/kisojen ilmoittaminen"
+        },
+        "marathons": {
+            "upcoming": "Tulevat tapahtumat",
+            "open": "Ilmoittautuminen käynnissä",
+            "moderated": "Ylläpitämäsi tapahtumat",
+            "live": "Meneillään olevat tapahtumat",
+            "calendar": "Kalenteri"
+        },
+        "ends": "Päättyy {{duration}}"
     },
     "global": {
-        "emu": "[EMU]"
+        "emu": "[EMU]",
+        "adblocker": "Huomasimme että käytät mainosten estäjää. Arvostaisimme jos poistat sen käytöstä sivullamme, sillä sivustomme pyörii lahjoitusten ja mainostulojen avulla."
     },
     "aboutPage": {
         "about": {
             "par1": "Oengus tarjoaa välineitä speedrun-tapahtumien organisointiin ja järjestämiseen."
         }
+    },
+    "calendar": {
+        "title": "Tapahtumakalenteri",
+        "help": "Tapahtuman painaminen uudelleenohjaa sinut tapahtumasivulle"
     }
 }
