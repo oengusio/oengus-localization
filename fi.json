@@ -12,6 +12,11 @@
             "deletion": {
                 "success": "Kategoria poistettu"
             }
+        },
+        "incentives": {
+            "delete": {
+                "success": "Kannuste poistettu"
+            }
         }
     },
     "action": {
@@ -20,7 +25,8 @@
         "confirm": "Varmista",
         "cancel": "Peruuta",
         "accept": "Hyväksy",
-        "join": "Liity"
+        "join": "Liity",
+        "decline": "Peru"
     },
     "marathon": {
         "submit": {
