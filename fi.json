@@ -189,7 +189,11 @@
             "home": "Koti",
             "donations": "Lahjoitukset",
             "donate": "Lahjoita",
-            "admin": "Ylläpitäjä"
+            "admin": "Ylläpitäjä",
+            "manageSchedule": "Hallitse aikataulua",
+            "manageIncentives": "Hallitse kannusteita",
+            "loginToSubmit": "Kirjaudu sisään ilmoittaaksesi pelejä",
+            "editSubmission": "Muokkaa ilmoittautumista"
         },
         "incentives": {
             "title": "Kannusteet",
@@ -198,38 +202,98 @@
                     "locked": "Lukittu",
                     "goal": "Tavoite",
                     "game": "Peli",
-                    "description": "Kuvaus"
+                    "description": "Kuvaus",
+                    "progress": "Edistys",
+                    "isBidWar": "Lahjoitustavoite/Pottikisa",
+                    "incentive": "Kannusteen nimi",
+                    "currentAmount": "Nykyinen summa",
+                    "actions": "Toiminnot"
+                },
+                "title": "Kannusteiden hallinta",
+                "openBid": "Lahjoittajat voivat lisätä uusia potteja",
+                "name": {
+                    "error": {
+                        "required": "Nimi vaaditaan"
+                    }
+                },
+                "goal": {
+                    "error": {
+                        "required": "Lahjoitustavoite vaaditaan"
+                    }
+                },
+                "donationGoal": "Lahjoitustavoite",
+                "bidWar": "Pottikisa",
+                "action": {
+                    "add": "Lisää kannuste"
                 }
             }
         },
         "home": {
-            "language": "Kieli"
+            "language": "Kieli",
+            "to": "Mihin",
+            "location": "Sijainti",
+            "from": "Mistä"
         },
         "donations": {
             "title": "Lahjoitukset",
             "table": {
                 "name": "Nimi",
-                "date": "Päivämäärä"
-            }
+                "date": "Päivämäärä",
+                "comment": "Kommentti",
+                "amount": "Summa"
+            },
+            "total": "Lahjoitusten summa",
+            "max": "Maksimilahjoitus",
+            "export": "Vie CSV",
+            "count": "Lahjoitusten määrä",
+            "average": "Keskimääräinen lahjoitus"
         },
         "donate": {
             "title": "Lahjoita",
             "nickname": {
-                "label": "Nimimerkki"
+                "label": "Nimimerkki",
+                "error": {
+                    "pattern": "Nimimerkki voi koostua vain pienistä ja isoista kirjaimista, ja merkeistä _ ja -",
+                    "max": "Nimimerkki on liian pitkä"
+                }
             },
             "incentives": {
                 "title": "Kannusteet",
                 "header": {
                     "incentive": "Kannuste",
-                    "amount": "Määrä"
+                    "amount": "Summa",
+                    "action": "Toiminto"
                 },
                 "bid": {
                     "new": "(Uusi)"
-                }
+                },
+                "left": "Jäljellä oleva summa:",
+                "description": "Lahjoituskannusteilla voidaan lisätä peleihin haastetta ja vaikuttaa pelaajan valintoihin. Haluaisitko lahjoittaa kannustetta varten?",
+                "add": "Lisää kannuste"
             },
             "comment": {
                 "label": "Kommentti"
+            },
+            "incentiveAmount": {
+                "error": {
+                    "required": "Summa vaaditaan",
+                    "minNumber": "Summan on oltava suurempi kuin 0"
+                }
+            },
+            "extra": {
+                "description": "Tietoja ei näytetä julkisesti ja ne poistetaan kuukausi tapahtuman päättymisen jälkeen."
+            },
+            "description": "Lahjoitukset tukevat {{supportedCharity}}",
+            "amount": {
+                "label": "Lahjoitussumma",
+                "error": {
+                    "required": "Lahjoitussumma vaaditaan",
+                    "minNumber": "Lahjoitussumman on oltava suurempi kuin 0"
+                }
             }
+        },
+        "help": {
+            "isArchived": "Tämä tapahtuma on arkistoitu. Se on vain luku -tilassa."
         }
     },
     "homepage": {
@@ -240,7 +304,8 @@
             }
         },
         "welcomeText": {
-            "par1": "Oengus on <b>ilmainen</b> speedrun-tapahtumien hallinnointityökalu."
+            "par1": "Oengus on <b>ilmainen</b> speedrun-tapahtumien hallinnointityökalu.",
+            "par3": "Kirjauduthan sisään seuraavalla linkillä, jotta saat käyttöösi kaikki sivuston ominaisuudet. Voit luoda uusia tapahtumia ja ilmoittautua olemassa oleviin:"
         },
         "starts": "Alkaa {{duration}}",
         "plannedFeatures": {
@@ -259,7 +324,8 @@
             "live": "Meneillään olevat tapahtumat",
             "calendar": "Kalenteri"
         },
-        "ends": "Päättyy {{duration}}"
+        "ends": "Päättyy {{duration}}",
+        "welcomeTitle": "Tervetuloa Oengukseen!"
     },
     "global": {
         "emu": "[EMU]",
@@ -273,5 +339,8 @@
     "calendar": {
         "title": "Tapahtumakalenteri",
         "help": "Tapahtuman painaminen uudelleenohjaa sinut tapahtumasivulle"
+    },
+    "login": {
+        "authInProgress": "Todennus käynnissä, ole hyvä ja odota…"
     }
 }
