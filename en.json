@@ -120,7 +120,7 @@
             },
             "sync": {
                 "alreadySynced": "Error: This account is already used",
-                "error": "An error happened during account synchronization. Please retry or contact an administrator."
+                "error": "An error occurred during account synchronization. Usually this is caused by an ad-blocker. Please re-try with oengus whitelisted or all extensions disabled. If you have tried a browser with no extensions installed and are still seeing this error please ask for help in #bug_or_feature on the Oengus Discord server."
             },
             "update": {
                 "error": "Error during user data update",
