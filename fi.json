@@ -12,16 +12,26 @@
         "donation": {
             "export": {
                 "error": "Tuonnin aikana tapahtui virhe. Ole hyvä ja yritä uudestaan, tai ota yhteyttä ylläpitoon."
+            },
+            "validate": {
+                "success": "Lahjoituksesi on lähetetty onnistuneesti. Kiitos lahjoituksestasi!",
+                "error": "Lahjoituksen käsittelyssä tapahtui virhe. Ole hyvä ja yritä uudelleen, tai ota yhteyttä ylläpitoon."
             }
         },
         "category": {
             "deletion": {
-                "success": "Kategoria poistettu"
+                "success": "Kategoria poistettu",
+                "error": "Kategorian poistossa tapahtui virhe. Ole hyvä ja yritä uudelleen, tai ota yhteyttä ylläpitoon."
             }
         },
         "incentives": {
             "delete": {
-                "success": "Kannuste poistettu"
+                "success": "Kannuste poistettu",
+                "error": "Kannusteen poistossa tapahtui virhe. Ole hyvä ja yritä uudelleen, tai ota yhteyttä ylläpitoon."
+            },
+            "save": {
+                "success": "Kannusteet tallennettu.",
+                "error": "Kannusteen tallentamisessa tapahtui virhe. Ole hyvä ja yritä uudelleen, tai ota yhteyttä ylläpitoon."
             }
         },
         "user": {
@@ -35,7 +45,8 @@
             },
             "login": {
                 "error": "Todennuksen aikana tapahtui virhe. Ole hyvä ja yritä uudelleen, tai ota yhteyttä ylläpitoon.",
-                "disabledAccount": "Käyttäjätunnuksesi on suljettu. Jos haluat sen takaisin, ota yhteyttä ylläpitoon."
+                "disabledAccount": "Käyttäjätunnuksesi on suljettu. Jos haluat sen takaisin, ota yhteyttä ylläpitoon.",
+                "usernameExists": "Käyttäjänimi jolla yrität kirjautua on jo käytössä. Ole hyvä ja varmista, ettet ole luonut aiemmin Oengus käyttäjää toisella kirjautumistavalla. Jos luulet tämän olevan virhe, ota yhteyttä ylläpitoon."
             },
             "deactivate": {
                 "success": "Käyttäjätunnuksesi on suljettu"
@@ -43,7 +54,50 @@
         },
         "submission": {
             "deletion": {
-                "success": "Ilmoittautuminen poistettu"
+                "success": "Ilmoittautuminen poistettu",
+                "error": "Ilmoittautumisen poistossa tapahtui virhe. Ole hyvä ja yritä uudelleen, tai ota yhteyttä ylläpitoon."
+            },
+            "save": {
+                "success": "Ilmoittautuminen lähetetty",
+                "error": "Virhe ilmoittautumisessa"
+            }
+        },
+        "selection": {
+            "save": {
+                "success": "Valinta tallennettu",
+                "error": "Virhe valintojen tallennuksessa"
+            }
+        },
+        "schedule": {
+            "save": {
+                "success": "Aikataulu tallennettu",
+                "error": "Virhe aikataulun tallennuksessa"
+            },
+            "export": {
+                "error": "Viennissä tapahtui virhe. Ole hyvä ja yritä uudelleen, tai ota yhteyttä ylläpitoon."
+            }
+        },
+        "marathon": {
+            "update": {
+                "success": "Tapahtuma päivitetty",
+                "error": "Virhe tapahtuman päivityksessä"
+            },
+            "deletion": {
+                "success": "Tapahtuma poistettu",
+                "error": "Virhe tapahtuman poistossa"
+            },
+            "creation": {
+                "success": "Tapahtuma luotu",
+                "error": "Tapahtuman luonnissa tapahtui virhe"
+            }
+        },
+        "game": {
+            "export": {
+                "error": "Viennissä tapahtui virhe. Ole hyvä ja yritä uudelleen, tai ota yhteyttä ylläpitoon."
+            },
+            "deletion": {
+                "success": "Peli poistettu",
+                "error": "Pelin poistossa tapahtui virhe. Ole hyvä ja yritä uudelleen, tai ota yhteyttä ylläpitoon."
             }
         }
     },
@@ -54,7 +108,9 @@
         "cancel": "Peruuta",
         "accept": "Hyväksy",
         "join": "Liity",
-        "decline": "Peru"
+        "decline": "Peru",
+        "submit": "Ilmoita",
+        "clearAvailabilities": "Tyhjennä valitut saatavuudet"
     },
     "marathon": {
         "submit": {
@@ -333,7 +389,17 @@
     },
     "aboutPage": {
         "about": {
-            "par1": "Oengus tarjoaa välineitä speedrun-tapahtumien organisointiin ja järjestämiseen."
+            "par1": "Oengus tarjoaa välineitä speedrun-tapahtumien organisointiin ja järjestämiseen.",
+            "par6": "Triviaa: Oengus on kelttiläinen jumalhahmo, joka vastaa ajasta ja ikuisuudesta. Sopii hyvin speedruneille, eikö!",
+            "title": "Tietoa",
+            "par5": "Sivustoa ylläpitää tammikuusta 2021 alkaen <a href=\"https://twitter.com/duncte123\" target=\"_blank\">duncte123</a>.",
+            "par3": "Speedrun-maratonit ovat tapahtumia, jossa speedrun-harrastajat kokoontuvat yhteen esittelemään pelejään suurelle yleisölle joko netin välityksellä tai paikan päällä pidettävässä tapahtumassa. Tunnetuimpia speedrun-tapahtumia ovat puolen vuoden välein järjestettävät <a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick -tapahtumat</a> .",
+            "par2": "Speedrunien tavoite on pelata peli läpi mahdollisimman nopeasti huvin ja kilpailun vuoksi. Voit lukea lisää aiheesta <a href=\"https://fi.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipediasta</a>."
+        },
+        "contact": {
+            "title": "Ota yhteyttä",
+            "par2": "Kaupalliset ja viestintään liittyvät yhteydenotot osoitteeseen contact@oengus.io",
+            "par1": "Löysitkö bugin? Onko sinulla kysyttävää sivustosta? Liity <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">Discord-palvelimellemme!</a>"
         }
     },
     "calendar": {
@@ -342,5 +408,8 @@
     },
     "login": {
         "authInProgress": "Todennus käynnissä, ole hyvä ja odota…"
+    },
+    "footer": {
+        "donate": "Jos pidät Oenguksesta, voit harkita <a href=\"{{donationLink}}\" target=\"_blank\">lahjoittamista</a>"
     }
 }
