@@ -120,7 +120,7 @@
             },
             "sync": {
                 "alreadySynced": "Error: Esta cuenta ya está en uso",
-                "error": "Ha ocurrido un error durante la sincronización. Por favor, inténtelo de nuevo o contacta con un administrador."
+                "error": "Ha ocurrido un error durante la sincronización. Esto suele ocurrir debido a un bloqueador de anuncios. Por favor, inténtalo de nuevo con Oengus como sitio de confianza, o con las extensiones desactivadas. Si has intentado un navegador con ninguna extensión instalada y sigues viendo este error, por favor pide ayuda en #bug_or_feature en el servidor de Discord de Oengus."
             },
             "update": {
                 "error": "Ha ocurrido un error durante la actualización de la información de usuario",
@@ -179,7 +179,8 @@
                 "box": "Gracias al patrocinio de Karpersky, Oengus v2 está ahora en desarrollo. <a href=\"{{readMoreUrl}}\" target=\"_blank\">Leer mas</a>",
                 "banner": "Gracias al patrocinio de Karpersky, Oengus v2 está ahora en desarrollo."
             }
-        }
+        },
+        "submissions_close": "Postulaciones cierran {{duration}}"
     },
     "login": {
         "authInProgress": "Autentificación en proceso, por favor espere…"
