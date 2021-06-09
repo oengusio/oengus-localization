@@ -120,7 +120,7 @@
             },
             "sync": {
                 "alreadySynced": "Foutmelding: Dit account wordt al gebruikt",
-                "error": "Er is een fout opgetreden gedurende account synchronisatie. Probeer het opnieuw of contacteer een administrator."
+                "error": "Er is een fout opgetreden gedurende account synchronisatie. Normaliter wordt dit veroorzaakt door een ad-blocker. Probeer het opnieuw met Oengus whitelisted of met alle extensies uitgezet. Als je het in een andere browser hebt gedaan die geen extenties heeft geïnstalleerd, en je ziet deze foutmelding nog steeds, vraag dan om hulp in #bug_or_features in de Oengus Discord server."
             },
             "update": {
                 "error": "Fout tijdens het bijwerken van gebruikers data",
@@ -179,7 +179,8 @@
                 "box": "Dankzij de sponsoring van Kaspersky, is Oengus v2 nu in ontwikkeling. <a href=\"{{readMoreUrl}}\" target=\"_blank\">Lees meer</a>",
                 "banner": "Met dank door de sponsoring van Kaspersky, is Oengus v2 nu in ontwikkeling."
             }
-        }
+        },
+        "submissions_close": "Submissies sluiten {{duration}}"
     },
     "login": {
         "authInProgress": "Bezig met authenticeren, even geduld alstublieft…"
