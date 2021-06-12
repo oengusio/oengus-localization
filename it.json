@@ -42,6 +42,12 @@
                         "withCode": "Condividi questo codice con altri runner perché si uniscano a questa proposta:",
                         "noCode": "Riceverai un codice per condividere questa categoria con altri runner interessati dopo aver salvato la tua proposta"
                     }
+                },
+                "video": {
+                    "label": "Link ad un video",
+                    "error": {
+                        "required": "Link ad un video obbligatorio"
+                    }
                 }
             },
             "availabilities": {
@@ -60,7 +66,12 @@
                 "removeGame": "Rimuovi gioco",
                 "addCategory": "Aggiungi categoria"
             },
-            "dangerZone": "Impostazioni rischiose"
+            "dangerZone": "Impostazioni rischiose",
+            "customField": {
+                "error": {
+                    "required": "Campo obbligatorio"
+                }
+            }
         },
         "submissions": {
             "title": "Proposte",
