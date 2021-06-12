@@ -71,6 +71,9 @@
                 "error": {
                     "required": "Campo obbligatorio"
                 }
+            },
+            "delete": {
+                "action": "Elimina proposta"
             }
         },
         "submissions": {
