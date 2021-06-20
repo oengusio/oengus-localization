@@ -120,7 +120,7 @@
             },
             "sync": {
                 "alreadySynced": "Erreur : ce compte est déjà utilisé",
-                "error": "Une erreur est survenue lors de la synchronisation du compte. Veuillez réessayer ou contacter un administrateur."
+                "error": "Une erreur est survenue lors de la synchronisation du compte. Cela peut-être dû à l'utilisation d'un bloquer de publicités. Veuillez réessayer en désactivant vos extensions de navigateur. Si cette erreur survient toujours, veuillez demander de l'aide sur le canal #bug_or_feature du serveur Discord d'Oengus (anglophone uniquement)."
             },
             "update": {
                 "error": "Erreur lors de la mise à jour de l'utilisateur",
@@ -179,7 +179,8 @@
                 "box": "Grâce au partenariat de Kaspersky, Oengus v2 est actuellement en développement. <a href=\"{{readMoreUrl}}\" target=\"_blank\">Lire la suite</a>",
                 "banner": "Grâce au partenariat de Kaspersky, Oengus v2 est actuellement en développement."
             }
-        }
+        },
+        "submissions_close": "Fin des candidatures {{duration}}"
     },
     "login": {
         "authInProgress": "Authentification en cours, veuillez patienter…"
@@ -344,7 +345,11 @@
                 },
                 "schedule": "Planning",
                 "selectedRuns": "Runs sélectionnées",
-                "title": "Gestion du planning"
+                "title": "Gestion du planning",
+                "customData": {
+                    "text": "Cacher/Afficher les champs personnalisés",
+                    "inputText": "Données personnalisées stockées sous forme de texte, vous permettant d'ajouter des données \"cachées\" à la ligne de planning"
+                }
             },
             "nextRun": "Prochaine run {{duration}}",
             "setupBlock": "Bloc tampon",
