@@ -647,6 +647,10 @@
                     "alreadyPublished": "Ja s'ha publicat l'horari",
                     "addSetupBlock": "Afegeix-hi bloc de preparació",
                     "addRun": "Afegeix-hi intent"
+                },
+                "customData": {
+                    "text": "Amaga/Mostra els camps de dades personalitzats",
+                    "inputText": "Dades personalitzades emmagatzemades com a text, així et permeten afegir dades \"ocultes\" a aquesta línia d'horari"
                 }
             },
             "export": {
@@ -704,7 +708,8 @@
             "live": "Maratons en directe",
             "calendar": "Calendari complet"
         },
-        "ends": "Acaba {{duration}}"
+        "ends": "Acaba {{duration}}",
+        "submissions_close": "Enviaments tanquen {{duration}}"
     },
     "global": {
         "adblocker": "Hola, sembla que estàs bloquejant la publicitat. Si us plau, desactiveu l'adblocker en Oengus, ja que funcionem gràcies a les donacions i els anuncis.",
@@ -727,7 +732,7 @@
                 "error": "Error actualitzant les dades d'usuari"
             },
             "sync": {
-                "error": "Ha hagut un error durant la sincronització de comptes. Si us plau, intenta-ho de nou o contacta amb un administrador.",
+                "error": "S'ha produït un error durant la sincronització del compte. Normalment, això és causat per un bloquejador d’anuncis. Si us plau, torneu-ho a provar amb oengus afegit a la llista blanca o totes les extensions desactivades. Si heu provat un navegador sense extensions instal·lades i encara esteu veient aquest error, demaneu ajuda a #bug_or_feature al servidor Oengus Discord.",
                 "alreadySynced": "Error: Aquest compte ja és en ús"
             },
             "login": {
