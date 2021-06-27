@@ -379,7 +379,8 @@
         },
         "selection": {
             "action": {
-                "publish": "Publish selection"
+                "publish": "Publish selection",
+                "decline": "Decline TODO"
             },
             "availabilities": {
                 "help": "Click on the calendar icon next to the runners to show or hide their availabilities."
