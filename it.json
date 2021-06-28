@@ -1,7 +1,7 @@
 {
     "aboutPage": {
         "about": {
-            "par1": "Oengus è un sito che fornisce strumenti per organizzare maratone di speedrunning.",
+            "par1": "Oengus (pronunciato Angus) è un sito che fornisce strumenti per organizzare maratone di speedrunning.",
             "title": "Informazioni",
             "par6": "Curiosità: Óengus è una divinità celtica associata al tempo e al concetto di eternità. Un nome perfetto per le maratone di speedrunning!",
             "par5": "A partire da Gennaio 2021, il sito è gestito da <a href=\"https://twitter.com/duncte123\" target=\"_blank\">duncte123</a>.",
@@ -11,7 +11,7 @@
         },
         "contact": {
             "title": "Contatta",
-            "par2": "Per richieste commerciali / pubbliche relazioni, contattateci all'indirizzo contact@oengus.io",
+            "par2": "Per richieste commerciali / pubbliche relazioni, contattateci all'indirizzo <a href=\"mailto:contact@oengus.io\" target=\"_blank\">contact@oengus.io</a>. Risponderemo solo alle e-mail scritte in inglese.",
             "par1": "Hai trovato un bug? Hai domande sul sito? Entra nel nostro <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">server su Discord</a>"
         }
     },
@@ -93,7 +93,8 @@
                     "check": "Verifica!",
                     "syncNotice": [
                         "IMPORTANTE: per verificare è necessario sincronizzare il proprio account Discord nelle",
-                        "impostazioni utente"
+                        "impostazioni utente",
+                        "."
                     ],
                     "par2": "Non potrai proporre run finché non sarai nel server Discord.",
                     "par1": "Clicca su \"verifica\" per verificare la tua presenza nel server Discord di questa maratona.",
@@ -485,7 +486,8 @@
                 "help": "Clicca sull'icona a forma di calendario vicino ai runner per visualizzarne le disponibilità."
             },
             "action": {
-                "publish": "Pubblica selezione"
+                "publish": "Pubblica selezione",
+                "decline": "Rifiuta tutte \"Da Decidere\""
             },
             "publish": {
                 "help": "Clicca su \"Salva\" per salvare la tua selezione corrente in qualsiasi status. La selezione potrà essere pubblicata soltanto quando tutte le run avranno uno status diverso da \"Da decidere\". Salvataggio e pubblicazione potrebbero richiedere più tempo a seconda della quantità di run. Attenzione: pubblicare la selezione chiuderà automaticamente il periodo di proposte. Una volta pubblicata, la selezione sarà visibile a tutti gli utenti nella sezione \"Vedi proposte\"."
@@ -936,7 +938,8 @@
                 "settingsDeleteBtn": "Elimina account",
                 "body": [
                     "Stai per eliminare il tuo account Oengus.",
-                    "QUEST'AZIONE NON PUÒ ESSERE ANNULLATA!"
+                    "QUEST'AZIONE NON PUÒ ESSERE ANNULLATA!",
+                    "Digita il tuo username in questa casella per confermare di voler eliminare il tuo account."
                 ],
                 "title": "ATTENZIONE!"
             },
