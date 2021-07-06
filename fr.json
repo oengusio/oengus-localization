@@ -1,7 +1,7 @@
 {
     "aboutPage": {
         "about": {
-            "par1": "Oengus est un site donnant accès à des outils d'organisation de marathons de speedrun.",
+            "par1": "Oengus (prononcé Angus/ang·guhs) est un site donnant accès à des outils d'organisation de marathons de speedrun.",
             "par2": "Le speedrun est une pratique liée aux jeux vidéo dans laquelle le but est d'atteindre le plus rapidement possible un objectif donné, le plus souvent terminer le jeu. Plus d'informations sur <a href=\"https://fr.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipédia</a>.",
             "par3": "Les marathons de speedrun sont des évènements durant lesquels des speedrunners se relaient afin de montrer leurs runs à des spectateurs, soit en ligne ou sur site, ou les deux. Les marathons les plus populaire sont les <a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a>, organisés deux fois par an.",
             "par4": "Ce site a été créé par <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>. Acteur sur la scène speedrun depuis 2013, il a contribué à la communauté de plusieurs manières : modérateur global de <a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a> pendant trois an, créateur du <a href=\"https://twitter.com/SpeedrunWRs\">Speedrun WRs Twitter bot</a>, membre de l'association Le French Restream, qui retransmet en français des marathons internationaux, et fondateur de Bourg la Run, l'équivalent français des Games Done Quick. Après avoir accumulé cette expérience, et constaté qu'il n'existait pas de bon outil public pour organiser des marathons, il a décidé de prendre les choses en main et Oengus en est le résultat.",
@@ -11,7 +11,7 @@
         },
         "contact": {
             "par1": "Vous avez repéré une erreur ? Une question sur le site ? Rejoignez le <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">serveur Discord</a>",
-            "par2": "Pour toute autre requête, merci d'envoyer un courriel à contact@oengus.io",
+            "par2": "Pour toute autre requête, merci d'envoyer un courriel à <a href=\"mailto:contact@oengus.io\" target=\"_blank\">contact@oengus.io</a>. Nous ne répondons qu'aux mails écrits en anglais.",
             "title": "Contact"
         }
     },
@@ -379,7 +379,8 @@
         },
         "selection": {
             "action": {
-                "publish": "Publier sélection"
+                "publish": "Publier sélection",
+                "decline": "Refusé (à faire)"
             },
             "availabilities": {
                 "help": "Cliquez sur l'icone de calendrier pour afficher ou cacher leurs disponibilités."
