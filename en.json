@@ -960,7 +960,8 @@
               "title": "Connections",
               "subtitle": "These social media connections are publicly visible on your profile.",
               "visibility": "Publicly visible",
-              "select_platform": "Select a platform"
+              "select_platform": "Select a platform",
+              "username": "Username or similar"
             },
             "twitch": {
                 "disabled": {
