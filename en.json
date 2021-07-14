@@ -1,4 +1,17 @@
 {
+    "platform": {
+      "SPEEDRUNCOM": "speedrun.com",
+      "TWITTER": "Twitter",
+      "TWITCH": "Twitch",
+      "FACEBOOK": "Facebook",
+      "INSTAGRAM": "Instagram",
+      "SNAPCHAT": "Snapchat",
+      "DISCORD": "Discord",
+      "IRC": "IRC",
+      "EMAIL": "Email",
+      "PHONE": "Phone Number",
+      "GOOGLE": "Google+"
+    },
     "aboutPage": {
         "about": {
             "par1": "Oengus (pronounced Angus/ang·guhs) is a site that provides tools for organizing speedrunning marathons.",
@@ -943,6 +956,12 @@
                 }
             },
             "title": "Modify my profile",
+            "connections": {
+              "title": "Connections",
+              "subtitle": "These social media connections are publicly visible on your profile.",
+              "visibility": "Publicly visible",
+              "select_platform": "Select a platform"
+            },
             "twitch": {
                 "disabled": {
                     "help": "This field is disabled because you have synchronised your Twitch account. If your Twitch name has changed, please synchronize your Twitch account again to update it."
