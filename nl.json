@@ -1082,7 +1082,15 @@
         "CO": "Colombia",
         "BB": "Barbados",
         "AD": "Andorra",
-        "AC": "Ascension Eiland"
+        "AC": "Ascension Eiland",
+        "ER": "Eritrea",
+        "EH": "Westelijke Sahara",
+        "EG": "Egypte",
+        "EE": "Estland",
+        "EC": "Ecuador",
+        "EA": "Ceuta, Melilla",
+        "DZ": "Algerijë",
+        "DO": "Dominicaanse Republiek"
     },
     "platform": {
         "GOOGLE": "Google+",

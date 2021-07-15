@@ -1040,7 +1040,10 @@
         "AF": "Afghanistan",
         "AE": "Emirati Arabi Uniti",
         "AD": "Andorra",
-        "AC": "Isola di Ascensione"
+        "AC": "Isola di Ascensione",
+        "BO": "Bolivia",
+        "BN": "Brunei",
+        "BM": "Bermuda"
     },
     "platform": {
         "GOOGLE": "Google+",
