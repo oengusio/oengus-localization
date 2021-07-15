@@ -1,721 +1,470 @@
 {
-  "errors": {
-    "404": {
-      "body": "Siden <em>{{path}}</em> ble ikke funnet på Angus",
-      "title1": "Hold på hatten, du er for rask",
-      "title2": "Der gikk det for fort"
-    }
-  },
-  "user": {
-    "settings": {
-      "username": {
-        "label": "Brukernavn",
-        "error": {
-          "required": "Brukernavn kreves"
+    "errors": {
+        "404": {
+            "body": "Siden <em>{{path}}</em> ble ikke funnet på Angus",
+            "title1": "Hold på hatten, du er for rask",
+            "title2": "Der gikk det for fort"
         }
-      },
-      "new": {
-        "beforeWeStart": "Før vi starter…"
-      },
-      "deactivateAccount": {
-        "title": "Deaktiver din konto",
-        "action": "Deaktiver"
-      },
-      "accountSync": {
-        "unsync": "Fjern konto"
-      }
     },
-    "profile": {
-      "submissions": "Innsendelseshistorikk",
-      "filter": {
-        "temporality": {
-          "PAST": "Tidligere maraton",
-          "FUTURE": "Fremtidige maraton"
-        },
-        "status": {
-          "title": "Status"
-        }
-      },
-      "unban": "Opphev bannlysning av bruker",
-      "ban": "Bannlys bruker"
-    }
-  },
-  "navbar": {
-    "sourceCode": "Kildekode",
-    "settings": "Innstillinger",
-    "profile": "Min profil",
-    "logout": "Logg ut",
-    "login": {
-      "twitter": "Logg inn med Twitter",
-      "twitch": "Logg inn med Twitch",
-      "title": "Logg inn",
-      "discord": "Logg inn med Discord"
-    },
-    "donate": "Doner",
-    "createMarathon": "Nytt maraton",
-    "about": "Om"
-  },
-  "marathon": {
-    "submit": {
-      "table": {
-        "games": "Spill",
-        "categories": "Kategorier",
-        "actions": "Handlinger"
-      },
-      "submissions": "Innsendelser",
-      "game": {
-        "name": {
-          "label": "Spillnavn",
-          "error": {
-            "required": "Spillnavn kreves"
-          }
-        },
-        "description": {
-          "label": "Spillbeskrivelse",
-          "error": {
-            "required": "Spillbeskrivelse kreves"
-          }
-        },
-        "console": {
-          "label": "KOnsoll",
-          "emulated": "Emulert"
-        }
-      },
-      "details": "Detaljer",
-      "delete": {
-        "action": "Slett innsendelse"
-      },
-      "dangerZone": "Faresone",
-      "category": {
-        "video": {
-          "label": "Videolenke"
-        },
-        "type": {
-          "label": "Type"
-        },
-        "opponent": {
-          "with": "Med:"
-        },
-        "name": {
-          "label": "Kategorinavn"
-        },
-        "description": {
-          "label": "Kategoribeskrivelse"
-        }
-      },
-      "availabilities": {
-        "to": "Til",
-        "from": "Fra",
-        "add": "Legg til tilgjengelighet",
-        "actions": "Handlinger"
-      },
-      "action": {
-        "removeGame": "Fjern spill",
-        "addCategory": "Legg til kategori"
-      }
-    },
-    "submissions": {
-      "title": "Innsendelser",
-      "tabs": {
-        "submissions": "Innsendelser",
-        "answers": "Svar"
-      },
-      "table": {
-        "type": "Type",
-        "status": "Status",
-        "question": "Spørsmål",
-        "marathon": "Maraton",
-        "gameDescription": "Spillbeskrivelse",
-        "game": "Spill",
-        "console": "Konsoll",
-        "categoryDescription": "Kategoribeskrivelse",
-        "category": "Kategori",
-        "answer": "Svar",
-        "actions": "Handlinger"
-      },
-      "category": {
-        "delete": "Slett kategorien"
-      },
-      "export": "Eksporter til CSV"
-    },
-    "settings": {
-      "videoRequired": {
-        "label": "Videokrav",
-        "allowed": "Video kreves"
-      },
-      "unlimited": "Ubegrenset",
-      "type": {
-        "label": "Maratonstype"
-      },
-      "twitter": {
-        "error": {
-          "pattern": "Twitter-navnet er ugyldig",
-          "max": "Twitter-navnet er for langt"
-        }
-      },
-      "twitch": {
-        "error": {
-          "pattern": "Twitch-navnet er ugyldig",
-          "max": "Twitch-navnet er for langt"
-        }
-      },
-      "title": "Maratoninnstillinger",
-      "tabs": {
-        "submissions": "Innsendelser",
-        "general": "Generelt",
-        "dangerZone": "Faresone"
-      },
-      "submissionsTitle": "Innsendelsesinnstillinger",
-      "submissions": {
-        "label": "Innsendelser"
-      },
-      "startDate": {
-        "label": "Startdato"
-      },
-      "privacy": {
-        "public": "Offentlig",
-        "private": "Privat"
-      },
-      "name": {
-        "label": "Navn",
-        "error": {
-          "required": "Skriv inn et maratonsnavn",
-          "pattern": "Maratonsnavnet er ugyldig",
-          "min": "Maratonsnavnet er for kort",
-          "max": "Martatonsnavnet er for langt"
-        }
-      },
-      "multiplayer": {
-        "label": "Flerspiller"
-      },
-      "moderators": {
-        "label": "Moderatorer"
-      },
-      "marathonDescription": {
-        "label": "Beskrivelse",
-        "help": "Markdown støttes"
-      },
-      "language": {
-        "label": "Språk"
-      },
-      "incentives": {
-        "hasIncentives": "Maratonet har insentiver"
-      },
-      "generalTitle": "Generelle innstillinger",
-      "emulatorAuthorized": {
-        "label": "Emulatorer"
-      },
-      "discordRequirement": {
-        "label": "Discord-krav"
-      },
-      "discord": {
-        "error": {
-          "pattern": "Discord-lenken er ugyldig"
-        }
-      },
-      "delete": {
-        "action": "Slett maraton"
-      },
-      "defaultSetupTime": {
-        "label": "Forvalgt oppsettstid"
-      },
-      "dangerZone": "Faresone",
-      "customFields": {
-        "type": {
-          "option": {
-            "textArea": "Tekstområde",
-            "text": "Tekst",
-            "select": "Velg",
-            "checkbox": "Avkryssningsboks"
-          }
-        },
-        "title": "Egendefinerte felter",
-        "required": {
-          "title": "Påkrevt"
-        },
-        "option": {
-          "error": {
-            "required": "Handlingsnavn kreves"
-          }
-        },
-        "label": {
-          "type": "Type",
-          "title": "Etikett",
-          "error": {
-            "required": "Etikett kreves"
-          }
-        },
-        "add": "Legg til nytt egendefinert felt",
-        "action": {
-          "title": "Handling"
-        }
-      },
-      "currencyIso": {
-        "label": "Valutakode",
-        "error": {
-          "required": "Angi en valutakode",
-          "max": "Landskoden er for lang"
-        }
-      },
-      "country": {
-        "label": "Land"
-      }
-    },
-    "selection": {
-      "status": {
-        "VALIDATED": "GOdtatt",
-        "REJECTED": "Avslått",
-        "BONUS": "Bonus"
-      },
-      "statistics": {
-        "title": "Statistikk",
-        "table": {
-          "totalTime": "Totaltid",
-          "marathonLength": "Maratonslengde"
-        }
-      }
-    },
-    "schedule": {
-      "table": {
-        "type": "Type",
-        "time": "Tid",
-        "game": "Spill",
-        "console": "Konsoll",
-        "category": "Kategori",
-        "actions": "Handlinger"
-      },
-      "export": {
-        "json": "Eksporter til JSON (Horaro)",
-        "ics": "Eksporter til ICS",
-        "csv": "Eksporter til CSV"
-      }
-    },
-    "new": {
-      "title": "Opprett et nytt maraton"
-    },
-    "menu": {
-      "viewSubmissions": "Vis innsendelser",
-      "settings": "Innstillinger",
-      "overview": "Oversikt",
-      "moderators": "Moderatorer",
-      "manageIncentives": "Håndter insentiver",
-      "incentives": "Insentiver",
-      "home": "Hjem",
-      "editSubmission": "Rediger innsendelse",
-      "donations": "Donasjoner",
-      "donate": "Doner",
-      "admin": "Administrasjon"
-    },
-    "incentives": {
-      "title": "Insentiver",
-      "management": {
-        "title": "Insentivhåndtering",
-        "table": {
-          "progress": "Framdrift",
-          "locked": "Låst",
-          "goal": "Mål",
-          "game": "Spill",
-          "description": "Beskrivelse",
-          "currentAmount": "Nåværende beløp",
-          "actions": "Handlinger"
-        },
-        "name": {
-          "error": {
-            "required": "Navn kreves"
-          }
-        },
-        "bidWar": "Budkrig",
-        "bidName": {
-          "error": {
-            "required": "Skriv inn et budnavn"
-          }
-        },
-        "action": {
-          "add": "Legg til insentiv"
-        }
-      }
-    },
-    "home": {
-      "language": "Språk",
-      "from": "Fra"
-    },
-    "donations": {
-      "title": "Donasjoner",
-      "table": {
-        "name": "Navn",
-        "date": "Dato",
-        "comment": "Kommentar",
-        "amount": "Beløp"
-      },
-      "export": "Eksporter som CSV",
-      "count": "Antall donasjoner",
-      "average": "Gjennomsnittlig donasjon"
-    },
-    "donate": {
-      "title": "Doner",
-      "nickname": {
-        "label": "Kallenavn",
-        "error": {
-          "max": "Kallenavnet er for langt"
-        }
-      },
-      "extra": {
-        "title": "Ekstra info"
-      },
-      "description": "Donasjoner støtter {{supportedCharity}}",
-      "comment": {
-        "label": "Kommentar"
-      },
-      "amount": {
-        "error": {
-          "required": "Skriv inn et donasjonsbeløp"
-        },
-        "label": "Donasjonsbeløp"
-      }
-    }
-  },
-  "homepage": {
-    "welcomeTitle": "Velkommen til Oengus.",
-    "starts": "Starter {{duration}}",
-    "sponsors": {
-      "title": "Sponsorer"
-    },
-    "plannedFeatures": {
-      "6": "E-postmerknader",
-      "5": "Discord-integrasjon"
-    },
-    "marathons": {
-      "upcoming": "Kommende maraton",
-      "open": "Åpen for innsendelser",
-      "moderated": "Modererte maraton",
-      "live": "Sanntidsmaraton",
-      "calendar": "Full kalender"
-    },
-    "ends": "Slutter {{duration}}"
-  },
-  "alert": {
     "user": {
-      "update": {
-        "success": "Brukerdata oppdatert"
-      },
-      "deactivate": {
-        "success": "Kontoen din har blitt deaktivert"
-      }
+        "settings": {
+            "username": {
+                "label": "Brukernavn",
+                "error": {
+                    "required": "Brukernavn kreves"
+                }
+            },
+            "new": {
+                "beforeWeStart": "Før vi starter…"
+            },
+            "deactivateAccount": {
+                "title": "Deaktiver din konto",
+                "action": "Deaktiver"
+            },
+            "accountSync": {
+                "unsync": "Fjern konto"
+            }
+        },
+        "profile": {
+            "submissions": "Innsendelseshistorikk",
+            "filter": {
+                "temporality": {
+                    "PAST": "Tidligere maraton",
+                    "FUTURE": "Fremtidige maraton"
+                },
+                "status": {
+                    "title": "Status"
+                }
+            },
+            "unban": "Opphev bannlysning av bruker",
+            "ban": "Bannlys bruker"
+        }
     },
-    "submit": {
-      "SAME_USER": "Du kan ikke legge deg selv til i en kategori du har opprettet",
-      "NOT_MULTIPLAYER": "Dette er ikke en flerspiller-kategori",
-      "DIFFERENT_MARATHON": "Denne koden er for et annet maraton",
-      "CODE_NOT_FOUND": "Denne koden finnes ikke",
-      "ALREADY_IN_OPPONENTS": "Du er allerede en del av denne kategorien"
-    },
-    "submission": {
-      "save": {
-        "success": "Innsendelse sendt"
-      },
-      "deletion": {
-        "success": "Innsendelse slettet"
-      }
-    },
-    "selection": {
-      "save": {
-        "success": "Utvalg lagret"
-      }
+    "navbar": {
+        "sourceCode": "Kildekode",
+        "settings": "Innstillinger",
+        "profile": "Min profil",
+        "logout": "Logg ut",
+        "login": {
+            "twitter": "Logg inn med Twitter",
+            "twitch": "Logg inn med Twitch",
+            "title": "Logg inn",
+            "discord": "Logg inn med Discord"
+        },
+        "donate": "Doner",
+        "createMarathon": "Nytt maraton",
+        "about": "Om"
     },
     "marathon": {
-      "update": {
-        "success": "Maraton oppdatert"
-      },
-      "deletion": {
-        "success": "Maraton slettet"
-      },
-      "creation": {
-        "success": "Maraton opprettet"
-      }
+        "submit": {
+            "table": {
+                "games": "Spill",
+                "categories": "Kategorier",
+                "actions": "Handlinger"
+            },
+            "submissions": "Innsendelser",
+            "game": {
+                "name": {
+                    "label": "Spillnavn",
+                    "error": {
+                        "required": "Spillnavn kreves"
+                    }
+                },
+                "description": {
+                    "label": "Spillbeskrivelse",
+                    "error": {
+                        "required": "Spillbeskrivelse kreves"
+                    }
+                },
+                "console": {
+                    "label": "KOnsoll",
+                    "emulated": "Emulert"
+                }
+            },
+            "details": "Detaljer",
+            "delete": {
+                "action": "Slett innsendelse"
+            },
+            "dangerZone": "Faresone",
+            "category": {
+                "video": {
+                    "label": "Videolenke"
+                },
+                "type": {
+                    "label": "Type"
+                },
+                "opponent": {
+                    "with": "Med:"
+                },
+                "name": {
+                    "label": "Kategorinavn"
+                },
+                "description": {
+                    "label": "Kategoribeskrivelse"
+                }
+            },
+            "availabilities": {
+                "to": "Til",
+                "from": "Fra",
+                "add": "Legg til tilgjengelighet",
+                "actions": "Handlinger"
+            },
+            "action": {
+                "removeGame": "Fjern spill",
+                "addCategory": "Legg til kategori"
+            }
+        },
+        "submissions": {
+            "title": "Innsendelser",
+            "tabs": {
+                "submissions": "Innsendelser",
+                "answers": "Svar"
+            },
+            "table": {
+                "type": "Type",
+                "status": "Status",
+                "question": "Spørsmål",
+                "marathon": "Maraton",
+                "gameDescription": "Spillbeskrivelse",
+                "game": "Spill",
+                "console": "Konsoll",
+                "categoryDescription": "Kategoribeskrivelse",
+                "category": "Kategori",
+                "answer": "Svar",
+                "actions": "Handlinger"
+            },
+            "category": {
+                "delete": "Slett kategorien"
+            },
+            "export": "Eksporter til CSV"
+        },
+        "settings": {
+            "videoRequired": {
+                "label": "Videokrav",
+                "allowed": "Video kreves"
+            },
+            "unlimited": "Ubegrenset",
+            "type": {
+                "label": "Maratonstype"
+            },
+            "twitter": {
+                "error": {
+                    "pattern": "Twitter-navnet er ugyldig",
+                    "max": "Twitter-navnet er for langt"
+                }
+            },
+            "twitch": {
+                "error": {
+                    "pattern": "Twitch-navnet er ugyldig",
+                    "max": "Twitch-navnet er for langt"
+                }
+            },
+            "title": "Maratoninnstillinger",
+            "tabs": {
+                "submissions": "Innsendelser",
+                "general": "Generelt",
+                "dangerZone": "Faresone"
+            },
+            "submissionsTitle": "Innsendelsesinnstillinger",
+            "submissions": {
+                "label": "Innsendelser"
+            },
+            "startDate": {
+                "label": "Startdato"
+            },
+            "privacy": {
+                "public": "Offentlig",
+                "private": "Privat"
+            },
+            "name": {
+                "label": "Navn",
+                "error": {
+                    "required": "Skriv inn et maratonsnavn",
+                    "pattern": "Maratonsnavnet er ugyldig",
+                    "min": "Maratonsnavnet er for kort",
+                    "max": "Martatonsnavnet er for langt"
+                }
+            },
+            "multiplayer": {
+                "label": "Flerspiller"
+            },
+            "moderators": {
+                "label": "Moderatorer"
+            },
+            "marathonDescription": {
+                "label": "Beskrivelse",
+                "help": "Markdown støttes"
+            },
+            "language": {
+                "label": "Språk"
+            },
+            "incentives": {
+                "hasIncentives": "Maratonet har insentiver"
+            },
+            "generalTitle": "Generelle innstillinger",
+            "emulatorAuthorized": {
+                "label": "Emulatorer"
+            },
+            "discordRequirement": {
+                "label": "Discord-krav"
+            },
+            "discord": {
+                "error": {
+                    "pattern": "Discord-lenken er ugyldig"
+                }
+            },
+            "delete": {
+                "action": "Slett maraton"
+            },
+            "defaultSetupTime": {
+                "label": "Forvalgt oppsettstid"
+            },
+            "dangerZone": "Faresone",
+            "customFields": {
+                "type": {
+                    "option": {
+                        "textArea": "Tekstområde",
+                        "text": "Tekst",
+                        "select": "Velg",
+                        "checkbox": "Avkryssningsboks"
+                    }
+                },
+                "title": "Egendefinerte felter",
+                "required": {
+                    "title": "Påkrevt"
+                },
+                "option": {
+                    "error": {
+                        "required": "Handlingsnavn kreves"
+                    }
+                },
+                "label": {
+                    "type": "Type",
+                    "title": "Etikett",
+                    "error": {
+                        "required": "Etikett kreves"
+                    }
+                },
+                "add": "Legg til nytt egendefinert felt",
+                "action": {
+                    "title": "Handling"
+                }
+            },
+            "currencyIso": {
+                "label": "Valutakode",
+                "error": {
+                    "required": "Angi en valutakode",
+                    "max": "Landskoden er for lang"
+                }
+            },
+            "country": {
+                "label": "Land"
+            }
+        },
+        "selection": {
+            "status": {
+                "VALIDATED": "GOdtatt",
+                "REJECTED": "Avslått",
+                "BONUS": "Bonus"
+            },
+            "statistics": {
+                "title": "Statistikk",
+                "table": {
+                    "totalTime": "Totaltid",
+                    "marathonLength": "Maratonslengde"
+                }
+            }
+        },
+        "schedule": {
+            "table": {
+                "type": "Type",
+                "time": "Tid",
+                "game": "Spill",
+                "console": "Konsoll",
+                "category": "Kategori",
+                "actions": "Handlinger"
+            },
+            "export": {
+                "json": "Eksporter til JSON (Horaro)",
+                "ics": "Eksporter til ICS",
+                "csv": "Eksporter til CSV"
+            }
+        },
+        "new": {
+            "title": "Opprett et nytt maraton"
+        },
+        "menu": {
+            "viewSubmissions": "Vis innsendelser",
+            "settings": "Innstillinger",
+            "overview": "Oversikt",
+            "moderators": "Moderatorer",
+            "manageIncentives": "Håndter insentiver",
+            "incentives": "Insentiver",
+            "home": "Hjem",
+            "editSubmission": "Rediger innsendelse",
+            "donations": "Donasjoner",
+            "donate": "Doner",
+            "admin": "Administrasjon"
+        },
+        "incentives": {
+            "title": "Insentiver",
+            "management": {
+                "title": "Insentivhåndtering",
+                "table": {
+                    "progress": "Framdrift",
+                    "locked": "Låst",
+                    "goal": "Mål",
+                    "game": "Spill",
+                    "description": "Beskrivelse",
+                    "currentAmount": "Nåværende beløp",
+                    "actions": "Handlinger"
+                },
+                "name": {
+                    "error": {
+                        "required": "Navn kreves"
+                    }
+                },
+                "bidWar": "Budkrig",
+                "bidName": {
+                    "error": {
+                        "required": "Skriv inn et budnavn"
+                    }
+                },
+                "action": {
+                    "add": "Legg til insentiv"
+                }
+            }
+        },
+        "home": {
+            "language": "Språk",
+            "from": "Fra"
+        },
+        "donations": {
+            "title": "Donasjoner",
+            "table": {
+                "name": "Navn",
+                "date": "Dato",
+                "comment": "Kommentar",
+                "amount": "Beløp"
+            },
+            "export": "Eksporter som CSV",
+            "count": "Antall donasjoner",
+            "average": "Gjennomsnittlig donasjon"
+        },
+        "donate": {
+            "title": "Doner",
+            "nickname": {
+                "label": "Kallenavn",
+                "error": {
+                    "max": "Kallenavnet er for langt"
+                }
+            },
+            "extra": {
+                "title": "Ekstra info"
+            },
+            "description": "Donasjoner støtter {{supportedCharity}}",
+            "comment": {
+                "label": "Kommentar"
+            },
+            "amount": {
+                "error": {
+                    "required": "Skriv inn et donasjonsbeløp"
+                },
+                "label": "Donasjonsbeløp"
+            }
+        }
     },
-    "game": {
-      "deletion": {
-        "success": "Spill slettet"
-      }
+    "homepage": {
+        "welcomeTitle": "Velkommen til Oengus.",
+        "starts": "Starter {{duration}}",
+        "sponsors": {
+            "title": "Sponsorer"
+        },
+        "plannedFeatures": {
+            "6": "E-postmerknader",
+            "5": "Discord-integrasjon"
+        },
+        "marathons": {
+            "upcoming": "Kommende maraton",
+            "open": "Åpen for innsendelser",
+            "moderated": "Modererte maraton",
+            "live": "Sanntidsmaraton",
+            "calendar": "Full kalender"
+        },
+        "ends": "Slutter {{duration}}"
     },
-    "donation": {
-      "validate": {
-        "success": "Din donasjon ble sendt. Takk skal du ha."
-      }
+    "alert": {
+        "user": {
+            "update": {
+                "success": "Brukerdata oppdatert"
+            },
+            "deactivate": {
+                "success": "Kontoen din har blitt deaktivert"
+            }
+        },
+        "submit": {
+            "SAME_USER": "Du kan ikke legge deg selv til i en kategori du har opprettet",
+            "NOT_MULTIPLAYER": "Dette er ikke en flerspiller-kategori",
+            "DIFFERENT_MARATHON": "Denne koden er for et annet maraton",
+            "CODE_NOT_FOUND": "Denne koden finnes ikke",
+            "ALREADY_IN_OPPONENTS": "Du er allerede en del av denne kategorien"
+        },
+        "submission": {
+            "save": {
+                "success": "Innsendelse sendt"
+            },
+            "deletion": {
+                "success": "Innsendelse slettet"
+            }
+        },
+        "selection": {
+            "save": {
+                "success": "Utvalg lagret"
+            }
+        },
+        "marathon": {
+            "update": {
+                "success": "Maraton oppdatert"
+            },
+            "deletion": {
+                "success": "Maraton slettet"
+            },
+            "creation": {
+                "success": "Maraton opprettet"
+            }
+        },
+        "game": {
+            "deletion": {
+                "success": "Spill slettet"
+            }
+        },
+        "donation": {
+            "validate": {
+                "success": "Din donasjon ble sendt. Takk skal du ha."
+            }
+        },
+        "category": {
+            "deletion": {
+                "success": "Kategori slettet"
+            }
+        }
     },
-    "category": {
-      "deletion": {
-        "success": "Kategori slettet"
-      }
+    "action": {
+        "submit": "Send inn",
+        "sendTweet": "Send tvitring",
+        "save": "Lagre",
+        "join": "Ta del",
+        "decline": "Avslå",
+        "confirm": "Bekreft",
+        "cancel": "Avbryt",
+        "accept": "Godta"
+    },
+    "aboutPage": {
+        "contact": {
+            "title": "Kontakt"
+        },
+        "about": {
+            "title": "Om"
+        }
     }
-  },
-  "action": {
-    "submit": "Send inn",
-    "sendTweet": "Send tvitring",
-    "save": "Lagre",
-    "join": "Ta del",
-    "decline": "Avslå",
-    "confirm": "Bekreft",
-    "cancel": "Avbryt",
-    "accept": "Godta"
-  },
-  "aboutPage": {
-    "contact": {
-      "title": "Kontakt"
-    },
-    "about": {
-      "title": "Om"
-    }
-  },
-  "country": {
-    "AF": "Afghanistan",
-    "AL": "Albania",
-    "DZ": "Algerie",
-    "AS": "Amerikansk Samoa",
-    "AD": "Andorra",
-    "AO": "Angola",
-    "AI": "Anguilla",
-    "AQ": "Antarktika",
-    "AG": "Antigua og Barbuda",
-    "AR": "Argentina",
-    "AM": "Armenia",
-    "AW": "Aruba",
-    "AZ": "Aserbajdsjan",
-    "AU": "Australia",
-    "BS": "Bahamas",
-    "BH": "Bahrain",
-    "BD": "Bangladesh",
-    "BB": "Barbados",
-    "BE": "Belgia",
-    "BZ": "Belize",
-    "BJ": "Benin",
-    "BM": "Bermuda",
-    "BT": "Bhutan",
-    "BO": "Bolivia",
-    "BQ": "Bonaire, Sint Eustatius og Saba",
-    "BA": "Bosnia-Hercegovina",
-    "BW": "Botswana",
-    "BV": "Bouvetøya",
-    "BR": "Brasil",
-    "BN": "Brunei",
-    "BG": "Bulgaria",
-    "BF": "Burkina Faso",
-    "BI": "Burundi",
-    "CA": "Canada",
-    "KY": "Caymanøyene",
-    "CL": "Chile",
-    "CX": "Christmasøya",
-    "CO": "Colombia",
-    "CK": "Cookøyene",
-    "CR": "Costa Rica",
-    "CU": "Cuba",
-    "CW": "Curaçao",
-    "DK": "Danmark",
-    "AE": "De forente arabiske emirater",
-    "TF": "De franske sørterritorier",
-    "PS": "De palestinske territoriene",
-    "DO": "Den dominikanske republikk",
-    "CF": "Den sentralafrikanske republikk",
-    "IO": "Det britiske territoriet i Indiahavet",
-    "DJ": "Djibouti",
-    "DM": "Dominica",
-    "EC": "Ecuador",
-    "EG": "Egypt",
-    "GQ": "Ekvatorial-Guinea",
-    "CI": "Elfenbenskysten",
-    "SV": "El Salvador",
-    "ER": "Eritrea",
-    "EE": "Estland",
-    "ET": "Etiopia",
-    "FK": "Falklandsøyene",
-    "FJ": "Fiji",
-    "PH": "Filippinene",
-    "FI": "Finland",
-    "FR": "Frankrike",
-    "GF": "Fransk Guyana",
-    "PF": "Fransk Polynesia",
-    "FO": "Færøyene",
-    "GA": "Gabon",
-    "GM": "Gambia",
-    "GE": "Georgia",
-    "GH": "Ghana",
-    "GI": "Gibraltar",
-    "GD": "Grenada",
-    "GL": "Grønland",
-    "GP": "Guadeloupe",
-    "GU": "Guam",
-    "GT": "Guatemala",
-    "GG": "Guernsey",
-    "GN": "Guinea",
-    "GW": "Guinea-Bissau",
-    "GY": "Guyana",
-    "HT": "Haiti",
-    "HM": "Heard- og McDonaldøyene",
-    "GR": "Hellas",
-    "HN": "Honduras",
-    "HK": "Hongkong",
-    "BY": "Hviterussland",
-    "IN": "India",
-    "ID": "Indonesia",
-    "IQ": "Irak",
-    "IR": "Iran",
-    "IE": "Irland",
-    "IS": "Island",
-    "IL": "Israel",
-    "IT": "Italia",
-    "JM": "Jamaica",
-    "JP": "Japan",
-    "YE": "Jemen",
-    "JE": "Jersey",
-    "VI": "Jomfruøyene, De amerikanske",
-    "VG": "Jomfruøyene, De britiske",
-    "JO": "Jordan",
-    "KH": "Kambodsja",
-    "CM": "Kamerun",
-    "CV": "Kapp Verde",
-    "KZ": "Kasakhstan",
-    "KE": "Kenya",
-    "CN": "Kina",
-    "KG": "Kirgisistan",
-    "KI": "Kiribati",
-    "CC": "Kokosøyene",
-    "KM": "Komorene",
-    "CD": "Kongo, Den demokratiske republikken",
-    "CG": "Kongo, Republikken",
-    "HR": "Kroatia",
-    "KW": "Kuwait",
-    "CY": "Kypros",
-    "LA": "Laos",
-    "LV": "Latvia",
-    "LS": "Lesotho",
-    "LB": "Libanon",
-    "LR": "Liberia",
-    "LY": "Libya",
-    "LI": "Liechtenstein",
-    "LT": "Litauen",
-    "LU": "Luxembourg",
-    "MO": "Macao",
-    "MG": "Madagaskar",
-    "MK": "Makedonia, Republikken",
-    "MW": "Malawi",
-    "MY": "Malaysia",
-    "MV": "Maldivene",
-    "ML": "Mali",
-    "MT": "Malta",
-    "IM": "Man",
-    "MA": "Marokko",
-    "MH": "Marshalløyene",
-    "MQ": "Martinique",
-    "MR": "Mauritania",
-    "MU": "Mauritius",
-    "YT": "Mayotte",
-    "MX": "Mexico",
-    "FM": "Mikronesiaføderasjonen",
-    "MD": "Moldova",
-    "MC": "Monaco",
-    "MN": "Mongolia",
-    "ME": "Montenegro",
-    "MS": "Montserrat",
-    "MZ": "Mosambik",
-    "MM": "Myanmar",
-    "NA": "Namibia",
-    "NR": "Nauru",
-    "NP": "Nepal",
-    "NL": "Nederland",
-    "NZ": "New Zealand",
-    "NI": "Nicaragua",
-    "NE": "Niger",
-    "NG": "Nigeria",
-    "NU": "Niue",
-    "KP": "Nord-Korea",
-    "MP": "Nord-Marianene",
-    "NF": "Norfolkøya",
-    "NO": "Norge",
-    "NC": "Ny-Caledonia",
-    "OM": "Oman",
-    "PK": "Pakistan",
-    "PW": "Palau",
-    "PA": "Panama",
-    "PG": "Papua Ny-Guinea",
-    "PY": "Paraguay",
-    "PE": "Peru",
-    "PN": "Pitcairnøyene",
-    "PL": "Polen",
-    "PT": "Portugal",
-    "PR": "Puerto Rico",
-    "QA": "Qatar",
-    "RE": "Réunion",
-    "RO": "Romania",
-    "RU": "Russland",
-    "RW": "Rwanda",
-    "BL": "Saint-Barthélemy",
-    "SH": "St. Helena, Ascension og Tristan da Cunha",
-    "KN": "Saint Kitts og Nevis",
-    "LC": "Saint Lucia",
-    "MF": "Saint-Martin",
-    "PM": "Saint-Pierre og Miquelon",
-    "VC": "Saint Vincent og Grenadinene",
-    "SB": "Salomonøyene",
-    "WS": "Samoa",
-    "SM": "San Marino",
-    "ST": "São Tomé og Príncipe",
-    "SA": "Saudi-Arabia",
-    "SN": "Senegal",
-    "RS": "Serbia",
-    "SC": "Seychellene",
-    "SL": "Sierra Leone",
-    "SG": "Singapore",
-    "SX": "Sint Maarten",
-    "SK": "Slovakia",
-    "SI": "Slovenia",
-    "SO": "Somalia",
-    "ES": "Spania",
-    "LK": "Sri Lanka",
-    "GB": "Storbritannia",
-    "SD": "Sudan",
-    "SR": "Surinam",
-    "SJ": "Svalbard og Jan Mayen",
-    "CH": "Sveits",
-    "SE": "Sverige",
-    "SZ": "Eswatini",
-    "SY": "Syria",
-    "ZA": "Sør-Afrika",
-    "GS": "Sør-Georgia og Sør-Sandwichøyene",
-    "KR": "Sør-Korea",
-    "SS": "Sør-Sudan",
-    "TJ": "Tadsjikistan",
-    "TW": "Taiwan",
-    "TZ": "Tanzania",
-    "TH": "Thailand",
-    "TG": "Togo",
-    "TK": "Tokelau",
-    "TO": "Tonga",
-    "TT": "Trinidad og Tobago",
-    "TD": "Tsjad",
-    "CZ": "Tsjekkia",
-    "TN": "Tunisia",
-    "TM": "Turkmenistan",
-    "TC": "Turks- og Caicosøyene",
-    "TV": "Tuvalu",
-    "TR": "Tyrkia",
-    "DE": "Tyskland",
-    "UG": "Uganda",
-    "UA": "Ukraina",
-    "HU": "Ungarn",
-    "UY": "Uruguay",
-    "US": "USA",
-    "UM": "USAs ytre småøyer",
-    "UZ": "Usbekistan",
-    "VU": "Vanuatu",
-    "VA": "Vatikanstaten",
-    "VE": "Venezuela",
-    "EH": "Vest-Sahara",
-    "VN": "Vietnam",
-    "WF": "Wallis og Futuna",
-    "ZM": "Zambia",
-    "ZW": "Zimbabwe",
-    "AT": "Østerrike",
-    "TL": "Øst-Timor",
-    "AX": "Åland"
-  }
 }
