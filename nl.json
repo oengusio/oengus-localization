@@ -989,6 +989,23 @@
                 ],
                 "title": "OPGEPAST!",
                 "settingsDeleteBtn": "Account verwijderen"
+            },
+            "discord": {
+                "disabled": {
+                    "help": "Dit veld is uitgeschakeld omdat jij je Discord account hebt gesynchroniseerd. Als je Discord naam veranderd is, synchroniseer dan opnieuw om deze te updaten."
+                }
+            },
+            "pronouns": {
+                "no_results": "Geen voornaamswoorden gevonden",
+                "hint": "Zoek naar een voornaamswoord, voorbeeld: zij/hun",
+                "title": "Pronouns"
+            },
+            "connections": {
+                "username": "Gebruikersnaam of soortgelijk",
+                "select_platform": "Selecteer een platform",
+                "visibility": "Publiekelijk zichtbaar",
+                "subtitle": "Deze social media connecties zijn publiekelijk op je profiel.",
+                "title": "Connecties"
             }
         }
     },
@@ -1005,5 +1022,78 @@
             "title1": "Kalm aan, je bent te snel",
             "title0": "Jouw wereld record is afgekeurd"
         }
+    },
+    "country": {
+        "CX": "Kerstmis Eiland",
+        "CW": "Curaçao",
+        "CV": "Kaapverdië",
+        "CN": "China",
+        "CM": "Kameroen",
+        "CL": "Chili",
+        "CK": "Cook Eilanden",
+        "CI": "Ivoorkust",
+        "CH": "Zwitserland",
+        "CG": "Congo",
+        "CF": "Centraal-Afrikaanse Republiek",
+        "CD": "Congo, de Democratische Republiek van de",
+        "CC": "Cocos Eilanden",
+        "CA": "Canada",
+        "BZ": "Belize",
+        "BY": "Wit-Rusland",
+        "BW": "Botswana",
+        "BV": "Bouvet Eiland",
+        "BU": "Burma",
+        "BT": "Bhutan",
+        "BS": "Bahamas",
+        "BR": "Brazilië",
+        "BQ": "Bonaire, Sint Eustatius en Saba",
+        "BO": "Bolivia, Plurinationale Staat van",
+        "BN": "Brunei Darussalam",
+        "BM": "Bermuda",
+        "BL": "Saint Barthélemy",
+        "BJ": "Benin",
+        "BI": "Burundi",
+        "BH": "Bahrein",
+        "BG": "Bulgarijë",
+        "BF": "Burkina Faso",
+        "BE": "België",
+        "BD": "Bangladesh",
+        "BA": "Bosnië en Herzegovina",
+        "AZ": "Azerbeidzjan",
+        "AX": "Åland-eilanden",
+        "AW": "Aruba",
+        "AU": "Australië",
+        "AT": "Oostenrijk",
+        "AS": "Amerikaans Samoa",
+        "AR": "Argentinië",
+        "AQ": "Antarctica",
+        "AO": "Angola",
+        "AN": "Nederlandse Antillen",
+        "AM": "Armenië",
+        "AL": "Albanië",
+        "AI": "Anguilla",
+        "AG": "Antigua en Barbuda",
+        "AF": "Afganistan",
+        "AE": "Verenigde Arabische Emiraten",
+        "CU": "Cuba",
+        "CS": "Servië en Montenegro",
+        "CR": "Costa Rica",
+        "CP": "Clipperton Eiland",
+        "CO": "Colombia",
+        "BB": "Barbados",
+        "AD": "Andorra",
+        "AC": "Ascension Eiland"
+    },
+    "platform": {
+        "GOOGLE": "Google+",
+        "PHONE": "Telefoonnummer",
+        "EMAIL": "E-mail",
+        "DISCORD": "Discord",
+        "SNAPCHAT": "Snapchat",
+        "INSTAGRAM": "Instagram",
+        "FACEBOOK": "Facebook",
+        "TWITCH": "Twitch",
+        "TWITTER": "Twitter",
+        "SPEEDRUNCOM": "speedrun.com"
     }
 }

@@ -957,6 +957,23 @@
                     "noService": "Devi avere almeno un account esterno sincronizzato con il tuo account"
                 },
                 "description": "Qui puoi sincronizzare i tuoi social media. Potrai connetterti al tuo account Oengus tramite qualsiasi account sincronizzato."
+            },
+            "discord": {
+                "disabled": {
+                    "help": "Questo campo è inattivo perché hai sincronizzato il tuo account Discord. Se il tuo nome su Discord è cambiato, sincronizza di nuovo il tuo account per aggiornarlo."
+                }
+            },
+            "pronouns": {
+                "no_results": "Nessun pronome trovato",
+                "hint": "Seleziona un pronome, ad esempio: they/them",
+                "title": "Pronomi"
+            },
+            "connections": {
+                "username": "Username o simile",
+                "select_platform": "Seleziona una piattaforma",
+                "visibility": "Visibile pubblicamente",
+                "subtitle": "Questi collegamenti a social media sono visibili pubblicamente sul tuo profilo.",
+                "title": "Collegamenti"
             }
         }
     },
@@ -995,5 +1012,46 @@
         "bugtracker": "Segnala bug o invia suggerimenti",
         "patrons": "I nostri Sostenitori",
         "about": "Informazioni"
+    },
+    "country": {
+        "BJ": "Benin",
+        "BI": "Burundi",
+        "BH": "Bahrein",
+        "BG": "Bulgaria",
+        "BF": "Burkina Faso",
+        "BE": "Belgio",
+        "BD": "Bangladesh",
+        "BB": "Barbados",
+        "BA": "Bosnia-Erzegovina",
+        "AZ": "Azerbaijan",
+        "AX": "Isole Åland",
+        "AW": "Aruba",
+        "AU": "Australia",
+        "AT": "Austria",
+        "AS": "Samoa Americane",
+        "AR": "Argentina",
+        "AQ": "Antartide",
+        "AO": "Angola",
+        "AN": "Antille Olandesi",
+        "AM": "Armenia",
+        "AL": "Albania",
+        "AI": "Anguilla",
+        "AG": "Antigua e Barbuda",
+        "AF": "Afghanistan",
+        "AE": "Emirati Arabi Uniti",
+        "AD": "Andorra",
+        "AC": "Isola di Ascensione"
+    },
+    "platform": {
+        "GOOGLE": "Google+",
+        "PHONE": "Numero Telefonico",
+        "EMAIL": "Email",
+        "DISCORD": "Discord",
+        "SNAPCHAT": "Snapchat",
+        "INSTAGRAM": "Instagram",
+        "FACEBOOK": "Facebook",
+        "TWITCH": "Twitch",
+        "TWITTER": "Twitter",
+        "SPEEDRUNCOM": "speedrun.com"
     }
 }
