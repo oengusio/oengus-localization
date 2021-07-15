@@ -1100,7 +1100,20 @@
         "GB": "Verenigd Koninkrijk",
         "GA": "Gabon",
         "GD": "Grenada",
-        "GE": "Georgië"
+        "GE": "Georgië",
+        "GU": "Guam",
+        "GT": "Guatemala",
+        "GS": "Zuid-Georgië en de Zuidelijke Sandwicheilanden",
+        "GR": "Griekenland",
+        "GQ": "Equatoriaal-Guinea",
+        "GP": "Guadeloupe",
+        "GN": "Guinea",
+        "GM": "Gambia",
+        "GL": "Groenland",
+        "GI": "Gibraltar",
+        "GH": "Ghana",
+        "GG": "Guernsey",
+        "GF": "Frans Guyana"
     },
     "platform": {
         "GOOGLE": "Google+",
