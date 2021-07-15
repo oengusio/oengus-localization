@@ -1090,7 +1090,10 @@
         "EC": "Ecuador",
         "EA": "Ceuta, Melilla",
         "DZ": "Algerijë",
-        "DO": "Dominicaanse Republiek"
+        "DO": "Dominicaanse Republiek",
+        "FK": "Falklandeilanden (Malvinas)",
+        "FJ": "Fiji",
+        "FI": "Finland"
     },
     "platform": {
         "GOOGLE": "Google+",
