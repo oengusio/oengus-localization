@@ -1096,7 +1096,9 @@
         "FI": "Finland",
         "FX": "Frankrijk, Metropolitan",
         "FR": "Frankrijk",
-        "FO": "Faeröer Eilanden"
+        "FO": "Faeröer Eilanden",
+        "GB": "Verenigd Koninkrijk",
+        "GA": "Gabon"
     },
     "platform": {
         "GOOGLE": "Google+",
