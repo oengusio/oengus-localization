@@ -1093,7 +1093,10 @@
         "DO": "Dominicaanse Republiek",
         "FK": "Falklandeilanden (Malvinas)",
         "FJ": "Fiji",
-        "FI": "Finland"
+        "FI": "Finland",
+        "FX": "Frankrijk, Metropolitan",
+        "FR": "Frankrijk",
+        "FO": "Faeröer Eilanden"
     },
     "platform": {
         "GOOGLE": "Google+",
