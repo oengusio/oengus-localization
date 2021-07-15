@@ -962,6 +962,16 @@
               "select_platform": "Select a platform",
               "username": "Username or similar"
             },
+            "pronouns": {
+              "title": "Pronouns",
+              "hint": "Search a pronoun, example: they/them",
+              "no_results": "No pronouns found"
+            },
+           "discord": {
+             "disabled": {
+               "help": "This field is disabled because you have synchronised your Discord account. If your Discord name has changed, please synchronize your Discord account again to update it."
+             }
+           },
             "twitch": {
                 "disabled": {
                     "help": "This field is disabled because you have synchronised your Twitch account. If your Twitch name has changed, please synchronize your Twitch account again to update it."
