@@ -148,7 +148,10 @@
         "starts": "Αρχίζει στις {{duration}}",
         "sponsors": {
             "title": "Σπόνσορες",
-            "esa": "Το oengus.io λειτουργεί υπό την αιγίδα του <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>"
+            "esa": "Το oengus.io λειτουργεί υπό την αιγίδα του <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>",
+            "kaspersky": {
+                "banner": "Με την ευγενική χορηγεία της Kaspersky, το Oengus v2 είναι υπό κατασκευή."
+            }
         },
         "plannedFeatures": {
             "title": "Μελοντικές λειτουργίες",
