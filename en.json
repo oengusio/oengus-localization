@@ -965,7 +965,8 @@
       "pronouns": {
         "title": "Pronouns",
         "hint": "Search a pronoun, example: they/them",
-        "no_results": "No pronouns found"
+        "no_results": "No pronouns found",
+        "help": "Pronoun data is sourced from <a href=\"https://en.pronouns.page/\" target=\"_blank\">pronouns.page</a>. To learn more about their work and how to contribute, please visit their website"
       },
       "discord": {
         "disabled": {
