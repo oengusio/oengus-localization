@@ -1,4 +1,16 @@
 {
+    "platform": {
+      "SPEEDRUNCOM": "speedrun.com",
+      "TWITTER": "Twitter",
+      "TWITCH": "Twitch",
+      "FACEBOOK": "Facebook",
+      "INSTAGRAM": "Instagram",
+      "SNAPCHAT": "Snapchat",
+      "DISCORD": "Discord",
+      "EMAIL": "Email",
+      "PHONE": "Phone Number",
+      "GOOGLE": "Google+"
+    },
     "aboutPage": {
         "about": {
             "par1": "Oengus (pronounced Angus/ang·guhs) is a site that provides tools for organizing speedrunning marathons.",
