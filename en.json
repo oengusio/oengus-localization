@@ -152,7 +152,8 @@
     "emu": "[Emu]",
     "adblocker": "Hey there, it seems that you are blocking ads, please turn off your ad blocker on oengus as we rely on ads and donations to survive.",
     "enabled": "Enabled",
-    "disabled": "Disabled"
+    "disabled": "Disabled",
+    "non_select": "None Selected"
   },
   "homepage": {
     "ends": "Ends {{duration}}",
