@@ -1,1319 +1,1358 @@
 {
-  "aboutPage": {
-    "about": {
-      "par1": "Oengus es una plataforma que proporciona herramientas para la organización de maratones de speedrun.",
-      "par2": "El Speedrunning es el acto de jugar a un videojuego con la intención de completarlo lo mas rápido posible, con el propósito de entretener y/o de forma competitiva. Puedes leer mas acerca del speedrunning en <a href=\"https://es.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedia</a>.",
-      "par3": "Los maratones de speedrunning son eventos donde los runners se reúnen para mostrar sus runs a los espectadores, bien de forma online, presencial, o ambas. Los eventos mas populares son los \n<a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a> organizados de forma semestral.",
-      "par4": "Esta plataforma ha sido creado por <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>. Participante en la comunidad speedrunner desde 2013, ha contribuido en la comunidad de muchas maneras: moderador global de <a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a> durante tres años, creador del <a href=\"https://twitter.com/SpeedrunWRs\">Speedrun WRs Twitter bot</a>, miembro del equipo francés de restream, que proporciona restreams de maratones internacionales para la audiencia francesa, y fundador de Bourg la Run, el equivalente francés a Games Done Quick. Después de acumular toda esta experiencia, y tras evaluar que no hay herramientas públicas de buena calidad para organizar maratones, ha decidido crear una y Oengus es el resultado.",
-      "par6": "Trivia: Oengus es la divinidad celta del tiempo y la eternidad. ¡Un nombre perfecto para maratones de speedrun!",
-      "title": "Acerca de",
-      "par5": "Desde enero de 2021, este portal es mantenido por <a href=\"https://twitter.com/duncte123\" target=\"_blank\"></a>."
+    "aboutPage": {
+        "about": {
+            "par1": "Oengus (pronunciado Angus/ang·ghus) es una plataforma que proporciona herramientas para la organización de maratones de speedrun.",
+            "par2": "El Speedrunning es el acto de jugar a un videojuego con la intención de completarlo lo mas rápido posible, con el propósito de entretener y/o de forma competitiva. Puedes leer mas acerca del speedrunning en <a href=\"https://es.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedia</a>.",
+            "par3": "Los maratones de speedrunning son eventos donde los runners se reúnen para mostrar sus runs a los espectadores, bien de forma online, presencial, o ambas. Los eventos mas populares son los \n<a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a> organizados de forma semestral.",
+            "par4": "Esta plataforma ha sido creado por <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>. Participante en la comunidad speedrunner desde 2013, ha contribuido en la comunidad de muchas maneras: moderador global de <a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a> durante tres años, creador del <a href=\"https://twitter.com/SpeedrunWRs\">Speedrun WRs Twitter bot</a>, miembro del equipo francés de restream, que proporciona restreams de maratones internacionales para la audiencia francesa, y fundador de Bourg la Run, el equivalente francés a Games Done Quick. Después de acumular toda esta experiencia, y tras evaluar que no hay herramientas públicas de buena calidad para organizar maratones, ha decidido crear una y Oengus es el resultado.",
+            "par6": "Trivia: Oengus es la divinidad celta del tiempo y la eternidad. ¡Un nombre perfecto para maratones de speedrun!",
+            "title": "Acerca de",
+            "par5": "Desde enero de 2021, este portal es mantenido por <a href=\"https://twitter.com/duncte123\" target=\"_blank\"></a>."
+        },
+        "contact": {
+            "par1": "¿Has encontrado un bug? ¿Tienes dudas acerca de la plataforma? Entra a <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">nuestro servidor de Discord</a>",
+            "par2": "Para consultas de negocios y/o relaciones públicas, escribe un correo a <a href=\"mailto:contact@oengus.io\" target=\"_blank\">contact@oengus.io</a>. Sólo responderemos los emails escritos en inglés.",
+            "title": "Contacto"
+        }
     },
-    "contact": {
-      "par1": "¿Has encontrado un bug? ¿Tienes dudas acerca de la plataforma? Entra a <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">nuestro servidor de Discord</a>",
-      "par2": "Para consultas de negocios y/o relaciones públicas, escribe un correo a contact@oengus.io",
-      "title": "Contacto"
-    }
-  },
-  "action": {
-    "accept": "Aceptar",
-    "cancel": "Cancelar",
-    "clearAvailabilities": "Borrar disponibilidades seleccionadas",
-    "confirm": "Confirmar",
-    "decline": "Rechazar",
-    "join": "Únete",
-    "save": "Guardar",
-    "sendTweet": "Enviar Tweet",
-    "submit": "Enviar"
-  },
-  "alert": {
-    "category": {
-      "deletion": {
-        "error": "Ha ocurrido un error durante el borrado de la categoría. Por favor, inténtelo de nuevo o contacta con un administrador.",
-        "success": "Categoría eliminada"
-      }
+    "action": {
+        "accept": "Aceptar",
+        "cancel": "Cancelar",
+        "clearAvailabilities": "Borrar disponibilidades seleccionadas",
+        "confirm": "Confirmar",
+        "decline": "Rechazar",
+        "join": "Únete",
+        "save": "Guardar",
+        "sendTweet": "Enviar Tweet",
+        "submit": "Enviar"
     },
-    "donation": {
-      "export": {
-        "error": "Ha ocurrido un error durante la exportación. Por favor, inténtelo de nuevo o contacta con un administrador."
-      },
-      "validate": {
-        "error": "Ha ocurrido un error durante el proceso de donación. Por favor, inténtelo de nuevo o contacta con un administrador.",
-        "success": "Tu donación se ha enviado. ¡Gracias por donar!"
-      }
+    "alert": {
+        "category": {
+            "deletion": {
+                "error": "Ha ocurrido un error durante el borrado de la categoría. Por favor, inténtelo de nuevo o contacta con un administrador.",
+                "success": "Categoría eliminada"
+            }
+        },
+        "donation": {
+            "export": {
+                "error": "Ha ocurrido un error durante la exportación. Por favor, inténtelo de nuevo o contacta con un administrador."
+            },
+            "validate": {
+                "error": "Ha ocurrido un error durante el proceso de donación. Por favor, inténtelo de nuevo o contacta con un administrador.",
+                "success": "Tu donación se ha enviado. ¡Gracias por donar!"
+            }
+        },
+        "game": {
+            "deletion": {
+                "error": "Ha ocurrido un error al borrar el juego. Por favor, inténtelo de nuevo o contacta con un administrador.",
+                "success": "Juego eliminado"
+            },
+            "export": {
+                "error": "Ha ocurrido un error al exportar. Por favor, inténtelo de nuevo o contacta con un administrador."
+            }
+        },
+        "incentives": {
+            "delete": {
+                "error": "Ha ocurrido un error durante el borrado del incentivo. Por favor, inténtelo de nuevo o contacta con un administrador.",
+                "success": "Incentivo eliminado"
+            },
+            "save": {
+                "error": "Ha ocurrido un error durante el guardado de incentivos. Por favor, inténtelo de nuevo o contacta con un administrador.",
+                "success": "Incentivos guardados."
+            }
+        },
+        "marathon": {
+            "creation": {
+                "error": "Ha ocurrido un error durante la creación de la maratón",
+                "success": "Maratón creada"
+            },
+            "deletion": {
+                "error": "Ha ocurrido un error durante el borrado de la maratón",
+                "success": "Maratón borrada"
+            },
+            "update": {
+                "error": "Ha ocurrido un error al actualizar la maratón",
+                "success": "Maratón actualizada"
+            }
+        },
+        "schedule": {
+            "export": {
+                "error": "Ha ocurrido un error al exportar. Por favor, inténtelo de nuevo o contacta con un administrador."
+            },
+            "save": {
+                "error": "Ha ocurrido un error al guardar el horario",
+                "success": "Horario guardado"
+            }
+        },
+        "selection": {
+            "save": {
+                "error": "Ha ocurrido un error al guardar la selección",
+                "success": "Selección guardada"
+            }
+        },
+        "submission": {
+            "deletion": {
+                "error": "Ha ocurrido un error durante el borrado del juego postulado. Por favor, inténtelo de nuevo o contacta con un administrador.",
+                "success": "Postulación eliminada"
+            },
+            "save": {
+                "error": "Ha ocurrido un error durante el proceso de postulación",
+                "success": "Juego postulado"
+            }
+        },
+        "submit": {
+            "ALREADY_IN_OPPONENTS": "Ya eres parte de esta categoría",
+            "CODE_NOT_FOUND": "Este código no existe",
+            "DIFFERENT_MARATHON": "Este código es para otra maratón",
+            "MAX_SIZE_REACHED": "Esta postulación ya ha alcanzado el máximo número de runners",
+            "NOT_MULTIPLAYER": "Esta no es una categoría multijugador",
+            "SAME_USER": "No te puedes añadir a ti mismo a una categoría que has creado",
+            "DISCORD_VERIFIED": "Una vez verificado que estás en el servidor de Discord, ya puedes postular"
+        },
+        "user": {
+            "deactivate": {
+                "success": "Tu cuenta ha sido desactivada"
+            },
+            "login": {
+                "disabledAccount": "Tu cuenta ha sido deshabilitada. Si deseas usarla de nuevo, por favor, contacta con un administrador.",
+                "error": "Ha ocurrido un error durante la autentificación. Inténtelo de nuevo o contacta con un administrador.",
+                "usernameExists": "El nombre de usuario vinculado a esta cuenta que quieres acceder ya existe actualmente. Asegúrate de que no has creado un perfil de Oengus con un método de acceso diferente. Si crees que es un error, por favor, contacta con un administrador."
+            },
+            "sync": {
+                "alreadySynced": "Error: Esta cuenta ya está en uso",
+                "error": "Ha ocurrido un error durante la sincronización. Esto suele ocurrir debido a un bloqueador de anuncios. Por favor, inténtalo de nuevo con Oengus como sitio de confianza, o con las extensiones desactivadas. Si has intentado un navegador con ninguna extensión instalada y sigues con el error, por favor pide ayuda en #bug_or_feature en el servidor de Discord de Oengus."
+            },
+            "update": {
+                "error": "Ha ocurrido un error durante la actualización de la información de usuario",
+                "success": "Información de usuario actualizada"
+            }
+        }
     },
-    "game": {
-      "deletion": {
-        "error": "Ha ocurrido un error al borrar el juego. Por favor, inténtelo de nuevo o contacta con un administrador.",
-        "success": "Juego eliminado"
-      },
-      "export": {
-        "error": "Ha ocurrido un error al exportar. Por favor, inténtelo de nuevo o contacta con un administrador."
-      }
+    "calendar": {
+        "help": "Haciendo clic en este evento te redirigirá a su página",
+        "title": "Calendario de maratones"
     },
-    "incentives": {
-      "delete": {
-        "error": "Ha ocurrido un error durante el borrado del incentivo. Por favor, inténtelo de nuevo o contacta con un administrador.",
-        "success": "Incentivo eliminado"
-      },
-      "save": {
-        "error": "Ha ocurrido un error durante el guardado de incentivos. Por favor, inténtelo de nuevo o contacta con un administrador.",
-        "success": "Incentivos guardados."
-      }
+    "footer": {
+        "donate": "Si te gusta Oengus, por favor considera <a href=\"{{donationLink}}\" target=\"_blank\">hacer una donación</a>",
+        "text": "Todos los tiempos han sido convertidos a tu zona horaria. Zona horaria detectada: {{timezone}}"
+    },
+    "global": {
+        "emu": "[Emu]",
+        "adblocker": "Hey, parece que estás bloqueando los anuncios, considera desactivar tu bloqueador en Oengus ya que dependemos de los anuncios y las donaciones para sobrevivir.",
+        "disabled": "Desactivado",
+        "enabled": "Activado",
+        "non_select": "Ninguna seleccionada"
+    },
+    "homepage": {
+        "ends": "Finaliza {{duration}}",
+        "marathons": {
+            "calendar": "Calendario completo",
+            "live": "Maratones en directo",
+            "moderated": "Maratones moderadas",
+            "open": "Postulaciones abiertas",
+            "upcoming": "Próximas maratones"
+        },
+        "plannedFeatures": {
+            "1": "Postulaciones cooperativas/carreras",
+            "2": "Sistema de selección múltiple de runs (selección directa, votación...)",
+            "3": "Creación de horarios sencilla con visualización de la disponibilidad de los runners",
+            "4": "Sincroniza tus cuentas con Twitter/Twitch/Google",
+            "5": "Integración con Discord",
+            "6": "Notificaciones por correo",
+            "7": "Administración de donaciones a través de PayPal",
+            "title": "Funciones planificadas",
+            "volunteerManager": "Gestor de solicitud de voluntarios"
+        },
+        "starts": "Comienza {{duration}}",
+        "welcomeText": {
+            "par1": "Oengus es una herramienta <b>libre</b> para planificar maratones de speedruns desde las postulaciones hasta el horario.",
+            "par3": "Para tener acceso a todas las funciones, inicia sesión con el siguiente enlace. Esto te permitirá crear nuevas maratones y postular a las ya existentes:",
+            "par4": {
+                "prod": "Si deseas probar la herramienta antes de crear una maratón, por favor ve al <a href=\"https://sandbox.oengus.io\">entorno de pruebas</a>. Está disponible para todas tus pruebas y con propósitos de descubrir nuevas funciones.",
+                "sandbox": "<b>Estás en el entorno de pruebas, disponible para probar nuevas funciones. Si deseas crear un maratón, por favor ve a la<a href=\"https://oengus.io\">página principal</a>.</b>"
+            }
+        },
+        "welcomeTitle": "¡Bienvenido a Oengus!",
+        "sponsors": {
+            "title": "Patrocinadores",
+            "esa": "Oengus.io está gestionado por <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>",
+            "kaspersky": {
+                "box": "Gracias al patrocinio de Karpersky, Oengus v2 está ahora en desarrollo. <a href=\"{{readMoreUrl}}\" target=\"_blank\">Leer mas</a>",
+                "banner": "Gracias al patrocinio de Karpersky, Oengus v2 está ahora en desarrollo."
+            }
+        },
+        "submissions_close": "Postulaciones cierran {{duration}}"
+    },
+    "login": {
+        "authInProgress": "Autentificación en proceso, por favor espere…"
     },
     "marathon": {
-      "creation": {
-        "error": "Ha ocurrido un error durante la creación de la maratón",
-        "success": "Maratón creada"
-      },
-      "deletion": {
-        "error": "Ha ocurrido un error durante el borrado de la maratón",
-        "success": "Maratón borrada"
-      },
-      "update": {
-        "error": "Ha ocurrido un error al actualizar la maratón",
-        "success": "Maratón actualizada"
-      }
+        "donate": {
+            "amount": {
+                "error": {
+                    "minNumber": "La cantidad a donar debe ser superior a cero",
+                    "required": "Se requiere una cantidad a donar"
+                },
+                "label": "Donaciones recaudadas"
+            },
+            "comment": {
+                "label": "Comentario"
+            },
+            "description": "Las donaciones van destinadas a {{supportedCharity}}",
+            "extra": {
+                "description": "La información no se está mostrando de forma pública, y será borrada un mes después de que el evento finalice.",
+                "title": "Información adicional"
+            },
+            "incentiveAmount": {
+                "error": {
+                    "minNumber": "La cantidad debe ser superior a cero",
+                    "required": "Una cantidad es requerida"
+                }
+            },
+            "incentives": {
+                "add": "Añadir incentivo",
+                "bid": {
+                    "new": "(Nuevo)"
+                },
+                "description": "Los incentivos por donación pueden ser usados para añadir retos o influir en las elecciones de los runners. ¿Te gustaría donar para un incentivo?",
+                "header": {
+                    "action": "Acción",
+                    "amount": "Cantidad",
+                    "incentive": "Incentivo"
+                },
+                "left": "Cantidad disponible restante:",
+                "title": "Incentivos"
+            },
+            "nickname": {
+                "error": {
+                    "max": "El nombre es muy largo",
+                    "pattern": "El nombre solo puede estar compuesto de caracteres en minúscula, mayúscula, _ y -"
+                },
+                "label": "Nombre"
+            },
+            "title": "Dona"
+        },
+        "donations": {
+            "average": "Donación media",
+            "count": "Número de donaciones",
+            "export": "Exportar como CSV",
+            "max": "Donación mas alta",
+            "table": {
+                "amount": "Cantidad",
+                "comment": "Comentario",
+                "date": "Fecha",
+                "name": "Nombre"
+            },
+            "title": "Donaciones",
+            "total": "Donaciones totales"
+        },
+        "help": {
+            "isArchived": "Esta maratón esta archivada. Está en modo de solo lectura."
+        },
+        "home": {
+            "from": "Inicio",
+            "language": "Idioma",
+            "location": "Ubicación",
+            "to": "Fin"
+        },
+        "incentives": {
+            "management": {
+                "action": {
+                    "add": "Añadir incentivo"
+                },
+                "approveBid": "Esta propuesta ha sido creada por un donante y necesita ser verificada. ¡Asegúrate de guardar tras verificarla!",
+                "bidName": {
+                    "error": {
+                        "required": "Se requiere un nombre para la propuesta"
+                    }
+                },
+                "bidWar": "Guerra de pujas",
+                "currentAmount": {
+                    "error": {
+                        "required": "Se requiere una cantidad"
+                    }
+                },
+                "donationGoal": "Cantidad objetivo de la donación",
+                "goal": {
+                    "error": {
+                        "required": "Se requiere una cantidad objetivo de donación"
+                    }
+                },
+                "name": {
+                    "error": {
+                        "required": "Se requiere un nombre"
+                    }
+                },
+                "noSchedule": "Debes añadir elementos a tu horario antes de incluir incentivos",
+                "openBid": "Los donadores pueden añadir nuevos incentivos",
+                "table": {
+                    "actions": "Acciones",
+                    "currentAmount": "Cantidad actual",
+                    "description": "Descripción",
+                    "game": "Juego",
+                    "goal": "Objetivo",
+                    "incentive": "Nombre del incentivo",
+                    "isBidWar": "Objetivo del incentivo/puja",
+                    "locked": "Bloqueado",
+                    "progress": "Progreso"
+                },
+                "title": "Gestionar incentivos"
+            },
+            "title": "Incentivos"
+        },
+        "menu": {
+            "admin": "Administrador",
+            "donate": "Dona",
+            "donations": "Donaciones",
+            "editSubmission": "Editar juego postulado",
+            "home": "Inicio",
+            "incentives": "Incentivos",
+            "loginToSubmit": "Inicia sesión para poder postular",
+            "manageIncentives": "Gestión de incentivos",
+            "manageSchedule": "Gestionar horario",
+            "moderators": "Moderadores",
+            "overview": "Vista previa",
+            "schedule": "Horario",
+            "selectRuns": "Seleccionar runs",
+            "settings": "Ajustes",
+            "submitRuns": "Postular runs",
+            "tracker": "Tracker",
+            "viewSubmissions": "Ver postulaciones"
+        },
+        "new": {
+            "description": "La siguiente información es necesaria para crear una nueva maratón. Después de su creación, podrás configurar mas detalles.",
+            "title": "Crear una nueva maratón",
+            "shortDomain": "Este dominio corto se ha generado automáticamente para compartirlo en redes sociales"
+        },
+        "schedule": {
+            "currentRun": "Run actual",
+            "dstChange": "Se produce un cambio de huso horario durante esta maratón.",
+            "export": {
+                "csv": "Exportar a CSV",
+                "ics": "Exportar a ICS",
+                "json": "Exportar a JSON (Horaro)",
+                "title": "Exportar horario"
+            },
+            "management": {
+                "action": {
+                    "addRun": "Añadir run",
+                    "addSetupBlock": "Añadir bloque de setup",
+                    "alreadyPublished": "El horario ya ha sido publicado",
+                    "publish": "Publicar horario"
+                },
+                "help": {
+                    "dragAndDrop": "Usa las flechas en cada línea para añadir o borrar un run del horario. Puedes arrastrar y soltar líneas en el horario usando los iconos",
+                    "save": "Haz clic en \"Guardar\" para actualizar el horario o guardar un borrador. Haz clic en \"Publicar horario\" para hacerlo público. Atención: una vez el horario sea publicado, la fecha de finalización de la maratón será automáticamente recalculada tras cada actualización del horario."
+                },
+                "schedule": "Horario",
+                "selectedRuns": "Runs seleccionadas",
+                "title": "Gestión de horarios",
+                "customData": {
+                    "text": "Ocultar/Mostrar campos de datos personalizados",
+                    "inputText": "Los datos personalizados son almacenados como texto, esto le permite añadir datos \"ocultos\" a esta línea del horario"
+                }
+            },
+            "nextRun": "Próximo run {{duration}}",
+            "setupBlock": "Bloque de reserva",
+            "table": {
+                "actions": "Acciones",
+                "category": "Categoría",
+                "console": "Consola",
+                "estimate": "Estimado",
+                "game": "Juego",
+                "placeholder": "Suelta cualquier run de la tabla de la izquierda a esta de aquí. El texto desaparecerá automáticamente tan pronto como haya un run en el horario.",
+                "runner": "Runner(s)",
+                "setup": "Tiempo de preparación",
+                "time": "Tiempo",
+                "type": "Tipo"
+            },
+            "timezone": "Todas las fechas y tiempos se muestran en tu zona horaria.",
+            "title": "Horario",
+            "type": {
+                "COOP": "Run cooperativo",
+                "COOP_RACE": "Carrera cooperativa",
+                "OTHER": "Otros",
+                "RACE": "Carrera",
+                "SINGLE": "Run en solitario",
+                "RELAY_RACE": "Carrera de relevos",
+                "RELAY": "Run de relevos"
+            }
+        },
+        "selection": {
+            "action": {
+                "publish": "Publicar selección",
+                "decline": "Rechazar Todo"
+            },
+            "availabilities": {
+                "help": "Haz clic en el icono del calendario al lado de los runners para mostrar o esconder su disponibilidad."
+            },
+            "help": {
+                "BACKUP": "Los juegos de reserva no se añaden a la lista de juegos seleccionados en la gestión de horarios. Para añadirlos a esa lista, cambia su estado a Aceptado o Bonus si es necesario."
+            },
+            "publish": {
+                "help": "Haz clic en \"Guardar\" para guardar tu selección actual en cualquier estado. Solo puedes publicar tu selección una vez todos los runs tengan un estado diferente a \"Por determinar\". Guardar o publicar la selección puede tomar cierto tiempo dependiendo del número de runs. Atención: publicar la selección de juegos cerrará automáticamente las postulantes. Una vez publicado la selección, será visible para toda la gente en la página \"Ver postulaciones\"."
+            },
+            "selection": {
+                "title": "Selección"
+            },
+            "statistics": {
+                "table": {
+                    "averageEstimate": "Estimado medio",
+                    "defaultSetupTime": "Tiempo de setup por defecto",
+                    "marathonLength": "Duración de la maratón",
+                    "numberOfRunners": "Número de runners",
+                    "numberOfRuns": "Número de runs",
+                    "totalTime": "Tiempo total",
+                    "totalTimeValidated": "Tiempo total de las runs validadas (el tiempo por defecto de las setups esta incluido)"
+                },
+                "title": "Estadísticas"
+            },
+            "status": {
+                "BACKUP": "Reserva",
+                "BONUS": "Bonus",
+                "REJECTED": "Rechazada",
+                "TODO": "Por determinar",
+                "VALIDATED": "Aceptada",
+                "ALL": "Todos"
+            },
+            "title": "Seleccionar runs"
+        },
+        "settings": {
+            "country": {
+                "label": "País"
+            },
+            "currencyIso": {
+                "error": {
+                    "max": "El código de divisa es muy largo",
+                    "required": "Se requiere un código de divisa"
+                },
+                "help": "El código de divisa debe estar en formato ISO-4217 para Paypal y DEBE ser la moneda principal del beneficiario",
+                "label": "Código de divisa"
+            },
+            "customFields": {
+                "action": {
+                    "title": "Acción"
+                },
+                "add": "Añadir un nuevo campo personalizado",
+                "description1": "Puedes añadir campos personalizados para preguntar a los runners detalles específicos para tu maratón. Ellos pueden responder a esos campos durante sus postulaciones. Se recomienda no añadir nuevos campos una vez abiertas las postulaciones, ya que los runners que ya hayan postulado pueden no responder si no editan sus postulaciones.",
+                "description2": "Sugerencia: los campos de texto simple están restringidos a un máximo de 50 caracteres. Los bloques de texto están restringidos a un máximo de 500 caracteres.",
+                "label": {
+                    "error": {
+                        "required": "Se requiere una etiqueta"
+                    },
+                    "title": "Etiqueta",
+                    "type": "Tipo"
+                },
+                "option": {
+                    "error": {
+                        "required": "Se requiere un nombre de opción"
+                    }
+                },
+                "required": {
+                    "title": "Requerido"
+                },
+                "title": "Campos personalizados",
+                "type": {
+                    "option": {
+                        "checkbox": "Casilla",
+                        "freetext": "Texto libre",
+                        "select": "Selecciónar",
+                        "text": "Texto",
+                        "textArea": "Área de texto"
+                    }
+                }
+            },
+            "dangerZone": "Zona de peligro",
+            "defaultSetupTime": {
+                "error": {
+                    "pattern": "El tiempo de setup por defecto es inválido. Debe estar en formato (HH)H:MM:SS",
+                    "required": "Se requiere un tiempo de setup por defecto"
+                },
+                "label": "Tiempo de setup por defecto"
+            },
+            "delete": {
+                "action": "Eliminar maratón",
+                "confirmText": "¿Estás seguro de querer eliminar tu maratón? Para confirmar, por favor, escribe la abreviatura de la maratón y haz clic en \"Confirmar\""
+            },
+            "description": "Aquí puedes actualizar los ajustes para tu maratón",
+            "discord": {
+                "error": {
+                    "pattern": "El link de Discord es inválido"
+                }
+            },
+            "discordPrivacy": {
+                "help": "Si Discord está configurado en privado, el link de invitación no será mostrado en la página principal, únicamente lo recibirán en su correo los runners seleccionados.",
+                "label": "Privacidad del Discord",
+                "private": "Discord privado"
+            },
+            "donationWebhook": {
+                "error": {
+                    "max": "El enlace de Webhook es muy largo",
+                    "offline": "No se pudo acceder al enlace de Webhook. ¿Estás seguro que es la URL correcta?"
+                },
+                "help": "Puedes añadir un webhook a los eventos cuando se haga una nueva donación. Por favor, contacta un administrador para mas detalles.",
+                "label": "Webhook"
+            },
+            "donations": {
+                "donationsOpen": "Las donaciones están abiertas",
+                "hasDonations": "Esto es un evento de caridad",
+                "label": "Permitir donaciones"
+            },
+            "donationsOpen": {
+                "label": "Visualización de la página de donaciones"
+            },
+            "emulatorAuthorized": {
+                "allowed": "Los emuladores están permitidos",
+                "label": "Emuladores"
+            },
+            "endDate": {
+                "error": {
+                    "required": "Se requiere una fecha estimada de finalización"
+                },
+                "label": "Fecha estimada de finalización"
+            },
+            "generalTitle": "Ajustes generales",
+            "incentives": {
+                "hasIncentives": "Esta maratón tiene incentivos",
+                "label": "Estado de los incentivos"
+            },
+            "incentivesTitle": "Ajuste de los incentivos",
+            "language": {
+                "label": "Idioma"
+            },
+            "location": {
+                "label": "Ubicación"
+            },
+            "marathonDescription": {
+                "help": "Compatible con Markdown",
+                "label": "Descripción"
+            },
+            "maxCategoriesPerGame": {
+                "error": {
+                    "max": "El número máximo de categorías por juego es elevado",
+                    "min": "El número máximo de categorías por juego debe ser un número positivo",
+                    "required": "Se requiere un número máximo de categorías"
+                },
+                "label": "Número máximo de categorías por juego"
+            },
+            "maxGamesPerRunner": {
+                "error": {
+                    "min": "El número máximo de juegos por runners debe ser un valor positivo",
+                    "required": "Se requiere un número máximo de juegos por runner"
+                },
+                "label": "Número máximo de juegos por runner"
+            },
+            "maxNumberOfScreens": {
+                "error": {
+                    "min": "El número máximo de pantallas debe ser un valor positivo",
+                    "required": "Se requiere un número máximo de pantallas"
+                },
+                "help": "Si permites runs multijugador, puedes limitar el número de pantallas mostrados en stream, para restringir el número de jugadores que pueden unirse a una carrera o run cooperativa",
+                "label": "Número máximo de pantallas por juego"
+            },
+            "moderators": {
+                "label": "Moderadores"
+            },
+            "multiplayer": {
+                "allowed": "Las carreras y los runs cooperativos están permitidos",
+                "forbidden": "Las carreras y los runs cooperativos están prohibidos",
+                "label": "Multijugador"
+            },
+            "name": {
+                "error": {
+                    "max": "El nombre de la maratón es muy largo",
+                    "min": "El nombre de la maratón es muy corto",
+                    "pattern": "El nombre de la maratón no es válido",
+                    "required": "Se requiere un nombre de maratón"
+                },
+                "label": "Nombre"
+            },
+            "payee": {
+                "error": {
+                    "email": "Payee debe ser una dirección de correo",
+                    "max": "Payee es muy largo",
+                    "required": "Se requiere Payee"
+                },
+                "help": "Payee debe ser una dirección de correo vinculado a una cuenta de Paypal",
+                "label": "Beneficiario"
+            },
+            "privacy": {
+                "help": "Las maratones privadas funcionan igual que las demás, solo que no se muestran en la página principal. Solo puedes acceder a ellas a través de URL.",
+                "label": "Privacidad de maratón",
+                "private": "Privado",
+                "public": "Público"
+            },
+            "sandbox": {
+                "warning": "Precaución: Oengus.sandbox se está comunicando con el entorno de pruebas de Paypal. Necesitas usar una cuenta de Paypal de pruebas como beneficiario para que las (falsas) donaciones funcionen."
+            },
+            "shortname": {
+                "error": {
+                    "exists": "La nombre abreviado de la maratón ya existe",
+                    "max": "El nombre abreviado de la maratón es muy largo",
+                    "min": "El nombre abreviado de la maratón es muy corto",
+                    "pattern": "El nombre abreviado de la maratón no es válido",
+                    "required": "Se requiere un nombre abreviado de la maratón"
+                },
+                "label": "Nombre abreviado",
+                "shorturl": "Url acortado"
+            },
+            "startDate": {
+                "error": {
+                    "required": "Se requiere una fecha de inicio"
+                },
+                "label": "Fecha de inicio"
+            },
+            "submissions": {
+                "closed": "Las postulaciones están cerradas",
+                "label": "Postulaciones",
+                "open": "Las postulaciones están abiertas"
+            },
+            "submissionsEndDate": {
+                "error": {
+                    "required": "La fecha de cierre de postulaciones debe ser rellenada si ya existe una fecha de apertura"
+                },
+                "label": "Fecha de cierre de postulaciones"
+            },
+            "submissionsStartDate": {
+                "error": {
+                    "required": "La fecha de apertura de postulaciones debe ser rellenada si ya existe una fecha de cierra"
+                },
+                "label": "Fecha de apertura de postulaciones"
+            },
+            "submissionsTitle": "Ajustes de postulaciones",
+            "supportedCharity": {
+                "error": {
+                    "max": "El nombre de la organización de caridad es muy largo",
+                    "required": "Se requiere el nombre de la organización de caridad"
+                },
+                "label": "Organización de caridad apoyada"
+            },
+            "tabs": {
+                "dangerZone": "Zona de peligro",
+                "general": "General",
+                "incentives": "Incentivos",
+                "submissions": "Postulaciones"
+            },
+            "title": "Ajustes de maratón",
+            "twitch": {
+                "error": {
+                    "max": "El nombre de Twitch es muy largo",
+                    "pattern": "El nombre de Twitch no es válido"
+                }
+            },
+            "twitter": {
+                "error": {
+                    "max": "El nombre de Twitter es muy largo",
+                    "pattern": "El nombre de Twitter no es válido"
+                }
+            },
+            "type": {
+                "label": "Tipo de maratón",
+                "online": "Online",
+                "onsite": "Presencial"
+            },
+            "unlimited": "Ilimitado",
+            "videoRequired": {
+                "allowed": "Se requiere vídeo",
+                "label": "Vídeo requerido"
+            },
+            "youtube": {
+                "error": {
+                    "pattern": "El enlace del canal de YouTube no es válido"
+                },
+                "help": {
+                    "url": "Se debe introducir el URL completo"
+                }
+            },
+            "webhook": {
+                "botNotice": "Este es un webhook de bot de Oengus, lo que significa que el bot de oengus enviará publicaciones a los canales que especifique",
+                "label": "Webhook",
+                "help": "Puede agregar un webhook para obtener notificaciones cuando se realiza un nuevo envío/donación. Comunícate con un administrador para obtener más detalles.",
+                "error": {
+                    "offline": "No se pudo acceder al webhook. ¿Estás seguro de que esta es la URL correcta?",
+                    "max": "El enlace Webhook es demasiado largo",
+                    "marathonParameter": "Falta el parámetro de maratón obligatorio"
+                },
+                "announceAcceptedSubmissions": {
+                    "title": "Anunciar runs aceptadas"
+                }
+            },
+            "discordRequirement": {
+                "found": {
+                    "id": "Discord ID: <em>{{guildId}}</em>",
+                    "name": "Nombre Discord: <em>{{guildName}}</em>",
+                    "title": "Invitación de Discord encontrada"
+                },
+                "help": {
+                    "3": "Tu Discord está configurado en público.",
+                    "2": "Tu invitación de Discord está rellenada y es valida.",
+                    "1": "El bot de Oengus está en tu servidor de Discord. Enlace de invitación:",
+                    "title": "Esta característica solo puede ser usada si las siguiente condiciones son cumplidas:"
+                },
+                "required": "Se requiere que el usuario esté en tu Discord",
+                "label": "Se requiere Discord"
+            }
+        },
+        "submissions": {
+            "category": {
+                "delete": "Eliminar la categoría"
+            },
+            "export": "Exportar a CSV",
+            "game": {
+                "delete": "Eliminar juego. Esta acción eliminará también sus categorías."
+            },
+            "submission": {
+                "delete": "Eliminar postulación. Esta acción eliminará todos los juegos del usuario para esta maratón."
+            },
+            "table": {
+                "actions": "Acciones",
+                "answer": "Respuesta",
+                "category": "Categoría",
+                "categoryDescription": "Descripción de la categoría",
+                "console": "Consola",
+                "estimate": "Estimado",
+                "game": "Juego",
+                "gameDescription": "Descripción del juego",
+                "marathon": "Maratón",
+                "question": "Pregunta",
+                "ratio": "Ratio/Resolución",
+                "runner": "Runner",
+                "status": "Estado",
+                "type": "Tipo"
+            },
+            "tabs": {
+                "answers": "Respuestas",
+                "submissions": "Postulaciones"
+            },
+            "title": "Postulaciones",
+            "filter": "Filtrar usuarios y juegos"
+        },
+        "submit": {
+            "action": {
+                "addCategory": "Añadir categoría",
+                "removeGame": "Eliminar juego"
+            },
+            "availabilities": {
+                "actions": "Acciones",
+                "add": "Añadir disponibilidad",
+                "duplicate": "Hacer duplicado para el día siguiente",
+                "error": {
+                    "dateRequired": "Se requiere una fecha",
+                    "required": "Debes añadir uno o mas periodos de disponibilidad"
+                },
+                "from": "De",
+                "label": "Disponibilidades",
+                "to": "Hasta"
+            },
+            "category": {
+                "code": {
+                    "help": {
+                        "noCode": "Se te proporcionará un código para compartir la categoría con los otros runners interesados tras guardar tu postulación",
+                        "withCode": "Proporciona el siguiente código a los otros runners para que puedan unirse a esta postulación:"
+                    }
+                },
+                "description": {
+                    "error": {
+                        "required": "Se requiere una descripción de la categoría"
+                    },
+                    "help": "Proporciona detalles acerca de esta categoría",
+                    "label": "Descripción de la categoría"
+                },
+                "estimate": {
+                    "error": {
+                        "min": "El estimado es inválido. Debe ser superior a 0 segundos",
+                        "pattern": "El estimado es inválido. Debe estar en formato (HH)H:MM:SS",
+                        "required": "Se requiere un estimado"
+                    },
+                    "label": "Estimado"
+                },
+                "name": {
+                    "error": {
+                        "required": "Se requiere un nombre de categoría"
+                    },
+                    "label": "Nombre de la categoría"
+                },
+                "opponent": {
+                    "with": "Con:"
+                },
+                "type": {
+                    "label": "Tipo"
+                },
+                "video": {
+                    "error": {
+                        "required": "Se requiere un enlace del vídeo"
+                    },
+                    "label": "Enlace del vídeo"
+                }
+            },
+            "customField": {
+                "error": {
+                    "required": "Se requiere rellenar el campo"
+                }
+            },
+            "dangerZone": "Zona de peligro",
+            "delete": {
+                "action": "Borrar postulación"
+            },
+            "details": "Detalles",
+            "game": {
+                "console": {
+                    "emulated": "Emulado",
+                    "emulatorNotAllowed": "Los emuladores no están permitidos en esta maratón",
+                    "error": {
+                        "required": "Se requiere una consola"
+                    },
+                    "label": "Consola"
+                },
+                "description": {
+                    "error": {
+                        "required": "Se requiere una descripción del juego"
+                    },
+                    "help": "Describe el juego y el run en general",
+                    "label": "Descripción del juego"
+                },
+                "name": {
+                    "error": {
+                        "required": "Se requiere el nombre del juego"
+                    },
+                    "label": "Nombre del juego"
+                },
+                "ratio": {
+                    "error": {
+                        "required": "Se requiere la relación de aspecto del vídeo"
+                    },
+                    "label": "Relación de aspecto (16:9, 4:3...)"
+                }
+            },
+            "maxCategoriesPerGame": "Máximo de categorías por juego",
+            "maxGamesPerRunner": "Máximo de juegos por runner",
+            "maxNumberOfScreens": "Número máximo de runners por carrera/cooperativo",
+            "multiplayer": {
+                "code": {
+                    "help": "Por favor, introduce abajo el código para unirte a una postulación multijugador"
+                },
+                "title": "Categorías multijugador"
+            },
+            "racesAllowed": "Se permiten runs cooperativos y carreras",
+            "submissions": "Postulaciones",
+            "submitsClosed": "Las postulaciones están cerradas. Solo puedes actualizar tu disponibilidad hasta que el horario sea publicado.",
+            "table": {
+                "actions": "Acciones",
+                "categories": "Categorías",
+                "games": "Juegos",
+                "runners": "Runners"
+            },
+            "title": "Postular runs",
+            "tweet": {
+                "submit": "He postulado {{games}} a {{marathon}}"
+            },
+            "requirements": {
+                "discord": {
+                    "errors": {
+                        "userMissing": "Por favor, únete al servidor de Discord para esta maratón <a href=\"{{invite}}\" target=\"_blank\">{{invite}}</a>",
+                        "botMissing": "Por favor, pregunta a los moderadores de esta maratón para invitar el bot de Discord de Oengus"
+                    },
+                    "back": "Ir atrás",
+                    "check": "¡Comprobado!",
+                    "syncNotice": [
+                        "IMPORTANTE: antes de que pueda hacer esta verificación, deberás sincronizar Discord con tu cuenta en tu",
+                        "ajustes de usuario",
+                        "."
+                    ],
+                    "par2": "No podrás postular si no estás en el servidor de Discord.",
+                    "par1": "Haz clic en \"Comprobar\" a continuación para comprobar si estás en el servidor de Discord para este maratón.",
+                    "lead": "Esta maratón requiere que estés en su servidor de Discord antes de poder postular",
+                    "title": "¡Espera!"
+                }
+            }
+        }
     },
-    "schedule": {
-      "export": {
-        "error": "Ha ocurrido un error al exportar. Por favor, inténtelo de nuevo o contacta con un administrador."
-      },
-      "save": {
-        "error": "Ha ocurrido un error al guardar el horario",
-        "success": "Horario guardado"
-      }
-    },
-    "selection": {
-      "save": {
-        "error": "Ha ocurrido un error al guardar la selección",
-        "success": "Selección guardada"
-      }
-    },
-    "submission": {
-      "deletion": {
-        "error": "Ha ocurrido un error durante el borrado del juego postulado. Por favor, inténtelo de nuevo o contacta con un administrador.",
-        "success": "Postulación eliminada"
-      },
-      "save": {
-        "error": "Ha ocurrido un error durante el proceso de postulación",
-        "success": "Juego postulado"
-      }
-    },
-    "submit": {
-      "ALREADY_IN_OPPONENTS": "Ya eres parte de esta categoría",
-      "CODE_NOT_FOUND": "Este código no existe",
-      "DIFFERENT_MARATHON": "Este código es para otra maratón",
-      "MAX_SIZE_REACHED": "Esta postulación ya ha alcanzado el máximo número de runners",
-      "NOT_MULTIPLAYER": "Esta no es una categoría multijugador",
-      "SAME_USER": "No te puedes añadir a ti mismo a una categoría que has creado",
-      "DISCORD_VERIFIED": "Una vez verificado que estás en el servidor de Discord, ya puedes postular"
+    "navbar": {
+        "about": "Acerca de",
+        "bugtracker": "Informa sobre bugs y sugerencias",
+        "createMarathon": "Nueva maratón",
+        "discord": "Únete al servidor oficial de Discord",
+        "donate": "Donar",
+        "login": {
+            "disclaimer": "Precaución: Si ya tienes un perfil en Oengus, por favor asegúrate de iniciar sesión con una cuenta externa ya sincronizada con tu perfil, de otra manera se creará un nuevo perfil",
+            "discord": "Iniciar sesión con Discord",
+            "title": "Iniciar sesión",
+            "twitch": "Iniciar sesión con Twitch",
+            "twitter": "Iniciar sesión con Twitter"
+        },
+        "logout": "Cerrar sesión",
+        "privacyConsent": "Al hacer clic en Aceptar, permites a Oengus usar cookies con fines de análisis de tráfico. Lea mas sobre nuestra política de privacidad en Acerca de.",
+        "profile": "Mi perfil",
+        "settings": "Ajustes",
+        "translate": "Ayuda traduciendo la página",
+        "twitter": "Síguenos en Twitter",
+        "sourceCode": "Código fuente",
+        "patrons": "Nuestros patrocinadores"
     },
     "user": {
-      "deactivate": {
-        "success": "Tu cuenta ha sido desactivada"
-      },
-      "login": {
-        "disabledAccount": "Tu cuenta ha sido deshabilitada. Si deseas usarla de nuevo, por favor, contacta con un administrador.",
-        "error": "Ha ocurrido un error durante la autentificación. Inténtelo de nuevo o contacta con un administrador.",
-        "usernameExists": "El nombre de usuario vinculado a esta cuenta que quieres acceder ya existe actualmente. Asegúrate de que no has creado un perfil de Oengus con un método de acceso diferente. Si crees que es un error, por favor, contacta con un administrador."
-      },
-      "sync": {
-        "alreadySynced": "Error: Esta cuenta ya está en uso",
-        "error": "Ha ocurrido un error durante la sincronización. Esto suele ocurrir debido a un bloqueador de anuncios. Por favor, inténtalo de nuevo con Oengus como sitio de confianza, o con las extensiones desactivadas. Si has intentado un navegador con ninguna extensión instalada y sigues viendo este error, por favor pide ayuda en #bug_or_feature en el servidor de Discord de Oengus."
-      },
-      "update": {
-        "error": "Ha ocurrido un error durante la actualización de la información de usuario",
-        "success": "Información de usuario actualizada"
-      }
+        "profile": {
+            "filter": {
+                "status": {
+                    "title": "Estado"
+                },
+                "temporality": {
+                    "FUTURE": "Maratones futuras",
+                    "PAST": "Maratones pasadas",
+                    "title": "Temporalidad"
+                }
+            },
+            "moderator": "Eventos moderados",
+            "submissions": "Historial de postulaciones",
+            "unban": "Desbloquear usuario",
+            "ban": "Bloquear usuario",
+            "deactivate": "Desactivar Usuario",
+            "activate": "Activar Usuario",
+            "speak": "Idiomas hablados:"
+        },
+        "settings": {
+            "accountSync": {
+                "description": "Puedes sincronizar tus redes sociales aquí. Podrás conectarte posteriormente a Oengus a través de tus cuentas sincronizadas.",
+                "error": {
+                    "noService": "Necesitas tener al menos un servicio sincronizado con tu cuenta"
+                },
+                "sync": "Sincroniza tu cuenta",
+                "title": "Sincronización de cuenta",
+                "unsync": "Eliminar cuenta"
+            },
+            "deactivateAccount": {
+                "action": "Desactivar",
+                "confirmText": "¿Estás seguro de que quieres desactivar tu cuenta? Para confirmar, por favor, escribe tu nombre usuario y haga clic en \"Confirmar\"",
+                "description": "Desactivar tu cuenta evitará que puedas iniciar sesión de nuevo, y los moderadores no podrán añadir como moderador de una maratón o como runner en un horario. Toda la información se conservará para mantener la coherencia, pero tus redes sociales no se mostrarán en horarios o listas de postulaciones pero permanecerán vinculadas a tu cuenta. Si deseas usar tu cuenta en un futuro, por favor contacta con un administrador.",
+                "title": "Desactiva o elimina tu cuenta"
+            },
+            "email": {
+                "error": {
+                    "email": "El correo electrónico no es válido",
+                    "required": "Se requiere un correo electrónico"
+                },
+                "label": "Correo electrónico",
+                "help": "Esta dirección de correo electrónico se utiliza para obtener tu foto de perfil de <a href=\"https://gravatar.com/\" target=\"_blank\">Gravatar</a> y solo funcionará si tiene la clasificación de PG o inferior."
+            },
+            "general": "Información general",
+            "new": {
+                "beforeWeStart": "Antes de empezar…",
+                "description": "Necesitamos información adicional sobre ti. Por favor, tómese un momento para rellenar la información requerida."
+            },
+            "srcom": {
+                "error": {
+                    "max": "El nombre de Speedrun.com es muy largo",
+                    "pattern": "El nombre de Speedrun.com no es válido"
+                }
+            },
+            "title": "Modificar mi perfil",
+            "twitch": {
+                "disabled": {
+                    "help": "Este campo está desactivado porque has sincronizado tu cuenta de Twitch. Si tu nombre de Twitch ha cambiado, por favor sincroníza de nuevo tu cuenta de Twitch y actualízalo."
+                },
+                "error": {
+                    "max": "El nombre de Twitch es muy largo",
+                    "pattern": "El nombre de Twitch no es válido"
+                }
+            },
+            "twitter": {
+                "disabled": {
+                    "help": "Este campo está desactivado porque has sincronizado tu cuenta de Twitter. Si tu nombre de Twitter ha cambiado, por favor sincroníza de nuevo tu cuenta de Twitter y actualízalo."
+                },
+                "error": {
+                    "max": "El nombre de Twitter es muy largo",
+                    "pattern": "El nombre de Twitter no es válido"
+                }
+            },
+            "username": {
+                "error": {
+                    "exists": "El nombre de usuario ya existe. Por favor uso otro nombre o asegúrate que no tienes ningún perfil sincronizado con otra cuenta externa (Twitch o Discord)",
+                    "max": "El nombre de usuario es muy largo",
+                    "min": "El nombre de usuario es muy corto",
+                    "pattern": "El nombre de usuario solo puede estar compuesto por caracteres en minúscula, caracteres en mayúscula, _ o -",
+                    "required": "Se requiere un nombre de usuario"
+                },
+                "label": "Nombre de usuario"
+            },
+            "usernameJapanese": {
+                "error": {
+                    "exists": "Este nombre de usuario ya existe.",
+                    "max": "El nombre de usuario en japonés es demasiado largo.",
+                    "pattern": "El nombre de usuario en japonés no es válido"
+                },
+                "help": "Si tu nombre de usuario se traduce al japonés, usa este campo para mostrarlo con caracteres japoneses. Esto se mostrará solo si el idioma local está puesto en japonés. Este campo es opcional.",
+                "label": "Nombre de usuario (Japonés)"
+            },
+            "deletingAccount": {
+                "success": "Tu cuenta ha sido eliminada",
+                "btnCancel": "Cancelar :)",
+                "btnDelete": "Eliminar cuenta :(",
+                "body": [
+                    "Estás a punto de eliminar tu cuenta de Oengus.",
+                    "¡ESTA ACCIÓN NO PUEDE SER ANULADA!",
+                    "Por favor, escribe tu nombre de usuario en esta caja de texto para confirmar que quieres eliminar tu cuenta."
+                ],
+                "title": "¡ADVERTENCIA!",
+                "settingsDeleteBtn": "Eliminar cuenta"
+            },
+            "language": {
+                "placeholder": "Escribe para encontrar un idioma",
+                "no_results": "No se han encontrado idiomas",
+                "label": "Idiomas que hablas"
+            },
+            "discord": {
+                "disabled": {
+                    "help": "Este campo está deshabilitado porque ha sincronizado su cuenta de Discord. Si su nombre de Discord ha cambiado, vuelva a sincronizar su cuenta de Discord para actualizarla."
+                }
+            },
+            "pronouns": {
+                "help": "Los datos de los pronombres se obtienen de <a href=\"https://en.pronouns.page/\" target=\"_blank\">pronouns.page</a>. Para obtener más información sobre su trabajo y cómo contribuir, visite su sitio web",
+                "no_results": "No se han encontrado pronombres",
+                "hint": "Busca un pronombre, por ejemplo: they/them",
+                "title": "Pronombres"
+            },
+            "connections": {
+                "username": "Nomre de usuario o similar",
+                "select_platform": "Selecciona una plataforma",
+                "visibility": "Visible al público",
+                "subtitle": "Estas redes sociales serán públicas en tu perfil.",
+                "title": "Redes Sociales"
+            }
+        }
+    },
+    "errors": {
+        "404": {
+            "body": "Esta página <em>{{path}}</em> no ha sido encontrada",
+            "title2": "Estas yendo muy rápido",
+            "title1": "Espera un momento, estás yendo muy rápido",
+            "title0": "Tu WR ha sido rechazado"
+        }
+    },
+    "patrons": {
+        "noPatrons": "No hay nadie que mostrar aquí, ¿por qué no <a href=\"https://www.patreon.com/oengusio\" target=\"_blank\">ser el primero</a>?",
+        "par2": "La gente y organizaciones mencionadas en esta página han donado a nuestra <a href=\"https://www.patreon.com/oengusio\" target=\"_blank\">Campaña de Patreon</a> y han ayudado a mantener Oengus gratuito para todos.",
+        "par1": "Gracias a nuestros patrocinadores por ayudar a mantener Oengus.io",
+        "title": "Nuestros patrocinadores"
+    },
+    "country": {
+        "AF": "Afganistán",
+        "AX": "Åland",
+        "AL": "Albania",
+        "DE": "Alemania",
+        "AD": "Andorra",
+        "AO": "Angola",
+        "AI": "Anguila",
+        "AQ": "Antártida",
+        "AG": "Antigua y Barbuda",
+        "SA": "Arabia Saudita",
+        "DZ": "Argelia",
+        "AR": "Argentina",
+        "AM": "Armenia",
+        "AW": "Aruba",
+        "AU": "Australia",
+        "AT": "Austria",
+        "AZ": "Azerbaiyán",
+        "BS": "Bahamas",
+        "BD": "Bangladés",
+        "BB": "Barbados",
+        "BH": "Baréin",
+        "BE": "Bélgica",
+        "BZ": "Belice",
+        "BJ": "Benín",
+        "BM": "Bermudas",
+        "BY": "Bielorrusia",
+        "BO": "Bolivia",
+        "BQ": "Bonaire, San Eustaquio y Saba",
+        "BA": "Bosnia y Herzegovina",
+        "BW": "Botsuana",
+        "BR": "Brasil",
+        "BN": "Brunéi",
+        "BG": "Bulgaria",
+        "BF": "Burkina Faso",
+        "BI": "Burundi",
+        "BT": "Bután",
+        "CV": "Cabo Verde",
+        "KH": "Camboya",
+        "CM": "Camerún",
+        "CA": "Canadá",
+        "QA": "Catar",
+        "TD": "Chad",
+        "CL": "Chile",
+        "CN": "China",
+        "CY": "Chipre",
+        "CO": "Colombia",
+        "KM": "Comoras",
+        "KP": "Corea del Norte",
+        "KR": "Corea del Sur",
+        "CI": "Costa de Marfil",
+        "CR": "Costa Rica",
+        "HR": "Croacia",
+        "CU": "Cuba",
+        "CW": "Curazao",
+        "DK": "Dinamarca",
+        "DM": "Dominica",
+        "EC": "Ecuador",
+        "EG": "Egipto",
+        "SV": "El Salvador",
+        "AE": "Emiratos Árabes Unidos",
+        "ER": "Eritrea",
+        "SK": "Eslovaquia",
+        "SI": "Eslovenia",
+        "ES": "España",
+        "US": "Estados Unidos",
+        "EE": "Estonia",
+        "ET": "Etiopía",
+        "PH": "Filipinas",
+        "FI": "Finlandia",
+        "FJ": "Fiyi",
+        "FR": "Francia",
+        "GA": "Gabón",
+        "GM": "Gambia",
+        "GE": "Georgia",
+        "GH": "Ghana",
+        "GI": "Gibraltar",
+        "GD": "Granada",
+        "GR": "Grecia",
+        "GL": "Groenlandia",
+        "GP": "Guadalupe",
+        "GU": "Guam",
+        "GT": "Guatemala",
+        "GF": "Guayana Francesa",
+        "GG": "Guernsey",
+        "GN": "Guinea",
+        "GW": "Guinea-Bisáu",
+        "GQ": "Guinea Ecuatorial",
+        "GY": "Guyana",
+        "HT": "Haití",
+        "HN": "Honduras",
+        "HK": "Hong Kong",
+        "HU": "Hungría",
+        "IN": "India",
+        "ID": "Indonesia",
+        "IQ": "Irak",
+        "IR": "Irán",
+        "IE": "Irlanda",
+        "BV": "Isla Bouvet",
+        "IM": "Isla de Man",
+        "CX": "Isla de Navidad",
+        "IS": "Islandia",
+        "KY": "Islas Caimán",
+        "CC": "Islas Cocos",
+        "CK": "Islas Cook",
+        "FO": "Islas Feroe",
+        "GS": "Islas Georgias del Sur y Sandwich del Sur",
+        "HM": "Islas Heard y McDonald",
+        "FK": "Islas Malvinas",
+        "MP": "Islas Marianas del Norte",
+        "MH": "Islas Marshall",
+        "PN": "Islas Pitcairn",
+        "SB": "Islas Salomón",
+        "TC": "Islas Turcas y Caicos",
+        "UM": "Islas Ultramarinas Menores de los Estados Unidos",
+        "VG": "Islas Vírgenes Británicas",
+        "VI": "Islas Vírgenes de los Estados Unidos",
+        "IL": "Israel",
+        "IT": "Italia",
+        "JM": "Jamaica",
+        "JP": "Japón",
+        "JE": "Jersey",
+        "JO": "Jordania",
+        "KZ": "Kazajistán",
+        "KE": "Kenia",
+        "KG": "Kirguistán",
+        "KI": "Kiribati",
+        "KW": "Kuwait",
+        "LA": "Laos",
+        "LS": "Lesoto",
+        "LV": "Letonia",
+        "LB": "Líbano",
+        "LR": "Liberia",
+        "LY": "Libia",
+        "LI": "Liechtenstein",
+        "LT": "Lituania",
+        "LU": "Luxemburgo",
+        "MO": "Macao",
+        "MK": "Macedonia del Norte",
+        "MG": "Madagascar",
+        "MY": "Malasia",
+        "MW": "Malaui",
+        "MV": "Maldivas",
+        "ML": "Malí",
+        "MT": "Malta",
+        "MA": "Marruecos",
+        "MQ": "Martinica",
+        "MU": "Mauricio",
+        "MR": "Mauritania",
+        "YT": "Mayotte",
+        "MX": "México",
+        "FM": "Micronesia",
+        "MD": "Moldavia",
+        "MC": "Mónaco",
+        "MN": "Mongolia",
+        "ME": "Montenegro",
+        "MS": "Montserrat",
+        "MZ": "Mozambique",
+        "MM": "Birmania",
+        "NA": "Namibia",
+        "NR": "Nauru",
+        "NP": "Nepal",
+        "NI": "Nicaragua",
+        "NE": "Níger",
+        "NG": "Nigeria",
+        "NU": "Niue",
+        "NF": "Isla Norfolk",
+        "NO": "Noruega",
+        "NC": "Nueva Caledonia",
+        "NZ": "Nueva Zelanda",
+        "OM": "Omán",
+        "NL": "Países Bajos",
+        "PK": "Pakistán",
+        "PW": "Palaos",
+        "PS": "Palestina",
+        "PA": "Panamá",
+        "PG": "Papúa Nueva Guinea",
+        "PY": "Paraguay",
+        "PE": "Perú",
+        "PF": "Polinesia Francesa",
+        "PL": "Polonia",
+        "PT": "Portugal",
+        "PR": "Puerto Rico",
+        "GB": "Reino Unido",
+        "EH": "República Árabe Saharaui Democrática",
+        "CF": "República Centroafricana",
+        "CZ": "República Checa",
+        "CG": "República del Congo",
+        "CD": "República Democrática del Congo",
+        "DO": "República Dominicana",
+        "RE": "Reunión",
+        "RW": "Ruanda",
+        "RO": "Rumania",
+        "RU": "Rusia",
+        "WS": "Samoa",
+        "AS": "Samoa Americana",
+        "BL": "San Bartolomé",
+        "KN": "San Cristóbal y Nieves",
+        "SM": "San Marino",
+        "MF": "San Martín",
+        "PM": "San Pedro y Miquelón",
+        "VC": "San Vicente y las Granadinas",
+        "SH": "Santa Elena, Ascensión y Tristán de Acuña",
+        "LC": "Santa Lucía",
+        "ST": "Santo Tomé y Príncipe",
+        "SN": "Senegal",
+        "RS": "Serbia",
+        "SC": "Seychelles",
+        "SL": "Sierra Leona",
+        "SG": "Singapur",
+        "SX": "San Martín",
+        "SY": "Siria",
+        "SO": "Somalia",
+        "LK": "Sri Lanka",
+        "SZ": "Suazilandia",
+        "ZA": "Sudáfrica",
+        "SD": "Sudán",
+        "SS": "Sudán del Sur",
+        "SE": "Suecia",
+        "CH": "Suiza",
+        "SR": "Surinam",
+        "SJ": "Svalbard y Jan Mayen",
+        "TH": "Tailandia",
+        "TW": "Taiwán (República de China)",
+        "TZ": "Tanzania",
+        "TJ": "Tayikistán",
+        "IO": "Territorio Británico del Océano Índico",
+        "TF": "Tierras Australes y Antárticas Francesas",
+        "TL": "Timor Oriental",
+        "TG": "Togo",
+        "TK": "Tokelau",
+        "TO": "Tonga",
+        "TT": "Trinidad y Tobago",
+        "TN": "Túnez",
+        "TM": "Turkmenistán",
+        "TR": "Turquía",
+        "TV": "Tuvalu",
+        "UA": "Ucrania",
+        "UG": "Uganda",
+        "UY": "Uruguay",
+        "UZ": "Uzbekistán",
+        "VU": "Vanuatu",
+        "VA": "Vaticano, Ciudad del",
+        "VE": "Venezuela",
+        "VN": "Vietnam",
+        "WF": "Wallis y Futuna",
+        "YE": "Yemen",
+        "DJ": "Yibuti",
+        "ZM": "Zambia",
+        "ZW": "Zimbabue"
+    },
+    "language": {
+        "de": "alemán",
+        "hi": "hindi",
+        "fil": "filipino",
+        "lt": "lituano",
+        "hr": "croata",
+        "lv": "letón",
+        "hu": "húngaro",
+        "zh-CN": "chino",
+        "uk": "ucraniano",
+        "id": "indonesio",
+        "ur": "urdu",
+        "ml": "malayalam",
+        "mr": "maratí",
+        "ms": "malayo",
+        "el": "griego",
+        "en": "inglés",
+        "eo": "esperanto",
+        "is": "islandés",
+        "it": "italiano",
+        "am": "amárico",
+        "chr": "cheroqui",
+        "iw": "hebreo",
+        "es": "español",
+        "et": "estonio",
+        "eu": "euskera",
+        "ar": "árabe",
+        "pt-PT": "portugués",
+        "vi": "vietnamita",
+        "ja": "japonés",
+        "ro": "rumano",
+        "en-GB": "inglés",
+        "nl": "neerlandés",
+        "no": "noruego",
+        "fi": "finés",
+        "ru": "ruso",
+        "bg": "búlgaro",
+        "bn": "bengalí",
+        "fr": "francés",
+        "sk": "eslovaco",
+        "sl": "esloveno",
+        "ca": "catalán",
+        "sr": "serbio",
+        "kn": "canarés",
+        "sv": "sueco",
+        "ko": "coreano",
+        "sw": "suajili",
+        "zh-TW": "chino",
+        "pt-BR": "portugués",
+        "ta": "tamil",
+        "gu": "guyaratí",
+        "cs": "checo",
+        "te": "telugu",
+        "th": "tailandés",
+        "cy": "galés",
+        "pl": "polaco",
+        "da": "danés",
+        "tr": "turco"
+    },
+    "platform": {
+        "NICO": "Nico",
+        "PHONE": "Número de teléfono",
+        "EMAIL": "Email",
+        "DISCORD": "Discord",
+        "SNAPCHAT": "Snapchat",
+        "INSTAGRAM": "Instagram",
+        "FACEBOOK": "Facebook",
+        "TWITCH": "Twitch",
+        "TWITTER": "Twitter",
+        "SPEEDRUNCOM": "speedrun.com"
     }
-  },
-  "calendar": {
-    "help": "Haciendo clic en este evento te redirigirá a su página",
-    "title": "Calendario de maratones"
-  },
-  "footer": {
-    "donate": "Si te gusta Oengus, por favor considera <a href=\"{{donationLink}}\" target=\"_blank\">hacer una donación</a>",
-    "text": "Todos los tiempos han sido convertidos a tu zona horaria. Zona horaria detectada: {{timezone}}"
-  },
-  "global": {
-    "emu": "[Emu]",
-    "adblocker": "Hey, parece que estás bloqueando los anuncios, considera desactivar tu bloqueador en Oengus ya que dependemos de los anuncios y las donaciones para sobrevivir.",
-    "disabled": "Desactivado",
-    "enabled": "Activado"
-  },
-  "homepage": {
-    "ends": "Finaliza {{duration}}",
-    "marathons": {
-      "calendar": "Calendario completo",
-      "live": "Maratones en directo",
-      "moderated": "Maratones moderadas",
-      "open": "Postulaciones abiertas",
-      "upcoming": "Próximas maratones"
-    },
-    "plannedFeatures": {
-      "1": "Postulaciones cooperativas/carreras",
-      "2": "Sistema de selección múltiple de runs (selección directa, votación...)",
-      "3": "Creación de horarios sencilla con visualización de la disponibilidad de los runners",
-      "4": "Sincroniza tus cuentas con Twitter/Twitch/Google",
-      "5": "Integración con Discord",
-      "6": "Notificaciones por correo",
-      "7": "Administración de donaciones a través de PayPal",
-      "title": "Funciones planificadas",
-      "volunteerManager": "Gestor de solicitud de voluntarios"
-    },
-    "starts": "Comienza {{duration}}",
-    "welcomeText": {
-      "par1": "Oengus es una herramienta <b>libre</b> para planificar maratones de speedruns desde las postulaciones hasta el horario.",
-      "par3": "Para tener acceso a todas las funciones, inicia sesión con el siguiente enlace. Esto te permitirá crear nuevas maratones y postular a las ya existentes:",
-      "par4": {
-        "prod": "Si deseas probar la herramienta antes de crear una maratón, por favor ve al <a href=\"https://sandbox.oengus.io\">entorno de pruebas</a>. Está disponible para todas tus pruebas y con propósitos de descubrir nuevas funciones.",
-        "sandbox": "<b>Estás en el entorno de pruebas, disponible para probar nuevas funciones. Si deseas crear un maratón, por favor ve a la<a href=\"https://oengus.io\">página principal</a>.</b>"
-      }
-    },
-    "welcomeTitle": "¡Bienvenido a Oengus!",
-    "sponsors": {
-      "title": "Patrocinadores",
-      "esa": "Oengus.io está gestionado por <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>",
-      "kaspersky": {
-        "box": "Gracias al patrocinio de Karpersky, Oengus v2 está ahora en desarrollo. <a href=\"{{readMoreUrl}}\" target=\"_blank\">Leer mas</a>",
-        "banner": "Gracias al patrocinio de Karpersky, Oengus v2 está ahora en desarrollo."
-      }
-    },
-    "submissions_close": "Postulaciones cierran {{duration}}"
-  },
-  "login": {
-    "authInProgress": "Autentificación en proceso, por favor espere…"
-  },
-  "marathon": {
-    "donate": {
-      "amount": {
-        "error": {
-          "minNumber": "La cantidad a donar debe ser superior a cero",
-          "required": "Se requiere una cantidad a donar"
-        },
-        "label": "Donaciones recaudadas"
-      },
-      "comment": {
-        "label": "Comentario"
-      },
-      "description": "Las donaciones van destinadas a {{supportedCharity}}",
-      "extra": {
-        "description": "La información no se está mostrando de forma pública, y será borrada un mes después de que el evento finalice.",
-        "title": "Información adicional"
-      },
-      "incentiveAmount": {
-        "error": {
-          "minNumber": "La cantidad debe ser superior a cero",
-          "required": "Una cantidad es requerida"
-        }
-      },
-      "incentives": {
-        "add": "Añadir incentivo",
-        "bid": {
-          "new": "(Nuevo)"
-        },
-        "description": "Los incentivos por donación pueden ser usados para añadir retos o influir en las elecciones de los runners. ¿Te gustaría donar para un incentivo?",
-        "header": {
-          "action": "Acción",
-          "amount": "Cantidad",
-          "incentive": "Incentivo"
-        },
-        "left": "Cantidad disponible restante:",
-        "title": "Incentivos"
-      },
-      "nickname": {
-        "error": {
-          "max": "El nombre es muy largo",
-          "pattern": "El nombre solo puede estar compuesto de caracteres en minúscula, mayúscula, _ y -"
-        },
-        "label": "Nombre"
-      },
-      "title": "Dona"
-    },
-    "donations": {
-      "average": "Donación media",
-      "count": "Número de donaciones",
-      "export": "Exportar como CSV",
-      "max": "Donación mas alta",
-      "table": {
-        "amount": "Cantidad",
-        "comment": "Comentario",
-        "date": "Fecha",
-        "name": "Nombre"
-      },
-      "title": "Donaciones",
-      "total": "Donaciones totales"
-    },
-    "help": {
-      "isArchived": "Esta maratón esta archivada. Está en modo de solo lectura."
-    },
-    "home": {
-      "from": "Inicio",
-      "language": "Idioma",
-      "location": "Ubicación",
-      "to": "Fin"
-    },
-    "incentives": {
-      "management": {
-        "action": {
-          "add": "Añadir incentivo"
-        },
-        "approveBid": "Esta propuesta ha sido creada por un donante y necesita ser verificada. ¡Asegúrate de guardar tras verificarla!",
-        "bidName": {
-          "error": {
-            "required": "Se requiere un nombre para la propuesta"
-          }
-        },
-        "bidWar": "Guerra de pujas",
-        "currentAmount": {
-          "error": {
-            "required": "Se requiere una cantidad"
-          }
-        },
-        "donationGoal": "Cantidad objetivo de la donación",
-        "goal": {
-          "error": {
-            "required": "Se requiere una cantidad objetivo de donación"
-          }
-        },
-        "name": {
-          "error": {
-            "required": "Se requiere un nombre"
-          }
-        },
-        "noSchedule": "Debes añadir elementos a tu horario antes de incluir incentivos",
-        "openBid": "Los donadores pueden añadir nuevos incentivos",
-        "table": {
-          "actions": "Acciones",
-          "currentAmount": "Cantidad actual",
-          "description": "Descripción",
-          "game": "Juego",
-          "goal": "Objetivo",
-          "incentive": "Nombre del incentivo",
-          "isBidWar": "Objetivo del incentivo/puja",
-          "locked": "Bloqueado",
-          "progress": "Progreso"
-        },
-        "title": "Gestionar incentivos"
-      },
-      "title": "Incentivos"
-    },
-    "menu": {
-      "admin": "Administrador",
-      "donate": "Dona",
-      "donations": "Donaciones",
-      "editSubmission": "Editar juego postulado",
-      "home": "Inicio",
-      "incentives": "Incentivos",
-      "loginToSubmit": "Inicia sesión para poder postular",
-      "manageIncentives": "Gestión de incentivos",
-      "manageSchedule": "Gestionar horario",
-      "moderators": "Moderadores",
-      "overview": "Vista previa",
-      "schedule": "Horario",
-      "selectRuns": "Seleccionar runs",
-      "settings": "Ajustes",
-      "submitRuns": "Postular runs",
-      "tracker": "Tracker",
-      "viewSubmissions": "Ver postulaciones"
-    },
-    "new": {
-      "description": "La siguiente información es necesaria para crear una nueva maratón. Después de su creación, podrás configurar mas detalles.",
-      "title": "Crear una nueva maratón",
-      "shortDomain": "Este dominio corto se ha generado automáticamente para compartirlo en redes sociales"
-    },
-    "schedule": {
-      "currentRun": "Run actual",
-      "dstChange": "Se produce un cambio de huso horario durante esta maratón.",
-      "export": {
-        "csv": "Exportar a CSV",
-        "ics": "Exportar a ICS",
-        "json": "Exportar a JSON (Horaro)",
-        "title": "Exportar horario"
-      },
-      "management": {
-        "action": {
-          "addRun": "Añadir run",
-          "addSetupBlock": "Añadir bloque de setup",
-          "alreadyPublished": "El horario ya ha sido publicado",
-          "publish": "Publicar horario"
-        },
-        "help": {
-          "dragAndDrop": "Usa las flechas en cada línea para añadir o borrar un run del horario. Puedes arrastrar y soltar líneas en el horario usando los iconos",
-          "save": "Haz clic en \"Guardar\" para actualizar el horario o guardar un borrador. Haz clic en \"Publicar horario\" para hacerlo público. Atención: una vez el horario sea publicado, la fecha de finalización de la maratón será automáticamente recalculada tras cada actualización del horario."
-        },
-        "schedule": "Horario",
-        "selectedRuns": "Runs seleccionadas",
-        "title": "Gestión de horarios",
-        "customData": {
-          "text": "Ocultar/Mostrar campos de datos personalizados",
-          "inputText": "Los datos personalizados son almacenados como texto, esto le permite añadir datos \"ocultos\" a esta línea del horario"
-        }
-      },
-      "nextRun": "Próximo run {{duration}}",
-      "setupBlock": "Bloque de reserva",
-      "table": {
-        "actions": "Acciones",
-        "category": "Categoría",
-        "console": "Consola",
-        "estimate": "Estimado",
-        "game": "Juego",
-        "placeholder": "Suelta cualquier run de la tabla de la izquierda a esta de aquí. El texto desaparecerá automáticamente tan pronto como haya un run en el horario.",
-        "runner": "Runner(s)",
-        "setup": "Tiempo de preparación",
-        "time": "Tiempo",
-        "type": "Tipo"
-      },
-      "timezone": "Todas las fechas y tiempos se muestran en tu zona horaria.",
-      "title": "Horario",
-      "type": {
-        "COOP": "Run cooperativo",
-        "COOP_RACE": "Carrera cooperativa",
-        "OTHER": "Otros",
-        "RACE": "Carrera",
-        "SINGLE": "Run en solitario",
-        "RELAY_RACE": "Carrera de relevos",
-        "RELAY": "Run de relevos"
-      }
-    },
-    "selection": {
-      "action": {
-        "publish": "Publicar selección"
-      },
-      "availabilities": {
-        "help": "Haz clic en el icono del calendario al lado de los runners para mostrar o esconder su disponibilidad."
-      },
-      "help": {
-        "BACKUP": "Los juegos de reserva no se añaden a la lista de juegos seleccionados en la gestión de horarios. Para añadirlos a esa lista, cambia su estado a Aceptado o Bonus si es necesario."
-      },
-      "publish": {
-        "help": "Haz clic en \"Guardar\" para guardar tu selección actual en cualquier estado. Solo puedes publicar tu selección una vez todos los runs tengan un estado diferente a \"Por determinar\". Guardar o publicar la selección puede tomar cierto tiempo dependiendo del número de runs. Atención: publicar la selección de juegos cerrará automáticamente las postulantes. Una vez publicado la selección, será visible para toda la gente en la página \"Ver postulaciones\"."
-      },
-      "selection": {
-        "title": "Selección"
-      },
-      "statistics": {
-        "table": {
-          "averageEstimate": "Estimado medio",
-          "defaultSetupTime": "Tiempo de setup por defecto",
-          "marathonLength": "Duración de la maratón",
-          "numberOfRunners": "Número de runners",
-          "numberOfRuns": "Número de runs",
-          "totalTime": "Tiempo total",
-          "totalTimeValidated": "Tiempo total de las runs validadas (el tiempo por defecto de las setups esta incluido)"
-        },
-        "title": "Estadísticas"
-      },
-      "status": {
-        "BACKUP": "Reserva",
-        "BONUS": "Bonus",
-        "REJECTED": "Rechazada",
-        "TODO": "Por determinar",
-        "VALIDATED": "Aceptada",
-        "ALL": "Todos"
-      },
-      "title": "Seleccionar runs"
-    },
-    "settings": {
-      "country": {
-        "label": "País"
-      },
-      "currencyIso": {
-        "error": {
-          "max": "El código de divisa es muy largo",
-          "required": "Se requiere un código de divisa"
-        },
-        "help": "El código de divisa debe estar en formato ISO-4217 para Paypal y DEBE ser la moneda principal del beneficiario",
-        "label": "Código de divisa"
-      },
-      "customFields": {
-        "action": {
-          "title": "Acción"
-        },
-        "add": "Añadir un nuevo campo personalizado",
-        "description1": "Puedes añadir campos personalizados para preguntar a los runners detalles específicos para tu maratón. Ellos pueden responder a esos campos durante sus postulaciones. Se recomienda no añadir nuevos campos una vez abiertas las postulaciones, ya que los runners que ya hayan postulado pueden no responder si no editan sus postulaciones.",
-        "description2": "Sugerencia: los campos de texto simple están restringidos a un máximo de 50 caracteres. Los bloques de texto están restringidos a un máximo de 500 caracteres.",
-        "label": {
-          "error": {
-            "required": "Se requiere una etiqueta"
-          },
-          "title": "Etiqueta",
-          "type": "Tipo"
-        },
-        "option": {
-          "error": {
-            "required": "Se requiere un nombre de opción"
-          }
-        },
-        "required": {
-          "title": "Requerido"
-        },
-        "title": "Campos personalizados",
-        "type": {
-          "option": {
-            "checkbox": "Casilla",
-            "freetext": "Texto libre",
-            "select": "Selecciónar",
-            "text": "Texto",
-            "textArea": "Área de texto"
-          }
-        }
-      },
-      "dangerZone": "Zona de peligro",
-      "defaultSetupTime": {
-        "error": {
-          "pattern": "El tiempo de setup por defecto es inválido. Debe estar en formato (HH)H:MM:SS",
-          "required": "Se requiere un tiempo de setup por defecto"
-        },
-        "label": "Tiempo de setup por defecto"
-      },
-      "delete": {
-        "action": "Eliminar maratón",
-        "confirmText": "¿Estás seguro de querer eliminar tu maratón? Para confirmar, por favor, escribe la abreviatura de la maratón y haz clic en \"Confirmar\""
-      },
-      "description": "Aquí puedes actualizar los ajustes para tu maratón",
-      "discord": {
-        "error": {
-          "pattern": "El link de Discord es inválido"
-        }
-      },
-      "discordPrivacy": {
-        "help": "Si Discord está configurado en privado, el link de invitación no será mostrado en la página principal, únicamente lo recibirán en su correo los runners seleccionados.",
-        "label": "Privacidad del Discord",
-        "private": "Discord privado"
-      },
-      "donationWebhook": {
-        "error": {
-          "max": "El enlace de Webhook es muy largo",
-          "offline": "No se pudo acceder al enlace de Webhook. ¿Estás seguro que es la URL correcta?"
-        },
-        "help": "Puedes añadir un webhook a los eventos cuando se haga una nueva donación. Por favor, contacta un administrador para mas detalles.",
-        "label": "Webhook"
-      },
-      "donations": {
-        "donationsOpen": "Las donaciones están abiertas",
-        "hasDonations": "Esto es un evento de caridad",
-        "label": "Permitir donaciones"
-      },
-      "donationsOpen": {
-        "label": "Visualización de la página de donaciones"
-      },
-      "emulatorAuthorized": {
-        "allowed": "Los emuladores están permitidos",
-        "label": "Emuladores"
-      },
-      "endDate": {
-        "error": {
-          "required": "Se requiere una fecha estimada de finalización"
-        },
-        "label": "Fecha estimada de finalización"
-      },
-      "generalTitle": "Ajustes generales",
-      "incentives": {
-        "hasIncentives": "Esta maratón tiene incentivos",
-        "label": "Estado de los incentivos"
-      },
-      "incentivesTitle": "Ajuste de los incentivos",
-      "language": {
-        "label": "Idioma"
-      },
-      "location": {
-        "label": "Ubicación"
-      },
-      "marathonDescription": {
-        "help": "Compatible con Markdown",
-        "label": "Descripción"
-      },
-      "maxCategoriesPerGame": {
-        "error": {
-          "max": "El número máximo de categorías por juego es elevado",
-          "min": "El número máximo de categorías por juego debe ser un número positivo",
-          "required": "Se requiere un número máximo de categorías"
-        },
-        "label": "Número máximo de categorías por juego"
-      },
-      "maxGamesPerRunner": {
-        "error": {
-          "min": "El número máximo de juegos por runners debe ser un valor positivo",
-          "required": "Se requiere un número máximo de juegos por runner"
-        },
-        "label": "Número máximo de juegos por runner"
-      },
-      "maxNumberOfScreens": {
-        "error": {
-          "min": "El número máximo de pantallas debe ser un valor positivo",
-          "required": "Se requiere un número máximo de pantallas"
-        },
-        "help": "Si permites runs multijugador, puedes limitar el número de pantallas mostrados en stream, para restringir el número de jugadores que pueden unirse a una carrera o run cooperativa",
-        "label": "Número máximo de pantallas por juego"
-      },
-      "moderators": {
-        "label": "Moderadores"
-      },
-      "multiplayer": {
-        "allowed": "Las carreras y los runs cooperativos están permitidos",
-        "forbidden": "Las carreras y los runs cooperativos están prohibidos",
-        "label": "Multijugador"
-      },
-      "name": {
-        "error": {
-          "max": "El nombre de la maratón es muy largo",
-          "min": "El nombre de la maratón es muy corto",
-          "pattern": "El nombre de la maratón no es válido",
-          "required": "Se requiere un nombre de maratón"
-        },
-        "label": "Nombre"
-      },
-      "payee": {
-        "error": {
-          "email": "Payee debe ser una dirección de correo",
-          "max": "Payee es muy largo",
-          "required": "Se requiere Payee"
-        },
-        "help": "Payee debe ser una dirección de correo vinculado a una cuenta de Paypal",
-        "label": "Beneficiario"
-      },
-      "privacy": {
-        "help": "Las maratones privadas funcionan igual que las demás, solo que no se muestran en la página principal. Solo puedes acceder a ellas a través de URL.",
-        "label": "Privacidad de maratón",
-        "private": "Privado",
-        "public": "Público"
-      },
-      "sandbox": {
-        "warning": "Precaución: Oengus.sandbox se está comunicando con el entorno de pruebas de Paypal. Necesitas usar una cuenta de Paypal de pruebas como beneficiario para que las (falsas) donaciones funcionen."
-      },
-      "shortname": {
-        "error": {
-          "exists": "La nombre abreviado de la maratón ya existe",
-          "max": "El nombre abreviado de la maratón es muy largo",
-          "min": "El nombre abreviado de la maratón es muy corto",
-          "pattern": "El nombre abreviado de la maratón no es válido",
-          "required": "Se requiere un nombre abreviado de la maratón"
-        },
-        "label": "Nombre abreviado",
-        "shorturl": "Url acortado"
-      },
-      "startDate": {
-        "error": {
-          "required": "Se requiere una fecha de inicio"
-        },
-        "label": "Fecha de inicio"
-      },
-      "submissions": {
-        "closed": "Las postulaciones están cerradas",
-        "label": "Postulaciones",
-        "open": "Las postulaciones están abiertas"
-      },
-      "submissionsEndDate": {
-        "error": {
-          "required": "La fecha de cierre de postulaciones debe ser rellenada si ya existe una fecha de apertura"
-        },
-        "label": "Fecha de cierre de postulaciones"
-      },
-      "submissionsStartDate": {
-        "error": {
-          "required": "La fecha de apertura de postulaciones debe ser rellenada si ya existe una fecha de cierra"
-        },
-        "label": "Fecha de apertura de postulaciones"
-      },
-      "submissionsTitle": "Ajustes de postulaciones",
-      "supportedCharity": {
-        "error": {
-          "max": "El nombre de la organización de caridad es muy largo",
-          "required": "Se requiere el nombre de la organización de caridad"
-        },
-        "label": "Organización de caridad apoyada"
-      },
-      "tabs": {
-        "dangerZone": "Zona de peligro",
-        "general": "General",
-        "incentives": "Incentivos",
-        "submissions": "Postulaciones"
-      },
-      "title": "Ajustes de maratón",
-      "twitch": {
-        "error": {
-          "max": "El nombre de Twitch es muy largo",
-          "pattern": "El nombre de Twitch no es válido"
-        }
-      },
-      "twitter": {
-        "error": {
-          "max": "El nombre de Twitter es muy largo",
-          "pattern": "El nombre de Twitter no es válido"
-        }
-      },
-      "type": {
-        "label": "Tipo de maratón",
-        "online": "Online",
-        "onsite": "Presencial"
-      },
-      "unlimited": "Ilimitado",
-      "videoRequired": {
-        "allowed": "Se requiere vídeo",
-        "label": "Vídeo requerido"
-      },
-      "youtube": {
-        "error": {
-          "pattern": "El enlace del canal de YouTube no es válido"
-        },
-        "help": {
-          "url": "Se debe introducir el URL completo"
-        }
-      },
-      "webhook": {
-        "botNotice": "Este es un webhook de bot de Oengus, lo que significa que el bot de oengus enviará publicaciones a los canales que especifique",
-        "label": "Webhook",
-        "help": "Puede agregar un webhook para obtener notificaciones cuando se realiza un nuevo envío/donación. Comunícate con un administrador para obtener más detalles.",
-        "error": {
-          "offline": "No se pudo acceder al webhook. ¿Estás seguro de que esta es la URL correcta?",
-          "max": "El enlace Webhook es demasiado largo",
-          "marathonParameter": "Falta el parámetro de maratón obligatorio"
-        },
-        "announceAcceptedSubmissions": {
-          "title": "Anunciar runs aceptadas"
-        }
-      },
-      "discordRequirement": {
-        "found": {
-          "id": "Discord ID: <em>{{guildId}}</em>",
-          "name": "Nombre Discord: <em>{{guildName}}</em>",
-          "title": "Invitación de Discord encontrada"
-        },
-        "help": {
-          "3": "Tu Discord está configurado en público.",
-          "2": "Tu invitación de Discord está rellenada y es valida.",
-          "1": "El bot de Oengus está en tu servidor de Discord. Enlace de invitación:",
-          "title": "Esta característica solo puede ser usada si las siguiente condiciones son cumplidas:"
-        },
-        "required": "Se requiere que el usuario esté en tu Discord",
-        "label": "Se requiere Discord"
-      }
-    },
-    "submissions": {
-      "category": {
-        "delete": "Eliminar la categoría"
-      },
-      "export": "Exportar a CSV",
-      "game": {
-        "delete": "Eliminar juego. Esta acción eliminará también sus categorías."
-      },
-      "submission": {
-        "delete": "Eliminar postulación. Esta acción eliminará todos los juegos del usuario para esta maratón."
-      },
-      "table": {
-        "actions": "Acciones",
-        "answer": "Respuesta",
-        "category": "Categoría",
-        "categoryDescription": "Descripción de la categoría",
-        "console": "Consola",
-        "estimate": "Estimado",
-        "game": "Juego",
-        "gameDescription": "Descripción del juego",
-        "marathon": "Maratón",
-        "question": "Pregunta",
-        "ratio": "Ratio/Resolución",
-        "runner": "Runner",
-        "status": "Estado",
-        "type": "Tipo"
-      },
-      "tabs": {
-        "answers": "Respuestas",
-        "submissions": "Postulaciones"
-      },
-      "title": "Postulaciones",
-      "filter": "Filtrar usuarios y juegos"
-    },
-    "submit": {
-      "action": {
-        "addCategory": "Añadir categoría",
-        "removeGame": "Eliminar juego"
-      },
-      "availabilities": {
-        "actions": "Acciones",
-        "add": "Añadir disponibilidad",
-        "duplicate": "Hacer duplicado para el día siguiente",
-        "error": {
-          "dateRequired": "Se requiere una fecha",
-          "required": "Debes añadir uno o mas periodos de disponibilidad"
-        },
-        "from": "De",
-        "label": "Disponibilidades",
-        "to": "Hasta"
-      },
-      "category": {
-        "code": {
-          "help": {
-            "noCode": "Se te proporcionará un código para compartir la categoría con los otros runners interesados tras guardar tu postulación",
-            "withCode": "Proporciona el siguiente código a los otros runners para que puedan unirse a esta postulación:"
-          }
-        },
-        "description": {
-          "error": {
-            "required": "Se requiere una descripción de la categoría"
-          },
-          "help": "Proporciona detalles acerca de esta categoría",
-          "label": "Descripción de la categoría"
-        },
-        "estimate": {
-          "error": {
-            "min": "El estimado es inválido. Debe ser superior a 0 segundos",
-            "pattern": "El estimado es inválido. Debe estar en formato (HH)H:MM:SS",
-            "required": "Se requiere un estimado"
-          },
-          "label": "Estimado"
-        },
-        "name": {
-          "error": {
-            "required": "Se requiere un nombre de categoría"
-          },
-          "label": "Nombre de la categoría"
-        },
-        "opponent": {
-          "with": "Con:"
-        },
-        "type": {
-          "label": "Tipo"
-        },
-        "video": {
-          "error": {
-            "required": "Se requiere un enlace del vídeo"
-          },
-          "label": "Enlace del vídeo"
-        }
-      },
-      "customField": {
-        "error": {
-          "required": "Se requiere rellenar el campo"
-        }
-      },
-      "dangerZone": "Zona de peligro",
-      "delete": {
-        "action": "Borrar postulación"
-      },
-      "details": "Detalles",
-      "game": {
-        "console": {
-          "emulated": "Emulado",
-          "emulatorNotAllowed": "Los emuladores no están permitidos en esta maratón",
-          "error": {
-            "required": "Se requiere una consola"
-          },
-          "label": "Consola"
-        },
-        "description": {
-          "error": {
-            "required": "Se requiere una descripción del juego"
-          },
-          "help": "Describe el juego y el run en general",
-          "label": "Descripción del juego"
-        },
-        "name": {
-          "error": {
-            "required": "Se requiere el nombre del juego"
-          },
-          "label": "Nombre del juego"
-        },
-        "ratio": {
-          "error": {
-            "required": "Se requiere la relación de aspecto del vídeo"
-          },
-          "label": "Relación de aspecto (16:9, 4:3...)"
-        }
-      },
-      "maxCategoriesPerGame": "Máximo de categorías por juego",
-      "maxGamesPerRunner": "Máximo de juegos por runner",
-      "maxNumberOfScreens": "Número máximo de runners por carrera/cooperativo",
-      "multiplayer": {
-        "code": {
-          "help": "Por favor, introduce abajo el código para unirte a una postulación multijugador"
-        },
-        "title": "Categorías multijugador"
-      },
-      "racesAllowed": "Se permiten runs cooperativos y carreras",
-      "submissions": "Postulaciones",
-      "submitsClosed": "Las postulaciones están cerradas. Solo puedes actualizar tu disponibilidad hasta que el horario sea publicado.",
-      "table": {
-        "actions": "Acciones",
-        "categories": "Categorías",
-        "games": "Juegos",
-        "runners": "Runners"
-      },
-      "title": "Postular runs",
-      "tweet": {
-        "submit": "He postulado {{games}} a {{marathon}}"
-      },
-      "requirements": {
-        "discord": {
-          "errors": {
-            "userMissing": "Por favor, únete al servidor de Discord para esta maratón <a href=\"{{invite}}\" target=\"_blank\">{{invite}}</a>",
-            "botMissing": "Por favor, pregunta a los moderadores de esta maratón para invitar el bot de Discord de Oengus"
-          },
-          "back": "Ir atrás",
-          "check": "¡Comprobado!",
-          "syncNotice": [
-            "IMPORTANTE: antes de que pueda hacer esta verificación, deberás sincronizar Discord con tu cuenta en tu",
-            "ajustes de usuario",
-            "."
-          ],
-          "par2": "No podrás postular si no estás en el servidor de Discord.",
-          "par1": "Haz clic en \"Comprobar\" a continuación para comprobar si estás en el servidor de Discord para este maratón.",
-          "lead": "Esta maratón requiere que estés en su servidor de Discord antes de poder postular",
-          "title": "¡Espera!"
-        }
-      }
-    }
-  },
-  "navbar": {
-    "about": "Acerca de",
-    "bugtracker": "Informa sobre bugs y sugerencias",
-    "createMarathon": "Nueva maratón",
-    "discord": "Únete al servidor oficial de Discord",
-    "donate": "Donar",
-    "login": {
-      "disclaimer": "Precaución: Si ya tienes un perfil en Oengus, por favor asegúrate de iniciar sesión con una cuenta externa ya sincronizada con tu perfil, de otra manera se creará un nuevo perfil",
-      "discord": "Iniciar sesión con Discord",
-      "title": "Iniciar sesión",
-      "twitch": "Iniciar sesión con Twitch",
-      "twitter": "Iniciar sesión con Twitter"
-    },
-    "logout": "Cerrar sesión",
-    "privacyConsent": "Al hacer clic en Aceptar, permites a Oengus usar cookies con fines de análisis de tráfico. Lea mas sobre nuestra política de privacidad en Acerca de.",
-    "profile": "Mi perfil",
-    "settings": "Ajustes",
-    "translate": "Ayuda traduciendo la página",
-    "twitter": "Síguenos en Twitter",
-    "sourceCode": "Código fuente",
-    "patrons": "Nuestros patrocinadores"
-  },
-  "user": {
-    "profile": {
-      "filter": {
-        "status": {
-          "title": "Estado"
-        },
-        "temporality": {
-          "FUTURE": "Maratones futuras",
-          "PAST": "Maratones pasadas",
-          "title": "Temporalidad"
-        }
-      },
-      "moderator": "Eventos moderados",
-      "submissions": "Historial de postulaciones",
-      "unban": "Desbloquear usuario",
-      "ban": "Bloquear usuario",
-      "deactivate": "Desactivar Usuario",
-      "activate": "Activar Usuario"
-    },
-    "settings": {
-      "accountSync": {
-        "description": "Puedes sincronizar tus redes sociales aquí. Podrás conectarte posteriormente a Oengus a través de tus cuentas sincronizadas.",
-        "error": {
-          "noService": "Necesitas tener al menos un servicio sincronizado con tu cuenta"
-        },
-        "sync": "Sincroniza tu cuenta",
-        "title": "Sincronización de cuenta",
-        "unsync": "Eliminar cuenta"
-      },
-      "deactivateAccount": {
-        "action": "Desactivar",
-        "confirmText": "¿Estás seguro de que quieres desactivar tu cuenta? Para confirmar, por favor, escribe tu nombre usuario y haga clic en \"Confirmar\"",
-        "description": "Desactivar tu cuenta evitará que puedas iniciar sesión de nuevo, y los moderadores no podrán añadir como moderador de una maratón o como runner en un horario. Toda la información se conservará para mantener la coherencia, pero tus redes sociales no se mostrarán en horarios o listas de postulaciones pero permanecerán vinculadas a tu cuenta. Si deseas usar tu cuenta en un futuro, por favor contacta con un administrador.",
-        "title": "Desactiva o elimina tu cuenta"
-      },
-      "email": {
-        "error": {
-          "email": "El correo electrónico no es válido",
-          "required": "Se requiere un correo electrónico"
-        },
-        "label": "Correo electrónico"
-      },
-      "general": "Información general",
-      "new": {
-        "beforeWeStart": "Antes de empezar…",
-        "description": "Necesitamos información adicional sobre ti. Por favor, tómese un momento para rellenar la información requerida."
-      },
-      "srcom": {
-        "error": {
-          "max": "El nombre de Speedrun.com es muy largo",
-          "pattern": "El nombre de Speedrun.com no es válido"
-        }
-      },
-      "title": "Modificar mi perfil",
-      "twitch": {
-        "disabled": {
-          "help": "Este campo está desactivado porque has sincronizado tu cuenta de Twitch. Si tu nombre de Twitch ha cambiado, por favor sincroníza de nuevo tu cuenta de Twitch y actualízalo."
-        },
-        "error": {
-          "max": "El nombre de Twitch es muy largo",
-          "pattern": "El nombre de Twitch no es válido"
-        }
-      },
-      "twitter": {
-        "disabled": {
-          "help": "Este campo está desactivado porque has sincronizado tu cuenta de Twitter. Si tu nombre de Twitter ha cambiado, por favor sincroníza de nuevo tu cuenta de Twitter y actualízalo."
-        },
-        "error": {
-          "max": "El nombre de Twitter es muy largo",
-          "pattern": "El nombre de Twitter no es válido"
-        }
-      },
-      "username": {
-        "error": {
-          "exists": "El nombre de usuario ya existe. Por favor uso otro nombre o asegúrate que no tienes ningún perfil sincronizado con otra cuenta externa (Twitch o Discord)",
-          "max": "El nombre de usuario es muy largo",
-          "min": "El nombre de usuario es muy corto",
-          "pattern": "El nombre de usuario solo puede estar compuesto por caracteres en minúscula, caracteres en mayúscula, _ o -",
-          "required": "Se requiere un nombre de usuario"
-        },
-        "label": "Nombre de usuario"
-      },
-      "usernameJapanese": {
-        "error": {
-          "exists": "Este nombre de usuario ya existe.",
-          "max": "El nombre de usuario en japonés es demasiado largo.",
-          "pattern": "El nombre de usuario en japonés no es válido"
-        },
-        "help": "Si tu nombre de usuario se traduce al japonés, usa este campo para mostrarlo con caracteres japoneses. Esto se mostrará solo si el idioma local está puesto en japonés. Este campo es opcional.",
-        "label": "Nombre de usuario (Japonés)"
-      },
-      "deletingAccount": {
-        "success": "Tu cuenta ha sido eliminada",
-        "btnCancel": "Cancelar :)",
-        "btnDelete": "Eliminar cuenta :(",
-        "body": [
-          "Estás a punto de eliminar tu cuenta de Oengus.",
-          "¡ESTA ACCIÓN NO PUEDE SER ANULADA!",
-          "Por favor, escribe tu nombre de usuario en esta caja de texto para confirmar que quieres eliminar tu cuenta."
-        ],
-        "title": "¡ADVERTENCIA!",
-        "settingsDeleteBtn": "Eliminar cuenta"
-      }
-    }
-  },
-  "errors": {
-    "404": {
-      "body": "Esta página <em>{{path}}</em> no ha sido encontrada",
-      "title2": "Estas yendo muy rápido",
-      "title1": "Espera un momento, estás yendo muy rápido",
-      "title0": "Tu WR ha sido rechazado"
-    }
-  },
-  "patrons": {
-    "noPatrons": "No hay nadie que mostrar aquí, ¿por qué no <a href=\"https://www.patreon.com/oengusio\" target=\"_blank\">ser el primero</a>?",
-    "par2": "La gente y organizaciones mencionadas en esta página han donado a nuestra <a href=\"https://www.patreon.com/oengusio\" target=\"_blank\">Campaña de Patreon</a> y han ayudado a mantener Oengus gratuito para todos.",
-    "par1": "Gracias a nuestros patrocinadores por ayudar a mantener Oengus.io",
-    "title": "Nuestros patrocinadores"
-  },
-  "country": {
-    "AF": "Afganistán",
-    "AX": "Åland",
-    "AL": "Albania",
-    "DE": "Alemania",
-    "AD": "Andorra",
-    "AO": "Angola",
-    "AI": "Anguila",
-    "AQ": "Antártida",
-    "AG": "Antigua y Barbuda",
-    "SA": "Arabia Saudita",
-    "DZ": "Argelia",
-    "AR": "Argentina",
-    "AM": "Armenia",
-    "AW": "Aruba",
-    "AU": "Australia",
-    "AT": "Austria",
-    "AZ": "Azerbaiyán",
-    "BS": "Bahamas",
-    "BD": "Bangladés",
-    "BB": "Barbados",
-    "BH": "Baréin",
-    "BE": "Bélgica",
-    "BZ": "Belice",
-    "BJ": "Benín",
-    "BM": "Bermudas",
-    "BY": "Bielorrusia",
-    "BO": "Bolivia",
-    "BQ": "Bonaire, San Eustaquio y Saba",
-    "BA": "Bosnia y Herzegovina",
-    "BW": "Botsuana",
-    "BR": "Brasil",
-    "BN": "Brunéi",
-    "BG": "Bulgaria",
-    "BF": "Burkina Faso",
-    "BI": "Burundi",
-    "BT": "Bután",
-    "CV": "Cabo Verde",
-    "KH": "Camboya",
-    "CM": "Camerún",
-    "CA": "Canadá",
-    "QA": "Catar",
-    "TD": "Chad",
-    "CL": "Chile",
-    "CN": "China",
-    "CY": "Chipre",
-    "CO": "Colombia",
-    "KM": "Comoras",
-    "KP": "Corea del Norte",
-    "KR": "Corea del Sur",
-    "CI": "Costa de Marfil",
-    "CR": "Costa Rica",
-    "HR": "Croacia",
-    "CU": "Cuba",
-    "CW": "Curazao",
-    "DK": "Dinamarca",
-    "DM": "Dominica",
-    "EC": "Ecuador",
-    "EG": "Egipto",
-    "SV": "El Salvador",
-    "AE": "Emiratos Árabes Unidos",
-    "ER": "Eritrea",
-    "SK": "Eslovaquia",
-    "SI": "Eslovenia",
-    "ES": "España",
-    "US": "Estados Unidos",
-    "EE": "Estonia",
-    "ET": "Etiopía",
-    "PH": "Filipinas",
-    "FI": "Finlandia",
-    "FJ": "Fiyi",
-    "FR": "Francia",
-    "GA": "Gabón",
-    "GM": "Gambia",
-    "GE": "Georgia",
-    "GH": "Ghana",
-    "GI": "Gibraltar",
-    "GD": "Granada",
-    "GR": "Grecia",
-    "GL": "Groenlandia",
-    "GP": "Guadalupe",
-    "GU": "Guam",
-    "GT": "Guatemala",
-    "GF": "Guayana Francesa",
-    "GG": "Guernsey",
-    "GN": "Guinea",
-    "GW": "Guinea-Bisáu",
-    "GQ": "Guinea Ecuatorial",
-    "GY": "Guyana",
-    "HT": "Haití",
-    "HN": "Honduras",
-    "HK": "Hong Kong",
-    "HU": "Hungría",
-    "IN": "India",
-    "ID": "Indonesia",
-    "IQ": "Irak",
-    "IR": "Irán",
-    "IE": "Irlanda",
-    "BV": "Isla Bouvet",
-    "IM": "Isla de Man",
-    "CX": "Isla de Navidad",
-    "IS": "Islandia",
-    "KY": "Islas Caimán",
-    "CC": "Islas Cocos",
-    "CK": "Islas Cook",
-    "FO": "Islas Feroe",
-    "GS": "Islas Georgias del Sur y Sandwich del Sur",
-    "HM": "Islas Heard y McDonald",
-    "FK": "Islas Malvinas",
-    "MP": "Islas Marianas del Norte",
-    "MH": "Islas Marshall",
-    "PN": "Islas Pitcairn",
-    "SB": "Islas Salomón",
-    "TC": "Islas Turcas y Caicos",
-    "UM": "Islas Ultramarinas Menores de los Estados Unidos",
-    "VG": "Islas Vírgenes Británicas",
-    "VI": "Islas Vírgenes de los Estados Unidos",
-    "IL": "Israel",
-    "IT": "Italia",
-    "JM": "Jamaica",
-    "JP": "Japón",
-    "JE": "Jersey",
-    "JO": "Jordania",
-    "KZ": "Kazajistán",
-    "KE": "Kenia",
-    "KG": "Kirguistán",
-    "KI": "Kiribati",
-    "KW": "Kuwait",
-    "LA": "Laos",
-    "LS": "Lesoto",
-    "LV": "Letonia",
-    "LB": "Líbano",
-    "LR": "Liberia",
-    "LY": "Libia",
-    "LI": "Liechtenstein",
-    "LT": "Lituania",
-    "LU": "Luxemburgo",
-    "MO": "Macao",
-    "MK": "Macedonia del Norte",
-    "MG": "Madagascar",
-    "MY": "Malasia",
-    "MW": "Malaui",
-    "MV": "Maldivas",
-    "ML": "Malí",
-    "MT": "Malta",
-    "MA": "Marruecos",
-    "MQ": "Martinica",
-    "MU": "Mauricio",
-    "MR": "Mauritania",
-    "YT": "Mayotte",
-    "MX": "México",
-    "FM": "Micronesia",
-    "MD": "Moldavia",
-    "MC": "Mónaco",
-    "MN": "Mongolia",
-    "ME": "Montenegro",
-    "MS": "Montserrat",
-    "MZ": "Mozambique",
-    "MM": "Birmania",
-    "NA": "Namibia",
-    "NR": "Nauru",
-    "NP": "Nepal",
-    "NI": "Nicaragua",
-    "NE": "Níger",
-    "NG": "Nigeria",
-    "NU": "Niue",
-    "NF": "Isla Norfolk",
-    "NO": "Noruega",
-    "NC": "Nueva Caledonia",
-    "NZ": "Nueva Zelanda",
-    "OM": "Omán",
-    "NL": "Países Bajos",
-    "PK": "Pakistán",
-    "PW": "Palaos",
-    "PS": "Palestina",
-    "PA": "Panamá",
-    "PG": "Papúa Nueva Guinea",
-    "PY": "Paraguay",
-    "PE": "Perú",
-    "PF": "Polinesia Francesa",
-    "PL": "Polonia",
-    "PT": "Portugal",
-    "PR": "Puerto Rico",
-    "GB": "Reino Unido",
-    "EH": "República Árabe Saharaui Democrática",
-    "CF": "República Centroafricana",
-    "CZ": "República Checa",
-    "CG": "República del Congo",
-    "CD": "República Democrática del Congo",
-    "DO": "República Dominicana",
-    "RE": "Reunión",
-    "RW": "Ruanda",
-    "RO": "Rumania",
-    "RU": "Rusia",
-    "WS": "Samoa",
-    "AS": "Samoa Americana",
-    "BL": "San Bartolomé",
-    "KN": "San Cristóbal y Nieves",
-    "SM": "San Marino",
-    "MF": "San Martín",
-    "PM": "San Pedro y Miquelón",
-    "VC": "San Vicente y las Granadinas",
-    "SH": "Santa Elena, Ascensión y Tristán de Acuña",
-    "LC": "Santa Lucía",
-    "ST": "Santo Tomé y Príncipe",
-    "SN": "Senegal",
-    "RS": "Serbia",
-    "SC": "Seychelles",
-    "SL": "Sierra Leona",
-    "SG": "Singapur",
-    "SX": "San Martín",
-    "SY": "Siria",
-    "SO": "Somalia",
-    "LK": "Sri Lanka",
-    "SZ": "Suazilandia",
-    "ZA": "Sudáfrica",
-    "SD": "Sudán",
-    "SS": "Sudán del Sur",
-    "SE": "Suecia",
-    "CH": "Suiza",
-    "SR": "Surinam",
-    "SJ": "Svalbard y Jan Mayen",
-    "TH": "Tailandia",
-    "TW": "Taiwán (República de China)",
-    "TZ": "Tanzania",
-    "TJ": "Tayikistán",
-    "IO": "Territorio Británico del Océano Índico",
-    "TF": "Tierras Australes y Antárticas Francesas",
-    "TL": "Timor Oriental",
-    "TG": "Togo",
-    "TK": "Tokelau",
-    "TO": "Tonga",
-    "TT": "Trinidad y Tobago",
-    "TN": "Túnez",
-    "TM": "Turkmenistán",
-    "TR": "Turquía",
-    "TV": "Tuvalu",
-    "UA": "Ucrania",
-    "UG": "Uganda",
-    "UY": "Uruguay",
-    "UZ": "Uzbekistán",
-    "VU": "Vanuatu",
-    "VA": "Vaticano, Ciudad del",
-    "VE": "Venezuela",
-    "VN": "Vietnam",
-    "WF": "Wallis y Futuna",
-    "YE": "Yemen",
-    "DJ": "Yibuti",
-    "ZM": "Zambia",
-    "ZW": "Zimbabue"
-  },
-  "language": {
-    "de": "alemán",
-    "hi": "hindi",
-    "fil": "filipino",
-    "lt": "lituano",
-    "hr": "croata",
-    "lv": "letón",
-    "hu": "húngaro",
-    "zh-CN": "chino",
-    "uk": "ucraniano",
-    "id": "indonesio",
-    "ur": "urdu",
-    "ml": "malayalam",
-    "mr": "maratí",
-    "ms": "malayo",
-    "el": "griego",
-    "en": "inglés",
-    "eo": "esperanto",
-    "is": "islandés",
-    "it": "italiano",
-    "am": "amárico",
-    "chr": "cheroqui",
-    "iw": "hebreo",
-    "es": "español",
-    "et": "estonio",
-    "eu": "euskera",
-    "ar": "árabe",
-    "pt-PT": "portugués",
-    "vi": "vietnamita",
-    "ja": "japonés",
-    "ro": "rumano",
-    "en-GB": "inglés",
-    "nl": "neerlandés",
-    "no": "noruego",
-    "fi": "finés",
-    "ru": "ruso",
-    "bg": "búlgaro",
-    "bn": "bengalí",
-    "fr": "francés",
-    "sk": "eslovaco",
-    "sl": "esloveno",
-    "ca": "catalán",
-    "sr": "serbio",
-    "kn": "canarés",
-    "sv": "sueco",
-    "ko": "coreano",
-    "sw": "suajili",
-    "zh-TW": "chino",
-    "pt-BR": "portugués",
-    "ta": "tamil",
-    "gu": "guyaratí",
-    "cs": "checo",
-    "te": "telugu",
-    "th": "tailandés",
-    "cy": "galés",
-    "pl": "polaco",
-    "da": "danés",
-    "tr": "turco"
-  }
 }
