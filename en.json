@@ -977,7 +977,9 @@
         }
       },
       "language": {
-        "label": "Languages that you speak"
+        "label": "Languages that you speak",
+        "no_results": "No languages found",
+        "placeholder": "Type to find a language"
       },
       "twitch": {
         "disabled": {
