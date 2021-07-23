@@ -907,7 +907,8 @@
         }
       },
       "moderator": "Moderated events",
-      "submissions": "Submissions history"
+      "submissions": "Submissions history",
+      "speak": "Languages spoken:"
     },
     "settings": {
       "accountSync": {
@@ -974,6 +975,9 @@
         "disabled": {
           "help": "This field is disabled because you have synchronised your Discord account. If your Discord name has changed, please synchronize your Discord account again to update it."
         }
+      },
+      "language": {
+        "label": "Languages that you speak"
       },
       "twitch": {
         "disabled": {
