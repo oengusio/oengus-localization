@@ -1,521 +1,645 @@
 {
-  "aboutPage": {
-    "about": {
-      "par1": "Oengus é um site que fornece ferramentas para a organização de maratonas de speedruns.",
-      "par2": "Speedrunning é a ação de jogar video game com a intenção de completar o jogo o mais rápido possível, seja isto com um propósito de entretenimento e/ou competitivo. Você pode ler mais a respeito de Speedruns na <a href=\"https://pt.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedia</a>.",
-      "par3": "Maratonas de speedruns são eventos one os speedrunners se reúnem para exibir suas runs para uma audiência, seja online, presencial ou ambos. Os eventos mais populares são da <a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a> que são organizados algumas vezes ao ano.",
-      "par4": "Este site foi criado pelo <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>. Participativo na comunidade de speedruns desde 2013, ele já contribuiu com a comunidade de speedruns de diversas formas: moderador global do <a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a> por três anos, criador do bot de Twitter<a href=\"https://twitter.com/SpeedrunWRs\">Speedrun WRs</a>, membro da equipe de Restream Francesa, que fornece restreams de maratonas internacionais para a audiência francesa e fundador da Bourg La Run, a equivalente a Games Done Quick porém da França. Depois de obter toda esta experiência e depois de perceber que não havia nenhuma ferramenta pública boa para organização de maratonas, ele decidiu criar uma e o Oengus é o resultado.",
-      "par6": "Trivia: Oengus é a divindade celta que está encarregada do tempo e da eternidade. Com certeza é um nome que combina com maratonas de Speedruns!",
-      "title": "Sobre"
+    "aboutPage": {
+        "about": {
+            "par1": "Oengus é um site que fornece ferramentas para a organização de maratonas de speedruns.",
+            "par2": "Speedrunning é a ação de jogar video game com a intenção de completar o jogo o mais rápido possível, seja isto com um propósito de entretenimento e/ou competitivo. Você pode ler mais a respeito de Speedruns na <a href=\"https://pt.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedia</a>.",
+            "par3": "Maratonas de speedruns são eventos one os speedrunners se reúnem para exibir suas runs para uma audiência, seja online, presencial ou ambos. Os eventos mais populares são da <a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a> que são organizados algumas vezes ao ano.",
+            "par4": "Este site foi criado pelo <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>. Participativo na comunidade de speedruns desde 2013, ele já contribuiu com a comunidade de speedruns de diversas formas: moderador global do <a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a> por três anos, criador do bot de Twitter<a href=\"https://twitter.com/SpeedrunWRs\">Speedrun WRs</a>, membro da equipe de Restream Francesa, que fornece restreams de maratonas internacionais para a audiência francesa e fundador da Bourg La Run, a equivalente a Games Done Quick porém da França. Depois de obter toda esta experiência e depois de perceber que não havia nenhuma ferramenta pública boa para organização de maratonas, ele decidiu criar uma e o Oengus é o resultado.",
+            "par6": "Trivia: Oengus é a divindade celta que está encarregada do tempo e da eternidade. Com certeza é um nome que combina com maratonas de Speedruns!",
+            "title": "Sobre",
+            "par5": "A partir de Janeiro de 2021 este site é mantido por <a href=\"https://twitter.com/duncte123\" target=\"_blank\">duncte123</a>."
+        },
+        "contact": {
+            "par1": "Encontrou um bug ? Tem dúvidas sobre o site ? Entre em nosso <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">servidor de Discord</a>",
+            "par2": "Para contatos financeiros/relações públicas, entre em contato através do e-mail <a href=\"mailto:contact@oengus.io\" target=\"_blank\">contact@oengus.io</a>. Apenas serão respondidos os emails em Inglês.",
+            "title": "Contato"
+        }
     },
-    "contact": {
-      "par1": "Encontrou um bug ? Tem dúvidas sobre o site ? Entre em nosso <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">servidor de Discord</a>",
-      "par2": "Para contatos financeiros/relações públicas, entre em contato através do e-mail contact@oengus.io",
-      "title": "Contato"
-    }
-  },
-  "action": {
-    "accept": "Aceitar",
-    "cancel": "Cancelar",
-    "clearAvailabilities": "Limpar seleções disponíveis",
-    "confirm": "Confirmar",
-    "decline": "Negar",
-    "join": "Entrar",
-    "save": "Salvar",
-    "sendTweet": "Enviar Tweet",
-    "submit": "Submeter"
-  },
-  "alert": {
-    "category": {
-      "deletion": {
-        "error": "Um erro ocorreu durante o processo de deletar uma categoria. Por favor tente novamente ou entre em contato com um administrador.",
-        "success": "Categoria deletada com sucesso"
-      }
+    "action": {
+        "accept": "Aceitar",
+        "cancel": "Cancelar",
+        "clearAvailabilities": "Limpar seleções disponíveis",
+        "confirm": "Confirmar",
+        "decline": "Negar",
+        "join": "Entrar",
+        "save": "Salvar",
+        "sendTweet": "Enviar Tweet",
+        "submit": "Submeter"
     },
-    "donation": {
-      "export": {
-        "error": "Um erro ocorreu durante a exportação. Por favor tente novamente ou contate um administrador."
-      },
-      "validate": {
-        "error": "Um erro ocorreu durante o processo de doação. Por favor tente novamente ou contate um administrador.",
-        "success": "Sua doação foi enviada com sucesso. Obrigado por doar!"
-      }
+    "alert": {
+        "category": {
+            "deletion": {
+                "error": "Um erro ocorreu durante o processo de deletar uma categoria. Por favor tente novamente ou entre em contato com um administrador.",
+                "success": "Categoria removida com sucesso"
+            }
+        },
+        "donation": {
+            "export": {
+                "error": "Um erro ocorreu durante a exportação. Por favor tente novamente ou contate um administrador."
+            },
+            "validate": {
+                "error": "Um erro ocorreu durante o processo de doação. Por favor tente novamente ou contate um administrador.",
+                "success": "Sua doação foi enviada com sucesso. Obrigado por doar!"
+            }
+        },
+        "game": {
+            "deletion": {
+                "error": "Um erro ocorreu durante o processo de deletar um jogo. Por favor tente novamente ou contate um administrador.",
+                "success": "O jogo foi excluído com sucesso"
+            },
+            "export": {
+                "error": "Um erro aconteceu durante a exportação. Por favor tente novamente ou contate um administrador."
+            }
+        },
+        "incentives": {
+            "delete": {
+                "error": "Erro durante a exclusão do incentivo. Por favor tente novamente ou contate um administrador.",
+                "success": "Incentivo removido com sucesso"
+            },
+            "save": {
+                "error": "Um erro ocorreu durante o processo de salvar os incentivos. Por favor tente novamente ou contate um administrador.",
+                "success": "Incentivos salvos com sucesso."
+            }
+        },
+        "marathon": {
+            "creation": {
+                "error": "Erro durante a criação da maratona",
+                "success": "Maratona criada com sucesso"
+            },
+            "deletion": {
+                "error": "Erro durante a exclusão da maratona",
+                "success": "Maratona removida com sucesso"
+            },
+            "update": {
+                "error": "Erro durante a atualização da maratona",
+                "success": "Maratona atualizada com sucesso"
+            }
+        },
+        "schedule": {
+            "export": {
+                "error": "Um erro aconteceu durante a exportação. Por favor tente novamente ou contate um administrador."
+            },
+            "save": {
+                "error": "Erro durante o processo de salvar a agenda",
+                "success": "Agenda salva com sucesso"
+            }
+        },
+        "selection": {
+            "save": {
+                "error": "Erro durante o processo de salvar a seleção",
+                "success": "Seleção salva com sucesso"
+            }
+        },
+        "submission": {
+            "deletion": {
+                "error": "Um erro ocorreu durante a exclusão de uma submissão. Por favor tente novamente ou contate um administrador.",
+                "success": "Submissão removida com sucesso"
+            },
+            "save": {
+                "error": "Erro durante o processo de submissão",
+                "success": "Submissão enviada com sucesso"
+            }
+        },
+        "submit": {
+            "ALREADY_IN_OPPONENTS": "Você já faz parte desta categoria",
+            "CODE_NOT_FOUND": "Este código não existe",
+            "DIFFERENT_MARATHON": "Este código é para outra maratona",
+            "MAX_SIZE_REACHED": "Esta submissão já atingiu o número máximo de corredores",
+            "NOT_MULTIPLAYER": "Esta não é uma categoria para múltiplos jogadores",
+            "SAME_USER": "Você não pode adicionar você mesmo em uma categoria que você criou",
+            "DISCORD_VERIFIED": "Confirmámos que está no servidor de Discord, pode agora submeter"
+        },
+        "user": {
+            "deactivate": {
+                "success": "Sua conta foi desativada com sucesso"
+            },
+            "login": {
+                "disabledAccount": "Sua conta está desabilitada. Se você deseja utilizar ela novamente, contate um administrador.",
+                "error": "Um erro ocorreu durante a autenticação. Por favor tente novamente ou contate um administrador.",
+                "usernameExists": "O nome de usuário vinculado na conta que você está tentando logar já existe. Tenha certeza que você já não criou um perfil no Oengus com outro método de login. Se você acha que este é um falso positivo, por favor contate um administrador."
+            },
+            "sync": {
+                "alreadySynced": "Erro: Esta conta já existe",
+                "error": "Um erro ocorreu durante a sincronização de contas. Normalmente acontece por conta de um ad-blocker. Por favor adicione oengus à sua lista de sites liberados ou desative a extensão. Se tentou num browser sem extensões e continua a ver esta mensagem de erro, por favor contate-nos no canal #bug_or_feature no servidor de Discord do Oengus."
+            },
+            "update": {
+                "error": "Erro durante a atualização dos dados de usuário",
+                "success": "Dados de usuário atualizados com sucesso"
+            }
+        }
     },
-    "game": {
-      "deletion": {
-        "error": "Um erro ocorreu durante o processo de deletar um jogo. Por favor tente novamente ou contate um administrador.",
-        "success": "O jogo foi excluído com sucesso"
-      },
-      "export": {
-        "error": "Um erro aconteceu durante a exportação. Por favor tente novamente ou contate um administrador."
-      }
+    "calendar": {
+        "help": "Clicar em um evento irá lhe redirecionar para a página deste evento",
+        "title": "Calendário de maratonas"
     },
-    "incentives": {
-      "delete": {
-        "error": "Erro durante a exclusão do incentivo. Por favor tente novamente ou contate um administrador.",
-        "success": "Incentivo deletado com sucesso"
-      },
-      "save": {
-        "error": "Um erro ocorreu durante o processo de salvar os incentivos. Por favor tente novamente ou contate um administrador.",
-        "success": "Incentivos salvos com sucesso."
-      }
+    "footer": {
+        "donate": "Se você gostou do Oengus, por favor considere <a href=\"{{donationLink}}\" target=\"_blank\">realizar uma doação</a>",
+        "text": "Todos os horários são convertidos para o seu fuso horário. Fuso horário detectado: {{timezone}}"
+    },
+    "global": {
+        "emu": "[Emu]",
+        "non_select": "Nenhum selecionado",
+        "disabled": "Desativado",
+        "enabled": "Ativado",
+        "adblocker": "Oi, parece que está bloqueando anúncios. Por favor desative o seu ad blocker no oengus, que é apoiado em anúncios e doações para sobreviver."
+    },
+    "homepage": {
+        "ends": "Termina em {{duration}}",
+        "marathons": {
+            "calendar": "Calendário completo",
+            "live": "Maratonas ao vivo",
+            "moderated": "Maratonas moderadas",
+            "open": "Submissões abertas",
+            "upcoming": "Maratonas futuras"
+        },
+        "plannedFeatures": {
+            "1": "Submissões coop/races",
+            "2": "Sistema de seleção para múltiplas corridas (escolha direta, votação...)",
+            "3": "Sistema fácil de visualização de disponibilidade dos corredores",
+            "4": "Sincronia de contas para conectar com Twitter/Twitch/Google",
+            "5": "Integração com Discord",
+            "6": "Notificações por e-mails",
+            "7": "Gerenciamento de doações através do PayPal",
+            "title": "Funcionalidades planejadas",
+            "volunteerManager": "Gerenciador de candidatos a voluntários"
+        },
+        "starts": "Começa em {{duration}}",
+        "welcomeText": {
+            "par1": "Oengus é uma ferramenta <b>gratuita</b> para gerenciar as maratonas de speedruns, desde as submissões até a agenda do evento.",
+            "par3": "Para ter acesso a todas funcionalidades, por favor acesse através do próximo link. Você poderá criar novas maratonas e realizar submissões para as existentes:",
+            "par4": {
+                "prod": "Se você deseja testar a ferramenta antes de criar a sua maratona, por favor visite o <a href=\"https://sandbox.oengus.io\">ambiente de testes</a>. Ele está disponível para todos os testes e descobertas.",
+                "sandbox": "<b>Você está no ambiente de testes, disponível para testes e descobertas. Se você deseja criar uma maratona real, por favor acesse o <a href=\"https://oengus.io\">site principal</a>.</b>"
+            }
+        },
+        "welcomeTitle": "Seja bem vindo ao Oengus!",
+        "submissions_close": "Candidaturas fecham {{duration}}",
+        "sponsors": {
+            "title": "Patrocinadores",
+            "esa": "oengus.io é hospedado pela <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>",
+            "kaspersky": {
+                "box": "Graças ao patrocínio da Kaspersky, Oengus v2 está agora em desenvolvimento. <a href=\"{{readMoreUrl}}\" target=\"_blank\">Leia mais</a>",
+                "banner": "Graças ao patrocínio da Kaspersky, Oengus v2 está agora em desenvolvimento."
+            }
+        }
+    },
+    "login": {
+        "authInProgress": "Autenticação em progresso, por favor aguarde…"
     },
     "marathon": {
-      "creation": {
-        "error": "Erro durante a criação da maratona",
-        "success": "Maratona criada com sucesso"
-      },
-      "deletion": {
-        "error": "Erro durante a exclusão da maratona",
-        "success": "Maratona excluída com sucesso"
-      },
-      "update": {
-        "error": "Erro durante a atualização da maratona",
-        "success": "Maratona atualizada com sucesso"
-      }
-    },
-    "schedule": {
-      "export": {
-        "error": "Um erro aconteceu durante a exportação. Por favor tente novamente ou contate um administrador."
-      },
-      "save": {
-        "error": "Erro durante o processo de salvar a agenda",
-        "success": "Agenda salva com sucesso"
-      }
-    },
-    "selection": {
-      "save": {
-        "error": "Erro durante o processo de salvar a seleção",
-        "success": "Seleção salva com sucesso"
-      }
-    },
-    "submission": {
-      "deletion": {
-        "error": "Um erro ocorreu durante a exclusão de uma submissão. Por favor tente novamente ou contate um administrador.",
-        "success": "Submissão excluída com sucesso"
-      },
-      "save": {
-        "error": "Erro durante o processo de submissão",
-        "success": "Submissão enviada com sucesso"
-      }
-    },
-    "submit": {
-      "ALREADY_IN_OPPONENTS": "Você já faz parte desta categoria",
-      "CODE_NOT_FOUND": "Este código não existe",
-      "DIFFERENT_MARATHON": "Este código é para outra maratona",
-      "MAX_SIZE_REACHED": "Esta submissão já atingiu o número máximo de corredores",
-      "NOT_MULTIPLAYER": "Esta não é uma categoria para múltiplos jogadores",
-      "SAME_USER": "Você não pode adicionar você mesmo em uma categoria que você criou"
-    },
-    "user": {
-      "deactivate": {
-        "success": "Sua conta foi desativada com sucesso"
-      },
-      "login": {
-        "disabledAccount": "Sua conta está desabilitada. Se você deseja utilizar ela novamente, contate um administrador.",
-        "error": "Um erro ocorreu durante a autenticação. Por favor tente novamente ou contate um administrador.",
-        "usernameExists": "O nome de usuário vinculado na conta que você está tentando logar já existe. Tenha certeza que você já não criou um perfil no Oengus com outro método de login. Se você acha que este é um falso positivo, por favor contate um administrador."
-      },
-      "sync": {
-        "alreadySynced": "Erro: Esta conta já existe",
-        "error": "Um erro ocorreu durante a sincronização de contas. Por favor tente novamente ou um administrador."
-      },
-      "update": {
-        "error": "Erro durante a atualização dos dados de usuário",
-        "success": "Dados de usuário atualizados com sucesso"
-      }
-    }
-  },
-  "calendar": {
-    "help": "Clicar em um evento irá lhe redirecionar para a página deste evento",
-    "title": "Calendário de maratonas"
-  },
-  "footer": {
-    "donate": "Se você gostou do Oengus, por favor considere <a href=\"{{donationLink}}\" target=\"_blank\">realizar uma doação</a>",
-    "text": "Todos os horários são convertidos para o seu fuso horário. Fuso horário detectado: {{timezone}}"
-  },
-  "global": {
-    "emu": "[Emu]"
-  },
-  "homepage": {
-    "ends": "Termina em {{duration}}",
-    "marathons": {
-      "calendar": "Calendário completo",
-      "live": "Maratonas ao vivo",
-      "moderated": "Maratonas moderadas",
-      "open": "Submissões abertas",
-      "upcoming": "Maratonas futuras"
-    },
-    "plannedFeatures": {
-      "1": "Submissões coop/races",
-      "2": "Sistema de seleção para múltiplas corridas (escolha direta, votação...)",
-      "3": "Sistema fácil de visualização de disponibilidade dos corredores",
-      "4": "Sincronia de contas para conectar com Twitter/Twitch/Google",
-      "5": "Integração com Discord",
-      "6": "Notificações por e-mails",
-      "7": "Gerenciamento de doações através do PayPal",
-      "title": "Funcionalidades planejadas"
-    },
-    "starts": "Começa em {{duration}}",
-    "welcomeText": {
-      "par1": "Oengus é uma ferramenta <b>gratuita</b> para gerenciar as maratonas de speedruns, desde as submissões até a agenda do evento.",
-      "par3": "Para ter acesso a todas funcionalidades, por favor acesse através do próximo link. Você poderá criar novas maratonas e realizar submissões para as existentes:",
-      "par4": {
-        "prod": "Se você deseja testar a ferramenta antes de criar a sua maratona, por favor visite o <a href=\"https://sandbox.oengus.io\">ambiente de testes</a>. Ele está disponível para todos os testes e descobertas.",
-        "sandbox": "<b>Você está no ambiente de testes, disponível para testes e descobertas. Se você deseja criar uma maratona real, por favor acesse o <a href=\"https://oengus.io\">site principal</a>.</b>"
-      }
-    },
-    "welcomeTitle": "Seja bem vindo ao Oengus!"
-  },
-  "login": {
-    "authInProgress": "Autenticação em progresso, por favor aguarde…"
-  },
-  "marathon": {
-    "donate": {
-      "amount": {
-        "error": {
-          "minNumber": "A quantia a ser doada tem que ser mais do que zero",
-          "required": "A quantia a ser doada tem que ser preenchida"
+        "donate": {
+            "amount": {
+                "error": {
+                    "minNumber": "A quantia a ser doada tem que ser mais do que zero",
+                    "required": "A quantia a ser doada tem que ser preenchida"
+                },
+                "label": "Quantia da doação"
+            },
+            "comment": {
+                "label": "Comentário"
+            },
+            "description": "As doações ajudam a {{supportedCharity}}",
+            "extra": {
+                "description": "A informação não está pública em nenhum lugar e será excluída um mês depois da conclusão do evento.",
+                "title": "Informação extra"
+            },
+            "incentiveAmount": {
+                "error": {
+                    "minNumber": "A quantia tem que ser acima de zero",
+                    "required": "A quantia é necessária"
+                }
+            },
+            "incentives": {
+                "add": "Adicionar incentivos",
+                "bid": {
+                    "new": "(Novo)"
+                },
+                "description": "Incentivo de doações podem ser usado para adicionar desafios ou influenciar as escolhas do corredor. Você gostaria de atribuir a sua doação para um incentivo?",
+                "header": {
+                    "action": "Ação",
+                    "amount": "Quantidade",
+                    "incentive": "Incentivo"
+                },
+                "left": "Quantia ainda disponível:",
+                "title": "Incentivos"
+            },
+            "title": "Doar",
+            "nickname": {
+                "label": "Nickname",
+                "error": {
+                    "pattern": "O nickname pode apenas ser composto por letras minúsculas, LETRAS MAIÚSCULAS, _ e -",
+                    "max": "O nickname é demasiado longo"
+                }
+            }
         },
-        "label": "Quantia da doação"
-      },
-      "comment": {
-        "label": "Comentário"
-      },
-      "description": "As doações ajudam a {{supportedCharity}}",
-      "extra": {
-        "description": "A informação não está pública em nenhum lugar e será excluída um mês depois da conclusão do evento.",
-        "title": "Informação extra"
-      },
-      "incentiveAmount": {
-        "error": {
-          "minNumber": "A quantia tem que ser acima de zero",
-          "required": "A quantia é necessária"
+        "menu": {
+            "schedule": "Calendário",
+            "overview": "Resumo",
+            "moderators": "Moderadores",
+            "manageSchedule": "Gerir calendário",
+            "manageIncentives": "Gerir incentivos",
+            "loginToSubmit": "Faça log-in para submeter runs",
+            "incentives": "Incentivos",
+            "home": "Página inicial",
+            "editSubmission": "Editar submissão",
+            "donations": "Doações",
+            "donate": "Doar",
+            "admin": "Admin"
+        },
+        "settings": {
+            "country": {
+                "label": "País"
+            }
+        },
+        "incentives": {
+            "title": "Incentivos",
+            "management": {
+                "title": "Gerenciador de incentivos",
+                "table": {
+                    "progress": "Progresso",
+                    "locked": "Bloqueado",
+                    "isBidWar": "Objetivo de doação/Guerra de propostas",
+                    "incentive": "Nome de incentivo",
+                    "goal": "Objetivo",
+                    "game": "Jogo",
+                    "description": "Descrição",
+                    "currentAmount": "Montante atual",
+                    "actions": "Ações"
+                },
+                "openBid": "Doadores podem adicionar novas propostas",
+                "noSchedule": "É necessaŕio adicionar elementos ao calendário antes de adicionar incentivos",
+                "name": {
+                    "error": {
+                        "required": "Nome é obrigatório"
+                    }
+                },
+                "goal": {
+                    "error": {
+                        "required": "Objetivo de doação é obrigatório"
+                    }
+                },
+                "donationGoal": "Objetivo de doação",
+                "currentAmount": {
+                    "error": {
+                        "required": "Montante atual é obrigatório"
+                    }
+                },
+                "bidWar": "Guerra de propostas",
+                "bidName": {
+                    "error": {
+                        "required": "Nome de proposta é obrigatório"
+                    }
+                },
+                "approveBid": "Esta proposta foi criada por um doador e precisa aprovação. Por favor salve depois de aprovar!",
+                "action": {
+                    "add": "Adicionar incentivo"
+                }
+            }
+        },
+        "home": {
+            "to": "Até",
+            "location": "Local",
+            "language": "Idioma",
+            "from": "De"
+        },
+        "help": {
+            "isArchived": "A maratona está arquivada. Está agora em modo de leitura."
+        },
+        "donations": {
+            "total": "Total doações",
+            "title": "Doações",
+            "table": {
+                "name": "Nome",
+                "date": "Data",
+                "comment": "Comentário",
+                "amount": "Valor"
+            },
+            "max": "Maior doação",
+            "export": "Exportar como CSV",
+            "count": "Número de doações",
+            "average": "Doação média"
         }
-      },
-      "incentives": {
-        "add": "Adicionar incentivos",
-        "bid": {
-          "new": "(Novo)"
-        },
-        "description": "Incentivo de doações podem ser usado para adicionar desafios ou influenciar as escolhas do corredor. Você gostaria de atribuir a sua doação para um incentivo?",
-        "header": {
-          "action": "Ação",
-          "amount": "Quantidade",
-          "incentive": "Incentivo"
-        },
-        "left": "Quantia ainda disponível:"
-      }
+    },
+    "country": {
+        "AF": "Afeganistão",
+        "ZA": "África do Sul",
+        "AX": "Ilhas Åland",
+        "AL": "Albânia",
+        "DE": "Alemanha",
+        "AD": "Andorra",
+        "AO": "Angola",
+        "AI": "Anguilla",
+        "AQ": "Antártida",
+        "AG": "Antígua e Barbuda",
+        "SA": "Arábia Saudita",
+        "DZ": "Argélia",
+        "AR": "Argentina",
+        "AM": "Armênia",
+        "AW": "Aruba",
+        "AU": "Austrália",
+        "AT": "Áustria",
+        "AZ": "Azerbaijão",
+        "BS": "Bahamas",
+        "BD": "Bangladesh",
+        "BB": "Barbados",
+        "BH": "Barém",
+        "BE": "Bélgica",
+        "BZ": "Belize",
+        "BJ": "Benim",
+        "BM": "Bermudas",
+        "BY": "Bielorrússia",
+        "BO": "Bolívia",
+        "BQ": "Países Baixos Caribenhos",
+        "BA": "Bósnia e Herzegovina",
+        "BW": "Botswana",
+        "BV": "Ilha Bouvet",
+        "BR": "Brasil",
+        "BN": "Brunei",
+        "BG": "Bulgária",
+        "BF": "Burquina Fasso",
+        "BI": "Burundi",
+        "BT": "Butão",
+        "CV": "Cabo Verde",
+        "KH": "Camboja",
+        "CM": "Camarões",
+        "CA": "Canadá",
+        "QA": "Catar",
+        "KY": "Ilhas Cayman",
+        "KZ": "Cazaquistão",
+        "CF": "República Centro-Africana",
+        "TD": "Chade",
+        "CZ": "Chéquia",
+        "CL": "Chile",
+        "CN": "China",
+        "CY": "Chipre",
+        "CX": "Ilha do Natal",
+        "CC": "Ilhas Cocos (Keeling)",
+        "CO": "Colômbia",
+        "KM": "Comores",
+        "CG": "República do Congo",
+        "CD": "República Democrática do Congo",
+        "CK": "Ilhas Cook",
+        "KR": "Coreia do Sul",
+        "KP": "Coreia do Norte",
+        "CI": "Costa do Marfim",
+        "CR": "Costa Rica",
+        "HR": "Croácia",
+        "CU": "Cuba",
+        "CW": "Curaçao",
+        "DK": "Dinamarca",
+        "DJ": "Djibouti",
+        "DM": "Dominica",
+        "DO": "República Dominicana",
+        "EG": "Egito",
+        "SV": "El Salvador",
+        "AE": "Emirados Árabes Unidos",
+        "EC": "Equador",
+        "ER": "Eritreia",
+        "SK": "Eslováquia",
+        "SI": "Eslovênia",
+        "ES": "Espanha",
+        "US": "Estados Unidos",
+        "EE": "Estónia",
+        "SZ": "Essuatíni",
+        "ET": "Etiópia",
+        "FO": "Ilhas Feroé",
+        "FJ": "Fiji",
+        "PH": "Filipinas",
+        "FI": "Finlândia",
+        "FR": "França",
+        "GA": "Gabão",
+        "GM": "Gâmbia",
+        "GH": "Gana",
+        "GE": "Geórgia",
+        "GS": "Ilhas Geórgia do Sul e Sandwich do Sul",
+        "GI": "Gibraltar",
+        "GR": "Grécia",
+        "GD": "Granada",
+        "GL": "Gronelândia",
+        "GP": "Guadalupe",
+        "GU": "Guam",
+        "GT": "Guatemala",
+        "GG": "Guernsey",
+        "GY": "Guiana",
+        "GF": "Guiana Francesa",
+        "GW": "Guiné-Bissau",
+        "GN": "Guiné",
+        "GQ": "Guiné Equatorial",
+        "HT": "Haiti",
+        "HM": "Ilha Heard e Ilhas McDonald",
+        "HN": "Honduras",
+        "HK": "Hong Kong",
+        "HU": "Hungria",
+        "YE": "Iêmen",
+        "IN": "Índia",
+        "ID": "Indonésia",
+        "IQ": "Iraque",
+        "IR": "Irão",
+        "IE": "Irlanda",
+        "IS": "Islândia",
+        "IL": "Israel",
+        "IT": "Itália",
+        "JM": "Jamaica",
+        "JP": "Japão",
+        "JE": "Jersey",
+        "JO": "Jordânia",
+        "KI": "Kiribati",
+        "KW": "Kuwait",
+        "LA": "Laos",
+        "LS": "Lesoto",
+        "LV": "Letônia",
+        "LB": "Líbano",
+        "LR": "Libéria",
+        "LY": "Líbia",
+        "LI": "Liechtenstein",
+        "LT": "Lituânia",
+        "LU": "Luxemburgo",
+        "MO": "Macau",
+        "MK": "Macedônia do Norte",
+        "MG": "Madagáscar",
+        "MY": "Malásia",
+        "MW": "Malawi",
+        "MV": "Maldivas",
+        "ML": "Mali",
+        "MT": "Malta",
+        "FK": "Ilhas Malvinas",
+        "IM": "Ilha de Man",
+        "MP": "Marianas Setentrionais",
+        "MA": "Marrocos",
+        "MH": "Ilhas Marshall",
+        "MQ": "Martinica",
+        "MU": "Maurícia",
+        "MR": "Mauritânia",
+        "YT": "Mayotte",
+        "UM": "Ilhas Menores Distantes dos Estados Unidos",
+        "MX": "México",
+        "MM": "Mianmar",
+        "FM": "Estados Federados da Micronésia",
+        "MZ": "Moçambique",
+        "MD": "Moldávia",
+        "MC": "Mónaco",
+        "MN": "Mongólia",
+        "ME": "Montenegro",
+        "MS": "Montserrat",
+        "NA": "Namíbia",
+        "NR": "Nauru",
+        "NP": "Nepal",
+        "NI": "Nicarágua",
+        "NE": "Níger",
+        "NG": "Nigéria",
+        "NU": "Niue",
+        "NF": "Ilha Norfolk",
+        "NO": "Noruega",
+        "NC": "Nova Caledônia",
+        "NZ": "Nova Zelândia",
+        "OM": "Omã",
+        "NL": "Países Baixos",
+        "PW": "Palau",
+        "PS": "Palestina",
+        "PA": "Panamá",
+        "PG": "Papua-Nova Guiné",
+        "PK": "Paquistão",
+        "PY": "Paraguai",
+        "PE": "Peru",
+        "PN": "Pitcairn",
+        "PF": "Polinésia Francesa",
+        "PL": "Polónia",
+        "PR": "Porto Rico",
+        "PT": "Portugal",
+        "KE": "Quênia",
+        "KG": "Quirguistão",
+        "GB": "Reino Unido",
+        "RE": "Reunião",
+        "RO": "Roménia",
+        "RW": "Ruanda",
+        "RU": "Rússia",
+        "EH": "Saara Ocidental",
+        "AS": "Samoa Americana",
+        "WS": "Samoa",
+        "PM": "Saint-Pierre e Miquelon",
+        "SB": "Ilhas Salomão",
+        "SM": "San Marino",
+        "SH": "Santa Helena, Ascensão e Tristão da Cunha",
+        "LC": "Santa Lúcia",
+        "BL": "São Bartolomeu",
+        "KN": "São Cristóvão e Névis",
+        "SX": "São Martinho",
+        "MF": "São Martinho",
+        "ST": "São Tomé e Príncipe",
+        "VC": "São Vicente e Granadinas",
+        "SN": "Senegal",
+        "SL": "Serra Leoa",
+        "RS": "Sérvia",
+        "SC": "Seicheles",
+        "SG": "Singapura",
+        "SY": "Síria",
+        "SO": "Somália",
+        "LK": "Sri Lanka",
+        "SD": "Sudão",
+        "SS": "Sudão do Sul",
+        "SE": "Suécia",
+        "CH": "Suíça",
+        "SR": "Suriname",
+        "SJ": "Svalbard e Jan Mayen",
+        "TH": "Tailândia",
+        "TW": "Taiwan",
+        "TJ": "Tajiquistão",
+        "TZ": "Tanzânia",
+        "TF": "Terras Austrais e Antárticas Francesas",
+        "IO": "Território Britânico do Oceano Índico",
+        "TL": "Timor-Leste",
+        "TG": "Togo",
+        "TK": "Toquelau",
+        "TO": "Tonga",
+        "TT": "Trindade e Tobago",
+        "TN": "Tunísia",
+        "TC": "Turks e Caicos",
+        "TM": "Turquemenistão",
+        "TR": "Turquia",
+        "TV": "Tuvalu",
+        "UA": "Ucrânia",
+        "UG": "Uganda",
+        "UY": "Uruguai",
+        "UZ": "Uzbequistão",
+        "VU": "Vanuatu",
+        "VA": "Vaticano",
+        "VE": "Venezuela",
+        "VN": "Vietnã",
+        "VI": "Ilhas Virgens Americanas",
+        "VG": "Ilhas Virgens Britânicas",
+        "WF": "Wallis e Futuna",
+        "ZM": "Zâmbia",
+        "ZW": "Zimbabwe"
+    },
+    "language": {
+        "de": "alemão",
+        "hi": "híndi",
+        "fil": "filipino",
+        "lt": "lituano",
+        "hr": "croata",
+        "lv": "letão",
+        "hu": "húngaro",
+        "zh-CN": "chinês",
+        "uk": "ucraniano",
+        "id": "indonésio",
+        "ur": "urdu",
+        "ml": "malaiala",
+        "mr": "marati",
+        "ms": "malaio",
+        "el": "grego",
+        "en": "inglês",
+        "eo": "esperanto",
+        "is": "islandês",
+        "it": "italiano",
+        "am": "amárico",
+        "chr": "cheroqui",
+        "iw": "hebraico",
+        "es": "espanhol",
+        "et": "estoniano",
+        "eu": "basco",
+        "ar": "árabe",
+        "pt-PT": "português",
+        "vi": "vietnamita",
+        "ja": "japonês",
+        "ro": "romeno",
+        "en-GB": "inglês",
+        "nl": "holandês",
+        "no": "norueguês",
+        "fi": "finlandês",
+        "ru": "russo",
+        "bg": "búlgaro",
+        "bn": "bengali",
+        "fr": "francês",
+        "sk": "eslovaco",
+        "sl": "esloveno",
+        "ca": "catalão",
+        "sr": "sérvio",
+        "kn": "canarim",
+        "sv": "sueco",
+        "ko": "coreano",
+        "sw": "suaíli",
+        "zh-TW": "chinês",
+        "pt-BR": "português",
+        "ta": "tâmil",
+        "gu": "guzerate",
+        "cs": "tcheco",
+        "te": "télugo",
+        "th": "tailandês",
+        "cy": "galês",
+        "pl": "polonês",
+        "da": "dinamarquês",
+        "tr": "turco"
+    },
+    "platform": {
+        "NICO": "Nico",
+        "EMAIL": "E-mail",
+        "DISCORD": "Discord",
+        "SNAPCHAT": "Snapchat",
+        "INSTAGRAM": "Instagram",
+        "FACEBOOK": "Facebook",
+        "PHONE": "Número de telefone",
+        "TWITCH": "Twitch",
+        "TWITTER": "Twitter",
+        "SPEEDRUNCOM": "speedrun.com"
     }
-  },
-  "country": {
-    "AF": "Afeganistão",
-    "ZA": "África do Sul",
-    "AX": "Ilhas Åland",
-    "AL": "Albânia",
-    "DE": "Alemanha",
-    "AD": "Andorra",
-    "AO": "Angola",
-    "AI": "Anguilla",
-    "AQ": "Antártida",
-    "AG": "Antígua e Barbuda",
-    "SA": "Arábia Saudita",
-    "DZ": "Argélia",
-    "AR": "Argentina",
-    "AM": "Armênia",
-    "AW": "Aruba",
-    "AU": "Austrália",
-    "AT": "Áustria",
-    "AZ": "Azerbaijão",
-    "BS": "Bahamas",
-    "BD": "Bangladesh",
-    "BB": "Barbados",
-    "BH": "Barém",
-    "BE": "Bélgica",
-    "BZ": "Belize",
-    "BJ": "Benim",
-    "BM": "Bermudas",
-    "BY": "Bielorrússia",
-    "BO": "Bolívia",
-    "BQ": "Países Baixos Caribenhos",
-    "BA": "Bósnia e Herzegovina",
-    "BW": "Botswana",
-    "BV": "Ilha Bouvet",
-    "BR": "Brasil",
-    "BN": "Brunei",
-    "BG": "Bulgária",
-    "BF": "Burquina Fasso",
-    "BI": "Burundi",
-    "BT": "Butão",
-    "CV": "Cabo Verde",
-    "KH": "Camboja",
-    "CM": "Camarões",
-    "CA": "Canadá",
-    "QA": "Catar",
-    "KY": "Ilhas Cayman",
-    "KZ": "Cazaquistão",
-    "CF": "República Centro-Africana",
-    "TD": "Chade",
-    "CZ": "Chéquia",
-    "CL": "Chile",
-    "CN": "China",
-    "CY": "Chipre",
-    "CX": "Ilha do Natal",
-    "CC": "Ilhas Cocos (Keeling)",
-    "CO": "Colômbia",
-    "KM": "Comores",
-    "CG": "República do Congo",
-    "CD": "República Democrática do Congo",
-    "CK": "Ilhas Cook",
-    "KR": "Coreia do Sul",
-    "KP": "Coreia do Norte",
-    "CI": "Costa do Marfim",
-    "CR": "Costa Rica",
-    "HR": "Croácia",
-    "CU": "Cuba",
-    "CW": "Curaçao",
-    "DK": "Dinamarca",
-    "DJ": "Djibouti",
-    "DM": "Dominica",
-    "DO": "República Dominicana",
-    "EG": "Egito",
-    "SV": "El Salvador",
-    "AE": "Emirados Árabes Unidos",
-    "EC": "Equador",
-    "ER": "Eritreia",
-    "SK": "Eslováquia",
-    "SI": "Eslovênia",
-    "ES": "Espanha",
-    "US": "Estados Unidos",
-    "EE": "Estónia",
-    "SZ": "Essuatíni",
-    "ET": "Etiópia",
-    "FO": "Ilhas Feroé",
-    "FJ": "Fiji",
-    "PH": "Filipinas",
-    "FI": "Finlândia",
-    "FR": "França",
-    "GA": "Gabão",
-    "GM": "Gâmbia",
-    "GH": "Gana",
-    "GE": "Geórgia",
-    "GS": "Ilhas Geórgia do Sul e Sandwich do Sul",
-    "GI": "Gibraltar",
-    "GR": "Grécia",
-    "GD": "Granada",
-    "GL": "Gronelândia",
-    "GP": "Guadalupe",
-    "GU": "Guam",
-    "GT": "Guatemala",
-    "GG": "Guernsey",
-    "GY": "Guiana",
-    "GF": "Guiana Francesa",
-    "GW": "Guiné-Bissau",
-    "GN": "Guiné",
-    "GQ": "Guiné Equatorial",
-    "HT": "Haiti",
-    "HM": "Ilha Heard e Ilhas McDonald",
-    "HN": "Honduras",
-    "HK": "Hong Kong",
-    "HU": "Hungria",
-    "YE": "Iêmen",
-    "IN": "Índia",
-    "ID": "Indonésia",
-    "IQ": "Iraque",
-    "IR": "Irão",
-    "IE": "Irlanda",
-    "IS": "Islândia",
-    "IL": "Israel",
-    "IT": "Itália",
-    "JM": "Jamaica",
-    "JP": "Japão",
-    "JE": "Jersey",
-    "JO": "Jordânia",
-    "KI": "Kiribati",
-    "KW": "Kuwait",
-    "LA": "Laos",
-    "LS": "Lesoto",
-    "LV": "Letônia",
-    "LB": "Líbano",
-    "LR": "Libéria",
-    "LY": "Líbia",
-    "LI": "Liechtenstein",
-    "LT": "Lituânia",
-    "LU": "Luxemburgo",
-    "MO": "Macau",
-    "MK": "Macedônia do Norte",
-    "MG": "Madagáscar",
-    "MY": "Malásia",
-    "MW": "Malawi",
-    "MV": "Maldivas",
-    "ML": "Mali",
-    "MT": "Malta",
-    "FK": "Ilhas Malvinas",
-    "IM": "Ilha de Man",
-    "MP": "Marianas Setentrionais",
-    "MA": "Marrocos",
-    "MH": "Ilhas Marshall",
-    "MQ": "Martinica",
-    "MU": "Maurícia",
-    "MR": "Mauritânia",
-    "YT": "Mayotte",
-    "UM": "Ilhas Menores Distantes dos Estados Unidos",
-    "MX": "México",
-    "MM": "Mianmar",
-    "FM": "Estados Federados da Micronésia",
-    "MZ": "Moçambique",
-    "MD": "Moldávia",
-    "MC": "Mónaco",
-    "MN": "Mongólia",
-    "ME": "Montenegro",
-    "MS": "Montserrat",
-    "NA": "Namíbia",
-    "NR": "Nauru",
-    "NP": "Nepal",
-    "NI": "Nicarágua",
-    "NE": "Níger",
-    "NG": "Nigéria",
-    "NU": "Niue",
-    "NF": "Ilha Norfolk",
-    "NO": "Noruega",
-    "NC": "Nova Caledônia",
-    "NZ": "Nova Zelândia",
-    "OM": "Omã",
-    "NL": "Países Baixos",
-    "PW": "Palau",
-    "PS": "Palestina",
-    "PA": "Panamá",
-    "PG": "Papua-Nova Guiné",
-    "PK": "Paquistão",
-    "PY": "Paraguai",
-    "PE": "Peru",
-    "PN": "Pitcairn",
-    "PF": "Polinésia Francesa",
-    "PL": "Polónia",
-    "PR": "Porto Rico",
-    "PT": "Portugal",
-    "KE": "Quênia",
-    "KG": "Quirguistão",
-    "GB": "Reino Unido",
-    "RE": "Reunião",
-    "RO": "Roménia",
-    "RW": "Ruanda",
-    "RU": "Rússia",
-    "EH": "Saara Ocidental",
-    "AS": "Samoa Americana",
-    "WS": "Samoa",
-    "PM": "Saint-Pierre e Miquelon",
-    "SB": "Ilhas Salomão",
-    "SM": "San Marino",
-    "SH": "Santa Helena, Ascensão e Tristão da Cunha",
-    "LC": "Santa Lúcia",
-    "BL": "São Bartolomeu",
-    "KN": "São Cristóvão e Névis",
-    "SX": "São Martinho",
-    "MF": "São Martinho",
-    "ST": "São Tomé e Príncipe",
-    "VC": "São Vicente e Granadinas",
-    "SN": "Senegal",
-    "SL": "Serra Leoa",
-    "RS": "Sérvia",
-    "SC": "Seicheles",
-    "SG": "Singapura",
-    "SY": "Síria",
-    "SO": "Somália",
-    "LK": "Sri Lanka",
-    "SD": "Sudão",
-    "SS": "Sudão do Sul",
-    "SE": "Suécia",
-    "CH": "Suíça",
-    "SR": "Suriname",
-    "SJ": "Svalbard e Jan Mayen",
-    "TH": "Tailândia",
-    "TW": "Taiwan",
-    "TJ": "Tajiquistão",
-    "TZ": "Tanzânia",
-    "TF": "Terras Austrais e Antárticas Francesas",
-    "IO": "Território Britânico do Oceano Índico",
-    "TL": "Timor-Leste",
-    "TG": "Togo",
-    "TK": "Toquelau",
-    "TO": "Tonga",
-    "TT": "Trindade e Tobago",
-    "TN": "Tunísia",
-    "TC": "Turks e Caicos",
-    "TM": "Turquemenistão",
-    "TR": "Turquia",
-    "TV": "Tuvalu",
-    "UA": "Ucrânia",
-    "UG": "Uganda",
-    "UY": "Uruguai",
-    "UZ": "Uzbequistão",
-    "VU": "Vanuatu",
-    "VA": "Vaticano",
-    "VE": "Venezuela",
-    "VN": "Vietnã",
-    "VI": "Ilhas Virgens Americanas",
-    "VG": "Ilhas Virgens Britânicas",
-    "WF": "Wallis e Futuna",
-    "ZM": "Zâmbia",
-    "ZW": "Zimbabwe"
-  },
-  "language": {
-    "de": "alemão",
-    "hi": "híndi",
-    "fil": "filipino",
-    "lt": "lituano",
-    "hr": "croata",
-    "lv": "letão",
-    "hu": "húngaro",
-    "zh-CN": "chinês",
-    "uk": "ucraniano",
-    "id": "indonésio",
-    "ur": "urdu",
-    "ml": "malaiala",
-    "mr": "marati",
-    "ms": "malaio",
-    "el": "grego",
-    "en": "inglês",
-    "eo": "esperanto",
-    "is": "islandês",
-    "it": "italiano",
-    "am": "amárico",
-    "chr": "cheroqui",
-    "iw": "hebraico",
-    "es": "espanhol",
-    "et": "estoniano",
-    "eu": "basco",
-    "ar": "árabe",
-    "pt-PT": "português",
-    "vi": "vietnamita",
-    "ja": "japonês",
-    "ro": "romeno",
-    "en-GB": "inglês",
-    "nl": "holandês",
-    "no": "norueguês",
-    "fi": "finlandês",
-    "ru": "russo",
-    "bg": "búlgaro",
-    "bn": "bengali",
-    "fr": "francês",
-    "sk": "eslovaco",
-    "sl": "esloveno",
-    "ca": "catalão",
-    "sr": "sérvio",
-    "kn": "canarim",
-    "sv": "sueco",
-    "ko": "coreano",
-    "sw": "suaíli",
-    "zh-TW": "chinês",
-    "pt-BR": "português",
-    "ta": "tâmil",
-    "gu": "guzerate",
-    "cs": "tcheco",
-    "te": "télugo",
-    "th": "tailandês",
-    "cy": "galês",
-    "pl": "polonês",
-    "da": "dinamarquês",
-    "tr": "turco"
-  }
 }
