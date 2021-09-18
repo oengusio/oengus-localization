@@ -1031,6 +1031,8 @@
       "title0": "Your WR has been rejected",
       "title1": "Hold your horses, you're too fast",
       "title2": "Going too fast there buddy",
+      "title3": "We do not accept glitched runs",
+      "title4": "It's not a bug, it's a feature",
       "body": "The page <em>{{path}}</em> was not found on Angus"
     }
   },
