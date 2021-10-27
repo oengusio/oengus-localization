@@ -254,7 +254,7 @@
                 "selectedRuns": "Valitut pelit",
                 "title": "Aikataulun hallinta",
                 "help": {
-                    "dragAndDrop": "Käytä nuolia riveillä lisätäksesti tai poistaaksesi pelejä aikataulusta. Voit siirrellä hiirellä rivejä hakasten avulla."
+                    "dragAndDrop": "Käytä nuolia riveillä lisätäksesti tai poistaaksesi pelejä aikataulusta. Voit siirrellä hiirellä rivejä hakasten avulla"
                 }
             },
             "nextRun": "Seuraava peli {{duration}}",
@@ -438,7 +438,7 @@
     },
     "aboutPage": {
         "about": {
-            "par1": "Oengus tarjoaa välineitä speedrun-tapahtumien organisointiin ja järjestämiseen.",
+            "par1": "Oengus (lausutaan Angus/ang·guhs) tarjoaa välineitä speedrun-tapahtumien organisointiin ja järjestämiseen.",
             "par6": "Triviaa: Oengus on kelttiläinen jumalhahmo, joka vastaa ajasta ja ikuisuudesta. Sopii hyvin speedruneille, eikö!",
             "title": "Tietoa",
             "par5": "Sivustoa ylläpitää tammikuusta 2021 alkaen <a href=\"https://twitter.com/duncte123\" target=\"_blank\">duncte123</a>.",
@@ -447,7 +447,7 @@
         },
         "contact": {
             "title": "Ota yhteyttä",
-            "par2": "Kaupalliset ja viestintään liittyvät yhteydenotot osoitteeseen contact@oengus.io",
+            "par2": "Kaupalliset ja viestintään liittyvät yhteydenotot osoitteeseen <a href=\"mailto:contact@oengus.io\" target=\"_blank\">contact@oengus.io</a>. Vastaamme vain englanninkielisiin viesteihin.",
             "par1": "Löysitkö bugin? Onko sinulla kysyttävää sivustosta? Liity <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">Discord-palvelimellemme!</a>"
         }
     },
