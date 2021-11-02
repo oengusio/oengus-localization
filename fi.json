@@ -245,7 +245,8 @@
             "tweet": {
                 "submit": "Minä ilmoitin {{games}} {{marathon}}-tapahtumaan"
             },
-            "maxNumberOfScreens": "Maksimimäärä pelaajia per peli/moninpeli"
+            "maxNumberOfScreens": "Maksimimäärä pelaajia per peli/moninpeli",
+            "details": "Yksityiskohdat"
         },
         "submissions": {
             "title": "Ilmoittautumiset",
@@ -265,7 +266,9 @@
                 "categoryDescription": "Kategorian kuvaus",
                 "status": "Tila",
                 "type": "Tyyppi",
-                "gameDescription": "Pelin kuvaus"
+                "gameDescription": "Pelin kuvaus",
+                "actions": "Toiminnot",
+                "marathon": "Maratoni"
             },
             "category": {
                 "delete": "Poista kategoria"
@@ -282,7 +285,8 @@
         "settings": {
             "type": {
                 "online": "Online",
-                "label": "Tapahtuman tyyppi"
+                "label": "Tapahtuman tyyppi",
+                "onsite": "Paikan päällä"
             },
             "tabs": {
                 "submissions": "Ilmoittautumiset",
@@ -541,6 +545,9 @@
             },
             "sandbox": {
                 "warning": "Varoitus: Oengusin hiekkalaatikko toimii yhdessä PayPalin hiekkalaatikon kanssa. Käytä PayPalin hiekkalaatikko-osoitetta maksujen vastaanottajana, jotta (vale)lahjoitukset toimivat."
+            },
+            "country": {
+                "label": "Maa"
             }
         },
         "selection": {
