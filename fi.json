@@ -40,7 +40,7 @@
                 "error": "Virhe käyttäjätietojen päivityksessä"
             },
             "sync": {
-                "error": "Synkronisoinnin aikana tapahtui virhe. Ole hyvä ja yritä uudelleen, tai ota yhteyttä ylläpitoon.",
+                "error": "Synkronoinnin aikana tapahtui virhe. Normaalista tämä johtuu mainoksen estäjästä. Ole hyvä ja yritä uudelleen, sen jälkeen kun olet poistanut liitännäiset käyttöstä . Jos olet yrittänyt selaimella ilman liitännäisiä ja edelleen saat virheilmoituksen kysy apua Opengusin Discord-palvelemilelta #bug-kanavalta.",
                 "alreadySynced": "Virhe: Tämä tunnus on jo käytössä"
             },
             "login": {
@@ -285,7 +285,8 @@
             "editSubmission": "Muokkaa ilmoittautumista",
             "selectRuns": "Valitse pelejä",
             "submitRuns": "Ilmoita pelejä",
-            "viewSubmissions": "Katso ilmoittautumisia"
+            "viewSubmissions": "Katso ilmoittautumisia",
+            "tracker": "Seurain"
         },
         "incentives": {
             "title": "Kannusteet",
@@ -317,6 +318,11 @@
                 "bidWar": "Pottikisa",
                 "action": {
                     "add": "Lisää kannuste"
+                },
+                "currentAmount": {
+                    "error": {
+                        "required": "Nykyinen määrä vaaditaan"
+                    }
                 }
             }
         },
