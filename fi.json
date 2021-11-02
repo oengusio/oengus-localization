@@ -20,7 +20,7 @@
         },
         "category": {
             "deletion": {
-                "success": "Kategoria poistettu",
+                "success": "Kategoria poistettu onnistuneesti",
                 "error": "Kategorian poistossa tapahtui virhe. Ole hyvä ja yritä uudelleen, tai ota yhteyttä ylläpitoon."
             }
         },
@@ -54,7 +54,7 @@
         },
         "submission": {
             "deletion": {
-                "success": "Ilmoittautuminen poistettu",
+                "success": "Ilmoittautuminen poistettu onnistuneesti",
                 "error": "Ilmoittautumisen poistossa tapahtui virhe. Ole hyvä ja yritä uudelleen, tai ota yhteyttä ylläpitoon."
             },
             "save": {
@@ -97,7 +97,7 @@
             },
             "deletion": {
                 "success": "Peli poistettu",
-                "error": "Pelin poistossa tapahtui virhe. Ole hyvä ja yritä uudelleen, tai ota yhteyttä ylläpitoon."
+                "error": "Pelin poistossa tapahtui virhe. Yritä uudelleen tai ota yhteyttä ylläpitoon."
             }
         }
     },
@@ -212,7 +212,8 @@
             "status": {
                 "VALIDATED": "Hyväksytty",
                 "REJECTED": "Hylätty",
-                "BONUS": "Bonus"
+                "BONUS": "Bonus",
+                "BACKUP": "Vara"
             },
             "statistics": {
                 "title": "Tilastot"
@@ -220,6 +221,9 @@
             "action": {
                 "publish": "Julkaise valinnat",
                 "decline": "Hylkää \"TODO\""
+            },
+            "selection": {
+                "title": "Valinta"
             }
         },
         "schedule": {
@@ -466,7 +470,7 @@
     },
     "footer": {
         "donate": "Jos pidät Oenguksesta, voit harkita <a href=\"{{donationLink}}\" target=\"_blank\">lahjoittamista</a>",
-        "text": "Kaikki kellonajat on muunnettu aikavyöhykkeesi mukaan. Havaittu aikavyöhyke: {{timezone}}"
+        "text": "Aikavyöhyke: {{timezone}}"
     },
     "language": {
         "de": "saksa",
