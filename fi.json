@@ -953,7 +953,7 @@
             "filter": {
                 "temporality": {
                     "title": "Väliaikaisuus",
-                    "FUTURE": "Tulevat maratonit",
+                    "FUTURE": "Tulevat tapahtumat",
                     "PAST": "Menneet tapahtumat"
                 },
                 "status": {
