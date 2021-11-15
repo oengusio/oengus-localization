@@ -487,10 +487,8 @@
             },
             "donationWebhook": {
                 "error": {
-                    "max": "Webhook link is te lang",
                     "offline": "Kan de webhook niet bereiken. Weet je zeker dat dit de correcte URL is?"
                 },
-                "help": "Je kan een webhook toevoegen om evenementen te verkrijgen wanneer een donatie is gemaakt. Contacteer een administrator voor meer details.",
                 "label": "Webhook"
             },
             "donations": {
@@ -799,9 +797,6 @@
                 "console": {
                     "emulated": "Geëmuleerd",
                     "emulatorNotAllowed": "Emulatoren zijn niet toegestaan voor deze marathon",
-                    "error": {
-                        "required": "Console is verplicht"
-                    },
                     "label": "Console"
                 },
                 "description": {
@@ -1279,7 +1274,6 @@
         "CH": "Zwitserland"
     },
     "platform": {
-        "GOOGLE": "Google+",
         "PHONE": "Telefoonnummer",
         "EMAIL": "E-mail",
         "DISCORD": "Discord",

@@ -487,10 +487,8 @@
             },
             "donationWebhook": {
                 "error": {
-                    "max": "El enlace de Webhook es muy largo",
                     "offline": "No se pudo acceder al enlace de Webhook. ¿Estás seguro que es la URL correcta?"
                 },
-                "help": "Puedes añadir un webhook a los eventos cuando se haga una nueva donación. Por favor, contacta un administrador para mas detalles.",
                 "label": "Webhook"
             },
             "donations": {
@@ -799,9 +797,6 @@
                 "console": {
                     "emulated": "Emulado",
                     "emulatorNotAllowed": "Los emuladores no están permitidos en esta maratón",
-                    "error": {
-                        "required": "Se requiere una consola"
-                    },
                     "label": "Consola"
                 },
                 "description": {

@@ -539,9 +539,6 @@
             "game": {
                 "console": {
                     "emulated": "エミュレーター",
-                    "error": {
-                        "required": "機種は必須です"
-                    },
                     "label": "機種"
                 },
                 "description": {

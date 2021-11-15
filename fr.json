@@ -487,10 +487,8 @@
             },
             "donationWebhook": {
                 "error": {
-                    "max": "La taille du lien du webhook est trop longue",
                     "offline": "Le webhook n'a pas pu être atteint. Êtes-vous sûr de l'URL ?"
                 },
-                "help": "Vous pouvez ajouter un webhook pour déclencher un événement à chaque fois qu'un don est fait. Veuillez contacter un administrateur pour plus de détails.",
                 "label": "Webhook"
             },
             "donations": {
@@ -799,9 +797,6 @@
                 "console": {
                     "emulated": "Émulée",
                     "emulatorNotAllowed": "Les émulateurs ne sont pas autorisés pour ce marathon",
-                    "error": {
-                        "required": "La console est requise"
-                    },
                     "label": "Console"
                 },
                 "description": {
