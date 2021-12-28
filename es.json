@@ -486,9 +486,6 @@
                 "private": "Discord privado"
             },
             "donationWebhook": {
-                "error": {
-                    "offline": "No se pudo acceder al enlace de Webhook. ¿Estás seguro que es la URL correcta?"
-                },
                 "label": "Webhook"
             },
             "donations": {
@@ -1019,7 +1016,9 @@
             "body": "Esta página <em>{{path}}</em> no ha sido encontrada",
             "title2": "Estas yendo muy rápido",
             "title1": "Espera un momento, estás yendo muy rápido",
-            "title0": "Tu WR ha sido rechazado"
+            "title0": "Tu WR ha sido rechazado",
+            "title3": "No aceptamos lanzamientos con defectos",
+            "title4": "No es un defecto, es una característica"
         }
     },
     "patrons": {
