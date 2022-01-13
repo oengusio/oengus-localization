@@ -485,9 +485,6 @@
                 "label": "Confidentialité du serveur Discord",
                 "private": "Discord est privé"
             },
-            "donationWebhook": {
-                "label": "Webhook"
-            },
             "donations": {
                 "donationsOpen": "Les dons sont ouverts",
                 "hasDonations": "C'est un évènement caritatif",

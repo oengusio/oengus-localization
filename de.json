@@ -472,9 +472,6 @@
                 "label": "Discord-Privatsphäre",
                 "private": "Discord ist privat"
             },
-            "donationWebhook": {
-                "label": "Webhook"
-            },
             "donations": {
                 "donationsOpen": "Spenden sind offen",
                 "hasDonations": "Dies ist eine Wohltätigkeitsveranstaltung",
