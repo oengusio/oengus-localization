@@ -485,9 +485,6 @@
                 "label": "Privacidad del Discord",
                 "private": "Discord privado"
             },
-            "donationWebhook": {
-                "label": "Webhook"
-            },
             "donations": {
                 "donationsOpen": "Las donaciones están abiertas",
                 "hasDonations": "Esto es un evento de caridad",

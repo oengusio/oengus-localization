@@ -473,9 +473,6 @@
                 "private": "Discord ist privat"
             },
             "donationWebhook": {
-                "error": {
-                    "offline": "Webhook konnte nicht erreicht werden. Sind Sie sicher, dass dies die richtige URL ist?"
-                },
                 "label": "Webhook"
             },
             "donations": {

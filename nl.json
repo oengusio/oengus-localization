@@ -486,9 +486,6 @@
                 "private": "Discord is privé"
             },
             "donationWebhook": {
-                "error": {
-                    "offline": "Kan de webhook niet bereiken. Weet je zeker dat dit de correcte URL is?"
-                },
                 "label": "Webhook"
             },
             "donations": {
