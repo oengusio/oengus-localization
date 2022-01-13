@@ -13,6 +13,14 @@
             "par1": "Heb je een bug gevonden? Heb je vragen over de website? Join onze <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">Discord server</a>",
             "par2": "Voor zakelijke en PR vragen, schrijf een email naar <a href=\"mailto:contact@oengus.io\" target=\"_blank\">contact@oengus.io</a>. Wij antwoorden alleen naar emails geschreven in het Engels.",
             "title": "Contact"
+        },
+        "privacy": {
+            "par2": "Als je aanvullende vragen hebt, of meer informatie nodig hebt over ons Privacybeleid, aarzel dan niet om ons te contacteren.",
+            "log": {
+                "title": "Logbestanden"
+            },
+            "title": "Privacybeleid",
+            "par1": "Bij Oengus, bereikbaar via {{oengus-link}}, is een van onze belangrijkste prioriteiten de privacy van onze bezoekers. Dit Privacybeleid bevat de typen informatie die wordt verzameld en vastgelegd door Oengus en hoe we deze gebruiken."
         }
     },
     "action": {
@@ -1277,7 +1285,8 @@
         "TWITCH": "Twitch",
         "TWITTER": "Twitter",
         "SPEEDRUNCOM": "speedrun.com",
-        "NICO": "Nico"
+        "NICO": "Nico",
+        "YOUTUBE": "YouTube"
     },
     "language": {
         "de": "Duits",
