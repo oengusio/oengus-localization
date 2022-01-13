@@ -9,7 +9,8 @@
     "DISCORD": "Discord",
     "EMAIL": "Email",
     "PHONE": "Phone Number",
-    "NICO": "Nico"
+    "NICO": "Nico",
+    "YOUTUBE": "YouTube"
   },
   "aboutPage": {
     "about": {
@@ -28,7 +29,7 @@
     },
     "privacy": {
       "title": "Privacy Policy",
-      "par1": "At Oengus, accessible from {{oengusLink}}, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Oengus and how we use it.",
+      "par1": "At Oengus, accessible from {{oengus-link}}, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Oengus and how we use it.",
       "par2": "If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.",
       "log": {
         "title": "Log Files",
@@ -172,13 +173,24 @@
     }
   },
   "calendar": {
+    "allDay": "All day",
+    "between": "{{time-range}}",
+    "endsAt": "Ends {{end-time}}",
     "help": "Clicking on an event will redirect you to its page",
+    "noMarathons": "There are no marathons in this date range.",
+    "now": "Now",
+    "startsAt": "Begins {{start-time}}",
     "title": "Marathons calendar"
   },
   "footer": {
     "donate": "If you enjoy Oengus, please consider <a href=\"{{donationLink}}\" target=\"_blank\">making a donation</a>",
+    "patron": {
+      "enjoyOengus": "If you enjoy Oengus, please consider {{patronLink}}",
+      "list": "Thank you to our patrons listed below whose contributions keep Oengus free for everyone",
+      "patronLink": "becoming a patron"
+    },
     "text": "All times are converted to your timezone. Detected timezone: {{timezone}}",
-    "v1Link": "View this page on Oengus v1"
+    "v1Link": "Login to Oengus on v1"
   },
   "global": {
     "emu": "[Emu]",
@@ -731,6 +743,7 @@
       }
     },
     "submissions": {
+      "date": "Date",
       "filter": "Filter users and games",
       "category": {
         "delete": "Delete the category"
@@ -922,6 +935,9 @@
     "sourceCode": "Source code",
     "translate": "Help translate the site",
     "twitter": "Follow us on Twitter"
+  },
+  "news": {
+    "title": "News"
   },
   "user": {
     "profile": {
