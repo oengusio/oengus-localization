@@ -13,6 +13,15 @@
             "title": "Contatta",
             "par2": "Per richieste commerciali / pubbliche relazioni, contattateci all'indirizzo <a href=\"mailto:contact@oengus.io\" target=\"_blank\">contact@oengus.io</a>. Risponderemo solo alle e-mail scritte in inglese.",
             "par1": "Hai trovato un bug? Hai domande sul sito? Entra nel nostro <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">server su Discord</a>"
+        },
+        "privacy": {
+            "title": "Informativa Privacy",
+            "par2": "Per porre domande o richiedere ulteriori informazioni riguardo la nostra Informativa sulla Privacy, non esitate a contattarci.",
+            "log": {
+                "title": "File di Log"
+            },
+            "par3": "In caso di conflitto, la versione inglese di questo documento assume priorità.",
+            "par1": "Su Oengus, accessibile all'indirizzo {{oengus-link}}, la privacy dei nostri utenti è tra le nostre priorità. Questa Informativa sulla Privacy illustra i tipi di informazioni raccolte e registrate da Oengus e come esse vengono usate."
         }
     },
     "marathon": {
@@ -1274,7 +1283,8 @@
         "TWITCH": "Twitch",
         "TWITTER": "Twitter",
         "SPEEDRUNCOM": "speedrun.com",
-        "NICO": "Nico"
+        "NICO": "Nico",
+        "YOUTUBE": "YouTube"
     },
     "language": {
         "de": "tedesco",
