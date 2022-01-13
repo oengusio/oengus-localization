@@ -17,10 +17,34 @@
         "privacy": {
             "par2": "Als je aanvullende vragen hebt, of meer informatie nodig hebt over ons Privacybeleid, aarzel dan niet om ons te contacteren.",
             "log": {
-                "title": "Logbestanden"
+                "title": "Logbestanden",
+                "par1": "Oengus maakt gebruik van een standaardprocedure voor het gebruik van logbestanden. Deze bestanden loggen bezoekers wanneer zij websites bezoeken. Alle hostingbedrijven doen dit en een onderdeel van hosting services' analytics. De door logbestanden verzamelde informatie omvat internet protocol (IP)-adressen, browsertype, Internet Service Provider (ISP), datum- en tijdstempel, verwijzende/uitgaande pagina's, en eventueel het aantal kliks. Deze zijn niet gekoppeld aan informatie die persoonlijk identificeerbaar is. Het doel van de informatie is het analyseren van trends, het beheren van de site, het bijhouden van gebruikers' bewegingen op de website, en het verzamelen van demografische informatie."
             },
             "title": "Privacybeleid",
-            "par1": "Bij Oengus, bereikbaar via {{oengus-link}}, is een van onze belangrijkste prioriteiten de privacy van onze bezoekers. Dit Privacybeleid bevat de typen informatie die wordt verzameld en vastgelegd door Oengus en hoe we deze gebruiken."
+            "par1": "Bij Oengus, bereikbaar via {{oengus-link}}, is een van onze belangrijkste prioriteiten de privacy van onze bezoekers. Dit Privacybeleid bevat de typen informatie die wordt verzameld en vastgelegd door Oengus en hoe we deze gebruiken.",
+            "cookies": {
+                "title": "Cookies en webbakens",
+                "par1": "Zoals elke website maakt ook Oengus gebruik van 'cookies'. Deze cookies worden gebruikt om informatie op te slaan, waaronder bezoekers' voorkeuren, en de pagina's op de website die de bezoeker heeft bezocht of bezocht. Deze informatie wordt gebruikt om de gebruikerservaring te optimaliseren door de inhoud van onze webpagina's aan te passen op basis van bezoekers' browsertype en/of andere informatie."
+            },
+            "thirdParty": {
+                "title": "Privacybeleid van derden",
+                "par1": "Oengus's Privacybeleid is niet van toepassing op andere adverteerders of websites.",
+                "par2": "U kunt ervoor kiezen om cookies uit te schakelen via uw individuele browseropties. Voor meer gedetailleerde informatie over het beheer van cookies met specifieke webbrowsers kunt u terecht op de websites van de browsers' respectieve websites."
+            },
+            "children": {
+                "par2": "Oengus verzamelt niet bewust persoonlijk identificeerbare informatie van kinderen jonger dan 13 jaar. Als u denkt dat uw kind dit soort informatie op onze website heeft verstrekt, raden we u ten zeerste aan om onmiddellijk contact met ons op te nemen en we zullen ons uiterste best doen om dergelijke informatie onmiddellijk uit onze administratie te verwijderen.",
+                "title": "Informatie voor kinderen",
+                "par1": "Een ander deel van onze prioriteit is het toevoegen van bescherming voor kinderen tijdens het gebruik van het internet. Wij moedigen ouders en voogden aan hun online activiteiten te observeren, eraan deel te nemen en/of ze te controleren en te begeleiden."
+            },
+            "online": {
+                "par1": "Deze Privacy Policy is enkel van toepassing op onze online activiteiten en geldt voor bezoekers van onze website met betrekking tot de informatie die zij delen en/of verzamelen in Oengus. Dit beleid is niet van toepassing op informatie die offline of via andere kanalen dan deze website wordt verzameld.",
+                "title": "Alleen online privacybeleid"
+            },
+            "par3": "In het geval van een conflict, heeft de Engelse versie van dit beleid voorrang.",
+            "consent": {
+                "title": "Toestemming",
+                "par1": "Door onze website te gebruiken, stemt u in met ons privacybeleid en met de voorwaarden ervan."
+            }
         }
     },
     "action": {
@@ -138,11 +162,23 @@
     },
     "calendar": {
         "help": "Je gaat naar de event-pagina als je op een evenement drukt",
-        "title": "Marathon kalender"
+        "title": "Marathon kalender",
+        "allDay": "De hele dag",
+        "noMarathons": "Er zijn geen marathons in deze periode.",
+        "between": "{{time-range}}",
+        "endsAt": "Eindigt {{end-time}}",
+        "now": "Nu",
+        "startsAt": "Begint {{start-time}}"
     },
     "footer": {
         "donate": "Als je Oengus te gek vindt, overweeg om <a href=\"{{donationLink}}\" target=\"_blank\">te doneren</a>",
-        "text": "Alle tijden zijn omgerekend naar jouw tijdzone. Gedetecteerde tijdzone: {{timezone}}"
+        "text": "Alle tijden zijn omgerekend naar jouw tijdzone. Gedetecteerde tijdzone: {{timezone}}",
+        "v1Link": "Login op Oengus op v1",
+        "patron": {
+            "enjoyOengus": "Als je van Oengus geniet, overweeg dan {{patronLink}}",
+            "patronLink": "word een patron",
+            "list": "Bedankt aan onze onderstaande patrons wiens bijdragen Oengus gratis houden voor iedereen"
+        }
     },
     "global": {
         "emu": "[Emu]",
@@ -372,7 +408,8 @@
                 "runner": "Runner(s)",
                 "setup": "Setup tijd",
                 "time": "Tijd",
-                "type": "Type"
+                "type": "Type",
+                "link": "Link"
             },
             "timezone": "Alle tijden staan in jouw lokale tijdzone.",
             "title": "Schema",
@@ -725,7 +762,8 @@
                 "submissions": "Submissies"
             },
             "title": "Submissies",
-            "filter": "Filter gebruikers en games"
+            "filter": "Filter gebruikers en games",
+            "date": "Datum"
         },
         "submit": {
             "action": {
@@ -903,7 +941,8 @@
             "unban": "Verbanning ongedaan maken",
             "ban": "Gebruiker verbannen",
             "deactivate": "Gebruiker deactiveren",
-            "activate": "Gebruiker activeren"
+            "activate": "Gebruiker activeren",
+            "speak": "Gesproken talen:"
         },
         "settings": {
             "accountSync": {
@@ -1007,6 +1046,11 @@
                 "visibility": "Publiekelijk zichtbaar",
                 "subtitle": "Deze social media connecties zijn publiekelijk op je profiel.",
                 "title": "Connecties"
+            },
+            "language": {
+                "label": "Talen die je spreekt",
+                "no_results": "Geen talen gevonden",
+                "placeholder": "Typ om een taal te vinden"
             }
         }
     },
@@ -1021,7 +1065,9 @@
             "body": "De pagina <em>{{path}}</em> is niet gevonden op Angus",
             "title2": "Je gaat iets te snel hier, makker",
             "title1": "Kalm aan, je bent te snel",
-            "title0": "Jouw wereld record is afgekeurd"
+            "title0": "Jouw wereld record is afgekeurd",
+            "title3": "We accepteren geen geglitchde runs",
+            "title4": "Het is geen fout, het is een functie"
         }
     },
     "country": {
@@ -1346,5 +1392,8 @@
         "pl": "Pools",
         "da": "Deens",
         "tr": "Turks"
+    },
+    "news": {
+        "title": "Nieuws"
     }
 }
