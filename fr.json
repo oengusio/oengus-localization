@@ -13,6 +13,9 @@
             "par1": "Vous avez repéré une erreur ? Une question sur le site ? Rejoignez le <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">serveur Discord</a>",
             "par2": "Pour toute autre requête, merci d'envoyer un courriel à <a href=\"mailto:contact@oengus.io\" target=\"_blank\">contact@oengus.io</a>. Nous ne répondons qu'aux mails écrits en anglais.",
             "title": "Contact"
+        },
+        "privacy": {
+            "title": "Politique de confidentialité"
         }
     },
     "action": {
@@ -130,11 +133,23 @@
     },
     "calendar": {
         "help": "Cliquer sur un évènement vous amènera à sa page",
-        "title": "Calendrier des marathons"
+        "title": "Calendrier des marathons",
+        "allDay": "Toute la journée",
+        "between": "{{time-range}}",
+        "noMarathons": "Il n'y a pas de marathon dans la période sélectionnée.",
+        "startsAt": "Débute {{start-time}}",
+        "endsAt": "Se termine {{end-time}}",
+        "now": "Maintenant"
     },
     "footer": {
         "donate": "Si vous appréciez Oengus, soutenez le site en <a href=\"{{donationLink}}\" target=\"_blank\">faisant un don</a>",
-        "text": "Tous les horaires sont convertis dans votre fuseau horaire. Fuseau horaire détecté : {{timezone}}"
+        "text": "Tous les horaires sont convertis dans votre fuseau horaire. Fuseau horaire détecté : {{timezone}}",
+        "patron": {
+            "patronLink": "soutenir",
+            "enjoyOengus": "Si vous appréciez Oengus, soutenez le site sur {{patronLink}}",
+            "list": "Merci à nos soutiens listés ci-dessous, qui permettent de garder Oengus gratuit pour tous"
+        },
+        "v1Link": "Se connecter à Oengus en v1"
     },
     "global": {
         "emu": "[Emu]",
@@ -364,7 +379,8 @@
                 "runner": "Runner(s)",
                 "setup": "Temps de préparation",
                 "time": "Heure",
-                "type": "Type"
+                "type": "Type",
+                "link": "Lien"
             },
             "timezone": "Toutes les dates et heures sont affichées dans votre fuseau horaire.",
             "title": "Planning",
@@ -717,7 +733,8 @@
                 "submissions": "Candidatures"
             },
             "title": "Candidatures",
-            "filter": "Filtrer les jeux et les utilisateurs"
+            "filter": "Filtrer les jeux et les utilisateurs",
+            "date": "Date"
         },
         "submit": {
             "action": {
@@ -1019,7 +1036,9 @@
             "title0": "Votre WR a été rejeté",
             "body": "La page <em>{{path}}</em> n'a pas été trouvée sur Angus",
             "title2": "Tu vas trop vite, l'ami",
-            "title1": "Pas si vite"
+            "title1": "Pas si vite",
+            "title4": "Ce n'est pas un bug, c'est une fonctionnalité",
+            "title3": "Les runs glitchées ne sont pas acceptées"
         }
     },
     "country": {
@@ -1342,6 +1361,10 @@
         "FACEBOOK": "Facebook",
         "TWITCH": "Twitch",
         "TWITTER": "Twitter",
-        "SPEEDRUNCOM": "speedrun.com"
+        "SPEEDRUNCOM": "speedrun.com",
+        "YOUTUBE": "YouTube"
+    },
+    "news": {
+        "title": "Actualités"
     }
 }
