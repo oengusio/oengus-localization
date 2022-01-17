@@ -1078,7 +1078,8 @@
         "FACEBOOK": "Facebook",
         "SPEEDRUNCOM": "speedrun.com",
         "TWITCH": "Twitch",
-        "TWITTER": "Тwitter"
+        "TWITTER": "Тwitter",
+        "YOUTUBE": "YouTube"
     },
     "alert": {
         "game": {
