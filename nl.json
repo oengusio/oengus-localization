@@ -747,6 +747,7 @@
                 "category": "Categorie",
                 "categoryDescription": "Category beschrijving",
                 "console": "Console",
+                "date": "Datum",
                 "estimate": "Geschatte tijd",
                 "game": "Game",
                 "gameDescription": "Game beschrijving",
@@ -762,8 +763,7 @@
                 "submissions": "Submissies"
             },
             "title": "Submissies",
-            "filter": "Filter gebruikers en games",
-            "date": "Datum"
+            "filter": "Filter gebruikers en games"
         },
         "submit": {
             "action": {

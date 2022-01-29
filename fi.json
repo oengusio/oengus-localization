@@ -261,6 +261,7 @@
                 "question": "Kysymys",
                 "game": "Peli",
                 "estimate": "Aika-arvio",
+                "date": "Päivämäärä",
                 "console": "Konsoli",
                 "category": "Kategoria",
                 "answer": "Vastaus",
@@ -281,8 +282,7 @@
             },
             "submission": {
                 "delete": "Poista ilmoittautuminen. Tämä myös poistaa kaikki tämän käyttäjän pelit."
-            },
-            "date": "Päivämäärä"
+            }
         },
         "settings": {
             "type": {

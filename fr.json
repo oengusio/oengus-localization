@@ -718,6 +718,7 @@
                 "category": "Catégorie",
                 "categoryDescription": "Description de la catégorie",
                 "console": "Console",
+                "date": "Date",
                 "estimate": "Estimation",
                 "game": "Jeu",
                 "gameDescription": "Description du jeu",
@@ -733,8 +734,7 @@
                 "submissions": "Candidatures"
             },
             "title": "Candidatures",
-            "filter": "Filtrer les jeux et les utilisateurs",
-            "date": "Date"
+            "filter": "Filtrer les jeux et les utilisateurs"
         },
         "submit": {
             "action": {

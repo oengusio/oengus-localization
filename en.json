@@ -744,7 +744,6 @@
       }
     },
     "submissions": {
-      "date": "Date",
       "filter": "Filter users and games",
       "category": {
         "delete": "Delete the category"
@@ -762,6 +761,7 @@
         "category": "Category",
         "categoryDescription": "Category description",
         "console": "Console",
+        "date": "Date",
         "estimate": "Estimate",
         "game": "Game",
         "gameDescription": "Game description",
