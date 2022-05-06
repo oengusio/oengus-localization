@@ -1,7 +1,7 @@
 {
     "aboutPage": {
         "about": {
-            "par1": "OengusはRTAマラソンの運営を支援するツールを提供するサイトです。",
+            "par1": "Oengus (発音は「アンガス」) はRTAマラソンの運営を支援するツールを提供するサイトです。",
             "par2": "RTA(又はspeedrun)とは、ゲームをどれだけ早くクリアできるかで遊んだり競ったりするやりこみの一つです。詳しくは<a href=\"https://en.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedia</a>をごらんください。",
             "par3": "RTAマラソンは、RTA走者が集まり、オンライン又はオフラインで観客に向けてRTAを披露するものです。最も有名なイベントは年2回行われる<a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a>です。",
             "par4": "このサイトは<a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>\nにより作成されました。\n\n氏は2013年からspeedrunコミュニティで活躍しています。具体的には、<a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a>のグローバルモデレータを3年間、<a href=\"https://twitter.com/SpeedrunWRs\">Speedrun WRs Twitter bot</a>の作成、\nフランスの視聴者のために国際的なマラソンの再配信を行うFrench Restreamチームのメンバー、\nフランス版のGames Done Quick、Bourg la Runの創設者として貢献してきました。\n\n上記経験を活かし、マラソンを運営するための優れた公開ツールが存在しないという背景から開発を決め、その結果、Oengusが生まれました。",
@@ -13,6 +13,15 @@
             "par1": "サイトのバグや質問などがある場合は、<a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">Discordサーバー</a>に入ってください",
             "par2": "お仕事やPRの連絡は、<a href=\"mailto:contact@oengus.io\" target=\"_blank\">contract@oengus.io</a>にメールをしてください。英語で書かれたメールにのみ返信します。",
             "title": "コンタクト"
+        },
+        "privacy": {
+            "title": "プライバシーポリシー",
+            "cookies": {
+                "title": "クッキーとウェブビーコン"
+            },
+            "log": {
+                "title": "ログファイル"
+            }
         }
     },
     "action": {
@@ -1158,7 +1167,8 @@
         "FACEBOOK": "Facebook",
         "TWITCH": "Twitch",
         "TWITTER": "Twitter",
-        "SPEEDRUNCOM": "speedrun.com"
+        "SPEEDRUNCOM": "speedrun.com",
+        "YOUTUBE": "YouTube"
     },
     "news": {
         "title": "News"
