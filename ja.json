@@ -438,7 +438,8 @@
                     "pattern": "マラソンの略称が無効です",
                     "required": "マラソンの略称は必須です"
                 },
-                "label": "略称"
+                "label": "略称",
+                "shorturl": "短縮URL"
             },
             "startDate": {
                 "error": {
@@ -475,6 +476,30 @@
                 "label": "マラソンの種類",
                 "online": "オンライン",
                 "onsite": "会場"
+            },
+            "supportedCharity": {
+                "label": "募金の寄付先",
+                "error": {
+                    "max": "募金先の名称が長すぎます",
+                    "required": "募金先を指定する必要があります"
+                }
+            },
+            "submissionsEndDate": {
+                "error": {
+                    "required": "募集開始日時を設定する場合、募集締切日時も設定して下さい"
+                },
+                "label": "募集終了日時"
+            },
+            "submissionsStartDate": {
+                "error": {
+                    "required": "募集終了日時を設定する場合、募集開始日時を設定する必要があります"
+                },
+                "label": "募集開始日時"
+            },
+            "youtube": {
+                "error": {
+                    "pattern": "YouTubeのチャンネルURLが無効です"
+                }
             }
         },
         "submissions": {
@@ -486,10 +511,18 @@
                 "estimate": "予定時間",
                 "game": "ゲームタイトル",
                 "gameDescription": "ゲーム概要",
-                "runner": "走者",
-                "status": "ステータス"
+                "runner": "",
+                "status": "ステータス",
+                "ratio": "アスペクト比／解像度"
             },
-            "title": "応募"
+            "title": "応募",
+            "category": {
+                "delete": "カテゴリーを削除する"
+            },
+            "export": "CSV形式でエクスポートする",
+            "game": {
+                "delete": ""
+            }
         },
         "submit": {
             "action": {
@@ -505,7 +538,8 @@
                 },
                 "from": "開始",
                 "label": "参加可能時間",
-                "to": "終了"
+                "to": "終了",
+                "duplicate": "内容を翌日にコピーする"
             },
             "category": {
                 "description": {
@@ -539,7 +573,8 @@
             "game": {
                 "console": {
                     "emulated": "エミュレーター",
-                    "label": "機種"
+                    "label": "機種",
+                    "emulatorNotAllowed": "このマラソンではエミュレーターの使用は制限されています"
                 },
                 "description": {
                     "error": {
@@ -571,7 +606,37 @@
                 "categories": "カテゴリー",
                 "games": "ゲーム"
             },
-            "title": "ゲーム応募"
+            "title": "ゲーム応募",
+            "multiplayer": {
+                "code": {
+                    "help": "複数人で行うゲームに参加を希望する場合、コードを入力して下さい"
+                }
+            },
+            "delete": {
+                "action": "応募を削除する"
+            },
+            "details": "詳細",
+            "customField": {
+                "error": {
+                    "required": "この項目は必須です"
+                }
+            },
+            "requirements": {
+                "discord": {
+                    "back": "戻る",
+                    "par1": "Discordサーバーに参加しているかを確認するためには「確認する」を押して下さい。",
+                    "syncNotice": [
+                        null,
+                        "ユーザー設定"
+                    ],
+                    "par2": "Discordサーバーに参加している場合のみ応募することができます。",
+                    "errors": {
+                        "botMissing": "確認する"
+                    },
+                    "lead": "応募するにはDiscordのサーバーに参加している必要があります"
+                }
+            },
+            "submitsClosed": "応募が完了しました。スケジュールが公開され次第参加可能日時の変更が可能になります。"
         },
         "donate": {
             "nickname": {
@@ -640,12 +705,13 @@
         "logout": "ログアウト",
         "settings": "設定",
         "translate": "翻訳の手伝い",
-        "twitter": "Twitterをフォロー"
+        "twitter": "Twitterをフォロー",
+        "donate": "募金"
     },
     "user": {
         "settings": {
             "accountSync": {
-                "description": "Oengusのアカウントとソーシャルメディアを連携することができます。連携後に保存するのを忘れないでください。",
+                "description": "Oengusのアカウントとソーシャルメディアを連携することができます。",
                 "error": {
                     "noService": "最低1つの連携が必要です"
                 },
@@ -703,11 +769,65 @@
             "usernameJapanese": {
                 "error": {
                     "exists": "そのユーザーネームは既に使われています",
-                    "max": "日本語のユーザーネームが長すぎます。"
+                    "max": "日本語のユーザーネームが長すぎます。",
+                    "pattern": "そのユーザーネームは使用できません"
                 },
                 "help": "ユーザーネームが日本語に翻訳されている場合、この項目を使用して日本語の文字で表示します。現在地が日本に設定されている場合にのみ表示されます。この項目は任意です。",
                 "label": "ユーザーネーム (日本語)"
+            },
+            "deactivateAccount": {
+                "action": "アカウントの停止",
+                "confirmText": "アカウントを停止しますか？停止したい場合、ユーザーネームを入力し「確認」をクリックして下さい",
+                "title": "アカウントを停止または削除する",
+                "description": "アカウントを停止すると、再度ログインできなくなり、モデレーターはあなたをマラソンのモデレーターやランナーとして追加できなくなります。すべてのデータは一貫性を保つために保存され、ソーシャルメディアも連携されたままになりますが、スケジュールや投稿リストにアカウントが表示されることはなくなります。アカウントを再び使用したい場合は、管理者に問い合わせしてください。"
+            },
+            "deletingAccount": {
+                "body": [
+                    "Oengasのアカウントを削除しようとしています。",
+                    "この操作は取り消すことができません！",
+                    "アカウントを削除する場合、ユーザーネームを入力して下さい。"
+                ],
+                "title": "警告！",
+                "settingsDeleteBtn": "アカウントを削除する",
+                "btnDelete": "削除する :(",
+                "btnCancel": "キャンセル :)",
+                "success": "アカウントが削除されました"
+            },
+            "language": {
+                "no_results": "言語が見つかりません",
+                "placeholder": "言語を検索して下さい",
+                "label": "会話に使用する言語を選択して下さい"
+            },
+            "connections": {
+                "visibility": "一般公開",
+                "select_platform": "プラットフォームを選択する",
+                "username": "ユーザーネーム",
+                "title": "連携",
+                "subtitle": "連携したソーシャルメディアのアカウントはプロフィールに一般公開されます。"
+            },
+            "pronouns": {
+                "title": "ジェンダープロナウン",
+                "hint": "プロナウンを英語で検索して下さい。例：they/them",
+                "no_results": "プロナウンが見つかりません",
+                "help": "プロナウンのデータは <a href=\"https://en.pronouns.page/\" target=\"_blank\">pronouns.page</a>に基づいています。pronouns.pageについての詳細な情報と寄与の方法は、pronouns.pageのウェブサイトをご覧下さい"
+            },
+            "discord": {
+                "disabled": {
+                    "help": "この項目は、Discordアカウントが既に連携されているため無効になっています。Discord IDが変わったときには再び連携をして更新してください。"
+                }
             }
+        },
+        "profile": {
+            "filter": {
+                "temporality": {
+                    "FUTURE": "今後のマラソン",
+                    "title": "イベント日程",
+                    "PAST": "過去のマラソン"
+                }
+            },
+            "speak": "会話に使用する言語：",
+            "submissions": "応募履歴",
+            "moderator": "イベントモデレーター"
         }
     },
     "calendar": {
@@ -1039,5 +1159,11 @@
         "TWITCH": "Twitch",
         "TWITTER": "Twitter",
         "SPEEDRUNCOM": "speedrun.com"
+    },
+    "news": {
+        "title": "News"
+    },
+    "patrons": {
+        "noPatrons": "表示できるパトロンが存在しません。 <a href=\"https://www.patreon.com/oengusio\" target=\"_blank\">あなたが一人目になってみませんか</a>？"
     }
 }
