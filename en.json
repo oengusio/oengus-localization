@@ -591,6 +591,7 @@
       },
       "generalTitle": "General settings",
       "incentives": {
+        "disabledNotification": "Incentives are currently disabled due to them being unreliable and missing an option to screen them. There is no estimate as to when this functionality will return, but we will announce it if they do.",
         "hasIncentives": "This marathon has incentives",
         "label": "Incentives status"
       },
