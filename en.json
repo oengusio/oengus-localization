@@ -790,6 +790,7 @@
         "duplicate": "Duplicate for next day",
         "error": {
           "dateRequired": "Date is required",
+          "toDateTooLittle": "The to date must be at least 1 minute longer than the from date.",
           "required": "You must add one or more periods of availability"
         },
         "from": "From",
