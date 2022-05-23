@@ -189,7 +189,8 @@
                 "actions": "Toiminnot",
                 "error": {
                     "required": "Sinun täytyy lisätä yksi tai enemmän saatavuusajanjaksoa",
-                    "dateRequired": "Päivämäärä vaaditaan"
+                    "dateRequired": "Päivämäärä vaaditaan",
+                    "toDateTooLittle": "Saatavuus tulee olla vähintään minuutin pituinen."
                 },
                 "add": "Lisää saatavuus",
                 "duplicate": "Kopio seuraavalle päivälle"
@@ -396,7 +397,8 @@
             "generalTitle": "Yleiset asetukset",
             "incentives": {
                 "hasIncentives": "Tällä tapahtumalla on kannusteita",
-                "label": "Kannustimien tila"
+                "label": "Kannustimien tila",
+                "disabledNotification": "Kannusteet ovat tällä hetkellä poissa käytöstä, koska ne olivat epätarkkoja ja ei ollut mahdollisuutta sensuroida niitä. Ei ole olemassa aikataulua tämän ominaisuuden paluulle, mutta kerromme jos se palaa."
             },
             "maxCategoriesPerGame": {
                 "error": {
