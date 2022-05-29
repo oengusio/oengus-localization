@@ -2,7 +2,11 @@
     "homepage": {
         "sponsors": {
             "esa": "oengus.io는 <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>를 통해 운영되고 있습니다",
-            "title": "스폰서"
+            "title": "스폰서",
+            "kaspersky": {
+                "banner": "Kaspersky의 후원 덕분에 Oengus v2가 현재 개발 중입니다.",
+                "box": "Kaspersky의 후원 덕분에, Oengus v2가 현재 개발 중입니다.<a href=\"1{{readMoreUrl}}\" target=\"_blank\">자세히 알아보기</a>"
+            }
         },
         "starts": "{{duration}} 시작",
         "plannedFeatures": {
@@ -32,19 +36,25 @@
             },
             "par3": "모든 기능에 접근하려면 다음 링크로 로그인하십시오. 새로운 마라톤을 생성하거나 기존 마라톤에 제출할 수 있습니다:",
             "par1": "Oengus는 스피드런 마라톤을 제출부터 스케줄까지 관리할 수 있도록 해주는 <b>무료</b> 도구입니다."
-        }
+        },
+        "submissions_close": "{{duration}} 제출 마감"
     },
     "global": {
         "adblocker": "광고를 차단하고 계신 모양이네요. Oengus는 생존하기 위해 광고와 기부에 의존하고 있습니다. 광고 차단기를 꺼주세요.",
-        "emu": "[에뮬]"
+        "emu": "[에뮬]",
+        "enabled": "유효",
+        "disabled": "무효",
+        "non_select": "선택되지 않음"
     },
     "footer": {
         "text": "모든 시간은 접속자의 시간대로 변환됩니다. 감지된 시간대: {{timezone}}",
         "donate": "Oengus를 잘 이용하고 계시다면, <a href=\"{{donationLink}}\" target=\"_blank\">후원</a>하는 걸 고려해보세요",
         "patron": {
             "enjoyOengus": "Oengus가 마음에 드시면 {{patronLink}}에서 후원을 고려해주세요",
-            "list": "Oengus를 모든 사람에게 무료로 제공하는 데 기여한 아래 나열된 후원자에게 감사합니다"
-        }
+            "list": "Oengus를 모든 사람에게 무료로 제공하는 데 기여한 아래 나열된 후원자에게 감사합니다",
+            "patronLink": "후원자가 돼주세요"
+        },
+        "v1Link": "Oengus v1로 로그인"
     },
     "calendar": {
         "title": "마라톤 달력",
@@ -223,7 +233,8 @@
                 "help": "러너 옆의 달력 아이콘을 클릭하면 가능한 시간대를 표시하거나 가릴 수 있습니다."
             },
             "action": {
-                "publish": "선택 게시"
+                "publish": "선택 게시",
+                "decline": "TODO 거부"
             },
             "title": "런 선택",
             "status": {
@@ -262,7 +273,9 @@
                 "RACE": "경쟁",
                 "OTHER": "기타",
                 "COOP_RACE": "협동 경쟁",
-                "COOP": "협동 런"
+                "COOP": "협동 런",
+                "RELAY": "릴레이 런",
+                "RELAY_RACE": "릴레이 레이스"
             },
             "title": "일정",
             "timezone": "모든 일정은 접속자의 시간대에 맞춰 표시됩니다.",
@@ -276,7 +289,8 @@
                 "console": "기기",
                 "category": "카테고리",
                 "placeholder": "아무 런을 왼쪽 목록에서 이쪽으로 드롭하세요. 이 텍스트는 하나의 런이 일정에 있으면 자동으로 사라집니다.",
-                "actions": "행동"
+                "actions": "행동",
+                "link": "링크"
             },
             "setupBlock": "준비 단계",
             "nextRun": "{{duration}} 예정된 다음 런",
@@ -293,6 +307,10 @@
                     "alreadyPublished": "이미 게시된 일정",
                     "addSetupBlock": "준비 단계 추가",
                     "addRun": "런 추가"
+                },
+                "customData": {
+                    "inputText": "텍스트로 저장된 사용자 정의 데이터를 통해 이 일정 라인에 \"숨겨진\" 데이터를 추가할 수 있습니다",
+                    "text": "커스텀 데이터 항목 비표시/표시"
                 }
             },
             "export": {
@@ -544,7 +562,8 @@
                 "from": "시작",
                 "error": {
                     "required": "하나 이상의 가능한 시간대를 추가해야 합니다",
-                    "dateRequired": "날짜가 필요합니다"
+                    "dateRequired": "날짜가 필요합니다",
+                    "toDateTooLittle": "종료 일시는 시작 일시보다 1분 이상이어야 합니다."
                 },
                 "duplicate": "다음 날짜로 복사",
                 "add": "가능한 시간대 추가",
@@ -597,7 +616,8 @@
                 "categoryDescription": "카테고리 설명",
                 "category": "카테고리",
                 "answer": "답변",
-                "actions": "행동"
+                "actions": "행동",
+                "date": "일시"
             },
             "submission": {
                 "delete": "제출 내역을 삭제합니다. 이 마라톤에서 해당 유저의 모든 게임을 삭제하게 됩니다."
@@ -762,7 +782,8 @@
             "incentivesTitle": "인센티브 설정",
             "incentives": {
                 "label": "인센티브 상태",
-                "hasIncentives": "이 마라톤에는 인센티브가 있습니다"
+                "hasIncentives": "이 마라톤에는 인센티브가 있습니다",
+                "disabledNotification": "인센티브는 신뢰할 수 없고 선별 옵션이 없기 때문에 현재 비활성화되어 있습니다. 이 기능이 언제 다시 사용될 지에 대한 계획은 없지만 그렇게 된다면 알려드리겠습니다."
             },
             "generalTitle": "일반 설정",
             "endDate": {
@@ -791,7 +812,10 @@
                     "offline": "웹훅에 연결할 수 없습니다. 올바른 주소가 맞나요?",
                     "marathonParameter": "필수 마라톤 매개 변수가 누락되었습니다"
                 },
-                "botNotice": "이것은 Oengus 봇 웹훅입니다. Oengus 봇이 지정된 채널에 임베딩을 보냅니다"
+                "botNotice": "이것은 Oengus 봇 웹훅입니다. Oengus 봇이 지정된 채널에 임베딩을 보냅니다",
+                "announceAcceptedSubmissions": {
+                    "title": "승인된 런 발표"
+                }
             },
             "discordPrivacy": {
                 "private": "Discord는 비공개입니다",
@@ -945,7 +969,8 @@
                 "error": {
                     "required": "이메일이 필요합니다",
                     "email": "이메일이 올바르지 않습니다"
-                }
+                },
+                "help": "이 이메일 주소는 <a href=\"https://gravatar.com/\" target=\"_blank\">Gravatar</a>에서 프로필 사진을 가져오는 데 사용되며 PG 등급 이하인 경우에만 작동합니다."
             },
             "deactivateAccount": {
                 "title": "내 계정 비활성화 혹은 삭제",
@@ -966,7 +991,27 @@
                 "title": "경고!"
             },
             "connections": {
-                "title": "연결"
+                "title": "연동",
+                "visibility": "전체 공개",
+                "select_platform": "플랫폼 선택",
+                "subtitle": "연동된 소셜 미디어 계정은 프로필에 공개됩니다.",
+                "username": "유저네임"
+            },
+            "discord": {
+                "disabled": {
+                    "help": "이 항목은 Discord 계정이 이미 연결되어 있으므로 비활성화되어 있습니다. Discord ID가 변경되면 다시 연동하여 업데이트하십시오."
+                }
+            },
+            "language": {
+                "label": "사용하는 언어",
+                "no_results": "언어를 찾을 수 없습니다",
+                "placeholder": "언어를 검색해주세요"
+            },
+            "pronouns": {
+                "help": "성별 호칭 데이터는 <a href=\"https://en.pronouns.page/\" target=\"_blank\">pronouns.page</a>에 기반합니다. 자세한 정보나 기여 방법은 해당 웹사이트를 방문해주세요",
+                "title": "성별 호칭",
+                "hint": "영문 성별 호칭을 검색하세요. 예: they/them",
+                "no_results": "성별 호칭을 찾을 수 없습니다"
             }
         },
         "profile": {
@@ -985,7 +1030,8 @@
             "unban": "유저 차단 해제",
             "ban": "유저 차단",
             "deactivate": "유저 비활성화",
-            "activate": "유저 활성화"
+            "activate": "유저 활성화",
+            "speak": "회화 언어:"
         }
     },
     "navbar": {
@@ -1015,7 +1061,9 @@
             "body": "Angus 에서 <em>{{path}}</em> 페이지를 찾을 수 없습니다",
             "title2": "너무 빠른 시도가 감지되었습니다",
             "title1": "너무 빠르게 시도하였습니다",
-            "title0": "WR이 거부되었습니다"
+            "title0": "WR이 거부되었습니다",
+            "title3": "글리치 런을 허용하지 않습니다",
+            "title4": "버그가 아니라 기능입니다"
         }
     },
     "patrons": {
@@ -1346,5 +1394,8 @@
         "PHONE": "휴대전화번호",
         "NICO": "니코동",
         "YOUTUBE": "유튜브"
+    },
+    "news": {
+        "title": "뉴스"
     }
 }
