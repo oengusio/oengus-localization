@@ -551,7 +551,8 @@
             "generalTitle": "Algemene instellingen",
             "incentives": {
                 "hasIncentives": "Deze marathon heeft donatie-incentives",
-                "label": "Donatie-incentive status"
+                "label": "Donatie-incentive status",
+                "disabledNotification": "Incentives zijn momenteel buiten gebruik gesteld omdat ze onbetrouwbaar zijn en niet goed ontwikkeld waren. Er is geen schatting wanneer deze functionaliteit terug zal keren, maar wij zullen het aangeven wanneer dit is."
             },
             "incentivesTitle": "Donatie-incentive instellingen",
             "language": {
@@ -776,7 +777,8 @@
                 "duplicate": "Dupliceren naar de volgende dag",
                 "error": {
                     "dateRequired": "Datum is verplicht",
-                    "required": "Je moet tenminste 1 beschikbaarheidsperiode toevoegen"
+                    "required": "Je moet tenminste 1 beschikbaarheidsperiode toevoegen",
+                    "toDateTooLittle": "De \"tot\" datum moet tenminste 1 minuut groter zijn dan de \"van\" datum."
                 },
                 "from": "Van",
                 "label": "Beschikbaarheid",
