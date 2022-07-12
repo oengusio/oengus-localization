@@ -410,7 +410,7 @@
         },
         "cacheWarning": {
           "header": "READ THIS CAREFULLY",
-          "title": "Please wait about 2-5 minutes before publishing any announcements related to this schedule being published",
+          "title": "After publication your schedule will take 2-5 minutes to go live.",
           "line1": "To keep the load down on our own servers we have implemented a cache on Oengus.",
           "line2": "This means that it might take a while before you see the schedule updated on your marathon page.",
           "line3": "The button will enable in 5 seconds"
