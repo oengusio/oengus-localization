@@ -634,6 +634,13 @@
                 "customData": {
                     "inputText": "Mukautettua tietoa, tallennettu tekstina, sallii mahdollisuuden lisätä piilotettua tietoa aikatauluun",
                     "text": "Piilota/näytä mukautetut tietueet"
+                },
+                "cacheWarning": {
+                    "header": "LUE TÄMÄ VAROVAISESTI",
+                    "title": "Julkaisun jälkeen, ohjelma on nähtävissä kahden-viiden minuutin päästä.",
+                    "line1": "Pitääkseen palvelimen rasituksen alhaisempana, Oenguken palvelimilla on välimuisti.",
+                    "line2": "Tämä tarkoittaa sitä, että saataa kestää hetken, että ohjelma näkyy tapahtuman sivulla.",
+                    "line3": "Tämä nappi aktivoituu viiden sekunnin jälkeen"
                 }
             },
             "nextRun": "Seuraava peli {{duration}}",
