@@ -1093,6 +1093,9 @@
       "title3": "We do not accept glitched runs",
       "title4": "It's not a bug, it's a feature",
       "body": "The page <em>{{path}}</em> was not found on Angus"
+    },
+    "format": {
+     "url": "This is not a valid url"
     }
   },
   "country": {
