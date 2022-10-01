@@ -136,6 +136,7 @@
       }
     },
     "submission": {
+      "cache": "It may take 30 minutes or more for your submission to show up in this list",
       "deletion": {
         "error": "An error happened during submission deletion. Please try again or contact an administrator.",
         "success": "Submission deleted"
