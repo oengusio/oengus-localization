@@ -101,7 +101,8 @@
             "save": {
                 "error": "Erreur lors de l'envoi de la candidature",
                 "success": "Candidature envoyée"
-            }
+            },
+            "cache": "Votre candidature peut mettre 30 minutes ou plus à apparaître dans la liste"
         },
         "submit": {
             "ALREADY_IN_OPPONENTS": "Vous faites déjà partie de cette catégorie",
@@ -365,6 +366,13 @@
                 "customData": {
                     "text": "Cacher/Afficher les champs personnalisés",
                     "inputText": "Données personnalisées stockées sous forme de texte, vous permettant d'ajouter des données \"cachées\" à la ligne de planning"
+                },
+                "cacheWarning": {
+                    "line2": "Cela signifie que le planning peut mettre du temps à se mettre à jour sur la page de votre marathon.",
+                    "header": "MERCI DE LIRE ATTENTIVEMENT",
+                    "title": "Après publication, votre planning mettra entre 2 et 5 minutes à être visible.",
+                    "line3": "Le bouton sera actif dans 5 secondes",
+                    "line1": "Pour maintenir une charge raisonnable sur nos serveurs, nous avons mis en place un cache sur Oengus."
                 }
             },
             "nextRun": "Prochaine run {{duration}}",
@@ -522,7 +530,8 @@
             "generalTitle": "Paramètres généraux",
             "incentives": {
                 "hasIncentives": "Ce marathon a des incentives",
-                "label": "Présence des incentives"
+                "label": "Présence des incentives",
+                "disabledNotification": "Les incentives sont actuellement désactivés pour cause d'instabilité de la fonctionnalité. Nous n'avons pas d'estimation pour le retour de cette fonctionnalité, mais une communication sera effectuée lorsque ce sera le cas."
             },
             "incentivesTitle": "Paramètres d'incentives",
             "language": {
@@ -747,7 +756,8 @@
                 "duplicate": "Dupliquer pour le jour suivant",
                 "error": {
                     "dateRequired": "Date requise",
-                    "required": "Vous devez ajouter au moins une période de disponibilité"
+                    "required": "Vous devez ajouter au moins une période de disponibilité",
+                    "toDateTooLittle": "La date de fin doit être au moins 1 minute après la date de début."
                 },
                 "from": "Du",
                 "label": "Disponibilités",
@@ -1039,6 +1049,9 @@
             "title1": "Pas si vite",
             "title4": "Ce n'est pas un bug, c'est une fonctionnalité",
             "title3": "Les runs glitchées ne sont pas acceptées"
+        },
+        "format": {
+            "url": "Lien invalide"
         }
     },
     "country": {
