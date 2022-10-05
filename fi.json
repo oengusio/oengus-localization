@@ -60,7 +60,8 @@
             "save": {
                 "success": "Ilmoittautuminen lähetetty",
                 "error": "Virhe ilmoittautumisessa"
-            }
+            },
+            "cache": "Saattaa kestää jopa 30 minuuttia, jotta ilmoittautumisesi näkyy täasä listassa"
         },
         "selection": {
             "save": {
@@ -1126,7 +1127,7 @@
                 "title": "VAROITUS!",
                 "body": [
                     "Olet poistamassa Oengus-tiliäsi.",
-                    "Kirjoita käyttäjänimesi tähän laatikkoon varmistaaksesi, että haluat poistaa tilisi.",
+                    "Tätä toimintoa ei voida peruuttaa!",
                     "Kirjoita käyttäjänimesi tähän laatikkoon varmistaaksesi, että haluat poistaa tilisi."
                 ],
                 "btnCancel": "Peruuta :)",
@@ -1394,6 +1395,9 @@
             "title3": "Se mitä etsit ei ole täällä",
             "title4": "Se ei ole bugi, se on ominaisuus",
             "body": "Tämä sivu <em>{{path}}</em> ei löytynyt Anguksesta"
+        },
+        "format": {
+            "url": "Tämä ei ole käypä osoite"
         }
     },
     "patrons": {
