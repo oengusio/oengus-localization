@@ -825,7 +825,8 @@
             "pattern": "Estimate is invalid. It must be formatted (HH)H:MM:SS",
             "required": "Estimate is required"
           },
-          "label": "Estimate"
+          "label": "Estimate",
+          "hint": "When entering an estimate please don't submit your PB or an IGT. Oengus suggests adding at least 10 minutes to your RTA PB to account for any mistakes made during the run, and/or the time you take before the timer starts such as your intro and outro."
         },
         "name": {
           "error": {
