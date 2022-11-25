@@ -130,7 +130,8 @@
             "save": {
                 "error": "Fout tijdens het opgeven van je submission",
                 "success": "Submission verzonden"
-            }
+            },
+            "cache": "Het kan tot 30 minuten duren voordat jouw submissie in deze lijst staat"
         },
         "submit": {
             "ALREADY_IN_OPPONENTS": "Jij maakt al deel uit van deze categorie",
@@ -262,10 +263,10 @@
                 "header": {
                     "action": "Actie",
                     "amount": "Aantal",
-                    "incentive": "Incentive"
+                    "incentive": "Beloning"
                 },
                 "left": "Beschikbaar aantal over:",
-                "title": "Incentives"
+                "title": "Beloningen"
             },
             "nickname": {
                 "error": {
@@ -394,6 +395,13 @@
                 "customData": {
                     "text": "Verberg/Toon aangepasta data velden",
                     "inputText": "Aangepaste gegevens opgeslagen in tekst, dit laat je \"verborgen\" data toevoegen aan deze schema-rij"
+                },
+                "cacheWarning": {
+                    "line1": "Om ervoor te zorgen dat Oengus niet overbelast wordt is er een cache geïmplementeerd.",
+                    "line2": "Dit betekend dat het een tijdje kan duren voordat het schedule geupdate word op de marathon pagina.",
+                    "header": "LEES DIT VOORZICHTIG",
+                    "line3": "De knop zal over 5 seconden actief worden",
+                    "title": "Het kan 2 tot 5 minuten na publicatie van het schema voordat het te zien is op de website."
                 }
             },
             "nextRun": "Volgende run {{duration}}",
@@ -517,7 +525,7 @@
             },
             "delete": {
                 "action": "Marathon verwijderen",
-                "confirmText": "Weet je zeker dat je je marathon wil verwijderen? Om dit te bevestigen, schrijf de \"shortname\" van de marathon en druk op \"Bevestigen\""
+                "confirmText": "Weet je zeker dat je deze marathon wil verwijderen? Om dit te bevestigen, schrijf de \"shortname\" van de marathon en druk op \"Bevestigen\""
             },
             "description": "Hier kan je de instellingen van je marathon wijzigen",
             "discord": {
@@ -804,7 +812,8 @@
                         "pattern": "Geschatte lengte is ongeldig. Deze moet in het volgende formaat worden ingevoerd: (HH)H:MM:SS",
                         "required": "Geschatte lengte is verplicht"
                     },
-                    "label": "Geschatte lengte"
+                    "label": "Geschatte lengte",
+                    "hint": "Vul alstublieft niet een PB of IGT in. Oengus suggereert om ongeveer 10 minuten aan uw RTA PB toe te voegen. Dit om er voor te zorgen dat er genoeg tijd is voor fouten tijdens de run en/of de tijd van een intro of outro als de timer niet loopt."
                 },
                 "name": {
                     "error": {
@@ -1070,6 +1079,9 @@
             "title0": "Jouw wereld record is afgekeurd",
             "title3": "We accepteren geen geglitchde runs",
             "title4": "Het is geen fout, het is een functie"
+        },
+        "format": {
+            "url": "Dit is niet een valide URL"
         }
     },
     "country": {
