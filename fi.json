@@ -155,7 +155,8 @@
                         "pattern": "Arvio on väärin. Sen tulee olla formaatissa (TT)(T):MM:SS",
                         "required": "Arvio vaaditaan",
                         "min": "Arvio on väärin. Sen pitää olla yli 0 sekuntia"
-                    }
+                    },
+                    "hint": "Kun lisäät arvion, älä lisää parasta aikaasi tai pelinsisäistä aikaa. Oengus suosittelee, että lisäät vähintään 10 minuuttia omaan parhaaseen reaaliaikaan, jotta mahdolliset virheet ja aika, joka käytetään suoritusta ennen ja sen jälkeen, otetaan huomioon."
                 },
                 "video": {
                     "error": {
