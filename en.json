@@ -1,4 +1,7 @@
 {
+  "announcements": {
+    "twitterRemoval": "Hey there, we'll be removing twitter as a log-in option soon. Make sure that you have your Twitch or Discord account linked to your Oengus account to prevent getting locked out."
+  },
   "platform": {
     "SPEEDRUNCOM": "speedrun.com",
     "TWITTER": "Twitter",
