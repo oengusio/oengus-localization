@@ -198,6 +198,10 @@
     "v1Link": "Login to Oengus on v1"
   },
   "global": {
+    "ads": {
+      "nag1": "Don't like ads?",
+      "nag2": "Please join our Patreon campaign to help keep Oengus free"
+    },
     "emu": "[Emu]",
     "adblocker": "Hey there, it seems that you are blocking ads, please turn off your ad blocker on oengus as we rely on ads and donations to survive.",
     "enabled": "Enabled",
