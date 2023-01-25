@@ -840,7 +840,11 @@
         "adblocker": "Huomasimme että käytät mainosten estäjää. Arvostaisimme jos poistat sen käytöstä sivullamme, sillä sivustomme pyörii lahjoitusten ja mainostulojen avulla.",
         "enabled": "Päällä",
         "non_select": "Ei valintaa",
-        "disabled": "Pois päältä"
+        "disabled": "Pois päältä",
+        "ads": {
+            "nag2": "Liity meidän Patreon-tukijaksi auttaaksemme pitämään Oengus maksuttomana",
+            "nag1": "Etkö tykkää mainoksista?"
+        }
     },
     "aboutPage": {
         "about": {
@@ -1409,5 +1413,8 @@
     },
     "news": {
         "title": "Uutiset"
+    },
+    "announcements": {
+        "twitterRemoval": "Hei siellä, me poistetaan twitter-kirjautuminen käytöstä. Varmista, että sinulla on Twitch- tai Discord-tili linkitettynä Oengus-tililla, että pääset jatkossa sisälle."
     }
 }
