@@ -4,6 +4,7 @@
   },
   "platform": {
     "SPEEDRUNCOM": "speedrun.com",
+    "MASTODON": "Mastodon",
     "TWITTER": "Twitter",
     "TWITCH": "Twitch",
     "FACEBOOK": "Facebook",
@@ -945,7 +946,9 @@
       "discord": "Log in with Discord",
       "title": "Log in",
       "twitch": "Log in with Twitch",
-      "twitter": "Log in with Twitter"
+      "twitter": "Log in with Twitter",
+      "mastodon": "Log in with Mastodon",
+      "google": "Login with Google"
     },
     "logout": "Log out",
     "privacyConsent": "By clicking on Accept, you allow Oengus to use cookies for traffic analytics purposes. Learn more about our privacy policy in the About page.",
@@ -953,7 +956,8 @@
     "settings": "Settings",
     "sourceCode": "Source code",
     "translate": "Help translate the site",
-    "twitter": "Follow us on Twitter"
+    "twitter": "Follow us on Twitter",
+    "mastodon": "Follow us on Mastodon"
   },
   "news": {
     "title": "News"
