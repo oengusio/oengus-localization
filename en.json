@@ -741,6 +741,12 @@
           "pattern": "Twitter name is invalid"
         }
       },
+      "mastodon": {
+        "error": {
+          "max": "Mastodon name is too long",
+          "pattern": "Mastodon username does not match 'user@instance.tld'"
+        }
+      },
       "type": {
         "label": "Marathon type",
         "online": "Online",
