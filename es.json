@@ -13,6 +13,30 @@
             "par1": "¿Has encontrado un bug? ¿Tienes dudas acerca de la plataforma? Entra a <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">nuestro servidor de Discord</a>",
             "par2": "Para consultas de negocios y/o relaciones públicas, escribe un correo a <a href=\"mailto:contact@oengus.io\" target=\"_blank\">contact@oengus.io</a>. Sólo responderemos los emails escritos en inglés.",
             "title": "Contacto"
+        },
+        "privacy": {
+            "par2": "Si tienes preguntas adicionales o requieres más información sobre nuestra Política de Privacidad, no dudes en contactarnos.",
+            "par3": "En caso de conflicto, prevalecerá la versión en inglés de esta política.",
+            "log": {
+                "title": "Archivos de registro"
+            },
+            "consent": {
+                "title": "Consentir"
+            },
+            "children": {
+                "title": "Información infantil"
+            },
+            "cookies": {
+                "title": "Cookies y Web Beacons"
+            },
+            "thirdParty": {
+                "title": "Políticas de privacidad de terceros"
+            },
+            "online": {
+                "title": "Política de privacidad en línea solamente"
+            },
+            "title": "Políticas de privacidad",
+            "par1": "En Oengus, es accesible desde {{oengus-link}}, una de nuestras principales prioridades es la privacidad de nuestros visitantes. Este documento de Política de privacidad contiene los tipos de información que Oengus recopila, registra y cómo los usamos."
         }
     },
     "action": {
@@ -130,18 +154,33 @@
     },
     "calendar": {
         "help": "Haciendo clic en este evento te redirigirá a su página",
-        "title": "Calendario de maratones"
+        "title": "Calendario de maratones",
+        "now": "Ahora",
+        "endsAt": "Finaliza {{end-time}}",
+        "allDay": "Todo el dia",
+        "startsAt": "Comienza {{start-time}}",
+        "between": "{{time-range}}",
+        "noMarathons": "No hay maratones en este intervalo de fechas."
     },
     "footer": {
         "donate": "Si te gusta Oengus, por favor considera <a href=\"{{donationLink}}\" target=\"_blank\">hacer una donación</a>",
-        "text": "Todos los tiempos han sido convertidos a tu zona horaria. Zona horaria detectada: {{timezone}}"
+        "text": "Todos los tiempos han sido convertidos a tu zona horaria. Zona horaria detectada: {{timezone}}",
+        "patron": {
+            "enjoyOengus": "Si disfruta de Oengus, considere {{patronLink}}",
+            "patronLink": "convertirse en un mecenas"
+        },
+        "v1Link": "Iniciar sesión en Oengus v1"
     },
     "global": {
         "emu": "[Emu]",
         "adblocker": "Hey, parece que estás bloqueando los anuncios, considera desactivar tu bloqueador en Oengus ya que dependemos de los anuncios y las donaciones para sobrevivir.",
         "disabled": "Desactivado",
         "enabled": "Activado",
-        "non_select": "Ninguna seleccionada"
+        "non_select": "Ninguna seleccionada",
+        "ads": {
+            "nag1": "¿No te gustan los anuncios?",
+            "nag2": "Únase a nuestra campaña de Patreon para ayudar a mantener libre a Oengus"
+        }
     },
     "homepage": {
         "ends": "Finaliza {{duration}}",
@@ -350,6 +389,10 @@
                 "customData": {
                     "text": "Ocultar/Mostrar campos de datos personalizados",
                     "inputText": "Los datos personalizados son almacenados como texto, esto le permite añadir datos \"ocultos\" a esta línea del horario"
+                },
+                "cacheWarning": {
+                    "line3": "El botón se habilitará en 5 segundos",
+                    "header": "LEA ESTO CUIDADOSAMENTE"
                 }
             },
             "nextRun": "Próximo run {{duration}}",
@@ -364,7 +407,8 @@
                 "runner": "Runner(s)",
                 "setup": "Tiempo de preparación",
                 "time": "Tiempo",
-                "type": "Tipo"
+                "type": "Tipo",
+                "link": "Enlaces"
             },
             "timezone": "Todas las fechas y tiempos se muestran en tu zona horaria.",
             "title": "Horario",
@@ -683,6 +727,12 @@
                 },
                 "required": "Se requiere que el usuario esté en tu Discord",
                 "label": "Se requiere Discord"
+            },
+            "mastodon": {
+                "error": {
+                    "pattern": "El nombre de usuario de Mastodon no coincide con 'usuario@instancia.tld'",
+                    "max": "El nombre de Mastodon es demasiado largo"
+                }
             }
         },
         "submissions": {
@@ -710,7 +760,8 @@
                 "ratio": "Ratio/Resolución",
                 "runner": "Runner",
                 "status": "Estado",
-                "type": "Tipo"
+                "type": "Tipo",
+                "date": "Fecha"
             },
             "tabs": {
                 "answers": "Respuestas",
@@ -867,7 +918,9 @@
             "discord": "Iniciar sesión con Discord",
             "title": "Iniciar sesión",
             "twitch": "Iniciar sesión con Twitch",
-            "twitter": "Iniciar sesión con Twitter"
+            "twitter": "Iniciar sesión con Twitter",
+            "mastodon": "Iniciar sesión con Mastodon",
+            "google": "Iniciar sesión con Google"
         },
         "logout": "Cerrar sesión",
         "privacyConsent": "Al hacer clic en Aceptar, permites a Oengus usar cookies con fines de análisis de tráfico. Lea mas sobre nuestra política de privacidad en Acerca de.",
@@ -876,7 +929,8 @@
         "translate": "Ayuda traduciendo la página",
         "twitter": "Síguenos en Twitter",
         "sourceCode": "Código fuente",
-        "patrons": "Nuestros patrocinadores"
+        "patrons": "Nuestros patrocinadores",
+        "mastodon": "Síguenos en Mastodon"
     },
     "user": {
         "profile": {
@@ -1016,6 +1070,9 @@
             "title0": "Tu WR ha sido rechazado",
             "title3": "No aceptamos lanzamientos con defectos",
             "title4": "No es un defecto, es una característica"
+        },
+        "format": {
+            "url": "Esta no es una URL válida"
         }
     },
     "patrons": {
@@ -1344,6 +1401,14 @@
         "FACEBOOK": "Facebook",
         "TWITCH": "Twitch",
         "TWITTER": "Twitter",
-        "SPEEDRUNCOM": "speedrun.com"
+        "SPEEDRUNCOM": "speedrun.com",
+        "MASTODON": "Mastodonte",
+        "YOUTUBE": "YouTube"
+    },
+    "news": {
+        "title": "Noticias"
+    },
+    "announcements": {
+        "twitterRemoval": "Hola, pronto eliminaremos Twitter como una opción de inicio de sesión. Asegúrate de tener tu cuenta de Twitch o Discord vinculada a tu cuenta de Oengus para evitar que te bloqueen."
     }
 }
