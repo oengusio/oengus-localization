@@ -18,22 +18,30 @@
             "par2": "Si tienes preguntas adicionales o requieres más información sobre nuestra Política de Privacidad, no dudes en contactarnos.",
             "par3": "En caso de conflicto, prevalecerá la versión en inglés de esta política.",
             "log": {
-                "title": "Archivos de registro"
+                "title": "Archivos de registro",
+                "par1": "Oengus sigue un procedimiento estándar de utilización de archivos de registro. Estos archivos registran a los visitantes cuando visitan los sitios web. Todas las empresas de alojamiento lo hacen y forman parte de los análisis de los servicios de alojamiento. La información recogida por los archivos de registro incluye direcciones de protocolo de Internet (IP), tipo de navegador, proveedor de servicios de Internet (ISP), fecha y hora, páginas de referencia/salida y, posiblemente, el número de clics. Estos datos no están vinculados a ninguna información que permita la identificación personal. El propósito de la información es analizar tendencias, administrar el sitio, rastrear los movimientos de los usuarios en el sitio web y recopilar información demográfica."
             },
             "consent": {
-                "title": "Consentir"
+                "title": "Consentir",
+                "par1": "Al utilizar nuestro sitio web, usted acepta nuestra Política de Privacidad y está de acuerdo con sus Términos y Condiciones."
             },
             "children": {
-                "title": "Información infantil"
+                "title": "Información infantil",
+                "par1": "Otra parte de nuestra prioridad es añadir protección para los niños mientras usan internet. Animamos a padres y tutores a que observen, participen y/o supervisen y guíen su actividad en línea.",
+                "par2": "Oengus no recopila a sabiendas ningún tipo de información personal identificable de niños menores de 13 años. Si cree que su hijo ha proporcionado este tipo de información en nuestro sitio web, le recomendamos encarecidamente que se ponga en contacto con nosotros inmediatamente y haremos todo lo posible por eliminar rápidamente dicha información de nuestros registros."
             },
             "cookies": {
-                "title": "Cookies y Web Beacons"
+                "title": "Cookies y contadores de visitas",
+                "par1": "Como cualquier otro sitio web, Oengus utiliza \"cookies\". Estas cookies se utilizan para almacenar información, incluidas las preferencias de los visitantes y las páginas del sitio web a las que el visitante accedió o visitó. La información se utiliza para optimizar la experiencia de los usuarios personalizando el contenido de nuestra página web en función del tipo de navegador de los visitantes y/u otra información."
             },
             "thirdParty": {
-                "title": "Políticas de privacidad de terceros"
+                "title": "Políticas de privacidad de terceros",
+                "par2": "Puede optar por desactivar las cookies a través de las opciones individuales de su navegador. Para conocer información más detallada sobre la gestión de cookies con navegadores web específicos, puede consultarse en los sitios web respectivos de los navegadores.",
+                "par1": "La Política de Privacidad de Oengus no se aplica a otros anunciantes o sitios web."
             },
             "online": {
-                "title": "Política de privacidad en línea solamente"
+                "title": "Política de privacidad en línea solamente",
+                "par1": "Esta política de privacidad se aplica únicamente a nuestras actividades en línea y es válida para los visitantes de nuestro sitio web en lo que respecta a la información que comparten y/o recopilan en Oengus. Esta política no es aplicable a ninguna información recopilada fuera de línea o a través de canales distintos de este sitio web."
             },
             "title": "Políticas de privacidad",
             "par1": "En Oengus, es accesible desde {{oengus-link}}, una de nuestras principales prioridades es la privacidad de nuestros visitantes. Este documento de Política de privacidad contiene los tipos de información que Oengus recopila, registra y cómo los usamos."
@@ -122,7 +130,8 @@
             "save": {
                 "error": "Ha ocurrido un error durante el proceso de postulación",
                 "success": "Juego postulado"
-            }
+            },
+            "cache": "Su envío puede tardar 30 minutos o más en aparecer en la lista"
         },
         "submit": {
             "ALREADY_IN_OPPONENTS": "Ya eres parte de esta categoría",
@@ -167,7 +176,8 @@
         "text": "Todos los tiempos han sido convertidos a tu zona horaria. Zona horaria detectada: {{timezone}}",
         "patron": {
             "enjoyOengus": "Si disfruta de Oengus, considere {{patronLink}}",
-            "patronLink": "convertirse en un mecenas"
+            "patronLink": "convertirse en un mecenas",
+            "list": "Gracias a nuestros mecenas, cuyas contribuciones hacen que Oengus siga siendo gratuito para todos"
         },
         "v1Link": "Iniciar sesión en Oengus v1"
     },
@@ -392,7 +402,10 @@
                 },
                 "cacheWarning": {
                     "line3": "El botón se habilitará en 5 segundos",
-                    "header": "LEA ESTO CUIDADOSAMENTE"
+                    "header": "LEA ESTO CUIDADOSAMENTE",
+                    "title": "Tras la publicación, su horario tardará entre 2 y 5 minutos en activarse.",
+                    "line2": "Esto significa que puede pasar un tiempo antes de que veas el calendario actualizado en tu página de maratón.",
+                    "line1": "Para reducir la carga de nuestros servidores, hemos implementado una caché en Oengus."
                 }
             },
             "nextRun": "Próximo run {{duration}}",
@@ -550,7 +563,8 @@
             "generalTitle": "Ajustes generales",
             "incentives": {
                 "hasIncentives": "Esta maratón tiene incentivos",
-                "label": "Estado de los incentivos"
+                "label": "Estado de los incentivos",
+                "disabledNotification": "Los incentivos están actualmente desactivados debido a que no son fiables y falta una opción para filtrarlos. No hay una estimación de cuándo volverá esta funcionalidad, pero lo anunciaremos si lo hacen."
             },
             "incentivesTitle": "Ajuste de los incentivos",
             "language": {
@@ -781,7 +795,8 @@
                 "duplicate": "Hacer duplicado para el día siguiente",
                 "error": {
                     "dateRequired": "Se requiere una fecha",
-                    "required": "Debes añadir uno o mas periodos de disponibilidad"
+                    "required": "Debes añadir uno o mas periodos de disponibilidad",
+                    "toDateTooLittle": "La fecha hasta debe ser al menos 1 minuto mayor que la fecha desde."
                 },
                 "from": "De",
                 "label": "Disponibilidades",
@@ -807,7 +822,8 @@
                         "pattern": "El estimado es inválido. Debe estar en formato (HH)H:MM:SS",
                         "required": "Se requiere un estimado"
                     },
-                    "label": "Estimado"
+                    "label": "Estimado",
+                    "hint": "Cuando introduzcas una estimación, no envíes tu PB o un IGT. Oengus sugiere añadir al menos 10 minutos a su PB RTA para tener en cuenta los errores cometidos durante la carrera, y / o el tiempo que se toma antes de que comience el temporizador como su introducción y outro."
                 },
                 "name": {
                     "error": {
@@ -1402,7 +1418,7 @@
         "TWITCH": "Twitch",
         "TWITTER": "Twitter",
         "SPEEDRUNCOM": "speedrun.com",
-        "MASTODON": "Mastodonte",
+        "MASTODON": "Mastodon",
         "YOUTUBE": "YouTube"
     },
     "news": {
