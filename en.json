@@ -726,7 +726,8 @@
         "dangerZone": "Danger zone",
         "general": "General",
         "incentives": "Incentives",
-        "submissions": "Submissions"
+        "submissions": "Submissions",
+        "discord": "Discord"
       },
       "title": "Marathon settings",
       "twitch": {
