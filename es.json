@@ -153,7 +153,7 @@
             },
             "sync": {
                 "alreadySynced": "Error: Esta cuenta ya está en uso",
-                "error": "Error durante la sincronización. Esto suele ocurrir debido al uso de bloqueador de anuncios. Por favor, inténtalo de nuevo con Oengus agregado como sitio de confianza, o con extensiones desactivadas. Si has intentado un navegador con ninguna extensión instalada y sigues con el error, por favor pide ayuda en #bug_or_feature en el servidor de Discord de Oengus."
+                "error": "Ha ocurrido un error durante la sincronización. Esto suele ocurrir debido a un bloqueador de anuncios. Por favor, inténtalo de nuevo con Oengus como sitio de confianza, o con tus extensiones desactivadas. Si has intentado un navegador con ninguna extensión instalada y sigues viendo este error, por favor pide ayuda en #bug_or_feature en el servidor de Discord de Oengus."
             },
             "update": {
                 "error": "Ha ocurrido un error durante la actualización de la información de usuario",
@@ -226,7 +226,7 @@
             "title": "Patrocinadores",
             "esa": "Oengus.io está gestionado por <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>",
             "kaspersky": {
-                "box": "Gracias al patrocinio de Karpersky, Oengus v2 está en desarrollo. <a href=\"{{readMoreUrl}}\" target=\"_blank\">Leer mas</a>",
+                "box": "Gracias al patrocinio de Karpersky, Oengus v2 está ahora en desarrollo. <a href=\"{{readMoreUrl}}\" target=\"_blank\">Leer más</a>",
                 "banner": "Gracias al patrocinio de Karpersky, Oengus v2 está ahora en desarrollo."
             }
         },
