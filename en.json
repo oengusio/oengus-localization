@@ -955,7 +955,8 @@
       "twitch": "Log in with Twitch",
       "twitter": "Log in with Twitter",
       "mastodon": "Log in with Mastodon",
-      "google": "Login with Google"
+      "google": "Login with Google",
+      "password": "Login with username and password"
     },
     "logout": "Log out",
     "privacyConsent": "By clicking on Accept, you allow Oengus to use cookies for traffic analytics purposes. Learn more about our privacy policy in the About page.",

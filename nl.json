@@ -924,7 +924,8 @@
             "discord": "Log in met Discord",
             "title": "Inloggen",
             "twitch": "Log in met Twitch",
-            "twitter": "Log in met Twitter"
+            "twitter": "Log in met Twitter",
+            "password": "Log in met gebruikersnaam en wachtwoord"
         },
         "logout": "Uitloggen",
         "privacyConsent": "Door op accepteren te klikken, sta je Oengus toe om cookies te plaatsen voor webverkeer-analytische doeleinden. Lees meer over onze privacybeleid op onze \"Over ons\" pagina.",
