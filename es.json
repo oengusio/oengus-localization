@@ -937,7 +937,8 @@
             "twitch": "Iniciar sesión con Twitch",
             "twitter": "Iniciar sesión con Twitter",
             "mastodon": "Iniciar sesión con Mastodon",
-            "google": "Iniciar sesión con Google"
+            "google": "Iniciar sesión con Google",
+            "password": "Iniciar sesión con un nombre de usuario y una contraseña"
         },
         "logout": "Cerrar sesión",
         "privacyConsent": "Al hacer clic en Aceptar, permites a Oengus usar cookies con fines de análisis de tráfico. Lea mas sobre nuestra política de privacidad en Acerca de.",
