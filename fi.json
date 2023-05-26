@@ -1005,7 +1005,8 @@
             "twitter": "Kirjaudu sisään Twitterillä",
             "disclaimer": "Varoitus: jos sinulla on jo profiili Oengusissa, varmista että kirjaudut ulkoisella tilillä, joka on jo liitettynä profiiliisi, mutten luodaan uusi profiili",
             "mastodon": "Kirjaudu Mastodonilla",
-            "google": "Kirjaudu Googlella"
+            "google": "Kirjaudu Googlella",
+            "password": "Kirjaudu käyttäjätunnuksella ja salasanalla"
         },
         "about": "Tietoja",
         "discord": "Liity viralliselle Discord-palvelimelle",
@@ -1019,7 +1020,8 @@
         "profile": "Minun profiilini",
         "patrons": "Meidän Patronit",
         "sourceCode": "Lähdekoodi",
-        "createMarathon": "Uusi tapahtuma"
+        "createMarathon": "Uusi tapahtuma",
+        "mastodon": "Seuraa meitä Mastodonissa"
     },
     "user": {
         "profile": {
