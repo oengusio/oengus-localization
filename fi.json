@@ -297,7 +297,8 @@
                 "submissions": "Ilmoittautumiset",
                 "incentives": "Kannusteet",
                 "general": "Yleinen",
-                "dangerZone": "Vaaranvyöhyke"
+                "dangerZone": "Vaaranvyöhyke",
+                "discord": "Discord"
             },
             "submissions": {
                 "label": "Ilmoittautumiset",
@@ -554,6 +555,12 @@
             },
             "country": {
                 "label": "Maa"
+            },
+            "mastodon": {
+                "error": {
+                    "max": "Mastodon nimi on liian pitkä",
+                    "pattern": "Mastodonin käyttäjätunnus ei vastaa muotoa 'käyttäjä@instanssi.tld'"
+                }
             }
         },
         "selection": {
@@ -987,7 +994,8 @@
         "SNAPCHAT": "Snapchat",
         "EMAIL": "Sähköposti",
         "PHONE": "Puhelinnumero",
-        "YOUTUBE": "YouTube"
+        "YOUTUBE": "YouTube",
+        "MASTODON": "Mastodon"
     },
     "navbar": {
         "login": {
@@ -995,7 +1003,9 @@
             "discord": "Kirjaudu sisään Discordilla",
             "twitch": "Kirjaudu sisään Twitchillä",
             "twitter": "Kirjaudu sisään Twitterillä",
-            "disclaimer": "Varoitus: jos sinulla on jo profiili Oengusissa, varmista että kirjaudut ulkoisella tilillä, joka on jo liitettynä profiiliisi, mutten luodaan uusi profiili"
+            "disclaimer": "Varoitus: jos sinulla on jo profiili Oengusissa, varmista että kirjaudut ulkoisella tilillä, joka on jo liitettynä profiiliisi, mutten luodaan uusi profiili",
+            "mastodon": "Kirjaudu Mastodonilla",
+            "google": "Kirjaudu Googlella"
         },
         "about": "Tietoja",
         "discord": "Liity viralliselle Discord-palvelimelle",
