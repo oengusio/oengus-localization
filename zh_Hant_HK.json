@@ -3,15 +3,24 @@
         "about": {
             "par1": "Oengus是一個提供組織競速破關的工具的網站。",
             "par2": "競速破關是為了娛樂和/或競爭目的而在最短時間內將電子遊戲破關的遊戲方式。您可以在<a href=\"https://en.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedia</a>上了解有關競速破關的更多信息。",
-            "par3": "競速破關馬拉松是指速跑者聚集在一起的活動，以在線、現場或兩者同時向觀眾展示其跑步。最受歡迎的活動是每年組織兩次的<a href=\"https://gamesdonequick.com\" target=\"_blank\">Game Done Quick</a>。",
+            "par3": "競速破關馬拉松是指競速破關玩家聚集在一起的活動，以在線、現場或兩者同時向觀眾展示其破關過程。最受歡迎的活動是每年組織兩次的<a href=\"https://gamesdonequick.com\" target=\"_blank\">Game Done Quick</a>。",
             "par4": "該網站是由<a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>創建的。自2013年以來擔任Speedrunning社區的工作人員，他以多種方式為Speedrunning社區做出了貢獻：<a href=\"https://speedrun.com\" target=\"_blank\"> speedrun.com </a>的全球工作人員，<a href=\"https://twitter.com/SpeedrunWRs\"> Speedrun WRs Twitter機器人</a>的創辦人，法國重播團隊的成員，該團隊為法國觀眾提供國際馬拉松重播，是Bourg la Run的創始人，在法語中相當於Games Done Quick。在收集了所有這些經驗並評估了組織馬拉鬆的公共工具後，他決定創建一個，而Oengus就是結果。",
             "par6": "細節：Oengus是凱爾特神靈，負責時間和永恆。談論速跑馬拉鬆的合適名稱！",
             "title": "關於"
         },
         "contact": {
             "par1": "發現了錯誤？對網站有疑問嗎？加入<a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\"> Discord伺服器</a>吧",
-            "par2": "對於業務/公關諮詢，請發送電子郵件至contact@oengus.io",
+            "par2": "如有業務/公關諮詢，請發送電子郵件至<a href=\"mailto:contact@oengus.io\" target=\"_blank\">contact@oengus.io</a>。我們只會回覆以英文撰寫的電子郵件。",
             "title": "聯絡"
+        },
+        "privacy": {
+            "online": {
+                "title": "網絡私隱條款"
+            },
+            "title": "私隱條款",
+            "thirdParty": {
+                "title": "第三方私隱條款"
+            }
         }
     },
     "action": {
@@ -29,7 +38,7 @@
         "category": {
             "deletion": {
                 "error": "刪除類別時發生錯誤。請重試或聯繫管理員。",
-                "success": "類別已成功刪除"
+                "success": "類別已刪除"
             }
         },
         "donation": {
@@ -38,13 +47,13 @@
             },
             "validate": {
                 "error": "捐贈過程中發生錯誤。請重試或聯繫管理員。",
-                "success": "您的捐款已成功發送。感謝您的捐款！"
+                "success": "您的捐款已發送。感謝您的捐款！"
             }
         },
         "game": {
             "deletion": {
                 "error": "刪除遊戲時發生錯誤。請重試或聯繫管理員。",
-                "success": "遊戲已成功刪除"
+                "success": "遊戲已刪除"
             },
             "export": {
                 "error": "導出期間發生錯誤。請重試或聯繫管理員。"
@@ -62,12 +71,12 @@
         },
         "marathon": {
             "creation": {
-                "error": "創建馬拉鬆時出錯",
-                "success": "馬拉鬆比賽成功創建"
+                "error": "創建馬拉松時出錯",
+                "success": "馬拉松比賽已新增"
             },
             "deletion": {
                 "error": "馬拉松刪除時出錯",
-                "success": "馬拉鬆成功刪除"
+                "success": "馬拉松已刪除"
             },
             "update": {
                 "error": "馬拉松更新時出錯",
@@ -102,14 +111,14 @@
         "submit": {
             "ALREADY_IN_OPPONENTS": "您已經屬於此類別",
             "CODE_NOT_FOUND": "該代碼不存在",
-            "DIFFERENT_MARATHON": "該代碼是另一場馬拉鬆比賽",
+            "DIFFERENT_MARATHON": "該代碼是另一場馬拉松比賽",
             "MAX_SIZE_REACHED": "此提交已達到參賽人數上限",
             "NOT_MULTIPLAYER": "這不是多人遊戲的分類",
             "SAME_USER": "您無法將自己添加到已創建的類別中"
         },
         "user": {
             "deactivate": {
-                "success": "您的帳戶已成功停用"
+                "success": "您的帳戶已停用"
             },
             "login": {
                 "disabledAccount": "您的帳戶已被禁用。如果您想再次使用它，請聯繫管理員。",
@@ -118,7 +127,7 @@
             },
             "sync": {
                 "alreadySynced": "錯誤：此帳戶已被使用",
-                "error": "帳戶同步期間發生錯誤。請重試或聯繫管理員。"
+                "error": "帳戶同步期間發生錯誤。通常由廣告阻截程式引起。請把Oengus加入至白明單或停用程式再重試。如果問題持續，請聯繫管理員。"
             },
             "update": {
                 "error": "用戶數據更新期間出錯",
@@ -128,14 +137,23 @@
     },
     "calendar": {
         "help": "單擊一個活動會將您重定向到其頁面",
-        "title": "馬拉松日曆"
+        "title": "馬拉松日曆",
+        "allDay": "全日",
+        "endsAt": "{{end-time}}完結",
+        "startsAt": "{{start-time}} 開始"
     },
     "footer": {
         "donate": "如果您喜歡Oengus，請考慮<a href=\"{{donationLink}}\" target=\"_blank\">捐贈</a>",
         "text": "所有時間都會轉換為您的時區。檢測到的時區：{{timezone}}"
     },
     "global": {
-        "emu": "[模擬器]"
+        "emu": "[模擬器]",
+        "ads": {
+            "nag1": "移除廣告?"
+        },
+        "non_select": "請選擇",
+        "enabled": "已啟用",
+        "disabled": "已停用"
     },
     "homepage": {
         "ends": "{{duration}}結束了",
@@ -143,13 +161,13 @@
             "calendar": "完整日曆",
             "live": "直播中的馬拉松",
             "moderated": "管理中的馬拉松",
-            "open": "提交開啟",
+            "open": "開放中",
             "upcoming": "即將舉行的馬拉鬆"
         },
         "plannedFeatures": {
             "1": "合作/競賽提交",
             "2": "各種遊戲選擇系統（直接選擇，投票等）",
-            "3": "通過可視化跑步者的可用時間輕鬆創建時間表",
+            "3": "通過圖表安排時間",
             "4": "帳戶同步以連接Twitter / Twitch / Google",
             "5": "連接Discord",
             "6": "郵件通知",
@@ -165,7 +183,11 @@
                 "sandbox": "<b>您可以在沙盒中測試和發現。如果您想創建實際的馬拉鬆比賽，請訪問<a href=\"https://oengus.io\">主網站</a>。</b>"
             }
         },
-        "welcomeTitle": "歡迎來到Oengus！"
+        "welcomeTitle": "歡迎來到Oengus！",
+        "sponsors": {
+            "title": "贊助"
+        },
+        "submissions_close": "將於 {{duration}} 後關閉"
     },
     "login": {
         "authInProgress": "正在進行認證，請稍候…"
@@ -223,7 +245,8 @@
             "table": {
                 "comment": "評論",
                 "date": "日期",
-                "name": "名稱"
+                "name": "名稱",
+                "amount": "金額"
             },
             "title": "捐款",
             "total": "捐款總額"
@@ -231,7 +254,8 @@
         "home": {
             "from": "從",
             "language": "語言",
-            "to": "至"
+            "to": "至",
+            "location": "地區"
         },
         "incentives": {
             "management": {
@@ -250,6 +274,9 @@
                     }
                 }
             }
+        },
+        "help": {
+            "isArchived": "此馬拉松已被封存。它處於只讀模式。"
         }
     },
     "country": {
@@ -569,6 +596,32 @@
         "FACEBOOK": "Facebook",
         "SNAPCHAT": "Snapchat",
         "DISCORD": "Discord",
-        "INSTAGRAM": "Instagram"
+        "INSTAGRAM": "Instagram",
+        "NICO": "Nico",
+        "MASTODON": "Mastodon",
+        "PHONE": "電話號碼",
+        "EMAIL": "電子郵件",
+        "YOUTUBE": "YouTube"
+    },
+    "navbar": {
+        "login": {
+            "title": "登入",
+            "discord": "使用Discord登入",
+            "twitter": "使用Twitter登入",
+            "twitch": "使用Twitch登入",
+            "google": "使用Google登入",
+            "mastodon": "使用Mastodon登入",
+            "password": "使用用戶名稱和密碼登入"
+        },
+        "translate": "幫忙翻譯此網站",
+        "createMarathon": "新增馬拉松",
+        "profile": "我的帳戶",
+        "settings": "設定",
+        "privacyConsent": "按下接受代表您同意Oengus使用cookies以用作流量分析。詳情請查閱關於頁的私隱條款。",
+        "sourceCode": "原始碼",
+        "logout": "登出"
+    },
+    "announcements": {
+        "twitterRemoval": "您好，我們即將移除使用Twitter登入的選項。請確認您已連結Twitch或Discord至您的Oengus帳戶，以避免將來無法登入。"
     }
 }
