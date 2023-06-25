@@ -406,7 +406,8 @@
                     "title": "Tras la publicación, su horario tardará entre 2 y 5 minutos en activarse.",
                     "line2": "Esto significa que puede pasar un tiempo antes de que veas el calendario actualizado en tu página de maratón.",
                     "line1": "Para reducir la carga de nuestros servidores, hemos implementado una caché en Oengus."
-                }
+                },
+                "markdown": "Puedes utilizar la sintaxis básica de Markdown (*negrita*, _subrayado_ y [link name](https://oengus.io/)) en los campos de juego y categorías."
             },
             "nextRun": "Próximo run {{duration}}",
             "setupBlock": "Bloque de reserva",
