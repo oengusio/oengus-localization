@@ -1083,9 +1083,9 @@
       "username": {
         "error": {
           "exists": "Username already exists. Please use another one or make sure you don't already have a profile synchronized with another external account (Twitch or Discord)",
-          "max": "Username is too long",
-          "min": "Username is too short",
-          "pattern": "Username is only composed of lowercase characters, uppercase characters, _ and -",
+          "max": "Username is too long, max is 32 characters",
+          "min": "Username is too short, at least 3 characters are required",
+          "pattern": "Username is only composed of lowercase characters, numbers, _ and -",
           "required": "Username is required"
         },
         "label": "Username"
@@ -1093,11 +1093,19 @@
       "usernameJapanese": {
         "error": {
           "exists": "Username already exists.",
-          "max": "Japanese username is too long.",
+          "max": "Japanese username is too long, max is 32 characters.",
           "pattern": "Japanese username is invalid"
         },
         "help": "If your username translates to japanese, use this field to display it with japanese characters. It will only be displayed if the locale is set to japanese. This field is optional.",
         "label": "Username (Japanese)"
+      },
+      "displayName": {
+        "error": {
+          "max": "Display name is too long, max is 32 characters.",
+          "min": "Display name is too short, at least 3 characters are required"
+        },
+        "help": "If you go by an alias or want something different from your username, you can use this field to set how you're displayed on Oengus.",
+        "label": "Display name"
       }
     }
   },
