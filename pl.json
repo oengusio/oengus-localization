@@ -1,9 +1,11 @@
 {
     "announcements": {
-        "twitterRemoval": "Cześć, będziemy wkrótce usuwać Twittera jako opcję logowania. Upewnij się, że masz połączone twoje konto Twitch lub Discord z twoim kontem Oengus żeby nie stracić dostępu."
+        "twitterRemoval": "Cześć, będziemy wkrótce usuwać Twittera jako opcję logowania. Upewnij się, że masz połączone swoje konto Twitch lub Discord z twoim kontem Oengus żeby nie stracić dostępu."
     },
     "platform": {
-        "PHONE": "Numer telefonu"
+        "PHONE": "Numer telefonu",
+        "SPEEDRUNCOM": "speedrun.com",
+        "MASTODON": ""
     },
     "aboutPage": {
         "contact": {
@@ -11,6 +13,12 @@
         },
         "privacy": {
             "title": "Polityka prywatności"
+        },
+        "about": {
+            "par2": "Speedrunning to granie w grę wideo z zamiarem ukończenia jej tak szybko, jak to możliwe w celach rozrywkowych i/lub rywalizacji. Możesz przeczytać więcej o speedrunningu na <a href=\"https://en.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedii</a>.",
+            "par4": "Ta witryna została stworzona przez <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>. Twórcę w społeczności speedrunningowej od 2013 roku, przyczynił się społeczności speedrunningowej na wiele sposobów: przez 3 lata był głównym moderatorem na <a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a>, przez trzy lata był twórcą dla <a href=\"https://twitter.com/SpeedrunWRs\">Speedrun WRs Twitter bot</a>, Francuskiej organizacji Re-Streamingowej, która zapewniała ponowene streamy maratonów dla francuskiej widowni, założyciel Bourg la Run, francuskiego odpowiednika Games Done Quick. Po swoich istnych doświadczeniach zrozumiał, że nie ma żadnego dobrego ogólnodostępnego narzędzia służącego do organizowania maratonów, zatem postanowił stworzyć Oengus właśnie w takim celu.",
+            "par1": "Oengus to witryna udostępniająca narzędzia do organizacji maratonów speedrunowania.",
+            "par3": "Maratony speedrunowania to wydarzenia, gdzie speedrunnerzy gromadzą się, aby zaprezentować swojej widowni (on-line i/lub na miejscu) swoje próby osiągnięcia jak najniższego czasu. Jednym z popularniejszych tego eventów jest <a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a> organizowany dwa razy do roku."
         }
     },
     "action": {
