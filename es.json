@@ -1028,9 +1028,9 @@
             "username": {
                 "error": {
                     "exists": "El nombre de usuario ya existe. Por favor uso otro nombre o asegúrate que no tienes ningún perfil sincronizado con otra cuenta externa (Twitch o Discord)",
-                    "max": "El nombre de usuario es muy largo",
-                    "min": "El nombre de usuario es muy corto",
-                    "pattern": "El nombre de usuario solo puede estar compuesto por caracteres en minúscula, caracteres en mayúscula, _ o -",
+                    "max": "Nombre de usuario demasiado largo, máximo 32 caracteres",
+                    "min": "El nombre de usuario es demasiado corto, se requieren al menos 3 caracteres",
+                    "pattern": "El nombre de usuario sólo se compone de minúsculas, números, _ y -",
                     "required": "Se requiere un nombre de usuario"
                 },
                 "label": "Nombre de usuario"
@@ -1038,7 +1038,7 @@
             "usernameJapanese": {
                 "error": {
                     "exists": "Este nombre de usuario ya existe.",
-                    "max": "El nombre de usuario en japonés es demasiado largo.",
+                    "max": "El nombre de usuario en japonés es demasiado largo, máximo 32 caracteres.",
                     "pattern": "El nombre de usuario en japonés no es válido"
                 },
                 "help": "Si tu nombre de usuario se traduce al japonés, usa este campo para mostrarlo con caracteres japoneses. Esto se mostrará solo si el idioma local está puesto en japonés. Este campo es opcional.",
@@ -1078,6 +1078,14 @@
                 "visibility": "Visible al público",
                 "subtitle": "Estas redes sociales serán públicas en tu perfil.",
                 "title": "Redes Sociales"
+            },
+            "displayName": {
+                "error": {
+                    "max": "El nombre es demasiado largo, máximo 32 caracteres.",
+                    "min": "El nombre para mostrar es demasiado corto, se necesitan al menos 3 caracteres"
+                },
+                "label": "Mostrar el nombre",
+                "help": "Si utilizas un alias o quieres algo diferente a tu nombre de usuario, puedes utilizar este campo para establecer cómo se te muestra en Oengus."
             }
         }
     },
