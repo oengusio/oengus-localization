@@ -1102,7 +1102,7 @@
       "displayName": {
         "error": {
           "max": "Display name is too long, max is 32 characters.",
-          "min": "Display name is too short, at least 3 characters are required"
+          "min": "Display name is too short, at least 1 characters are required"
         },
         "help": "If you go by an alias or want something different from your username, you can use this field to set how you're displayed on Oengus.",
         "label": "Display name"
