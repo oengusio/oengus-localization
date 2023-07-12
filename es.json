@@ -277,7 +277,7 @@
                     "max": "El nombre es muy largo",
                     "pattern": "El nombre solo puede estar compuesto de caracteres en minúscula, mayúscula, _ y -"
                 },
-                "label": "Nombre"
+                "label": "Apodo"
             },
             "title": "Dona"
         },
@@ -299,7 +299,7 @@
             "isArchived": "Esta maratón esta archivada. Está en modo de solo lectura."
         },
         "home": {
-            "from": "Inicio",
+            "from": "desde",
             "language": "Idioma",
             "location": "Ubicación",
             "to": "Fin"
@@ -979,7 +979,7 @@
                 },
                 "sync": "Sincroniza tu cuenta",
                 "title": "Sincronización de cuenta",
-                "unsync": "Eliminar cuenta"
+                "unsync": "Eliminar la cuenta"
             },
             "deactivateAccount": {
                 "action": "Desactivar",
@@ -1054,7 +1054,7 @@
                     "Por favor, escribe tu nombre de usuario en esta caja de texto para confirmar que quieres eliminar tu cuenta."
                 ],
                 "title": "¡ADVERTENCIA!",
-                "settingsDeleteBtn": "Eliminar cuenta"
+                "settingsDeleteBtn": "Suprimir la cuenta"
             },
             "language": {
                 "placeholder": "Escribe para encontrar un idioma",
@@ -1082,7 +1082,7 @@
             "displayName": {
                 "error": {
                     "max": "El nombre es demasiado largo, máximo 32 caracteres.",
-                    "min": "El nombre para mostrar es demasiado corto, se necesitan al menos 3 caracteres"
+                    "min": "El nombre para mostrar es demasiado corto, se requieren al menos 1 caracteres"
                 },
                 "label": "Mostrar el nombre",
                 "help": "Si utilizas un alias o quieres algo diferente a tu nombre de usuario, puedes utilizar este campo para establecer cómo se te muestra en Oengus."
@@ -1307,7 +1307,7 @@
         "BL": "San Bartolomé",
         "KN": "San Cristóbal y Nieves",
         "SM": "San Marino",
-        "MF": "San Martín",
+        "MF": "San Martín (parte francesa)",
         "PM": "San Pedro y Miquelón",
         "VC": "San Vicente y las Granadinas",
         "SH": "Santa Elena, Ascensión y Tristán de Acuña",
@@ -1318,7 +1318,7 @@
         "SC": "Seychelles",
         "SL": "Sierra Leona",
         "SG": "Singapur",
-        "SX": "San Martín",
+        "SX": "Sint Maarten (parte holandesa)",
         "SY": "Siria",
         "SO": "Somalia",
         "LK": "Sri Lanka",
