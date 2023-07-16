@@ -650,7 +650,8 @@
                     "line1": "Pitääkseen palvelimen rasituksen alhaisempana, Oenguken palvelimilla on välimuisti.",
                     "line2": "Tämä tarkoittaa sitä, että saataa kestää hetken, että ohjelma näkyy tapahtuman sivulla.",
                     "line3": "Tämä nappi aktivoituu viiden sekunnin jälkeen"
-                }
+                },
+                "markdown": "Voit käyttää perussyntaksia (*lihavoitu*, _alleviivaus_ ja [linkin nimi] (https://oengus.io/)) peli ja kategoriakentissä."
             },
             "nextRun": "Seuraava peli {{duration}}",
             "timezone": "Päivämäärät ja kellonajat näkyvät paikallisen aikavyöhykkeesi mukaan.",
@@ -1088,10 +1089,10 @@
             },
             "username": {
                 "error": {
-                    "min": "Käyttäjänimi on liian lyhyt",
+                    "min": "Käyttäjänimi on liian lyhyt, pituuden on oltava vähintään kolme merkkiä",
                     "required": "Käyttäjänimi vaaditaan",
-                    "max": "Käyttäjänimi on liian pitkä",
-                    "pattern": "Käyttäjänimi koostuu pienistä ja isoista kirjaimista sekä merkeistä _ ja -",
+                    "max": "Käyttäjänimi on liian pitkä, maksimipituus on 32 merkkiä",
+                    "pattern": "Käyttäjänimi koostuu pienistä kirjaimista, numeroista, sekä merkeistä _ ja -",
                     "exists": "Käyttäjänimi on jo olemassa. Käytä jotain muuta tai varmista ettei sinulla ole jo profiilia jonkun toisen palvelun kautta (esim. Twitch tai Discord)"
                 },
                 "label": "Käyttäjänimi"
@@ -1100,7 +1101,7 @@
                 "label": "Käyttäjänimi (Japaniksi)",
                 "error": {
                     "pattern": "Japanilainen käyttäjänimi on väärin",
-                    "max": "Japanilianen käyttäjänimi on liian pitkä.",
+                    "max": "Japanilianen käyttäjänimi on liian pitkä, maksimipituus on 32 merkkiä.",
                     "exists": "Käyttäjänimi on jo olemassa."
                 },
                 "help": "Jos käyttäjänimesi kääntyy japaniksi, voit käyttää tätä tietuetta näkyäksesi japanilaisilla kirjaimilla. Se näkyy ainoastaan jos alue on valittu japaniksi. Tämä tietue on valinnainen."
@@ -1150,7 +1151,15 @@
                 "btnCancel": "Peruuta :)",
                 "settingsDeleteBtn": "Poista tili"
             },
-            "title": "Muokkaa profiiliani"
+            "title": "Muokkaa profiiliani",
+            "displayName": {
+                "error": {
+                    "max": "Näyttönimi on liian pitkä, maksimipituus on 32 merkkiä.",
+                    "min": "Näyttönimi on liian lyhyt, vähintään yksi merkki vaaditaan"
+                },
+                "help": "Jos käytät jotain nimimerkkiä tai haluat jonkin muun nimen näkyvän, joka ei ole käyttäjänimesi, voit asettaa sen tässä.",
+                "label": "Näyttönimi"
+            }
         }
     },
     "country": {
@@ -1415,6 +1424,10 @@
         },
         "format": {
             "url": "Tämä ei ole käypä osoite"
+        },
+        "403": {
+            "title": "Oikeudet puuttuvat",
+            "subtitle": "Sinun pitää olla kirjautuneena nähdäksesi tämän sivun!"
         }
     },
     "patrons": {
