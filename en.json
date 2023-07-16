@@ -1124,6 +1124,10 @@
       "title4": "It's not a bug, it's a feature",
       "body": "The page <em>{{path}}</em> was not found on Angus"
     },
+    "403": {
+      "title": "Unauthorized",
+      "subtitle": "You must be logged in to view this page!"
+    },
     "format": {
      "url": "This is not a valid url"
     }
