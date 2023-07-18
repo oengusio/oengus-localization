@@ -1100,6 +1100,10 @@
         },
         "format": {
             "url": "Esta no es una URL válida"
+        },
+        "403": {
+            "title": "Sin autorización",
+            "subtitle": "¡Debes estar conectado para ver esta página!"
         }
     },
     "patrons": {
