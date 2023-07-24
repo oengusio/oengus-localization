@@ -993,7 +993,7 @@
                     "required": "Se requiere un correo electrónico"
                 },
                 "label": "Correo electrónico",
-                "help": "Esta dirección de correo electrónico se utiliza para obtener tu foto de perfil de <a href=\"https://gravatar.com/\" target=\"_blank\">Gravatar</a> y solo funcionará si tiene la clasificación de PG o inferior."
+                "help": "Tu dirección de correo electrónico se usa para obtener tu imagen del perfil de <a href=\"https://gravatar.com/\" target=\"_blank\">Gravatar</a> y solo funcionará si tienes la clasificación PG o inferior."
             },
             "general": "Información general",
             "new": {
@@ -1086,6 +1086,10 @@
                 },
                 "label": "Mostrar el nombre",
                 "help": "Si utilizas un alias o quieres algo diferente a tu nombre de usuario, puedes utilizar este campo para establecer cómo se te muestra en Oengus."
+            },
+            "profilePicture": {
+                "button": "Establecer la foto del perfil",
+                "label": "Foto del perfil"
             }
         }
     },
