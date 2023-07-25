@@ -1051,7 +1051,7 @@
                     "required": "Sähköpostiosoite vaaditaan"
                 },
                 "label": "Sähköpostiosoite",
-                "help": "Tämä sähköpostiosoite käytetään hakeakseen profiilikuvasti <a href=\"https://gravatar.com/\" target=\"_blank\">Gravatar-palvelusta</a> ja toimii ainoastaan jos sen ikäluokitus on PG tai alempi."
+                "help": "Sinun sähköpostiosoitetetta käytetään hakeakseen profiilikuvaasi <a href=\"https://gravatar.com/\" target=\"_blank\">Gravatar-palvelusta</a> ja toimii ainoastaan jos sen ikäluokitus on PG tai alempi."
             },
             "new": {
                 "beforeWeStart": "Ennen kuin aloitamme…",
@@ -1159,6 +1159,10 @@
                 },
                 "help": "Jos käytät jotain nimimerkkiä tai haluat jonkin muun nimen näkyvän, joka ei ole käyttäjänimesi, voit asettaa sen tässä.",
                 "label": "Näyttönimi"
+            },
+            "profilePicture": {
+                "button": "Aseta profiilikuva",
+                "label": "Profiilikuva"
             }
         }
     },
