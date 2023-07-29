@@ -318,5 +318,16 @@
                 "label": "用户名"
             }
         }
+    },
+    "announcements": {
+        "twitterRemoval": "您好，我们很快就会删除 Twitter 作为登录选项。确保您的 Twitch 或 Discord 帐户已链接到您的 Oengus 帐户，以防止被锁定。"
+    },
+    "platform": {
+        "TWITTER": "推特",
+        "SPEEDRUNCOM": "speedrun.com",
+        "INSTAGRAM": "Instagram",
+        "MASTODON": "Mastodon",
+        "TWITCH": "Twitch",
+        "FACEBOOK": "脸书"
     }
 }
