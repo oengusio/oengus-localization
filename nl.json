@@ -56,7 +56,7 @@
         "join": "Deelnemen",
         "save": "Opslaan",
         "sendTweet": "Verstuur tweet",
-        "submit": "Opslaan"
+        "submit": "Verzenden"
     },
     "alert": {
         "category": {
@@ -358,7 +358,7 @@
             "incentives": "Donatie-incentives",
             "loginToSubmit": "Log in om runs te submitten",
             "manageIncentives": "Beheer donation-incentives",
-            "manageSchedule": "Schema beheer",
+            "manageSchedule": "Beheer rooster",
             "moderators": "Moderators",
             "overview": "Overzicht",
             "schedule": "Schema",
@@ -395,7 +395,7 @@
                 },
                 "schedule": "Schema",
                 "selectedRuns": "Geselecteerde runs",
-                "title": "Schema beheer",
+                "title": "Rooster beheer",
                 "customData": {
                     "text": "Verberg/Toon aangepasta data velden",
                     "inputText": "Aangepaste gegevens opgeslagen in tekst, dit laat je \"verborgen\" data toevoegen aan deze schema-rij"
