@@ -949,7 +949,8 @@
         "twitter": "Síguenos en Twitter",
         "sourceCode": "Código fuente",
         "patrons": "Nuestros patrocinadores",
-        "mastodon": "Síguenos en Mastodon"
+        "mastodon": "Síguenos en Mastodon",
+        "displayNameNotification": "¡Ey! Parece que te falta el nombre para mostrar en tu perfil. ¡Ve a tu configuración para configurarlo!"
     },
     "user": {
         "profile": {
