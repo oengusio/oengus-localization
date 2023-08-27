@@ -407,7 +407,8 @@
                     "line2": "Esto significa que puede pasar un tiempo antes de que veas el calendario actualizado en tu página de maratón.",
                     "line1": "Para reducir la carga de nuestros servidores, hemos implementado una caché en Oengus."
                 },
-                "markdown": "Puedes utilizar la sintaxis básica de Markdown (*negrita*, _subrayado_ y [link name](https://oengus.io/)) en los campos de juego y categorías."
+                "markdown": "Puedes utilizar la sintaxis básica de Markdown (*negrita*, _subrayado_ y [link name](https://oengus.io/)) en los campos de juego y categorías.",
+                "hideCompleteUsers": "Ocultar los usuarios en la línea de tiempo cuando no tienen más ejecuciones en \"ejecuciones seleccionadas\""
             },
             "nextRun": "Próximo run {{duration}}",
             "setupBlock": "Bloque de reserva",
