@@ -651,7 +651,8 @@
                     "line2": "Tämä tarkoittaa sitä, että saataa kestää hetken, että ohjelma näkyy tapahtuman sivulla.",
                     "line3": "Tämä nappi aktivoituu viiden sekunnin jälkeen"
                 },
-                "markdown": "Voit käyttää perussyntaksia (*lihavoitu*, _alleviivaus_ ja [linkin nimi] (https://oengus.io/)) peli ja kategoriakentissä."
+                "markdown": "Voit käyttää perussyntaksia (*lihavoitu*, _alleviivaus_ ja [linkin nimi] (https://oengus.io/)) peli ja kategoriakentissä.",
+                "hideCompleteUsers": "Piilota käyttäjät aikajanalta, kun niillä ei ole enää valittuja peleja"
             },
             "nextRun": "Seuraava peli {{duration}}",
             "timezone": "Päivämäärät ja kellonajat näkyvät paikallisen aikavyöhykkeesi mukaan.",
@@ -1022,7 +1023,8 @@
         "patrons": "Meidän Patronit",
         "sourceCode": "Lähdekoodi",
         "createMarathon": "Uusi tapahtuma",
-        "mastodon": "Seuraa meitä Mastodonissa"
+        "mastodon": "Seuraa meitä Mastodonissa",
+        "displayNameNotification": "Hei! Sinulla ei ole näyttönimeä valittuna profiilissasi. Mene asetuksiin asettaaksesi näyttönimesi!"
     },
     "user": {
         "profile": {
