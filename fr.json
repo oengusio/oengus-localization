@@ -15,7 +15,36 @@
             "title": "Contact"
         },
         "privacy": {
-            "title": "Politique de confidentialité"
+            "title": "Politique de confidentialité",
+            "par3": "En cas de conflit, la version anglaise de cette politique prévaut.",
+            "log": {
+                "title": "Fichiers journaux",
+                "par1": "Oengus suit une procédure standard d'utilisation de fichiers journaux. Ces fichiers enregistrent les visiteurs lorsqu'ils visitent les sites web. Toutes les sociétés d'hébergement le font et cela fait partie de l'analyse des services d'hébergement. Les informations collectées par les fichiers journaux comprennent les adresses de protocole Internet (IP), le type de navigateur, le fournisseur d'accès Internet (FAI), la date et l'heure, les pages de renvoi et de sortie, et éventuellement le nombre de clics. Ces données ne sont pas liées à des informations personnellement identifiables. L'objectif de ces informations est d'analyser les tendances, d'administrer le site, de suivre les mouvements des utilisateurs sur le site et de recueillir des informations démographiques."
+            },
+            "par1": "Chez Oengus, accessible depuis {{oengus-link}}, l'une de nos principales priorités est la protection de la vie privée de nos visiteurs. Ce document de politique de confidentialité contient les types d'informations qui sont collectées et enregistrées par Oengus et la manière dont nous les utilisons.",
+            "thirdParty": {
+                "title": "Politiques de confidentialité des tiers",
+                "par1": "La politique de confidentialité d'Oengus ne s'applique pas aux autres annonceurs ou sites web.",
+                "par2": "Vous pouvez choisir de désactiver les cookies par le biais des options de votre navigateur. Pour obtenir des informations plus détaillées sur la gestion des cookies avec des navigateurs web spécifiques, vous pouvez consulter les sites web respectifs de ces navigateurs."
+            },
+            "children": {
+                "title": "Informations pour les enfants",
+                "par1": "Une autre de nos priorités est de renforcer la protection des enfants lorsqu'ils utilisent l'internet. Nous encourageons les parents et les tuteurs à observer leurs activités en ligne, à y participer et/ou à les surveiller et à les guider.",
+                "par2": "Oengus ne collecte sciemment aucune information personnelle identifiable auprès d'enfants de moins de 13 ans. Si vous pensez que votre enfant a fourni ce type d'informations sur notre site Web, nous vous encourageons fortement à nous contacter immédiatement et nous ferons de notre mieux pour supprimer rapidement ces informations de nos dossiers."
+            },
+            "consent": {
+                "title": "Consentir",
+                "par1": "En utilisant notre site web, vous consentez par la présente à notre politique de confidentialité et acceptez ses conditions générales."
+            },
+            "online": {
+                "title": "Politique de confidentialité en ligne uniquement",
+                "par1": "Cette politique de confidentialité ne s'applique qu'à nos activités en ligne et est valable pour les visiteurs de notre site web en ce qui concerne les informations qu'ils partagent et/ou collectent sur Oengus. Cette politique ne s'applique pas aux informations collectées hors ligne ou via d'autres canaux que ce site web."
+            },
+            "cookies": {
+                "title": "Cookies et balises web",
+                "par1": "Comme tout autre site web, Oengus utilise des \"cookies\". Ces cookies sont utilisés pour stocker des informations, y compris les préférences des visiteurs et les pages du site Web auxquelles le visiteur a accédé ou qu'il a visitées. Ces informations sont utilisées pour optimiser l'expérience des utilisateurs en personnalisant le contenu de nos pages web en fonction du type de navigateur des visiteurs et/ou d'autres informations."
+            },
+            "par2": "Si vous avez des questions supplémentaires ou si vous souhaitez obtenir plus d'informations sur notre politique de confidentialité, n'hésitez pas à nous contacter."
         }
     },
     "action": {
@@ -157,7 +186,11 @@
         "adblocker": "Salut, il semble que vous bloquiez les publicités, veuillez désactiver votre bloqueur de publicités sur oengus car nous comptons sur les publicités et les dons pour survivre.",
         "disabled": "Désactivé",
         "enabled": "Activé",
-        "non_select": "Aucune sélection"
+        "non_select": "Aucune sélection",
+        "ads": {
+            "nag1": "Vous n'aimez pas les publicités ?",
+            "nag2": "Rejoignez notre campagne Patreon pour aider à garder Oengus gratuit"
+        }
     },
     "homepage": {
         "ends": "Se termine {{duration}}",
@@ -373,7 +406,9 @@
                     "title": "Après publication, votre planning mettra entre 2 et 5 minutes à être visible.",
                     "line3": "Le bouton sera actif dans 5 secondes",
                     "line1": "Pour maintenir une charge raisonnable sur nos serveurs, nous avons mis en place un cache sur Oengus."
-                }
+                },
+                "hideCompleteUsers": "Cacher les utilisateurs dans la chronologie lorsqu'ils n'ont plus de courses dans les \"courses sélectionnées\"",
+                "markdown": "Vous pouvez utiliser la syntaxe Markdown de base (*bold*, _underline_, et [link name](https://oengus.io/)) dans les champs jeu et catégorie."
             },
             "nextRun": "Prochaine run {{duration}}",
             "setupBlock": "Bloc tampon",
@@ -648,7 +683,8 @@
                 "dangerZone": "Zone à risques",
                 "general": "Général",
                 "incentives": "Incentives",
-                "submissions": "Candidatures"
+                "submissions": "Candidatures",
+                "discord": "Discord"
             },
             "title": "Paramètres du marathon",
             "twitch": {
@@ -708,6 +744,12 @@
                 },
                 "required": "Exiger de l'utilisateur d'être dans votre Discord",
                 "label": "Exigence Discord"
+            },
+            "mastodon": {
+                "error": {
+                    "pattern": "Le nom d'utilisateur de Mastodon ne correspond pas à \"user@instance.tld\"",
+                    "max": "Le nom Mastodon est trop long"
+                }
             }
         },
         "submissions": {
@@ -783,7 +825,8 @@
                         "pattern": "L'estimation est invalide. Elle doit être au format (HH)H:MM:SS",
                         "required": "L'estimation est requise"
                     },
-                    "label": "Estimation"
+                    "label": "Estimation",
+                    "hint": "Lorsque vous entrez une estimation, ne soumettez pas votre PB ou un IGT. Oengus suggère d'ajouter au moins 10 minutes à votre PB RTA pour tenir compte des erreurs commises pendant la course, et/ou du temps que vous prenez avant que le chronomètre ne démarre, comme votre intro et votre outro."
                 },
                 "name": {
                     "error": {
@@ -894,7 +937,10 @@
             "discord": "Connexion avec Discord",
             "title": "Se connecter",
             "twitch": "Connexion avec Twitch",
-            "twitter": "Connexion avec Twitter"
+            "twitter": "Connexion avec Twitter",
+            "google": "Se connecter avec Google",
+            "mastodon": "Se connecter avec Mastodon",
+            "password": "Se connecter avec un nom d'utilisateur et un mot de passe"
         },
         "logout": "Se déconnecter",
         "privacyConsent": "En cliquant sur Accepter, vous autorisez Oengus à utiliser des cookies à des fins d'analyses de trafic. Plus de détails dans la section À propos.",
@@ -903,7 +949,9 @@
         "sourceCode": "Code source",
         "translate": "Aidez à la traduction du site",
         "twitter": "Suivez-nous sur Twitter",
-        "patrons": "Nos donateurs"
+        "patrons": "Nos donateurs",
+        "displayNameNotification": "Hey ! Il semble que votre nom d'affichage ne figure pas sur votre profil. Va dans tes paramètres pour le définir !",
+        "mastodon": "Suivez-nous sur Mastodon"
     },
     "user": {
         "profile": {
@@ -947,7 +995,7 @@
                     "required": "L'adresse courriel est requise"
                 },
                 "label": "Adresse courriel",
-                "help": "Cette adresse email est utilisée pour récupérer votre image de profil de <a href=\"https://gravatar.com/\" target=\"_blank\">Gravatar</a>, cela ne fonctionnera que si elle est tout public."
+                "help": "Votre adresse mail est utilisée pour récupérer votre image de profil depuis <a href=\"https://gravatar.com/\" target=\"_blank\">Gravatar</a> et ne fonctionnera que si elle est classée tout public."
             },
             "general": "Informations générales",
             "new": {
@@ -982,9 +1030,9 @@
             "username": {
                 "error": {
                     "exists": "Ce pseudonyme existe déjà. Veuillez en choisir un autre ou vérifier que vous n'avez pas déjà un profil synchronisé avec un autre compte externe (Twitch ou Discord)",
-                    "max": "Pseudonyme trop long",
-                    "min": "Pseudonyme trop court",
-                    "pattern": "Un pseudonyme doit être composé uniquement de caractères minuscules ou majuscules, ainsi que _ ou -",
+                    "max": "Le nom d'utilisateur est trop long, le maximum est de 32 caractères",
+                    "min": "Le nom d'utilisateur est trop court, au moins 3 caractères sont nécessaires",
+                    "pattern": "Le nom d'utilisateur doit être composé uniquement de caractères minuscules, de chiffres, de _ et de -",
                     "required": "Le pseudonyme est requis"
                 },
                 "label": "Pseudonyme"
@@ -992,7 +1040,7 @@
             "usernameJapanese": {
                 "error": {
                     "exists": "Ce pseudonyme existe déjà.",
-                    "max": "Le nom de compte en japonais est trop long.",
+                    "max": "Le nom d'utilisateur japonais est trop long, le maximum est de 32 caractères.",
                     "pattern": "Le pseudonyme (japonais) est invalide"
                 },
                 "help": "Si votre pseudonyme se traduit en japonais, vous pouvez utiliser ce champ pour l'écrire en caractère japonais. Il ne sera affiché que si la langue du site est en japonais. Ce champ est optionnel.",
@@ -1032,6 +1080,18 @@
                 "visibility": "Visible publiquement",
                 "subtitle": "Ces liens vers les réseaux sociaux sont visibles publiquement sur votre profil.",
                 "title": "Connexions"
+            },
+            "profilePicture": {
+                "label": "Photo de profil",
+                "button": "Définir la photo de profil"
+            },
+            "displayName": {
+                "error": {
+                    "max": "Le nom d'affichage est trop long, le maximum est de 32 caractères.",
+                    "min": "Le nom d'affichage est trop court, au moins 1 caractère est nécessaire"
+                },
+                "help": "Si vous utilisez un alias ou si vous voulez quelque chose de différent de votre nom d'utilisateur, vous pouvez utiliser ce champ pour définir la façon dont vous êtes affiché sur Oengus.",
+                "label": "Nom d'affichage"
             }
         }
     },
@@ -1052,6 +1112,10 @@
         },
         "format": {
             "url": "Lien invalide"
+        },
+        "403": {
+            "subtitle": "Vous devez être connecté pour voir cette page !",
+            "title": "Non autorisé"
         }
     },
     "country": {
@@ -1375,9 +1439,13 @@
         "TWITCH": "Twitch",
         "TWITTER": "Twitter",
         "SPEEDRUNCOM": "speedrun.com",
-        "YOUTUBE": "YouTube"
+        "YOUTUBE": "YouTube",
+        "MASTODON": "Mastodon"
     },
     "news": {
         "title": "Actualités"
+    },
+    "announcements": {
+        "twitterRemoval": "Bonjour, nous allons bientôt supprimer Twitter comme option de connexion. Assurez-vous que votre compte Twitch ou Discord est lié à votre compte Oengus pour éviter d'être bloqué."
     }
 }
