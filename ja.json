@@ -642,7 +642,7 @@
                     "back": "戻る",
                     "par1": "Discordサーバーに参加しているかを確認するためには「確認する」を押して下さい。",
                     "syncNotice": [
-                        null,
+                        "None",
                         "ユーザー設定"
                     ],
                     "par2": "Discordサーバーに参加している場合のみ応募することができます。",
@@ -1175,7 +1175,8 @@
         "TWITCH": "Twitch",
         "TWITTER": "Twitter",
         "SPEEDRUNCOM": "speedrun.com",
-        "YOUTUBE": "YouTube"
+        "YOUTUBE": "YouTube",
+        "MASTODON": "Mastodon"
     },
     "news": {
         "title": "News"
@@ -1188,5 +1189,8 @@
             "title4": "バグではありません、仕様です",
             "body": "ページが見つかりませんでした"
         }
+    },
+    "announcements": {
+        "twitterRemoval": "間もなくログイン方法から Twitter を削除する予定です。 アカウントがロックされないように、Twitch アカウントまたは Discord アカウントが Oengus アカウントに紐付けされていることを確認してください。"
     }
 }
