@@ -73,6 +73,7 @@
     "join": "Join",
     "save": "Save",
     "sendTweet": "Send Tweet",
+    "shareMastodon": "Share on mastodon",
     "submit": "Submit"
   },
   "alert": {
