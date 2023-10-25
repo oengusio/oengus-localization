@@ -56,7 +56,8 @@
         "join": "Únete",
         "save": "Guardar",
         "sendTweet": "Enviar Tweet",
-        "submit": "Enviar"
+        "submit": "Enviar",
+        "shareMastodon": "Compartir en Mastodon"
     },
     "alert": {
         "category": {
