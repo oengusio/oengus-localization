@@ -251,7 +251,19 @@
     "welcomeTitle": "Welcome to Oengus!"
   },
   "login": {
-    "authInProgress": "Authentication in progress, please wait…"
+    "title": "Login to your Oengus account",
+    "authInProgress": "Authentication in progress, please wait…",
+    "button": "Login",
+    "password": {
+      "show": "Make password visible",
+      "hide": ""
+    },
+    "provider": {
+      "title": "Login with a provider",
+      "twitch": "Log in with Twitch",
+      "discord": "Log in with Discord",
+      "google": "Login with Google"
+    }
   },
   "marathon": {
     "donate": {
@@ -561,10 +573,10 @@
         "label": "Discord requirement",
         "required": "Require user to be in your Discord",
         "help": {
-          "title": "This feature can only be used when the following conditions are met:",
           "1": "Oengus bot is in your Discord server. Invite link:",
           "2": "Your Discord invite is filled in and valid.",
-          "3": "Your Discord is set to public."
+          "3": "Your Discord is set to public.",
+          "title": "This feature can only be used when the following conditions are met:"
         },
         "found": {
           "title": "Server from invite found",
@@ -1097,6 +1109,9 @@
         },
         "label": "Username"
       },
+      "password": {
+        "label": "Password"
+      },
       "usernameJapanese": {
         "error": {
           "exists": "Username already exists.",
@@ -1123,6 +1138,10 @@
     "noPatrons": "Nobody to display here, why not <a href=\"https://www.patreon.com/oengusio\" target=\"_blank\">become the first one</a>?"
   },
   "errors": {
+    "403": {
+      "title": "Unauthorized",
+      "subtitle": "You must be logged in to view this page!"
+    },
     "404": {
       "title0": "Your WR has been rejected",
       "title1": "Hold your horses, you're too fast",
@@ -1131,12 +1150,8 @@
       "title4": "It's not a bug, it's a feature",
       "body": "The page <em>{{path}}</em> was not found on Angus"
     },
-    "403": {
-      "title": "Unauthorized",
-      "subtitle": "You must be logged in to view this page!"
-    },
     "format": {
-     "url": "This is not a valid url"
+      "url": "This is not a valid url"
     }
   },
   "country": {

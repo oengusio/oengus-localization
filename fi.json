@@ -1,1451 +1,1456 @@
 {
-    "alert": {
-        "submit": {
-            "SAME_USER": "Et voi lisätä itseäsi ilmoittamaasi kategoriaan",
-            "DISCORD_VERIFIED": "Olet Discord-palvelimella, voit nyt ilmoittautua",
-            "NOT_MULTIPLAYER": "Tämä ei ole moninpelikategoria",
-            "MAX_SIZE_REACHED": "Tässä ilmoittautumisessa on jo maksimimäärä pelaajia",
-            "DIFFERENT_MARATHON": "Tämä koodi on toista tapahtumaa varten",
-            "CODE_NOT_FOUND": "Tätä koodia ei ole olemassa",
-            "ALREADY_IN_OPPONENTS": "Olet jo osana tätä kategoriaa"
-        },
-        "donation": {
-            "export": {
-                "error": "Tuonnin aikana tapahtui virhe. Ole hyvä ja yritä uudestaan, tai ota yhteyttä ylläpitoon."
-            },
-            "validate": {
-                "success": "Lahjoituksesi on lähetetty onnistuneesti. Kiitos lahjoituksestasi!",
-                "error": "Lahjoituksen käsittelyssä tapahtui virhe. Ole hyvä ja yritä uudelleen, tai ota yhteyttä ylläpitoon."
-            }
-        },
-        "category": {
-            "deletion": {
-                "success": "Kategoria poistettu onnistuneesti",
-                "error": "Kategorian poistossa tapahtui virhe. Ole hyvä ja yritä uudelleen, tai ota yhteyttä ylläpitoon."
-            }
-        },
-        "incentives": {
-            "delete": {
-                "success": "Kannuste poistettu",
-                "error": "Kannusteen poistossa tapahtui virhe. Ole hyvä ja yritä uudelleen, tai ota yhteyttä ylläpitoon."
-            },
-            "save": {
-                "success": "Kannusteet tallennettu.",
-                "error": "Kannusteen tallentamisessa tapahtui virhe. Ole hyvä ja yritä uudelleen, tai ota yhteyttä ylläpitoon."
-            }
-        },
-        "user": {
-            "update": {
-                "success": "Käyttäjätiedot päivitetty",
-                "error": "Virhe käyttäjätietojen päivityksessä"
-            },
-            "sync": {
-                "error": "Synkronoinnin aikana tapahtui virhe. Normaalista tämä johtuu mainoksen estäjästä. Ole hyvä ja yritä uudelleen, sen jälkeen kun olet poistanut liitännäiset käyttöstä . Jos olet yrittänyt selaimella ilman liitännäisiä ja edelleen saat virheilmoituksen kysy apua Opengusin Discord-palvelemilelta #bug-kanavalta.",
-                "alreadySynced": "Virhe: Tämä tunnus on jo käytössä"
-            },
-            "login": {
-                "error": "Todennuksen aikana tapahtui virhe. Ole hyvä ja yritä uudelleen, tai ota yhteyttä ylläpitoon.",
-                "disabledAccount": "Käyttäjätunnuksesi on suljettu. Jos haluat sen takaisin, ota yhteyttä ylläpitoon.",
-                "usernameExists": "Käyttäjänimi jolla yrität kirjautua on jo käytössä. Ole hyvä ja varmista, ettet ole luonut aiemmin Oengus käyttäjää toisella kirjautumistavalla. Jos luulet tämän olevan virhe, ota yhteyttä ylläpitoon."
-            },
-            "deactivate": {
-                "success": "Käyttäjätunnuksesi on suljettu"
-            }
-        },
-        "submission": {
-            "deletion": {
-                "success": "Ilmoittautuminen poistettu onnistuneesti",
-                "error": "Ilmoittautumisen poistossa tapahtui virhe. Ole hyvä ja yritä uudelleen, tai ota yhteyttä ylläpitoon."
-            },
-            "save": {
-                "success": "Ilmoittautuminen lähetetty",
-                "error": "Virhe ilmoittautumisessa"
-            },
-            "cache": "Saattaa kestää jopa 30 minuuttia, jotta ilmoittautumisesi näkyy täasä listassa"
-        },
-        "selection": {
-            "save": {
-                "success": "Valinta tallennettu",
-                "error": "Virhe valintojen tallennuksessa"
-            }
-        },
-        "schedule": {
-            "save": {
-                "success": "Aikataulu tallennettu",
-                "error": "Virhe aikataulun tallennuksessa"
-            },
-            "export": {
-                "error": "Viennissä tapahtui virhe. Ole hyvä ja yritä uudelleen, tai ota yhteyttä ylläpitoon."
-            }
-        },
-        "marathon": {
-            "update": {
-                "success": "Tapahtuma päivitetty",
-                "error": "Virhe tapahtuman päivityksessä"
-            },
-            "deletion": {
-                "success": "Tapahtuma poistettu",
-                "error": "Virhe tapahtuman poistossa"
-            },
-            "creation": {
-                "success": "Tapahtuma luotu",
-                "error": "Tapahtuman luonnissa tapahtui virhe"
-            }
-        },
-        "game": {
-            "export": {
-                "error": "Viennissä tapahtui virhe. Ole hyvä ja yritä uudelleen, tai ota yhteyttä ylläpitoon."
-            },
-            "deletion": {
-                "success": "Peli poistettu",
-                "error": "Pelin poistossa tapahtui virhe. Yritä uudelleen tai ota yhteyttä ylläpitoon."
-            }
-        }
+  "alert": {
+    "submit": {
+      "SAME_USER": "Et voi lisätä itseäsi ilmoittamaasi kategoriaan",
+      "DISCORD_VERIFIED": "Olet Discord-palvelimella, voit nyt ilmoittautua",
+      "NOT_MULTIPLAYER": "Tämä ei ole moninpelikategoria",
+      "MAX_SIZE_REACHED": "Tässä ilmoittautumisessa on jo maksimimäärä pelaajia",
+      "DIFFERENT_MARATHON": "Tämä koodi on toista tapahtumaa varten",
+      "CODE_NOT_FOUND": "Tätä koodia ei ole olemassa",
+      "ALREADY_IN_OPPONENTS": "Olet jo osana tätä kategoriaa"
     },
-    "action": {
-        "sendTweet": "Lähetä twiitti",
-        "save": "Tallenna",
-        "confirm": "Varmista",
-        "cancel": "Peruuta",
-        "accept": "Hyväksy",
-        "join": "Liity",
-        "decline": "Peru",
-        "submit": "Ilmoita",
-        "clearAvailabilities": "Tyhjennä valitut saatavuudet"
+    "donation": {
+      "export": {
+        "error": "Tuonnin aikana tapahtui virhe. Ole hyvä ja yritä uudestaan, tai ota yhteyttä ylläpitoon."
+      },
+      "validate": {
+        "success": "Lahjoituksesi on lähetetty onnistuneesti. Kiitos lahjoituksestasi!",
+        "error": "Lahjoituksen käsittelyssä tapahtui virhe. Ole hyvä ja yritä uudelleen, tai ota yhteyttä ylläpitoon."
+      }
     },
-    "marathon": {
-        "submit": {
-            "submissions": "Ilmoittautumiset",
-            "game": {
-                "console": {
-                    "label": "Konsoli",
-                    "emulated": "Emuloitu",
-                    "emulatorNotAllowed": "Emulaattorit eivät ole sallittuja tässä tapahtumassa"
-                },
-                "description": {
-                    "label": "Pelin Kuvaus",
-                    "help": "Kuvaile peliä ja pelin edistymistä yleisesti",
-                    "error": {
-                        "required": "Pelin kuvaus vaaditaan"
-                    }
-                },
-                "name": {
-                    "label": "Peli",
-                    "error": {
-                        "required": "Peli vaaditaan"
-                    }
-                },
-                "ratio": {
-                    "error": {
-                        "required": "Kuvasuhde vaaditaan"
-                    },
-                    "label": "Kuvasuhde tai resoluutio (16:9, 4:3, 1920x1080…)"
-                }
-            },
-            "category": {
-                "type": {
-                    "label": "Tyyppi"
-                },
-                "opponent": {
-                    "with": "Kanssa:"
-                },
-                "estimate": {
-                    "label": "Aika-arvio",
-                    "error": {
-                        "pattern": "Arvio on väärin. Sen tulee olla formaatissa (TT)(T):MM:SS",
-                        "required": "Arvio vaaditaan",
-                        "min": "Arvio on väärin. Sen pitää olla yli 0 sekuntia"
-                    },
-                    "hint": "Kun lisäät arvion, älä lisää parasta aikaasi tai pelinsisäistä aikaa. Oengus suosittelee, että lisäät vähintään 10 minuuttia omaan parhaaseen reaaliaikaan, jotta mahdolliset virheet ja aika, joka käytetään suoritusta ennen ja sen jälkeen, otetaan huomioon."
-                },
-                "video": {
-                    "error": {
-                        "required": "Linkki videoon vaaditaan"
-                    },
-                    "label": "Linkki videoon"
-                },
-                "code": {
-                    "help": {
-                        "withCode": "Anna seuraava koodi muille pelaajille, jotta he voivat liittyä ilmoittamasi peliin:",
-                        "noCode": "Sinulle annetaan koodi, jonka voit jakaa toisille pelaajille kun olet tallentanut ilmoittautumisesi"
-                    }
-                },
-                "name": {
-                    "label": "Kategoria",
-                    "error": {
-                        "required": "Kategorian nimi vaaditaan"
-                    }
-                },
-                "description": {
-                    "error": {
-                        "required": "Kategorian kuvaus vaaditaan"
-                    },
-                    "label": "Kategorian kuvaus",
-                    "help": "Anna kuvaus tästä kategoriasta"
-                }
-            },
-            "availabilities": {
-                "to": "Mihin",
-                "label": "Saatavuus",
-                "from": "Mistä",
-                "actions": "Toiminnot",
-                "error": {
-                    "required": "Sinun täytyy lisätä yksi tai enemmän saatavuusajanjaksoa",
-                    "dateRequired": "Päivämäärä vaaditaan",
-                    "toDateTooLittle": "Saatavuus tulee olla vähintään minuutin pituinen."
-                },
-                "add": "Lisää saatavuus",
-                "duplicate": "Kopio seuraavalle päivälle"
-            },
-            "action": {
-                "removeGame": "Poista peli",
-                "addCategory": "Lisää kategoria"
-            },
-            "maxGamesPerRunner": "Maksimimäärä kategorioita per pelaaja",
-            "requirements": {
-                "discord": {
-                    "title": "Odota!",
-                    "lead": "Tämä tapahtuma vaatii sinua olemaan niiden Discord-palvelemimella, jotta voit lisätä pelin",
-                    "par1": "Paina \"Tarkista\" varmistaaksesi että olet tapahtuman Discord-palvelimella.",
-                    "syncNotice": [
-                        "TÄRKEÄÄ: ennen kuin teet tämän tarkastuksen, sinun tulee synkronisoida Discordin kanssa sinun",
-                        "käyttäjän asetukset",
-                        "."
-                    ],
-                    "check": "Tarkista!",
-                    "back": "Palaa",
-                    "par2": "Et voi ilmoittautua, mikäli et ole Discord-palvelimella.",
-                    "errors": {
-                        "userMissing": "Liity tapahtuman Discord-palvelimelle <a href=\"{{invite}}\" target=\"_blank\">{{invite}}</a>",
-                        "botMissing": "Pyydä tapahtuman ylläpitäjiä liittämään Oengusin Discord-botti"
-                    }
-                }
-            },
-            "multiplayer": {
-                "code": {
-                    "help": "Lisää koodi liittyäksesi moninpeliehdotukseen"
-                },
-                "title": "Moninpelikategoriat"
-            },
-            "racesAllowed": "Kisat/moninpeli sallittu",
-            "delete": {
-                "action": "Poista ilmoittautuminen"
-            },
-            "submitsClosed": "Ilmoittautumiset ovat kiinni. Voit päivittää saatavuutesi siihen asti, että aikataulu on julkaistu.",
-            "table": {
-                "actions": "Toiminnot",
-                "runners": "Runaajat",
-                "games": "Pelit",
-                "categories": "Kategoriat"
-            },
-            "customField": {
-                "error": {
-                    "required": "Tietue vaaditaan"
-                }
-            },
-            "dangerZone": "Vaaranvyöhyke",
-            "maxCategoriesPerGame": "Maksimimäärä kategorioita per peli",
-            "title": "Ilmoita pelit",
-            "tweet": {
-                "submit": "Minä ilmoitin {{games}} {{marathon}}-tapahtumaan"
-            },
-            "maxNumberOfScreens": "Maksimimäärä pelaajia per peli/moninpeli",
-            "details": "Yksityiskohdat"
-        },
-        "submissions": {
-            "title": "Ilmoittautumiset",
-            "tabs": {
-                "submissions": "Ilmoittautumiset",
-                "answers": "Vastaukset"
-            },
-            "table": {
-                "runner": "Pelaaja",
-                "ratio": "Kuvasuhde/resoluutio",
-                "question": "Kysymys",
-                "game": "Peli",
-                "estimate": "Aika-arvio",
-                "date": "Päivämäärä",
-                "console": "Konsoli",
-                "category": "Kategoria",
-                "answer": "Vastaus",
-                "categoryDescription": "Kategorian kuvaus",
-                "status": "Tila",
-                "type": "Tyyppi",
-                "gameDescription": "Pelin kuvaus",
-                "actions": "Toiminnot",
-                "marathon": "Maratoni"
-            },
-            "category": {
-                "delete": "Poista kategoria"
-            },
-            "filter": "Suodata käyttäjiä ja pelejä",
-            "export": "Vie CSV-tiedostona",
-            "game": {
-                "delete": "Poista peli. Tämä myös poistaa kategoriat."
-            },
-            "submission": {
-                "delete": "Poista ilmoittautuminen. Tämä myös poistaa kaikki tämän käyttäjän pelit."
-            }
-        },
-        "settings": {
-            "type": {
-                "online": "Online",
-                "label": "Tapahtuman tyyppi",
-                "onsite": "Paikan päällä"
-            },
-            "tabs": {
-                "submissions": "Ilmoittautumiset",
-                "incentives": "Kannusteet",
-                "general": "Yleinen",
-                "dangerZone": "Vaaranvyöhyke",
-                "discord": "Discord"
-            },
-            "submissions": {
-                "label": "Ilmoittautumiset",
-                "closed": "Ilmoittautumiset ovat kiinni",
-                "open": "Ilmoittautumiset ovat auki"
-            },
-            "privacy": {
-                "public": "Julkinen",
-                "private": "Yksityinen",
-                "label": "Tapahtuman yksityisyys",
-                "help": "Yksityiset tapahtumat toimivat kuten kaikki muut tapahtumat, mutta ne eivät näy kotisivulla. Tapahtuma näkyy ainoastaan linkillä."
-            },
-            "payee": {
-                "label": "Maksunsaaja",
-                "error": {
-                    "max": "Vastaanottajan nimi on liian pitkä",
-                    "required": "Vastaanottaja vaaditaan",
-                    "email": "Vastaanottaja pitää olla sähköpostiosoite"
-                },
-                "help": "Vastaanottajan tulee olla sähköpostiosoite, johon on liitetty PayPal-tili"
-            },
-            "name": {
-                "label": "Nimi",
-                "error": {
-                    "max": "Tapahtuman nimi on liian pitkä",
-                    "min": "Tapahtuman nimi on liian lyhyt",
-                    "pattern": "Tapahtuman nimi on väärin",
-                    "required": "Tapahtuman nimi vaaditaan"
-                }
-            },
-            "multiplayer": {
-                "label": "Moninpeli",
-                "allowed": "Kisat/co-op pelit ovat sallittuja",
-                "forbidden": "Kisat/co-op pelit ovat kielettyjä"
-            },
-            "moderators": {
-                "label": "Moderaattorit"
-            },
-            "marathonDescription": {
-                "label": "Kuvaus",
-                "help": "Merkintäkieli tuettu"
-            },
-            "location": {
-                "label": "Sijainti"
-            },
-            "language": {
-                "label": "Kieli"
-            },
-            "emulatorAuthorized": {
-                "label": "Emulaattorit",
-                "allowed": "Emulaattorit ovat sallittuja"
-            },
-            "customFields": {
-                "type": {
-                    "option": {
-                        "text": "Teksti",
-                        "checkbox": "Valintaruutu",
-                        "freetext": "Vapaa teksti",
-                        "select": "Valitse",
-                        "textArea": "Tekstialue"
-                    }
-                },
-                "required": {
-                    "title": "Vaaditaan"
-                },
-                "action": {
-                    "title": "Toimenpide"
-                },
-                "label": {
-                    "title": "Otsikko",
-                    "error": {
-                        "required": "Otsikko vaaditaan"
-                    },
-                    "type": "Tyyppi"
-                },
-                "title": "Mukautetut tietueet",
-                "option": {
-                    "error": {
-                        "required": "Vaihtoehdon nimi vaaditaan"
-                    }
-                },
-                "description1": "Voit lisätä mukautettuja tietueita, jotta voit vapaasti kysyä tietoja pelaajaltasi. He voivat vastata näihin ilmoittautuessa. On suositeltavaa olla lisäämättä näitä ilmoittaumisen alkamisen jälkeen, jotta kaikki huomaavat vastata.",
-                "description2": "Vihje: yksinkertaiset tekstitietueet ovat rajattuna 50:een merkkiin. Tekstilaatikkojen vastausten raja on 500 merkkiä.",
-                "add": "Lisää uusi mukautettu tietue"
-            },
-            "maxGamesPerRunner": {
-                "error": {
-                    "min": "Maksimimäärä pelejä per pelaajan tulee olla positiivinen",
-                    "required": "Maksimimäärä pelejä per pelaaja vaaditaan"
-                },
-                "label": "Maksimimäärä pelejä per pelaaja"
-            },
-            "endDate": {
-                "label": "Arvioitu päättymispäivä",
-                "error": {
-                    "required": "Arvioitu päättymispäivä vaaditaan"
-                }
-            },
-            "generalTitle": "Yleiset asetukset",
-            "incentives": {
-                "hasIncentives": "Tällä tapahtumalla on kannusteita",
-                "label": "Kannustimien tila",
-                "disabledNotification": "Kannusteet ovat tällä hetkellä poissa käytöstä, koska ne olivat epätarkkoja ja ei ollut mahdollisuutta sensuroida niitä. Ei ole olemassa aikataulua tämän ominaisuuden paluulle, mutta kerromme jos se palaa."
-            },
-            "maxCategoriesPerGame": {
-                "error": {
-                    "max": "Maksimimäärä kategorioita per peli on liian suuri",
-                    "required": "Maksimimäärä kategorioita vaaditaan",
-                    "min": "Maksimimäärä kategorioita per peli tulee olla positiivinen"
-                },
-                "label": "Maksimimäärä kategorioita per peli"
-            },
-            "discordRequirement": {
-                "required": "Vaadi käyttäjääsi olemaan sinun Discord-palvelimella",
-                "help": {
-                    "title": "Tämä ominaisuus voidaan käyttää vain kun seuraavat ehdot täyttyvät:",
-                    "3": "Discord-palvelin on julkinen.",
-                    "1": "Oengus-botti on Discord-palvelimellasi. Kutsulinkki:",
-                    "2": "Discord-kutsusi on täytetty ja on oikein."
-                },
-                "label": "Discord-vaatimus",
-                "found": {
-                    "name": "Palvelimen nimi: <em>{{guildName}}</em>",
-                    "id": "Palvelimen ID: <em>{{guildId}}</em>",
-                    "title": "Palvelinkutsu löydetty"
-                }
-            },
-            "webhook": {
-                "help": "Voit lisätä webhook-linkin saadaksesi tiedon uudesta pelistä tai lahjoituksesta. Ota yhteys ylläpitoon lisätietoja varten.",
-                "botNotice": "Tämä on Oengus-botti webhook-linkki. Tämä",
-                "error": {
-                    "marathonParameter": "Vaadittu tapahtuman tieto puuttuu",
-                    "max": "Webhook-linkki on liian pitkä",
-                    "offline": "Webhook-linkkiä ei löydy, oletko varma, että tämä on oikea osoite?"
-                },
-                "label": "Webhook-linkki",
-                "announceAcceptedSubmissions": {
-                    "title": "Julkista hyväksytyt pelit"
-                }
-            },
-            "donations": {
-                "label": "Lahjoitustuki",
-                "donationsOpen": "Lahjoitukset ovat auki",
-                "hasDonations": "Tämä on hyväntekeväisyystapahtuma"
-            },
-            "maxNumberOfScreens": {
-                "error": {
-                    "min": "Maksimimäärä ruutuja tulee olla positiivinen",
-                    "required": "Maksimimäärä ruutuja vaaditaan"
-                },
-                "label": "Maksimimäärä ruutuja per peli",
-                "help": "Jos sallit moninpelejä, voit rajoittaa näkyvien ruutujen määrää. Tällä valinnalla rajoitat kisan tai co-op pelin pelaajien määrää"
-            },
-            "unlimited": "Rajoittamaton",
-            "startDate": {
-                "label": "Aloituspäivä",
-                "error": {
-                    "required": "Aloituspäivä vaaditaan"
-                }
-            },
-            "defaultSetupTime": {
-                "label": "Normaali valmisteluaika",
-                "error": {
-                    "required": "Normaali valmisteluaika vaaditaan",
-                    "pattern": "Normaali valmisteluaika on väärin, sen pitää olla (HH)H:MM:SS"
-                }
-            },
-            "delete": {
-                "action": "Poista tapahtuma",
-                "confirmText": "Oletko varma, että haluat poistaa tapahtuman? Vahvistaaksesi, kirjoita tapahtuman lyhyt nimi ja paina vahvista"
-            },
-            "dangerZone": "Vaaranvyöhyke",
-            "description": "Täällä voit päivittää tapahtumasi asetukset",
-            "discord": {
-                "error": {
-                    "pattern": "Discord-linkki on väärin"
-                }
-            },
-            "shortname": {
-                "error": {
-                    "exists": "Tapahtuman lyhytnimi on jo olemassa",
-                    "min": "Tapahtuman lyhytnimi on liian lyhyt",
-                    "max": "Tapahtuman lyhytnimi on liian pitkä",
-                    "pattern": "Tapahtuman lyhytnimi on väärin",
-                    "required": "Tapahtuman lyhytnimi vaaditaan"
-                },
-                "label": "Tapahtuman lyhytnimi",
-                "shorturl": "Lyhyt linkki"
-            },
-            "submissionsEndDate": {
-                "error": {
-                    "required": "Ilmoittautumisten päättymispäivä täytyy valita, mikäli aloituspäivä on valittuna"
-                },
-                "label": "Ilmoittautumisten päättymispäivä"
-            },
-            "twitter": {
-                "error": {
-                    "pattern": "Twitter-nimi on mväärin",
-                    "max": "Twitter-nimi on liian pitkä"
-                }
-            },
-            "videoRequired": {
-                "label": "Videovaatimus",
-                "allowed": "Video vaaditaan"
-            },
-            "youtube": {
-                "error": {
-                    "pattern": "Youtube-kanavan linkki on väärin"
-                },
-                "help": {
-                    "url": "Täysi linkki vaaditaan"
-                }
-            },
-            "currencyIso": {
-                "help": "Valuuttakoodi pitää olla ISO-4217-muodossa PayPaliä varten ja sen pitää olla maksajan pääasiallinen valuutta",
-                "error": {
-                    "max": "Valuuttakoodi on liian pitkä",
-                    "required": "Valuuttakoodivalitaan"
-                },
-                "label": "Valuuttakoodi"
-            },
-            "discordPrivacy": {
-                "label": "Discord-palvelimen näkyvyys",
-                "private": "Discord on yksityinen",
-                "help": "Jos Discord-palvelin on yksityinen, linkkiä ei näytetä kotisivulla ja lähetetään valituille pelaajille sähköpostitse."
-            },
-            "incentivesTitle": "Kannusteasetukset",
-            "submissionsStartDate": {
-                "error": {
-                    "required": "Ilmoittautumisten aloituspäivä tulee olla täytettynä, jos päättymispäivä on olemassa"
-                },
-                "label": "Ilmoittautumisten aloituspäivä"
-            },
-            "submissionsTitle": "Ilmoittautumisasetukset",
-            "supportedCharity": {
-                "error": {
-                    "max": "Hyväntekeväisyys-järjestön nimi on liian pitkä",
-                    "required": "Hyväntekeväisyysjärjestön nimi vaaditaan"
-                },
-                "label": "Tuettu hyväntekeväisyys"
-            },
-            "title": "Tapahtuman asetukset",
-            "twitch": {
-                "error": {
-                    "max": "Twitch-nimi on liian pitkä",
-                    "pattern": "Twitch-nimi on väärin"
-                }
-            },
-            "donationsOpen": {
-                "label": "Lahjoitussivu"
-            },
-            "sandbox": {
-                "warning": "Varoitus: Oengusin hiekkalaatikko toimii yhdessä PayPalin hiekkalaatikon kanssa. Käytä PayPalin hiekkalaatikko-osoitetta maksujen vastaanottajana, jotta (vale)lahjoitukset toimivat."
-            },
-            "country": {
-                "label": "Maa"
-            },
-            "mastodon": {
-                "error": {
-                    "max": "Mastodon nimi on liian pitkä",
-                    "pattern": "Mastodonin käyttäjätunnus ei vastaa muotoa 'käyttäjä@instanssi.tld'"
-                }
-            }
-        },
-        "selection": {
-            "status": {
-                "VALIDATED": "Hyväksytty",
-                "REJECTED": "Hylätty",
-                "BONUS": "Bonus",
-                "BACKUP": "Varalla",
-                "TODO": "Valintaa vailla",
-                "ALL": "Kaikki"
-            },
-            "statistics": {
-                "title": "Tilastot",
-                "table": {
-                    "totalTimeValidated": "Valittujen pelien yhteisaika (vakio valmisteluaika sisäänluettuna)",
-                    "averageEstimate": "Keskimääräinen odote",
-                    "numberOfRunners": "Pelaajien määrä",
-                    "numberOfRuns": "Pelien määrä",
-                    "totalTime": "Aika yhteensä",
-                    "defaultSetupTime": "Vakio valmisteluaika",
-                    "marathonLength": "Tapahtuman pituus"
-                }
-            },
-            "action": {
-                "publish": "Julkaise valinnat",
-                "decline": "Hylkää \"TODO\""
-            },
-            "selection": {
-                "title": "Valinta"
-            },
-            "availabilities": {
-                "help": "Paina kalenteri-painiketta näyttääksesi tai piilotaaaksesi niiden käytettävyyden."
-            },
-            "help": {
-                "BACKUP": "Varalla olevat pelit eivät sisälly valittujen pelien listaan aikataulussa. Jos haluat lisätä ne, vaihda niiden tila hyväksytyksi tai bonukseksi."
-            },
-            "publish": {
-                "help": "Paina tallenna tallentaaksesi nykyiset valinnat. Voit julkaista valinnat kun kaikilla on tila, joka ei ole 'valintaa vaille'. Tallennus ja julkaisu saataa kestää hetken, riippuen pelien määrästä. Varoitus: jos julkaiset valinnat, ilmoittautuminen päättyy. Kun valinnat ovat julkaistu, ne ovat näkyvillä kaikille katso ilmoittautumiset-sivulla."
-            },
-            "title": "Valitse pelit"
-        },
-        "schedule": {
-            "type": {
-                "RACE": "Kisa",
-                "OTHER": "Muu",
-                "RELAY": "Viestijuoksu",
-                "RELAY_RACE": "Viestikisa",
-                "COOP": "Co-op",
-                "COOP_RACE": "Co-op kisa",
-                "SINGLE": "Peli"
-            },
-            "title": "Aikataulu",
-            "table": {
-                "runner": "Pelaaja(t)",
-                "game": "Peli",
-                "estimate": "Aika-arvio",
-                "console": "Konsoli",
-                "category": "Kategoria",
-                "actions": "Toiminnot",
-                "type": "Tyyppi",
-                "time": "Kellonaika",
-                "setup": "Järjestelyaika",
-                "placeholder": "Tipauta mikä tahansa peli vasemmalta tänne. Tämä teksti automaattisesti häviää heti kun yksikin peli on lisätty aikatauluun.",
-                "link": "Linkki"
-            },
-            "management": {
-                "schedule": "Aikataulu",
-                "action": {
-                    "addSetupBlock": "Lisää järjestelytauko",
-                    "publish": "Julkaise aikataulu",
-                    "alreadyPublished": "Aikataulu on jo julkaistu",
-                    "addRun": "Lisää peli"
-                },
-                "selectedRuns": "Valitut pelit",
-                "title": "Aikataulun hallinta",
-                "help": {
-                    "dragAndDrop": "Käytä nuolia riveillä lisätäksesti tai poistaaksesi pelejä aikataulusta. Voit siirrellä hiirellä rivejä hakasten avulla",
-                    "save": "Paina tallennus-nappia talentaaksesi luonnoksena tai päivittääksesi aikataulua. Paina 'julkaise aikataulu' julkaistaaksesi aikataulu. Varoitus: kun aikataulu on julkaistu, niin tapahtuman viimeinen päivä automaattisesti päivitetään."
-                },
-                "customData": {
-                    "inputText": "Mukautettua tietoa, tallennettu tekstina, sallii mahdollisuuden lisätä piilotettua tietoa aikatauluun",
-                    "text": "Piilota/näytä mukautetut tietueet"
-                },
-                "cacheWarning": {
-                    "header": "LUE TÄMÄ VAROVAISESTI",
-                    "title": "Julkaisun jälkeen, ohjelma on nähtävissä kahden-viiden minuutin päästä.",
-                    "line1": "Pitääkseen palvelimen rasituksen alhaisempana, Oenguken palvelimilla on välimuisti.",
-                    "line2": "Tämä tarkoittaa sitä, että saataa kestää hetken, että ohjelma näkyy tapahtuman sivulla.",
-                    "line3": "Tämä nappi aktivoituu viiden sekunnin jälkeen"
-                },
-                "markdown": "Voit käyttää perussyntaksia (*lihavoitu*, _alleviivaus_ ja [linkin nimi] (https://oengus.io/)) peli ja kategoriakentissä.",
-                "hideCompleteUsers": "Piilota käyttäjät aikajanalta, kun niillä ei ole enää valittuja peleja"
-            },
-            "nextRun": "Seuraava peli {{duration}}",
-            "timezone": "Päivämäärät ja kellonajat näkyvät paikallisen aikavyöhykkeesi mukaan.",
-            "currentRun": "Tämänhetkinen peli",
-            "dstChange": "Kelloja siirretään tapahtuman aikana.",
-            "export": {
-                "ics": "Vie ICS",
-                "json": "Vie JSON (Horaro)",
-                "csv": "Vie CSV",
-                "title": "Vie aikataulu"
-            },
-            "setupBlock": "Järjestelytauko"
-        },
-        "menu": {
-            "settings": "Asetukset",
-            "schedule": "Aikataulu",
-            "overview": "Yleiskatsaus",
-            "moderators": "Moderaattorit",
-            "incentives": "Kannusteet",
-            "home": "Koti",
-            "donations": "Lahjoitukset",
-            "donate": "Lahjoita",
-            "admin": "Ylläpitäjä",
-            "manageSchedule": "Hallitse aikataulua",
-            "manageIncentives": "Hallitse kannusteita",
-            "loginToSubmit": "Kirjaudu sisään ilmoittaaksesi pelejä",
-            "editSubmission": "Muokkaa ilmoittautumista",
-            "selectRuns": "Valitse pelejä",
-            "submitRuns": "Ilmoita pelejä",
-            "viewSubmissions": "Katso ilmoittautumisia",
-            "tracker": "Seurain"
-        },
-        "incentives": {
-            "title": "Kannusteet",
-            "management": {
-                "table": {
-                    "locked": "Lukittu",
-                    "goal": "Tavoite",
-                    "game": "Peli",
-                    "description": "Kuvaus",
-                    "progress": "Edistys",
-                    "isBidWar": "Lahjoitustavoite/Pottikisa",
-                    "incentive": "Kannusteen nimi",
-                    "currentAmount": "Nykyinen summa",
-                    "actions": "Toiminnot"
-                },
-                "title": "Kannusteiden hallinta",
-                "openBid": "Lahjoittajat voivat lisätä uusia potteja",
-                "name": {
-                    "error": {
-                        "required": "Nimi vaaditaan"
-                    }
-                },
-                "goal": {
-                    "error": {
-                        "required": "Lahjoitustavoite vaaditaan"
-                    }
-                },
-                "donationGoal": "Lahjoitustavoite",
-                "bidWar": "Pottikisa",
-                "action": {
-                    "add": "Lisää kannuste"
-                },
-                "currentAmount": {
-                    "error": {
-                        "required": "Nykyinen määrä vaaditaan"
-                    }
-                },
-                "approveBid": "Tämä huuto on lahoittajan luoma ja se pitää ensin hyväksyä. Muista tallentaa hyväksymisen jälkeen!",
-                "noSchedule": "Sinun pitää lisätä tapahtumia aikatauluun ennen kuin lisäät kannusteita",
-                "bidName": {
-                    "error": {
-                        "required": "Huudon nimi vaaditaan"
-                    }
-                }
-            }
-        },
-        "home": {
-            "language": "Kieli",
-            "to": "Mihin",
-            "location": "Sijainti",
-            "from": "Mistä"
-        },
-        "donations": {
-            "title": "Lahjoitukset",
-            "table": {
-                "name": "Nimi",
-                "date": "Päivämäärä",
-                "comment": "Kommentti",
-                "amount": "Summa"
-            },
-            "total": "Lahjoitusten summa",
-            "max": "Maksimilahjoitus",
-            "export": "Vie CSV",
-            "count": "Lahjoitusten määrä",
-            "average": "Keskimääräinen lahjoitus"
-        },
-        "donate": {
-            "title": "Lahjoita",
-            "nickname": {
-                "label": "Nimimerkki",
-                "error": {
-                    "pattern": "Nimimerkki voi koostua vain pienistä ja isoista kirjaimista, ja merkeistä _ ja -",
-                    "max": "Nimimerkki on liian pitkä"
-                }
-            },
-            "incentives": {
-                "title": "Kannusteet",
-                "header": {
-                    "incentive": "Kannuste",
-                    "amount": "Summa",
-                    "action": "Toiminto"
-                },
-                "bid": {
-                    "new": "(Uusi)"
-                },
-                "left": "Jäljellä oleva summa:",
-                "description": "Lahjoituskannusteilla voidaan lisätä peleihin haastetta ja vaikuttaa pelaajan valintoihin. Haluaisitko lahjoittaa kannustetta varten?",
-                "add": "Lisää kannuste"
-            },
-            "comment": {
-                "label": "Kommentti"
-            },
-            "incentiveAmount": {
-                "error": {
-                    "required": "Summa vaaditaan",
-                    "minNumber": "Summan on oltava suurempi kuin 0"
-                }
-            },
-            "extra": {
-                "description": "Tietoja ei näytetä julkisesti ja ne poistetaan kuukausi tapahtuman päättymisen jälkeen.",
-                "title": "Ylimääräinen tieto"
-            },
-            "description": "Lahjoitukset tukevat {{supportedCharity}}",
-            "amount": {
-                "label": "Lahjoitussumma",
-                "error": {
-                    "required": "Lahjoitussumma vaaditaan",
-                    "minNumber": "Lahjoitussumman on oltava suurempi kuin 0"
-                }
-            }
-        },
-        "help": {
-            "isArchived": "Tämä tapahtuma on arkistoitu. Se on vain luku -tilassa."
-        },
-        "new": {
-            "title": "Luo uusi tapahtuma",
-            "description": "Seuraavat tiedot ovat välttämättömiä uuden tapahtuman luomiseen. Voit lisätä ja säätää muita tietoja luonnin jälkeen.",
-            "shortDomain": "Tämä lyhyt-domain on automaattisesti luotu, jotta voit jakaa sen sosiaalisessa mediassa"
-        }
+    "category": {
+      "deletion": {
+        "success": "Kategoria poistettu onnistuneesti",
+        "error": "Kategorian poistossa tapahtui virhe. Ole hyvä ja yritä uudelleen, tai ota yhteyttä ylläpitoon."
+      }
     },
-    "homepage": {
-        "sponsors": {
-            "title": "Sponsorit",
-            "kaspersky": {
-                "banner": "Oenguksen uusi versio on kehitteillä. Kiitos tuesta Kaspersky.",
-                "box": "Kasperskyn tuen ansiosta Oengus v2 on nyt kehitteillä. <a href=\"{{readMoreUrl}}\" target=\"_blank\">Lue Lisää</a>"
-            },
-            "esa": "Oengusta ylläpitää <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>"
-        },
-        "welcomeText": {
-            "par1": "Oengus on <b>ilmainen</b> speedrun-tapahtumien hallinnointityökalu.",
-            "par3": "Kirjauduthan sisään seuraavalla linkillä, jotta saat käyttöösi kaikki sivuston ominaisuudet. Voit luoda uusia tapahtumia ja ilmoittautua olemassa oleviin:",
-            "par4": {
-                "prod": "Jos haluat testata sovellusta ennen varsinaista käyttöä mene <a href=\"https://sandbox.oengus.io\">hiekkalaatikolle</a>. Se on käytettävissänne kaikkea testausta ja opettelua varten.",
-                "sandbox": "<b>Olet hiekkalaatikolla, voit käyttää sitä testausta ja opettelua varten. Jos haluat luoda oikean tapahtuman mene <a href=\"https://oengus.io\">pääsivulle</a>.</b>"
-            }
-        },
-        "starts": "Alkaa {{duration}}",
-        "plannedFeatures": {
-            "title": "Tulevia ominaisuuksia",
-            "7": "Lahjoitusten hallinta PayPalin kautta",
-            "6": "Sähköposti-ilmoitukset",
-            "5": "Discord-integrointi",
-            "4": "Käyttäjätunnuksen yhdistäminen Twitter/Twitch/Google kanssa",
-            "2": "Useampi valintakeino peleille (suora valinta, äänestys...)",
-            "1": "Co-op/kisojen ilmoittaminen",
-            "volunteerManager": "Vapaaehtoishakemusten hallinnointi",
-            "3": "Helppo aikataulutusjärjestelmä pelaajien saatavuuden visualisoinnilla"
-        },
-        "marathons": {
-            "upcoming": "Tulevat tapahtumat",
-            "open": "Ilmoittautuminen käynnissä",
-            "moderated": "Ylläpitämäsi tapahtumat",
-            "live": "Meneillään olevat tapahtumat",
-            "calendar": "Kalenteri"
-        },
-        "ends": "Päättyy {{duration}}",
-        "welcomeTitle": "Tervetuloa Oengukseen!",
-        "submissions_close": "Ilmoittautuminen sulkeutuu {{duration}}"
-    },
-    "global": {
-        "emu": "[EMU]",
-        "adblocker": "Huomasimme että käytät mainosten estäjää. Arvostaisimme jos poistat sen käytöstä sivullamme, sillä sivustomme pyörii lahjoitusten ja mainostulojen avulla.",
-        "enabled": "Päällä",
-        "non_select": "Ei valintaa",
-        "disabled": "Pois päältä",
-        "ads": {
-            "nag2": "Liity meidän Patreon-tukijaksi auttaaksemme pitämään Oengus maksuttomana",
-            "nag1": "Etkö tykkää mainoksista?"
-        }
-    },
-    "aboutPage": {
-        "about": {
-            "par1": "Oengus (lausutaan Angus/ang·guhs) tarjoaa välineitä speedrun-tapahtumien organisointiin ja järjestämiseen.",
-            "par6": "Triviaa: Oengus on kelttiläinen jumalhahmo, joka vastaa ajasta ja ikuisuudesta. Sopii hyvin speedruneille, eikö!",
-            "title": "Tietoa",
-            "par5": "Sivustoa ylläpitää tammikuusta 2021 alkaen <a href=\"https://twitter.com/duncte123\" target=\"_blank\">duncte123</a>.",
-            "par3": "Speedrun-tapahtumat ovat tapahtumia, jossa speedrun-harrastajat kokoontuvat yhteen esittelemään pelejään suurelle yleisölle joko netin välityksellä tai paikan päällä pidettävässä tapahtumassa. Tunnetuimpia speedrun-tapahtumia ovat puolen vuoden välein järjestettävät <a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick -tapahtumat</a> .",
-            "par2": "Speedrunien tavoite on pelata peli läpi mahdollisimman nopeasti huvin ja kilpailun vuoksi. Voit lukea lisää aiheesta <a href=\"https://fi.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipediasta</a>.",
-            "par4": "Tämän sivuston on luonut <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>. Nopeuspelaamisen yhteisön jäsen vuodesta 2013, hän on laajasti osallistunut nopeuspelaamiseen monella eri tavalla: <a href=\"https://speedrun.com\" target=\"_blank\">speedrun.comin</a> yleisenä moderaattorina kolmen vuoden ajan, <a href=\"https://twitter.com/SpeedrunWRs\">Speedrun WRs Twitter botin</a> luojana, ranskankielisen jälleenlähetystiimin jäsenenä, joka tulkkaaa tapahtumia ranskankieliselle yhteisölle, ja Bourg la Runin perustajajäsen, joka on Ranskalainen vastine Games Done Quick-tapahtumalle. Hänen yleisen kokemuksen myötä, ja koska sopivaa työkalua ei ollut tapahtumien järjestämistä varten, hän päätti luoda Oengusin."
-        },
-        "contact": {
-            "title": "Ota yhteyttä",
-            "par2": "Kaupalliset ja viestintään liittyvät yhteydenotot osoitteeseen <a href=\"mailto:contact@oengus.io\" target=\"_blank\">contact@oengus.io</a>. Vastaamme vain englanninkielisiin viesteihin.",
-            "par1": "Löysitkö bugin? Onko sinulla kysyttävää sivustosta? Liity <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">Discord-palvelimellemme!</a>"
-        },
-        "privacy": {
-            "log": {
-                "par1": "Oengus käyttää normaalia käytäntöä lokitiedostojen käsittelyssä. Nämä tiedostot sisältävät tietoa kävijän käynnistä sivustolla. Kaikki palveluntarjoat käyttävät tätä osana palveluntarjoajan tilastointia. Tämä tieto sisältää IP-osoitteet, selaintyypit, palveluntarjoajan, ajan ja päivämäärän, linkitetyt sivut ja mahdollisesti klikkausten määrä. Nämä eivät ole kytköksissä tietoihin, joilla voidaan yksilöidä käytäntö. Niiden tarkoitus on tilastoida sivuston trendeja, sivuston ylläpitoon, kävijöiden sivustollaliikkumisen seurantaan ja demografiatietojen keräämistä varten.",
-                "title": "Lokitiedostot"
-            },
-            "thirdParty": {
-                "par1": "Oengus'n tietosuojakäytäntö ei koske muita mainostajia tai verkkosivustoja.",
-                "title": "Kolmansien osapuolten tietosuojakäytännöt",
-                "par2": "Voit poistaa evästeet käytöstä selaimesi asetuksista. Tarkempia tietoja evästeiden hallinnasta tietyillä selaimilla löydät selainten vastaavilta verkkosivuilta."
-            },
-            "title": "Tietosuojakäytäntö",
-            "par1": "Oenguksella, jonne pääset tästä {{oengus-link}} me sitoutumme suojelemaan kävijöidemme yksityisyyttä. Tämä tietosuojakäytäntö sisältää tietoa siitä minkälaista tietoa keräämme ja tallennamme sivuston kävijöistä.",
-            "par2": "Jos sinulla on kysymyksiä tai haluat lisätietoa tästä tietosuojakäytännöstä, älä epäröi ottaa yhteyttä meihin.",
-            "consent": {
-                "title": "Suostumus",
-                "par1": "Käyttämällä verkkosivustoamme hyväksyt tietosuojakäytäntömme ja sen käyttöehdot."
-            },
-            "par3": "Tapauksessa, kun tämä tietosuojakäytäntö on ristiriidassa englanninkielisen version kanssa, englanninkielinen versio pätee.",
-            "cookies": {
-                "title": "Evästeet ja web bugit",
-                "par1": "Kuten mikä tahansa muu sivusto, Oengus käyttää evästeitä. Nämä evästeet sisältävät tietoja kävijöiden asetuksista ja tietoa millä sivustoilla kävijä on käynyt. Tätä tietoa käytetään käyttäjän kokemuksen parantamiseksi ja muokkaamalla sivustoa käyttäjän selaimen tyypin ja/tai muun tiedon perusteella."
-            },
-            "children": {
-                "title": "Lasten tiedot",
-                "par1": "Toinen painopistealueemme on lasten suojelun lisääminen internetiä käytettäessä. Kannustamme vanhempia ja huoltajia tarkkailemaan, osallistumaan ja/tai valvomaan ja ohjaamaan lasten verkkotoimintaa.",
-                "par2": "Oengus ei tietoisesti kerää henkilökohtaisia tietoja alle 13-vuotiailta lapsilta. Jos uskot, että lapsesi on antanut tällaisia tietoja verkkosivustollamme, kehotamme sinua ottamaan välittömästi yhteyttä meihin, jotta voimme parhaan kykymme mukaan poistaa tällaiset tiedot rekisteristämme."
-            },
-            "online": {
-                "title": "Ainoastaan verkkotietosuojakäytäntö",
-                "par1": "Tämä tietosuojakäytäntö koskee vain verkkotoimintaamme, ja se koskee verkkosivustomme kävijöitä niiden tietojen osalta, jotka he jakavat ja/tai keräävät Oengusissa. Tätä käytäntöä ei sovelleta offline-tilassa tai muiden kanavien kuin tämän verkkosivuston kautta kerättyihin tietoihin."
-            }
-        }
-    },
-    "calendar": {
-        "title": "Tapahtumakalenteri",
-        "help": "Tapahtuman painaminen uudelleenohjaa sinut tapahtuman sivulle",
-        "noMarathons": "Näillä päivämäärillä ei löydy tapahtumia.",
-        "between": "{{time-range}}",
-        "endsAt": "Loppuu {{end-time}}",
-        "now": "Nyt",
-        "startsAt": "Alkaa {{start-time}}",
-        "allDay": "Koko päivä"
-    },
-    "login": {
-        "authInProgress": "Todennus käynnissä, ole hyvä ja odota…"
-    },
-    "footer": {
-        "donate": "Jos pidät Oenguksesta, voit harkita <a href=\"{{donationLink}}\" target=\"_blank\">lahjoittamista</a>",
-        "text": "Aikavyöhyke: {{timezone}}",
-        "patron": {
-            "enjoyOengus": "Jos pidät Oenguksesta, harkitse {{patronLink}}",
-            "patronLink": "patroniksi ryhtyminen",
-            "list": "Kiitos alla luetelluille suojelijoillemme, joiden lahjoitukset pitävät Oenguksen ilmaisena kaikille"
-        },
-        "v1Link": "Kirjaudu sisään Oengus v1:sessä"
-    },
-    "language": {
-        "de": "saksa",
-        "hi": "hindi",
-        "fil": "filipino",
-        "lt": "liettua",
-        "hr": "kroatia",
-        "lv": "latvia",
-        "hu": "unkari",
-        "zh-CN": "kiina",
-        "uk": "ukraina",
-        "id": "Indonesian",
-        "ur": "urdu",
-        "ml": "malajalam",
-        "mr": "marathi",
-        "ms": "malaiji",
-        "el": "kreikka",
-        "en": "englanti",
-        "eo": "esperanto",
-        "is": "islanti",
-        "it": "italia",
-        "am": "amhara",
-        "chr": "cherokee",
-        "iw": "heprea",
-        "es": "espanja",
-        "et": "viro",
-        "eu": "baski",
-        "ar": "arabia",
-        "pt-PT": "portugali",
-        "vi": "vietnam",
-        "ja": "japani",
-        "ro": "romania",
-        "en-GB": "englanti",
-        "nl": "hollanti",
-        "no": "norja",
-        "fi": "suomi",
-        "ru": "venäjä",
-        "bg": "bulgaria",
-        "bn": "bengali",
-        "fr": "ranska",
-        "sk": "slovakki",
-        "sl": "sloveeni",
-        "ca": "katalaani",
-        "sr": "serbia",
-        "kn": "kannada",
-        "sv": "ruotsi",
-        "ko": "korea",
-        "sw": "swahili",
-        "zh_TW": "kiina",
-        "pt_BR": "portugali",
-        "ta": "tamili",
-        "gu": "gudžarati",
-        "cs": "tšekki",
-        "te": "telugu",
-        "th": "thai",
-        "cy": "kymri",
-        "pl": "puola",
-        "da": "tanska",
-        "tr": "turkki"
-    },
-    "platform": {
-        "DISCORD": "Discord",
-        "SPEEDRUNCOM": "speedrun.com",
-        "TWITTER": "Twitter",
-        "TWITCH": "Twitch",
-        "FACEBOOK": "Facebook",
-        "NICO": "Nico",
-        "INSTAGRAM": "Instagram",
-        "SNAPCHAT": "Snapchat",
-        "EMAIL": "Sähköposti",
-        "PHONE": "Puhelinnumero",
-        "YOUTUBE": "YouTube",
-        "MASTODON": "Mastodon"
-    },
-    "navbar": {
-        "login": {
-            "title": "Kirjaudu sisään",
-            "discord": "Kirjaudu sisään Discordilla",
-            "twitch": "Kirjaudu sisään Twitchillä",
-            "twitter": "Kirjaudu sisään Twitterillä",
-            "disclaimer": "Varoitus: jos sinulla on jo profiili Oengusissa, varmista että kirjaudut ulkoisella tilillä, joka on jo liitettynä profiiliisi, mutten luodaan uusi profiili",
-            "mastodon": "Kirjaudu Mastodonilla",
-            "google": "Kirjaudu Googlella",
-            "password": "Kirjaudu käyttäjätunnuksella ja salasanalla"
-        },
-        "about": "Tietoja",
-        "discord": "Liity viralliselle Discord-palvelimelle",
-        "logout": "Kirjaudu ulos",
-        "settings": "Asetukset",
-        "twitter": "Seuraa meitä Twitterissä",
-        "donate": "Lahjoita",
-        "bugtracker": "Raportoi bugeja ja tee ehdotuksia",
-        "translate": "Auta kääntämään tätä sivustoa",
-        "privacyConsent": "Painamalla hyväksy, hyväksyt että Oengus käyttää evästeitä liikenteen analytiikkaa varten. Voit lukea meidän käyttäjäehdot tietoja-sivulta.",
-        "profile": "Minun profiilini",
-        "patrons": "Meidän Patronit",
-        "sourceCode": "Lähdekoodi",
-        "createMarathon": "Uusi tapahtuma",
-        "mastodon": "Seuraa meitä Mastodonissa",
-        "displayNameNotification": "Hei! Sinulla ei ole näyttönimeä valittuna profiilissasi. Mene asetuksiin asettaaksesi näyttönimesi!"
+    "incentives": {
+      "delete": {
+        "success": "Kannuste poistettu",
+        "error": "Kannusteen poistossa tapahtui virhe. Ole hyvä ja yritä uudelleen, tai ota yhteyttä ylläpitoon."
+      },
+      "save": {
+        "success": "Kannusteet tallennettu.",
+        "error": "Kannusteen tallentamisessa tapahtui virhe. Ole hyvä ja yritä uudelleen, tai ota yhteyttä ylläpitoon."
+      }
     },
     "user": {
-        "profile": {
-            "filter": {
-                "temporality": {
-                    "title": "Väliaikaisuus",
-                    "FUTURE": "Tulevat tapahtumat",
-                    "PAST": "Menneet tapahtumat"
-                },
-                "status": {
-                    "title": "Tila"
-                }
-            },
-            "activate": "Aktivoi käyttäjä",
-            "deactivate": "Deaktivoi käyttäjä",
-            "speak": "Puhutut kielet:",
-            "ban": "Estä käyttäjä",
-            "unban": "Poista käyttäjän esto",
-            "moderator": "Ylläpidetyt tapahtumat",
-            "submissions": "Ilmoittautumishistoria"
-        },
-        "settings": {
-            "email": {
-                "error": {
-                    "email": "Sähköpostiosoite on virheellinen",
-                    "required": "Sähköpostiosoite vaaditaan"
-                },
-                "label": "Sähköpostiosoite",
-                "help": "Sinun sähköpostiosoitetetta käytetään hakeakseen profiilikuvaasi <a href=\"https://gravatar.com/\" target=\"_blank\">Gravatar-palvelusta</a> ja toimii ainoastaan jos sen ikäluokitus on PG tai alempi."
-            },
-            "new": {
-                "beforeWeStart": "Ennen kuin aloitamme…",
-                "description": "Tarvitsemme sinusta lisätietoja. Voisitko nopeasti täydentää tiedot."
-            },
-            "deactivateAccount": {
-                "title": "Poista tili käytöstä tai poista tili pysyvästi",
-                "action": "Poista tili käytöstä",
-                "confirmText": "Oletko varma, että haluat poistaa tilin käytöstä? Varmistaaksesi, kirjoita käyttäjänimesi ja paina \"Varmista\"",
-                "description": "Tilin deaktivointi estää sinua kirjautumasta sisään ja ylläpitäjät eivät voi lisätä sinua modetaattoriksi tai pelaajaksi. Kaikki tieto säilytetään, mutta sosiaalisen median tilisi ei näy, mutta ovat edelleen kytkettynä tiliisi. Jos haluat käyttää tiliäsi uudestaan ota yhteys ylläpitäjään."
-            },
-            "srcom": {
-                "error": {
-                    "max": "Speerun.com käyttäjänimi on liian pitkä",
-                    "pattern": "Speerun.com käyttäjänimi on väärin"
-                }
-            },
-            "connections": {
-                "visibility": "Julkisesti näkyvillä",
-                "select_platform": "Valitse alusta",
-                "title": "Kytkennät",
-                "subtitle": "Nämä sosiaalisen median kytkennät ovat julkisesti näkyvillä profiilissassi.",
-                "username": "Käyttäjänimi tai vastaava"
-            },
-            "pronouns": {
-                "title": "Pronominit",
-                "no_results": "Pronomineja ei löydy",
-                "help": "Pronomini-tieto tulee <a href=\"https://en.pronouns.page/\" target=\"_blank\">pronouns.page</a>-sivulta. Jos haluat tietää lisää, käy heidän sivulla",
-                "hint": "Etsi pronomi, esimerkiksi: they/them"
-            },
-            "language": {
-                "label": "Kielet, joita puhut",
-                "placeholder": "Kirjoita valitaaksesi kieli",
-                "no_results": "Ei kieliä löydetty"
-            },
-            "username": {
-                "error": {
-                    "min": "Käyttäjänimi on liian lyhyt, pituuden on oltava vähintään kolme merkkiä",
-                    "required": "Käyttäjänimi vaaditaan",
-                    "max": "Käyttäjänimi on liian pitkä, maksimipituus on 32 merkkiä",
-                    "pattern": "Käyttäjänimi koostuu pienistä kirjaimista, numeroista, sekä merkeistä _ ja -",
-                    "exists": "Käyttäjänimi on jo olemassa. Käytä jotain muuta tai varmista ettei sinulla ole jo profiilia jonkun toisen palvelun kautta (esim. Twitch tai Discord)"
-                },
-                "label": "Käyttäjänimi"
-            },
-            "usernameJapanese": {
-                "label": "Käyttäjänimi (Japaniksi)",
-                "error": {
-                    "pattern": "Japanilainen käyttäjänimi on väärin",
-                    "max": "Japanilianen käyttäjänimi on liian pitkä, maksimipituus on 32 merkkiä.",
-                    "exists": "Käyttäjänimi on jo olemassa."
-                },
-                "help": "Jos käyttäjänimesi kääntyy japaniksi, voit käyttää tätä tietuetta näkyäksesi japanilaisilla kirjaimilla. Se näkyy ainoastaan jos alue on valittu japaniksi. Tämä tietue on valinnainen."
-            },
-            "general": "Yleiset tiedot",
-            "twitch": {
-                "error": {
-                    "pattern": "Twitch-nimi on väärin",
-                    "max": "Twitch-nimi on liian pitkä"
-                },
-                "disabled": {
-                    "help": "Tämä tietue on pois käytöstä, koska olet synkronisoinun Twitch-tilisi. Jos Twitch-nimesi on muuttunut, synkronisoi se uudestaan päivittääksesi."
-                }
-            },
-            "accountSync": {
-                "unsync": "Poista tili",
-                "error": {
-                    "noService": "Sinulla pitää olla vähintään yksi palvelu synkronisoituna tilisi kanssa"
-                },
-                "sync": "Synkronisoi tili",
-                "title": "Tilien synkronisointi",
-                "description": "Voit synkronisoida sosiaalisen median tilisi tässä. Sitten voit yhdistää Oengus-tilisi kaikkiin synkroinoituihin tileihin."
-            },
-            "discord": {
-                "disabled": {
-                    "help": "Tämä tietue on pois käytöstä, koska olet synkronisoinun Discord-tilisi. Jos Discord-nimesi on muuttunut, synkronisoi se uudestaan päivittääksesi."
-                }
-            },
-            "twitter": {
-                "disabled": {
-                    "help": "Tämä tietue on pois käytöstä, koska olet synkronisoinun Twitter-tilisi. Jos Twitter-nimesi on muuttunut, synkronisoi se uudestaan päivittääksesi."
-                },
-                "error": {
-                    "max": "Twitter-nimi on liian pitkä",
-                    "pattern": "Twitter-nimi on väärin"
-                }
-            },
-            "deletingAccount": {
-                "success": "Tili on nyt poistettu",
-                "btnDelete": "Poista tili :(",
-                "title": "VAROITUS!",
-                "body": [
-                    "Olet poistamassa Oengus-tiliäsi.",
-                    "Tätä toimintoa ei voida peruuttaa!",
-                    "Kirjoita käyttäjänimesi tähän laatikkoon varmistaaksesi, että haluat poistaa tilisi."
-                ],
-                "btnCancel": "Peruuta :)",
-                "settingsDeleteBtn": "Poista tili"
-            },
-            "title": "Muokkaa profiiliani",
-            "displayName": {
-                "error": {
-                    "max": "Näyttönimi on liian pitkä, maksimipituus on 32 merkkiä.",
-                    "min": "Näyttönimi on liian lyhyt, vähintään yksi merkki vaaditaan"
-                },
-                "help": "Jos käytät jotain nimimerkkiä tai haluat jonkin muun nimen näkyvän, joka ei ole käyttäjänimesi, voit asettaa sen tässä.",
-                "label": "Näyttönimi"
-            },
-            "profilePicture": {
-                "button": "Aseta profiilikuva",
-                "label": "Profiilikuva"
-            }
-        }
+      "update": {
+        "success": "Käyttäjätiedot päivitetty",
+        "error": "Virhe käyttäjätietojen päivityksessä"
+      },
+      "sync": {
+        "error": "Synkronoinnin aikana tapahtui virhe. Normaalista tämä johtuu mainoksen estäjästä. Ole hyvä ja yritä uudelleen, sen jälkeen kun olet poistanut liitännäiset käyttöstä . Jos olet yrittänyt selaimella ilman liitännäisiä ja edelleen saat virheilmoituksen kysy apua Opengusin Discord-palvelemilelta #bug-kanavalta.",
+        "alreadySynced": "Virhe: Tämä tunnus on jo käytössä"
+      },
+      "login": {
+        "error": "Todennuksen aikana tapahtui virhe. Ole hyvä ja yritä uudelleen, tai ota yhteyttä ylläpitoon.",
+        "disabledAccount": "Käyttäjätunnuksesi on suljettu. Jos haluat sen takaisin, ota yhteyttä ylläpitoon.",
+        "usernameExists": "Käyttäjänimi jolla yrität kirjautua on jo käytössä. Ole hyvä ja varmista, ettet ole luonut aiemmin Oengus käyttäjää toisella kirjautumistavalla. Jos luulet tämän olevan virhe, ota yhteyttä ylläpitoon."
+      },
+      "deactivate": {
+        "success": "Käyttäjätunnuksesi on suljettu"
+      }
     },
-    "country": {
-        "AG": "Antigua ja Barbuda",
-        "TD": "Tšad",
-        "VA": "Vatikaani",
-        "VC": "Saint Vincent ja Grenadiinit",
-        "ZA": "Etelä-Afrikka",
-        "ZM": "Zambia",
-        "YT": "Mayotte",
-        "RU": "Venäjä",
-        "HR": "Kroatia",
-        "GY": "Guyana",
-        "HT": "Haiti",
-        "HM": "Heard ja McDonaldinsaaret",
-        "HN": "Honduras",
-        "HK": "Hong Kong",
-        "HU": "Unkari",
-        "KP": "Korean demokraattinen kansantasavalta",
-        "KR": "Korean tasavalta",
-        "RO": "Romania",
-        "RS": "Serbia",
-        "TW": "Taiwan (Kiinan tasavalta)",
-        "AL": "Albania",
-        "AS": "Amerikan Samoa",
-        "GF": "Ranskan Guayana",
-        "GG": "Guernsey",
-        "KH": "Kambodža",
-        "LA": "Laos",
-        "LB": "Libanon",
-        "LY": "Libya",
-        "SJ": "Huippuvuoret ja Jan Mayen",
-        "MW": "Malawi",
-        "SK": "Slovakia",
-        "SI": "Slovenia",
-        "WS": "Samoa",
-        "VU": "Vauatu",
-        "AX": "Ahvenanmaa",
-        "BB": "Barbados",
-        "BE": "Belgia",
-        "AF": "Afganistan",
-        "DZ": "Algeria",
-        "EG": "Egypti",
-        "ER": "Eritrea",
-        "ET": "Etiopia",
-        "GA": "Gabon",
-        "GQ": "Päiväntasaajan Guinea",
-        "IO": "Brittiläinen Intian valtameren alue",
-        "PF": "Ranskan Polynesia",
-        "PW": "Palau",
-        "SV": "El Salvador",
-        "PS": "Palestiina",
-        "PY": "Paraguay",
-        "QA": "Qatar",
-        "RE": "Réunion",
-        "FK": "Falklandinsaaret",
-        "FO": "Färsaaret",
-        "FJ": "Fiji",
-        "FI": "Suomi",
-        "FR": "Ranska",
-        "TF": "Ranskan eteläiset alueet",
-        "FM": "Mikronesia",
-        "MD": "Moldova",
-        "MC": "Monaco",
-        "MN": "Mongolia",
-        "ME": "Montenegro",
-        "MS": "Montserrat",
-        "MM": "Myanmar",
-        "NR": "Nauru",
-        "TK": "Tokelau",
-        "TJ": "Tadžikistan",
-        "TZ": "Tansania",
-        "TH": "Thaimaa",
-        "TL": "Itä-Timor",
-        "TG": "Togo",
-        "PK": "Pakistan",
-        "KZ": "Kazakstan",
-        "PA": "Panama",
-        "TR": "Turkki",
-        "ZW": "Zimbabwe",
-        "TO": "Tonga",
-        "TT": "Trinidad ja Tobago",
-        "TN": "Tunisia",
-        "AM": "Armenia",
-        "AW": "Aruba",
-        "AU": "Australia",
-        "AT": "Itävalta",
-        "AZ": "Azerbaidžan",
-        "BS": "Bahama",
-        "BH": "Bahrain",
-        "BD": "Bangladesh",
-        "BY": "Valkovenäjä",
-        "BZ": "Belize",
-        "BJ": "Benin",
-        "BM": "Bermuda",
-        "BT": "Bhutan",
-        "AO": "Angola",
-        "AI": "Anguilla",
-        "AR": "Argentiina",
-        "BQ": "Bonaire",
-        "BA": "Bosnia ja Herzegovina",
-        "BR": "Brasilia",
-        "BN": "Brunei",
-        "BG": "Bulgaria",
-        "BF": "Burkina Faso",
-        "BI": "Burundi",
-        "CV": "Kap Verde",
-        "CM": "Kamerun",
-        "CA": "Kanada",
-        "KY": "Caymansaaret",
-        "CF": "Keski-Afrikan tasavalta",
-        "CL": "Chile",
-        "CN": "Kiina",
-        "CX": "Joulusaari",
-        "CC": "Kookossaaret",
-        "CO": "Kolumbia",
-        "KM": "Komorit",
-        "CG": "Kongo",
-        "CD": "Kongon demokraattinen tasavalta",
-        "CK": "Cookinsaaret",
-        "CR": "Costa Rica",
-        "CI": "Norsunluurannikko",
-        "CW": "Curaçao",
-        "CY": "Kypros",
-        "DM": "Dominica",
-        "DO": "Dominikaaninen tasavalta",
-        "EC": "Ecuador",
-        "EE": "Viro",
-        "GM": "Gambia",
-        "GE": "Georgia",
-        "DE": "Saksa",
-        "GH": "Ghana",
-        "GR": "Kreikka",
-        "GD": "Grenada",
-        "GP": "Guadeloupe",
-        "GN": "Guinea",
-        "GW": "Guinea-Bissau",
-        "IS": "Islanti",
-        "IE": "Irlanti",
-        "IM": "Mansaari",
-        "IL": "Israel",
-        "IT": "Italia",
-        "JM": "Jamaika",
-        "JP": "Japani",
-        "JE": "Jersey",
-        "JO": "Jordania",
-        "KE": "Kenia",
-        "KI": "Kiribati",
-        "KW": "Kuwait",
-        "KG": "Kirgisia",
-        "LV": "Latvia",
-        "LS": "Lesotho",
-        "LR": "Liberia",
-        "LT": "Liettua",
-        "LU": "Luxemburg",
-        "MG": "Madagaskar",
-        "MY": "Malesia",
-        "MV": "Malediivit",
-        "ML": "Mali",
-        "MT": "Malta",
-        "MH": "Marshallinsaaret",
-        "MQ": "Martinique",
-        "MO": "Macao",
-        "LI": "Liechtenstein",
-        "MX": "Meksiko",
-        "MA": "Marokko",
-        "MZ": "Mozambik",
-        "NA": "Namibia",
-        "NP": "Nepal",
-        "NL": "Alankomaat",
-        "NC": "Uusi-Kaledonia",
-        "NZ": "Uusi-Seelanti",
-        "NI": "Nicaragua",
-        "NU": "Niue",
-        "NF": "Norfolkinsaari",
-        "MK": "Pohjois-Makedonia",
-        "MP": "Pohjois-Mariaanit",
-        "NO": "Norja",
-        "OM": "Oman",
-        "PG": "Papua-Uusi-Guinea",
-        "PE": "Peru",
-        "PN": "Pitcairnsaaret",
-        "BL": "Saint-Barthélemy",
-        "KN": "Saint Kitts ja Nevis",
-        "MF": "Saint-Martin",
-        "PM": "Saint-Pierre ja Miquelon",
-        "SM": "San Marino",
-        "SN": "Senegal",
-        "SC": "Seychellit",
-        "SX": "Sint Maarten (Alankomaat)",
-        "GS": "Etelä-Georgia ja Eteläiset Sandwichsaaret",
-        "SS": "Etelä-Sudan",
-        "SR": "Suriname",
-        "SE": "Ruotsi",
-        "CH": "Sveitsi",
-        "TM": "Turkmenistan",
-        "TC": "Turks- ja Caicossaaret",
-        "TV": "Tuvalu",
-        "UG": "Uganda",
-        "AE": "Yhdistyneet Arabiemiirikunnat",
-        "US": "Yhdysvallat",
-        "UM": "Yhdysvaltain pienet erillissaaret",
-        "VE": "Venezuela",
-        "VN": "Vietnam",
-        "VG": "Brittiläiset Neitsytsaaret",
-        "WF": "Wallis ja Futuna",
-        "EH": "Länsi-Sahara",
-        "CU": "Kuuba",
-        "SZ": "Swazimaa",
-        "GT": "Guatemala",
-        "ID": "Indonesia",
-        "IQ": "Irak",
-        "GL": "Grönlanti",
-        "AD": "Andorra",
-        "BO": "Bolivia",
-        "BW": "Botswana",
-        "BV": "Bouvet’nsaari",
-        "AQ": "Etelämanner",
-        "DK": "Tanska",
-        "DJ": "Djibouti",
-        "CZ": "Tsekki",
-        "GI": "Gibraltar",
-        "GU": "Guam",
-        "IN": "Intia",
-        "IR": "Iran",
-        "MR": "Mauritania",
-        "PH": "Filippiinit",
-        "RW": "Ruanda",
-        "LC": "Saint Lucia",
-        "SG": "Singapore",
-        "SD": "Sudan",
-        "GB": "Yhdistynyt kuningaskunta",
-        "MU": "Mauritius",
-        "NE": "Niger",
-        "NG": "Nigeria",
-        "PT": "Portugali",
-        "SH": "Saint Helena, Ascension ja Tristan da Cunha",
-        "SB": "Solomonsaaret",
-        "LK": "Sri Lanka",
-        "SY": "Syyria",
-        "UA": "Ukraina",
-        "PL": "Puola",
-        "PR": "Puerto Rico",
-        "ST": "Sao Tome ja Principe",
-        "SA": "Saudi-Arabia",
-        "SL": "Sierra Leone",
-        "SO": "Somalia",
-        "ES": "Espanja",
-        "UZ": "Uzbekistan",
-        "VI": "Yhdysvaltain Neitsytsaaret",
-        "YE": "Jemen",
-        "UY": "Uruguay"
+    "submission": {
+      "deletion": {
+        "success": "Ilmoittautuminen poistettu onnistuneesti",
+        "error": "Ilmoittautumisen poistossa tapahtui virhe. Ole hyvä ja yritä uudelleen, tai ota yhteyttä ylläpitoon."
+      },
+      "save": {
+        "success": "Ilmoittautuminen lähetetty",
+        "error": "Virhe ilmoittautumisessa"
+      },
+      "cache": "Saattaa kestää jopa 30 minuuttia, jotta ilmoittautumisesi näkyy täasä listassa"
     },
-    "errors": {
-        "404": {
-            "title2": "Menet hieman liian nopeaa, kaveri",
-            "title0": "Maailmanennätyksesi on hylätty",
-            "title1": "Rauhoitu vähän, olet liian nopea",
-            "title3": "Se mitä etsit ei ole täällä",
-            "title4": "Se ei ole bugi, se on ominaisuus",
-            "body": "Tämä sivu <em>{{path}}</em> ei löytynyt Anguksesta"
-        },
-        "format": {
-            "url": "Tämä ei ole käypä osoite"
-        },
-        "403": {
-            "title": "Oikeudet puuttuvat",
-            "subtitle": "Sinun pitää olla kirjautuneena nähdäksesi tämän sivun!"
-        }
+    "selection": {
+      "save": {
+        "success": "Valinta tallennettu",
+        "error": "Virhe valintojen tallennuksessa"
+      }
     },
-    "patrons": {
-        "par1": "Kiitos meidän patroneille, että pidätte Oengus.iota päällä ja toiminnassa",
-        "title": "Meidän patronit",
-        "par2": "Nämä henkilöt ja tahot ovat lahjoittaneet meidän <a href=\"https://www.patreon.com/oengusio\" target=\"_blank\">Patreon-kampajnaan</a> ja auttavat pitää sitä ilmaisena kaikille.",
-        "noPatrons": "Ei ole ketään tässä, miksi et <a href=\"https://www.patreon.com/oengusio\" target=\"_blank\">olisi ensimmäinen</a>?"
+    "schedule": {
+      "save": {
+        "success": "Aikataulu tallennettu",
+        "error": "Virhe aikataulun tallennuksessa"
+      },
+      "export": {
+        "error": "Viennissä tapahtui virhe. Ole hyvä ja yritä uudelleen, tai ota yhteyttä ylläpitoon."
+      }
     },
-    "news": {
-        "title": "Uutiset"
+    "marathon": {
+      "update": {
+        "success": "Tapahtuma päivitetty",
+        "error": "Virhe tapahtuman päivityksessä"
+      },
+      "deletion": {
+        "success": "Tapahtuma poistettu",
+        "error": "Virhe tapahtuman poistossa"
+      },
+      "creation": {
+        "success": "Tapahtuma luotu",
+        "error": "Tapahtuman luonnissa tapahtui virhe"
+      }
     },
-    "announcements": {
-        "twitterRemoval": "Hei siellä, me poistetaan twitter-kirjautuminen käytöstä. Varmista, että sinulla on Twitch- tai Discord-tili linkitettynä Oengus-tililla, että pääset jatkossa sisälle."
+    "game": {
+      "export": {
+        "error": "Viennissä tapahtui virhe. Ole hyvä ja yritä uudelleen, tai ota yhteyttä ylläpitoon."
+      },
+      "deletion": {
+        "success": "Peli poistettu",
+        "error": "Pelin poistossa tapahtui virhe. Yritä uudelleen tai ota yhteyttä ylläpitoon."
+      }
     }
+  },
+  "action": {
+    "sendTweet": "Lähetä twiitti",
+    "save": "Tallenna",
+    "confirm": "Varmista",
+    "cancel": "Peruuta",
+    "accept": "Hyväksy",
+    "join": "Liity",
+    "decline": "Peru",
+    "submit": "Ilmoita",
+    "clearAvailabilities": "Tyhjennä valitut saatavuudet"
+  },
+  "marathon": {
+    "submit": {
+      "submissions": "Ilmoittautumiset",
+      "game": {
+        "console": {
+          "label": "Konsoli",
+          "emulated": "Emuloitu",
+          "emulatorNotAllowed": "Emulaattorit eivät ole sallittuja tässä tapahtumassa"
+        },
+        "description": {
+          "label": "Pelin Kuvaus",
+          "help": "Kuvaile peliä ja pelin edistymistä yleisesti",
+          "error": {
+            "required": "Pelin kuvaus vaaditaan"
+          }
+        },
+        "name": {
+          "label": "Peli",
+          "error": {
+            "required": "Peli vaaditaan"
+          }
+        },
+        "ratio": {
+          "error": {
+            "required": "Kuvasuhde vaaditaan"
+          },
+          "label": "Kuvasuhde tai resoluutio (16:9, 4:3, 1920x1080…)"
+        }
+      },
+      "category": {
+        "type": {
+          "label": "Tyyppi"
+        },
+        "opponent": {
+          "with": "Kanssa:"
+        },
+        "estimate": {
+          "label": "Aika-arvio",
+          "error": {
+            "pattern": "Arvio on väärin. Sen tulee olla formaatissa (TT)(T):MM:SS",
+            "required": "Arvio vaaditaan",
+            "min": "Arvio on väärin. Sen pitää olla yli 0 sekuntia"
+          },
+          "hint": "Kun lisäät arvion, älä lisää parasta aikaasi tai pelinsisäistä aikaa. Oengus suosittelee, että lisäät vähintään 10 minuuttia omaan parhaaseen reaaliaikaan, jotta mahdolliset virheet ja aika, joka käytetään suoritusta ennen ja sen jälkeen, otetaan huomioon."
+        },
+        "video": {
+          "error": {
+            "required": "Linkki videoon vaaditaan"
+          },
+          "label": "Linkki videoon"
+        },
+        "code": {
+          "help": {
+            "withCode": "Anna seuraava koodi muille pelaajille, jotta he voivat liittyä ilmoittamasi peliin:",
+            "noCode": "Sinulle annetaan koodi, jonka voit jakaa toisille pelaajille kun olet tallentanut ilmoittautumisesi"
+          }
+        },
+        "name": {
+          "label": "Kategoria",
+          "error": {
+            "required": "Kategorian nimi vaaditaan"
+          }
+        },
+        "description": {
+          "error": {
+            "required": "Kategorian kuvaus vaaditaan"
+          },
+          "label": "Kategorian kuvaus",
+          "help": "Anna kuvaus tästä kategoriasta"
+        }
+      },
+      "availabilities": {
+        "to": "Mihin",
+        "label": "Saatavuus",
+        "from": "Mistä",
+        "actions": "Toiminnot",
+        "error": {
+          "required": "Sinun täytyy lisätä yksi tai enemmän saatavuusajanjaksoa",
+          "dateRequired": "Päivämäärä vaaditaan",
+          "toDateTooLittle": "Saatavuus tulee olla vähintään minuutin pituinen."
+        },
+        "add": "Lisää saatavuus",
+        "duplicate": "Kopio seuraavalle päivälle"
+      },
+      "action": {
+        "removeGame": "Poista peli",
+        "addCategory": "Lisää kategoria"
+      },
+      "maxGamesPerRunner": "Maksimimäärä kategorioita per pelaaja",
+      "requirements": {
+        "discord": {
+          "title": "Odota!",
+          "lead": "Tämä tapahtuma vaatii sinua olemaan niiden Discord-palvelemimella, jotta voit lisätä pelin",
+          "par1": "Paina \"Tarkista\" varmistaaksesi että olet tapahtuman Discord-palvelimella.",
+          "syncNotice": [
+            "TÄRKEÄÄ: ennen kuin teet tämän tarkastuksen, sinun tulee synkronisoida Discordin kanssa sinun",
+            "käyttäjän asetukset",
+            "."
+          ],
+          "check": "Tarkista!",
+          "back": "Palaa",
+          "par2": "Et voi ilmoittautua, mikäli et ole Discord-palvelimella.",
+          "errors": {
+            "userMissing": "Liity tapahtuman Discord-palvelimelle <a href=\"{{invite}}\" target=\"_blank\">{{invite}}</a>",
+            "botMissing": "Pyydä tapahtuman ylläpitäjiä liittämään Oengusin Discord-botti"
+          }
+        }
+      },
+      "multiplayer": {
+        "code": {
+          "help": "Lisää koodi liittyäksesi moninpeliehdotukseen"
+        },
+        "title": "Moninpelikategoriat"
+      },
+      "racesAllowed": "Kisat/moninpeli sallittu",
+      "delete": {
+        "action": "Poista ilmoittautuminen"
+      },
+      "submitsClosed": "Ilmoittautumiset ovat kiinni. Voit päivittää saatavuutesi siihen asti, että aikataulu on julkaistu.",
+      "table": {
+        "actions": "Toiminnot",
+        "runners": "Runaajat",
+        "games": "Pelit",
+        "categories": "Kategoriat"
+      },
+      "customField": {
+        "error": {
+          "required": "Tietue vaaditaan"
+        }
+      },
+      "dangerZone": "Vaaranvyöhyke",
+      "maxCategoriesPerGame": "Maksimimäärä kategorioita per peli",
+      "title": "Ilmoita pelit",
+      "tweet": {
+        "submit": "Minä ilmoitin {{games}} {{marathon}}-tapahtumaan"
+      },
+      "maxNumberOfScreens": "Maksimimäärä pelaajia per peli/moninpeli",
+      "details": "Yksityiskohdat"
+    },
+    "submissions": {
+      "title": "Ilmoittautumiset",
+      "tabs": {
+        "submissions": "Ilmoittautumiset",
+        "answers": "Vastaukset"
+      },
+      "table": {
+        "runner": "Pelaaja",
+        "ratio": "Kuvasuhde/resoluutio",
+        "question": "Kysymys",
+        "game": "Peli",
+        "estimate": "Aika-arvio",
+        "date": "Päivämäärä",
+        "console": "Konsoli",
+        "category": "Kategoria",
+        "answer": "Vastaus",
+        "categoryDescription": "Kategorian kuvaus",
+        "status": "Tila",
+        "type": "Tyyppi",
+        "gameDescription": "Pelin kuvaus",
+        "actions": "Toiminnot",
+        "marathon": "Maratoni"
+      },
+      "category": {
+        "delete": "Poista kategoria"
+      },
+      "filter": "Suodata käyttäjiä ja pelejä",
+      "export": "Vie CSV-tiedostona",
+      "game": {
+        "delete": "Poista peli. Tämä myös poistaa kategoriat."
+      },
+      "submission": {
+        "delete": "Poista ilmoittautuminen. Tämä myös poistaa kaikki tämän käyttäjän pelit."
+      }
+    },
+    "settings": {
+      "type": {
+        "online": "Online",
+        "label": "Tapahtuman tyyppi",
+        "onsite": "Paikan päällä"
+      },
+      "tabs": {
+        "submissions": "Ilmoittautumiset",
+        "incentives": "Kannusteet",
+        "general": "Yleinen",
+        "dangerZone": "Vaaranvyöhyke",
+        "discord": "Discord"
+      },
+      "submissions": {
+        "label": "Ilmoittautumiset",
+        "closed": "Ilmoittautumiset ovat kiinni",
+        "open": "Ilmoittautumiset ovat auki"
+      },
+      "privacy": {
+        "public": "Julkinen",
+        "private": "Yksityinen",
+        "label": "Tapahtuman yksityisyys",
+        "help": "Yksityiset tapahtumat toimivat kuten kaikki muut tapahtumat, mutta ne eivät näy kotisivulla. Tapahtuma näkyy ainoastaan linkillä."
+      },
+      "payee": {
+        "label": "Maksunsaaja",
+        "error": {
+          "max": "Vastaanottajan nimi on liian pitkä",
+          "required": "Vastaanottaja vaaditaan",
+          "email": "Vastaanottaja pitää olla sähköpostiosoite"
+        },
+        "help": "Vastaanottajan tulee olla sähköpostiosoite, johon on liitetty PayPal-tili"
+      },
+      "name": {
+        "label": "Nimi",
+        "error": {
+          "max": "Tapahtuman nimi on liian pitkä",
+          "min": "Tapahtuman nimi on liian lyhyt",
+          "pattern": "Tapahtuman nimi on väärin",
+          "required": "Tapahtuman nimi vaaditaan"
+        }
+      },
+      "multiplayer": {
+        "label": "Moninpeli",
+        "allowed": "Kisat/co-op pelit ovat sallittuja",
+        "forbidden": "Kisat/co-op pelit ovat kielettyjä"
+      },
+      "moderators": {
+        "label": "Moderaattorit"
+      },
+      "marathonDescription": {
+        "label": "Kuvaus",
+        "help": "Merkintäkieli tuettu"
+      },
+      "location": {
+        "label": "Sijainti"
+      },
+      "language": {
+        "label": "Kieli"
+      },
+      "emulatorAuthorized": {
+        "label": "Emulaattorit",
+        "allowed": "Emulaattorit ovat sallittuja"
+      },
+      "customFields": {
+        "type": {
+          "option": {
+            "text": "Teksti",
+            "checkbox": "Valintaruutu",
+            "freetext": "Vapaa teksti",
+            "select": "Valitse",
+            "textArea": "Tekstialue"
+          }
+        },
+        "required": {
+          "title": "Vaaditaan"
+        },
+        "action": {
+          "title": "Toimenpide"
+        },
+        "label": {
+          "title": "Otsikko",
+          "error": {
+            "required": "Otsikko vaaditaan"
+          },
+          "type": "Tyyppi"
+        },
+        "title": "Mukautetut tietueet",
+        "option": {
+          "error": {
+            "required": "Vaihtoehdon nimi vaaditaan"
+          }
+        },
+        "description1": "Voit lisätä mukautettuja tietueita, jotta voit vapaasti kysyä tietoja pelaajaltasi. He voivat vastata näihin ilmoittautuessa. On suositeltavaa olla lisäämättä näitä ilmoittaumisen alkamisen jälkeen, jotta kaikki huomaavat vastata.",
+        "description2": "Vihje: yksinkertaiset tekstitietueet ovat rajattuna 50:een merkkiin. Tekstilaatikkojen vastausten raja on 500 merkkiä.",
+        "add": "Lisää uusi mukautettu tietue"
+      },
+      "maxGamesPerRunner": {
+        "error": {
+          "min": "Maksimimäärä pelejä per pelaajan tulee olla positiivinen",
+          "required": "Maksimimäärä pelejä per pelaaja vaaditaan"
+        },
+        "label": "Maksimimäärä pelejä per pelaaja"
+      },
+      "endDate": {
+        "label": "Arvioitu päättymispäivä",
+        "error": {
+          "required": "Arvioitu päättymispäivä vaaditaan"
+        }
+      },
+      "generalTitle": "Yleiset asetukset",
+      "incentives": {
+        "hasIncentives": "Tällä tapahtumalla on kannusteita",
+        "label": "Kannustimien tila",
+        "disabledNotification": "Kannusteet ovat tällä hetkellä poissa käytöstä, koska ne olivat epätarkkoja ja ei ollut mahdollisuutta sensuroida niitä. Ei ole olemassa aikataulua tämän ominaisuuden paluulle, mutta kerromme jos se palaa."
+      },
+      "maxCategoriesPerGame": {
+        "error": {
+          "max": "Maksimimäärä kategorioita per peli on liian suuri",
+          "required": "Maksimimäärä kategorioita vaaditaan",
+          "min": "Maksimimäärä kategorioita per peli tulee olla positiivinen"
+        },
+        "label": "Maksimimäärä kategorioita per peli"
+      },
+      "discordRequirement": {
+        "required": "Vaadi käyttäjääsi olemaan sinun Discord-palvelimella",
+        "help": {
+          "1": "Oengus-botti on Discord-palvelimellasi. Kutsulinkki:",
+          "2": "Discord-kutsusi on täytetty ja on oikein.",
+          "3": "Discord-palvelin on julkinen.",
+          "title": "Tämä ominaisuus voidaan käyttää vain kun seuraavat ehdot täyttyvät:"
+        },
+        "label": "Discord-vaatimus",
+        "found": {
+          "name": "Palvelimen nimi: <em>{{guildName}}</em>",
+          "id": "Palvelimen ID: <em>{{guildId}}</em>",
+          "title": "Palvelinkutsu löydetty"
+        }
+      },
+      "webhook": {
+        "help": "Voit lisätä webhook-linkin saadaksesi tiedon uudesta pelistä tai lahjoituksesta. Ota yhteys ylläpitoon lisätietoja varten.",
+        "botNotice": "Tämä on Oengus-botti webhook-linkki. Tämä",
+        "error": {
+          "marathonParameter": "Vaadittu tapahtuman tieto puuttuu",
+          "max": "Webhook-linkki on liian pitkä",
+          "offline": "Webhook-linkkiä ei löydy, oletko varma, että tämä on oikea osoite?"
+        },
+        "label": "Webhook-linkki",
+        "announceAcceptedSubmissions": {
+          "title": "Julkista hyväksytyt pelit"
+        }
+      },
+      "donations": {
+        "label": "Lahjoitustuki",
+        "donationsOpen": "Lahjoitukset ovat auki",
+        "hasDonations": "Tämä on hyväntekeväisyystapahtuma"
+      },
+      "maxNumberOfScreens": {
+        "error": {
+          "min": "Maksimimäärä ruutuja tulee olla positiivinen",
+          "required": "Maksimimäärä ruutuja vaaditaan"
+        },
+        "label": "Maksimimäärä ruutuja per peli",
+        "help": "Jos sallit moninpelejä, voit rajoittaa näkyvien ruutujen määrää. Tällä valinnalla rajoitat kisan tai co-op pelin pelaajien määrää"
+      },
+      "unlimited": "Rajoittamaton",
+      "startDate": {
+        "label": "Aloituspäivä",
+        "error": {
+          "required": "Aloituspäivä vaaditaan"
+        }
+      },
+      "defaultSetupTime": {
+        "label": "Normaali valmisteluaika",
+        "error": {
+          "required": "Normaali valmisteluaika vaaditaan",
+          "pattern": "Normaali valmisteluaika on väärin, sen pitää olla (HH)H:MM:SS"
+        }
+      },
+      "delete": {
+        "action": "Poista tapahtuma",
+        "confirmText": "Oletko varma, että haluat poistaa tapahtuman? Vahvistaaksesi, kirjoita tapahtuman lyhyt nimi ja paina vahvista"
+      },
+      "dangerZone": "Vaaranvyöhyke",
+      "description": "Täällä voit päivittää tapahtumasi asetukset",
+      "discord": {
+        "error": {
+          "pattern": "Discord-linkki on väärin"
+        }
+      },
+      "shortname": {
+        "error": {
+          "exists": "Tapahtuman lyhytnimi on jo olemassa",
+          "min": "Tapahtuman lyhytnimi on liian lyhyt",
+          "max": "Tapahtuman lyhytnimi on liian pitkä",
+          "pattern": "Tapahtuman lyhytnimi on väärin",
+          "required": "Tapahtuman lyhytnimi vaaditaan"
+        },
+        "label": "Tapahtuman lyhytnimi",
+        "shorturl": "Lyhyt linkki"
+      },
+      "submissionsEndDate": {
+        "error": {
+          "required": "Ilmoittautumisten päättymispäivä täytyy valita, mikäli aloituspäivä on valittuna"
+        },
+        "label": "Ilmoittautumisten päättymispäivä"
+      },
+      "twitter": {
+        "error": {
+          "pattern": "Twitter-nimi on mväärin",
+          "max": "Twitter-nimi on liian pitkä"
+        }
+      },
+      "videoRequired": {
+        "label": "Videovaatimus",
+        "allowed": "Video vaaditaan"
+      },
+      "youtube": {
+        "error": {
+          "pattern": "Youtube-kanavan linkki on väärin"
+        },
+        "help": {
+          "url": "Täysi linkki vaaditaan"
+        }
+      },
+      "currencyIso": {
+        "help": "Valuuttakoodi pitää olla ISO-4217-muodossa PayPaliä varten ja sen pitää olla maksajan pääasiallinen valuutta",
+        "error": {
+          "max": "Valuuttakoodi on liian pitkä",
+          "required": "Valuuttakoodivalitaan"
+        },
+        "label": "Valuuttakoodi"
+      },
+      "discordPrivacy": {
+        "label": "Discord-palvelimen näkyvyys",
+        "private": "Discord on yksityinen",
+        "help": "Jos Discord-palvelin on yksityinen, linkkiä ei näytetä kotisivulla ja lähetetään valituille pelaajille sähköpostitse."
+      },
+      "incentivesTitle": "Kannusteasetukset",
+      "submissionsStartDate": {
+        "error": {
+          "required": "Ilmoittautumisten aloituspäivä tulee olla täytettynä, jos päättymispäivä on olemassa"
+        },
+        "label": "Ilmoittautumisten aloituspäivä"
+      },
+      "submissionsTitle": "Ilmoittautumisasetukset",
+      "supportedCharity": {
+        "error": {
+          "max": "Hyväntekeväisyys-järjestön nimi on liian pitkä",
+          "required": "Hyväntekeväisyysjärjestön nimi vaaditaan"
+        },
+        "label": "Tuettu hyväntekeväisyys"
+      },
+      "title": "Tapahtuman asetukset",
+      "twitch": {
+        "error": {
+          "max": "Twitch-nimi on liian pitkä",
+          "pattern": "Twitch-nimi on väärin"
+        }
+      },
+      "donationsOpen": {
+        "label": "Lahjoitussivu"
+      },
+      "sandbox": {
+        "warning": "Varoitus: Oengusin hiekkalaatikko toimii yhdessä PayPalin hiekkalaatikon kanssa. Käytä PayPalin hiekkalaatikko-osoitetta maksujen vastaanottajana, jotta (vale)lahjoitukset toimivat."
+      },
+      "country": {
+        "label": "Maa"
+      },
+      "mastodon": {
+        "error": {
+          "max": "Mastodon nimi on liian pitkä",
+          "pattern": "Mastodonin käyttäjätunnus ei vastaa muotoa 'käyttäjä@instanssi.tld'"
+        }
+      }
+    },
+    "selection": {
+      "status": {
+        "VALIDATED": "Hyväksytty",
+        "REJECTED": "Hylätty",
+        "BONUS": "Bonus",
+        "BACKUP": "Varalla",
+        "TODO": "Valintaa vailla",
+        "ALL": "Kaikki"
+      },
+      "statistics": {
+        "title": "Tilastot",
+        "table": {
+          "totalTimeValidated": "Valittujen pelien yhteisaika (vakio valmisteluaika sisäänluettuna)",
+          "averageEstimate": "Keskimääräinen odote",
+          "numberOfRunners": "Pelaajien määrä",
+          "numberOfRuns": "Pelien määrä",
+          "totalTime": "Aika yhteensä",
+          "defaultSetupTime": "Vakio valmisteluaika",
+          "marathonLength": "Tapahtuman pituus"
+        }
+      },
+      "action": {
+        "publish": "Julkaise valinnat",
+        "decline": "Hylkää \"TODO\""
+      },
+      "selection": {
+        "title": "Valinta"
+      },
+      "availabilities": {
+        "help": "Paina kalenteri-painiketta näyttääksesi tai piilotaaaksesi niiden käytettävyyden."
+      },
+      "help": {
+        "BACKUP": "Varalla olevat pelit eivät sisälly valittujen pelien listaan aikataulussa. Jos haluat lisätä ne, vaihda niiden tila hyväksytyksi tai bonukseksi."
+      },
+      "publish": {
+        "help": "Paina tallenna tallentaaksesi nykyiset valinnat. Voit julkaista valinnat kun kaikilla on tila, joka ei ole 'valintaa vaille'. Tallennus ja julkaisu saataa kestää hetken, riippuen pelien määrästä. Varoitus: jos julkaiset valinnat, ilmoittautuminen päättyy. Kun valinnat ovat julkaistu, ne ovat näkyvillä kaikille katso ilmoittautumiset-sivulla."
+      },
+      "title": "Valitse pelit"
+    },
+    "schedule": {
+      "type": {
+        "RACE": "Kisa",
+        "OTHER": "Muu",
+        "RELAY": "Viestijuoksu",
+        "RELAY_RACE": "Viestikisa",
+        "COOP": "Co-op",
+        "COOP_RACE": "Co-op kisa",
+        "SINGLE": "Peli"
+      },
+      "title": "Aikataulu",
+      "table": {
+        "runner": "Pelaaja(t)",
+        "game": "Peli",
+        "estimate": "Aika-arvio",
+        "console": "Konsoli",
+        "category": "Kategoria",
+        "actions": "Toiminnot",
+        "type": "Tyyppi",
+        "time": "Kellonaika",
+        "setup": "Järjestelyaika",
+        "placeholder": "Tipauta mikä tahansa peli vasemmalta tänne. Tämä teksti automaattisesti häviää heti kun yksikin peli on lisätty aikatauluun.",
+        "link": "Linkki"
+      },
+      "management": {
+        "schedule": "Aikataulu",
+        "action": {
+          "addSetupBlock": "Lisää järjestelytauko",
+          "publish": "Julkaise aikataulu",
+          "alreadyPublished": "Aikataulu on jo julkaistu",
+          "addRun": "Lisää peli"
+        },
+        "selectedRuns": "Valitut pelit",
+        "title": "Aikataulun hallinta",
+        "help": {
+          "dragAndDrop": "Käytä nuolia riveillä lisätäksesti tai poistaaksesi pelejä aikataulusta. Voit siirrellä hiirellä rivejä hakasten avulla",
+          "save": "Paina tallennus-nappia talentaaksesi luonnoksena tai päivittääksesi aikataulua. Paina 'julkaise aikataulu' julkaistaaksesi aikataulu. Varoitus: kun aikataulu on julkaistu, niin tapahtuman viimeinen päivä automaattisesti päivitetään."
+        },
+        "customData": {
+          "inputText": "Mukautettua tietoa, tallennettu tekstina, sallii mahdollisuuden lisätä piilotettua tietoa aikatauluun",
+          "text": "Piilota/näytä mukautetut tietueet"
+        },
+        "cacheWarning": {
+          "header": "LUE TÄMÄ VAROVAISESTI",
+          "title": "Julkaisun jälkeen, ohjelma on nähtävissä kahden-viiden minuutin päästä.",
+          "line1": "Pitääkseen palvelimen rasituksen alhaisempana, Oenguken palvelimilla on välimuisti.",
+          "line2": "Tämä tarkoittaa sitä, että saataa kestää hetken, että ohjelma näkyy tapahtuman sivulla.",
+          "line3": "Tämä nappi aktivoituu viiden sekunnin jälkeen"
+        },
+        "markdown": "Voit käyttää perussyntaksia (*lihavoitu*, _alleviivaus_ ja [linkin nimi] (https://oengus.io/)) peli ja kategoriakentissä.",
+        "hideCompleteUsers": "Piilota käyttäjät aikajanalta, kun niillä ei ole enää valittuja peleja"
+      },
+      "nextRun": "Seuraava peli {{duration}}",
+      "timezone": "Päivämäärät ja kellonajat näkyvät paikallisen aikavyöhykkeesi mukaan.",
+      "currentRun": "Tämänhetkinen peli",
+      "dstChange": "Kelloja siirretään tapahtuman aikana.",
+      "export": {
+        "ics": "Vie ICS",
+        "json": "Vie JSON (Horaro)",
+        "csv": "Vie CSV",
+        "title": "Vie aikataulu"
+      },
+      "setupBlock": "Järjestelytauko"
+    },
+    "menu": {
+      "settings": "Asetukset",
+      "schedule": "Aikataulu",
+      "overview": "Yleiskatsaus",
+      "moderators": "Moderaattorit",
+      "incentives": "Kannusteet",
+      "home": "Koti",
+      "donations": "Lahjoitukset",
+      "donate": "Lahjoita",
+      "admin": "Ylläpitäjä",
+      "manageSchedule": "Hallitse aikataulua",
+      "manageIncentives": "Hallitse kannusteita",
+      "loginToSubmit": "Kirjaudu sisään ilmoittaaksesi pelejä",
+      "editSubmission": "Muokkaa ilmoittautumista",
+      "selectRuns": "Valitse pelejä",
+      "submitRuns": "Ilmoita pelejä",
+      "viewSubmissions": "Katso ilmoittautumisia",
+      "tracker": "Seurain"
+    },
+    "incentives": {
+      "title": "Kannusteet",
+      "management": {
+        "table": {
+          "locked": "Lukittu",
+          "goal": "Tavoite",
+          "game": "Peli",
+          "description": "Kuvaus",
+          "progress": "Edistys",
+          "isBidWar": "Lahjoitustavoite/Pottikisa",
+          "incentive": "Kannusteen nimi",
+          "currentAmount": "Nykyinen summa",
+          "actions": "Toiminnot"
+        },
+        "title": "Kannusteiden hallinta",
+        "openBid": "Lahjoittajat voivat lisätä uusia potteja",
+        "name": {
+          "error": {
+            "required": "Nimi vaaditaan"
+          }
+        },
+        "goal": {
+          "error": {
+            "required": "Lahjoitustavoite vaaditaan"
+          }
+        },
+        "donationGoal": "Lahjoitustavoite",
+        "bidWar": "Pottikisa",
+        "action": {
+          "add": "Lisää kannuste"
+        },
+        "currentAmount": {
+          "error": {
+            "required": "Nykyinen määrä vaaditaan"
+          }
+        },
+        "approveBid": "Tämä huuto on lahoittajan luoma ja se pitää ensin hyväksyä. Muista tallentaa hyväksymisen jälkeen!",
+        "noSchedule": "Sinun pitää lisätä tapahtumia aikatauluun ennen kuin lisäät kannusteita",
+        "bidName": {
+          "error": {
+            "required": "Huudon nimi vaaditaan"
+          }
+        }
+      }
+    },
+    "home": {
+      "language": "Kieli",
+      "to": "Mihin",
+      "location": "Sijainti",
+      "from": "Mistä"
+    },
+    "donations": {
+      "title": "Lahjoitukset",
+      "table": {
+        "name": "Nimi",
+        "date": "Päivämäärä",
+        "comment": "Kommentti",
+        "amount": "Summa"
+      },
+      "total": "Lahjoitusten summa",
+      "max": "Maksimilahjoitus",
+      "export": "Vie CSV",
+      "count": "Lahjoitusten määrä",
+      "average": "Keskimääräinen lahjoitus"
+    },
+    "donate": {
+      "title": "Lahjoita",
+      "nickname": {
+        "label": "Nimimerkki",
+        "error": {
+          "pattern": "Nimimerkki voi koostua vain pienistä ja isoista kirjaimista, ja merkeistä _ ja -",
+          "max": "Nimimerkki on liian pitkä"
+        }
+      },
+      "incentives": {
+        "title": "Kannusteet",
+        "header": {
+          "incentive": "Kannuste",
+          "amount": "Summa",
+          "action": "Toiminto"
+        },
+        "bid": {
+          "new": "(Uusi)"
+        },
+        "left": "Jäljellä oleva summa:",
+        "description": "Lahjoituskannusteilla voidaan lisätä peleihin haastetta ja vaikuttaa pelaajan valintoihin. Haluaisitko lahjoittaa kannustetta varten?",
+        "add": "Lisää kannuste"
+      },
+      "comment": {
+        "label": "Kommentti"
+      },
+      "incentiveAmount": {
+        "error": {
+          "required": "Summa vaaditaan",
+          "minNumber": "Summan on oltava suurempi kuin 0"
+        }
+      },
+      "extra": {
+        "description": "Tietoja ei näytetä julkisesti ja ne poistetaan kuukausi tapahtuman päättymisen jälkeen.",
+        "title": "Ylimääräinen tieto"
+      },
+      "description": "Lahjoitukset tukevat {{supportedCharity}}",
+      "amount": {
+        "label": "Lahjoitussumma",
+        "error": {
+          "required": "Lahjoitussumma vaaditaan",
+          "minNumber": "Lahjoitussumman on oltava suurempi kuin 0"
+        }
+      }
+    },
+    "help": {
+      "isArchived": "Tämä tapahtuma on arkistoitu. Se on vain luku -tilassa."
+    },
+    "new": {
+      "title": "Luo uusi tapahtuma",
+      "description": "Seuraavat tiedot ovat välttämättömiä uuden tapahtuman luomiseen. Voit lisätä ja säätää muita tietoja luonnin jälkeen.",
+      "shortDomain": "Tämä lyhyt-domain on automaattisesti luotu, jotta voit jakaa sen sosiaalisessa mediassa"
+    }
+  },
+  "homepage": {
+    "sponsors": {
+      "title": "Sponsorit",
+      "kaspersky": {
+        "banner": "Oenguksen uusi versio on kehitteillä. Kiitos tuesta Kaspersky.",
+        "box": "Kasperskyn tuen ansiosta Oengus v2 on nyt kehitteillä. <a href=\"{{readMoreUrl}}\" target=\"_blank\">Lue Lisää</a>"
+      },
+      "esa": "Oengusta ylläpitää <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>"
+    },
+    "welcomeText": {
+      "par1": "Oengus on <b>ilmainen</b> speedrun-tapahtumien hallinnointityökalu.",
+      "par3": "Kirjauduthan sisään seuraavalla linkillä, jotta saat käyttöösi kaikki sivuston ominaisuudet. Voit luoda uusia tapahtumia ja ilmoittautua olemassa oleviin:",
+      "par4": {
+        "prod": "Jos haluat testata sovellusta ennen varsinaista käyttöä mene <a href=\"https://sandbox.oengus.io\">hiekkalaatikolle</a>. Se on käytettävissänne kaikkea testausta ja opettelua varten.",
+        "sandbox": "<b>Olet hiekkalaatikolla, voit käyttää sitä testausta ja opettelua varten. Jos haluat luoda oikean tapahtuman mene <a href=\"https://oengus.io\">pääsivulle</a>.</b>"
+      }
+    },
+    "starts": "Alkaa {{duration}}",
+    "plannedFeatures": {
+      "1": "Co-op/kisojen ilmoittaminen",
+      "2": "Useampi valintakeino peleille (suora valinta, äänestys...)",
+      "3": "Helppo aikataulutusjärjestelmä pelaajien saatavuuden visualisoinnilla",
+      "4": "Käyttäjätunnuksen yhdistäminen Twitter/Twitch/Google kanssa",
+      "5": "Discord-integrointi",
+      "6": "Sähköposti-ilmoitukset",
+      "7": "Lahjoitusten hallinta PayPalin kautta",
+      "title": "Tulevia ominaisuuksia",
+      "volunteerManager": "Vapaaehtoishakemusten hallinnointi"
+    },
+    "marathons": {
+      "upcoming": "Tulevat tapahtumat",
+      "open": "Ilmoittautuminen käynnissä",
+      "moderated": "Ylläpitämäsi tapahtumat",
+      "live": "Meneillään olevat tapahtumat",
+      "calendar": "Kalenteri"
+    },
+    "ends": "Päättyy {{duration}}",
+    "welcomeTitle": "Tervetuloa Oengukseen!",
+    "submissions_close": "Ilmoittautuminen sulkeutuu {{duration}}"
+  },
+  "global": {
+    "emu": "[EMU]",
+    "adblocker": "Huomasimme että käytät mainosten estäjää. Arvostaisimme jos poistat sen käytöstä sivullamme, sillä sivustomme pyörii lahjoitusten ja mainostulojen avulla.",
+    "enabled": "Päällä",
+    "non_select": "Ei valintaa",
+    "disabled": "Pois päältä",
+    "ads": {
+      "nag2": "Liity meidän Patreon-tukijaksi auttaaksemme pitämään Oengus maksuttomana",
+      "nag1": "Etkö tykkää mainoksista?"
+    }
+  },
+  "aboutPage": {
+    "about": {
+      "par1": "Oengus (lausutaan Angus/ang·guhs) tarjoaa välineitä speedrun-tapahtumien organisointiin ja järjestämiseen.",
+      "par6": "Triviaa: Oengus on kelttiläinen jumalhahmo, joka vastaa ajasta ja ikuisuudesta. Sopii hyvin speedruneille, eikö!",
+      "title": "Tietoa",
+      "par5": "Sivustoa ylläpitää tammikuusta 2021 alkaen <a href=\"https://twitter.com/duncte123\" target=\"_blank\">duncte123</a>.",
+      "par3": "Speedrun-tapahtumat ovat tapahtumia, jossa speedrun-harrastajat kokoontuvat yhteen esittelemään pelejään suurelle yleisölle joko netin välityksellä tai paikan päällä pidettävässä tapahtumassa. Tunnetuimpia speedrun-tapahtumia ovat puolen vuoden välein järjestettävät <a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick -tapahtumat</a> .",
+      "par2": "Speedrunien tavoite on pelata peli läpi mahdollisimman nopeasti huvin ja kilpailun vuoksi. Voit lukea lisää aiheesta <a href=\"https://fi.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipediasta</a>.",
+      "par4": "Tämän sivuston on luonut <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>. Nopeuspelaamisen yhteisön jäsen vuodesta 2013, hän on laajasti osallistunut nopeuspelaamiseen monella eri tavalla: <a href=\"https://speedrun.com\" target=\"_blank\">speedrun.comin</a> yleisenä moderaattorina kolmen vuoden ajan, <a href=\"https://twitter.com/SpeedrunWRs\">Speedrun WRs Twitter botin</a> luojana, ranskankielisen jälleenlähetystiimin jäsenenä, joka tulkkaaa tapahtumia ranskankieliselle yhteisölle, ja Bourg la Runin perustajajäsen, joka on Ranskalainen vastine Games Done Quick-tapahtumalle. Hänen yleisen kokemuksen myötä, ja koska sopivaa työkalua ei ollut tapahtumien järjestämistä varten, hän päätti luoda Oengusin."
+    },
+    "contact": {
+      "title": "Ota yhteyttä",
+      "par2": "Kaupalliset ja viestintään liittyvät yhteydenotot osoitteeseen <a href=\"mailto:contact@oengus.io\" target=\"_blank\">contact@oengus.io</a>. Vastaamme vain englanninkielisiin viesteihin.",
+      "par1": "Löysitkö bugin? Onko sinulla kysyttävää sivustosta? Liity <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">Discord-palvelimellemme!</a>"
+    },
+    "privacy": {
+      "log": {
+        "par1": "Oengus käyttää normaalia käytäntöä lokitiedostojen käsittelyssä. Nämä tiedostot sisältävät tietoa kävijän käynnistä sivustolla. Kaikki palveluntarjoat käyttävät tätä osana palveluntarjoajan tilastointia. Tämä tieto sisältää IP-osoitteet, selaintyypit, palveluntarjoajan, ajan ja päivämäärän, linkitetyt sivut ja mahdollisesti klikkausten määrä. Nämä eivät ole kytköksissä tietoihin, joilla voidaan yksilöidä käytäntö. Niiden tarkoitus on tilastoida sivuston trendeja, sivuston ylläpitoon, kävijöiden sivustollaliikkumisen seurantaan ja demografiatietojen keräämistä varten.",
+        "title": "Lokitiedostot"
+      },
+      "thirdParty": {
+        "par1": "Oengus'n tietosuojakäytäntö ei koske muita mainostajia tai verkkosivustoja.",
+        "title": "Kolmansien osapuolten tietosuojakäytännöt",
+        "par2": "Voit poistaa evästeet käytöstä selaimesi asetuksista. Tarkempia tietoja evästeiden hallinnasta tietyillä selaimilla löydät selainten vastaavilta verkkosivuilta."
+      },
+      "title": "Tietosuojakäytäntö",
+      "par1": "Oenguksella, jonne pääset tästä {{oengus-link}} me sitoutumme suojelemaan kävijöidemme yksityisyyttä. Tämä tietosuojakäytäntö sisältää tietoa siitä minkälaista tietoa keräämme ja tallennamme sivuston kävijöistä.",
+      "par2": "Jos sinulla on kysymyksiä tai haluat lisätietoa tästä tietosuojakäytännöstä, älä epäröi ottaa yhteyttä meihin.",
+      "consent": {
+        "title": "Suostumus",
+        "par1": "Käyttämällä verkkosivustoamme hyväksyt tietosuojakäytäntömme ja sen käyttöehdot."
+      },
+      "par3": "Tapauksessa, kun tämä tietosuojakäytäntö on ristiriidassa englanninkielisen version kanssa, englanninkielinen versio pätee.",
+      "cookies": {
+        "title": "Evästeet ja web bugit",
+        "par1": "Kuten mikä tahansa muu sivusto, Oengus käyttää evästeitä. Nämä evästeet sisältävät tietoja kävijöiden asetuksista ja tietoa millä sivustoilla kävijä on käynyt. Tätä tietoa käytetään käyttäjän kokemuksen parantamiseksi ja muokkaamalla sivustoa käyttäjän selaimen tyypin ja/tai muun tiedon perusteella."
+      },
+      "children": {
+        "title": "Lasten tiedot",
+        "par1": "Toinen painopistealueemme on lasten suojelun lisääminen internetiä käytettäessä. Kannustamme vanhempia ja huoltajia tarkkailemaan, osallistumaan ja/tai valvomaan ja ohjaamaan lasten verkkotoimintaa.",
+        "par2": "Oengus ei tietoisesti kerää henkilökohtaisia tietoja alle 13-vuotiailta lapsilta. Jos uskot, että lapsesi on antanut tällaisia tietoja verkkosivustollamme, kehotamme sinua ottamaan välittömästi yhteyttä meihin, jotta voimme parhaan kykymme mukaan poistaa tällaiset tiedot rekisteristämme."
+      },
+      "online": {
+        "title": "Ainoastaan verkkotietosuojakäytäntö",
+        "par1": "Tämä tietosuojakäytäntö koskee vain verkkotoimintaamme, ja se koskee verkkosivustomme kävijöitä niiden tietojen osalta, jotka he jakavat ja/tai keräävät Oengusissa. Tätä käytäntöä ei sovelleta offline-tilassa tai muiden kanavien kuin tämän verkkosivuston kautta kerättyihin tietoihin."
+      }
+    }
+  },
+  "calendar": {
+    "title": "Tapahtumakalenteri",
+    "help": "Tapahtuman painaminen uudelleenohjaa sinut tapahtuman sivulle",
+    "noMarathons": "Näillä päivämäärillä ei löydy tapahtumia.",
+    "between": "{{time-range}}",
+    "endsAt": "Loppuu {{end-time}}",
+    "now": "Nyt",
+    "startsAt": "Alkaa {{start-time}}",
+    "allDay": "Koko päivä"
+  },
+  "login": {
+    "authInProgress": "Todennus käynnissä, ole hyvä ja odota…",
+    "provider": {
+      "discord": "Kirjaudu sisään Discordilla",
+      "twitch": "Kirjaudu sisään Twitchillä",
+      "google": "Kirjaudu Googlella"
+    }
+  },
+  "footer": {
+    "donate": "Jos pidät Oenguksesta, voit harkita <a href=\"{{donationLink}}\" target=\"_blank\">lahjoittamista</a>",
+    "text": "Aikavyöhyke: {{timezone}}",
+    "patron": {
+      "enjoyOengus": "Jos pidät Oenguksesta, harkitse {{patronLink}}",
+      "patronLink": "patroniksi ryhtyminen",
+      "list": "Kiitos alla luetelluille suojelijoillemme, joiden lahjoitukset pitävät Oenguksen ilmaisena kaikille"
+    },
+    "v1Link": "Kirjaudu sisään Oengus v1:sessä"
+  },
+  "language": {
+    "de": "saksa",
+    "hi": "hindi",
+    "fil": "filipino",
+    "lt": "liettua",
+    "hr": "kroatia",
+    "lv": "latvia",
+    "hu": "unkari",
+    "zh-CN": "kiina",
+    "uk": "ukraina",
+    "id": "Indonesian",
+    "ur": "urdu",
+    "ml": "malajalam",
+    "mr": "marathi",
+    "ms": "malaiji",
+    "el": "kreikka",
+    "en": "englanti",
+    "eo": "esperanto",
+    "is": "islanti",
+    "it": "italia",
+    "am": "amhara",
+    "chr": "cherokee",
+    "iw": "heprea",
+    "es": "espanja",
+    "et": "viro",
+    "eu": "baski",
+    "ar": "arabia",
+    "pt-PT": "portugali",
+    "vi": "vietnam",
+    "ja": "japani",
+    "ro": "romania",
+    "en-GB": "englanti",
+    "nl": "hollanti",
+    "no": "norja",
+    "fi": "suomi",
+    "ru": "venäjä",
+    "bg": "bulgaria",
+    "bn": "bengali",
+    "fr": "ranska",
+    "sk": "slovakki",
+    "sl": "sloveeni",
+    "ca": "katalaani",
+    "sr": "serbia",
+    "kn": "kannada",
+    "sv": "ruotsi",
+    "ko": "korea",
+    "sw": "swahili",
+    "zh_TW": "kiina",
+    "pt_BR": "portugali",
+    "ta": "tamili",
+    "gu": "gudžarati",
+    "cs": "tšekki",
+    "te": "telugu",
+    "th": "thai",
+    "cy": "kymri",
+    "pl": "puola",
+    "da": "tanska",
+    "tr": "turkki"
+  },
+  "platform": {
+    "DISCORD": "Discord",
+    "SPEEDRUNCOM": "speedrun.com",
+    "TWITTER": "Twitter",
+    "TWITCH": "Twitch",
+    "FACEBOOK": "Facebook",
+    "NICO": "Nico",
+    "INSTAGRAM": "Instagram",
+    "SNAPCHAT": "Snapchat",
+    "EMAIL": "Sähköposti",
+    "PHONE": "Puhelinnumero",
+    "YOUTUBE": "YouTube",
+    "MASTODON": "Mastodon"
+  },
+  "navbar": {
+    "login": {
+      "title": "Kirjaudu sisään",
+      "discord": "Kirjaudu sisään Discordilla",
+      "twitch": "Kirjaudu sisään Twitchillä",
+      "twitter": "Kirjaudu sisään Twitterillä",
+      "disclaimer": "Varoitus: jos sinulla on jo profiili Oengusissa, varmista että kirjaudut ulkoisella tilillä, joka on jo liitettynä profiiliisi, mutten luodaan uusi profiili",
+      "mastodon": "Kirjaudu Mastodonilla",
+      "google": "Kirjaudu Googlella",
+      "password": "Kirjaudu käyttäjätunnuksella ja salasanalla"
+    },
+    "about": "Tietoja",
+    "discord": "Liity viralliselle Discord-palvelimelle",
+    "logout": "Kirjaudu ulos",
+    "settings": "Asetukset",
+    "twitter": "Seuraa meitä Twitterissä",
+    "donate": "Lahjoita",
+    "bugtracker": "Raportoi bugeja ja tee ehdotuksia",
+    "translate": "Auta kääntämään tätä sivustoa",
+    "privacyConsent": "Painamalla hyväksy, hyväksyt että Oengus käyttää evästeitä liikenteen analytiikkaa varten. Voit lukea meidän käyttäjäehdot tietoja-sivulta.",
+    "profile": "Minun profiilini",
+    "patrons": "Meidän Patronit",
+    "sourceCode": "Lähdekoodi",
+    "createMarathon": "Uusi tapahtuma",
+    "mastodon": "Seuraa meitä Mastodonissa",
+    "displayNameNotification": "Hei! Sinulla ei ole näyttönimeä valittuna profiilissasi. Mene asetuksiin asettaaksesi näyttönimesi!"
+  },
+  "user": {
+    "profile": {
+      "filter": {
+        "temporality": {
+          "title": "Väliaikaisuus",
+          "FUTURE": "Tulevat tapahtumat",
+          "PAST": "Menneet tapahtumat"
+        },
+        "status": {
+          "title": "Tila"
+        }
+      },
+      "activate": "Aktivoi käyttäjä",
+      "deactivate": "Deaktivoi käyttäjä",
+      "speak": "Puhutut kielet:",
+      "ban": "Estä käyttäjä",
+      "unban": "Poista käyttäjän esto",
+      "moderator": "Ylläpidetyt tapahtumat",
+      "submissions": "Ilmoittautumishistoria"
+    },
+    "settings": {
+      "email": {
+        "error": {
+          "email": "Sähköpostiosoite on virheellinen",
+          "required": "Sähköpostiosoite vaaditaan"
+        },
+        "label": "Sähköpostiosoite",
+        "help": "Sinun sähköpostiosoitetetta käytetään hakeakseen profiilikuvaasi <a href=\"https://gravatar.com/\" target=\"_blank\">Gravatar-palvelusta</a> ja toimii ainoastaan jos sen ikäluokitus on PG tai alempi."
+      },
+      "new": {
+        "beforeWeStart": "Ennen kuin aloitamme…",
+        "description": "Tarvitsemme sinusta lisätietoja. Voisitko nopeasti täydentää tiedot."
+      },
+      "deactivateAccount": {
+        "title": "Poista tili käytöstä tai poista tili pysyvästi",
+        "action": "Poista tili käytöstä",
+        "confirmText": "Oletko varma, että haluat poistaa tilin käytöstä? Varmistaaksesi, kirjoita käyttäjänimesi ja paina \"Varmista\"",
+        "description": "Tilin deaktivointi estää sinua kirjautumasta sisään ja ylläpitäjät eivät voi lisätä sinua modetaattoriksi tai pelaajaksi. Kaikki tieto säilytetään, mutta sosiaalisen median tilisi ei näy, mutta ovat edelleen kytkettynä tiliisi. Jos haluat käyttää tiliäsi uudestaan ota yhteys ylläpitäjään."
+      },
+      "srcom": {
+        "error": {
+          "max": "Speerun.com käyttäjänimi on liian pitkä",
+          "pattern": "Speerun.com käyttäjänimi on väärin"
+        }
+      },
+      "connections": {
+        "visibility": "Julkisesti näkyvillä",
+        "select_platform": "Valitse alusta",
+        "title": "Kytkennät",
+        "subtitle": "Nämä sosiaalisen median kytkennät ovat julkisesti näkyvillä profiilissassi.",
+        "username": "Käyttäjänimi tai vastaava"
+      },
+      "pronouns": {
+        "title": "Pronominit",
+        "no_results": "Pronomineja ei löydy",
+        "help": "Pronomini-tieto tulee <a href=\"https://en.pronouns.page/\" target=\"_blank\">pronouns.page</a>-sivulta. Jos haluat tietää lisää, käy heidän sivulla",
+        "hint": "Etsi pronomi, esimerkiksi: they/them"
+      },
+      "language": {
+        "label": "Kielet, joita puhut",
+        "placeholder": "Kirjoita valitaaksesi kieli",
+        "no_results": "Ei kieliä löydetty"
+      },
+      "username": {
+        "error": {
+          "min": "Käyttäjänimi on liian lyhyt, pituuden on oltava vähintään kolme merkkiä",
+          "required": "Käyttäjänimi vaaditaan",
+          "max": "Käyttäjänimi on liian pitkä, maksimipituus on 32 merkkiä",
+          "pattern": "Käyttäjänimi koostuu pienistä kirjaimista, numeroista, sekä merkeistä _ ja -",
+          "exists": "Käyttäjänimi on jo olemassa. Käytä jotain muuta tai varmista ettei sinulla ole jo profiilia jonkun toisen palvelun kautta (esim. Twitch tai Discord)"
+        },
+        "label": "Käyttäjänimi"
+      },
+      "usernameJapanese": {
+        "label": "Käyttäjänimi (Japaniksi)",
+        "error": {
+          "pattern": "Japanilainen käyttäjänimi on väärin",
+          "max": "Japanilianen käyttäjänimi on liian pitkä, maksimipituus on 32 merkkiä.",
+          "exists": "Käyttäjänimi on jo olemassa."
+        },
+        "help": "Jos käyttäjänimesi kääntyy japaniksi, voit käyttää tätä tietuetta näkyäksesi japanilaisilla kirjaimilla. Se näkyy ainoastaan jos alue on valittu japaniksi. Tämä tietue on valinnainen."
+      },
+      "general": "Yleiset tiedot",
+      "twitch": {
+        "error": {
+          "pattern": "Twitch-nimi on väärin",
+          "max": "Twitch-nimi on liian pitkä"
+        },
+        "disabled": {
+          "help": "Tämä tietue on pois käytöstä, koska olet synkronisoinun Twitch-tilisi. Jos Twitch-nimesi on muuttunut, synkronisoi se uudestaan päivittääksesi."
+        }
+      },
+      "accountSync": {
+        "unsync": "Poista tili",
+        "error": {
+          "noService": "Sinulla pitää olla vähintään yksi palvelu synkronisoituna tilisi kanssa"
+        },
+        "sync": "Synkronisoi tili",
+        "title": "Tilien synkronisointi",
+        "description": "Voit synkronisoida sosiaalisen median tilisi tässä. Sitten voit yhdistää Oengus-tilisi kaikkiin synkroinoituihin tileihin."
+      },
+      "discord": {
+        "disabled": {
+          "help": "Tämä tietue on pois käytöstä, koska olet synkronisoinun Discord-tilisi. Jos Discord-nimesi on muuttunut, synkronisoi se uudestaan päivittääksesi."
+        }
+      },
+      "twitter": {
+        "disabled": {
+          "help": "Tämä tietue on pois käytöstä, koska olet synkronisoinun Twitter-tilisi. Jos Twitter-nimesi on muuttunut, synkronisoi se uudestaan päivittääksesi."
+        },
+        "error": {
+          "max": "Twitter-nimi on liian pitkä",
+          "pattern": "Twitter-nimi on väärin"
+        }
+      },
+      "deletingAccount": {
+        "success": "Tili on nyt poistettu",
+        "btnDelete": "Poista tili :(",
+        "title": "VAROITUS!",
+        "body": [
+          "Olet poistamassa Oengus-tiliäsi.",
+          "Tätä toimintoa ei voida peruuttaa!",
+          "Kirjoita käyttäjänimesi tähän laatikkoon varmistaaksesi, että haluat poistaa tilisi."
+        ],
+        "btnCancel": "Peruuta :)",
+        "settingsDeleteBtn": "Poista tili"
+      },
+      "title": "Muokkaa profiiliani",
+      "displayName": {
+        "error": {
+          "max": "Näyttönimi on liian pitkä, maksimipituus on 32 merkkiä.",
+          "min": "Näyttönimi on liian lyhyt, vähintään yksi merkki vaaditaan"
+        },
+        "help": "Jos käytät jotain nimimerkkiä tai haluat jonkin muun nimen näkyvän, joka ei ole käyttäjänimesi, voit asettaa sen tässä.",
+        "label": "Näyttönimi"
+      },
+      "profilePicture": {
+        "button": "Aseta profiilikuva",
+        "label": "Profiilikuva"
+      }
+    }
+  },
+  "country": {
+    "AG": "Antigua ja Barbuda",
+    "TD": "Tšad",
+    "VA": "Vatikaani",
+    "VC": "Saint Vincent ja Grenadiinit",
+    "ZA": "Etelä-Afrikka",
+    "ZM": "Zambia",
+    "YT": "Mayotte",
+    "RU": "Venäjä",
+    "HR": "Kroatia",
+    "GY": "Guyana",
+    "HT": "Haiti",
+    "HM": "Heard ja McDonaldinsaaret",
+    "HN": "Honduras",
+    "HK": "Hong Kong",
+    "HU": "Unkari",
+    "KP": "Korean demokraattinen kansantasavalta",
+    "KR": "Korean tasavalta",
+    "RO": "Romania",
+    "RS": "Serbia",
+    "TW": "Taiwan (Kiinan tasavalta)",
+    "AL": "Albania",
+    "AS": "Amerikan Samoa",
+    "GF": "Ranskan Guayana",
+    "GG": "Guernsey",
+    "KH": "Kambodža",
+    "LA": "Laos",
+    "LB": "Libanon",
+    "LY": "Libya",
+    "SJ": "Huippuvuoret ja Jan Mayen",
+    "MW": "Malawi",
+    "SK": "Slovakia",
+    "SI": "Slovenia",
+    "WS": "Samoa",
+    "VU": "Vauatu",
+    "AX": "Ahvenanmaa",
+    "BB": "Barbados",
+    "BE": "Belgia",
+    "AF": "Afganistan",
+    "DZ": "Algeria",
+    "EG": "Egypti",
+    "ER": "Eritrea",
+    "ET": "Etiopia",
+    "GA": "Gabon",
+    "GQ": "Päiväntasaajan Guinea",
+    "IO": "Brittiläinen Intian valtameren alue",
+    "PF": "Ranskan Polynesia",
+    "PW": "Palau",
+    "SV": "El Salvador",
+    "PS": "Palestiina",
+    "PY": "Paraguay",
+    "QA": "Qatar",
+    "RE": "Réunion",
+    "FK": "Falklandinsaaret",
+    "FO": "Färsaaret",
+    "FJ": "Fiji",
+    "FI": "Suomi",
+    "FR": "Ranska",
+    "TF": "Ranskan eteläiset alueet",
+    "FM": "Mikronesia",
+    "MD": "Moldova",
+    "MC": "Monaco",
+    "MN": "Mongolia",
+    "ME": "Montenegro",
+    "MS": "Montserrat",
+    "MM": "Myanmar",
+    "NR": "Nauru",
+    "TK": "Tokelau",
+    "TJ": "Tadžikistan",
+    "TZ": "Tansania",
+    "TH": "Thaimaa",
+    "TL": "Itä-Timor",
+    "TG": "Togo",
+    "PK": "Pakistan",
+    "KZ": "Kazakstan",
+    "PA": "Panama",
+    "TR": "Turkki",
+    "ZW": "Zimbabwe",
+    "TO": "Tonga",
+    "TT": "Trinidad ja Tobago",
+    "TN": "Tunisia",
+    "AM": "Armenia",
+    "AW": "Aruba",
+    "AU": "Australia",
+    "AT": "Itävalta",
+    "AZ": "Azerbaidžan",
+    "BS": "Bahama",
+    "BH": "Bahrain",
+    "BD": "Bangladesh",
+    "BY": "Valkovenäjä",
+    "BZ": "Belize",
+    "BJ": "Benin",
+    "BM": "Bermuda",
+    "BT": "Bhutan",
+    "AO": "Angola",
+    "AI": "Anguilla",
+    "AR": "Argentiina",
+    "BQ": "Bonaire",
+    "BA": "Bosnia ja Herzegovina",
+    "BR": "Brasilia",
+    "BN": "Brunei",
+    "BG": "Bulgaria",
+    "BF": "Burkina Faso",
+    "BI": "Burundi",
+    "CV": "Kap Verde",
+    "CM": "Kamerun",
+    "CA": "Kanada",
+    "KY": "Caymansaaret",
+    "CF": "Keski-Afrikan tasavalta",
+    "CL": "Chile",
+    "CN": "Kiina",
+    "CX": "Joulusaari",
+    "CC": "Kookossaaret",
+    "CO": "Kolumbia",
+    "KM": "Komorit",
+    "CG": "Kongo",
+    "CD": "Kongon demokraattinen tasavalta",
+    "CK": "Cookinsaaret",
+    "CR": "Costa Rica",
+    "CI": "Norsunluurannikko",
+    "CW": "Curaçao",
+    "CY": "Kypros",
+    "DM": "Dominica",
+    "DO": "Dominikaaninen tasavalta",
+    "EC": "Ecuador",
+    "EE": "Viro",
+    "GM": "Gambia",
+    "GE": "Georgia",
+    "DE": "Saksa",
+    "GH": "Ghana",
+    "GR": "Kreikka",
+    "GD": "Grenada",
+    "GP": "Guadeloupe",
+    "GN": "Guinea",
+    "GW": "Guinea-Bissau",
+    "IS": "Islanti",
+    "IE": "Irlanti",
+    "IM": "Mansaari",
+    "IL": "Israel",
+    "IT": "Italia",
+    "JM": "Jamaika",
+    "JP": "Japani",
+    "JE": "Jersey",
+    "JO": "Jordania",
+    "KE": "Kenia",
+    "KI": "Kiribati",
+    "KW": "Kuwait",
+    "KG": "Kirgisia",
+    "LV": "Latvia",
+    "LS": "Lesotho",
+    "LR": "Liberia",
+    "LT": "Liettua",
+    "LU": "Luxemburg",
+    "MG": "Madagaskar",
+    "MY": "Malesia",
+    "MV": "Malediivit",
+    "ML": "Mali",
+    "MT": "Malta",
+    "MH": "Marshallinsaaret",
+    "MQ": "Martinique",
+    "MO": "Macao",
+    "LI": "Liechtenstein",
+    "MX": "Meksiko",
+    "MA": "Marokko",
+    "MZ": "Mozambik",
+    "NA": "Namibia",
+    "NP": "Nepal",
+    "NL": "Alankomaat",
+    "NC": "Uusi-Kaledonia",
+    "NZ": "Uusi-Seelanti",
+    "NI": "Nicaragua",
+    "NU": "Niue",
+    "NF": "Norfolkinsaari",
+    "MK": "Pohjois-Makedonia",
+    "MP": "Pohjois-Mariaanit",
+    "NO": "Norja",
+    "OM": "Oman",
+    "PG": "Papua-Uusi-Guinea",
+    "PE": "Peru",
+    "PN": "Pitcairnsaaret",
+    "BL": "Saint-Barthélemy",
+    "KN": "Saint Kitts ja Nevis",
+    "MF": "Saint-Martin",
+    "PM": "Saint-Pierre ja Miquelon",
+    "SM": "San Marino",
+    "SN": "Senegal",
+    "SC": "Seychellit",
+    "SX": "Sint Maarten (Alankomaat)",
+    "GS": "Etelä-Georgia ja Eteläiset Sandwichsaaret",
+    "SS": "Etelä-Sudan",
+    "SR": "Suriname",
+    "SE": "Ruotsi",
+    "CH": "Sveitsi",
+    "TM": "Turkmenistan",
+    "TC": "Turks- ja Caicossaaret",
+    "TV": "Tuvalu",
+    "UG": "Uganda",
+    "AE": "Yhdistyneet Arabiemiirikunnat",
+    "US": "Yhdysvallat",
+    "UM": "Yhdysvaltain pienet erillissaaret",
+    "VE": "Venezuela",
+    "VN": "Vietnam",
+    "VG": "Brittiläiset Neitsytsaaret",
+    "WF": "Wallis ja Futuna",
+    "EH": "Länsi-Sahara",
+    "CU": "Kuuba",
+    "SZ": "Swazimaa",
+    "GT": "Guatemala",
+    "ID": "Indonesia",
+    "IQ": "Irak",
+    "GL": "Grönlanti",
+    "AD": "Andorra",
+    "BO": "Bolivia",
+    "BW": "Botswana",
+    "BV": "Bouvet’nsaari",
+    "AQ": "Etelämanner",
+    "DK": "Tanska",
+    "DJ": "Djibouti",
+    "CZ": "Tsekki",
+    "GI": "Gibraltar",
+    "GU": "Guam",
+    "IN": "Intia",
+    "IR": "Iran",
+    "MR": "Mauritania",
+    "PH": "Filippiinit",
+    "RW": "Ruanda",
+    "LC": "Saint Lucia",
+    "SG": "Singapore",
+    "SD": "Sudan",
+    "GB": "Yhdistynyt kuningaskunta",
+    "MU": "Mauritius",
+    "NE": "Niger",
+    "NG": "Nigeria",
+    "PT": "Portugali",
+    "SH": "Saint Helena, Ascension ja Tristan da Cunha",
+    "SB": "Solomonsaaret",
+    "LK": "Sri Lanka",
+    "SY": "Syyria",
+    "UA": "Ukraina",
+    "PL": "Puola",
+    "PR": "Puerto Rico",
+    "ST": "Sao Tome ja Principe",
+    "SA": "Saudi-Arabia",
+    "SL": "Sierra Leone",
+    "SO": "Somalia",
+    "ES": "Espanja",
+    "UZ": "Uzbekistan",
+    "VI": "Yhdysvaltain Neitsytsaaret",
+    "YE": "Jemen",
+    "UY": "Uruguay"
+  },
+  "errors": {
+    "403": {
+      "title": "Oikeudet puuttuvat",
+      "subtitle": "Sinun pitää olla kirjautuneena nähdäksesi tämän sivun!"
+    },
+    "404": {
+      "title2": "Menet hieman liian nopeaa, kaveri",
+      "title0": "Maailmanennätyksesi on hylätty",
+      "title1": "Rauhoitu vähän, olet liian nopea",
+      "title3": "Se mitä etsit ei ole täällä",
+      "title4": "Se ei ole bugi, se on ominaisuus",
+      "body": "Tämä sivu <em>{{path}}</em> ei löytynyt Anguksesta"
+    },
+    "format": {
+      "url": "Tämä ei ole käypä osoite"
+    }
+  },
+  "patrons": {
+    "par1": "Kiitos meidän patroneille, että pidätte Oengus.iota päällä ja toiminnassa",
+    "title": "Meidän patronit",
+    "par2": "Nämä henkilöt ja tahot ovat lahjoittaneet meidän <a href=\"https://www.patreon.com/oengusio\" target=\"_blank\">Patreon-kampajnaan</a> ja auttavat pitää sitä ilmaisena kaikille.",
+    "noPatrons": "Ei ole ketään tässä, miksi et <a href=\"https://www.patreon.com/oengusio\" target=\"_blank\">olisi ensimmäinen</a>?"
+  },
+  "news": {
+    "title": "Uutiset"
+  },
+  "announcements": {
+    "twitterRemoval": "Hei siellä, me poistetaan twitter-kirjautuminen käytöstä. Varmista, että sinulla on Twitch- tai Discord-tili linkitettynä Oengus-tililla, että pääset jatkossa sisälle."
+  }
 }

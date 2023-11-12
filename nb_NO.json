@@ -381,8 +381,8 @@
       "title": "Sponsorer"
     },
     "plannedFeatures": {
-      "6": "E-postmerknader",
-      "5": "Discord-integrasjon"
+      "5": "Discord-integrasjon",
+      "6": "E-postmerknader"
     },
     "marathons": {
       "upcoming": "Kommende maraton",
@@ -776,5 +776,11 @@
     "pl": "polsk",
     "da": "dansk",
     "tr": "tyrkisk"
+  },
+  "login": {
+    "provider": {
+      "discord": "Logg inn med Discord",
+      "twitch": "Logg inn med Twitch"
+    }
   }
 }

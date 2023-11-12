@@ -132,14 +132,14 @@
       "esa": "Cynhaliwyd Oengus.io gan y <a href=\"https://esamarathon.com/\" target=\"_blank\">Cynulliad Rhedflynwyr Ewropeaidd</a>"
     },
     "plannedFeatures": {
-      "title": "Nodweddion wedi'u planio",
-      "7": "Rheoli rhoddion trwy PayPal",
-      "6": "Hysbysiadau Ebost",
-      "5": "Integreiddio Discord",
-      "4": "Cyfrifon yn cydamseru i gysylltu â Twitter/Twitch/Google",
-      "3": "System amserlennu hawdd gyda argaeledd rhedwyr gweledol",
+      "1": "Cyflwyniadau rasys/cydweithredol",
       "2": "Systemau dewis speedruns gwahanol (dewis uniongyrchol, pleidleisio...)",
-      "1": "Cyflwyniadau rasys/cydweithredol"
+      "3": "System amserlennu hawdd gyda argaeledd rhedwyr gweledol",
+      "4": "Cyfrifon yn cydamseru i gysylltu â Twitter/Twitch/Google",
+      "5": "Integreiddio Discord",
+      "6": "Hysbysiadau Ebost",
+      "7": "Rheoli rhoddion trwy PayPal",
+      "title": "Nodweddion wedi'u planio"
     },
     "marathons": {
       "upcoming": "Marathonau ar y gweill",

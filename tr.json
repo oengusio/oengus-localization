@@ -341,14 +341,14 @@
       "esa": "oengus.io, <a href=\"https://esamarathon.com/\" target=\"_blank\"> European Speedrunner Assembly</a> tarafından barındırılmaktadır"
     },
     "plannedFeatures": {
-      "title": "Planlanan özellikler",
-      "7": "PayPal aracılığıyla bağış yönetimi",
-      "6": "Mail bildirimleri",
-      "5": "Discord entregrasyonu",
-      "4": "Hesaplar Twitter/Twitch/Google ile eşlenebilir",
-      "3": "Oyuncuların uygunluklarını görselleştirerek kolay planlama sistemi",
-      "2": "Birden fazla seçim yöntemi (direk seçim, oylama...)",
       "1": "Kooperatif/yarış başvuruları",
+      "2": "Birden fazla seçim yöntemi (direk seçim, oylama...)",
+      "3": "Oyuncuların uygunluklarını görselleştirerek kolay planlama sistemi",
+      "4": "Hesaplar Twitter/Twitch/Google ile eşlenebilir",
+      "5": "Discord entregrasyonu",
+      "6": "Mail bildirimleri",
+      "7": "PayPal aracılığıyla bağış yönetimi",
+      "title": "Planlanan özellikler",
       "volunteerManager": "Gönüllü başvuru yöneticisi"
     },
     "marathons": {

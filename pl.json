@@ -1,373 +1,373 @@
 {
-    "announcements": {
-        "twitterRemoval": "Cześć, będziemy wkrótce usuwać Twittera jako opcję logowania. Upewnij się, że masz połączone swoje konto Twitch lub Discord z twoim kontem Oengus żeby nie stracić dostępu."
+  "announcements": {
+    "twitterRemoval": "Cześć, będziemy wkrótce usuwać Twittera jako opcję logowania. Upewnij się, że masz połączone swoje konto Twitch lub Discord z twoim kontem Oengus żeby nie stracić dostępu."
+  },
+  "platform": {
+    "PHONE": "Numer telefonu",
+    "SPEEDRUNCOM": "speedrun.com",
+    "MASTODON": ""
+  },
+  "aboutPage": {
+    "contact": {
+      "title": "Kontakt",
+      "par1": "Znalazłeś buga? Masz jakieś pytania? Dołącz do <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">serwera Discord</a>",
+      "par2": "W przypadku zapytań biznesowych/PR, napisz email do <a href=\"mailto:contact@oengus.io\" target=\"_blank\">contact@oengus.io</a>. Będziemy odpowiadać wyłącznie na maile w języku angielskim."
     },
-    "platform": {
-        "PHONE": "Numer telefonu",
-        "SPEEDRUNCOM": "speedrun.com",
-        "MASTODON": ""
+    "privacy": {
+      "title": "Polityka prywatności",
+      "log": {
+        "par1": "Oengus stosuje standardową procedurę korzystania z plików dziennika zdarzeń. Pliki te rejestrują odwiedzających strony internetowe. Działania te są wykonywane przez wszystkie firmy hostingowe jako część analityki usług hostingowych. Informacje gromadzone przez pliki dziennika zdarzeń obejmują: adresy protokołu internetowego (IP), rodzaj przeglądarki, dostawcę usług internetowych (ISP), datę i godzinę, strony odsyłające/wyjściowe i ewentualnie liczbę kliknięć. Dane te nie są powiązane z żadnymi danymi osobowymi. Celem tych informacji jest analiza trendów, administrowanie witryną, śledzenie ruchu użytkowników po witrynie oraz zbieranie danych demograficznych.",
+        "title": "Pliki Dzienników Zdarzeń"
+      },
+      "par2": "Jeśli masz jakieś dodatkowe pytania, bądź chcesz wiedzieć więcej o naszej polityce prywatności, nie wahaj się z nami skontaktować.",
+      "par1": "Jednym z naszych głównych priorytetów w Oengus (dostępnym poprzez {{oengus-link}}) jest prywatność naszych odwiedzających. Ta polityka prywatności zawiera klasyfikację danych gromadzonych przez Oengus, oraz sposób ich przetwarzania.",
+      "par3": "W przypadku konflików, nadrzędna jest Angielska wersja tej polityki.",
+      "cookies": {
+        "title": "Pliki cookie i obrazy Web Beacons",
+        "par1": "Jak każda inna strona internetowa, Oengus używa plików cookie. Te pliki cookie służą do przechowywania informacji, w tym: preferencji odwiedzających, stron w witrynie, do których odwiedzający miał dostęp oraz stron, które odwiedził. Informacje te są wykorzystywane do optymalizacji doświadczeń użytkowników poprzez dostosowywanie zawartości naszej strony internetowej w oparciu o rodzaj przeglądarki odwiedzającego i/lub inne informacje."
+      },
+      "thirdParty": {
+        "title": "Polityka Prywatności Stron Trzecich",
+        "par1": "Polityka prywatności Oengus nie jest stosowana do innych stron internetowych czy reklamodawców.",
+        "par2": "Możesz wyłączyć pliki cookie za pomocą ustawień przeglądarki. Aby poznać bardziej szczegółowe informacje na temat zarządzania plikami cookie w poszczególnych przeglądarkach internetowych, odwiedź stronę internetową danej przeglądarki."
+      },
+      "children": {
+        "title": "Informacje dotyczące dzieci",
+        "par1": "Dużą częścią naszego priorytetu jest ochrona dzieci podczas korzystania z Internetu. Zachęcamy rodziców i opiekunów do obserwowania, uczestnictwa i/lub monitorowania ich działaniami w sieci."
+      }
     },
-    "aboutPage": {
-        "contact": {
-            "title": "Kontakt",
-            "par1": "Znalazłeś buga? Masz jakieś pytania? Dołącz do <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">serwera Discord</a>",
-            "par2": "W przypadku zapytań biznesowych/PR, napisz email do <a href=\"mailto:contact@oengus.io\" target=\"_blank\">contact@oengus.io</a>. Będziemy odpowiadać wyłącznie na maile w języku angielskim."
-        },
-        "privacy": {
-            "title": "Polityka prywatności",
-            "log": {
-                "par1": "Oengus stosuje standardową procedurę korzystania z plików dziennika zdarzeń. Pliki te rejestrują odwiedzających strony internetowe. Działania te są wykonywane przez wszystkie firmy hostingowe jako część analityki usług hostingowych. Informacje gromadzone przez pliki dziennika zdarzeń obejmują: adresy protokołu internetowego (IP), rodzaj przeglądarki, dostawcę usług internetowych (ISP), datę i godzinę, strony odsyłające/wyjściowe i ewentualnie liczbę kliknięć. Dane te nie są powiązane z żadnymi danymi osobowymi. Celem tych informacji jest analiza trendów, administrowanie witryną, śledzenie ruchu użytkowników po witrynie oraz zbieranie danych demograficznych.",
-                "title": "Pliki Dzienników Zdarzeń"
-            },
-            "par2": "Jeśli masz jakieś dodatkowe pytania, bądź chcesz wiedzieć więcej o naszej polityce prywatności, nie wahaj się z nami skontaktować.",
-            "par1": "Jednym z naszych głównych priorytetów w Oengus (dostępnym poprzez {{oengus-link}}) jest prywatność naszych odwiedzających. Ta polityka prywatności zawiera klasyfikację danych gromadzonych przez Oengus, oraz sposób ich przetwarzania.",
-            "par3": "W przypadku konflików, nadrzędna jest Angielska wersja tej polityki.",
-            "cookies": {
-                "title": "Pliki cookie i obrazy Web Beacons",
-                "par1": "Jak każda inna strona internetowa, Oengus używa plików cookie. Te pliki cookie służą do przechowywania informacji, w tym: preferencji odwiedzających, stron w witrynie, do których odwiedzający miał dostęp oraz stron, które odwiedził. Informacje te są wykorzystywane do optymalizacji doświadczeń użytkowników poprzez dostosowywanie zawartości naszej strony internetowej w oparciu o rodzaj przeglądarki odwiedzającego i/lub inne informacje."
-            },
-            "thirdParty": {
-                "title": "Polityka Prywatności Stron Trzecich",
-                "par1": "Polityka prywatności Oengus nie jest stosowana do innych stron internetowych czy reklamodawców.",
-                "par2": "Możesz wyłączyć pliki cookie za pomocą ustawień przeglądarki. Aby poznać bardziej szczegółowe informacje na temat zarządzania plikami cookie w poszczególnych przeglądarkach internetowych, odwiedź stronę internetową danej przeglądarki."
-            },
-            "children": {
-                "title": "Informacje dotyczące dzieci",
-                "par1": "Dużą częścią naszego priorytetu jest ochrona dzieci podczas korzystania z Internetu. Zachęcamy rodziców i opiekunów do obserwowania, uczestnictwa i/lub monitorowania ich działaniami w sieci."
-            }
-        },
-        "about": {
-            "par2": "Speedrunning to granie w grę wideo z zamiarem ukończenia jej tak szybko, jak to możliwe w celach rozrywkowych i/lub rywalizacji. Możesz przeczytać więcej o speedrunningu na <a href=\"https://en.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedii</a>.",
-            "par4": "Ta witryna została stworzona przez <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>. Twórcę w społeczności speedrunningowej od 2013 roku, przyczynił się społeczności speedrunningowej na wiele sposobów: przez 3 lata był głównym moderatorem na <a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a>, przez trzy lata był twórcą dla <a href=\"https://twitter.com/SpeedrunWRs\">Speedrun WRs Twitter bot</a>, Francuskiej organizacji Re-Streamingowej, która zapewniała ponowene streamy maratonów dla francuskiej widowni, założyciel Bourg la Run, francuskiego odpowiednika Games Done Quick. Po swoich istnych doświadczeniach zrozumiał, że nie ma żadnego dobrego ogólnodostępnego narzędzia służącego do organizowania maratonów, zatem postanowił stworzyć Oengus właśnie w takim celu.",
-            "par1": "Oengus (wym. Anegus/ang·guhs) to witryna udostępniająca narzędzia do organizacji maratonów speedrunowania.",
-            "par3": "Maratony speedrunowania to wydarzenia, gdzie speedrunnerzy gromadzą się, aby zaprezentować swojej widowni (on-line i/lub na miejscu) swoje próby osiągnięcia jak najniższego czasu. Jednym z popularniejszych tego eventów jest <a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a> organizowany dwa razy do roku.",
-            "par5": "Od stycznia 2021 witryną zarządza <a href=\"https://twitter.com/duncte123\" target=\"_blank\">duncte123</a>.",
-            "par6": "Ciekawostka: Oengus to celtyckie bóstwo czasu i wieczności. Niezwykle pasująca nazwa dla maratonów speedrunowania!",
-            "title": "O nas"
-        }
+    "about": {
+      "par2": "Speedrunning to granie w grę wideo z zamiarem ukończenia jej tak szybko, jak to możliwe w celach rozrywkowych i/lub rywalizacji. Możesz przeczytać więcej o speedrunningu na <a href=\"https://en.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedii</a>.",
+      "par4": "Ta witryna została stworzona przez <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>. Twórcę w społeczności speedrunningowej od 2013 roku, przyczynił się społeczności speedrunningowej na wiele sposobów: przez 3 lata był głównym moderatorem na <a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a>, przez trzy lata był twórcą dla <a href=\"https://twitter.com/SpeedrunWRs\">Speedrun WRs Twitter bot</a>, Francuskiej organizacji Re-Streamingowej, która zapewniała ponowene streamy maratonów dla francuskiej widowni, założyciel Bourg la Run, francuskiego odpowiednika Games Done Quick. Po swoich istnych doświadczeniach zrozumiał, że nie ma żadnego dobrego ogólnodostępnego narzędzia służącego do organizowania maratonów, zatem postanowił stworzyć Oengus właśnie w takim celu.",
+      "par1": "Oengus (wym. Anegus/ang·guhs) to witryna udostępniająca narzędzia do organizacji maratonów speedrunowania.",
+      "par3": "Maratony speedrunowania to wydarzenia, gdzie speedrunnerzy gromadzą się, aby zaprezentować swojej widowni (on-line i/lub na miejscu) swoje próby osiągnięcia jak najniższego czasu. Jednym z popularniejszych tego eventów jest <a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a> organizowany dwa razy do roku.",
+      "par5": "Od stycznia 2021 witryną zarządza <a href=\"https://twitter.com/duncte123\" target=\"_blank\">duncte123</a>.",
+      "par6": "Ciekawostka: Oengus to celtyckie bóstwo czasu i wieczności. Niezwykle pasująca nazwa dla maratonów speedrunowania!",
+      "title": "O nas"
+    }
+  },
+  "action": {
+    "clearAvailabilities": "Wyczyść wybrane dostępności",
+    "sendTweet": "Wyślij tweeta",
+    "save": "Zapisz",
+    "accept": "Akceptuj",
+    "cancel": "Anuluj",
+    "confirm": "Potwierdź",
+    "decline": "Odrzuć",
+    "join": "Dołącz"
+  },
+  "alert": {
+    "category": {
+      "deletion": {
+        "error": "Wystąpił błąd przy usuwaniu kategorii. Spróbuj ponownie lub skontaktuj się z administratorem.",
+        "success": "Kategoria usunięta"
+      }
     },
-    "action": {
-        "clearAvailabilities": "Wyczyść wybrane dostępności",
-        "sendTweet": "Wyślij tweeta",
-        "save": "Zapisz",
-        "accept": "Akceptuj",
-        "cancel": "Anuluj",
-        "confirm": "Potwierdź",
-        "decline": "Odrzuć",
-        "join": "Dołącz"
+    "donation": {
+      "export": {
+        "error": "Wystąpił błąd podczas eksportowania. Spróbuj ponownie lub skontaktuj się z administratorem."
+      },
+      "validate": {
+        "error": "Wystąpił błąd podczas procesu wysyłania donacji. Spróbuj ponownie lub skontaktuj się z administratorem.",
+        "success": "Twoja donacja została wysłana. Dziękujemy bardzo za twoje wsparcie!"
+      }
     },
-    "alert": {
-        "category": {
-            "deletion": {
-                "error": "Wystąpił błąd przy usuwaniu kategorii. Spróbuj ponownie lub skontaktuj się z administratorem.",
-                "success": "Kategoria usunięta"
-            }
-        },
-        "donation": {
-            "export": {
-                "error": "Wystąpił błąd podczas eksportowania. Spróbuj ponownie lub skontaktuj się z administratorem."
-            },
-            "validate": {
-                "error": "Wystąpił błąd podczas procesu wysyłania donacji. Spróbuj ponownie lub skontaktuj się z administratorem.",
-                "success": "Twoja donacja została wysłana. Dziękujemy bardzo za twoje wsparcie!"
-            }
-        },
-        "game": {
-            "deletion": {
-                "error": "Wystąpił błąd podczas usuwania gry. Spróbuj ponownie lub skontaktuj się z administratorem.",
-                "success": "Gra usunięta"
-            },
-            "export": {
-                "error": "Wystąpił błąd podczas eksportowanie. Spróbuj ponownie lub skontaktuj się z administratorem."
-            }
-        },
-        "incentives": {
-            "delete": {
-                "success": "Cel donacji usunięty",
-                "error": "Wystąpił błąd podczas usuwanie celu donacji. Spróbuj ponownie lub skontaktuj się z administratorem."
-            },
-            "save": {
-                "error": "Wystąpił błąd podczas zapisywania celów donacji. Spróbuj ponownie lub skontaktuj się z administratorem.",
-                "success": "Cele donacji zapisane."
-            }
-        },
-        "marathon": {
-            "deletion": {
-                "success": "Maraton usunięty",
-                "error": "Błąd podczas usuwania maratonu"
-            },
-            "update": {
-                "error": "Błąd podczas aktualizowania maratonu",
-                "success": "Maraton zaktualizowany"
-            },
-            "creation": {
-                "success": "Marathon utworzony",
-                "error": "Wystąpił błąd podczas tworzenia maratonu. Spróbuj ponownie lub skontaktuj się z administratorem"
-            }
-        },
-        "schedule": {
-            "export": {
-                "error": "Wystąpił błąd podczas eksportowania. Spróbuj ponownie lub skontaktuj się z administratorem."
-            },
-            "save": {
-                "error": "Błąd podczas zapisywania harmonogramu",
-                "success": "Harmonogram zapisany"
-            }
-        },
-        "selection": {
-            "save": {
-                "error": "Błąd podczas zapisywania wyboru runów",
-                "success": "Wybór runów zapisany"
-            }
-        },
-        "submission": {
-            "cache": "Czas pojawienia się twojego zgłoszenia na tej liście może trwać 30 minut lub więcej",
-            "deletion": {
-                "error": "Wystąpił błąd podczas usuwania zgłoszenia. Spróbuj ponownie lub skontaktuj się z administratorem.",
-                "success": "Zgłoszenia usunięte"
-            }
-        },
-        "submit": {
-            "CODE_NOT_FOUND": "Ten kod wyścigu nie istnieje",
-            "DIFFERENT_MARATHON": "Ten kod wyścigu nie należy do tego maratonu",
-            "MAX_SIZE_REACHED": "To zgłoszenie już ma maksymalną ilość runnerów",
-            "NOT_MULTIPLAYER": "To zgłoszenie nie jest dla wielu graczy",
-            "SAME_USER": "Nie możesz dodać siebie do kategorii dodanej przez ciebie"
-        },
-        "user": {
-            "deactivate": {
-                "success": "Twoje konto zostało deaktywowane"
-            },
-            "login": {
-                "disabledAccount": "Twoje konto jest wyłączone. Jeśli chcesz je znów użyć, skontaktuj się z administratorem.",
-                "error": "Wystąpił błąd podczas logowania. Spróbuj ponownie lub skontaktuj się z administratorem."
-            },
-            "update": {
-                "error": "Błąd podczas aktualizacji danych użytkownika",
-                "success": "Dane użytkownika zaktualizowane"
-            },
-            "sync": {
-                "alreadySynced": "Błąd: To konto jest już użyte przez innego użytkownika"
-            }
-        }
+    "game": {
+      "deletion": {
+        "error": "Wystąpił błąd podczas usuwania gry. Spróbuj ponownie lub skontaktuj się z administratorem.",
+        "success": "Gra usunięta"
+      },
+      "export": {
+        "error": "Wystąpił błąd podczas eksportowanie. Spróbuj ponownie lub skontaktuj się z administratorem."
+      }
     },
-    "calendar": {
-        "allDay": "Cały dzień",
-        "endsAt": "Kończy się {{end-time}}",
-        "now": "Teraz",
-        "help": "Kliknięcie na wydarzenie pozwoli ci przejść na stronę tego wydarzenia",
-        "noMarathons": "Nie ma żadnych maratonów w tym okresie.",
-        "startsAt": "Zaczyna się {{start-time}}",
-        "title": "Kalendarz maratonów"
-    },
-    "footer": {
-        "donate": "Jeśli lubisz stronę Oengus, rozważ <a href=\"{{donationLink}}\" target=\"_blank\">wsparcie strony</a>",
-        "v1Link": "Zaloguj się do strony Oengus na wersji v1",
-        "text": "Wszystkie czasy są przeliczane na twoją strefę czasową. Wykryta strefa czasowa: {{timezone}}"
-    },
-    "global": {
-        "ads": {
-            "nag1": "Nie lubisz reklam?",
-            "nag2": "Wspomóż nas na Patreonie aby Oengus pozostał bez reklam"
-        },
-        "emu": "[Emulator]",
-        "enabled": "Włączony",
-        "disabled": "Wyłączony",
-        "non_select": "Brak wybranych elementów",
-        "adblocker": "Cześć, wygląda na to że blokujesz reklamy. Używamy donacji i reklamy aby przetrwać, więc rozważ wyłączenie ad-blocka na Oengusie."
-    },
-    "homepage": {
-        "ends": "Kończy się {{duration}}",
-        "marathons": {
-            "calendar": "Pełny kalendarz",
-            "live": "Maratony na żywo",
-            "moderated": "Maratony, którymi zarządzasz",
-            "open": "Maratony, które mają otwarte zgłoszenia",
-            "upcoming": "Nadchodzące maratony"
-        },
-        "plannedFeatures": {
-            "1": "Zgłoszenia coop/wyścigi",
-            "3": "Łatwy system do układania harmonogramów z wizualizacją dostępności runnerów",
-            "4": "Synchronizacja kont z kontami na serwisach Twitter/Twitch/Google",
-            "5": "Integracja z Discordem",
-            "6": "Powiadomienia mailowe",
-            "7": "Zarządzanie donacjami przez PayPala",
-            "volunteerManager": "Zarządzanie zgłoszeniami wolontariuszy",
-            "title": "Planowane funkcje"
-        },
-        "sponsors": {
-            "kaspersky": {
-                "banner": "Dzięki sponsoringu firmy Kaspersky, wersja v2 Oengusa jest w trakcie budowy.",
-                "box": "Dzięki sponsoringu firmy Kaspersky, wersja v2 Oengusa jest w trakcie budowy. <a href=\"{{readMoreUrl}}\" target=\"_blank\">Dowiedz się więcej.</a>"
-            },
-            "esa": "Strona oengus.io jest zarządzana przez <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>",
-            "title": "Sponsorzy"
-        },
-        "starts": "Zaczyna się {{duration}}",
-        "submissions_close": "Zgłoszenia zamykają się {{duration}}",
-        "welcomeText": {
-            "par1": "Oengus to <b>darmowe</b> narzędzie do zarządzanie twoimi maratonami speedrunningowymi, od zgłoszeń do harmonogramu.",
-            "par3": "Aby mieć dostęp do wszystkich funkcji, zaloguj się przy użyciu tego linku. Będziesz mógł tworzyć nowe maratony oraz wysyłać zgłoszenia do już istniejących:"
-        },
-        "welcomeTitle": "Witaj na stronie Oengus!"
+    "incentives": {
+      "delete": {
+        "success": "Cel donacji usunięty",
+        "error": "Wystąpił błąd podczas usuwanie celu donacji. Spróbuj ponownie lub skontaktuj się z administratorem."
+      },
+      "save": {
+        "error": "Wystąpił błąd podczas zapisywania celów donacji. Spróbuj ponownie lub skontaktuj się z administratorem.",
+        "success": "Cele donacji zapisane."
+      }
     },
     "marathon": {
-        "donate": {
-            "amount": {
-                "error": {
-                    "required": "Kwota donacji jest wymagana",
-                    "minNumber": "Kwota donacji musi być większa niż 0"
-                },
-                "label": "Kwota donacji"
-            },
-            "incentiveAmount": {
-                "error": {
-                    "minNumber": "Kwota musi być większa niż 0",
-                    "required": "Kwota jest wymagana"
-                }
-            },
-            "incentives": {
-                "bid": {
-                    "new": "(Nowy)"
-                },
-                "header": {
-                    "action": "Akcja",
-                    "amount": "Kwota",
-                    "incentive": "Cel"
-                },
-                "add": "Dodaj cel",
-                "description": "Cele mogą być użyte do dania runnerom wyzwań i wpływania na ich wybory. Czy chcesz dać swoją donację na jakiś cel?",
-                "left": "Pozostała kwota do rozdzielenia na cele:",
-                "title": "Cele"
-            },
-            "nickname": {
-                "error": {
-                    "max": "Pseudonim jest za długi",
-                    "pattern": "Pseudonim może się składać tylko z małych i wielkich liter, _ i -"
-                },
-                "label": "Pseudonim"
-            },
-            "title": "Wesprzyj",
-            "comment": {
-                "label": "Komentarz"
-            },
-            "extra": {
-                "title": "Dodatkowe informacje",
-                "description": "Te dane nie są wyświetlane publicznie, i są usuwane miesiąc po końcu maratonu."
-            },
-            "description": "Donacje wspierają {{supportedCharity}}"
-        },
-        "donations": {
-            "count": "Liczba donacji",
-            "export": "Eksportuj do pliku CSV",
-            "max": "Najwyższa donacja",
-            "table": {
-                "amount": "Kwota",
-                "comment": "Komentarz",
-                "date": "Data",
-                "name": "Nick"
-            },
-            "title": "Donacje",
-            "total": "Całkowita kwota donacji",
-            "average": "Średnia donacja"
-        },
-        "help": {
-            "isArchived": "Ten maraton jest zarchiwizowany. Jest w trybie odczytu."
-        },
-        "home": {
-            "from": "Od",
-            "language": "Język",
-            "location": "Lokalizacja",
-            "to": "Do"
-        },
-        "incentives": {
-            "management": {
-                "action": {
-                    "add": "Dodaj cel"
-                },
-                "approveBid": "Ten cel został dodany przez wpłacającego i musi zostać zakceptowany. Pamiętaj, aby zapisać po akceptacji!",
-                "bidName": {
-                    "error": {
-                        "required": "Nazwa celu jest wymagana"
-                    }
-                },
-                "bidWar": "Licytacja",
-                "currentAmount": {
-                    "error": {
-                        "required": "Obecna kwota jest wymagana"
-                    }
-                },
-                "donationGoal": "Cel kwoty donacji",
-                "goal": {
-                    "error": {
-                        "required": "Cel kwoty donacji jest wymagany"
-                    }
-                },
-                "name": {
-                    "error": {
-                        "required": "Nazwa jest wymagana"
-                    }
-                },
-                "noSchedule": "Musisz dodać elementy do swojego harmonogramu przed dodawaniem celów",
-                "openBid": "Wpłacający mogą dodać własne cele",
-                "table": {
-                    "actions": "Akcje",
-                    "currentAmount": "Obecna kwota",
-                    "game": "Gra",
-                    "description": "Opis",
-                    "goal": "Kwota docelowa",
-                    "incentive": "Nazwa celu",
-                    "locked": "Zablokowany",
-                    "isBidWar": "Cel/Licytacja",
-                    "progress": "Postęp"
-                },
-                "title": "Zarządzanie celami"
-            },
-            "title": "Cele"
-        },
-        "menu": {
-            "home": "Strona główna",
-            "incentives": "Cele",
-            "loginToSubmit": "Zaloguj się, aby zgłosić runa",
-            "manageIncentives": "Zarządaj celami",
-            "manageSchedule": "Zarządzaj harmonogramem",
-            "moderators": "Moderatorzy",
-            "overview": "Przegląd",
-            "schedule": "Harmonogram",
-            "selectRuns": "Wybierz runy",
-            "settings": "Ustawienia",
-            "submitRuns": "Zgłoś runy",
-            "viewSubmissions": "Zobacz zgłoszenia",
-            "editSubmission": "Edytuj zgłoszenie",
-            "admin": "Admin",
-            "donate": "Wesprzyj",
-            "donations": "Donacje"
-        },
-        "new": {
-            "description": "Te informacje są wymagane, aby utworzyć nowy maraton. Po jego stworzeniu będziesz mógł skonfigurować więcej detali.",
-            "title": "Stwórz nowy maraton",
-            "shortDomain": "Ten krótki link jest automatycznie generowany dla ciebie, abyś mógł go użyć w postach na mediach społecznościowych"
-        },
-        "schedule": {
-            "dstChange": "Zmiana na czas letni/zimowy występuje podczas tego maratonu.",
-            "export": {
-                "ics": "Eksportuj do pliku ICS",
-                "json": "Eksportuj do pliku JSON (dla Horaro)",
-                "title": "Eksportuj harmonogram",
-                "csv": "Eksportuj do pliku CSV"
-            },
-            "management": {
-                "action": {
-                    "addSetupBlock": "Dodaj blok setupowy",
-                    "alreadyPublished": "Harmonogram jest już publiczny",
-                    "publish": "Upublicznij harmonogram",
-                    "addRun": "Dodaj run"
-                }
-            },
-            "currentRun": "Obecny run"
-        }
+      "deletion": {
+        "success": "Maraton usunięty",
+        "error": "Błąd podczas usuwania maratonu"
+      },
+      "update": {
+        "error": "Błąd podczas aktualizowania maratonu",
+        "success": "Maraton zaktualizowany"
+      },
+      "creation": {
+        "success": "Marathon utworzony",
+        "error": "Wystąpił błąd podczas tworzenia maratonu. Spróbuj ponownie lub skontaktuj się z administratorem"
+      }
     },
-    "login": {
-        "authInProgress": "Logowanie w trakcie, proszę czekać…"
+    "schedule": {
+      "export": {
+        "error": "Wystąpił błąd podczas eksportowania. Spróbuj ponownie lub skontaktuj się z administratorem."
+      },
+      "save": {
+        "error": "Błąd podczas zapisywania harmonogramu",
+        "success": "Harmonogram zapisany"
+      }
+    },
+    "selection": {
+      "save": {
+        "error": "Błąd podczas zapisywania wyboru runów",
+        "success": "Wybór runów zapisany"
+      }
+    },
+    "submission": {
+      "cache": "Czas pojawienia się twojego zgłoszenia na tej liście może trwać 30 minut lub więcej",
+      "deletion": {
+        "error": "Wystąpił błąd podczas usuwania zgłoszenia. Spróbuj ponownie lub skontaktuj się z administratorem.",
+        "success": "Zgłoszenia usunięte"
+      }
+    },
+    "submit": {
+      "CODE_NOT_FOUND": "Ten kod wyścigu nie istnieje",
+      "DIFFERENT_MARATHON": "Ten kod wyścigu nie należy do tego maratonu",
+      "MAX_SIZE_REACHED": "To zgłoszenie już ma maksymalną ilość runnerów",
+      "NOT_MULTIPLAYER": "To zgłoszenie nie jest dla wielu graczy",
+      "SAME_USER": "Nie możesz dodać siebie do kategorii dodanej przez ciebie"
+    },
+    "user": {
+      "deactivate": {
+        "success": "Twoje konto zostało deaktywowane"
+      },
+      "login": {
+        "disabledAccount": "Twoje konto jest wyłączone. Jeśli chcesz je znów użyć, skontaktuj się z administratorem.",
+        "error": "Wystąpił błąd podczas logowania. Spróbuj ponownie lub skontaktuj się z administratorem."
+      },
+      "update": {
+        "error": "Błąd podczas aktualizacji danych użytkownika",
+        "success": "Dane użytkownika zaktualizowane"
+      },
+      "sync": {
+        "alreadySynced": "Błąd: To konto jest już użyte przez innego użytkownika"
+      }
     }
+  },
+  "calendar": {
+    "allDay": "Cały dzień",
+    "endsAt": "Kończy się {{end-time}}",
+    "now": "Teraz",
+    "help": "Kliknięcie na wydarzenie pozwoli ci przejść na stronę tego wydarzenia",
+    "noMarathons": "Nie ma żadnych maratonów w tym okresie.",
+    "startsAt": "Zaczyna się {{start-time}}",
+    "title": "Kalendarz maratonów"
+  },
+  "footer": {
+    "donate": "Jeśli lubisz stronę Oengus, rozważ <a href=\"{{donationLink}}\" target=\"_blank\">wsparcie strony</a>",
+    "v1Link": "Zaloguj się do strony Oengus na wersji v1",
+    "text": "Wszystkie czasy są przeliczane na twoją strefę czasową. Wykryta strefa czasowa: {{timezone}}"
+  },
+  "global": {
+    "ads": {
+      "nag1": "Nie lubisz reklam?",
+      "nag2": "Wspomóż nas na Patreonie aby Oengus pozostał bez reklam"
+    },
+    "emu": "[Emulator]",
+    "enabled": "Włączony",
+    "disabled": "Wyłączony",
+    "non_select": "Brak wybranych elementów",
+    "adblocker": "Cześć, wygląda na to że blokujesz reklamy. Używamy donacji i reklamy aby przetrwać, więc rozważ wyłączenie ad-blocka na Oengusie."
+  },
+  "homepage": {
+    "ends": "Kończy się {{duration}}",
+    "marathons": {
+      "calendar": "Pełny kalendarz",
+      "live": "Maratony na żywo",
+      "moderated": "Maratony, którymi zarządzasz",
+      "open": "Maratony, które mają otwarte zgłoszenia",
+      "upcoming": "Nadchodzące maratony"
+    },
+    "plannedFeatures": {
+      "1": "Zgłoszenia coop/wyścigi",
+      "3": "Łatwy system do układania harmonogramów z wizualizacją dostępności runnerów",
+      "4": "Synchronizacja kont z kontami na serwisach Twitter/Twitch/Google",
+      "5": "Integracja z Discordem",
+      "6": "Powiadomienia mailowe",
+      "7": "Zarządzanie donacjami przez PayPala",
+      "volunteerManager": "Zarządzanie zgłoszeniami wolontariuszy",
+      "title": "Planowane funkcje"
+    },
+    "sponsors": {
+      "kaspersky": {
+        "banner": "Dzięki sponsoringu firmy Kaspersky, wersja v2 Oengusa jest w trakcie budowy.",
+        "box": "Dzięki sponsoringu firmy Kaspersky, wersja v2 Oengusa jest w trakcie budowy. <a href=\"{{readMoreUrl}}\" target=\"_blank\">Dowiedz się więcej.</a>"
+      },
+      "esa": "Strona oengus.io jest zarządzana przez <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>",
+      "title": "Sponsorzy"
+    },
+    "starts": "Zaczyna się {{duration}}",
+    "submissions_close": "Zgłoszenia zamykają się {{duration}}",
+    "welcomeText": {
+      "par1": "Oengus to <b>darmowe</b> narzędzie do zarządzanie twoimi maratonami speedrunningowymi, od zgłoszeń do harmonogramu.",
+      "par3": "Aby mieć dostęp do wszystkich funkcji, zaloguj się przy użyciu tego linku. Będziesz mógł tworzyć nowe maratony oraz wysyłać zgłoszenia do już istniejących:"
+    },
+    "welcomeTitle": "Witaj na stronie Oengus!"
+  },
+  "marathon": {
+    "donate": {
+      "amount": {
+        "error": {
+          "required": "Kwota donacji jest wymagana",
+          "minNumber": "Kwota donacji musi być większa niż 0"
+        },
+        "label": "Kwota donacji"
+      },
+      "incentiveAmount": {
+        "error": {
+          "minNumber": "Kwota musi być większa niż 0",
+          "required": "Kwota jest wymagana"
+        }
+      },
+      "incentives": {
+        "bid": {
+          "new": "(Nowy)"
+        },
+        "header": {
+          "action": "Akcja",
+          "amount": "Kwota",
+          "incentive": "Cel"
+        },
+        "add": "Dodaj cel",
+        "description": "Cele mogą być użyte do dania runnerom wyzwań i wpływania na ich wybory. Czy chcesz dać swoją donację na jakiś cel?",
+        "left": "Pozostała kwota do rozdzielenia na cele:",
+        "title": "Cele"
+      },
+      "nickname": {
+        "error": {
+          "max": "Pseudonim jest za długi",
+          "pattern": "Pseudonim może się składać tylko z małych i wielkich liter, _ i -"
+        },
+        "label": "Pseudonim"
+      },
+      "title": "Wesprzyj",
+      "comment": {
+        "label": "Komentarz"
+      },
+      "extra": {
+        "title": "Dodatkowe informacje",
+        "description": "Te dane nie są wyświetlane publicznie, i są usuwane miesiąc po końcu maratonu."
+      },
+      "description": "Donacje wspierają {{supportedCharity}}"
+    },
+    "donations": {
+      "count": "Liczba donacji",
+      "export": "Eksportuj do pliku CSV",
+      "max": "Najwyższa donacja",
+      "table": {
+        "amount": "Kwota",
+        "comment": "Komentarz",
+        "date": "Data",
+        "name": "Nick"
+      },
+      "title": "Donacje",
+      "total": "Całkowita kwota donacji",
+      "average": "Średnia donacja"
+    },
+    "help": {
+      "isArchived": "Ten maraton jest zarchiwizowany. Jest w trybie odczytu."
+    },
+    "home": {
+      "from": "Od",
+      "language": "Język",
+      "location": "Lokalizacja",
+      "to": "Do"
+    },
+    "incentives": {
+      "management": {
+        "action": {
+          "add": "Dodaj cel"
+        },
+        "approveBid": "Ten cel został dodany przez wpłacającego i musi zostać zakceptowany. Pamiętaj, aby zapisać po akceptacji!",
+        "bidName": {
+          "error": {
+            "required": "Nazwa celu jest wymagana"
+          }
+        },
+        "bidWar": "Licytacja",
+        "currentAmount": {
+          "error": {
+            "required": "Obecna kwota jest wymagana"
+          }
+        },
+        "donationGoal": "Cel kwoty donacji",
+        "goal": {
+          "error": {
+            "required": "Cel kwoty donacji jest wymagany"
+          }
+        },
+        "name": {
+          "error": {
+            "required": "Nazwa jest wymagana"
+          }
+        },
+        "noSchedule": "Musisz dodać elementy do swojego harmonogramu przed dodawaniem celów",
+        "openBid": "Wpłacający mogą dodać własne cele",
+        "table": {
+          "actions": "Akcje",
+          "currentAmount": "Obecna kwota",
+          "game": "Gra",
+          "description": "Opis",
+          "goal": "Kwota docelowa",
+          "incentive": "Nazwa celu",
+          "locked": "Zablokowany",
+          "isBidWar": "Cel/Licytacja",
+          "progress": "Postęp"
+        },
+        "title": "Zarządzanie celami"
+      },
+      "title": "Cele"
+    },
+    "menu": {
+      "home": "Strona główna",
+      "incentives": "Cele",
+      "loginToSubmit": "Zaloguj się, aby zgłosić runa",
+      "manageIncentives": "Zarządaj celami",
+      "manageSchedule": "Zarządzaj harmonogramem",
+      "moderators": "Moderatorzy",
+      "overview": "Przegląd",
+      "schedule": "Harmonogram",
+      "selectRuns": "Wybierz runy",
+      "settings": "Ustawienia",
+      "submitRuns": "Zgłoś runy",
+      "viewSubmissions": "Zobacz zgłoszenia",
+      "editSubmission": "Edytuj zgłoszenie",
+      "admin": "Admin",
+      "donate": "Wesprzyj",
+      "donations": "Donacje"
+    },
+    "new": {
+      "description": "Te informacje są wymagane, aby utworzyć nowy maraton. Po jego stworzeniu będziesz mógł skonfigurować więcej detali.",
+      "title": "Stwórz nowy maraton",
+      "shortDomain": "Ten krótki link jest automatycznie generowany dla ciebie, abyś mógł go użyć w postach na mediach społecznościowych"
+    },
+    "schedule": {
+      "dstChange": "Zmiana na czas letni/zimowy występuje podczas tego maratonu.",
+      "export": {
+        "ics": "Eksportuj do pliku ICS",
+        "json": "Eksportuj do pliku JSON (dla Horaro)",
+        "title": "Eksportuj harmonogram",
+        "csv": "Eksportuj do pliku CSV"
+      },
+      "management": {
+        "action": {
+          "addSetupBlock": "Dodaj blok setupowy",
+          "alreadyPublished": "Harmonogram jest już publiczny",
+          "publish": "Upublicznij harmonogram",
+          "addRun": "Dodaj run"
+        }
+      },
+      "currentRun": "Obecny run"
+    }
+  },
+  "login": {
+    "authInProgress": "Logowanie w trakcie, proszę czekać…"
+  }
 }

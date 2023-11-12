@@ -151,14 +151,14 @@
       "esa": "oengus.io er hosted af <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>"
     },
     "plannedFeatures": {
-      "title": "Planlagte funktioner",
-      "7": "Donationsbehandling gennem PayPal",
-      "6": "Mail notifikationer",
-      "5": "Discord integration",
-      "4": "Kontoer synkroniserer for at forbinde med Twitter/Twitch/Google",
-      "3": "Nemt skemalægningssystem med runners tilgængelighedsvisualisering",
+      "1": "Samarbejds-/ræstilmeldinger",
       "2": "Adskillige runs valgsystem (direkte valg, stemmer...)",
-      "1": "Samarbejds-/ræstilmeldinger"
+      "3": "Nemt skemalægningssystem med runners tilgængelighedsvisualisering",
+      "4": "Kontoer synkroniserer for at forbinde med Twitter/Twitch/Google",
+      "5": "Discord integration",
+      "6": "Mail notifikationer",
+      "7": "Donationsbehandling gennem PayPal",
+      "title": "Planlagte funktioner"
     }
   },
   "global": {

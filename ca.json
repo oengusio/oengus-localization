@@ -422,9 +422,9 @@
           "title": "S'ha trobat el servidor de la invitació"
         },
         "help": {
-          "3": "El teu Discord és públic.",
-          "2": "La teva invitació a Discord s'ha enregistrat i és vàlida.",
           "1": "Tens el bot d'Oengus al teu servidor de Discord. Enllaç d'invitació:",
+          "2": "La teva invitació a Discord s'ha enregistrat i és vàlida.",
+          "3": "El teu Discord és públic.",
           "title": "Aquesta característica només es pot fer servir sota les següents condicions:"
         },
         "required": "Demana que l'usuari siga al teu Discord",
@@ -670,7 +670,11 @@
     }
   },
   "login": {
-    "authInProgress": "S'està autenticant. Si us plau, espera…"
+    "authInProgress": "S'està autenticant. Si us plau, espera…",
+    "provider": {
+      "discord": "Inicia sessió amb Discord",
+      "twitch": "Inicia sessió amb Twitch"
+    }
   },
   "homepage": {
     "welcomeTitle": "Benvingut/da a Oengus!",
@@ -692,15 +696,15 @@
       }
     },
     "plannedFeatures": {
-      "title": "Característiques planificades",
-      "volunteerManager": "Gestió de propostes de voluntaris",
-      "7": "Gestió de donacions per PayPal",
-      "6": "Notificacions per correu",
-      "5": "Integració amb Discord",
-      "4": "Els comptes es sincronitzen amb Twitter/Twitch/Google",
-      "3": "Sistema de calendarització senzill amb visualització de la disponibilitat dels participants",
+      "1": "Propostes cooperatives/carreres",
       "2": "Múltiples sistemes de selecció d'intents (selecció directa, vots...)",
-      "1": "Propostes cooperatives/carreres"
+      "3": "Sistema de calendarització senzill amb visualització de la disponibilitat dels participants",
+      "4": "Els comptes es sincronitzen amb Twitter/Twitch/Google",
+      "5": "Integració amb Discord",
+      "6": "Notificacions per correu",
+      "7": "Gestió de donacions per PayPal",
+      "title": "Característiques planificades",
+      "volunteerManager": "Gestió de propostes de voluntaris"
     },
     "marathons": {
       "upcoming": "Pròximes maratons",
