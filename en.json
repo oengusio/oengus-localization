@@ -258,6 +258,9 @@
       "show": "Make password visible",
       "hide": ""
     },
+    "2fa": {
+      "label": "Two-factor authentication code"
+    },
     "provider": {
       "title": "Login with a provider",
       "twitch": "Log in with Twitch",
@@ -964,6 +967,7 @@
     "discord": "Join the official Discord server",
     "donate": "Donate",
     "displayNameNotification": "Hey! It seems that you are missing your display name on your profile. Please go to your settings to set it!",
+    "register": "Register",
     "login": {
       "disclaimer": "Warning: if you already have a profile on Oengus, please make sure you log in with an external account already synced with your profile, otherwise a new profile will be created",
       "discord": "Log in with Discord",
