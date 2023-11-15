@@ -245,7 +245,10 @@
             "show": "Hacer visible la contraseña"
         },
         "button": "Iniciar sesión",
-        "title": "Acceda a su cuenta de Oengus"
+        "title": "Acceda a su cuenta de Oengus",
+        "2fa": {
+            "label": "Código de la doble autenticación"
+        }
     },
     "marathon": {
         "donate": {
@@ -963,7 +966,8 @@
         "sourceCode": "Código fuente",
         "patrons": "Nuestros patrocinadores",
         "mastodon": "Síguenos en Mastodon",
-        "displayNameNotification": "¡Ey! Parece que te falta el nombre para mostrar en tu perfil. ¡Ve a tu configuración para configurarlo!"
+        "displayNameNotification": "¡Ey! Parece que te falta el nombre para mostrar en tu perfil. ¡Ve a tu configuración para configurarlo!",
+        "register": "Registrarse"
     },
     "user": {
         "profile": {
