@@ -111,7 +111,8 @@
         "join": "Liity",
         "decline": "Peru",
         "submit": "Ilmoita",
-        "clearAvailabilities": "Tyhjennä valitut saatavuudet"
+        "clearAvailabilities": "Tyhjennä valitut saatavuudet",
+        "shareMastodon": "Jaa mastodonissa"
     },
     "marathon": {
         "submit": {
@@ -919,7 +920,12 @@
             "discord": "Kirjaudu sisään Discordilla",
             "twitch": "Kirjaudu sisään Twitchillä",
             "google": "Kirjaudu Googlella"
-        }
+        },
+        "password": {
+            "show": "Näytä salasana"
+        },
+        "button": "Kirjaudu",
+        "title": "Kirjaudu sisään Oengus-tilillesi"
     },
     "footer": {
         "donate": "Jos pidät Oenguksesta, voit harkita <a href=\"{{donationLink}}\" target=\"_blank\">lahjoittamista</a>",
