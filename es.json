@@ -242,7 +242,8 @@
             "title": "Iniciar sesión con un proveedor"
         },
         "password": {
-            "show": "Hacer visible la contraseña"
+            "show": "Hacer visible la contraseña",
+            "hide": "Ocultar la contraseña"
         },
         "button": "Iniciar sesión",
         "title": "Acceda a su cuenta de Oengus",
@@ -1102,6 +1103,17 @@
             },
             "password": {
                 "label": "Contraseña"
+            },
+            "mfa": {
+                "disableButton": "Activa el doble factor de autenticación",
+                "modal": {
+                    "tagline": "¡Prepárese para que su cuenta sea más segura!",
+                    "manualCode": "También puede introducir manualmente este código: {{code}}",
+                    "title": "Configurar el 2fa",
+                    "imageTop": "Escanee el código QR con su aplicación de autenticación e introduzca el número en el campo siguiente"
+                },
+                "label": "Doble factor de autenticación",
+                "enableButton": "Activar el doble factor de autenticación"
             }
         }
     },
