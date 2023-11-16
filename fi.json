@@ -919,13 +919,18 @@
         "provider": {
             "discord": "Kirjaudu sisään Discordilla",
             "twitch": "Kirjaudu sisään Twitchillä",
-            "google": "Kirjaudu Googlella"
+            "google": "Kirjaudu Googlella",
+            "title": "Kirjaudu sisään palveluntarjoajalla"
         },
         "password": {
-            "show": "Näytä salasana"
+            "show": "Näytä salasana",
+            "hide": "Piilota salasana"
         },
         "button": "Kirjaudu",
-        "title": "Kirjaudu sisään Oengus-tilillesi"
+        "title": "Kirjaudu sisään Oengus-tilillesi",
+        "2fa": {
+            "label": "Kaksivaiheisentunnistautumisen koodi"
+        }
     },
     "footer": {
         "donate": "Jos pidät Oenguksesta, voit harkita <a href=\"{{donationLink}}\" target=\"_blank\">lahjoittamista</a>",
@@ -1035,7 +1040,8 @@
         "sourceCode": "Lähdekoodi",
         "createMarathon": "Uusi tapahtuma",
         "mastodon": "Seuraa meitä Mastodonissa",
-        "displayNameNotification": "Hei! Sinulla ei ole näyttönimeä valittuna profiilissasi. Mene asetuksiin asettaaksesi näyttönimesi!"
+        "displayNameNotification": "Hei! Sinulla ei ole näyttönimeä valittuna profiilissasi. Mene asetuksiin asettaaksesi näyttönimesi!",
+        "register": "Rekisteröidy"
     },
     "user": {
         "profile": {
@@ -1167,6 +1173,20 @@
             "profilePicture": {
                 "button": "Aseta profiilikuva",
                 "label": "Profiilikuva"
+            },
+            "mfa": {
+                "disableButton": "Poista kaksivaiheinen tunnistautuminen käytöstä",
+                "modal": {
+                    "tagline": "Valmistaudu tekemään tilistäsi turvallisempi!",
+                    "manualCode": "Vaihtoehtoisesti voit lisätä tämän koodi käsin: {{code}}",
+                    "title": "2fa:n käyttöönotto",
+                    "imageTop": "Skannaa QR-koodi autentikointisovelluksella tai lisää alla oleva numero sovellukseen"
+                },
+                "label": "Kaksivaiheinen tunnistautuminen",
+                "enableButton": "Ota kaksivaiheinen tunnistautuminen käyttöön"
+            },
+            "password": {
+                "label": "Salasana"
             }
         }
     },
