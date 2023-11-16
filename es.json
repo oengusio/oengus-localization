@@ -1053,15 +1053,6 @@
                 },
                 "label": "Nombre de usuario"
             },
-            "usernameJapanese": {
-                "error": {
-                    "exists": "Este nombre de usuario ya existe.",
-                    "max": "El nombre de usuario en japonés es demasiado largo, máximo 32 caracteres.",
-                    "pattern": "El nombre de usuario en japonés no es válido"
-                },
-                "help": "Si tu nombre de usuario se traduce al japonés, usa este campo para mostrarlo con caracteres japoneses. Esto se mostrará solo si el idioma local está puesto en japonés. Este campo es opcional.",
-                "label": "Nombre de usuario (Japonés)"
-            },
             "deletingAccount": {
                 "success": "Tu cuenta ha sido eliminada",
                 "btnCancel": "Cancelar :)",
