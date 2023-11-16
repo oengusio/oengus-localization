@@ -256,7 +256,7 @@
     "button": "Login",
     "password": {
       "show": "Make password visible",
-      "hide": ""
+      "hide": "Hide password"
     },
     "2fa": {
       "label": "Two-factor authentication code"
