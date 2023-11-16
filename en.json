@@ -1116,14 +1116,16 @@
       "password": {
         "label": "Password"
       },
-      "usernameJapanese": {
-        "error": {
-          "exists": "Username already exists.",
-          "max": "Japanese username is too long, max is 32 characters.",
-          "pattern": "Japanese username is invalid"
-        },
-        "help": "If your username translates to japanese, use this field to display it with japanese characters. It will only be displayed if the locale is set to japanese. This field is optional.",
-        "label": "Username (Japanese)"
+      "mfa": {
+        "label": "Two factor authentication",
+        "enableButton": "Enable two factor authentication",
+        "disableButton": "Disable two factor authentication",
+        "modal": {
+          "tagline": "Get ready to make your account more secure!",
+          "title": "Set up 2fa",
+          "imageTop": "Scan the QR code with your authenticator app and enter the number in the input below",
+          "manualCode": "Alternatively, you can manually enter this code: {{code}}"
+        }
       },
       "displayName": {
         "error": {
