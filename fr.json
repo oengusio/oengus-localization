@@ -19,16 +19,16 @@
             "par3": "En cas de conflit, la version anglaise de cette politique prévaut.",
             "log": {
                 "title": "Fichiers journaux",
-                "par1": "Oengus suit une procédure standard d'utilisation de fichiers journaux. Ces fichiers enregistrent les visiteurs lorsqu'ils visitent les sites web. Toutes les sociétés d'hébergement le font et cela fait partie de l'analyse des services d'hébergement. Les informations collectées par les fichiers journaux comprennent les adresses de protocole Internet (IP), le type de navigateur, le fournisseur d'accès Internet (FAI), la date et l'heure, les pages de renvoi et de sortie, et éventuellement le nombre de clics. Ces données ne sont pas liées à des informations personnellement identifiables. L'objectif de ces informations est d'analyser les tendances, d'administrer le site, de suivre les mouvements des utilisateurs sur le site et de recueillir des informations démographiques."
+                "par1": "Oengus suit une procédure standard d'utilisation des fichiers journaux. Ces fichiers enregistrent les visiteurs lorsqu'ils visitent des sites Web. Toutes les sociétés d'hébergement le font et font partie de l'analyse des services d'hébergement. Les informations collectées par les fichiers journaux incluent les adresses IP (protocole Internet), le type de navigateur, le fournisseur d'accès Internet (FAI), l'horodatage, les pages de renvoi/sortie et éventuellement le nombre de clics. Ceux-ci ne sont liés à aucune information personnellement identifiable. Le but de l'information est d'analyser les tendances, d'administrer le site, de suivre le mouvement des utilisateurs sur le site Web et de recueillir des informations démographiques."
             },
-            "par1": "Chez Oengus, accessible depuis {{oengus-link}}, l'une de nos principales priorités est la protection de la vie privée de nos visiteurs. Ce document de politique de confidentialité contient les types d'informations qui sont collectées et enregistrées par Oengus et la manière dont nous les utilisons.",
+            "par1": "Chez Oengus, accessible depuis {{oengus-link}}, l'une de nos principales priorités est la confidentialité de nos visiteurs. Ce document de politique de confidentialité contient des types d'informations qui sont collectées et enregistrées par Oengus et comment nous les utilisons.",
             "thirdParty": {
                 "title": "Politiques de confidentialité des tiers",
-                "par1": "La politique de confidentialité d'Oengus ne s'applique pas aux autres annonceurs ou sites web.",
-                "par2": "Vous pouvez choisir de désactiver les cookies par le biais des options de votre navigateur. Pour obtenir des informations plus détaillées sur la gestion des cookies avec des navigateurs web spécifiques, vous pouvez consulter les sites web respectifs de ces navigateurs."
+                "par1": "La politique de confidentialité d'Oengus ne s'applique pas aux autres annonceurs ou sites Web.",
+                "par2": "Vous pouvez choisir de désactiver les cookies via les options de votre navigateur. Pour connaître des informations plus détaillées sur la gestion des cookies avec des navigateurs Web spécifiques, vous pouvez les trouver sur les sites Web respectifs des navigateurs."
             },
             "children": {
-                "title": "Informations pour les enfants",
+                "title": "Informations sur les enfants",
                 "par1": "Une autre de nos priorités est de renforcer la protection des enfants lorsqu'ils utilisent l'internet. Nous encourageons les parents et les tuteurs à observer leurs activités en ligne, à y participer et/ou à les surveiller et à les guider.",
                 "par2": "Oengus ne collecte sciemment aucune information personnelle identifiable auprès d'enfants de moins de 13 ans. Si vous pensez que votre enfant a fourni ce type d'informations sur notre site Web, nous vous encourageons fortement à nous contacter immédiatement et nous ferons de notre mieux pour supprimer rapidement ces informations de nos dossiers."
             },
@@ -41,10 +41,10 @@
                 "par1": "Cette politique de confidentialité ne s'applique qu'à nos activités en ligne et est valable pour les visiteurs de notre site web en ce qui concerne les informations qu'ils partagent et/ou collectent sur Oengus. Cette politique ne s'applique pas aux informations collectées hors ligne ou via d'autres canaux que ce site web."
             },
             "cookies": {
-                "title": "Cookies et balises web",
+                "title": "Cookies et balises Web",
                 "par1": "Comme tout autre site web, Oengus utilise des \"cookies\". Ces cookies sont utilisés pour stocker des informations, y compris les préférences des visiteurs et les pages du site Web auxquelles le visiteur a accédé ou qu'il a visitées. Ces informations sont utilisées pour optimiser l'expérience des utilisateurs en personnalisant le contenu de nos pages web en fonction du type de navigateur des visiteurs et/ou d'autres informations."
             },
-            "par2": "Si vous avez des questions supplémentaires ou si vous souhaitez obtenir plus d'informations sur notre politique de confidentialité, n'hésitez pas à nous contacter."
+            "par2": "Si vous avez des questions supplémentaires ou souhaitez plus d'informations sur notre politique de confidentialité, n'hésitez pas à nous contacter."
         }
     },
     "action": {
@@ -56,7 +56,8 @@
         "join": "Rejoindre",
         "save": "Sauvegarder",
         "sendTweet": "Tweeter",
-        "submit": "Envoyer"
+        "submit": "Envoyer",
+        "shareMastodon": "Partager sur mastodon"
     },
     "alert": {
         "category": {
@@ -237,8 +238,18 @@
         "provider": {
             "discord": "Connexion avec Discord",
             "twitch": "Connexion avec Twitch",
-            "google": "Se connecter avec Google"
-        }
+            "google": "Se connecter avec Google",
+            "title": "Connectez-vous avec un fournisseur"
+        },
+        "2fa": {
+            "label": "Code d'authentification à deux facteurs"
+        },
+        "button": "Se connecter",
+        "password": {
+            "hide": "Masquer le mot de passe",
+            "show": "Rendre le mot de passé visible"
+        },
+        "title": "Connectez-vous à votre compte Oengus"
     },
     "marathon": {
         "donate": {
@@ -956,7 +967,8 @@
         "twitter": "Suivez-nous sur Twitter",
         "patrons": "Nos donateurs",
         "displayNameNotification": "Hey ! Il semble que votre nom d'affichage ne figure pas sur votre profil. Va dans tes paramètres pour le définir !",
-        "mastodon": "Suivez-nous sur Mastodon"
+        "mastodon": "Suivez-nous sur Mastodon",
+        "register": "Registre"
     },
     "user": {
         "profile": {
@@ -1088,6 +1100,20 @@
                 },
                 "help": "Si vous utilisez un alias ou si vous voulez quelque chose de différent de votre nom d'utilisateur, vous pouvez utiliser ce champ pour définir la façon dont vous êtes affiché sur Oengus.",
                 "label": "Nom d'affichage"
+            },
+            "password": {
+                "label": "Mot de passe"
+            },
+            "mfa": {
+                "modal": {
+                    "title": "configurer l'authentification à deux facteurs",
+                    "manualCode": "Alternativement, vous pouvez saisir manuellement ce code : {{code}}",
+                    "tagline": "Préparez-vous à rendre votre compte plus sécurisé !",
+                    "imageTop": "Scannez le code QR avec votre application d'authentification et saisissez le numéro dans le champ ci-dessous"
+                },
+                "enableButton": "Activer l'authentification à deux facteurs",
+                "disableButton": "Désactiver l'authentification à deux facteurs",
+                "label": "authentification à deux facteurs"
             }
         }
     },
@@ -1442,6 +1468,6 @@
         "title": "Actualités"
     },
     "announcements": {
-        "twitterRemoval": "Bonjour, nous allons bientôt supprimer Twitter comme option de connexion. Assurez-vous que votre compte Twitch ou Discord est lié à votre compte Oengus pour éviter d'être bloqué."
+        "twitterRemoval": "Salut, nous allons bientôt supprimer Twitter comme option de connexion. Assurez-vous que votre compte Twitch ou Discord est lié à votre compte Oengus pour éviter d'être bloqué."
     }
 }
