@@ -1114,6 +1114,9 @@
         "label": "Username"
       },
       "password": {
+        "error": {
+          "required": "Password is required"
+        },
         "label": "Password"
       },
       "mfa": {
