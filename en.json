@@ -74,7 +74,8 @@
     "save": "Save",
     "sendTweet": "Send Tweet",
     "shareMastodon": "Share on mastodon",
-    "submit": "Submit"
+    "submit": "Submit",
+    "login": "log in"
   },
   "alert": {
     "category": {
@@ -269,6 +270,9 @@
     }
   },
   "register": {
+    "thank_you": "Thank you!",
+    "email_sent": "We have sent you an email to your inbox, please click the link in there to verify your email address.",
+    "login_hint": "Alternatively, you can already {{login-link}} if you want.",
     "submit": "Sign up!"
   },
   "marathon": {
