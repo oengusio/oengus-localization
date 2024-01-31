@@ -992,7 +992,11 @@
     "sourceCode": "Source code",
     "translate": "Help translate the site",
     "twitter": "Follow us on Twitter",
-    "mastodon": "Follow us on Mastodon"
+    "mastodon": "Follow us on Mastodon",
+    "email-verification": {
+      "message": "Hey! It seems that you have not verified your email address yet. Users without a verified email might get deleted in the future.",
+      "request-btn": "Request new verification email"
+    }
   },
   "news": {
     "title": "News"
