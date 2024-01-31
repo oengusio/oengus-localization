@@ -1055,7 +1055,7 @@
           "required": "Email is required"
         },
         "label": "Email",
-        "help": "Your email address is used to fetch your profile picture from <a href=\"https://gravatar.com/\" target=\"_blank\">Gravatar</a> and will only work if it has the PG rating or lower."
+        "help": "Your email address will be kept private, but is used to fetch your profile picture from <a href=\"https://gravatar.com/\" target=\"_blank\">Gravatar</a> with images that have a PG rating or lower."
       },
       "profilePicture": {
         "label": "Profile picture",
@@ -1084,7 +1084,7 @@
         "title": "Pronouns",
         "hint": "Search a pronoun, example: they/them",
         "no_results": "No pronouns found",
-        "help": "Pronoun data is sourced from <a href=\"https://en.pronouns.page/\" target=\"_blank\">pronouns.page</a>. To learn more about their work and how to contribute, please visit their website"
+        "help": "Pronoun data is sourced from <a href=\"https://en.pronouns.page/\" target=\"_blank\">pronouns.page</a>. To learn more about their work and how to contribute, please visit their website."
       },
       "discord": {
         "disabled": {
