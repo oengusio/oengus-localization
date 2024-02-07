@@ -57,7 +57,8 @@
         "save": "Guardar",
         "sendTweet": "Enviar Tweet",
         "submit": "Enviar",
-        "shareMastodon": "Compartir en Mastodon"
+        "shareMastodon": "Compartir en Mastodon",
+        "login": "iniciar sesión"
     },
     "alert": {
         "category": {
@@ -968,7 +969,11 @@
         "patrons": "Nuestros patrocinadores",
         "mastodon": "Síguenos en Mastodon",
         "displayNameNotification": "¡Ey! Parece que te falta el nombre para mostrar en tu perfil. ¡Ve a tu configuración para configurarlo!",
-        "register": "Registrarse"
+        "register": "Registrarse",
+        "email-verification": {
+            "request-btn": "Solicitar un nuevo correo de verificación",
+            "message": "¡Escucha! Parece que aún no ha verificado su dirección de correo electrónico. Los usuarios sin un correo electrónico verificado podrían ser eliminados en el futuro."
+        }
     },
     "user": {
         "profile": {
@@ -1012,7 +1017,7 @@
                     "required": "Se requiere un correo electrónico"
                 },
                 "label": "Correo electrónico",
-                "help": "Tu dirección de correo electrónico se usa para obtener tu imagen del perfil de <a href=\"https://gravatar.com/\" target=\"_blank\">Gravatar</a> y solo funcionará si tienes la clasificación PG o inferior."
+                "help": "Tu dirección de correo electrónico se mantendrá privada, pero se utilizará para obtener tu foto de perfil de <a href=\"https://gravatar.com/\" target=\"_blank\">Gravatar</a> con imágenes que tengan una calificación PG o inferior."
             },
             "general": "Información general",
             "new": {
@@ -1077,7 +1082,7 @@
                 }
             },
             "pronouns": {
-                "help": "Los datos de los pronombres se obtienen de <a href=\"https://en.pronouns.page/\" target=\"_blank\">pronouns.page</a>. Para obtener más información sobre su trabajo y cómo contribuir, visite su sitio web",
+                "help": "Los datos de los pronombres proceden de <a href=\"https://en.pronouns.page/\" target=\"_blank\">pronouns.page</a>. Por favor, para saber más sobre su trabajo y cómo contribuir, visite su página web.",
                 "no_results": "No se han encontrado pronombres",
                 "hint": "Busca un pronombre, por ejemplo: they/them",
                 "title": "Pronombres"
@@ -1092,7 +1097,8 @@
             "displayName": {
                 "error": {
                     "max": "El nombre es demasiado largo, máximo 32 caracteres.",
-                    "min": "El nombre para mostrar es demasiado corto, se requieren al menos 1 caracteres"
+                    "min": "El nombre para mostrar es demasiado corto, se requieren al menos 1 caracteres",
+                    "required": "Se requiere un nombre para mostrar"
                 },
                 "label": "Mostrar el nombre",
                 "help": "Si utilizas un alias o quieres algo diferente a tu nombre de usuario, puedes utilizar este campo para establecer cómo se te muestra en Oengus."
@@ -1102,7 +1108,10 @@
                 "label": "Foto del perfil"
             },
             "password": {
-                "label": "Contraseña"
+                "label": "Contraseña",
+                "error": {
+                    "required": "Contraseña obligatoria"
+                }
             },
             "mfa": {
                 "disableButton": "Activa el doble factor de autenticación",
@@ -1469,5 +1478,11 @@
     },
     "announcements": {
         "twitterRemoval": "Hola, pronto eliminaremos Twitter como una opción de inicio de sesión. Asegúrate de tener tu cuenta de Twitch o Discord vinculada a tu cuenta de Oengus para evitar que te bloqueen."
+    },
+    "register": {
+        "thank_you": "¡Gracias!",
+        "email_sent": "Le hemos enviado un correo electrónico a su bandeja de entrada. Haga clic en el enlace para verificar su dirección de correo electrónico.",
+        "login_hint": "Alternativamente, ya puede {{login-link}} si lo desea.",
+        "submit": "¡Inscríbete!"
     }
 }
