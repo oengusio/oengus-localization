@@ -2,6 +2,21 @@
   "announcements": {
     "twitterRemoval": "Hey there, we'll be removing twitter as a log-in option soon. Make sure that you have your Twitch or Discord account linked to your Oengus account to prevent getting locked out."
   },
+  "auth": {
+    "emailVerificationRequired": "Please verify your email address before using this feature.",
+    "passwordReset": {
+      "instructions": "In order to reset your password, please enter your email address.\n    If your email address is known in our system, we will send you a link where you can reset your password.",
+      "request": "Request password reset",
+      "tokenMissing": "Your password reset token is missing, please click the link in your email again.",
+      "submit": "Reset your password!",
+      "requested": "A password reset request has been sent to your email address. Please check your email for further instructions.",
+      "success": "Your password has been successfully reset. You can now log in with your password.",
+      "error": {
+        "PASSWORD_RESET_CODE_INVALID": "The provided password reset token is invalid, please request a new email.",
+        "EMAIL_VERIFICATION_REQUIRED": "Please verify your email address before using this feature."
+      }
+    }
+  },
   "platform": {
     "SPEEDRUNCOM": "speedrun.com",
     "MASTODON": "Mastodon",
@@ -253,6 +268,7 @@
   },
   "login": {
     "title": "Login to your Oengus account",
+    "forgotPass": "Forgot your password?",
     "authInProgress": "Authentication in progress, please wait…",
     "button": "Login",
     "password": {
@@ -1128,7 +1144,8 @@
         "error": {
           "required": "Password is required"
         },
-        "label": "Password"
+        "label": "Password",
+        "changeLabel": "Change password"
       },
       "mfa": {
         "label": "Two factor authentication",
