@@ -315,7 +315,7 @@
             "settings": "Einstellungen",
             "submitRuns": "Runs einreichen",
             "tracker": "Tracker",
-            "viewSubmissions": "Submissions ansehen"
+            "viewSubmissions": "Einsendungen ansehen"
         },
         "new": {
             "description": "Die folgenden Informationen sind obligatorisch, um einen neuen Marathon zu erstellen. Nach der Erstellung können Sie weitere Details konfigurieren.",
@@ -670,7 +670,10 @@
                     "max": "Webhook Link ist zu lang",
                     "marathonParameter": "Ihnen fehlt der erforderliche Marathon-Parameter"
                 },
-                "botNotice": "Dies ist ein Oengus-Bot-Webhook. Dies bedeutet, dass der Oengus-Bot Einbettungen an die von Ihnen angegebenen Kanäle sendet"
+                "botNotice": "Dies ist ein Oengus-Bot-Webhook. Dies bedeutet, dass der Oengus-Bot Einbettungen an die von Ihnen angegebenen Kanäle sendet",
+                "announceAcceptedSubmissions": {
+                    "title": "Akzeptierte Runs ankündigen"
+                }
             }
         },
         "submissions": {
