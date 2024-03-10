@@ -11,8 +11,11 @@
         },
         "contact": {
             "par1": "Einen Fehler gefunden? Fragen zur Website? Treten Sie dem <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">Discord-Server</a> bei",
-            "par2": "Für geschäftliche / PR-Anfragen schreiben Sie eine E-Mail an contact@oengus.io",
+            "par2": "Für geschäftliche / PR-Anfragen schreiben Sie eine E-Mail an <a href=\"mailto:contact@oengus.io\" target=\"_blank\">contact@oengus.io</a>. Wir antworten nur auf E-Mails auf Englisch.",
             "title": "Kontakt"
+        },
+        "privacy": {
+            "title": "Datenschutzrichtlinie"
         }
     },
     "action": {
@@ -98,7 +101,8 @@
             "save": {
                 "error": "Fehler bei der Submission",
                 "success": "Submission gesendet"
-            }
+            },
+            "cache": "Es kann bis zu 30 Minuten dauern, bis deine Einreichung in der Liste erscheint"
         },
         "submit": {
             "ALREADY_IN_OPPONENTS": "Du bist bereits Teil dieser Kategorie",
@@ -120,7 +124,7 @@
             },
             "sync": {
                 "alreadySynced": "Fehler: Dieses Konto wird bereits verwendet",
-                "error": "Während der Authentifizierung ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder wenden Sie sich an einen Administrator."
+                "error": "Während der Authentifizierung ist ein Fehler aufgetreten. Möglicherweise wurde der Fehler durch einen Adblocker ausgelöst. Bitte versuche es erneut, nachdem Du Oengus eine Ausnahme erteilt oder deine Browsererweiterung(en) deaktiviert hast. Solltest Du weiterhin diesen Fehler sehen, frage im Kanal #bug_or_feature auf dem Oengus Discord Server nach Hilfe."
             },
             "update": {
                 "error": "Fehler beim Aktualisieren der Benutzerdaten",
@@ -130,17 +134,32 @@
     },
     "calendar": {
         "help": "Wenn Sie auf ein Event klickst, wirst du zu seiner Seite weitergeleitet",
-        "title": "Marathon Kalender"
+        "title": "Marathon Kalender",
+        "startsAt": "Beginnt am {{start-time}}",
+        "noMarathons": "Es gibt keine Marathons in diesem Zeitraum.",
+        "allDay": "täglich",
+        "between": "{{time-range}}",
+        "endsAt": "Endet am {{end-time}}",
+        "now": "Jetzt"
     },
     "footer": {
         "donate": "Wenn dir Oengus gefällt, wie wäre es mit einer <a href=\"{{donationLink}}\" target=\"_blank\">Spende</a>",
-        "text": "Alle Zeiten werden in Ihre Zeitzone konvertiert. Erkannte Zeitzone: {{timezone}}"
+        "text": "Alle Zeiten werden in Ihre Zeitzone konvertiert. Erkannte Zeitzone: {{timezone}}",
+        "patron": {
+            "patronLink": "Werde Patreon",
+            "enjoyOengus": "Wenn dir Oengus gefällt: {{patronLink}}"
+        }
     },
     "global": {
         "emu": "[Emulator]",
         "adblocker": "Hallo, es scheint, dass Sie Anzeigen blockieren. Schalten Sie Ihren Werbeblocker bei oengus aus, da wir auf Anzeigen und Spenden angewiesen sind, um zu überleben.",
         "disabled": "Deaktiviert",
-        "enabled": "Aktiviert"
+        "enabled": "Aktiviert",
+        "non_select": "Nichts ausgewählt",
+        "ads": {
+            "nag1": "Du magst keine Werbung?",
+            "nag2": "Tritt unserer Patreon Kampagne bei, damit Oengus kostenlos bleibt"
+        }
     },
     "homepage": {
         "ends": "Endet {{duration}}",
@@ -174,7 +193,11 @@
         "welcomeTitle": "Willkommen bei Oengus!",
         "sponsors": {
             "title": "Sponsors",
-            "esa": "oengus.io wird von der <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a> gehostet"
+            "esa": "oengus.io wird von der <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a> gehostet",
+            "kaspersky": {
+                "banner": "Dank der Unterstützung von Kaspersky ist Oengus v2 in Entwicklung.",
+                "box": "Dank der Unterstützung von Kaspersky ist Oengus v2 in Entwicklung. <a href=\"{{readMoreUrl}}\" target=\"_blank\">Mehr erfahren</a>"
+            }
         }
     },
     "login": {
@@ -1288,5 +1311,22 @@
         "pl": "Polnisch",
         "da": "Dänisch",
         "tr": "Türkisch"
+    },
+    "platform": {
+        "MASTODON": "Mastodon",
+        "TWITTER": "Twitter",
+        "TWITCH": "Twitch",
+        "YOUTUBE": "YouTube",
+        "INSTAGRAM": "Instagram",
+        "PHONE": "Telefonnummer",
+        "NICO": "niconico",
+        "SPEEDRUNCOM": "speedrun.com",
+        "FACEBOOK": "Facebook",
+        "SNAPCHAT": "Snapchat",
+        "DISCORD": "Discord",
+        "EMAIL": "E-Mail"
+    },
+    "announcements": {
+        "twitterRemoval": "Hallo zusammen. Wir werden den Login über Twitter demnächst deaktivieren. Bitte stelle sicher, dass Du deinen Twitch oder Discord Account mit Oengus verknüpft hast, damit Du nicht ausgesperrt wirst."
     }
 }
