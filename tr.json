@@ -1,563 +1,1505 @@
 {
-  "marathon": {
-    "schedule": {
-      "management": {
-        "help": {
-          "dragAndDrop": "Programdan bir oyun eklemek veya kaldırmak için satırlardaki okları kullanın. Tutamaçları kullanarak programdaki çizgileri sürükleyip bırakabilirsiniz",
-          "save": "Canlı programı güncellemek veya taslak kaydetmek için \"Kaydet\"e basın. Programı yayınlamak için \"Programı yayınla\"ya basın. Dikkat: program bir kez yayınlandığında, planı her güncellediğinizde maratonun bitiş tarihi tekrardan hesaplanıp güncellenecektir."
-        },
-        "action": {
-          "publish": "Programı yayınla",
-          "alreadyPublished": "Program zaten yayınlandı",
-          "addSetupBlock": "Kurulum bloğu ekle",
-          "addRun": "Oyun ekle"
-        },
-        "title": "Program yönetimi",
-        "selectedRuns": "Seçili runlar",
-        "schedule": "Program"
-      },
-      "export": {
-        "title": "Programı dışa aktar",
-        "json": "JSON'a (Horaro) aktar",
-        "ics": "ICS'ye aktar",
-        "csv": "CSV’ye aktar"
-      },
-      "dstChange": "Maraton sırasında yaz saati uygulaması değişimi olacaktır.",
-      "currentRun": "Şu anda koşulan oyun",
-      "type": {
-        "COOP": "Kooperatif",
-        "SINGLE": "Solo run",
-        "RACE": "Yarış",
-        "OTHER": "Diğer",
-        "COOP_RACE": "Kooperatif yarış"
-      },
-      "title": "Program",
-      "timezone": "Tüm tarih ve zamanlar yerel saatinize göre verilmiştir.",
-      "table": {
-        "type": "Tip",
-        "time": "Süre",
-        "setup": "Kurulum süresi",
-        "runner": "Oyuncu(lar)",
-        "game": "Oyun",
-        "estimate": "Tahmini",
-        "console": "Konsol",
-        "category": "Kategori",
-        "actions": "Aksiyonlar",
-        "placeholder": "Soldaki tablodan buraya herhangi bir run çekin. Bu yazı programa bir run girdiği anda kaybolacaktır."
-      },
-      "setupBlock": "Kurulum bloğu",
-      "nextRun": "Bir sonraki run {{duration}}"
-    },
-    "new": {
-      "title": "Yeni bir maraton oluşturun",
-      "description": "Yeni bir maraton oluşturmak için aşağıdaki bilgiler zorunludur. Maraton oluştuktan sonra daha detaylı yapılandırabileceksiniz.",
-      "shortDomain": "Bu kısa web adresi sosyal medya paylaşımlarınız için otomatik olarak üretilmiştir"
-    },
-    "menu": {
-      "viewSubmissions": "Başvuruları görüntüle",
-      "tracker": "İzleyici",
-      "settings": "Ayarlar",
-      "schedule": "Program",
-      "overview": "Genel Bakış",
-      "moderators": "Moderatörler",
-      "manageSchedule": "Programı yönet",
-      "manageIncentives": "Teşvik yönetimi",
-      "loginToSubmit": "Başvuru göndermek için oturum açın",
-      "incentives": "Teşvikler",
-      "home": "Anasayfa",
-      "editSubmission": "Başvuruyu düzenleyin",
-      "donations": "Bağışlar",
-      "donate": "Bağış yap",
-      "admin": "Yönetici",
-      "submitRuns": "Run gönderin",
-      "selectRuns": "Run seçin"
-    },
-    "incentives": {
-      "title": "Teşvikler",
-      "management": {
-        "title": "Teşvik yönetimi",
-        "table": {
-          "progress": "Ilerleme",
-          "locked": "Kilitli",
-          "isBidWar": "Bağış hedefi/Teklif Savaşı",
-          "incentive": "Teşvik adı",
-          "goal": "Amaç",
-          "game": "Oyun",
-          "description": "Açıklama",
-          "currentAmount": "Mevcut miktar",
-          "actions": "Aksiyonlar"
-        },
-        "openBid": "Bağışçılar yeni teklifler ekleyebilir",
-        "noSchedule": "Teşvik eklemeden önce programınıza unsurlar eklemelisiniz",
-        "name": {
-          "error": {
-            "required": "İsim gereklidir"
-          }
-        },
-        "goal": {
-          "error": {
-            "required": "Bağış hedefi gereklidir"
-          }
-        },
-        "donationGoal": "Bağış hedefi",
-        "currentAmount": {
-          "error": {
-            "required": "Anlık tutar gereklidir"
-          }
-        },
-        "bidWar": "Teklif savaşı",
-        "bidName": {
-          "error": {
-            "required": "Teklif adı gereklidir"
-          }
-        },
-        "approveBid": "Bu teklif bir bağışçı tarafından oluşturulmuştur ve onaylanması gerekir. Onayladıktan sonra kaydettiğizden emin olun!",
-        "action": {
-          "add": "Teşvik ekleme"
-        }
-      }
-    },
-    "home": {
-      "to": "Hedef",
-      "location": "Konum",
-      "language": "Dil",
-      "from": "Nereden"
-    },
-    "help": {
-      "isArchived": "Bu maraton arşivlendi. Salt okunur modda."
-    },
-    "donations": {
-      "total": "Bağış toplamı",
-      "title": "Bağışlar",
-      "table": {
-        "name": "İsim",
-        "date": "Tarih",
-        "comment": "Yorum Yap",
-        "amount": "Miktar"
-      },
-      "max": "Maksimum bağış",
-      "export": "CSV olarak dışa aktar",
-      "count": "Bağış sayısı",
-      "average": "Ortalama bağış"
-    },
-    "donate": {
-      "title": "Bağış yap",
-      "nickname": {
-        "label": "Rumuz",
-        "error": {
-          "pattern": "Rumuz sadece küçük ve büyük harflerden, _ ve - karakterlerinden oluşabilir",
-          "max": "Rumuz çok uzun"
-        }
-      },
-      "incentives": {
-        "title": "Teşvikler",
-        "left": "Kalan miktar:",
-        "header": {
-          "incentive": "Teşvik",
-          "amount": "Miktar",
-          "action": "Aksiyon"
-        },
-        "description": "Bağış teşvikleri, oyuncuların seçimlerini etkilemek ve zorluklar eklemek için kullanılabilir. Bağışınızı bir teşviğe yatırmak ister misiniz?",
-        "bid": {
-          "new": "(Yeni)"
-        },
-        "add": "Teşvik ekleyin"
-      },
-      "incentiveAmount": {
-        "error": {
-          "required": "Tutar gereklidir",
-          "minNumber": "Bağış miktarı sıfırdan büyük olmalıdır"
-        }
-      },
-      "extra": {
-        "title": "Ekstra bilgi",
-        "description": "Veriler hiçbir yerde herkese açık olarak gösterilmez ve etkinliğin bitiminden bir ay sonra silinir."
-      },
-      "description": "Bağışlar {{supportedCharity}} organizasyonunu destekliyor",
-      "comment": {
-        "label": "Yorum Yap"
-      },
-      "amount": {
-        "label": "Bağış miktarı",
-        "error": {
-          "required": "Bağış miktarı gereklidir",
-          "minNumber": "Bağış miktarı sıfırdan büyük olmalıdır"
-        }
-      }
-    },
-    "selection": {
-      "selection": {
-        "title": "Seçim"
-      },
-      "availabilities": {
-        "help": "Uygunluklarını görüntülemek için oyuncuların yanındaki takvim ikonuna basın."
-      },
-      "action": {
-        "publish": "Seçimi yayınla"
-      }
-    },
-    "submissions": {
-      "table": {
-        "categoryDescription": "Kategori tanımı",
-        "category": "Kategori",
-        "answer": "Cevap",
-        "actions": "Aksiyonlar"
-      },
-      "submission": {
-        "delete": "Başvuruyu sil. Bu seçenek bu maraton için bu kullanıcıdan gelen tüm oyunları siler."
-      },
-      "game": {
-        "delete": "Oyunu sil. Oyuna bağlı kategorileri de siler."
-      },
-      "export": "CSV olarak dışa aktar",
-      "category": {
-        "delete": "Kategoriyi sil"
-      },
-      "filter": "Kullanıcı ve oyun filtreleme"
-    },
-    "settings": {
-      "youtube": {
-        "help": {
-          "url": "Tam URL girilmelidir"
-        },
-        "error": {
-          "pattern": "YouTube kanal URL'i geçersizdir"
-        }
-      },
-      "videoRequired": {
-        "label": "Video gereksinimi",
-        "allowed": "Video gereklidir"
-      },
-      "unlimited": "Limitsiz",
-      "type": {
-        "onsite": "Canlı/IRL",
-        "online": "Online",
-        "label": "Maraton tipi"
-      },
-      "twitter": {
-        "error": {
-          "pattern": "Twitter ismi geçersiz",
-          "max": "Twitter ismi çok uzun"
-        }
-      },
-      "twitch": {
-        "error": {
-          "pattern": "Twitch ismi geçersiz",
-          "max": "Twitch ismi çok uzun"
-        }
-      },
-      "title": "Maraton ayarları",
-      "tabs": {
-        "submissions": "Başvurular",
-        "incentives": "Teşvikler",
-        "general": "Genel",
-        "dangerZone": "Tehlike bölgesi"
-      },
-      "supportedCharity": {
-        "label": "Desteklenen dernek",
-        "error": {
-          "required": "Desteklenen derneğin adı girilmelidir",
-          "max": "Desteklenen derneğin adı çok uzun"
-        }
-      },
-      "submissionsTitle": "Başvuru ayarları",
-      "submissionsStartDate": {
-        "label": "Başvuruların açılma tarihi",
-        "error": {
-          "required": "Eğer başvuru kapanma tarihi girilmişse başvuru açılma tarihi de girilmelidir"
-        }
-      },
-      "submissionsEndDate": {
-        "label": "Başvuruların kapanma tarihi",
-        "error": {
-          "required": "Eğer başvuru açılma tarihi girilmişse başvuru kapanma tarihi de girilmelidir"
-        }
-      },
-      "submissions": {
-        "open": "Başvurular açık",
-        "label": "Başvurular",
-        "closed": "Başvurular kapanmıştır"
-      },
-      "startDate": {
-        "label": "Başlama tarihi",
-        "error": {
-          "required": "Başlama tarihi gereklidir"
-        }
-      },
-      "shortname": {
-        "label": "Kısa ad",
-        "error": {
-          "required": "Maraton kısa adı gereklidir",
-          "pattern": "Maraton kısa adı geçersiz",
-          "min": "Maraton kısa adı çok kısa",
-          "max": "Maraton kısa adı çok uzun",
-          "exists": "Maraton kısa adı zaten girilmiş"
-        }
-      },
-      "sandbox": {
-        "warning": "Dikkat: Oengus.sandbox Paypal'ın sandbox ortamı ile iletişim halindedir. (Sahte) bağışların çalışması için alıcı adresi olarak sandbox Paypal email adresi kullanmalısınız."
-      },
-      "privacy": {
-        "public": "Herkese açık",
-        "private": "Gizli",
-        "label": "Maraton gizliliği",
-        "help": "Özel maratonlar diğerleri gibi çalışır, fakat ana sayfada gösterilmezler. Sadece URL ile ulaşabilirsiniz."
-      },
-      "payee": {
-        "label": "Alıcı",
-        "help": "Alıcı Paypal ile ilişkilendirilmiş bir email adresi olmalıdır",
-        "error": {
-          "required": "Alıcı gerekmektedir",
-          "max": "Alıcı çok uzun",
-          "email": "Alıcı email adresi olmalıdır"
-        }
-      },
-      "name": {
-        "label": "İsim",
-        "error": {
-          "required": "Maraton adı girilmesi gerekmektedir",
-          "pattern": "Maraton adı geçersiz",
-          "min": "Maraton adı çok kısa"
-        }
-      }
-    }
-  },
-  "login": {
-    "authInProgress": "Kimlik doğrulama devam ediyor, lütfen bekleyin…"
-  },
-  "homepage": {
-    "welcomeTitle": "Oengus'a hoşgeldiniz!",
-    "welcomeText": {
-      "par4": {
-        "sandbox": "<b>Test ve keşif için size sunulmuş olan sandbox alanındasınız. Gerçek bir maraton oluşturmak için, lütfen <a href=\"https://oengus.io\">ana siteye</a> gidiniz.</b>",
-        "prod": "Eğer bir maraton oluşturmadan önce uygulamayı denemek isterseniz, lütfen <a href=\"https://sandbox.oengus.io\">sandbox alanımıza</a> gidin. Sandbox, tüm testleriniz ve keşifleriniz için size sunulmuştur."
-      },
-      "par3": "Tüm özelliklere erişmek için lütfen aşağıdaki linkten giriş yapın. Yeni maratonlar yaratabileceğiniz gibi, varolan maratonlara başvuru da gönderebileceksiniz:",
-      "par1": "Oengus, speedrun maratonlarının başvurulardan planlamaya kadar tüm işlemlerini yönetmeye yarayan <b>ücretsiz</b> bir araçtır."
-    },
-    "starts": "{{duration}} başlıyor",
-    "sponsors": {
-      "title": "Sponsorlar",
-      "esa": "oengus.io, <a href=\"https://esamarathon.com/\" target=\"_blank\"> European Speedrunner Assembly</a> tarafından barındırılmaktadır"
-    },
-    "plannedFeatures": {
-      "1": "Kooperatif/yarış başvuruları",
-      "2": "Birden fazla seçim yöntemi (direk seçim, oylama...)",
-      "3": "Oyuncuların uygunluklarını görselleştirerek kolay planlama sistemi",
-      "4": "Hesaplar Twitter/Twitch/Google ile eşlenebilir",
-      "5": "Discord entregrasyonu",
-      "6": "Mail bildirimleri",
-      "7": "PayPal aracılığıyla bağış yönetimi",
-      "title": "Planlanan özellikler",
-      "volunteerManager": "Gönüllü başvuru yöneticisi"
-    },
-    "marathons": {
-      "upcoming": "Yakındaki maratonlar",
-      "open": "Başvurular açık",
-      "moderated": "Yönetilen maratonlar",
-      "live": "Canlı maratonlar",
-      "calendar": "Tüm takvim"
-    },
-    "ends": "{{duration}} içinde biter"
-  },
-  "aboutPage": {
-    "about": {
-      "par6": "İlginç bir bilgi: Oengus zaman ve sonsuzluğa hükmeden bir kelt ilahıdır. Speedrun maratonları için daha uygun bir isim olamazdı!",
-      "par5": "Ocak 2021'den itibaren site <a href=\"https://twitter.com/duncte123\" target=\"_blank\">duncte123</a> tarafından sürdürülmektedir.",
-      "par4": "Bu site <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a> tarafından yaratılmıştır. Kendisi, 2013'ten beri speedrun camiasında çeşitli roller almıştır: <a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a> global moderatörü, <a href=\"https://twitter.com/SpeedrunWRs\">Speedrun Dünya Rekorları Twitter botunun</a> yaratıcısı, Fransız yeniden yayınlama ekibinin (uluslararası speedrun maratonlarının daha geniş bir Fransız kitlesine ulaşmasını sağlayan ekip) bir üyesi, ve Bourg la Run'ın (Games Done Quick'in Fransız karşılığı)'nın yaratıcısı. Tüm bunları yaparken edindiği tecrübelerin ışığında, maraton düzenlemek için herkesin kullanımına açık bir araç eksikliğini hissetmesinin sonucu olarak bunu kendisi yapmaya karar vermiştir, ve Oengus bunun sonucudur.",
-      "title": "Hakkımızda",
-      "par3": "Speedrun maratonları, speedruncıların online veya reelde bir araya gelerek izleyicilere oyunları ve speedrunları sergilemek için toplanılan etkinliklerdir. En popüler speedrun maratonları, yılda iki kez düzenlenen<a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a>'tir.",
-      "par2": "\"Speedrun\", eğlenmek ve/veya başkalarıyla yarışmak amacıyla bir video oyununu olabildiğince hızlı tamamlama eylemidir. Speedrun hakkında daha fazla bilgiye <a href=\"https://en.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedia (İngilizce)</a>'dan ulaşabilirsiniz.",
-      "par1": "Oengus, speedrun maratonları düzenlemek için bir takım araçlar sunan bir sitedir."
-    },
-    "contact": {
-      "title": "İletişim",
-      "par2": "İş veya Halkla İlişkiler sorularınız için contact@oengus.io adresine e-posta yazın",
-      "par1": "Bug mı buldunuz? Site hakkında sorularınız mı var? <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">Discord sunucumuza</a> katılın"
-    }
-  },
-  "global": {
-    "adblocker": "Selam, görünüşe bakılırsa reklamları engelliyorsunuz, lütfen Oengus'u whitelistinize ekleyin çünkü reklam gelirlerine muhtacız.",
-    "emu": "[Emu]"
-  },
-  "footer": {
-    "text": "Tüm saatler bulunduğunuz zaman diliminize çevrilmiştir. Algılanan zaman dilimi: {{timezone}}",
-    "donate": "Oengus'tan memnunsanız, lütfen <a href=\"{{donationLink}}\" target=\"_blank\">bağış yaparak</a> bize destek olun"
-  },
-  "calendar": {
-    "title": "Maraton takvimi",
-    "help": "Bir etkinliğe tıklamak sizi etkinlik sayfasına yönlendirecektir"
-  },
-  "alert": {
-    "user": {
-      "update": {
-        "success": "Kullanıcı verisi güncellendi",
-        "error": "Kullanıcı veri güncellemesi sırasında hata"
-      },
-      "sync": {
-        "error": "Hesap eşitlemesi sırasında bir hata meydana geldi. Lütfen tekrar deneyiniz veya bir admin ile irtibata geçiniz.",
-        "alreadySynced": "Hata: Bu hesap kullanılmaktadır"
-      },
-      "login": {
-        "usernameExists": "Giriş yapmaya çalıştığınız hesaba ilişkilendirilmiş kullanıcı adı kullanımdadır. Daha önce başka bir giriş yöntemiyle bir Oengus profili oluşturmadığınızdan emin olun. Eğer bir yanlışlık olduğunu düşünüyorsanız bir admin ile irtibata geçin.",
-        "error": "Kullanıcı doğrulama sırasında bir hata meydana geldi. Lütfen tekrar deneyiniz veya bir admin ile irtibata geçiniz.",
-        "disabledAccount": "Hesabınız devre dışıdır. Kullanıma açmak isterseniz bir admin ile irtibata geçiniz."
-      },
-      "deactivate": {
-        "success": "Hesabınız devre dışı bırakılmıştır"
-      }
-    },
-    "submit": {
-      "SAME_USER": "Kendi oluşturduğunuz bir kategoriye kendinizi ekleyemezsiniz",
-      "NOT_MULTIPLAYER": "Bu kategori çoklu oyunculu değildir",
-      "MAX_SIZE_REACHED": "Bu başvuru maksimum sayıda oyuncuya ulaşmıştır",
-      "DIFFERENT_MARATHON": "Bu kod başka maraton içindir",
-      "CODE_NOT_FOUND": "Bu kod bulunamadı",
-      "ALREADY_IN_OPPONENTS": "Bu kategoriye zaten dahilsiniz",
-      "DISCORD_VERIFIED": "Discord sunucusunda olduğunuz doğrulandı, artık gönderebilirsiniz"
-    },
-    "submission": {
-      "save": {
-        "success": "Başvuru gönderildi",
-        "error": "Başvuru işlemi sırasında hata"
-      },
-      "deletion": {
-        "success": "Başvuru silindi",
-        "error": "Başvuru silinirken bir hata meydana geldi. Lütfen tekrar deneyiniz veya bir admin ile irtibata geçiniz."
-      }
-    },
-    "selection": {
-      "save": {
-        "success": "Seçim kaydedildi",
-        "error": "Seçim sırasında hata"
-      }
-    },
-    "schedule": {
-      "save": {
-        "success": "Plan kaydedildi",
-        "error": "Plan kaydı sırasında hata"
-      },
-      "export": {
-        "error": "Dışa aktarım sırasında bir hata meydana geldi. Lütfen tekrar deneyiniz veya bir admin ile irtibata geçiniz."
-      }
-    },
     "marathon": {
-      "update": {
-        "success": "Maraton güncellendi",
-        "error": "Maraton güncellenirken hata"
-      },
-      "deletion": {
-        "success": "Maraton silindi",
-        "error": "Maraton silinirken hata"
-      },
-      "creation": {
-        "success": "Maraton oluşturuldu",
-        "error": "Maraton yaratımında hata"
-      }
+        "schedule": {
+            "management": {
+                "help": {
+                    "dragAndDrop": "Programdan bir oyun eklemek veya kaldırmak için satırlardaki okları kullanın. Tutamaçları kullanarak programdaki çizgileri sürükleyip bırakabilirsiniz",
+                    "save": "Canlı programı güncellemek veya taslak kaydetmek için \"Kaydet\"e basın. Programı yayınlamak için \"Programı yayınla\"ya basın. Dikkat: program bir kez yayınlandığında, planı her güncellediğinizde maratonun bitiş tarihi tekrardan hesaplanıp güncellenecektir."
+                },
+                "action": {
+                    "publish": "Programı yayınla",
+                    "alreadyPublished": "Program zaten yayınlandı",
+                    "addSetupBlock": "Kurulum bloğu ekle",
+                    "addRun": "Oyun ekle"
+                },
+                "title": "Program yönetimi",
+                "selectedRuns": "Seçili runlar",
+                "schedule": "Program",
+                "cacheWarning": {
+                    "header": "BUNU DİKKATLİCE OKUYUN",
+                    "title": "Yayınlandıktan sonra programınızın yayınlanması 2-5 dakika sürecektir.",
+                    "line2": "Bu, maraton sayfanızda güncellenen programı görmenizin biraz zaman alabileceği anlamına gelir.",
+                    "line1": "Kendi sunucularımızdaki yükü azaltmak için Oengus'a bir önbellek uyguladık.",
+                    "line3": "Düğme 5 saniye içinde etkinleşecek"
+                },
+                "hideCompleteUsers": "\"Seçili çalıştırmalarda\" başka çalıştırmaları olmadığında kullanıcıları zaman çizelgesinde gizle",
+                "markdown": "Oyun ve kategori alanlarında temel Markdown sözdizimini (*bold*, _underline_ ve [link name](https://oengus.io/)) kullanabilirsiniz.",
+                "customData": {
+                    "inputText": "Metin olarak saklanan özel veriler; bu, bu zamanlama satırına \"gizli\" verileri eklemenizi sağlar",
+                    "text": "Özel veri alanlarını Gizle/Göster"
+                }
+            },
+            "export": {
+                "title": "Programı dışa aktar",
+                "json": "JSON'a (Horaro) aktar",
+                "ics": "ICS'ye aktar",
+                "csv": "CSV’ye aktar"
+            },
+            "dstChange": "Maraton sırasında yaz saati uygulaması değişimi olacaktır.",
+            "currentRun": "Şu anda koşulan oyun",
+            "type": {
+                "COOP": "Kooperatif",
+                "SINGLE": "Solo run",
+                "RACE": "Yarış",
+                "OTHER": "Diğer",
+                "COOP_RACE": "Kooperatif yarış",
+                "RELAY_RACE": "Bayrak Yarışı",
+                "RELAY": "Bayrak Koşusu"
+            },
+            "title": "Program",
+            "timezone": "Tüm tarih ve zamanlar yerel saatinize göre verilmiştir.",
+            "table": {
+                "type": "Tip",
+                "time": "Süre",
+                "setup": "Kurulum süresi",
+                "runner": "Oyuncu(lar)",
+                "game": "Oyun",
+                "estimate": "Tahmini",
+                "console": "Konsol",
+                "category": "Kategori",
+                "actions": "Aksiyonlar",
+                "placeholder": "Soldaki tablodan buraya herhangi bir run çekin. Bu yazı programa bir run girdiği anda kaybolacaktır.",
+                "link": "Bağlantı"
+            },
+            "setupBlock": "Kurulum bloğu",
+            "nextRun": "Bir sonraki run {{duration}}"
+        },
+        "new": {
+            "title": "Yeni bir maraton oluşturun",
+            "description": "Yeni bir maraton oluşturmak için aşağıdaki bilgiler zorunludur. Maraton oluştuktan sonra daha detaylı yapılandırabileceksiniz.",
+            "shortDomain": "Bu kısa web adresi sosyal medya paylaşımlarınız için otomatik olarak üretilmiştir"
+        },
+        "menu": {
+            "viewSubmissions": "Başvuruları görüntüle",
+            "tracker": "İzleyici",
+            "settings": "Ayarlar",
+            "schedule": "Program",
+            "overview": "Genel Bakış",
+            "moderators": "Moderatörler",
+            "manageSchedule": "Programı yönet",
+            "manageIncentives": "Teşvik yönetimi",
+            "loginToSubmit": "Başvuru göndermek için oturum açın",
+            "incentives": "Teşvikler",
+            "home": "Anasayfa",
+            "editSubmission": "Başvuruyu düzenleyin",
+            "donations": "Bağışlar",
+            "donate": "Bağış yap",
+            "admin": "Yönetici",
+            "submitRuns": "Run gönderin",
+            "selectRuns": "Run seçin"
+        },
+        "incentives": {
+            "title": "Teşvikler",
+            "management": {
+                "title": "Teşvik yönetimi",
+                "table": {
+                    "progress": "Ilerleme",
+                    "locked": "Kilitli",
+                    "isBidWar": "Bağış hedefi/Teklif Savaşı",
+                    "incentive": "Teşvik adı",
+                    "goal": "Amaç",
+                    "game": "Oyun",
+                    "description": "Açıklama",
+                    "currentAmount": "Mevcut miktar",
+                    "actions": "Aksiyonlar"
+                },
+                "openBid": "Bağışçılar yeni teklifler ekleyebilir",
+                "noSchedule": "Teşvik eklemeden önce programınıza unsurlar eklemelisiniz",
+                "name": {
+                    "error": {
+                        "required": "İsim gereklidir"
+                    }
+                },
+                "goal": {
+                    "error": {
+                        "required": "Bağış hedefi gereklidir"
+                    }
+                },
+                "donationGoal": "Bağış hedefi",
+                "currentAmount": {
+                    "error": {
+                        "required": "Anlık tutar gereklidir"
+                    }
+                },
+                "bidWar": "Teklif savaşı",
+                "bidName": {
+                    "error": {
+                        "required": "Teklif adı gereklidir"
+                    }
+                },
+                "approveBid": "Bu teklif bir bağışçı tarafından oluşturulmuştur ve onaylanması gerekir. Onayladıktan sonra kaydettiğizden emin olun!",
+                "action": {
+                    "add": "Teşvik ekleme"
+                }
+            }
+        },
+        "home": {
+            "to": "Hedef",
+            "location": "Konum",
+            "language": "Dil",
+            "from": "Nereden"
+        },
+        "help": {
+            "isArchived": "Bu maraton arşivlendi. Salt okunur modda."
+        },
+        "donations": {
+            "total": "Bağış toplamı",
+            "title": "Bağışlar",
+            "table": {
+                "name": "İsim",
+                "date": "Tarih",
+                "comment": "Yorum Yap",
+                "amount": "Miktar"
+            },
+            "max": "Maksimum bağış",
+            "export": "CSV olarak dışa aktar",
+            "count": "Bağış sayısı",
+            "average": "Ortalama bağış"
+        },
+        "donate": {
+            "title": "Bağış yap",
+            "nickname": {
+                "label": "Rumuz",
+                "error": {
+                    "pattern": "Rumuz sadece küçük ve büyük harflerden, _ ve - karakterlerinden oluşabilir",
+                    "max": "Rumuz çok uzun"
+                }
+            },
+            "incentives": {
+                "title": "Teşvikler",
+                "left": "Kalan miktar:",
+                "header": {
+                    "incentive": "Teşvik",
+                    "amount": "Miktar",
+                    "action": "Aksiyon"
+                },
+                "description": "Bağış teşvikleri, oyuncuların seçimlerini etkilemek ve zorluklar eklemek için kullanılabilir. Bağışınızı bir teşviğe yatırmak ister misiniz?",
+                "bid": {
+                    "new": "(Yeni)"
+                },
+                "add": "Teşvik ekleyin"
+            },
+            "incentiveAmount": {
+                "error": {
+                    "required": "Tutar gereklidir",
+                    "minNumber": "Bağış miktarı sıfırdan büyük olmalıdır"
+                }
+            },
+            "extra": {
+                "title": "Ekstra bilgi",
+                "description": "Veriler hiçbir yerde herkese açık olarak gösterilmez ve etkinliğin bitiminden bir ay sonra silinir."
+            },
+            "description": "Bağışlar {{supportedCharity}} organizasyonunu destekliyor",
+            "comment": {
+                "label": "Yorum Yap"
+            },
+            "amount": {
+                "label": "Bağış miktarı",
+                "error": {
+                    "required": "Bağış miktarı gereklidir",
+                    "minNumber": "Bağış miktarı sıfırdan büyük olmalıdır"
+                }
+            }
+        },
+        "selection": {
+            "selection": {
+                "title": "Seçim"
+            },
+            "availabilities": {
+                "help": "Uygunluklarını görüntülemek için oyuncuların yanındaki takvim ikonuna basın."
+            },
+            "action": {
+                "publish": "Seçimi yayınla",
+                "decline": "YAPILACAKLARI Reddet"
+            },
+            "statistics": {
+                "table": {
+                    "marathonLength": "Maraton uzunluğu",
+                    "totalTimeValidated": "Doğrulanmış çalıştırmaların toplam süresi (varsayılan kurulum süresi dahildir)",
+                    "numberOfRunners": "Koşucu sayısı",
+                    "totalTime": "Toplam zaman",
+                    "numberOfRuns": "Çalıştırma sayısı",
+                    "averageEstimate": "Ortalama tahmin",
+                    "defaultSetupTime": "Varsayılan kurulum süresi"
+                },
+                "title": "İstatistik"
+            },
+            "status": {
+                "BONUS": "Bonus",
+                "ALL": "Hepsi",
+                "REJECTED": "Reddedildi",
+                "TODO": "Yap",
+                "BACKUP": "Yedek",
+                "VALIDATED": "Kabul edilmiş"
+            },
+            "publish": {
+                "help": "Mevcut seçiminizi herhangi bir durumda kaydetmek için \"Kaydet\"i tıklayın. Seçiminizi yalnızca tüm çalıştırmalar \"Yapılacaklar\" dışında bir duruma sahip olduğunda yayınlayabilirsiniz. Seçimin kaydedilmesi veya yayınlanması, çalıştırma miktarına bağlı olarak biraz zaman alabilir. Uyarı: Seçimin yayınlanması, gönderimleri otomatik olarak kapatacaktır. Seçim yayınlandıktan sonra \"Gönderimleri görüntüle\" sayfasında tüm izleyiciler tarafından görülebilecektir."
+            },
+            "help": {
+                "BACKUP": "Yedekleme çalışmaları, zamanlama yönetiminde seçilen çalıştırmalar listesine eklenmez. Bunları bu listeye eklemek için gerekirse Kabul Edildi veya Bonus durumuna getirin."
+            },
+            "title": "Koşuları seçin"
+        },
+        "submissions": {
+            "table": {
+                "categoryDescription": "Kategori tanımı",
+                "category": "Kategori",
+                "answer": "Cevap",
+                "actions": "Aksiyonlar",
+                "console": "Konsol",
+                "estimate": "Tahmin",
+                "type": "Tip",
+                "gameDescription": "Oyun açıklaması",
+                "marathon": "Maraton",
+                "question": "Soru",
+                "status": "Durum",
+                "date": "Tarih",
+                "game": "Oyun",
+                "runner": "Koşucu",
+                "ratio": "Oran/Çözünürlük"
+            },
+            "submission": {
+                "delete": "Başvuruyu sil. Bu seçenek bu maraton için bu kullanıcıdan gelen tüm oyunları siler."
+            },
+            "game": {
+                "delete": "Oyunu sil. Oyuna bağlı kategorileri de siler."
+            },
+            "export": "CSV olarak dışa aktar",
+            "category": {
+                "delete": "Kategoriyi sil"
+            },
+            "filter": "Kullanıcı ve oyun filtreleme",
+            "tabs": {
+                "submissions": "Gönderimler",
+                "answers": "Cevaplar"
+            },
+            "title": "Gönderimler"
+        },
+        "settings": {
+            "youtube": {
+                "help": {
+                    "url": "Tam URL girilmelidir"
+                },
+                "error": {
+                    "pattern": "YouTube kanal URL'i geçersizdir"
+                }
+            },
+            "videoRequired": {
+                "label": "Video gereksinimi",
+                "allowed": "Video gereklidir"
+            },
+            "unlimited": "Limitsiz",
+            "type": {
+                "onsite": "Canlı/IRL",
+                "online": "Online",
+                "label": "Maraton tipi"
+            },
+            "twitter": {
+                "error": {
+                    "pattern": "Twitter ismi geçersiz",
+                    "max": "Twitter ismi çok uzun"
+                }
+            },
+            "twitch": {
+                "error": {
+                    "pattern": "Twitch ismi geçersiz",
+                    "max": "Twitch ismi çok uzun"
+                }
+            },
+            "title": "Maraton ayarları",
+            "tabs": {
+                "submissions": "Başvurular",
+                "incentives": "Teşvikler",
+                "general": "Genel",
+                "dangerZone": "Tehlike bölgesi",
+                "discord": "Discord"
+            },
+            "supportedCharity": {
+                "label": "Desteklenen dernek",
+                "error": {
+                    "required": "Desteklenen derneğin adı girilmelidir",
+                    "max": "Desteklenen derneğin adı çok uzun"
+                }
+            },
+            "submissionsTitle": "Başvuru ayarları",
+            "submissionsStartDate": {
+                "label": "Başvuruların açılma tarihi",
+                "error": {
+                    "required": "Eğer başvuru kapanma tarihi girilmişse başvuru açılma tarihi de girilmelidir"
+                }
+            },
+            "submissionsEndDate": {
+                "label": "Başvuruların kapanma tarihi",
+                "error": {
+                    "required": "Eğer başvuru açılma tarihi girilmişse başvuru kapanma tarihi de girilmelidir"
+                }
+            },
+            "submissions": {
+                "open": "Başvurular açık",
+                "label": "Başvurular",
+                "closed": "Başvurular kapanmıştır"
+            },
+            "startDate": {
+                "label": "Başlama tarihi",
+                "error": {
+                    "required": "Başlama tarihi gereklidir"
+                }
+            },
+            "shortname": {
+                "label": "Kısa ad",
+                "error": {
+                    "required": "Maraton kısa adı gereklidir",
+                    "pattern": "Maraton kısa adı geçersiz",
+                    "min": "Maraton kısa adı çok kısa",
+                    "max": "Maraton kısa adı çok uzun",
+                    "exists": "Maraton kısa adı zaten girilmiş"
+                },
+                "shorturl": "Kısa url"
+            },
+            "sandbox": {
+                "warning": "Dikkat: Oengus.sandbox Paypal'ın sandbox ortamı ile iletişim halindedir. (Sahte) bağışların çalışması için alıcı adresi olarak sandbox Paypal email adresi kullanmalısınız."
+            },
+            "privacy": {
+                "public": "Herkese açık",
+                "private": "Gizli",
+                "label": "Maraton gizliliği",
+                "help": "Özel maratonlar diğerleri gibi çalışır, fakat ana sayfada gösterilmezler. Sadece URL ile ulaşabilirsiniz."
+            },
+            "payee": {
+                "label": "Alıcı",
+                "help": "Alıcı Paypal ile ilişkilendirilmiş bir email adresi olmalıdır",
+                "error": {
+                    "required": "Alıcı gerekmektedir",
+                    "max": "Alıcı çok uzun",
+                    "email": "Alıcı email adresi olmalıdır"
+                }
+            },
+            "name": {
+                "label": "İsim",
+                "error": {
+                    "required": "Maraton adı girilmesi gerekmektedir",
+                    "pattern": "Maraton adı geçersiz",
+                    "min": "Maraton adı çok kısa",
+                    "max": "Maraton adı çok uzun"
+                }
+            },
+            "customFields": {
+                "action": {
+                    "title": "Eylem"
+                },
+                "label": {
+                    "type": "Tip",
+                    "error": {
+                        "required": "Etiket gerekli"
+                    },
+                    "title": "Etiket"
+                },
+                "title": "Özel Alanlar",
+                "type": {
+                    "option": {
+                        "checkbox": "Onay kutusu",
+                        "textArea": "Metin alanı",
+                        "select": "Seç",
+                        "text": "Metin",
+                        "freetext": "Dahili Metin"
+                    }
+                },
+                "description1": "Maratonunuza özel detayları koşuculara sormak için özel alanlar ekleyebilirsiniz. Başvuru sırasında bu alanlara cevap verebilirler. Başvurular açıldıktan sonra yeni alanların eklenmemesi tavsiye edilir, çünkü daha önce başvuruda bulunan koşucular, gönderilerini düzenlemezlerse cevap veremeyebilirler.",
+                "add": "Yeni özel alan ekle",
+                "description2": "Cevap ipuçları: Basit metin alanları maksimum 50 karakterle sınırlıdır. Metin alanları maksimum 500 karakterle sınırlıdır.",
+                "option": {
+                    "error": {
+                        "required": "Seçenek adı gerekli"
+                    }
+                },
+                "required": {
+                    "title": "Gerekli"
+                }
+            },
+            "defaultSetupTime": {
+                "label": "Varsayılan kurulum süresi",
+                "error": {
+                    "pattern": "Varsayılan kurulum süresi geçersiz. Biçimlendirilmelidir (HH)H:MM:SS",
+                    "required": "Varsayılan kurulum süresi gerekli"
+                }
+            },
+            "delete": {
+                "action": "Maratonu sil",
+                "confirmText": "Maratonunuzu silmek istediğinizden emin misiniz? Onaylamak için lütfen maratonun kısa adını yazın ve \"Onayla\"ya tıklayın."
+            },
+            "discordRequirement": {
+                "label": "Discord gereksinimi",
+                "help": {
+                    "1": "Oengus bot Discord sunucunuzda. Davet bağlantısı:",
+                    "2": "Discord davetiniz doldurulmuş ve geçerlidir.",
+                    "title": "Bu özellik yalnızca aşağıdaki koşullar karşılandığında kullanılabilir:",
+                    "3": "Discord'unuz herkese açık olarak ayarlandı."
+                },
+                "required": "Kullanıcının Discord'unuzda olmasını zorunlu kılın",
+                "found": {
+                    "title": "Davetin sunucusu bulundu",
+                    "name": "Sunucu Adı: <em>{{guildName}}</em>",
+                    "id": "Sunucu Kimliği: <em>{{guildId}}</em>"
+                }
+            },
+            "discordPrivacy": {
+                "label": "Discord gizliliği",
+                "help": "Discord özel olarak ayarlanırsa davet bağlantısı ana sayfada görüntülenmeyecek, yalnızca seçilen koşucuların alacağı e-postalarda görüntülenecektir.",
+                "private": "Discord gizlidir"
+            },
+            "webhook": {
+                "error": {
+                    "max": "Webhook bağlantısı çok uzun",
+                    "marathonParameter": "Gerekli maraton parametresini kaçırıyorsunuz",
+                    "offline": "Webhook'a ulaşılamadı. Bunun doğru URL olduğundan emin misiniz?"
+                },
+                "announceAcceptedSubmissions": {
+                    "title": "Kabul edilen koşucuları duyurun"
+                },
+                "label": "Webhook",
+                "help": "Yeni bir gönderim/bağış yapıldığında etkinlikleri almak için bir web kancası ekleyebilirsiniz. Daha fazla ayrıntı için lütfen bir yöneticiyle iletişime geçin.",
+                "botNotice": "Bu bir Oengus bot web kancasıdır; yani oengus bot, belirttiğiniz kanallara yerleştirmeler gönderecektir"
+            },
+            "maxCategoriesPerGame": {
+                "error": {
+                    "required": "Oyun başına maksimum kategori gereklidir",
+                    "max": "Oyun başına maksimum kategori sayısı çok yüksek",
+                    "min": "Oyun başına maksimum kategori sayısı pozitif bir değer olmalıdır"
+                },
+                "label": "Oyun başına maksimum kategori sayısı"
+            },
+            "discord": {
+                "error": {
+                    "pattern": "Discord bağlantısı geçersiz"
+                }
+            },
+            "maxNumberOfScreens": {
+                "label": "Oyun başına maksimum ekran sayısı",
+                "error": {
+                    "min": "Maksimum ekran sayısı pozitif bir değer olmalıdır",
+                    "required": "Maksimum ekran sayısı gerekli"
+                },
+                "help": "Çok oyunculu çalışmalara izin verirseniz tek bir yarışa/kooperatif gönderimine katılabilecek oyuncu sayısını kısıtlamak için yayında gösterilen ekran miktarını sınırlayabilirsiniz"
+            },
+            "country": {
+                "label": "Ülke"
+            },
+            "currencyIso": {
+                "error": {
+                    "max": "Para birimi kodu çok uzun",
+                    "required": "Para birimi kodu gerekli"
+                },
+                "help": "Paypal için para birimi kodu ISO-4217 biçiminde olmalı ve alacaklının birincil para birimi OLMALIDIR",
+                "label": "Para birimi kodu"
+            },
+            "description": "Burada maratonunuzun ayarlarını güncelleyebilirsiniz",
+            "donations": {
+                "label": "Bağış desteği",
+                "donationsOpen": "Bağışlar açık",
+                "hasDonations": "Bu bir yardım etkinliğidir"
+            },
+            "endDate": {
+                "error": {
+                    "required": "Tahmini bitiş tarihi gerekli"
+                },
+                "label": "Tahmini bitiş tarihi"
+            },
+            "marathonDescription": {
+                "label": "Açıklama",
+                "help": "Markdown destekleniyor"
+            },
+            "maxGamesPerRunner": {
+                "error": {
+                    "required": "Koşucu başına maksimum oyun gereklidir",
+                    "min": "Koşucu başına maksimum oyun sayısı pozitif bir değer olmalıdır"
+                },
+                "label": "Koşucu başına maksimum oyun"
+            },
+            "moderators": {
+                "label": "Moderatörler"
+            },
+            "multiplayer": {
+                "allowed": "Yarışlara/Ortak koşulara izin verilir",
+                "forbidden": "Yarışlar/Ortak koşular yasaktır",
+                "label": "Çok Oyunculu"
+            },
+            "donationsOpen": {
+                "label": "Bağışlar sayfası gösterimi"
+            },
+            "mastodon": {
+                "error": {
+                    "max": "Mastodon adı çok uzun",
+                    "pattern": "Mastodon kullanıcı adı 'user@instance.tld' ile eşleşmiyor"
+                }
+            },
+            "generalTitle": "Genel Ayarlar",
+            "incentives": {
+                "disabledNotification": "Teşvikler, güvenilmez olmaları ve bunları tarama seçeneğinin bulunmaması nedeniyle şu anda devre dışıdır. Bu işlevselliğin ne zaman geri döneceğine dair bir tahmin yok, ancak dönerse bunu duyuracağız.",
+                "hasIncentives": "Bu maratonun teşvikleri var",
+                "label": "Teşvik durumu"
+            },
+            "incentivesTitle": "Teşvik ayarları",
+            "language": {
+                "label": "Dil"
+            },
+            "dangerZone": "Tehlikeli bölge",
+            "emulatorAuthorized": {
+                "allowed": "Emülatörlere izin verilir",
+                "label": "Emülatörler"
+            },
+            "location": {
+                "label": "Konum"
+            }
+        },
+        "submit": {
+            "category": {
+                "estimate": {
+                    "error": {
+                        "required": "Tahmin gerekli",
+                        "min": "Tahmin geçersiz. 0 saniyeden üstün olmalı",
+                        "pattern": "Tahmin geçersiz. Biçimlendirilmelidir (HH)H:MM:SS"
+                    },
+                    "label": "Tahmin",
+                    "hint": "Bir tahmin girerken lütfen PB'nizi veya IGT'nizi göndermeyin. Oengus, koşu sırasında yapılan hataları ve/veya giriş ve çıkış gibi zamanlayıcı başlamadan önce harcadığınız süreyi hesaba katmak için RTA PB'nize en az 10 dakika eklemenizi önerir."
+                },
+                "video": {
+                    "label": "Video bağlantısı",
+                    "error": {
+                        "required": "Video bağlantısı gerekli"
+                    }
+                },
+                "description": {
+                    "label": "Kategori tanımı",
+                    "error": {
+                        "required": "Kategori açıklaması gerekli"
+                    },
+                    "help": "Bu kategori hakkında ayrıntılı bilgi verin"
+                },
+                "code": {
+                    "help": {
+                        "noCode": "Gönderiminizi kaydettikten sonra bu kategoriyi diğer ilgilenen koşucularla paylaşmanız için size bir kod verilecektir",
+                        "withCode": "Bu gönderiye katılabilmeleri için diğer koşuculara aşağıdaki kodu verin:"
+                    }
+                },
+                "name": {
+                    "error": {
+                        "required": "Kategori adı gerekli"
+                    },
+                    "label": "Kategori adı"
+                },
+                "type": {
+                    "label": "Tip"
+                },
+                "opponent": {
+                    "with": "İle:"
+                }
+            },
+            "dangerZone": "Tehlikeli bölge",
+            "delete": {
+                "action": "Gönderimi sil"
+            },
+            "game": {
+                "console": {
+                    "emulatorNotAllowed": "Bu maratonda emülatörlere izin verilmiyor",
+                    "emulated": "Taklit edilmiş",
+                    "label": "Konsol"
+                },
+                "description": {
+                    "label": "Oyun açıklaması",
+                    "error": {
+                        "required": "Oyun açıklaması gerekli"
+                    },
+                    "help": "Oyunu ve koşuyla ilgili genel özellikleri açıklayın"
+                },
+                "name": {
+                    "error": {
+                        "required": "Oyun adı gerekli"
+                    },
+                    "label": "Oyun adı"
+                },
+                "ratio": {
+                    "error": {
+                        "required": "Video oranı gerekli"
+                    },
+                    "label": "Video oranı/Çözünürlük (16:9, 4:3, 1920x1080…)"
+                }
+            },
+            "table": {
+                "runners": "Koşucular",
+                "actions": "Hareketler",
+                "categories": "Kategoriler",
+                "games": "Oyunlar"
+            },
+            "requirements": {
+                "discord": {
+                    "errors": {
+                        "userMissing": "Lütfen bu maraton için discord sunucusuna katılın <a href=\"{{invite}}\" target=\"_blank\">{{invite}}</a>",
+                        "botMissing": "Lütfen bu maratonun moderatörlerinden Oengus discord botunu davet etmelerini isteyin"
+                    },
+                    "syncNotice": [
+                        "ÖNEMLİ: Bu kontrolü yapmadan önce Discord'u hesabınızla senkronize etmeniz gerekir",
+                        "kullanıcı ayarları",
+                        "."
+                    ],
+                    "back": "Geri git",
+                    "lead": "Bu maratona katılmak için Discord sunucusunda olmanız gerekiyor",
+                    "par2": "Discord sunucusunda değilseniz gönderim yapamazsınız.",
+                    "par1": "Bu maratonda Discord sunucusunda olup olmadığınızı kontrol etmek için aşağıdaki \"kontrol et\" düğmesine tıklayın.",
+                    "check": "Kontrol et!",
+                    "title": "Geciktin!"
+                }
+            },
+            "availabilities": {
+                "from": "İtibaren",
+                "actions": "Hareketler",
+                "add": "Müsaitlik durumunu ekle",
+                "duplicate": "Ertesi gün için kopyala",
+                "error": {
+                    "dateRequired": "Tarih gerekli",
+                    "toDateTooLittle": "Bitiş tarihi, başlangıç tarihinden en az 1 dakika büyük olmalıdır.",
+                    "required": "Bir veya daha fazla kullanılabilirlik dönemi eklemelisiniz"
+                },
+                "label": "Uygunluklar",
+                "to": "İle"
+            },
+            "multiplayer": {
+                "title": "Çok oyunculu kategoriler",
+                "code": {
+                    "help": "Çok oyunculu gönderime katılmak için lütfen aşağıya bir kod girin"
+                }
+            },
+            "racesAllowed": "Yarışlara/İşbirliğine izin verildi",
+            "submissions": "Gönderimler",
+            "tweet": {
+                "submit": "{{games}} oyununu {{marathon}}'a gönderdim"
+            },
+            "customField": {
+                "error": {
+                    "required": "Alan gereklidir"
+                }
+            },
+            "details": "Detaylar",
+            "action": {
+                "addCategory": "Kategori ekle",
+                "removeGame": "Oyunu kaldır"
+            },
+            "maxCategoriesPerGame": "Oyun başına maksimum kategori",
+            "maxGamesPerRunner": "Koşucu başına maksimum oyun",
+            "maxNumberOfScreens": "Yarış/küme başına maksimum koşucu sayısı",
+            "submitsClosed": "Başvurular artık kapalı. Uygunluk durumunuzu yalnızca program yayınlanana kadar güncelleyebilirsiniz.",
+            "title": "Çalıştırmayı gönder"
+        }
     },
-    "incentives": {
-      "save": {
-        "error": "Teşvikler kaydedilirken bir hata meydana geldi. Lütfen tekrar deneyiniz veya bir admin ile irtibata geçiniz.",
-        "success": "Teşvikler kaydedildi."
-      },
-      "delete": {
-        "success": "Teşvik silindi",
-        "error": "Teşvik silinirken bir hata meydana geldi. Lütfen tekrar deneyiniz veya bir admin ile irtibata geçiniz."
-      }
+    "login": {
+        "authInProgress": "Kimlik doğrulama devam ediyor, lütfen bekleyin…",
+        "provider": {
+            "twitch": "Twitch ile giriş yap",
+            "google": "Google ile giriş yap",
+            "title": "Bir sağlayıcıyla oturum açın",
+            "discord": "Discord ile giriş yap"
+        },
+        "button": "Giriş",
+        "title": "Oengus hesabınıza giriş yapın",
+        "forgotPass": "Şifrenizi mi unuttunuz?",
+        "password": {
+            "show": "Şifreyi görünür yap",
+            "hide": "Şifreyi gizle"
+        },
+        "2fa": {
+            "label": "İki faktörlü kimlik doğrulama kodu"
+        }
     },
-    "category": {
-      "deletion": {
-        "error": "Kategori silinirken bir hata meydana geldi. Lütfen tekrar deneyiniz veya bir admin ile irtibata geçiniz.",
-        "success": "Kategori silindi"
-      }
+    "homepage": {
+        "welcomeTitle": "Oengus'a hoşgeldiniz!",
+        "welcomeText": {
+            "par4": {
+                "sandbox": "<b>Test ve keşif için size sunulmuş olan sandbox alanındasınız. Gerçek bir maraton oluşturmak için, lütfen <a href=\"https://oengus.io\">ana siteye</a> gidiniz.</b>",
+                "prod": "Eğer bir maraton oluşturmadan önce uygulamayı denemek isterseniz, lütfen <a href=\"https://sandbox.oengus.io\">sandbox alanımıza</a> gidin. Sandbox, tüm testleriniz ve keşifleriniz için size sunulmuştur."
+            },
+            "par3": "Tüm özelliklere erişmek için lütfen aşağıdaki linkten giriş yapın. Yeni maratonlar yaratabileceğiniz gibi, varolan maratonlara başvuru da gönderebileceksiniz:",
+            "par1": "Oengus, speedrun maratonlarının başvurulardan planlamaya kadar tüm işlemlerini yönetmeye yarayan <b>ücretsiz</b> bir araçtır."
+        },
+        "starts": "{{duration}} başlıyor",
+        "sponsors": {
+            "title": "Sponsorlar",
+            "esa": "oengus.io, <a href=\"https://esamarathon.com/\" target=\"_blank\"> European Speedrunner Assembly</a> tarafından barındırılmaktadır",
+            "kaspersky": {
+                "banner": "Kaspersky'nin sponsorluğu sayesinde Oengus v2 şu anda geliştirilme aşamasındadır.",
+                "box": "Kaspersky'nin sponsorluğu sayesinde Oengus v2 şu anda geliştirilme aşamasındadır. <a href=\"{{readMoreUrl}}\" target=\"_blank\">Daha fazlasını okuyun</a>"
+            }
+        },
+        "plannedFeatures": {
+            "1": "Kooperatif/yarış başvuruları",
+            "2": "Birden fazla seçim yöntemi (direk seçim, oylama...)",
+            "3": "Oyuncuların uygunluklarını görselleştirerek kolay planlama sistemi",
+            "4": "Hesaplar Twitter/Twitch/Google ile eşlenebilir",
+            "5": "Discord entregrasyonu",
+            "6": "Mail bildirimleri",
+            "7": "PayPal aracılığıyla bağış yönetimi",
+            "title": "Planlanan özellikler",
+            "volunteerManager": "Gönüllü başvuru yöneticisi"
+        },
+        "marathons": {
+            "upcoming": "Yakındaki maratonlar",
+            "open": "Başvurular açık",
+            "moderated": "Yönetilen maratonlar",
+            "live": "Canlı maratonlar",
+            "calendar": "Tüm takvim"
+        },
+        "ends": "{{duration}} içinde biter",
+        "submissions_close": "Gönderimler {{duration}} tarihinde sona eriyor"
     },
-    "donation": {
-      "export": {
-        "error": "Dışa aktarım sırasında bir hata meydana geldi. Lütfen tekrar deneyiniz veya bir admin ile irtibata geçiniz."
-      },
-      "validate": {
-        "error": "Bağış sırasında bir hata meydana geldi. Lütfen tekrar deneyiniz veya bir admin ile irtibata geçiniz.",
-        "success": "Bağışınız gönderildi. Teşekkürler!"
-      }
+    "aboutPage": {
+        "about": {
+            "par6": "İlginç bir bilgi: Oengus zaman ve sonsuzluğa hükmeden bir kelt ilahıdır. Speedrun maratonları için daha uygun bir isim olamazdı!",
+            "par5": "Ocak 2021'den itibaren site <a href=\"https://twitter.com/duncte123\" target=\"_blank\">duncte123</a> tarafından sürdürülmektedir.",
+            "par4": "Bu site <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a> tarafından yaratılmıştır. Kendisi, 2013'ten beri speedrun camiasında çeşitli roller almıştır: <a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a> global moderatörü, <a href=\"https://twitter.com/SpeedrunWRs\">Speedrun Dünya Rekorları Twitter botunun</a> yaratıcısı, Fransız yeniden yayınlama ekibinin (uluslararası speedrun maratonlarının daha geniş bir Fransız kitlesine ulaşmasını sağlayan ekip) bir üyesi, ve Bourg la Run'ın (Games Done Quick'in Fransız karşılığı)'nın yaratıcısı. Tüm bunları yaparken edindiği tecrübelerin ışığında, maraton düzenlemek için herkesin kullanımına açık bir araç eksikliğini hissetmesinin sonucu olarak bunu kendisi yapmaya karar vermiştir, ve Oengus bunun sonucudur.",
+            "title": "Hakkımızda",
+            "par3": "Speedrun maratonları, speedruncıların online veya reelde bir araya gelerek izleyicilere oyunları ve speedrunları sergilemek için toplanılan etkinliklerdir. En popüler speedrun maratonları, yılda iki kez düzenlenen<a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a>'tir.",
+            "par2": "\"Speedrun\", eğlenmek ve/veya başkalarıyla yarışmak amacıyla bir video oyununu olabildiğince hızlı tamamlama eylemidir. Speedrun hakkında daha fazla bilgiye <a href=\"https://en.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedia (İngilizce)</a>'dan ulaşabilirsiniz.",
+            "par1": "Oengus (Angus/ang·guhs olarak telaffuz edilir), hızlı koşu maratonları düzenlemek için araçlar sağlayan bir sitedir."
+        },
+        "contact": {
+            "title": "İletişim",
+            "par2": "İş/halkla ilişkiler sorularınız için <a href=\"mailto:contact@oengus.io\" target=\"_blank\">contact@oengus.io</a> adresine bir e-posta yazın. Yalnızca İngilizce yazılmış e-postalara cevap vereceğiz.",
+            "par1": "Bug mı buldunuz? Site hakkında sorularınız mı var? <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">Discord sunucumuza</a> katılın"
+        },
+        "privacy": {
+            "title": "Gizlilik Politikası",
+            "par1": "{{oengus-link}} adresinden erişilebilen Oengus'ta ana önceliklerimizden biri ziyaretçilerimizin gizliliğidir. Bu Gizlilik Politikası belgesi, Oengus tarafından toplanan ve kaydedilen bilgi türlerini ve bunları nasıl kullandığımızı içerir.",
+            "cookies": {
+                "title": "Çerezler ve Web İşaretleri",
+                "par1": "Diğer tüm web siteleri gibi Oengus da 'çerezler' kullanır. Bu çerezler, ziyaretçilerin tercihleri ve web sitesinde ziyaretçinin eriştiği veya ziyaret ettiği sayfalar dahil olmak üzere bilgileri depolamak için kullanılır. Bilgiler, web sayfası içeriğimizi ziyaretçilerin tarayıcı türüne ve/veya diğer bilgilere göre özelleştirerek kullanıcı deneyimini optimize etmek için kullanılır."
+            },
+            "thirdParty": {
+                "title": "Üçüncü Taraf Gizlilik Politikaları",
+                "par1": "Oengus'un Gizlilik Politikası diğer reklamverenler veya web siteleri için geçerli değildir.",
+                "par2": "Bireysel tarayıcı seçenekleriniz aracılığıyla çerezleri devre dışı bırakmayı seçebilirsiniz. Belirli web tarayıcılarında çerez yönetimi hakkında daha ayrıntılı bilgi edinmek için tarayıcıların ilgili web sitelerinde bulunabilir."
+            },
+            "children": {
+                "par1": "Önceliğimizin bir diğer kısmı da interneti kullanırken çocuklar için koruma eklemektir. Ebeveynleri ve velileri çevrimiçi aktivitelerini gözlemlemeye, katılmaya ve/veya izlemeye ve yönlendirmeye teşvik ediyoruz.",
+                "title": "Çocuk Bilgileri",
+                "par2": "Oengus, 13 yaşın altındaki çocuklardan bilerek herhangi bir Kişisel Tanımlayıcı Bilgi toplamaz. Çocuğunuzun bu tür bilgileri web sitemizde sağladığını düşünüyorsanız, derhal bizimle iletişime geçmenizi şiddetle tavsiye ederiz ve derhal kaldırmak için elimizden gelen çabayı göstereceğiz. Bu tür bilgiler kayıtlarımızdan alınmıştır."
+            },
+            "consent": {
+                "title": "Onay",
+                "par1": "Web sitemizi kullanarak Gizlilik Politikamızı ve Şartlar ve Koşullarını kabul etmiş olursunuz."
+            },
+            "par2": "Başka sorularınız varsa veya Gizlilik Politikamız hakkında daha fazla bilgiye ihtiyacınız varsa bizimle iletişime geçmekten çekinmeyin.",
+            "log": {
+                "title": "Günlük Dosyaları",
+                "par1": "Oengus, günlük dosyalarını kullanma konusunda standart bir prosedür izler. Bu dosyalar ziyaretçilerin web sitelerini ziyaret etmelerini günlüğe kaydeder. Tüm barındırma şirketleri bunu yapar ve barındırma hizmetlerinin analitiğinin bir parçasıdır. Günlük dosyaları tarafından toplanan bilgiler arasında internet protokolü (IP) adresleri, tarayıcı türü, İnternet Servis Sağlayıcısı (ISP), tarih ve saat damgası, yönlendiren/çıkış sayfaları ve muhtemelen tıklama sayısı yer alır. Bunlar kişisel olarak tanımlanabilecek herhangi bir bilgiyle bağlantılı değildir. Bilgilerin amacı eğilimleri analiz etmek, siteyi yönetmek, kullanıcıların web sitesindeki hareketlerini izlemek ve demografik bilgileri toplamaktır."
+            },
+            "online": {
+                "title": "Yalnızca Çevrimiçi Gizlilik Politikası",
+                "par1": "Bu Gizlilik Politikası yalnızca çevrimiçi etkinliklerimiz için geçerlidir ve Oengus'ta paylaştıkları ve/veya topladıkları bilgiler açısından web sitemizi ziyaret edenler için geçerlidir. Bu politika, çevrimdışı olarak veya bu web sitesi dışındaki kanallar aracılığıyla toplanan hiçbir bilgi için geçerli değildir."
+            },
+            "par3": "Uyuşmazlık durumunda bu politikanın İngilizce versiyonu önceliklidir."
+        }
     },
-    "game": {
-      "export": {
-        "error": "Dışa aktarım sırasında bir hata meydana geldi. Lütfen tekrar deneyiniz veya bir admin ile irtibata geçiniz."
-      },
-      "deletion": {
-        "success": "Oyun silindi",
-        "error": "Oyun silinirken bir hata meydana geldi. Lütfen tekrar deneyiniz veya bir admin ile irtibata geçiniz."
-      }
+    "global": {
+        "adblocker": "Selam, görünüşe bakılırsa reklamları engelliyorsunuz, lütfen Oengus'u whitelistinize ekleyin çünkü reklam gelirlerine muhtacız.",
+        "emu": "[Emu]",
+        "enabled": "Etkin",
+        "disabled": "Devre Dışı",
+        "non_select": "Hiçbiri seçilmedi",
+        "ads": {
+            "nag1": "Reklamları sevmiyor musunuz?",
+            "nag2": "Oengus'un özgür kalmasına yardımcı olmak için lütfen Patreon kampanyamıza katılın"
+        }
+    },
+    "footer": {
+        "text": "Tüm saatler bulunduğunuz zaman diliminize çevrilmiştir. Algılanan zaman dilimi: {{timezone}}",
+        "donate": "Oengus'tan memnunsanız, lütfen <a href=\"{{donationLink}}\" target=\"_blank\">bağış yaparak</a> bize destek olun",
+        "v1Link": "v1 üzerinden Oengus'a giriş yapın",
+        "patron": {
+            "patronLink": "patron olmak",
+            "enjoyOengus": "Oengus'tan hoşlanıyorsanız lütfen {{patronLink}}'u düşünün",
+            "list": "Katkılarıyla Oengus'un herkes için ücretsiz olmasını sağlayan, aşağıda listelenen destekçilerimize teşekkür ederiz"
+        }
+    },
+    "calendar": {
+        "title": "Maraton takvimi",
+        "help": "Bir etkinliğe tıklamak sizi etkinlik sayfasına yönlendirecektir",
+        "endsAt": "{{end-time}} biter",
+        "allDay": "Tüm gün",
+        "startsAt": "{{start-time}} başlıyor",
+        "now": "Şimdi",
+        "between": "{{time-range}}",
+        "noMarathons": "Bu tarih aralığında maraton bulunmamaktadır."
+    },
+    "alert": {
+        "user": {
+            "update": {
+                "success": "Kullanıcı verisi güncellendi",
+                "error": "Kullanıcı veri güncellemesi sırasında hata"
+            },
+            "sync": {
+                "error": "Hesap senkronizasyonu sırasında bir hata oluştu. Genellikle buna bir reklam engelleyici neden olur. Lütfen oengus'u beyaz listeye alarak veya tüm uzantıları devre dışı bırakarak yeniden deneyin. Uzantı yüklü olmayan bir tarayıcıyı denediyseniz ve hala bu hatayı görüyorsanız lütfen Oengus Discord sunucusundaki #bug_or_feature bölümünden yardım isteyin.",
+                "alreadySynced": "Hata: Bu hesap kullanılmaktadır"
+            },
+            "login": {
+                "usernameExists": "Giriş yapmaya çalıştığınız hesaba ilişkilendirilmiş kullanıcı adı kullanımdadır. Daha önce başka bir giriş yöntemiyle bir Oengus profili oluşturmadığınızdan emin olun. Eğer bir yanlışlık olduğunu düşünüyorsanız bir admin ile irtibata geçin.",
+                "error": "Kullanıcı doğrulama sırasında bir hata meydana geldi. Lütfen tekrar deneyiniz veya bir admin ile irtibata geçiniz.",
+                "disabledAccount": "Hesabınız devre dışıdır. Kullanıma açmak isterseniz bir admin ile irtibata geçiniz."
+            },
+            "deactivate": {
+                "success": "Hesabınız devre dışı bırakılmıştır"
+            }
+        },
+        "submit": {
+            "SAME_USER": "Kendi oluşturduğunuz bir kategoriye kendinizi ekleyemezsiniz",
+            "NOT_MULTIPLAYER": "Bu kategori çoklu oyunculu değildir",
+            "MAX_SIZE_REACHED": "Bu başvuru maksimum sayıda oyuncuya ulaşmıştır",
+            "DIFFERENT_MARATHON": "Bu kod başka maraton içindir",
+            "CODE_NOT_FOUND": "Bu kod bulunamadı",
+            "ALREADY_IN_OPPONENTS": "Bu kategoriye zaten dahilsiniz",
+            "DISCORD_VERIFIED": "Discord sunucusunda olduğunuz doğrulandı, artık gönderebilirsiniz"
+        },
+        "submission": {
+            "save": {
+                "success": "Başvuru gönderildi",
+                "error": "Başvuru işlemi sırasında hata"
+            },
+            "deletion": {
+                "success": "Başvuru silindi",
+                "error": "Başvuru silinirken bir hata meydana geldi. Lütfen tekrar deneyiniz veya bir admin ile irtibata geçiniz."
+            },
+            "cache": "Gönderiminizin bu listede görünmesi 30 dakika veya daha uzun sürebilir"
+        },
+        "selection": {
+            "save": {
+                "success": "Seçim kaydedildi",
+                "error": "Seçim sırasında hata"
+            }
+        },
+        "schedule": {
+            "save": {
+                "success": "Plan kaydedildi",
+                "error": "Plan kaydı sırasında hata"
+            },
+            "export": {
+                "error": "Dışa aktarım sırasında bir hata meydana geldi. Lütfen tekrar deneyiniz veya bir admin ile irtibata geçiniz."
+            }
+        },
+        "marathon": {
+            "update": {
+                "success": "Maraton güncellendi",
+                "error": "Maraton güncellenirken hata"
+            },
+            "deletion": {
+                "success": "Maraton silindi",
+                "error": "Maraton silinirken hata"
+            },
+            "creation": {
+                "success": "Maraton oluşturuldu",
+                "error": "Maraton yaratımında hata"
+            }
+        },
+        "incentives": {
+            "save": {
+                "error": "Teşvikler kaydedilirken bir hata meydana geldi. Lütfen tekrar deneyiniz veya bir admin ile irtibata geçiniz.",
+                "success": "Teşvikler kaydedildi."
+            },
+            "delete": {
+                "success": "Teşvik silindi",
+                "error": "Teşvik silinirken bir hata meydana geldi. Lütfen tekrar deneyiniz veya bir admin ile irtibata geçiniz."
+            }
+        },
+        "category": {
+            "deletion": {
+                "error": "Kategori silinirken bir hata meydana geldi. Lütfen tekrar deneyiniz veya bir admin ile irtibata geçiniz.",
+                "success": "Kategori silindi"
+            }
+        },
+        "donation": {
+            "export": {
+                "error": "Dışa aktarım sırasında bir hata meydana geldi. Lütfen tekrar deneyiniz veya bir admin ile irtibata geçiniz."
+            },
+            "validate": {
+                "error": "Bağış sırasında bir hata meydana geldi. Lütfen tekrar deneyiniz veya bir admin ile irtibata geçiniz.",
+                "success": "Bağışınız gönderildi. Teşekkürler!"
+            }
+        },
+        "game": {
+            "export": {
+                "error": "Dışa aktarım sırasında bir hata meydana geldi. Lütfen tekrar deneyiniz veya bir admin ile irtibata geçiniz."
+            },
+            "deletion": {
+                "success": "Oyun silindi",
+                "error": "Oyun silinirken bir hata meydana geldi. Lütfen tekrar deneyiniz veya bir admin ile irtibata geçiniz."
+            }
+        }
+    },
+    "action": {
+        "submit": "Gönder",
+        "sendTweet": "Tweetle",
+        "save": "Kaydet",
+        "join": "Katıl",
+        "decline": "Reddet",
+        "confirm": "Onayla",
+        "clearAvailabilities": "Seçili boşlukları temizle",
+        "cancel": "Vazgeç",
+        "accept": "Kabul Et",
+        "shareMastodon": "mastodon'da paylaş",
+        "login": "giriş yap"
+    },
+    "language": {
+        "de": "Almanca",
+        "hi": "Hintçe",
+        "fil": "Filipince",
+        "lt": "Litvanca",
+        "hr": "Hırvatça",
+        "lv": "Letonca",
+        "hu": "Macarca",
+        "zh-CN": "Çince",
+        "uk": "Ukraynaca",
+        "id": "Indonesian",
+        "ur": "Urduca",
+        "ml": "Malayalam dili",
+        "mr": "Marathi dili",
+        "ms": "Malayca",
+        "el": "Yunanca",
+        "en": "İngilizce",
+        "eo": "Esperanto",
+        "is": "İzlandaca",
+        "it": "İtalyanca",
+        "am": "Amharca",
+        "chr": "Çerokice",
+        "iw": "Hebrew",
+        "es": "İspanyolca",
+        "et": "Estonca",
+        "eu": "Baskça",
+        "ar": "Arapça",
+        "pt-PT": "Portekizce",
+        "vi": "Vietnamca",
+        "ja": "Japonca",
+        "ro": "Rumence",
+        "en-GB": "İngilizce",
+        "nl": "Felemenkçe",
+        "no": "Norveççe",
+        "fi": "Fince",
+        "ru": "Rusça",
+        "bg": "Bulgarca",
+        "bn": "Bengalce",
+        "fr": "Fransızca",
+        "sk": "Slovakça",
+        "sl": "Slovence",
+        "ca": "Katalanca",
+        "sr": "Sırpça",
+        "kn": "Kannada dili",
+        "sv": "İsveççe",
+        "ko": "Korece",
+        "sw": "Svahili dili",
+        "zh_TW": "Çince",
+        "pt_BR": "Portekizce",
+        "ta": "Tamilce",
+        "gu": "Güceratça",
+        "cs": "Çekçe",
+        "te": "Telugu dili",
+        "th": "Tayca",
+        "cy": "Galce",
+        "pl": "Lehçe",
+        "da": "Danca",
+        "tr": "Türkçe"
+    },
+    "navbar": {
+        "discord": "Resmi Discord sunucusuna katılın",
+        "register": "Kayıt ol",
+        "login": {
+            "twitter": "Twitter'la giriş yap",
+            "discord": "Discord'la giriş yap",
+            "google": "Google ile giriş yap",
+            "password": "Kullanıcı adı ve şifre ile giriş yapın",
+            "disclaimer": "Uyarı: Oengus'ta zaten bir profiliniz varsa lütfen profilinizle senkronize edilmiş harici bir hesapla giriş yaptığınızdan emin olun, aksi takdirde yeni bir profil oluşturulacaktır",
+            "title": "Giriş yap",
+            "twitch": "Twitch'le giriş yap",
+            "mastodon": "Mastodon'la giriş yap"
+        },
+        "displayNameNotification": "Hey! Görünüşe göre profilinizde görünen adınız eksik. Lütfen ayarlamak için ayarlarınıza gidin!",
+        "twitter": "Bizi Twitter'da takip edin",
+        "about": "Hakkında",
+        "patrons": "Kullanıcılarımız",
+        "bugtracker": "Hataları ve önerileri bildirin",
+        "createMarathon": "Yeni Maraton",
+        "sourceCode": "Kaynak kodu",
+        "privacyConsent": "Kabul Et'e tıklayarak Oengus'un çerezleri trafik analizi amacıyla kullanmasına izin vermiş olursunuz. Hakkında sayfasında gizlilik politikamız hakkında daha fazla bilgi edinin.",
+        "logout": "Çıkış Yap",
+        "translate": "Sitenin çevrilmesine yardım edin",
+        "mastodon": "Bizi Mastodon'da takip edin",
+        "email-verification": {
+            "message": "Hey! Görünüşe göre e-posta adresinizi henüz doğrulamadınız. Doğrulanmış e-posta adresi olmayan kullanıcılar gelecekte silinebilir.",
+            "request-btn": "Yeni doğrulama e-postası isteyin"
+        },
+        "donate": "Bağış",
+        "profile": "Profilim",
+        "settings": "Ayarlar"
+    },
+    "user": {
+        "profile": {
+            "speak": "Konuşulan diller:",
+            "activate": "Kullanıcıyı Etkinleştir",
+            "ban": "Kullanıcıyı Yasakla",
+            "unban": "Kullanıcı Yasağını Kaldır",
+            "filter": {
+                "temporality": {
+                    "FUTURE": "Gelecek maratonlar",
+                    "PAST": "Geçmiş maratonlar",
+                    "title": "Geçicilik"
+                },
+                "status": {
+                    "title": "Durum"
+                }
+            },
+            "moderator": "Denetlenen etkinlikler",
+            "submissions": "Gönderim geçmişi",
+            "deactivate": "Kullanıcıyı Devre Dışı Bırak"
+        },
+        "settings": {
+            "connections": {
+                "visibility": "Herkese açık",
+                "select_platform": "Bir platform seçin",
+                "username": "Kullanıcı adı veya benzeri",
+                "title": "Bağlantılar",
+                "subtitle": "Bu sosyal medya bağlantıları profilinizde herkese açık olarak görünür."
+            },
+            "title": "Profilimi değiştir",
+            "new": {
+                "beforeWeStart": "Başlamadan önce…",
+                "description": "Kendinizle ilgili bazı ekstra bilgilere ihtiyacımız var. Lütfen boşlukları doldurmak için bir dakikanızı ayırın."
+            },
+            "twitch": {
+                "error": {
+                    "max": "Twitch adı çok uzun",
+                    "pattern": "Twitch adı geçersiz"
+                },
+                "disabled": {
+                    "help": "Twitch hesabınızı senkronize ettiğiniz için bu alan devre dışı bırakıldı. Twitch adınız değiştiyse güncellemek için lütfen Twitch hesabınızı tekrar senkronize edin."
+                }
+            },
+            "email": {
+                "label": "E-posta",
+                "error": {
+                    "required": "E-posta gereklidir",
+                    "email": "E-posta geçersiz"
+                },
+                "help": "E-posta adresiniz gizli tutulacaktır ancak profil resminizi <a href=\"https://gravatar.com/\" target=\"_blank\">Gravatar</a>'dan PG derecelendirmesine sahip resimlerle getirmek için kullanılır veya daha düşük."
+            },
+            "language": {
+                "label": "Konuştuğunuz diller",
+                "no_results": "Dil bulunamadı",
+                "placeholder": "Dil bulmak için yazın"
+            },
+            "twitter": {
+                "error": {
+                    "max": "Twitter adı çok uzun",
+                    "pattern": "Twitter adı geçersiz"
+                },
+                "disabled": {
+                    "help": "Twitter hesabınızı senkronize ettiğiniz için bu alan devre dışı bırakıldı. Twitter adınız değiştiyse güncellemek için lütfen Twitter hesabınızı tekrar senkronize edin."
+                }
+            },
+            "password": {
+                "label": "Şifre",
+                "error": {
+                    "required": "Şifre gereklidir"
+                },
+                "changeLabel": "Şifre değiştir"
+            },
+            "deactivateAccount": {
+                "title": "Hesabınızı devre dışı bırakın veya silin",
+                "action": "Devre dışı bırak",
+                "confirmText": "Hesabınızı devre dışı bırakmak istediğinizden emin misiniz? Onaylamak için lütfen kullanıcı adınızı yazın ve \"Onayla\"ya tıklayın",
+                "description": "Hesabınızı devre dışı bırakmak, tekrar giriş yapmanızı engelleyecektir ve moderatörler sizi bir maratonun moderatörü veya bir programdaki koşucu olarak ekleyemeyecektir. Tüm veriler tutarlılık amacıyla saklanır, ancak sosyal ağlarınız artık programlarda veya gönderim listelerinde görünmeyecek, hesabınıza bağlı kalacaktır. Hesabınızı gelecekte tekrar kullanmak isterseniz lütfen bir yöneticiyle iletişime geçin."
+            },
+            "pronouns": {
+                "title": "Zamirler",
+                "hint": "Bir zamir arayın, örneğin: onlar/onlara",
+                "no_results": "Hiçbir zamir bulunamadı",
+                "help": "Zamir verileri <a href=\"https://en.pronouns.page/\" target=\"_blank\">pronouns.page</a> adresinden alınmıştır. Çalışmaları ve nasıl katkıda bulunabilecekleri hakkında daha fazla bilgi edinmek için lütfen web sitelerini ziyaret edin."
+            },
+            "mfa": {
+                "label": "İki faktörlü doğrulama",
+                "modal": {
+                    "title": "2fa'yı kurun",
+                    "manualCode": "Alternatif olarak şu kodu manuel olarak da girebilirsiniz: {{code}}",
+                    "tagline": "Hesabınızı daha güvenli hale getirmeye hazır olun!",
+                    "imageTop": "Kimlik doğrulayıcı uygulamanızla QR kodunu tarayın ve aşağıdaki girişe numarayı girin"
+                },
+                "enableButton": "İki faktörlü kimlik doğrulamayı etkinleştir",
+                "disableButton": "İki faktörlü kimlik doğrulamayı devre dışı bırakın"
+            },
+            "displayName": {
+                "error": {
+                    "min": "Görünen ad çok kısa; en az 1 karakter gerekli",
+                    "required": "Görünen ad gerekli",
+                    "max": "Görünen ad çok uzun, maksimum 32 karakter."
+                },
+                "label": "Ekran adı",
+                "help": "Bir takma ad kullanıyorsanız veya kullanıcı adınızdan farklı bir şey istiyorsanız Oengus'ta nasıl görüneceğinizi ayarlamak için bu alanı kullanabilirsiniz."
+            },
+            "accountSync": {
+                "description": "Sosyal medya hesaplarınızı buradan senkronize edebilirsiniz. Daha sonra tüm senkronize hesaplarınızla Oengus hesabınıza bağlanabilirsiniz.",
+                "error": {
+                    "noService": "Hesabınızla senkronize edilmiş en az bir hizmetinizin olması gerekir"
+                },
+                "sync": "Hesabı senkronize et",
+                "title": "Hesap senkronizasyonu",
+                "unsync": "Hesabı kaldır"
+            },
+            "deletingAccount": {
+                "title": "UYARI!",
+                "body": [
+                    "Oengus hesabınızı silmek üzeresiniz.",
+                    "BU EYLEM GERİ DÖNÜLEMEZ!",
+                    "Hesabınızı silmek istediğinizi onaylamak için lütfen bu kutuya kullanıcı adınızı yazın."
+                ],
+                "settingsDeleteBtn": "Hesabı sil",
+                "btnDelete": "Hesabı sil :(",
+                "success": "Hesabınız silinmiştir",
+                "btnCancel": "İptal et :)"
+            },
+            "profilePicture": {
+                "label": "Profil fotoğrafı",
+                "button": "Profil resmini ayarla"
+            },
+            "srcom": {
+                "error": {
+                    "pattern": "Speedrun.com kullanıcı adı geçersiz",
+                    "max": "Speedrun.com kullanıcı adı çok uzun"
+                }
+            },
+            "username": {
+                "error": {
+                    "exists": "Kullanıcı adı zaten var. Lütfen başka bir hesap kullanın veya başka bir harici hesapla (Twitch veya Discord) senkronize edilmiş bir profilinizin olmadığından emin olun",
+                    "max": "Kullanıcı adı çok uzun, maksimum 32 karakter",
+                    "min": "Kullanıcı adı çok kısa, en az 3 karakter gerekli",
+                    "pattern": "Kullanıcı adı yalnızca küçük harf karakterlerinden, rakamlardan, _ ve -'den oluşur",
+                    "required": "Kullanıcı adı gerekli"
+                },
+                "label": "Kullanıcı adı"
+            },
+            "general": "Genel bilgi",
+            "discord": {
+                "disabled": {
+                    "help": "Discord hesabınızı senkronize ettiğiniz için bu alan devre dışı bırakıldı. Discord adınız değiştiyse lütfen güncellemek için Discord hesabınızı tekrar senkronize edin."
+                }
+            }
+        }
+    },
+    "patrons": {
+        "par1": "Oengus.io'nun çalışır durumda kalmasına yardımcı oldukları için destekçilerimize teşekkür ederiz",
+        "par2": "Bu sayfada listelenen kişiler ve kuruluşlar, <a href=\"https://www.patreon.com/oengusio\" target=\"_blank\">Patreon Kampanyamıza</a> bağışta bulunan ve oengus'un herkes için ücretsiz kalmasına yardımcı olanlar.",
+        "noPatrons": "Burada görüntülenecek kimse yok, neden <a href=\"https://www.patreon.com/oengusio\" target=\"_blank\">ilk siz olmuyorsunuz</a>?",
+        "title": "Kullanıcılarımız"
+    },
+    "country": {
+        "AL": "Arnavutluk",
+        "AG": "Antigua ve Barbuda",
+        "SO": "Somali",
+        "SD": "Sudan",
+        "BR": "Brezilya",
+        "ST": "Sao Tome ve Principe",
+        "BQ": "Bonaire, Sint Eustatius ve Saba",
+        "CN": "Çin",
+        "IM": "Man Adası",
+        "LY": "Libya",
+        "TJ": "Tacikistan",
+        "NL": "Hollanda",
+        "PN": "Pitcairn",
+        "PL": "Polonya",
+        "PT": "Portekiz",
+        "PR": "Porto Riko",
+        "RO": "Romanya",
+        "RW": "Ruanda",
+        "SM": "San Marino",
+        "AE": "Birleşik Arap Emirlikleri",
+        "IS": "İzlanda",
+        "ZW": "Zimbabve",
+        "PE": "Peru",
+        "AT": "Avusturya",
+        "BY": "Belarus",
+        "BE": "Belçika",
+        "BO": "Bolivya (Çokuluslu Devlet)",
+        "CR": "Kosta Rika",
+        "FO": "Faroe Adaları",
+        "GR": "Yunanistan",
+        "GL": "Grönland",
+        "GD": "Grenada",
+        "GN": "Gine",
+        "GW": "Gine-Bissau",
+        "KE": "Kenya",
+        "MM": "Myanmar",
+        "TT": "Trinidad ve Tobago",
+        "VU": "Vanuatu",
+        "ZM": "Zambiya",
+        "AS": "Amerikan Samoası",
+        "AI": "Anguilla",
+        "BD": "Bangladeş",
+        "CL": "Şili",
+        "DJ": "Cibuti",
+        "CH": "İsviçre",
+        "VE": "Venezuela (Bolivaryen Cumhuriyeti)",
+        "WF": "Wallis ve Futuna",
+        "AQ": "Antarktika",
+        "AR": "Arjantin",
+        "AM": "Ermenistan",
+        "BH": "Bahreyn",
+        "BB": "Barbados",
+        "BZ": "Belize",
+        "BJ": "Benin",
+        "BA": "Bosna Hersek",
+        "KH": "Kamboçya",
+        "CM": "Kamerun",
+        "CA": "Kanada",
+        "KY": "Cayman Adaları",
+        "CO": "Kolombiya",
+        "KM": "Komorlar",
+        "CG": "Kongo",
+        "CI": "Fildişi Sahili",
+        "DK": "Danimarka",
+        "EC": "Ekvador",
+        "FJ": "Fiji",
+        "FI": "Finlandiya",
+        "GH": "Gana",
+        "GI": "Cebelitarık",
+        "IT": "İtalya",
+        "JM": "Jamaika",
+        "LB": "Lübnan",
+        "LS": "Lesotho",
+        "LI": "Lihtenştayn",
+        "MO": "Makao",
+        "MW": "Malawi",
+        "MY": "Malezya",
+        "MX": "Meksika",
+        "FM": "Mikronezya (Federal Devletleri)",
+        "MD": "Moldova, Cumhuriyeti",
+        "MS": "Montserrat",
+        "MZ": "Mozambik",
+        "OM": "Umman",
+        "PK": "Pakistan",
+        "PW": "Palau",
+        "SK": "Slovakya",
+        "SI": "Slovenya",
+        "SB": "Solomon Adaları",
+        "SJ": "Svalbard ve Jan Mayen",
+        "SY": "Suriye Arap Cumhuriyeti",
+        "UM": "Amerika Birleşik Devletleri Küçük Dış Adaları",
+        "UY": "Uruguay",
+        "UZ": "Özbekistan",
+        "SS": "Güney Sudan",
+        "US": "Amerika Birleşik Devletleri",
+        "DZ": "Cezayir",
+        "AF": "Afganistan",
+        "AO": "Angola",
+        "AW": "Aruba",
+        "AU": "Avustralya",
+        "AZ": "Azerbaycan",
+        "BS": "Bahamalar",
+        "BT": "Butan",
+        "BW": "Botsvana",
+        "BV": "Bouvet Adası",
+        "IO": "Britanya Hint Okyanusu Toprakları",
+        "BN": "Brunei",
+        "BG": "Bulgaristan",
+        "BI": "Burundi",
+        "CD": "Kongo, Demokratik Cumhuriyeti",
+        "CK": "Cook Adaları",
+        "CF": "Orta Afrika Cumhuriyeti",
+        "TD": "Çad",
+        "CX": "Christmas Adaları",
+        "CC": "Cocos (Keeling) Adaları",
+        "CU": "Küba",
+        "HR": "Hırvatistan",
+        "CW": "Curacao",
+        "CZ": "Çekya",
+        "DM": "Dominika",
+        "DO": "Dominik Cumhuriyeti",
+        "SV": "El Salvador",
+        "ER": "Eritre",
+        "ET": "Etiyopya",
+        "FK": "Falkland Adaları (Malvinas Adaları)",
+        "FR": "Fransa",
+        "GF": "Fransız Guyanası",
+        "PF": "Fransız Polinezyası",
+        "DE": "Almanya",
+        "GP": "Guadeloupe",
+        "GT": "Guatemala",
+        "GG": "Guernsey",
+        "GY": "Guyana",
+        "HT": "Haiti",
+        "ID": "Endonezya",
+        "IN": "Hindistan",
+        "IQ": "Irak",
+        "IE": "İrlanda",
+        "IL": "İsrail",
+        "JP": "Japonya",
+        "JE": "Jersey",
+        "JO": "Ürdün",
+        "MG": "Madagaskar",
+        "MQ": "Martinik",
+        "NA": "Namibya",
+        "NR": "Nauru",
+        "NP": "Nepal",
+        "EE": "Estonya",
+        "SZ": "Esvatini",
+        "TF": "Fransız Güney Toprakları",
+        "GA": "Gabon",
+        "GM": "Gambiya",
+        "GE": "Gürcistan",
+        "SA": "Suudi Arabistan",
+        "SN": "Senegal",
+        "TL": "Timor-Leste",
+        "AX": "Aland adaları",
+        "KI": "Kiribati",
+        "MP": "Kuzey Mariana Adaları",
+        "GS": "Güney Georgia ve Güney Sandwich Adaları",
+        "TN": "Tunus",
+        "TR": "Türkiye",
+        "YE": "Yemen",
+        "CY": "Kıbrıs",
+        "EG": "Mısır",
+        "VN": "Viet Nam",
+        "VG": "Virgin Adaları (İngiliz)",
+        "AD": "Andorra",
+        "GU": "Guam",
+        "TG": "Togo",
+        "UG": "Uganda",
+        "KR": "Kore, Cumhuriyeti",
+        "LU": "Lüksemburg",
+        "MR": "Moritanya",
+        "MU": "Mauritius",
+        "MN": "Moğolistan",
+        "ME": "Karadağ",
+        "NG": "Nijerya",
+        "NU": "Niue",
+        "NO": "Norveç",
+        "MK": "Kuzey Makedonya",
+        "PS": "Filistin, Devleti",
+        "PA": "Panama",
+        "PG": "Papua Yeni Gine",
+        "QA": "Katar",
+        "KN": "Saint Kitts ve Nevis",
+        "PM": "Saint Pierre ve Miquelon",
+        "RS": "Sırbistan",
+        "SG": "Singapur",
+        "SX": "Sint Maarten (Hollanda kısmı)",
+        "TW": "Tayvan, Çin'in bölgesi",
+        "TK": "Tokelau",
+        "TO": "Tonga",
+        "TV": "Tuvalu",
+        "TM": "Türkmenistan",
+        "TC": "Turks ve Caicos Adaları",
+        "RU": "Rusya Federasyonu",
+        "VC": "Saint Vincent ve Grenadinler",
+        "LK": "Sri Lanka",
+        "TH": "Tayland",
+        "TZ": "Tanzanya, Birleşik Cumhuriyeti",
+        "VA": "Kutsal Makam",
+        "HM": "Heard Adası ve McDonald Adaları",
+        "HN": "Honduras",
+        "IR": "İran (İslâm Cumhuriyeti)",
+        "LV": "Letonya",
+        "NF": "Norfolk Adası",
+        "PY": "Paraguay",
+        "ES": "İspanya",
+        "BM": "Bermuda",
+        "BL": "Saint Barthélemy",
+        "ZA": "Güney Afrika",
+        "BF": "Burkina Faso",
+        "CV": "Cape Verde",
+        "LR": "Liberya",
+        "RE": "Réunion",
+        "SH": "Saint Helena, Yükseliş ve Tristan da Cunha",
+        "GQ": "Ekvator Ginesi",
+        "HU": "Macaristan",
+        "HK": "Hong Kong",
+        "KW": "Kuveyt",
+        "KG": "Kırgızistan",
+        "LA": "Lao Demokratik Halk Cumhuriyeti",
+        "LT": "Litvanya",
+        "MV": "Maldivler",
+        "ML": "Mali",
+        "MT": "Malta",
+        "MH": "Marshall Adaları",
+        "YT": "Mayotte",
+        "MC": "Monako",
+        "MA": "Fas",
+        "NZ": "Yeni Zelanda",
+        "NI": "Nikaragua",
+        "NE": "Nijer",
+        "PH": "Filipinler",
+        "LC": "Saint Lucia",
+        "MF": "Saint Martin (Fransa kısmı)",
+        "SC": "Seyşeller",
+        "SL": "Sierra Leone",
+        "SR": "Surinam",
+        "SE": "İsveç",
+        "UA": "Ukrayna",
+        "GB": "Büyük Britanya Birleşik Krallığı ve Kuzey İrlanda",
+        "VI": "Virgin Adaları (A.B.D.)",
+        "EH": "Batı Sahra",
+        "KZ": "Kazakistan",
+        "KP": "Kore (Demokratik Halk Cumhuriyeti)",
+        "WS": "Samoa",
+        "NC": "Yeni Kaledonya"
+    },
+    "announcements": {
+        "twitterRemoval": "Merhaba, yakında oturum açma seçeneği olarak Twitter'ı kaldıracağız. Kilitlenmeyi önlemek için Twitch veya Discord hesabınızın Oengus hesabınıza bağlı olduğundan emin olun."
+    },
+    "platform": {
+        "FACEBOOK": "Facebook",
+        "EMAIL": "E-posta",
+        "SPEEDRUNCOM": "speedrun.com",
+        "NICO": "Nico",
+        "PHONE": "Telefon Numarası",
+        "MASTODON": "Mastodon",
+        "TWITTER": "Twitter",
+        "YOUTUBE": "YouTube",
+        "TWITCH": "Twitch",
+        "DISCORD": "Discord",
+        "INSTAGRAM": "Instagram",
+        "SNAPCHAT": "Snapchat"
+    },
+    "errors": {
+        "404": {
+            "title1": "Atlarınızı tutun, çok hızlısınız",
+            "title0": "WR'niz reddedildi",
+            "title4": "Bu bir hata değil, bir özelliktir",
+            "body": "<em>{{path}}</em> sayfası Angus'ta bulunamadı",
+            "title2": "Çok hızlı gidiyorsun dostum",
+            "title3": "Hatalı çalıştırmaları kabul etmiyoruz"
+        },
+        "format": {
+            "url": "Bu geçerli bir URL değil"
+        },
+        "403": {
+            "subtitle": "Bu sayfayı görebilmek için giriş yapmalısınız!",
+            "title": "Yetkisiz"
+        }
+    },
+    "auth": {
+        "emailVerificationRequired": "Bu özelliği kullanmadan önce lütfen e-posta adresinizi doğrulayın.",
+        "passwordReset": {
+            "instructions": "Şifrenizi sıfırlamak için lütfen e-posta adresinizi giriniz.\n• • • •E-posta adresiniz sistemimizde biliniyorsa size şifrenizi sıfırlayabileceğiniz bir link göndereceğiz.",
+            "submit": "Şifrenizi sıfırlayın!",
+            "requested": "E-posta adresinize şifre sıfırlama isteği gönderildi. Daha fazla talimat için lütfen e-postanızı kontrol edin.",
+            "error": {
+                "PASSWORD_RESET_CODE_INVALID": "Sağlanan şifre sıfırlama jetonu geçersiz, lütfen yeni bir e-posta isteyin.",
+                "EMAIL_VERIFICATION_REQUIRED": "Bu özelliği kullanmadan önce lütfen e-posta adresinizi doğrulayın."
+            },
+            "tokenMissing": "Şifre sıfırlama jetonunuz eksik, lütfen e-postanızdaki bağlantıya tekrar tıklayın.",
+            "request": "Şifre sıfırlama talebi",
+            "success": "Şifreniz başarıyla sıfırlandı. Artık şifrenizle giriş yapabilirsiniz."
+        }
+    },
+    "register": {
+        "email_sent": "Gelen kutunuza bir e-posta gönderdik, lütfen e-posta adresinizi doğrulamak için oradaki bağlantıya tıklayın.",
+        "login_hint": "Alternatif olarak, isterseniz zaten {{login-link}} yapabilirsiniz.",
+        "thank_you": "Teşekkürler!",
+        "submit": "Üye ol!"
+    },
+    "news": {
+        "title": "Haberler"
     }
-  },
-  "action": {
-    "submit": "Gönder",
-    "sendTweet": "Tweetle",
-    "save": "Kaydet",
-    "join": "Katıl",
-    "decline": "Reddet",
-    "confirm": "Onayla",
-    "clearAvailabilities": "Seçili boşlukları temizle",
-    "cancel": "Vazgeç",
-    "accept": "Kabul Et"
-  },
-  "language": {
-    "de": "Almanca",
-    "hi": "Hintçe",
-    "fil": "Filipince",
-    "lt": "Litvanca",
-    "hr": "Hırvatça",
-    "lv": "Letonca",
-    "hu": "Macarca",
-    "zh-CN": "Çince",
-    "uk": "Ukraynaca",
-    "id": "Indonesian",
-    "ur": "Urduca",
-    "ml": "Malayalam dili",
-    "mr": "Marathi dili",
-    "ms": "Malayca",
-    "el": "Yunanca",
-    "en": "İngilizce",
-    "eo": "Esperanto",
-    "is": "İzlandaca",
-    "it": "İtalyanca",
-    "am": "Amharca",
-    "chr": "Çerokice",
-    "iw": "Hebrew",
-    "es": "İspanyolca",
-    "et": "Estonca",
-    "eu": "Baskça",
-    "ar": "Arapça",
-    "pt-PT": "Portekizce",
-    "vi": "Vietnamca",
-    "ja": "Japonca",
-    "ro": "Rumence",
-    "en-GB": "İngilizce",
-    "nl": "Felemenkçe",
-    "no": "Norveççe",
-    "fi": "Fince",
-    "ru": "Rusça",
-    "bg": "Bulgarca",
-    "bn": "Bengalce",
-    "fr": "Fransızca",
-    "sk": "Slovakça",
-    "sl": "Slovence",
-    "ca": "Katalanca",
-    "sr": "Sırpça",
-    "kn": "Kannada dili",
-    "sv": "İsveççe",
-    "ko": "Korece",
-    "sw": "Svahili dili",
-    "zh_TW": "Çince",
-    "pt_BR": "Portekizce",
-    "ta": "Tamilce",
-    "gu": "Güceratça",
-    "cs": "Çekçe",
-    "te": "Telugu dili",
-    "th": "Tayca",
-    "cy": "Galce",
-    "pl": "Lehçe",
-    "da": "Danca",
-    "tr": "Türkçe"
-  }
 }
