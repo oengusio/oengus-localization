@@ -16,9 +16,35 @@
         },
         "privacy": {
             "consent": {
-                "par1": "Ao usar nosso site, você consente com nossa Política de Privacidade e concorda com seus Termos e Condições."
+                "par1": "Ao usar nosso site, você consente com nossa Política de Privacidade e concorda com seus Termos e Condições.",
+                "title": "Consentimento"
             },
-            "title": "Política de Privacidade"
+            "title": "Política de Privacidade",
+            "par2": "Se você tiver dúvidas adicionais ou precisar de mais informações sobre nossa Política de Privacidade, não hesite em nos contatar.",
+            "log": {
+                "title": "Arquivos de registro",
+                "par1": "Oengus segue um procedimento padrão de uso de arquivos de log. Esses arquivos registram visitantes quando visitam sites. Todas as empresas de hospedagem fazem isso e fazem parte da análise dos serviços de hospedagem. As informações coletadas pelos arquivos de log incluem endereços de protocolo de Internet (IP), tipo de navegador, provedor de serviços de Internet (ISP), registro de data e hora, páginas de referência/saída e, possivelmente, o número de cliques. Eles não estão vinculados a nenhuma informação que seja pessoalmente identificável. O objetivo das informações é analisar tendências, administrar o site, rastrear o movimento dos usuários no site e coletar informações demográficas."
+            },
+            "cookies": {
+                "title": "Cookies e Web Beacons",
+                "par1": "Como qualquer outro website, a Oengus utiliza \"cookies\". Estes cookies são utilizados para armazenar informações, incluindo as preferências dos visitantes e as páginas do site que o visitante acessou ou visitou. As informações são usadas para otimizar a experiência dos usuários, personalizando o conteúdo da nossa página web com base no tipo de navegador dos visitantes e/ou outras informações."
+            },
+            "children": {
+                "title": "Informações infantis",
+                "par1": "Outra parte da nossa prioridade é adicionar proteção às crianças durante o uso da Internet. Incentivamos os pais e responsáveis a observar, participar e/ou monitorar e orientar suas atividades online.",
+                "par2": "A Oengus não coleta intencionalmente nenhuma informação pessoal identificável de crianças menores de 13 anos. Se você acha que seu filho forneceu esse tipo de informação em nosso site, recomendamos fortemente que você entre em contato conosco imediatamente e faremos nossos melhores esforços para remover imediatamente tais informações de nossos registros."
+            },
+            "par1": "Na Oengus, acessível a partir de {{oengus-link}}, uma das nossas principais prioridades é a privacidade dos nossos visitantes. Este documento de Política de Privacidade contém tipos de informações que são coletadas e registradas pela Oengus e como as utilizamos.",
+            "par3": "Em casos de conflito, a versão em inglês desta política terá precedência.",
+            "thirdParty": {
+                "title": "Políticas de Privacidade de Terceiros",
+                "par1": "A Política de Privacidade da Oengus não se aplica a outros anunciantes ou websites.",
+                "par2": "Você pode optar por desativar os cookies através das opções individuais do seu navegador. Para saber informações mais detalhadas sobre o gerenciamento de cookies com navegadores web específicos, você pode encontrá-las nos respectivos sites dos navegadores."
+            },
+            "online": {
+                "title": "Política de privacidade on-line apenas",
+                "par1": "Esta Política de Privacidade aplica-se apenas às nossas atividades online e é válida para os visitantes do nosso site no que diz respeito às informações que compartilham e/ou recolhem na Oengus. Esta política não se aplica a quaisquer informações coletadas off-line ou por meio de canais que não sejam este site."
+            }
         }
     },
     "action": {
@@ -30,7 +56,9 @@
         "join": "Entrar",
         "save": "Salvar",
         "sendTweet": "Enviar Tweet",
-        "submit": "Submeter"
+        "submit": "Enviar",
+        "shareMastodon": "Compartilhar no Mastodon",
+        "login": "login"
     },
     "alert": {
         "category": {
@@ -104,7 +132,8 @@
             "save": {
                 "error": "Erro durante o processo de submissão",
                 "success": "Submissão enviada com sucesso"
-            }
+            },
+            "cache": "Pode levar 30 minutos ou mais para que seu envio apareça nesta lista"
         },
         "submit": {
             "ALREADY_IN_OPPONENTS": "Você já faz parte desta categoria",
@@ -137,28 +166,36 @@
     "calendar": {
         "help": "Clicar em um evento irá lhe redirecionar para a página deste evento",
         "title": "Calendário de maratonas",
-        "endsAt": "Fim {{end-time}}",
-        "startsAt": "Inicia {{start-time}}",
+        "endsAt": "Termina {{end-time}}",
+        "startsAt": "Começa {{start-time}}",
         "allDay": "Dia todo",
-        "now": "Agora"
+        "now": "Agora",
+        "between": "{{time-range}}",
+        "noMarathons": "Não há maratonas neste período."
     },
     "footer": {
         "donate": "Se você gostou do Oengus, por favor considere <a href=\"{{donationLink}}\" target=\"_blank\">realizar uma doação</a>",
         "text": "Todos os horários são convertidos para o seu fuso horário. Fuso horário detectado: {{timezone}}",
         "patron": {
             "patronLink": "tornar-se um apoiador",
-            "list": "Obrigado aos nossos apoiadores listados abaixo cujas contribuições mantêm o Oengus gratuito para todos"
-        }
+            "list": "Obrigado aos nossos apoiadores listados abaixo cujas contribuições mantêm o Oengus gratuito para todos",
+            "enjoyOengus": "Se você gosta do Oengus, considere {{patronLink}}"
+        },
+        "v1Link": "Faça login no Oengus em v1"
     },
     "global": {
         "emu": "[Emu]",
         "non_select": "Nenhum selecionado",
         "disabled": "Desativado",
         "enabled": "Ativado",
-        "adblocker": "Oi, parece que está bloqueando anúncios. Por favor desative o seu ad blocker no oengus, que é apoiado em anúncios e doações para sobreviver."
+        "adblocker": "Oi, parece que está bloqueando anúncios. Por favor desative o seu ad blocker no oengus, que é apoiado em anúncios e doações para sobreviver.",
+        "ads": {
+            "nag1": "Não gosta de anúncios?",
+            "nag2": "Junte-se à nossa campanha Patreon para ajudar a manter Oengus gratuito"
+        }
     },
     "homepage": {
-        "ends": "Termina em {{duration}}",
+        "ends": "Termina {{duration}}",
         "marathons": {
             "calendar": "Calendário completo",
             "live": "Maratonas ao vivo",
@@ -177,7 +214,7 @@
             "title": "Funcionalidades planejadas",
             "volunteerManager": "Gerenciador de candidatos a voluntários"
         },
-        "starts": "Começa em {{duration}}",
+        "starts": "Começa {{duration}}",
         "welcomeText": {
             "par1": "Oengus é uma ferramenta <b>gratuita</b> para gerenciar as maratonas de speedruns, desde as submissões até a agenda do evento.",
             "par3": "Para ter acesso a todas funcionalidades, por favor acesse através do próximo link. Você poderá criar novas maratonas e realizar submissões para as existentes:",
@@ -198,20 +235,32 @@
         }
     },
     "login": {
-        "authInProgress": "Autenticação em progresso, por favor aguarde…",
+        "authInProgress": "Autenticação em andamento, aguarde…",
         "provider": {
-            "discord": "Entrar com Discord",
-            "twitch": "Entrar com Twitch"
-        }
+            "discord": "Fazer login com Discord",
+            "twitch": "Entrar com Twitch",
+            "title": "Fazer login com um provedor",
+            "google": "Fazer login com o Google"
+        },
+        "2fa": {
+            "label": "Código de autenticação de dois fatores"
+        },
+        "title": "Faça login na sua conta Oengus",
+        "button": "Fazer login",
+        "password": {
+            "show": "Tornar a senha visível",
+            "hide": "Esconder a senha"
+        },
+        "forgotPass": "Esqueceu sua senha?"
     },
     "marathon": {
         "donate": {
             "amount": {
                 "error": {
-                    "minNumber": "A quantia a ser doada tem que ser mais do que zero",
-                    "required": "A quantia a ser doada tem que ser preenchida"
+                    "minNumber": "O valor da doação deve ser superior a zero",
+                    "required": "O valor da doação é obrigatório"
                 },
-                "label": "Quantia da doação"
+                "label": "Valor da doação"
             },
             "comment": {
                 "label": "Comentário"
@@ -243,7 +292,7 @@
             },
             "title": "Doar",
             "nickname": {
-                "label": "Nickname",
+                "label": "Apelido",
                 "error": {
                     "pattern": "O nickname pode apenas ser composto por letras minúsculas, LETRAS MAIÚSCULAS, _ e -",
                     "max": "O nickname é demasiado longo"
@@ -263,7 +312,11 @@
             "donations": "Doações",
             "donate": "Doar",
             "admin": "Admin",
-            "settings": "Configurações"
+            "settings": "Configurações",
+            "selectRuns": "Selecionar corridas",
+            "submitRuns": "Enviar corridas",
+            "tracker": "Rastreador",
+            "viewSubmissions": "Ver envios"
         },
         "settings": {
             "country": {
@@ -535,8 +588,9 @@
             "requirements": {
                 "discord": {
                     "syncNotice": [
-                        ".",
-                        "configurações de usuário"
+                        "IMPORTANTE: antes de fazer esta verificação você precisará sincronizar o Discord com sua conta no seu",
+                        "configurações de usuário",
+                        "."
                     ],
                     "errors": {
                         "botMissing": "Por favor, peça aos moderadores desta maratona que convidem o bot Oengus do Discord",
@@ -622,16 +676,58 @@
             "table": {
                 "category": "Categoria",
                 "game": "Jogo",
-                "time": "Tempo"
+                "time": "Tempo",
+                "link": "Link",
+                "actions": "Ações",
+                "console": "Console",
+                "estimate": "Estimativa",
+                "placeholder": "Solte qualquer corrida da tabela esquerda para esta. Este texto desaparecerá automaticamente assim que uma corrida estiver na programação.",
+                "runner": "Corredor(es)",
+                "setup": "Configurar tempo",
+                "type": "Tipo"
             },
             "management": {
-                "schedule": "Programação"
+                "schedule": "Agendamento",
+                "selectedRuns": "Corridas selecionadas",
+                "help": {
+                    "dragAndDrop": "Utilize as setas em cada linha para adicionar ou remover uma corrida do agendamento. Você pode arrastar e soltar linhas na tabela usando as alças",
+                    "save": "Clique em \"Salvar\" para salvar um rascunho ou atualizar o agendamento ao vivo. Clique em “Publicar agendamento” para tornar o agendamento público. Atenção: assim que o agendamento for publicado, a data final da maratona será automaticamente recalculada a cada atualização do cronograma."
+                },
+                "title": "Gerenciar agendamentos",
+                "hideCompleteUsers": "Ocultar usuários na linha do tempo quando eles não tiverem mais corridas nas \"corridas selecionadas\"",
+                "markdown": "Você pode usar a sintaxe básica do Markdown (*negrito*, _sublinhado_ e [nome do link](https://oengus.io/)) nos campos de jogo e categoria.",
+                "cacheWarning": {
+                    "line2": "Isso significa que pode demorar um pouco até que você veja o agendamento atualizada na página da sua maratona.",
+                    "line1": "Para manter a carga baixa em nossos próprios servidores, implementamos um cache no Oengus.",
+                    "title": "Após a publicação, seu agendamento levará de 2 a 5 minutos para ser publicada.",
+                    "line3": "O botão será ativado em 5 segundos",
+                    "header": "LEIA ISSO COM ATENÇÃO"
+                },
+                "action": {
+                    "addSetupBlock": "Adicionar bloco de configuração",
+                    "alreadyPublished": "Agendamento já publicado",
+                    "publish": "Publicar agendamento",
+                    "addRun": "Adicionar corrida"
+                },
+                "customData": {
+                    "inputText": "Dados personalizados armazenados como texto, permitindo adicionar dados \"ocultos\" a esta linha de agendamento",
+                    "text": "Ocultar/Mostrar campos de dados personalizados"
+                }
             },
-            "title": "Programação"
+            "title": "Programação",
+            "nextRun": "Próxima corrida {{duration}}",
+            "setupBlock": "Bloco de configuração",
+            "currentRun": "Corrida atual",
+            "dstChange": "Uma mudança de horário de verão acontece durante a maratona.",
+            "type": {
+                "RELAY_RACE": "Corrida de revezamento",
+                "RELAY": "Corrida de revezamento"
+            }
         },
         "new": {
             "title": "Criar uma nova maratona",
-            "description": "As seguintes informações são obrigatórias para criar uma nova maratona. Após a sua criação, você poderá configurar mais detalhes."
+            "description": "As seguintes informações são obrigatórias para criar uma nova maratona. Após a sua criação, você poderá configurar mais detalhes.",
+            "shortDomain": "Este link curto é gerado automaticamente para você compartilhar em suas postagens nas redes sociais"
         }
     },
     "country": {
@@ -955,7 +1051,8 @@
         "TWITCH": "Twitch",
         "TWITTER": "Twitter",
         "SPEEDRUNCOM": "speedrun.com",
-        "YOUTUBE": "YouTube"
+        "YOUTUBE": "YouTube",
+        "MASTODON": "Mastodon"
     },
     "user": {
         "profile": {
@@ -1099,5 +1196,29 @@
     },
     "news": {
         "title": "Notícias"
+    },
+    "register": {
+        "email_sent": "Enviamos um e-mail para sua caixa de entrada. Clique no link para verificar seu endereço de e-mail.",
+        "thank_you": "Obrigado!",
+        "login_hint": "Alternativamente, você já pode {{login-link}} se quiser.",
+        "submit": "Criar conta!"
+    },
+    "announcements": {
+        "twitterRemoval": "Olá, removeremos o Twitter como opção de login em breve. Certifique-se de ter sua conta Twitch ou Discord vinculada à sua conta Oengus para evitar o bloqueio."
+    },
+    "auth": {
+        "passwordReset": {
+            "instructions": "Para redefinir sua senha, digite seu endereço de e-mail. \n    Se o seu endereço de e-mail for conhecido em nosso sistema, enviaremos um link onde você poderá redefinir sua senha.",
+            "error": {
+                "EMAIL_VERIFICATION_REQUIRED": "Verifique seu endereço de e-mail antes de usar este recurso.",
+                "PASSWORD_RESET_CODE_INVALID": "O token de redefinição de senha fornecido é inválido. Solicite um novo e-mail."
+            },
+            "request": "Solicitar redefinição de senha",
+            "tokenMissing": "O token de redefinição de senha está faltando. Clique no link em seu e-mail novamente.",
+            "submit": "Redefina sua senha!",
+            "requested": "Uma solicitação de redefinição de senha foi enviada para seu endereço de e-mail. Verifique seu e-mail para obter mais instruções.",
+            "success": "Sua senha foi redefinida com sucesso. Agora você pode fazer login com sua senha."
+        },
+        "emailVerificationRequired": "Verifique seu endereço de e-mail antes de usar este recurso."
     }
 }
