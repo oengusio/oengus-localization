@@ -112,7 +112,8 @@
         "decline": "Peru",
         "submit": "Ilmoita",
         "clearAvailabilities": "Tyhjennä valitut saatavuudet",
-        "shareMastodon": "Jaa mastodonissa"
+        "shareMastodon": "Jaa mastodonissa",
+        "login": "kirjaudu sisään"
     },
     "marathon": {
         "submit": {
@@ -930,7 +931,8 @@
         "title": "Kirjaudu sisään Oengus-tilillesi",
         "2fa": {
             "label": "Kaksivaiheisentunnistautumisen koodi"
-        }
+        },
+        "forgotPass": "Unohditko salasanasi?"
     },
     "footer": {
         "donate": "Jos pidät Oenguksesta, voit harkita <a href=\"{{donationLink}}\" target=\"_blank\">lahjoittamista</a>",
@@ -1041,7 +1043,11 @@
         "createMarathon": "Uusi tapahtuma",
         "mastodon": "Seuraa meitä Mastodonissa",
         "displayNameNotification": "Hei! Sinulla ei ole näyttönimeä valittuna profiilissasi. Mene asetuksiin asettaaksesi näyttönimesi!",
-        "register": "Rekisteröidy"
+        "register": "Rekisteröidy",
+        "email-verification": {
+            "request-btn": "Pyydä uusi vahvistusviesti",
+            "message": "Hei! Näyttää siltä ettet ole vahvistanut sähköpostiosoitettasi. Käyttäjät, joilla ei ole vahvistettua sähköpostiosoitetta saatetaan poistaa."
+        }
     },
     "user": {
         "profile": {
@@ -1098,7 +1104,7 @@
             "pronouns": {
                 "title": "Pronominit",
                 "no_results": "Pronomineja ei löydy",
-                "help": "Pronomini-tieto tulee <a href=\"https://en.pronouns.page/\" target=\"_blank\">pronouns.page</a>-sivulta. Jos haluat tietää lisää, käy heidän sivulla",
+                "help": "Pronomini-tieto tulee <a href=\"https://en.pronouns.page/\" target=\"_blank\">pronouns.page</a>-sivulta. Jos haluat tietää lisää, käy heidän sivulla.",
                 "hint": "Etsi pronomi, esimerkiksi: they/them"
             },
             "language": {
@@ -1165,7 +1171,8 @@
             "displayName": {
                 "error": {
                     "max": "Näyttönimi on liian pitkä, maksimipituus on 32 merkkiä.",
-                    "min": "Näyttönimi on liian lyhyt, vähintään yksi merkki vaaditaan"
+                    "min": "Näyttönimi on liian lyhyt, vähintään yksi merkki vaaditaan",
+                    "required": "Näyttönimi vaaditaan"
                 },
                 "help": "Jos käytät jotain nimimerkkiä tai haluat jonkin muun nimen näkyvän, joka ei ole käyttäjänimesi, voit asettaa sen tässä.",
                 "label": "Näyttönimi"
@@ -1186,7 +1193,11 @@
                 "enableButton": "Ota kaksivaiheinen tunnistautuminen käyttöön"
             },
             "password": {
-                "label": "Salasana"
+                "label": "Salasana",
+                "error": {
+                    "required": "Salasana vaaditaan"
+                },
+                "changeLabel": "Vaihda salasana"
             }
         }
     },
@@ -1469,5 +1480,26 @@
     },
     "announcements": {
         "twitterRemoval": "Hei siellä, me poistetaan twitter-kirjautuminen käytöstä. Varmista, että sinulla on Twitch- tai Discord-tili linkitettynä Oengus-tililla, että pääset jatkossa sisälle."
+    },
+    "auth": {
+        "passwordReset": {
+            "instructions": "Jotta voit uusia salasanasi, täytä sähköpostiosoitteesi.\n    Jos sähköpostisi löytyy järjestelmistä, niin lähetämme sinulle linkin, jossa voit uusia salasanasi.",
+            "error": {
+                "EMAIL_VERIFICATION_REQUIRED": "Ole hyvä ja vahvista sähköspostiosoitteesi ennen kuin käytät tätä ominaisuutta.",
+                "PASSWORD_RESET_CODE_INVALID": "Koodisi ei ole voimassa, yritä pyytää salasanan uusimista uudestaan."
+            },
+            "request": "Pyydä uutta salasanaa",
+            "tokenMissing": "Salasanan uusimista varten tarvittu koodi puuttuu, klikkaa sähköpostin linkkiä uudestaan.",
+            "submit": "Vaihda salasana!",
+            "requested": "Sähköpostiisin on lähetetty salasananuusimislinkki. Katso sähköpostistasi lisäohjeet.",
+            "success": "Salasanasi on vaihdettu. Voit nyt kirjautua sisään uudella salasanallasi."
+        },
+        "emailVerificationRequired": "Ole hyvä ja vahvista sähköspostiosoitteesi ennen kuin käytät tätä ominaisuutta."
+    },
+    "register": {
+        "thank_you": "Kiitos!",
+        "email_sent": "Lähetimme sinulle sähköpostia, klikkaa viestissä olevaa linkkiä vahvistaaksesi sähköpostiosoitteesi.",
+        "login_hint": "Vaihtoehtoisesti voit jo {{login-link}}, jos haluat.",
+        "submit": "Liity!"
     }
 }
