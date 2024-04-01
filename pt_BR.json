@@ -721,7 +721,11 @@
             "dstChange": "Uma mudança de horário de verão acontece durante a maratona.",
             "type": {
                 "RELAY_RACE": "Corrida de revezamento",
-                "RELAY": "Corrida de revezamento"
+                "RELAY": "Corrida de revezamento",
+                "COOP": "Corrida cooperativa",
+                "COOP_RACE": "Corrida cooperativa",
+                "OTHER": "Outros",
+                "RACE": "Corrida"
             }
         },
         "new": {
