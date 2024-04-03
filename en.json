@@ -5,6 +5,7 @@
   "auth": {
     "emailVerificationRequired": "Please verify your email address before using this feature.",
     "passwordReset": {
+      "title": "Reset your password!",
       "instructions": "In order to reset your password, please enter your email address.\n    If your email address is known in our system, we will send you a link where you can reset your password.",
       "request": "Request password reset",
       "tokenMissing": "Your password reset token is missing, please click the link in your email again.",
