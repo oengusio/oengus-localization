@@ -1500,7 +1500,7 @@
         "EMAIL_VERIFICATION_REQUIRED": "Por favor, verifique su dirección de correo electrónico antes de utilizar esta función."
       },
       "instructions": "Para restablecer su contraseña, introduzca su dirección de correo electrónico.\n    Si su dirección de correo electrónico es conocida en nuestro sistema, le enviaremos un enlace donde podrá restablecer su contraseña.",
-      "requested": "Se ha enviado una solicitud de restablecimiento de la contraseña a su dirección de correo electrónico. Consulta tu correo electrónico para recibir más instrucciones."
-    }
+      "requested": "Se ha enviado una solicitud de restablecimiento de la contraseña a su dirección de correo electrónico. Consulta tu correo electrónico para recibir más instrucciones.",
+    "title": "¡Restablecer su contraseña!"}
   }
 }

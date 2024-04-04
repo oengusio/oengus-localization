@@ -1493,8 +1493,8 @@
       "tokenMissing": "Salasanan uusimista varten tarvittu koodi puuttuu, klikkaa sähköpostin linkkiä uudestaan.",
       "submit": "Vaihda salasana!",
       "requested": "Sähköpostiisin on lähetetty salasananuusimislinkki. Katso sähköpostistasi lisäohjeet.",
-      "success": "Salasanasi on vaihdettu. Voit nyt kirjautua sisään uudella salasanallasi."
-    },
+      "success": "Salasanasi on vaihdettu. Voit nyt kirjautua sisään uudella salasanallasi.",
+    "title": "Vaihda salasanasi!"},
     "emailVerificationRequired": "Ole hyvä ja vahvista sähköspostiosoitteesi ennen kuin käytät tätä ominaisuutta."
   },
   "register": {
