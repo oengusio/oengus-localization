@@ -1,143 +1,143 @@
 {
-    "platform": {
-        "SPEEDRUNCOM": "speedrun.com",
-        "MASTODON": "Mastodon",
-        "TWITTER": "Twitter",
-        "TWITCH": "Twitch",
-        "FACEBOOK": "Facebook",
-        "INSTAGRAM": "Instagram",
-        "SNAPCHAT": "Snapchat",
-        "DISCORD": "Discord",
-        "EMAIL": "Email",
-        "PHONE": "Número de telefone",
-        "NICO": "Nico",
-        "YOUTUBE": "YouTube"
+  "platform": {
+    "SPEEDRUNCOM": "speedrun.com",
+    "MASTODON": "Mastodon",
+    "TWITTER": "Twitter",
+    "TWITCH": "Twitch",
+    "FACEBOOK": "Facebook",
+    "INSTAGRAM": "Instagram",
+    "SNAPCHAT": "Snapchat",
+    "DISCORD": "Discord",
+    "EMAIL": "Email",
+    "PHONE": "Número de telefone",
+    "NICO": "Nico",
+    "YOUTUBE": "YouTube"
+  },
+  "announcements": {
+    "twitterRemoval": "Oi, removeremos o Twitter como opção de login em breve. Certifique-se de ter sua conta Twitch ou Discord vinculada à sua conta Oengus para evitar o bloqueio."
+  },
+  "aboutPage": {
+    "about": {
+      "par1": "Oengus (pronuncia-se Angus/ang·guhs) é um site que fornece ferramentas para organizar maratonas de speedrunning.",
+      "title": "Sobre",
+      "par5": "A partir de janeiro de 2021 o site é mantido por <a href=\"https://twitter.com/duncte123\" target=\"_blank\">duncte123</a>.",
+      "par6": "Curiosidades: Oengus é uma divindade celta responsável pelo tempo e pela eternidade. Fale sobre um nome adequado para maratonas de speedrunning!"
     },
-    "announcements": {
-        "twitterRemoval": "Oi, removeremos o Twitter como opção de login em breve. Certifique-se de ter sua conta Twitch ou Discord vinculada à sua conta Oengus para evitar o bloqueio."
+    "contact": {
+      "title": "Contato",
+      "par1": "Encontrou um bug? Tem dúvidas sobre o site? Junte-se a <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">Discord server</a>",
+      "par2": "Para consultas comerciais ou de relações públicas, escreva um e-mail para <a href=\"mailto:contact@oengus.io\" target=\"_blank\">contact@oengus.io</a>. Responderemos apenas a e-mails escritos em inglês."
     },
-    "aboutPage": {
-        "about": {
-            "par1": "Oengus (pronuncia-se Angus/ang·guhs) é um site que fornece ferramentas para organizar maratonas de speedrunning.",
-            "title": "Sobre",
-            "par5": "A partir de janeiro de 2021 o site é mantido por <a href=\"https://twitter.com/duncte123\" target=\"_blank\">duncte123</a>.",
-            "par6": "Curiosidades: Oengus é uma divindade celta responsável pelo tempo e pela eternidade. Fale sobre um nome adequado para maratonas de speedrunning!"
-        },
-        "contact": {
-            "title": "Contato",
-            "par1": "Encontrou um bug? Tem dúvidas sobre o site? Junte-se a <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">Discord server</a>",
-            "par2": "Para consultas comerciais ou de relações públicas, escreva um e-mail para <a href=\"mailto:contact@oengus.io\" target=\"_blank\">contact@oengus.io</a>. Responderemos apenas a e-mails escritos em inglês."
-        },
-        "privacy": {
-            "log": {
-                "title": "Arquivos de registro"
-            },
-            "thirdParty": {
-                "title": "Políticas de privacidade de terceiros",
-                "par1": "A Política de Privacidade da Oengus não se aplica a outros anunciantes ou websites."
-            },
-            "children": {
-                "title": "Informações infantis"
-            },
-            "consent": {
-                "par1": "Ao utilizar nosso site, você concorda com nossa Política de Privacidade e concorda com seus Termos e Condições."
-            },
-            "title": "Política de Privacidade",
-            "par2": "Se você tiver dúvidas adicionais ou precisar de mais informações sobre nossa Política de Privacidade, não hesite em nos contatar.",
-            "par3": "Em casos de conflito, a versão em inglês desta política terá precedência.",
-            "cookies": {
-                "title": "Cookies e web beacons",
-                "par1": "Como qualquer outro website, a Oengus utiliza ‘cookies’. Estes cookies são utilizados para armazenar informações, incluindo as preferências dos visitantes e as páginas do site que o visitante acessou ou visitou. As informações são usadas para otimizar a experiência dos usuários, personalizando o conteúdo da nossa página web com base no tipo de navegador dos visitantes e/ou outras informações."
-            }
-        }
-    },
-    "action": {
-        "accept": "Aceitar",
-        "cancel": "Cancelar",
-        "confirm": "confirme",
-        "decline": "Declínio",
-        "join": "Juntar",
-        "save": "Salvar",
-        "sendTweet": "Enviar tweet",
-        "shareMastodon": "Compartilhar no mastodon",
-        "submit": "Enviar",
-        "clearAvailabilities": "Limpar disponibilidades selecionadas"
-    },
-    "alert": {
-        "category": {
-            "deletion": {
-                "error": "Ocorreu um erro durante a exclusão da categoria. Tente novamente ou entre em contato com um administrador.",
-                "success": "Categoria excluída"
-            }
-        },
-        "donation": {
-            "export": {
-                "error": "Ocorreu um erro durante a exportação. Tente novamente ou entre em contato com um administrador."
-            },
-            "validate": {
-                "error": "Ocorreu um erro durante o processo de doação. Tente novamente ou entre em contato com um administrador.",
-                "success": "Sua doação foi enviada. Obrigado por doar!"
-            }
-        },
-        "game": {
-            "deletion": {
-                "error": "Ocorreu um erro durante a exclusão do jogo. Tente novamente ou entre em contato com um administrador.",
-                "success": "Jogo excluído"
-            },
-            "export": {
-                "error": "Ocorreu um erro durante a exportação. Tente novamente ou entre em contato com um administrador."
-            }
-        },
-        "incentives": {
-            "delete": {
-                "error": "Erro durante a exclusão do incentivo. Tente novamente ou entre em contato com um administrador.",
-                "success": "Incentivo excluído"
-            },
-            "save": {
-                "success": "Incentivos salvos.",
-                "error": "Ocorreu um erro ao salvar incentivos. Tente novamente ou entre em contato com um administrador."
-            }
-        },
-        "marathon": {
-            "creation": {
-                "error": "Erro durante a criação da maratona",
-                "success": "Maratona criada"
-            },
-            "deletion": {
-                "error": "Erro durante a exclusão da maratona",
-                "success": "Maratona excluída"
-            },
-            "update": {
-                "error": "Erro durante a atualização da maratona",
-                "success": "Maratona atualizada"
-            }
-        },
-        "schedule": {
-            "save": {
-                "error": "Erro ao salvar agendamento",
-                "success": "Programação salva"
-            }
-        },
-        "submission": {
-            "deletion": {
-                "error": "Ocorreu um erro durante a exclusão do envio. Tente novamente ou entre em contato com um administrador.",
-                "success": "Envio excluído"
-            },
-            "cache": "Pode levar 30 minutos ou mais para que seu envio apareça nesta lista",
-            "save": {
-                "error": "Erro durante o processo de envio",
-                "success": "Envio enviado"
-            }
-        },
-        "submit": {
-            "CODE_NOT_FOUND": "Este código não existe",
-            "ALREADY_IN_OPPONENTS": "Você já faz parte desta categoria"
-        },
-        "selection": {
-            "save": {
-                "error": "Erro ao salvar seleção",
-                "success": "Seleção salva"
-            }
-        }
+    "privacy": {
+      "log": {
+        "title": "Arquivos de registro"
+      },
+      "thirdParty": {
+        "title": "Políticas de privacidade de terceiros",
+        "par1": "A Política de Privacidade da Oengus não se aplica a outros anunciantes ou websites."
+      },
+      "children": {
+        "title": "Informações infantis"
+      },
+      "consent": {
+        "par1": "Ao utilizar nosso site, você concorda com nossa Política de Privacidade e concorda com seus Termos e Condições."
+      },
+      "title": "Política de Privacidade",
+      "par2": "Se você tiver dúvidas adicionais ou precisar de mais informações sobre nossa Política de Privacidade, não hesite em nos contatar.",
+      "par3": "Em casos de conflito, a versão em inglês desta política terá precedência.",
+      "cookies": {
+        "title": "Cookies e web beacons",
+        "par1": "Como qualquer outro website, a Oengus utiliza ‘cookies’. Estes cookies são utilizados para armazenar informações, incluindo as preferências dos visitantes e as páginas do site que o visitante acessou ou visitou. As informações são usadas para otimizar a experiência dos usuários, personalizando o conteúdo da nossa página web com base no tipo de navegador dos visitantes e/ou outras informações."
+      }
     }
+  },
+  "action": {
+    "accept": "Aceitar",
+    "cancel": "Cancelar",
+    "confirm": "confirme",
+    "decline": "Declínio",
+    "join": "Juntar",
+    "save": "Salvar",
+    "sendTweet": "Enviar tweet",
+    "shareMastodon": "Compartilhar no mastodon",
+    "submit": "Enviar",
+    "clearAvailabilities": "Limpar disponibilidades selecionadas"
+  },
+  "alert": {
+    "category": {
+      "deletion": {
+        "error": "Ocorreu um erro durante a exclusão da categoria. Tente novamente ou entre em contato com um administrador.",
+        "success": "Categoria excluída"
+      }
+    },
+    "donation": {
+      "export": {
+        "error": "Ocorreu um erro durante a exportação. Tente novamente ou entre em contato com um administrador."
+      },
+      "validate": {
+        "error": "Ocorreu um erro durante o processo de doação. Tente novamente ou entre em contato com um administrador.",
+        "success": "Sua doação foi enviada. Obrigado por doar!"
+      }
+    },
+    "game": {
+      "deletion": {
+        "error": "Ocorreu um erro durante a exclusão do jogo. Tente novamente ou entre em contato com um administrador.",
+        "success": "Jogo excluído"
+      },
+      "export": {
+        "error": "Ocorreu um erro durante a exportação. Tente novamente ou entre em contato com um administrador."
+      }
+    },
+    "incentives": {
+      "delete": {
+        "error": "Erro durante a exclusão do incentivo. Tente novamente ou entre em contato com um administrador.",
+        "success": "Incentivo excluído"
+      },
+      "save": {
+        "success": "Incentivos salvos.",
+        "error": "Ocorreu um erro ao salvar incentivos. Tente novamente ou entre em contato com um administrador."
+      }
+    },
+    "marathon": {
+      "creation": {
+        "error": "Erro durante a criação da maratona",
+        "success": "Maratona criada"
+      },
+      "deletion": {
+        "error": "Erro durante a exclusão da maratona",
+        "success": "Maratona excluída"
+      },
+      "update": {
+        "error": "Erro durante a atualização da maratona",
+        "success": "Maratona atualizada"
+      }
+    },
+    "schedule": {
+      "save": {
+        "error": "Erro ao salvar agendamento",
+        "success": "Programação salva"
+      }
+    },
+    "submission": {
+      "deletion": {
+        "error": "Ocorreu um erro durante a exclusão do envio. Tente novamente ou entre em contato com um administrador.",
+        "success": "Envio excluído"
+      },
+      "cache": "Pode levar 30 minutos ou mais para que seu envio apareça nesta lista",
+      "save": {
+        "error": "Erro durante o processo de envio",
+        "success": "Envio enviado"
+      }
+    },
+    "submit": {
+      "CODE_NOT_FOUND": "Este código não existe",
+      "ALREADY_IN_OPPONENTS": "Você já faz parte desta categoria"
+    },
+    "selection": {
+      "save": {
+        "error": "Erro ao salvar seleção",
+        "success": "Seleção salva"
+      }
+    }
+  }
 }

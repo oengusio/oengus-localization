@@ -775,7 +775,8 @@
     "cy": "walisisk",
     "pl": "polsk",
     "da": "dansk",
-    "tr": "tyrkisk"
+    "tr": "tyrkisk",
+    "pt": "portugisisk"
   },
   "login": {
     "provider": {

@@ -1,1191 +1,1192 @@
 {
-    "aboutPage": {
-        "about": {
-            "par1": "Oengus (発音は「アンガス」) はRTAマラソンの運営を支援するツールを提供するサイトです。",
-            "par2": "RTA(又はspeedrun)とは、ゲームをどれだけ早くクリアできるかで遊んだり競ったりするやりこみの一つです。詳しくは<a href=\"https://en.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedia</a>をごらんください。",
-            "par3": "RTAマラソンは、RTA走者が集まり、オンライン又はオフラインで観客に向けてRTAを披露するものです。最も有名なイベントは年2回行われる<a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a>です。",
-            "par4": "このサイトは<a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>\nにより作成されました。\n\n氏は2013年からspeedrunコミュニティで活躍しています。具体的には、<a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a>のグローバルモデレータを3年間、<a href=\"https://twitter.com/SpeedrunWRs\">Speedrun WRs Twitter bot</a>の作成、\nフランスの視聴者のために国際的なマラソンの再配信を行うFrench Restreamチームのメンバー、\nフランス版のGames Done Quick、Bourg la Runの創設者として貢献してきました。\n\n上記経験を活かし、マラソンを運営するための優れた公開ツールが存在しないという背景から開発を決め、その結果、Oengusが生まれました。",
-            "par6": "トリビア: Oengusはケルト神話上の、時間と永遠を司る神です",
-            "title": "このサイトについて",
-            "par5": "2021年1月からこのサイトは<a href=\"https://twitter.com/duncte123\" target=\"_blank\">duncte123</a>によって開発されています。"
-        },
-        "contact": {
-            "par1": "サイトのバグや質問などがある場合は、<a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">Discordサーバー</a>に入ってください",
-            "par2": "お仕事やPRの連絡は、<a href=\"mailto:contact@oengus.io\" target=\"_blank\">contract@oengus.io</a>にメールをしてください。英語で書かれたメールにのみ返信します。",
-            "title": "コンタクト"
-        },
-        "privacy": {
-            "title": "プライバシーポリシー",
-            "cookies": {
-                "title": "クッキーとウェブビーコン"
-            },
-            "log": {
-                "title": "ログファイル"
-            },
-            "consent": {
-                "par1": "本ウェブサイトを利用することで、利用者は、本プライバシーポリシーを読み、これらの規約内容に同意したものとみなされます。"
-            },
-            "par1": "{{oengus-link}}からアクセスできるOengusにおいて、訪問者のプライバシーは最優先事項の一つです。本プライバシーポリシーは、Oengusが収集・記録する情報の種類とその使用方法を記載しています。",
-            "par2": "本サイトの個人情報保護方針についてご質問がある場合、または詳細な情報を必要とする場合はお問い合わせ下さい。",
-            "par3": "本ポリシーが矛盾する場合、英語版のプライバシーポリシーが優先されます。"
-        }
+  "aboutPage": {
+    "about": {
+      "par1": "Oengus (発音は「アンガス」) はRTAマラソンの運営を支援するツールを提供するサイトです。",
+      "par2": "RTA(又はspeedrun)とは、ゲームをどれだけ早くクリアできるかで遊んだり競ったりするやりこみの一つです。詳しくは<a href=\"https://en.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedia</a>をごらんください。",
+      "par3": "RTAマラソンは、RTA走者が集まり、オンライン又はオフラインで観客に向けてRTAを披露するものです。最も有名なイベントは年2回行われる<a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a>です。",
+      "par4": "このサイトは<a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>\nにより作成されました。\n\n氏は2013年からspeedrunコミュニティで活躍しています。具体的には、<a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a>のグローバルモデレータを3年間、<a href=\"https://twitter.com/SpeedrunWRs\">Speedrun WRs Twitter bot</a>の作成、\nフランスの視聴者のために国際的なマラソンの再配信を行うFrench Restreamチームのメンバー、\nフランス版のGames Done Quick、Bourg la Runの創設者として貢献してきました。\n\n上記経験を活かし、マラソンを運営するための優れた公開ツールが存在しないという背景から開発を決め、その結果、Oengusが生まれました。",
+      "par6": "トリビア: Oengusはケルト神話上の、時間と永遠を司る神です",
+      "title": "このサイトについて",
+      "par5": "2021年1月からこのサイトは<a href=\"https://twitter.com/duncte123\" target=\"_blank\">duncte123</a>によって開発されています。"
     },
-    "action": {
-        "cancel": "キャンセル",
-        "clearAvailabilities": "参加可能時間をクリア",
-        "confirm": "確認",
-        "save": "保存",
-        "submit": "送信",
-        "sendTweet": "ツイート送信",
-        "join": "参加",
-        "decline": "拒否",
-        "accept": "許可"
+    "contact": {
+      "par1": "サイトのバグや質問などがある場合は、<a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">Discordサーバー</a>に入ってください",
+      "par2": "お仕事やPRの連絡は、<a href=\"mailto:contact@oengus.io\" target=\"_blank\">contract@oengus.io</a>にメールをしてください。英語で書かれたメールにのみ返信します。",
+      "title": "コンタクト"
     },
-    "alert": {
-        "incentives": {
-            "delete": {
-                "error": "インセンティブの削除に失敗しました。再度実行するか管理者に連絡してください。",
-                "success": "インセンティブを削除しました"
-            },
-            "save": {
-                "error": "インセンティブの保存に失敗しました。再度実行するか管理者に連絡してください。",
-                "success": "インセンティブを保存しました。"
-            }
-        },
-        "marathon": {
-            "creation": {
-                "error": "マラソン作成に失敗しました",
-                "success": "マラソンを作成しました"
-            },
-            "deletion": {
-                "error": "マラソンの削除に失敗しました",
-                "success": "マラソンを削除しました"
-            },
-            "update": {
-                "error": "マラソンの更新に失敗しました",
-                "success": "マラソンを更新しました"
-            }
-        },
-        "schedule": {
-            "export": {
-                "error": "エクスポート中にエラーが発生しました。 再試行するか、管理者に連絡してください。"
-            },
-            "save": {
-                "error": "スケジュールの保存に失敗しました",
-                "success": "スケジュールを保存しました"
-            }
-        },
-        "selection": {
-            "save": {
-                "error": "応募の選定の保存に失敗しました",
-                "success": "応募の選定を保存しました"
-            }
-        },
-        "submission": {
-            "save": {
-                "error": "応募に失敗しました",
-                "success": "応募しました"
-            },
-            "deletion": {
-                "success": "応募を削除しました",
-                "error": "応募の削除に失敗しました。再度実行するか管理者に連絡してください。"
-            },
-            "cache": "応募が一覧に反映されるまで30分以上かかることがあります"
-        },
-        "submit": {
-            "CODE_NOT_FOUND": "このコードは存在しません",
-            "DISCORD_VERIFIED": "Discordサーバーへの参加を確認したので応募ができます",
-            "SAME_USER": "自分自身が作成したカテゴリに参加はできません",
-            "NOT_MULTIPLAYER": "このカテゴリは複数走者ではありません",
-            "MAX_SIZE_REACHED": "この応募は最大走者数に達しています",
-            "DIFFERENT_MARATHON": "別のマラソンのコードです",
-            "ALREADY_IN_OPPONENTS": "既にこのカテゴリに参加しています"
-        },
-        "user": {
-            "login": {
-                "error": "認証中にエラーが発生しました。再度試してみるか、管理者に問い合わせてください。",
-                "usernameExists": "このユーザーネームは既に存在しています。Oengusに他の方法でログインしていないか確認し、そうでない場合管理者に連絡してください。",
-                "disabledAccount": "アカウントが無効化されています。使いたい場合管理者に連絡してください。"
-            },
-            "sync": {
-                "alreadySynced": "エラー: そのアカウントは既に使われています",
-                "error": "アカウント連携に失敗しました。アドブロッカーが原因になる場合があります。Oengusを許可リストに追加するか全ての拡張機能を無効にして再度行ってください。拡張機能がインストールされていないブラウザでもこのエラーが表示される場合は、OengusのDiscordサーバーの #bug_or_feature で問い合わせてください。"
-            },
-            "update": {
-                "error": "ユーザー情報の更新に失敗しました",
-                "success": "ユーザー情報を保存しました"
-            },
-            "deactivate": {
-                "success": "アカウントを削除しました"
-            }
-        },
-        "game": {
-            "export": {
-                "error": "出力に失敗しました。再度実行するか管理者に連絡してください。"
-            },
-            "deletion": {
-                "success": "ゲームを削除しました",
-                "error": "ゲーム削除に失敗しました。再度実行するか管理者に連絡してください。"
-            }
-        },
-        "donation": {
-            "validate": {
-                "success": "寄付が完了しました。ありがとうございます！",
-                "error": "寄付の処理に失敗しました。再度実行するか管理者に連絡してください。"
-            },
-            "export": {
-                "error": "出力に失敗しました。再度実行するか管理者に連絡してください。"
-            }
-        },
-        "category": {
-            "deletion": {
-                "success": "カテゴリー削除しました",
-                "error": "カテゴリ削除に失敗しました。再度実行するか管理者に連絡してください。"
-            }
-        }
-    },
-    "global": {
-        "emu": "[エミュ]",
-        "non_select": "選択されていません",
-        "disabled": "無効",
-        "enabled": "有効",
-        "adblocker": "アドブロッカーをお使いですか？Oengusは広告や寄付によって運営されているので、アドブロッカーの無効化をお願いします。"
-    },
-    "homepage": {
-        "ends": "{{duration}}終了",
-        "marathons": {
-            "live": "進行中のマラソン",
-            "open": "応募受付中",
-            "upcoming": "今後のマラソン",
-            "moderated": "モデレーターのマラソン",
-            "calendar": "カレンダー"
-        },
-        "plannedFeatures": {
-            "1": "協力プレイやレースの応募",
-            "2": "様々なゲーム選定システム (直接選択、投票など)",
-            "3": "走者の参加可能時間の可視化による簡単なスケジュール作成",
-            "4": "Twitter・Twitch・Googleとアカウント連携",
-            "5": "Discord連携",
-            "6": "メール通知",
-            "7": "PayPal経由の寄付管理",
-            "title": "計画中の機能",
-            "volunteerManager": "ボランティア募集管理"
-        },
-        "starts": "{{duration}}開始",
-        "welcomeText": {
-            "par1": "Oengusは<b>無料</b>で使える、マラソンの応募やスケジュール管理ツールです。",
-            "par3": "全ての機能を使うには以下のリンクからログインしてください。マラソンの新規作成や応募ができるようになります:",
-            "par4": {
-                "prod": "このサイトの機能を試してみたい場合は、本番とは切り離されたテスト用の<a href=\"https://sandbox.oengus.io\">sandbox環境</a>を使ってください。",
-                "sandbox": "<b>このサイトはsandbox環境です。機能を試したり発見したりするための環境です。実際のマラソンを作成する場合は、<a href=\"https://oengus.io\">本番のサイト</a>を使ってください。</b>"
-            }
-        },
-        "welcomeTitle": "Oengusへようこそ!",
-        "sponsors": {
-            "title": "スポンサー",
-            "esa": "oengus.io は <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a> によって運営されています",
-            "kaspersky": {
-                "box": "Kaspersky のスポンサーによって、Oengus v2 が開発中です。 <a href=\"{{readMoreUrl}}\" target=\"_blank\">続きを読む</a>",
-                "banner": "Kaspersky のスポンサーによって、Oengus v2 が開発中です。"
-            }
-        },
-        "submissions_close": "{{duration}} 応募締め切り"
-    },
-    "login": {
-        "authInProgress": "認証中です...",
-        "provider": {
-            "discord": "Discordでログイン",
-            "twitch": "Twitchでログイン"
-        }
+    "privacy": {
+      "title": "プライバシーポリシー",
+      "cookies": {
+        "title": "クッキーとウェブビーコン"
+      },
+      "log": {
+        "title": "ログファイル"
+      },
+      "consent": {
+        "par1": "本ウェブサイトを利用することで、利用者は、本プライバシーポリシーを読み、これらの規約内容に同意したものとみなされます。"
+      },
+      "par1": "{{oengus-link}}からアクセスできるOengusにおいて、訪問者のプライバシーは最優先事項の一つです。本プライバシーポリシーは、Oengusが収集・記録する情報の種類とその使用方法を記載しています。",
+      "par2": "本サイトの個人情報保護方針についてご質問がある場合、または詳細な情報を必要とする場合はお問い合わせ下さい。",
+      "par3": "本ポリシーが矛盾する場合、英語版のプライバシーポリシーが優先されます。"
+    }
+  },
+  "action": {
+    "cancel": "キャンセル",
+    "clearAvailabilities": "参加可能時間をクリア",
+    "confirm": "確認",
+    "save": "保存",
+    "submit": "送信",
+    "sendTweet": "ツイート送信",
+    "join": "参加",
+    "decline": "拒否",
+    "accept": "許可"
+  },
+  "alert": {
+    "incentives": {
+      "delete": {
+        "error": "インセンティブの削除に失敗しました。再度実行するか管理者に連絡してください。",
+        "success": "インセンティブを削除しました"
+      },
+      "save": {
+        "error": "インセンティブの保存に失敗しました。再度実行するか管理者に連絡してください。",
+        "success": "インセンティブを保存しました。"
+      }
     },
     "marathon": {
-        "help": {
-            "isArchived": "このマラソン読み取り専用モードです。"
-        },
-        "home": {
-            "from": "開始",
-            "language": "言語",
-            "location": "場所",
-            "to": "終了"
-        },
-        "incentives": {
-            "management": {
-                "action": {
-                    "add": "インセンティブ追加"
-                },
-                "currentAmount": {
-                    "error": {
-                        "required": "現在の額は必須です"
-                    }
-                },
-                "donationGoal": "寄付金目標",
-                "goal": {
-                    "error": {
-                        "required": "寄付金の目標は必須です"
-                    }
-                },
-                "name": {
-                    "error": {
-                        "required": "名前は必須です"
-                    }
-                },
-                "table": {
-                    "actions": "操作",
-                    "currentAmount": "現寄付額",
-                    "description": "概要",
-                    "game": "ゲーム",
-                    "goal": "目標",
-                    "incentive": "インセンティブ名",
-                    "progress": "進行度"
-                },
-                "title": "インセンティブ管理"
-            },
-            "title": "インセンティブ"
-        },
-        "menu": {
-            "admin": "管理者",
-            "home": "ホーム",
-            "incentives": "インセンティブ",
-            "loginToSubmit": "応募のためにはログインしてください",
-            "manageIncentives": "インセンティブ管理",
-            "manageSchedule": "スケジュール管理",
-            "moderators": "モデレーター",
-            "overview": "概要",
-            "schedule": "スケジュール",
-            "selectRuns": "ゲームを選ぶ",
-            "settings": "設定",
-            "submitRuns": "ゲームを応募",
-            "viewSubmissions": "応募一覧",
-            "editSubmission": "応募を編集する"
-        },
-        "new": {
-            "description": "以下は新しいマラソンの作成に必須です。作成後にその他詳細を設定できます。",
-            "title": "マラソンの新規作成"
-        },
-        "schedule": {
-            "management": {
-                "action": {
-                    "addSetupBlock": "セットアップブロックの追加",
-                    "alreadyPublished": "スケジュールは既に公開されています",
-                    "publish": "スケジュールの公開",
-                    "addRun": "ゲームを追加"
-                },
-                "help": {
-                    "dragAndDrop": "矢印を使うことでスケジュール上のゲームを追加や削除ができます。各行はドラッグアンドドロップすることで動かすことができます:",
-                    "save": "「保存」をクリックしてスケジュールの下書き保存や更新ができます。「スケジュールの公開」でスケジュールを公開できます。注意: スケジュールを公開すると、スケジュールが更新されるたびにマラソンの終了日時が自動で再計算されます。"
-                },
-                "schedule": "スケジュール",
-                "selectedRuns": "選定されたゲーム",
-                "title": "スケジュール管理",
-                "customData": {
-                    "text": "カスタムデータ欄の非表示/表示",
-                    "inputText": "カスタムデータはテキスト形式で保存され、スケジュール行に\"非公開の\"データを追加することができます"
-                }
-            },
-            "setupBlock": "セットアップブロック",
-            "table": {
-                "actions": "操作",
-                "category": "カテゴリー",
-                "console": "機種",
-                "estimate": "予定時間",
-                "game": "ゲーム",
-                "placeholder": "左のテーブルからゲームを移動してください。このテキストはゲームが追加されたら消えます。",
-                "runner": "走者",
-                "setup": "セットアップタイム",
-                "time": "時間",
-                "type": "種別"
-            },
-            "timezone": "日時は全てあなたのタイムゾーンで表示されています。",
-            "title": "スケジュール",
-            "type": {
-                "SINGLE": "単走",
-                "RACE": "レース",
-                "OTHER": "その他",
-                "COOP_RACE": "協力レース",
-                "COOP": "協力",
-                "RELAY_RACE": "リレーレース",
-                "RELAY": "リレー"
-            },
-            "nextRun": "次のゲーム {{duration}}",
-            "export": {
-                "title": "スケジュールをエクスポート",
-                "json": "JSON (Horaro) 形式でエクスポート",
-                "ics": "ICS 形式でエクスポート",
-                "csv": "CSV 形式でエクスポート"
-            },
-            "dstChange": "マラソン期間中に夏時間の変更が起こります。",
-            "currentRun": "現在のゲーム"
-        },
-        "selection": {
-            "action": {
-                "publish": "選定の公開",
-                "decline": "TODO を落選にする"
-            },
-            "availabilities": {
-                "help": "カレンダーのアイコンをクリックすると、各走者の参加可能時間を表示できます。"
-            },
-            "publish": {
-                "help": "「保存」をクリックしてスケジュールの下書き保存や更新ができます。「スケジュールの公開」でスケジュールを公開できます。ゲーム選択結果の保存や公開は、量によって多少時間がかかることがあります。注意: スケジュールを公開すると、スケジュールが更新されるたびにマラソンの終了日時が自動で再計算されます。"
-            },
-            "selection": {
-                "title": "選定"
-            },
-            "statistics": {
-                "table": {
-                    "averageEstimate": "平均予定時間",
-                    "defaultSetupTime": "既定のセットアップタイム",
-                    "marathonLength": "マラソン期間",
-                    "numberOfRunners": "走者数",
-                    "numberOfRuns": "ゲーム数",
-                    "totalTime": "総時間",
-                    "totalTimeValidated": "総時間"
-                },
-                "title": "統計"
-            },
-            "status": {
-                "BONUS": "ボーナス",
-                "REJECTED": "落選",
-                "TODO": "TODO",
-                "VALIDATED": "当選",
-                "BACKUP": "バックアップ",
-                "ALL": "全てのステータス"
-            },
-            "title": "ゲーム選定",
-            "help": {
-                "BACKUP": "バックアップはスケジュール管理の採用ゲームリストに追加されません。リストに追加するには、採用もしくはボーナスにステータスを変更してください。"
-            }
-        },
-        "settings": {
-            "country": {
-                "label": "国"
-            },
-            "dangerZone": "危険ゾーン",
-            "defaultSetupTime": {
-                "error": {
-                    "pattern": "「時:分:秒」のフォーマットで入力してください",
-                    "required": "既定のセットアップタイムは必須です"
-                },
-                "label": "既定のセットアップタイム"
-            },
-            "delete": {
-                "action": "マラソンの削除",
-                "confirmText": "本当にマラソンを削除しますか？ 確認のためにマラソンの略称を入力して「確認」を押してください"
-            },
-            "description": "ここではマラソンの設定を変更できます",
-            "discord": {
-                "error": {
-                    "pattern": "Discordのリンクが無効です"
-                }
-            },
-            "discordPrivacy": {
-                "help": "Discordがプライベートに設定されている場合、招待リンクはページには表示されませんが、選定された走者へのメールには表示されます。",
-                "label": "Discordプライベート設定",
-                "private": "Discordはプライベートです"
-            },
-            "endDate": {
-                "error": {
-                    "required": "予定終了日時は必須です"
-                },
-                "label": "予定終了日時"
-            },
-            "generalTitle": "一般設定",
-            "incentives": {
-                "hasIncentives": "インセンティブを使う",
-                "label": "インセンティブ状況"
-            },
-            "incentivesTitle": "インセンティブ設定",
-            "language": {
-                "label": "言語"
-            },
-            "location": {
-                "label": "場所"
-            },
-            "marathonDescription": {
-                "help": "マークダウンが使えます",
-                "label": "概要"
-            },
-            "maxCategoriesPerGame": {
-                "error": {
-                    "max": "ゲームごとの最大カテゴリー数が大きすぎます",
-                    "min": "ゲームごとの最大カテゴリー数は正の数にしてください",
-                    "required": "ゲームごとの最大カテゴリー数は必須です"
-                },
-                "label": "ゲームごとの最大カテゴリー数"
-            },
-            "maxGamesPerRunner": {
-                "error": {
-                    "min": "走者ごとの最大ゲーム数は正の数にしてください",
-                    "required": "走者ごとの最大ゲーム数は必須です"
-                },
-                "label": "走者ごとの最大ゲーム数"
-            },
-            "maxNumberOfScreens": {
-                "error": {
-                    "min": "最大画面数は正の数にしてください",
-                    "required": "最大画面数は必須です"
-                },
-                "help": "複数人同時にプレイする協力プレイやレースで、配信に表示できる最大画面数を設定することができます",
-                "label": "最大画面数"
-            },
-            "moderators": {
-                "label": "モデレーター"
-            },
-            "multiplayer": {
-                "allowed": "協力プレイ、レースの応募ができます",
-                "forbidden": "協力プレイ、レースの応募はできません",
-                "label": "複数走者"
-            },
-            "name": {
-                "error": {
-                    "max": "マラソン名が長すぎます",
-                    "min": "マラソン名が短すぎます",
-                    "pattern": "マラソン名が無効です",
-                    "required": "マラソン名は必須です"
-                },
-                "label": "名前"
-            },
-            "privacy": {
-                "help": "非公開マラソンはトップページに表示されません。URLでのみアクセスできます。",
-                "label": "マラソン公開設定",
-                "private": "非公開",
-                "public": "公開"
-            },
-            "shortname": {
-                "error": {
-                    "exists": "マラソンの略称は既にあります",
-                    "max": "マラソンの略称が長すぎます",
-                    "min": "マラソンの略称が短すぎます",
-                    "pattern": "マラソンの略称が無効です",
-                    "required": "マラソンの略称は必須です"
-                },
-                "label": "略称",
-                "shorturl": "短縮URL"
-            },
-            "startDate": {
-                "error": {
-                    "required": "開始日時は必須です"
-                },
-                "label": "開始日時"
-            },
-            "submissions": {
-                "closed": "募集は締め切りました",
-                "label": "募集",
-                "open": "募集中です"
-            },
-            "submissionsTitle": "募集設定",
-            "tabs": {
-                "dangerZone": "危険ゾーン",
-                "general": "一般",
-                "incentives": "インセンティブ",
-                "submissions": "募集"
-            },
-            "title": "マラソン設定",
-            "twitch": {
-                "error": {
-                    "max": "Twitchのアカウント名が長すぎます",
-                    "pattern": "Twitchのアカウント名が無効です"
-                }
-            },
-            "twitter": {
-                "error": {
-                    "max": "Twitterのアカウント名が長すぎます",
-                    "pattern": "Twitterのアカウント名が無効です"
-                }
-            },
-            "type": {
-                "label": "マラソンの種類",
-                "online": "オンライン",
-                "onsite": "会場"
-            },
-            "supportedCharity": {
-                "label": "募金の寄付先",
-                "error": {
-                    "max": "募金先の名称が長すぎます",
-                    "required": "募金先を指定する必要があります"
-                }
-            },
-            "submissionsEndDate": {
-                "error": {
-                    "required": "募集開始日時を設定する場合、募集締切日時も設定して下さい"
-                },
-                "label": "募集終了日時"
-            },
-            "submissionsStartDate": {
-                "error": {
-                    "required": "募集終了日時を設定する場合、募集開始日時を設定する必要があります"
-                },
-                "label": "募集開始日時"
-            },
-            "youtube": {
-                "error": {
-                    "pattern": "YouTubeのチャンネルURLが無効です"
-                }
-            }
-        },
-        "submissions": {
-            "table": {
-                "actions": "操作",
-                "category": "カテゴリー",
-                "categoryDescription": "カテゴリー概要",
-                "console": "機種",
-                "estimate": "予定時間",
-                "game": "ゲームタイトル",
-                "gameDescription": "ゲーム概要",
-                "runner": "",
-                "status": "ステータス",
-                "ratio": "アスペクト比／解像度"
-            },
-            "title": "応募",
-            "category": {
-                "delete": "カテゴリーを削除する"
-            },
-            "export": "CSV形式でエクスポートする",
-            "game": {
-                "delete": ""
-            }
-        },
-        "submit": {
-            "action": {
-                "addCategory": "カテゴリー追加",
-                "removeGame": "ゲーム削除"
-            },
-            "availabilities": {
-                "actions": "操作",
-                "add": "参加可能時間を追加",
-                "error": {
-                    "dateRequired": "日付は必須です",
-                    "required": "1つ以上の参加可能時間を追加してください"
-                },
-                "from": "開始",
-                "label": "参加可能時間",
-                "to": "終了",
-                "duplicate": "内容を翌日にコピーする"
-            },
-            "category": {
-                "description": {
-                    "error": {
-                        "required": "カテゴリー概要は必須です"
-                    },
-                    "help": "このカテゴリーの説明",
-                    "label": "カテゴリー概要"
-                },
-                "estimate": {
-                    "error": {
-                        "min": "0秒より大きくしてください",
-                        "pattern": "予定時間が無効です。時:分:秒のフォーマットにしてください",
-                        "required": "予定時間は必須です"
-                    },
-                    "label": "予定時間"
-                },
-                "name": {
-                    "error": {
-                        "required": "カテゴリー名は必須です"
-                    },
-                    "label": "カテゴリー"
-                },
-                "video": {
-                    "error": {
-                        "required": "動画リンクは必須です"
-                    },
-                    "label": "動画リンク"
-                }
-            },
-            "game": {
-                "console": {
-                    "emulated": "エミュレーター",
-                    "label": "機種",
-                    "emulatorNotAllowed": "このマラソンではエミュレーターの使用は制限されています"
-                },
-                "description": {
-                    "error": {
-                        "required": "ゲーム概要は必須です"
-                    },
-                    "help": "ゲームや行われるRTAについての説明",
-                    "label": "ゲーム概要"
-                },
-                "name": {
-                    "error": {
-                        "required": "ゲームタイトルは必須です"
-                    },
-                    "label": "ゲームタイトル"
-                },
-                "ratio": {
-                    "error": {
-                        "required": "アスペクト比は必須です"
-                    },
-                    "label": "アスペクト比 (16:9, 4:3,...)"
-                }
-            },
-            "maxCategoriesPerGame": "ゲームごとの最大カテゴリー数",
-            "maxGamesPerRunner": "走者ごとの最大ゲーム数",
-            "maxNumberOfScreens": "レースや協力プレイでの最大走者数",
-            "racesAllowed": "レースや協力プレイも応募できます",
-            "submissions": "応募",
-            "table": {
-                "actions": "操作",
-                "categories": "カテゴリー",
-                "games": "ゲーム"
-            },
-            "title": "ゲーム応募",
-            "multiplayer": {
-                "code": {
-                    "help": "複数人で行うゲームに参加を希望する場合、コードを入力して下さい"
-                }
-            },
-            "delete": {
-                "action": "応募を削除する"
-            },
-            "details": "詳細",
-            "customField": {
-                "error": {
-                    "required": "この項目は必須です"
-                }
-            },
-            "requirements": {
-                "discord": {
-                    "back": "戻る",
-                    "par1": "Discordサーバーに参加しているかを確認するためには「確認する」を押して下さい。",
-                    "syncNotice": [
-                        "None",
-                        "ユーザー設定"
-                    ],
-                    "par2": "Discordサーバーに参加している場合のみ応募することができます。",
-                    "errors": {
-                        "botMissing": "確認する"
-                    },
-                    "lead": "応募するにはDiscordのサーバーに参加している必要があります"
-                }
-            },
-            "submitsClosed": "応募は締め切られました。スケジュールが公開されるまで、参加可能時間の変更のみ可能です。"
-        },
-        "donate": {
-            "nickname": {
-                "error": {
-                    "max": "表示名が長すぎます",
-                    "pattern": "ニックネームには小文字の英数字、大文字の英数字、_ もしくは - が使用可能です"
-                },
-                "label": "ニックネーム"
-            },
-            "incentives": {
-                "title": "インセンティブ",
-                "left": "残りの額:",
-                "header": {
-                    "incentive": "インセンティブ",
-                    "amount": "額"
-                },
-                "bid": {
-                    "new": "(新規)"
-                },
-                "add": "インセンティブを追加"
-            },
-            "extra": {
-                "title": "追加情報"
-            },
-            "comment": {
-                "label": "コメント"
-            },
-            "amount": {
-                "label": "寄付額",
-                "error": {
-                    "required": "寄付額は必須です",
-                    "minNumber": "寄付額は0以上にしてください"
-                }
-            },
-            "title": "寄付",
-            "incentiveAmount": {
-                "error": {
-                    "minNumber": "金額は0以上にしてください",
-                    "required": "金額は必須です"
-                }
-            },
-            "description": "寄付は {{supportedCharity}} を支援します"
-        },
-        "donations": {
-            "table": {
-                "comment": "コメント",
-                "amount": "額"
-            },
-            "max": "最高寄付額",
-            "export": "CSV 形式でエクスポート",
-            "count": "総寄付数",
-            "average": "平均寄付額"
-        }
+      "creation": {
+        "error": "マラソン作成に失敗しました",
+        "success": "マラソンを作成しました"
+      },
+      "deletion": {
+        "error": "マラソンの削除に失敗しました",
+        "success": "マラソンを削除しました"
+      },
+      "update": {
+        "error": "マラソンの更新に失敗しました",
+        "success": "マラソンを更新しました"
+      }
     },
-    "navbar": {
-        "about": "About",
-        "bugtracker": "バグや提案の送信",
-        "createMarathon": "マラソン作成",
-        "discord": "公式Discordサーバーに参加",
-        "login": {
-            "discord": "Discordでログイン",
-            "title": "ログイン",
-            "twitch": "Twitchでログイン",
-            "twitter": "Twitterでログイン"
-        },
-        "logout": "ログアウト",
-        "settings": "設定",
-        "translate": "翻訳の手伝い",
-        "twitter": "Twitterをフォロー",
-        "donate": "募金"
+    "schedule": {
+      "export": {
+        "error": "エクスポート中にエラーが発生しました。 再試行するか、管理者に連絡してください。"
+      },
+      "save": {
+        "error": "スケジュールの保存に失敗しました",
+        "success": "スケジュールを保存しました"
+      }
+    },
+    "selection": {
+      "save": {
+        "error": "応募の選定の保存に失敗しました",
+        "success": "応募の選定を保存しました"
+      }
+    },
+    "submission": {
+      "save": {
+        "error": "応募に失敗しました",
+        "success": "応募しました"
+      },
+      "deletion": {
+        "success": "応募を削除しました",
+        "error": "応募の削除に失敗しました。再度実行するか管理者に連絡してください。"
+      },
+      "cache": "応募が一覧に反映されるまで30分以上かかることがあります"
+    },
+    "submit": {
+      "CODE_NOT_FOUND": "このコードは存在しません",
+      "DISCORD_VERIFIED": "Discordサーバーへの参加を確認したので応募ができます",
+      "SAME_USER": "自分自身が作成したカテゴリに参加はできません",
+      "NOT_MULTIPLAYER": "このカテゴリは複数走者ではありません",
+      "MAX_SIZE_REACHED": "この応募は最大走者数に達しています",
+      "DIFFERENT_MARATHON": "別のマラソンのコードです",
+      "ALREADY_IN_OPPONENTS": "既にこのカテゴリに参加しています"
     },
     "user": {
-        "settings": {
-            "accountSync": {
-                "description": "Oengusのアカウントとソーシャルメディアを連携することができます。",
-                "error": {
-                    "noService": "最低1つの連携が必要です"
-                },
-                "sync": "アカウント連携",
-                "title": "アカウント連携",
-                "unsync": "アカウント削除"
-            },
-            "email": {
-                "error": {
-                    "email": "メールアドレスが無効です",
-                    "required": "メールアドレスは必須です"
-                },
-                "label": "メールアドレス"
-            },
-            "general": "一般設定",
-            "new": {
-                "beforeWeStart": "まず最初に...",
-                "description": "追加で必要な情報を入力してください。"
-            },
-            "srcom": {
-                "error": {
-                    "max": "speedrun.comのユーザーネームが長すぎます",
-                    "pattern": "Speedrun.comのユーザーネームが無効です"
-                }
-            },
-            "title": "プロフィール変更",
-            "twitch": {
-                "disabled": {
-                    "help": "この項目は、Twitchアカウントが既に連携されているため無効になっています。Twitchアカウント名が変わったときには再び連携をして更新してください。"
-                },
-                "error": {
-                    "max": "Twitchのユーザーネームが長すぎます",
-                    "pattern": "Twitchのユーザーネームが無効です"
-                }
-            },
-            "twitter": {
-                "disabled": {
-                    "help": "この項目は、Twitterアカウントが既に連携されているため無効になっています。Twitterアカウント名が変わったときには再び連携をして更新してください。"
-                },
-                "error": {
-                    "max": "Twitterのユーザーネームが長すぎます",
-                    "pattern": "Twitterのユーザーネームが無効です"
-                }
-            },
-            "username": {
-                "error": {
-                    "exists": "そのユーザーネームは既に使われています",
-                    "max": "ユーザーネームが長すぎます",
-                    "min": "ユーザーネームが短すぎます",
-                    "pattern": "ユーザーネームは、小文字・大文字・_・-のみ使えます",
-                    "required": "ユーザーネームは必須です"
-                },
-                "label": "ユーザーネーム"
-            },
-            "deactivateAccount": {
-                "action": "アカウントの停止",
-                "confirmText": "アカウントを停止しますか？停止したい場合、ユーザーネームを入力し「確認」をクリックして下さい",
-                "title": "アカウントを停止または削除する",
-                "description": "アカウントを停止すると、再度ログインできなくなり、モデレーターはあなたをマラソンのモデレーターやランナーとして追加できなくなります。すべてのデータは一貫性を保つために保存され、ソーシャルメディアも連携されたままになりますが、スケジュールや投稿リストにアカウントが表示されることはなくなります。アカウントを再び使用したい場合は、管理者に問い合わせしてください。"
-            },
-            "deletingAccount": {
-                "body": [
-                    "Oengusのアカウントを削除しようとしています。",
-                    "この操作は取り消すことができません！",
-                    "アカウントを削除する場合、ユーザーネームを入力して下さい。"
-                ],
-                "title": "警告！",
-                "settingsDeleteBtn": "アカウントを削除する",
-                "btnDelete": "削除する :(",
-                "btnCancel": "キャンセル :)",
-                "success": "アカウントが削除されました"
-            },
-            "language": {
-                "no_results": "言語が見つかりません",
-                "placeholder": "言語を検索して下さい",
-                "label": "会話に使用する言語を選択して下さい"
-            },
-            "connections": {
-                "visibility": "一般公開",
-                "select_platform": "プラットフォームを選択する",
-                "username": "ユーザーネーム",
-                "title": "連携",
-                "subtitle": "連携したソーシャルメディアのアカウントはプロフィールに一般公開されます。"
-            },
-            "pronouns": {
-                "title": "ジェンダープロナウン",
-                "hint": "プロナウンを英語で検索して下さい。例：they/them",
-                "no_results": "プロナウンが見つかりません",
-                "help": "プロナウンのデータは <a href=\"https://en.pronouns.page/\" target=\"_blank\">pronouns.page</a>に基づいています。pronouns.pageについての詳細な情報と寄与の方法は、pronouns.pageのウェブサイトをご覧下さい"
-            },
-            "discord": {
-                "disabled": {
-                    "help": "この項目は、Discordアカウントが既に連携されているため無効になっています。Discord IDが変わったときには再び連携をして更新してください。"
-                }
-            }
-        },
-        "profile": {
-            "filter": {
-                "temporality": {
-                    "FUTURE": "今後のマラソン",
-                    "title": "イベント日程",
-                    "PAST": "過去のマラソン"
-                }
-            },
-            "speak": "会話に使用する言語：",
-            "submissions": "応募履歴",
-            "moderator": "イベントモデレーター"
-        }
+      "login": {
+        "error": "認証中にエラーが発生しました。再度試してみるか、管理者に問い合わせてください。",
+        "usernameExists": "このユーザーネームは既に存在しています。Oengusに他の方法でログインしていないか確認し、そうでない場合管理者に連絡してください。",
+        "disabledAccount": "アカウントが無効化されています。使いたい場合管理者に連絡してください。"
+      },
+      "sync": {
+        "alreadySynced": "エラー: そのアカウントは既に使われています",
+        "error": "アカウント連携に失敗しました。アドブロッカーが原因になる場合があります。Oengusを許可リストに追加するか全ての拡張機能を無効にして再度行ってください。拡張機能がインストールされていないブラウザでもこのエラーが表示される場合は、OengusのDiscordサーバーの #bug_or_feature で問い合わせてください。"
+      },
+      "update": {
+        "error": "ユーザー情報の更新に失敗しました",
+        "success": "ユーザー情報を保存しました"
+      },
+      "deactivate": {
+        "success": "アカウントを削除しました"
+      }
     },
-    "calendar": {
-        "title": "マラソンカレンダー",
-        "help": "イベントをクリックするとそのページに移動します"
+    "game": {
+      "export": {
+        "error": "出力に失敗しました。再度実行するか管理者に連絡してください。"
+      },
+      "deletion": {
+        "success": "ゲームを削除しました",
+        "error": "ゲーム削除に失敗しました。再度実行するか管理者に連絡してください。"
+      }
     },
-    "country": {
-        "IS": "アイスランド",
-        "IE": "アイルランド",
-        "AZ": "アゼルバイジャン",
-        "AF": "アフガニスタン",
-        "US": "アメリカ合衆国",
-        "VI": "アメリカ領ヴァージン諸島",
-        "AS": "アメリカ領サモア",
-        "AE": "アラブ首長国連邦",
-        "DZ": "アルジェリア",
-        "AR": "アルゼンチン",
-        "AW": "アルバ",
-        "AL": "アルバニア",
-        "AM": "アルメニア",
-        "AI": "アンギラ",
-        "AO": "アンゴラ",
-        "AG": "アンティグア・バーブーダ",
-        "AD": "アンドラ",
-        "YE": "イエメン",
-        "GB": "イギリス",
-        "IO": "イギリス領インド洋地域",
-        "VG": "イギリス領ヴァージン諸島",
-        "IL": "イスラエル",
-        "IT": "イタリア",
-        "IQ": "イラク",
-        "IR": "イラン・イスラム共和国",
-        "IN": "インド",
-        "ID": "インドネシア",
-        "WF": "ウォリス・フツナ",
-        "UG": "ウガンダ",
-        "UA": "ウクライナ",
-        "UZ": "ウズベキスタン",
-        "UY": "ウルグアイ",
-        "EC": "エクアドル",
-        "EG": "エジプト",
-        "EE": "エストニア",
-        "SZ": "エスワティニ",
-        "ET": "エチオピア",
-        "ER": "エリトリア",
-        "SV": "エルサルバドル",
-        "AU": "オーストラリア",
-        "AT": "オーストリア",
-        "AX": "オーランド諸島",
-        "OM": "オマーン",
-        "NL": "オランダ",
-        "GH": "ガーナ",
-        "CV": "カーボベルデ",
-        "GG": "ガーンジー",
-        "GY": "ガイアナ",
-        "KZ": "カザフスタン",
-        "QA": "カタール",
-        "UM": "合衆国領有小離島",
-        "CA": "カナダ",
-        "GA": "ガボン",
-        "CM": "カメルーン",
-        "GM": "ガンビア",
-        "KH": "カンボジア",
-        "MK": "北マケドニア",
-        "MP": "北マリアナ諸島",
-        "GN": "ギニア",
-        "GW": "ギニアビサウ",
-        "CY": "キプロス",
-        "CU": "キューバ",
-        "CW": "キュラソー",
-        "GR": "ギリシャ",
-        "KI": "キリバス",
-        "KG": "キルギス",
-        "GT": "グアテマラ",
-        "GP": "グアドループ",
-        "GU": "グアム",
-        "KW": "クウェート",
-        "CK": "クック諸島",
-        "GL": "グリーンランド",
-        "CX": "クリスマス島",
-        "GD": "グレナダ",
-        "HR": "クロアチア",
-        "KY": "ケイマン諸島",
-        "KE": "ケニア",
-        "CI": "コートジボワール",
-        "CC": "ココス（キーリング）諸島",
-        "CR": "コスタリカ",
-        "KM": "コモロ",
-        "CO": "コロンビア",
-        "CG": "コンゴ共和国",
-        "CD": "コンゴ民主共和国",
-        "SA": "サウジアラビア",
-        "GS": "サウスジョージア・サウスサンドウィッチ諸島",
-        "WS": "サモア",
-        "ST": "サントメ・プリンシペ",
-        "BL": "サン・バルテルミー",
-        "ZM": "ザンビア",
-        "PM": "サンピエール島・ミクロン島",
-        "SM": "サンマリノ",
-        "MF": "サン・マルタン（フランス領）",
-        "SL": "シエラレオネ",
-        "DJ": "ジブチ",
-        "GI": "ジブラルタル",
-        "JE": "ジャージー",
-        "JM": "ジャマイカ",
-        "GE": "ジョージア",
-        "SY": "シリア・アラブ共和国",
-        "SG": "シンガポール",
-        "SX": "シント・マールテン（オランダ領）",
-        "ZW": "ジンバブエ",
-        "CH": "スイス",
-        "SE": "スウェーデン",
-        "SD": "スーダン",
-        "SJ": "スヴァールバル諸島およびヤンマイエン島",
-        "ES": "スペイン",
-        "SR": "スリナム",
-        "LK": "スリランカ",
-        "SK": "スロバキア",
-        "SI": "スロベニア",
-        "SC": "セーシェル",
-        "GQ": "赤道ギニア",
-        "SN": "セネガル",
-        "RS": "セルビア",
-        "KN": "セントクリストファー・ネイビス",
-        "VC": "セントビンセントおよびグレナディーン諸島",
-        "SH": "セントヘレナ・アセンションおよびトリスタンダクーニャ",
-        "LC": "セントルシア",
-        "SO": "ソマリア",
-        "SB": "ソロモン諸島",
-        "TC": "タークス・カイコス諸島",
-        "TH": "タイ",
-        "KR": "大韓民国",
-        "TW": "台湾（中華民国）",
-        "TJ": "タジキスタン",
-        "TZ": "タンザニア",
-        "CZ": "チェコ",
-        "TD": "チャド",
-        "CF": "中央アフリカ共和国",
-        "CN": "中華人民共和国",
-        "TN": "チュニジア",
-        "KP": "朝鮮民主主義人民共和国",
-        "CL": "チリ",
-        "TV": "ツバル",
-        "DK": "デンマーク",
-        "DE": "ドイツ",
-        "TG": "トーゴ",
-        "TK": "トケラウ",
-        "DO": "ドミニカ共和国",
-        "DM": "ドミニカ国",
-        "TT": "トリニダード・トバゴ",
-        "TM": "トルクメニスタン",
-        "TR": "トルコ",
-        "TO": "トンガ",
-        "NG": "ナイジェリア",
-        "NR": "ナウル",
-        "NA": "ナミビア",
-        "AQ": "南極",
-        "NU": "ニウエ",
-        "NI": "ニカラグア",
-        "NE": "ニジェール",
-        "JP": "日本",
-        "EH": "西サハラ",
-        "NC": "ニューカレドニア",
-        "NZ": "ニュージーランド",
-        "NP": "ネパール",
-        "NF": "ノーフォーク島",
-        "NO": "ノルウェー",
-        "HM": "ハード島とマクドナルド諸島",
-        "BH": "バーレーン",
-        "HT": "ハイチ",
-        "PK": "パキスタン",
-        "VA": "バチカン市国",
-        "PA": "パナマ",
-        "VU": "バヌアツ",
-        "BS": "バハマ",
-        "PG": "パプアニューギニア",
-        "BM": "バミューダ",
-        "PW": "パラオ",
-        "PY": "パラグアイ",
-        "BB": "バルバドス",
-        "PS": "パレスチナ",
-        "HU": "ハンガリー",
-        "BD": "バングラデシュ",
-        "TL": "東ティモール",
-        "PN": "ピトケアン",
-        "FJ": "フィジー",
-        "PH": "フィリピン",
-        "FI": "フィンランド",
-        "BT": "ブータン",
-        "BV": "ブーベ島",
-        "PR": "プエルトリコ",
-        "FO": "フェロー諸島",
-        "FK": "フォークランド（マルビナス）諸島",
-        "BR": "ブラジル",
-        "FR": "フランス",
-        "GF": "フランス領ギアナ",
-        "PF": "フランス領ポリネシア",
-        "TF": "フランス領南方・南極地域",
-        "BG": "ブルガリア",
-        "BF": "ブルキナファソ",
-        "BN": "ブルネイ・ダルサラーム",
-        "BI": "ブルンジ",
-        "VN": "ベトナム",
-        "BJ": "ベナン",
-        "VE": "ベネズエラ・ボリバル共和国",
-        "BY": "ベラルーシ",
-        "BZ": "ベリーズ",
-        "PE": "ペルー",
-        "BE": "ベルギー",
-        "PL": "ポーランド",
-        "BA": "ボスニア・ヘルツェゴビナ",
-        "BW": "ボツワナ",
-        "BQ": "ボネール、シント・ユースタティウスおよびサバ",
-        "BO": "ボリビア多民族国",
-        "PT": "ポルトガル",
-        "HK": "香港",
-        "HN": "ホンジュラス",
-        "MH": "マーシャル諸島",
-        "MO": "マカオ",
-        "MG": "マダガスカル",
-        "YT": "マヨット",
-        "MW": "マラウイ",
-        "ML": "マリ",
-        "MT": "マルタ",
-        "MQ": "マルティニーク",
-        "MY": "マレーシア",
-        "IM": "マン島",
-        "FM": "ミクロネシア連邦",
-        "ZA": "南アフリカ",
-        "SS": "南スーダン",
-        "MM": "ミャンマー",
-        "MX": "メキシコ",
-        "MU": "モーリシャス",
-        "MR": "モーリタニア",
-        "MZ": "モザンビーク",
-        "MC": "モナコ",
-        "MV": "モルディブ",
-        "MD": "モルドバ共和国",
-        "MA": "モロッコ",
-        "MN": "モンゴル",
-        "ME": "モンテネグロ",
-        "MS": "モントセラト",
-        "JO": "ヨルダン",
-        "LA": "ラオス人民民主共和国",
-        "LV": "ラトビア",
-        "LT": "リトアニア",
-        "LY": "リビア",
-        "LI": "リヒテンシュタイン",
-        "LR": "リベリア",
-        "RO": "ルーマニア",
-        "LU": "ルクセンブルク",
-        "RW": "ルワンダ",
-        "LS": "レソト",
-        "LB": "レバノン",
-        "RE": "レユニオン",
-        "RU": "ロシア連邦"
+    "donation": {
+      "validate": {
+        "success": "寄付が完了しました。ありがとうございます！",
+        "error": "寄付の処理に失敗しました。再度実行するか管理者に連絡してください。"
+      },
+      "export": {
+        "error": "出力に失敗しました。再度実行するか管理者に連絡してください。"
+      }
     },
-    "language": {
-        "de": "ドイツ語",
-        "hi": "ヒンディー語",
-        "fil": "フィリピノ語",
-        "lt": "リトアニア語",
-        "hr": "クロアチア語",
-        "lv": "ラトビア語",
-        "hu": "ハンガリー語",
-        "zh-CN": "中国語",
-        "uk": "ウクライナ語",
-        "id": "インドネシア語",
-        "ur": "ウルドゥー語",
-        "ml": "マラヤーラム語",
-        "mr": "マラーティー語",
-        "ms": "マレー語",
-        "el": "ギリシャ語",
-        "en": "英語",
-        "eo": "エスペラント語",
-        "is": "アイスランド語",
-        "it": "イタリア語",
-        "am": "アムハラ語",
-        "chr": "チェロキー語",
-        "iw": "ヘブライ語",
-        "es": "スペイン語",
-        "et": "エストニア語",
-        "eu": "バスク語",
-        "ar": "アラビア語",
-        "pt-PT": "ポルトガル語",
-        "vi": "ベトナム語",
-        "ja": "日本語",
-        "ro": "ルーマニア語",
-        "en-GB": "英語",
-        "nl": "オランダ語",
-        "no": "ノルウェー語",
-        "fi": "フィンランド語",
-        "ru": "ロシア語",
-        "bg": "ブルガリア語",
-        "bn": "ベンガル語",
-        "fr": "フランス語",
-        "sk": "スロバキア語",
-        "sl": "スロベニア語",
-        "ca": "カタロニア語",
-        "sr": "セルビア語",
-        "kn": "カンナダ語",
-        "sv": "スウェーデン語",
-        "ko": "韓国語",
-        "sw": "スワヒリ語",
-        "zh_TW": "中国語",
-        "pt_BR": "ポルトガル語",
-        "ta": "タミル語",
-        "gu": "グジャラート語",
-        "cs": "チェコ語",
-        "te": "テルグ語",
-        "th": "タイ語",
-        "cy": "ウェールズ語",
-        "pl": "ポーランド語",
-        "da": "デンマーク語",
-        "tr": "トルコ語"
-    },
-    "footer": {
-        "text": "表示されている時間は、あなたのPCのタイムゾーンに合わせてあります。現在表示されているタイムゾーン：{{timezone}}",
-        "donate": "もしOengusをイイネ！と思う方は、<a href=\"{{donationLink}}\" target=\"_blank\">寄付</a>をお願いします"
-    },
-    "platform": {
-        "NICO": "ニコニコ",
-        "PHONE": "電話番号",
-        "EMAIL": "メールアドレス",
-        "DISCORD": "Discord",
-        "SNAPCHAT": "Snapchat",
-        "INSTAGRAM": "Instagram",
-        "FACEBOOK": "Facebook",
-        "TWITCH": "Twitch",
-        "TWITTER": "Twitter",
-        "SPEEDRUNCOM": "speedrun.com",
-        "YOUTUBE": "YouTube",
-        "MASTODON": "Mastodon"
-    },
-    "news": {
-        "title": "News"
-    },
-    "patrons": {
-        "noPatrons": "表示できるパトロンが存在しません。 <a href=\"https://www.patreon.com/oengusio\" target=\"_blank\">あなたが一人目になってみませんか</a>？"
-    },
-    "errors": {
-        "404": {
-            "title4": "バグではありません、仕様です",
-            "body": "ページが見つかりませんでした"
-        }
-    },
-    "announcements": {
-        "twitterRemoval": "間もなくログイン方法から Twitter を削除する予定です。 アカウントがロックされないように、Twitch アカウントまたは Discord アカウントが Oengus アカウントに紐付けされていることを確認してください。"
+    "category": {
+      "deletion": {
+        "success": "カテゴリー削除しました",
+        "error": "カテゴリ削除に失敗しました。再度実行するか管理者に連絡してください。"
+      }
     }
+  },
+  "global": {
+    "emu": "[エミュ]",
+    "non_select": "選択されていません",
+    "disabled": "無効",
+    "enabled": "有効",
+    "adblocker": "アドブロッカーをお使いですか？Oengusは広告や寄付によって運営されているので、アドブロッカーの無効化をお願いします。"
+  },
+  "homepage": {
+    "ends": "{{duration}}終了",
+    "marathons": {
+      "live": "進行中のマラソン",
+      "open": "応募受付中",
+      "upcoming": "今後のマラソン",
+      "moderated": "モデレーターのマラソン",
+      "calendar": "カレンダー"
+    },
+    "plannedFeatures": {
+      "1": "協力プレイやレースの応募",
+      "2": "様々なゲーム選定システム (直接選択、投票など)",
+      "3": "走者の参加可能時間の可視化による簡単なスケジュール作成",
+      "4": "Twitter・Twitch・Googleとアカウント連携",
+      "5": "Discord連携",
+      "6": "メール通知",
+      "7": "PayPal経由の寄付管理",
+      "title": "計画中の機能",
+      "volunteerManager": "ボランティア募集管理"
+    },
+    "starts": "{{duration}}開始",
+    "welcomeText": {
+      "par1": "Oengusは<b>無料</b>で使える、マラソンの応募やスケジュール管理ツールです。",
+      "par3": "全ての機能を使うには以下のリンクからログインしてください。マラソンの新規作成や応募ができるようになります:",
+      "par4": {
+        "prod": "このサイトの機能を試してみたい場合は、本番とは切り離されたテスト用の<a href=\"https://sandbox.oengus.io\">sandbox環境</a>を使ってください。",
+        "sandbox": "<b>このサイトはsandbox環境です。機能を試したり発見したりするための環境です。実際のマラソンを作成する場合は、<a href=\"https://oengus.io\">本番のサイト</a>を使ってください。</b>"
+      }
+    },
+    "welcomeTitle": "Oengusへようこそ!",
+    "sponsors": {
+      "title": "スポンサー",
+      "esa": "oengus.io は <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a> によって運営されています",
+      "kaspersky": {
+        "box": "Kaspersky のスポンサーによって、Oengus v2 が開発中です。 <a href=\"{{readMoreUrl}}\" target=\"_blank\">続きを読む</a>",
+        "banner": "Kaspersky のスポンサーによって、Oengus v2 が開発中です。"
+      }
+    },
+    "submissions_close": "{{duration}} 応募締め切り"
+  },
+  "login": {
+    "authInProgress": "認証中です...",
+    "provider": {
+      "discord": "Discordでログイン",
+      "twitch": "Twitchでログイン"
+    }
+  },
+  "marathon": {
+    "help": {
+      "isArchived": "このマラソン読み取り専用モードです。"
+    },
+    "home": {
+      "from": "開始",
+      "language": "言語",
+      "location": "場所",
+      "to": "終了"
+    },
+    "incentives": {
+      "management": {
+        "action": {
+          "add": "インセンティブ追加"
+        },
+        "currentAmount": {
+          "error": {
+            "required": "現在の額は必須です"
+          }
+        },
+        "donationGoal": "寄付金目標",
+        "goal": {
+          "error": {
+            "required": "寄付金の目標は必須です"
+          }
+        },
+        "name": {
+          "error": {
+            "required": "名前は必須です"
+          }
+        },
+        "table": {
+          "actions": "操作",
+          "currentAmount": "現寄付額",
+          "description": "概要",
+          "game": "ゲーム",
+          "goal": "目標",
+          "incentive": "インセンティブ名",
+          "progress": "進行度"
+        },
+        "title": "インセンティブ管理"
+      },
+      "title": "インセンティブ"
+    },
+    "menu": {
+      "admin": "管理者",
+      "home": "ホーム",
+      "incentives": "インセンティブ",
+      "loginToSubmit": "応募のためにはログインしてください",
+      "manageIncentives": "インセンティブ管理",
+      "manageSchedule": "スケジュール管理",
+      "moderators": "モデレーター",
+      "overview": "概要",
+      "schedule": "スケジュール",
+      "selectRuns": "ゲームを選ぶ",
+      "settings": "設定",
+      "submitRuns": "ゲームを応募",
+      "viewSubmissions": "応募一覧",
+      "editSubmission": "応募を編集する"
+    },
+    "new": {
+      "description": "以下は新しいマラソンの作成に必須です。作成後にその他詳細を設定できます。",
+      "title": "マラソンの新規作成"
+    },
+    "schedule": {
+      "management": {
+        "action": {
+          "addSetupBlock": "セットアップブロックの追加",
+          "alreadyPublished": "スケジュールは既に公開されています",
+          "publish": "スケジュールの公開",
+          "addRun": "ゲームを追加"
+        },
+        "help": {
+          "dragAndDrop": "矢印を使うことでスケジュール上のゲームを追加や削除ができます。各行はドラッグアンドドロップすることで動かすことができます:",
+          "save": "「保存」をクリックしてスケジュールの下書き保存や更新ができます。「スケジュールの公開」でスケジュールを公開できます。注意: スケジュールを公開すると、スケジュールが更新されるたびにマラソンの終了日時が自動で再計算されます。"
+        },
+        "schedule": "スケジュール",
+        "selectedRuns": "選定されたゲーム",
+        "title": "スケジュール管理",
+        "customData": {
+          "text": "カスタムデータ欄の非表示/表示",
+          "inputText": "カスタムデータはテキスト形式で保存され、スケジュール行に\"非公開の\"データを追加することができます"
+        }
+      },
+      "setupBlock": "セットアップブロック",
+      "table": {
+        "actions": "操作",
+        "category": "カテゴリー",
+        "console": "機種",
+        "estimate": "予定時間",
+        "game": "ゲーム",
+        "placeholder": "左のテーブルからゲームを移動してください。このテキストはゲームが追加されたら消えます。",
+        "runner": "走者",
+        "setup": "セットアップタイム",
+        "time": "時間",
+        "type": "種別"
+      },
+      "timezone": "日時は全てあなたのタイムゾーンで表示されています。",
+      "title": "スケジュール",
+      "type": {
+        "SINGLE": "単走",
+        "RACE": "レース",
+        "OTHER": "その他",
+        "COOP_RACE": "協力レース",
+        "COOP": "協力",
+        "RELAY_RACE": "リレーレース",
+        "RELAY": "リレー"
+      },
+      "nextRun": "次のゲーム {{duration}}",
+      "export": {
+        "title": "スケジュールをエクスポート",
+        "json": "JSON (Horaro) 形式でエクスポート",
+        "ics": "ICS 形式でエクスポート",
+        "csv": "CSV 形式でエクスポート"
+      },
+      "dstChange": "マラソン期間中に夏時間の変更が起こります。",
+      "currentRun": "現在のゲーム"
+    },
+    "selection": {
+      "action": {
+        "publish": "選定の公開",
+        "decline": "TODO を落選にする"
+      },
+      "availabilities": {
+        "help": "カレンダーのアイコンをクリックすると、各走者の参加可能時間を表示できます。"
+      },
+      "publish": {
+        "help": "「保存」をクリックしてスケジュールの下書き保存や更新ができます。「スケジュールの公開」でスケジュールを公開できます。ゲーム選択結果の保存や公開は、量によって多少時間がかかることがあります。注意: スケジュールを公開すると、スケジュールが更新されるたびにマラソンの終了日時が自動で再計算されます。"
+      },
+      "selection": {
+        "title": "選定"
+      },
+      "statistics": {
+        "table": {
+          "averageEstimate": "平均予定時間",
+          "defaultSetupTime": "既定のセットアップタイム",
+          "marathonLength": "マラソン期間",
+          "numberOfRunners": "走者数",
+          "numberOfRuns": "ゲーム数",
+          "totalTime": "総時間",
+          "totalTimeValidated": "総時間"
+        },
+        "title": "統計"
+      },
+      "status": {
+        "BONUS": "ボーナス",
+        "REJECTED": "落選",
+        "TODO": "TODO",
+        "VALIDATED": "当選",
+        "BACKUP": "バックアップ",
+        "ALL": "全てのステータス"
+      },
+      "title": "ゲーム選定",
+      "help": {
+        "BACKUP": "バックアップはスケジュール管理の採用ゲームリストに追加されません。リストに追加するには、採用もしくはボーナスにステータスを変更してください。"
+      }
+    },
+    "settings": {
+      "country": {
+        "label": "国"
+      },
+      "dangerZone": "危険ゾーン",
+      "defaultSetupTime": {
+        "error": {
+          "pattern": "「時:分:秒」のフォーマットで入力してください",
+          "required": "既定のセットアップタイムは必須です"
+        },
+        "label": "既定のセットアップタイム"
+      },
+      "delete": {
+        "action": "マラソンの削除",
+        "confirmText": "本当にマラソンを削除しますか？ 確認のためにマラソンの略称を入力して「確認」を押してください"
+      },
+      "description": "ここではマラソンの設定を変更できます",
+      "discord": {
+        "error": {
+          "pattern": "Discordのリンクが無効です"
+        }
+      },
+      "discordPrivacy": {
+        "help": "Discordがプライベートに設定されている場合、招待リンクはページには表示されませんが、選定された走者へのメールには表示されます。",
+        "label": "Discordプライベート設定",
+        "private": "Discordはプライベートです"
+      },
+      "endDate": {
+        "error": {
+          "required": "予定終了日時は必須です"
+        },
+        "label": "予定終了日時"
+      },
+      "generalTitle": "一般設定",
+      "incentives": {
+        "hasIncentives": "インセンティブを使う",
+        "label": "インセンティブ状況"
+      },
+      "incentivesTitle": "インセンティブ設定",
+      "language": {
+        "label": "言語"
+      },
+      "location": {
+        "label": "場所"
+      },
+      "marathonDescription": {
+        "help": "マークダウンが使えます",
+        "label": "概要"
+      },
+      "maxCategoriesPerGame": {
+        "error": {
+          "max": "ゲームごとの最大カテゴリー数が大きすぎます",
+          "min": "ゲームごとの最大カテゴリー数は正の数にしてください",
+          "required": "ゲームごとの最大カテゴリー数は必須です"
+        },
+        "label": "ゲームごとの最大カテゴリー数"
+      },
+      "maxGamesPerRunner": {
+        "error": {
+          "min": "走者ごとの最大ゲーム数は正の数にしてください",
+          "required": "走者ごとの最大ゲーム数は必須です"
+        },
+        "label": "走者ごとの最大ゲーム数"
+      },
+      "maxNumberOfScreens": {
+        "error": {
+          "min": "最大画面数は正の数にしてください",
+          "required": "最大画面数は必須です"
+        },
+        "help": "複数人同時にプレイする協力プレイやレースで、配信に表示できる最大画面数を設定することができます",
+        "label": "最大画面数"
+      },
+      "moderators": {
+        "label": "モデレーター"
+      },
+      "multiplayer": {
+        "allowed": "協力プレイ、レースの応募ができます",
+        "forbidden": "協力プレイ、レースの応募はできません",
+        "label": "複数走者"
+      },
+      "name": {
+        "error": {
+          "max": "マラソン名が長すぎます",
+          "min": "マラソン名が短すぎます",
+          "pattern": "マラソン名が無効です",
+          "required": "マラソン名は必須です"
+        },
+        "label": "名前"
+      },
+      "privacy": {
+        "help": "非公開マラソンはトップページに表示されません。URLでのみアクセスできます。",
+        "label": "マラソン公開設定",
+        "private": "非公開",
+        "public": "公開"
+      },
+      "shortname": {
+        "error": {
+          "exists": "マラソンの略称は既にあります",
+          "max": "マラソンの略称が長すぎます",
+          "min": "マラソンの略称が短すぎます",
+          "pattern": "マラソンの略称が無効です",
+          "required": "マラソンの略称は必須です"
+        },
+        "label": "略称",
+        "shorturl": "短縮URL"
+      },
+      "startDate": {
+        "error": {
+          "required": "開始日時は必須です"
+        },
+        "label": "開始日時"
+      },
+      "submissions": {
+        "closed": "募集は締め切りました",
+        "label": "募集",
+        "open": "募集中です"
+      },
+      "submissionsTitle": "募集設定",
+      "tabs": {
+        "dangerZone": "危険ゾーン",
+        "general": "一般",
+        "incentives": "インセンティブ",
+        "submissions": "募集"
+      },
+      "title": "マラソン設定",
+      "twitch": {
+        "error": {
+          "max": "Twitchのアカウント名が長すぎます",
+          "pattern": "Twitchのアカウント名が無効です"
+        }
+      },
+      "twitter": {
+        "error": {
+          "max": "Twitterのアカウント名が長すぎます",
+          "pattern": "Twitterのアカウント名が無効です"
+        }
+      },
+      "type": {
+        "label": "マラソンの種類",
+        "online": "オンライン",
+        "onsite": "会場"
+      },
+      "supportedCharity": {
+        "label": "募金の寄付先",
+        "error": {
+          "max": "募金先の名称が長すぎます",
+          "required": "募金先を指定する必要があります"
+        }
+      },
+      "submissionsEndDate": {
+        "error": {
+          "required": "募集開始日時を設定する場合、募集締切日時も設定して下さい"
+        },
+        "label": "募集終了日時"
+      },
+      "submissionsStartDate": {
+        "error": {
+          "required": "募集終了日時を設定する場合、募集開始日時を設定する必要があります"
+        },
+        "label": "募集開始日時"
+      },
+      "youtube": {
+        "error": {
+          "pattern": "YouTubeのチャンネルURLが無効です"
+        }
+      }
+    },
+    "submissions": {
+      "table": {
+        "actions": "操作",
+        "category": "カテゴリー",
+        "categoryDescription": "カテゴリー概要",
+        "console": "機種",
+        "estimate": "予定時間",
+        "game": "ゲームタイトル",
+        "gameDescription": "ゲーム概要",
+        "runner": "",
+        "status": "ステータス",
+        "ratio": "アスペクト比／解像度"
+      },
+      "title": "応募",
+      "category": {
+        "delete": "カテゴリーを削除する"
+      },
+      "export": "CSV形式でエクスポートする",
+      "game": {
+        "delete": ""
+      }
+    },
+    "submit": {
+      "action": {
+        "addCategory": "カテゴリー追加",
+        "removeGame": "ゲーム削除"
+      },
+      "availabilities": {
+        "actions": "操作",
+        "add": "参加可能時間を追加",
+        "error": {
+          "dateRequired": "日付は必須です",
+          "required": "1つ以上の参加可能時間を追加してください"
+        },
+        "from": "開始",
+        "label": "参加可能時間",
+        "to": "終了",
+        "duplicate": "内容を翌日にコピーする"
+      },
+      "category": {
+        "description": {
+          "error": {
+            "required": "カテゴリー概要は必須です"
+          },
+          "help": "このカテゴリーの説明",
+          "label": "カテゴリー概要"
+        },
+        "estimate": {
+          "error": {
+            "min": "0秒より大きくしてください",
+            "pattern": "予定時間が無効です。時:分:秒のフォーマットにしてください",
+            "required": "予定時間は必須です"
+          },
+          "label": "予定時間"
+        },
+        "name": {
+          "error": {
+            "required": "カテゴリー名は必須です"
+          },
+          "label": "カテゴリー"
+        },
+        "video": {
+          "error": {
+            "required": "動画リンクは必須です"
+          },
+          "label": "動画リンク"
+        }
+      },
+      "game": {
+        "console": {
+          "emulated": "エミュレーター",
+          "label": "機種",
+          "emulatorNotAllowed": "このマラソンではエミュレーターの使用は制限されています"
+        },
+        "description": {
+          "error": {
+            "required": "ゲーム概要は必須です"
+          },
+          "help": "ゲームや行われるRTAについての説明",
+          "label": "ゲーム概要"
+        },
+        "name": {
+          "error": {
+            "required": "ゲームタイトルは必須です"
+          },
+          "label": "ゲームタイトル"
+        },
+        "ratio": {
+          "error": {
+            "required": "アスペクト比は必須です"
+          },
+          "label": "アスペクト比 (16:9, 4:3,...)"
+        }
+      },
+      "maxCategoriesPerGame": "ゲームごとの最大カテゴリー数",
+      "maxGamesPerRunner": "走者ごとの最大ゲーム数",
+      "maxNumberOfScreens": "レースや協力プレイでの最大走者数",
+      "racesAllowed": "レースや協力プレイも応募できます",
+      "submissions": "応募",
+      "table": {
+        "actions": "操作",
+        "categories": "カテゴリー",
+        "games": "ゲーム"
+      },
+      "title": "ゲーム応募",
+      "multiplayer": {
+        "code": {
+          "help": "複数人で行うゲームに参加を希望する場合、コードを入力して下さい"
+        }
+      },
+      "delete": {
+        "action": "応募を削除する"
+      },
+      "details": "詳細",
+      "customField": {
+        "error": {
+          "required": "この項目は必須です"
+        }
+      },
+      "requirements": {
+        "discord": {
+          "back": "戻る",
+          "par1": "Discordサーバーに参加しているかを確認するためには「確認する」を押して下さい。",
+          "syncNotice": [
+            "None",
+            "ユーザー設定"
+          ],
+          "par2": "Discordサーバーに参加している場合のみ応募することができます。",
+          "errors": {
+            "botMissing": "確認する"
+          },
+          "lead": "応募するにはDiscordのサーバーに参加している必要があります"
+        }
+      },
+      "submitsClosed": "応募は締め切られました。スケジュールが公開されるまで、参加可能時間の変更のみ可能です。"
+    },
+    "donate": {
+      "nickname": {
+        "error": {
+          "max": "表示名が長すぎます",
+          "pattern": "ニックネームには小文字の英数字、大文字の英数字、_ もしくは - が使用可能です"
+        },
+        "label": "ニックネーム"
+      },
+      "incentives": {
+        "title": "インセンティブ",
+        "left": "残りの額:",
+        "header": {
+          "incentive": "インセンティブ",
+          "amount": "額"
+        },
+        "bid": {
+          "new": "(新規)"
+        },
+        "add": "インセンティブを追加"
+      },
+      "extra": {
+        "title": "追加情報"
+      },
+      "comment": {
+        "label": "コメント"
+      },
+      "amount": {
+        "label": "寄付額",
+        "error": {
+          "required": "寄付額は必須です",
+          "minNumber": "寄付額は0以上にしてください"
+        }
+      },
+      "title": "寄付",
+      "incentiveAmount": {
+        "error": {
+          "minNumber": "金額は0以上にしてください",
+          "required": "金額は必須です"
+        }
+      },
+      "description": "寄付は {{supportedCharity}} を支援します"
+    },
+    "donations": {
+      "table": {
+        "comment": "コメント",
+        "amount": "額"
+      },
+      "max": "最高寄付額",
+      "export": "CSV 形式でエクスポート",
+      "count": "総寄付数",
+      "average": "平均寄付額"
+    }
+  },
+  "navbar": {
+    "about": "About",
+    "bugtracker": "バグや提案の送信",
+    "createMarathon": "マラソン作成",
+    "discord": "公式Discordサーバーに参加",
+    "login": {
+      "discord": "Discordでログイン",
+      "title": "ログイン",
+      "twitch": "Twitchでログイン",
+      "twitter": "Twitterでログイン"
+    },
+    "logout": "ログアウト",
+    "settings": "設定",
+    "translate": "翻訳の手伝い",
+    "twitter": "Twitterをフォロー",
+    "donate": "募金"
+  },
+  "user": {
+    "settings": {
+      "accountSync": {
+        "description": "Oengusのアカウントとソーシャルメディアを連携することができます。",
+        "error": {
+          "noService": "最低1つの連携が必要です"
+        },
+        "sync": "アカウント連携",
+        "title": "アカウント連携",
+        "unsync": "アカウント削除"
+      },
+      "email": {
+        "error": {
+          "email": "メールアドレスが無効です",
+          "required": "メールアドレスは必須です"
+        },
+        "label": "メールアドレス"
+      },
+      "general": "一般設定",
+      "new": {
+        "beforeWeStart": "まず最初に...",
+        "description": "追加で必要な情報を入力してください。"
+      },
+      "srcom": {
+        "error": {
+          "max": "speedrun.comのユーザーネームが長すぎます",
+          "pattern": "Speedrun.comのユーザーネームが無効です"
+        }
+      },
+      "title": "プロフィール変更",
+      "twitch": {
+        "disabled": {
+          "help": "この項目は、Twitchアカウントが既に連携されているため無効になっています。Twitchアカウント名が変わったときには再び連携をして更新してください。"
+        },
+        "error": {
+          "max": "Twitchのユーザーネームが長すぎます",
+          "pattern": "Twitchのユーザーネームが無効です"
+        }
+      },
+      "twitter": {
+        "disabled": {
+          "help": "この項目は、Twitterアカウントが既に連携されているため無効になっています。Twitterアカウント名が変わったときには再び連携をして更新してください。"
+        },
+        "error": {
+          "max": "Twitterのユーザーネームが長すぎます",
+          "pattern": "Twitterのユーザーネームが無効です"
+        }
+      },
+      "username": {
+        "error": {
+          "exists": "そのユーザーネームは既に使われています",
+          "max": "ユーザーネームが長すぎます",
+          "min": "ユーザーネームが短すぎます",
+          "pattern": "ユーザーネームは、小文字・大文字・_・-のみ使えます",
+          "required": "ユーザーネームは必須です"
+        },
+        "label": "ユーザーネーム"
+      },
+      "deactivateAccount": {
+        "action": "アカウントの停止",
+        "confirmText": "アカウントを停止しますか？停止したい場合、ユーザーネームを入力し「確認」をクリックして下さい",
+        "title": "アカウントを停止または削除する",
+        "description": "アカウントを停止すると、再度ログインできなくなり、モデレーターはあなたをマラソンのモデレーターやランナーとして追加できなくなります。すべてのデータは一貫性を保つために保存され、ソーシャルメディアも連携されたままになりますが、スケジュールや投稿リストにアカウントが表示されることはなくなります。アカウントを再び使用したい場合は、管理者に問い合わせしてください。"
+      },
+      "deletingAccount": {
+        "body": [
+          "Oengusのアカウントを削除しようとしています。",
+          "この操作は取り消すことができません！",
+          "アカウントを削除する場合、ユーザーネームを入力して下さい。"
+        ],
+        "title": "警告！",
+        "settingsDeleteBtn": "アカウントを削除する",
+        "btnDelete": "削除する :(",
+        "btnCancel": "キャンセル :)",
+        "success": "アカウントが削除されました"
+      },
+      "language": {
+        "no_results": "言語が見つかりません",
+        "placeholder": "言語を検索して下さい",
+        "label": "会話に使用する言語を選択して下さい"
+      },
+      "connections": {
+        "visibility": "一般公開",
+        "select_platform": "プラットフォームを選択する",
+        "username": "ユーザーネーム",
+        "title": "連携",
+        "subtitle": "連携したソーシャルメディアのアカウントはプロフィールに一般公開されます。"
+      },
+      "pronouns": {
+        "title": "ジェンダープロナウン",
+        "hint": "プロナウンを英語で検索して下さい。例：they/them",
+        "no_results": "プロナウンが見つかりません",
+        "help": "プロナウンのデータは <a href=\"https://en.pronouns.page/\" target=\"_blank\">pronouns.page</a>に基づいています。pronouns.pageについての詳細な情報と寄与の方法は、pronouns.pageのウェブサイトをご覧下さい"
+      },
+      "discord": {
+        "disabled": {
+          "help": "この項目は、Discordアカウントが既に連携されているため無効になっています。Discord IDが変わったときには再び連携をして更新してください。"
+        }
+      }
+    },
+    "profile": {
+      "filter": {
+        "temporality": {
+          "FUTURE": "今後のマラソン",
+          "title": "イベント日程",
+          "PAST": "過去のマラソン"
+        }
+      },
+      "speak": "会話に使用する言語：",
+      "submissions": "応募履歴",
+      "moderator": "イベントモデレーター"
+    }
+  },
+  "calendar": {
+    "title": "マラソンカレンダー",
+    "help": "イベントをクリックするとそのページに移動します"
+  },
+  "country": {
+    "IS": "アイスランド",
+    "IE": "アイルランド",
+    "AZ": "アゼルバイジャン",
+    "AF": "アフガニスタン",
+    "US": "アメリカ合衆国",
+    "VI": "アメリカ領ヴァージン諸島",
+    "AS": "アメリカ領サモア",
+    "AE": "アラブ首長国連邦",
+    "DZ": "アルジェリア",
+    "AR": "アルゼンチン",
+    "AW": "アルバ",
+    "AL": "アルバニア",
+    "AM": "アルメニア",
+    "AI": "アンギラ",
+    "AO": "アンゴラ",
+    "AG": "アンティグア・バーブーダ",
+    "AD": "アンドラ",
+    "YE": "イエメン",
+    "GB": "イギリス",
+    "IO": "イギリス領インド洋地域",
+    "VG": "イギリス領ヴァージン諸島",
+    "IL": "イスラエル",
+    "IT": "イタリア",
+    "IQ": "イラク",
+    "IR": "イラン・イスラム共和国",
+    "IN": "インド",
+    "ID": "インドネシア",
+    "WF": "ウォリス・フツナ",
+    "UG": "ウガンダ",
+    "UA": "ウクライナ",
+    "UZ": "ウズベキスタン",
+    "UY": "ウルグアイ",
+    "EC": "エクアドル",
+    "EG": "エジプト",
+    "EE": "エストニア",
+    "SZ": "エスワティニ",
+    "ET": "エチオピア",
+    "ER": "エリトリア",
+    "SV": "エルサルバドル",
+    "AU": "オーストラリア",
+    "AT": "オーストリア",
+    "AX": "オーランド諸島",
+    "OM": "オマーン",
+    "NL": "オランダ",
+    "GH": "ガーナ",
+    "CV": "カーボベルデ",
+    "GG": "ガーンジー",
+    "GY": "ガイアナ",
+    "KZ": "カザフスタン",
+    "QA": "カタール",
+    "UM": "合衆国領有小離島",
+    "CA": "カナダ",
+    "GA": "ガボン",
+    "CM": "カメルーン",
+    "GM": "ガンビア",
+    "KH": "カンボジア",
+    "MK": "北マケドニア",
+    "MP": "北マリアナ諸島",
+    "GN": "ギニア",
+    "GW": "ギニアビサウ",
+    "CY": "キプロス",
+    "CU": "キューバ",
+    "CW": "キュラソー",
+    "GR": "ギリシャ",
+    "KI": "キリバス",
+    "KG": "キルギス",
+    "GT": "グアテマラ",
+    "GP": "グアドループ",
+    "GU": "グアム",
+    "KW": "クウェート",
+    "CK": "クック諸島",
+    "GL": "グリーンランド",
+    "CX": "クリスマス島",
+    "GD": "グレナダ",
+    "HR": "クロアチア",
+    "KY": "ケイマン諸島",
+    "KE": "ケニア",
+    "CI": "コートジボワール",
+    "CC": "ココス（キーリング）諸島",
+    "CR": "コスタリカ",
+    "KM": "コモロ",
+    "CO": "コロンビア",
+    "CG": "コンゴ共和国",
+    "CD": "コンゴ民主共和国",
+    "SA": "サウジアラビア",
+    "GS": "サウスジョージア・サウスサンドウィッチ諸島",
+    "WS": "サモア",
+    "ST": "サントメ・プリンシペ",
+    "BL": "サン・バルテルミー",
+    "ZM": "ザンビア",
+    "PM": "サンピエール島・ミクロン島",
+    "SM": "サンマリノ",
+    "MF": "サン・マルタン（フランス領）",
+    "SL": "シエラレオネ",
+    "DJ": "ジブチ",
+    "GI": "ジブラルタル",
+    "JE": "ジャージー",
+    "JM": "ジャマイカ",
+    "GE": "ジョージア",
+    "SY": "シリア・アラブ共和国",
+    "SG": "シンガポール",
+    "SX": "シント・マールテン（オランダ領）",
+    "ZW": "ジンバブエ",
+    "CH": "スイス",
+    "SE": "スウェーデン",
+    "SD": "スーダン",
+    "SJ": "スヴァールバル諸島およびヤンマイエン島",
+    "ES": "スペイン",
+    "SR": "スリナム",
+    "LK": "スリランカ",
+    "SK": "スロバキア",
+    "SI": "スロベニア",
+    "SC": "セーシェル",
+    "GQ": "赤道ギニア",
+    "SN": "セネガル",
+    "RS": "セルビア",
+    "KN": "セントクリストファー・ネイビス",
+    "VC": "セントビンセントおよびグレナディーン諸島",
+    "SH": "セントヘレナ・アセンションおよびトリスタンダクーニャ",
+    "LC": "セントルシア",
+    "SO": "ソマリア",
+    "SB": "ソロモン諸島",
+    "TC": "タークス・カイコス諸島",
+    "TH": "タイ",
+    "KR": "大韓民国",
+    "TW": "台湾（中華民国）",
+    "TJ": "タジキスタン",
+    "TZ": "タンザニア",
+    "CZ": "チェコ",
+    "TD": "チャド",
+    "CF": "中央アフリカ共和国",
+    "CN": "中華人民共和国",
+    "TN": "チュニジア",
+    "KP": "朝鮮民主主義人民共和国",
+    "CL": "チリ",
+    "TV": "ツバル",
+    "DK": "デンマーク",
+    "DE": "ドイツ",
+    "TG": "トーゴ",
+    "TK": "トケラウ",
+    "DO": "ドミニカ共和国",
+    "DM": "ドミニカ国",
+    "TT": "トリニダード・トバゴ",
+    "TM": "トルクメニスタン",
+    "TR": "トルコ",
+    "TO": "トンガ",
+    "NG": "ナイジェリア",
+    "NR": "ナウル",
+    "NA": "ナミビア",
+    "AQ": "南極",
+    "NU": "ニウエ",
+    "NI": "ニカラグア",
+    "NE": "ニジェール",
+    "JP": "日本",
+    "EH": "西サハラ",
+    "NC": "ニューカレドニア",
+    "NZ": "ニュージーランド",
+    "NP": "ネパール",
+    "NF": "ノーフォーク島",
+    "NO": "ノルウェー",
+    "HM": "ハード島とマクドナルド諸島",
+    "BH": "バーレーン",
+    "HT": "ハイチ",
+    "PK": "パキスタン",
+    "VA": "バチカン市国",
+    "PA": "パナマ",
+    "VU": "バヌアツ",
+    "BS": "バハマ",
+    "PG": "パプアニューギニア",
+    "BM": "バミューダ",
+    "PW": "パラオ",
+    "PY": "パラグアイ",
+    "BB": "バルバドス",
+    "PS": "パレスチナ",
+    "HU": "ハンガリー",
+    "BD": "バングラデシュ",
+    "TL": "東ティモール",
+    "PN": "ピトケアン",
+    "FJ": "フィジー",
+    "PH": "フィリピン",
+    "FI": "フィンランド",
+    "BT": "ブータン",
+    "BV": "ブーベ島",
+    "PR": "プエルトリコ",
+    "FO": "フェロー諸島",
+    "FK": "フォークランド（マルビナス）諸島",
+    "BR": "ブラジル",
+    "FR": "フランス",
+    "GF": "フランス領ギアナ",
+    "PF": "フランス領ポリネシア",
+    "TF": "フランス領南方・南極地域",
+    "BG": "ブルガリア",
+    "BF": "ブルキナファソ",
+    "BN": "ブルネイ・ダルサラーム",
+    "BI": "ブルンジ",
+    "VN": "ベトナム",
+    "BJ": "ベナン",
+    "VE": "ベネズエラ・ボリバル共和国",
+    "BY": "ベラルーシ",
+    "BZ": "ベリーズ",
+    "PE": "ペルー",
+    "BE": "ベルギー",
+    "PL": "ポーランド",
+    "BA": "ボスニア・ヘルツェゴビナ",
+    "BW": "ボツワナ",
+    "BQ": "ボネール、シント・ユースタティウスおよびサバ",
+    "BO": "ボリビア多民族国",
+    "PT": "ポルトガル",
+    "HK": "香港",
+    "HN": "ホンジュラス",
+    "MH": "マーシャル諸島",
+    "MO": "マカオ",
+    "MG": "マダガスカル",
+    "YT": "マヨット",
+    "MW": "マラウイ",
+    "ML": "マリ",
+    "MT": "マルタ",
+    "MQ": "マルティニーク",
+    "MY": "マレーシア",
+    "IM": "マン島",
+    "FM": "ミクロネシア連邦",
+    "ZA": "南アフリカ",
+    "SS": "南スーダン",
+    "MM": "ミャンマー",
+    "MX": "メキシコ",
+    "MU": "モーリシャス",
+    "MR": "モーリタニア",
+    "MZ": "モザンビーク",
+    "MC": "モナコ",
+    "MV": "モルディブ",
+    "MD": "モルドバ共和国",
+    "MA": "モロッコ",
+    "MN": "モンゴル",
+    "ME": "モンテネグロ",
+    "MS": "モントセラト",
+    "JO": "ヨルダン",
+    "LA": "ラオス人民民主共和国",
+    "LV": "ラトビア",
+    "LT": "リトアニア",
+    "LY": "リビア",
+    "LI": "リヒテンシュタイン",
+    "LR": "リベリア",
+    "RO": "ルーマニア",
+    "LU": "ルクセンブルク",
+    "RW": "ルワンダ",
+    "LS": "レソト",
+    "LB": "レバノン",
+    "RE": "レユニオン",
+    "RU": "ロシア連邦"
+  },
+  "language": {
+    "de": "ドイツ語",
+    "hi": "ヒンディー語",
+    "fil": "フィリピノ語",
+    "lt": "リトアニア語",
+    "hr": "クロアチア語",
+    "lv": "ラトビア語",
+    "hu": "ハンガリー語",
+    "zh-CN": "中国語",
+    "uk": "ウクライナ語",
+    "id": "インドネシア語",
+    "ur": "ウルドゥー語",
+    "ml": "マラヤーラム語",
+    "mr": "マラーティー語",
+    "ms": "マレー語",
+    "el": "ギリシャ語",
+    "en": "英語",
+    "eo": "エスペラント語",
+    "is": "アイスランド語",
+    "it": "イタリア語",
+    "am": "アムハラ語",
+    "chr": "チェロキー語",
+    "iw": "ヘブライ語",
+    "es": "スペイン語",
+    "et": "エストニア語",
+    "eu": "バスク語",
+    "ar": "アラビア語",
+    "pt-PT": "ポルトガル語",
+    "vi": "ベトナム語",
+    "ja": "日本語",
+    "ro": "ルーマニア語",
+    "en-GB": "英語",
+    "nl": "オランダ語",
+    "no": "ノルウェー語",
+    "fi": "フィンランド語",
+    "ru": "ロシア語",
+    "bg": "ブルガリア語",
+    "bn": "ベンガル語",
+    "fr": "フランス語",
+    "sk": "スロバキア語",
+    "sl": "スロベニア語",
+    "ca": "カタロニア語",
+    "sr": "セルビア語",
+    "kn": "カンナダ語",
+    "sv": "スウェーデン語",
+    "ko": "韓国語",
+    "sw": "スワヒリ語",
+    "zh_TW": "中国語",
+    "pt_BR": "ポルトガル語",
+    "ta": "タミル語",
+    "gu": "グジャラート語",
+    "cs": "チェコ語",
+    "te": "テルグ語",
+    "th": "タイ語",
+    "cy": "ウェールズ語",
+    "pl": "ポーランド語",
+    "da": "デンマーク語",
+    "tr": "トルコ語",
+    "pt": "ポルトガル語"
+  },
+  "footer": {
+    "text": "表示されている時間は、あなたのPCのタイムゾーンに合わせてあります。現在表示されているタイムゾーン：{{timezone}}",
+    "donate": "もしOengusをイイネ！と思う方は、<a href=\"{{donationLink}}\" target=\"_blank\">寄付</a>をお願いします"
+  },
+  "platform": {
+    "NICO": "ニコニコ",
+    "PHONE": "電話番号",
+    "EMAIL": "メールアドレス",
+    "DISCORD": "Discord",
+    "SNAPCHAT": "Snapchat",
+    "INSTAGRAM": "Instagram",
+    "FACEBOOK": "Facebook",
+    "TWITCH": "Twitch",
+    "TWITTER": "Twitter",
+    "SPEEDRUNCOM": "speedrun.com",
+    "YOUTUBE": "YouTube",
+    "MASTODON": "Mastodon"
+  },
+  "news": {
+    "title": "News"
+  },
+  "patrons": {
+    "noPatrons": "表示できるパトロンが存在しません。 <a href=\"https://www.patreon.com/oengusio\" target=\"_blank\">あなたが一人目になってみませんか</a>？"
+  },
+  "errors": {
+    "404": {
+      "title4": "バグではありません、仕様です",
+      "body": "ページが見つかりませんでした"
+    }
+  },
+  "announcements": {
+    "twitterRemoval": "間もなくログイン方法から Twitter を削除する予定です。 アカウントがロックされないように、Twitch アカウントまたは Discord アカウントが Oengus アカウントに紐付けされていることを確認してください。"
+  }
 }
