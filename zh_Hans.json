@@ -351,5 +351,12 @@
             "submit": "请重置密码！"
         },
         "emailVerificationRequired": "使用此功能前，请先验证您的电子邮件。"
+    },
+    "aboutPage": {
+        "about": {
+            "par1": "Oengus（发音为 Angus/ang·guhs）是一个提供组织快速马拉松比赛工具的网站。",
+            "par3": "速通马拉松是速通者聚集在一起，通过在线、现场或两者兼有的方式向观众展示他们的速通经历的活动。 最受欢迎的活动是每年举办两次的<a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a>。",
+            "par2": "速通是指为了娱乐和/或竞争的目的而玩电子游戏的行为，目的是尽可能快地完成游戏。 您可以在<a href=\"https://en.wikipedia.org/wiki/Speedrun\" target=\"_blank\">维基百科</a>上阅读有关速通的更多信息。"
+        }
     }
 }
