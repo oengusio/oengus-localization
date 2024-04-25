@@ -334,7 +334,8 @@
         "DISCORD": "Discord",
         "EMAIL": "电子邮件",
         "PHONE": "电话号码",
-        "YOUTUBE": "YouTube"
+        "YOUTUBE": "YouTube",
+        "NICO": "Nico"
     },
     "auth": {
         "passwordReset": {
@@ -356,7 +357,40 @@
         "about": {
             "par1": "Oengus（发音为 Angus/ang·guhs）是一个提供组织快速马拉松比赛工具的网站。",
             "par3": "速通马拉松是速通者聚集在一起，通过在线、现场或两者兼有的方式向观众展示他们的速通经历的活动。 最受欢迎的活动是每年举办两次的<a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a>。",
-            "par2": "速通是指为了娱乐和/或竞争的目的而玩电子游戏的行为，目的是尽可能快地完成游戏。 您可以在<a href=\"https://en.wikipedia.org/wiki/Speedrun\" target=\"_blank\">维基百科</a>上阅读有关速通的更多信息。"
+            "par2": "速通是指为了娱乐和/或竞争的目的而玩电子游戏的行为，目的是尽可能快地完成游戏。 您可以在<a href=\"https://en.wikipedia.org/wiki/Speedrun\" target=\"_blank\">维基百科</a>上阅读有关速通的更多信息。",
+            "title": "关于",
+            "par5": "从 2021 年 1 月起，网站由 <a href=\"https://twitter.com/duncte123\" target=\"_blank\">duncte123</a> 维护。",
+            "par6": "小知识：Oengus 是凯尔特神，掌管时间和永恒。这个名字非常适合速跑马拉松！"
+        },
+        "privacy": {
+            "cookies": {
+                "title": "Cookies 和 Web Beacons"
+            },
+            "par2": "如果您对我们的隐私政策有其他疑问或需要更多信息，请随时联系我们。",
+            "par3": "如有冲突，请以本政策的英文版本为准。",
+            "log": {
+                "title": "日志文件"
+            },
+            "thirdParty": {
+                "title": "第三方隐私政策",
+                "par1": "Oengus 的隐私政策不适用于其他广告商或网站。",
+                "par2": "您可以通过浏览器选项禁用 cookie。要了解有关特定网络浏览器 cookie 管理的更多详细信息，请访问浏览器各自的网站。"
+            },
+            "children": {
+                "par1": "我们的另一个优先事项是在使用互联网时为儿童提供更多保护。我们鼓励家长和监护人观察、参与和/或监督并指导儿童的网上活动。",
+                "par2": "Oengus 不会有意收集 13 岁以下儿童的任何个人身份信息。如果您认为您的孩子在我们的网站上提供了此类信息，我们强烈建议您立即与我们联系，我们将尽最大努力及时从我们的记录中删除此类信息。",
+                "title": "儿童须知"
+            },
+            "title": "隐私政策",
+            "online": {
+                "title": "仅限在线隐私政策"
+            },
+            "par1": "可通过 {{oengus-link}} 访问的 Oengus，我们的首要任务之一是保护访问者的隐私。本隐私政策包含 Oengus 收集和记录的信息类型，以及我们如何使用这些信息。"
+        },
+        "contact": {
+            "title": "联系",
+            "par2": "业务/公关咨询请发送电子邮件至<a href=\"mailto:contact@oengus.io\" target=\"_blank\">contact@oengus.io</a>。我们只回复英文邮件。",
+            "par1": "发现 bug ？有关于网站的相关问题？加入<a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">Discord 服务器</a>"
         }
     }
 }
