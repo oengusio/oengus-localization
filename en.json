@@ -85,7 +85,10 @@
     "cancel": "Cancel",
     "clearAvailabilities": "Clear selected availabilities",
     "confirm": "Confirm",
+    "create": "Create",
     "decline": "Decline",
+    "edit": "Edit",
+    "delete": "Delete",
     "join": "Join",
     "save": "Save",
     "sendTweet": "Send Tweet",
@@ -416,6 +419,7 @@
       "loginToSubmit": "Log in to submit runs",
       "manageIncentives": "Manage incentives",
       "manageSchedule": "Manage schedule",
+      "manageSchedules": "Manage schedules",
       "moderators": "Moderators",
       "overview": "Overview",
       "schedule": "Schedule",
@@ -440,6 +444,35 @@
         "title": "Export schedule"
       },
       "management": {
+        "overview": {
+          "title": "Manage existing or {{create-new}}",
+          "create-new": "create a new schedule",
+          "scheduleHeader": "Your schedules:",
+          "nothingFound": "No schedules found"
+        },
+        "settings": {
+          "createTitle": "Create a new schedule",
+          "editTitle": "Editing: {{scheduleName}}",
+          "name": {
+            "label": "Schedule name",
+            "error": {
+              "required": "Schedule name is required",
+              "max": "Schedule name is too long",
+              "min": "Schedule name is too short",
+              "pattern": "The schedule name contains disallowed characters"
+            }
+          },
+          "slug": {
+            "label": "Slug",
+            "error": {
+              "required": "A slug is required",
+              "max": "Slug is too long",
+              "min": "Slug is too short",
+              "pattern": "The slug contains disallowed characters",
+              "exists": "You have already created a schedule with this slug"
+            }
+          }
+        },
         "action": {
           "addRun": "Add run",
           "addSetupBlock": "Add setup block",
