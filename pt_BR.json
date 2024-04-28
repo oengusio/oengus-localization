@@ -58,7 +58,10 @@
         "sendTweet": "Enviar Tweet",
         "submit": "Enviar",
         "shareMastodon": "Compartilhar no Mastodon",
-        "login": "login"
+        "login": "login",
+        "create": "Criar",
+        "edit": "Editar",
+        "delete": "Excluir"
     },
     "alert": {
         "category": {
@@ -316,7 +319,8 @@
             "selectRuns": "Selecionar corridas",
             "submitRuns": "Enviar corridas",
             "tracker": "Rastreador",
-            "viewSubmissions": "Ver inscrições"
+            "viewSubmissions": "Ver inscrições",
+            "manageSchedules": "Gerenciar agendas"
         },
         "settings": {
             "country": {
@@ -921,6 +925,35 @@
                 "customData": {
                     "inputText": "Dados personalizados armazenados como texto, permitindo adicionar dados \"ocultos\" a esta linha de agendamento",
                     "text": "Ocultar/Mostrar campos de dados personalizados"
+                },
+                "overview": {
+                    "title": "Gerenciar existente ou {{create-new}}",
+                    "create-new": "criar um novo agendamento",
+                    "scheduleHeader": "Seus agendamentos:",
+                    "nothingFound": "Nenhum agendamento encontrado"
+                },
+                "settings": {
+                    "createTitle": "Crie um novo agendamento",
+                    "name": {
+                        "label": "Nome do agendamento",
+                        "error": {
+                            "max": "O nome do agendamento é muito longo",
+                            "min": "O nome do agendamento é muito curto",
+                            "pattern": "O nome do agendamento contém caracteres não permitidos",
+                            "required": "O nome do agendamento é obrigatório"
+                        }
+                    },
+                    "slug": {
+                        "label": "Slug",
+                        "error": {
+                            "required": "Um slug é necessário",
+                            "max": "O slug é muito longo",
+                            "min": "O slug é muito curto",
+                            "pattern": "O slug contém caracteres não permitidos",
+                            "exists": "Você já criou um agendamento com este slug"
+                        }
+                    },
+                    "editTitle": "Editando: {{scheduleName}}"
                 }
             },
             "title": "Agendamento",
