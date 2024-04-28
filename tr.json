@@ -27,6 +27,35 @@
                 "customData": {
                     "inputText": "Metin olarak saklanan özel veriler; bu, bu zamanlama satırına \"gizli\" verileri eklemenizi sağlar",
                     "text": "Özel veri alanlarını Gizle/Göster"
+                },
+                "overview": {
+                    "title": "Var olanı yönetin veya {{create-new}}",
+                    "scheduleHeader": "Programlarınız:",
+                    "nothingFound": "Program bulunamadı",
+                    "create-new": "yeni bir program oluşturun"
+                },
+                "settings": {
+                    "createTitle": "Yeni bir program oluşturun",
+                    "editTitle": "Düzenleme: {{scheduleName}}",
+                    "name": {
+                        "label": "Program adı",
+                        "error": {
+                            "max": "Program adı çok uzun",
+                            "min": "Program adı çok kısa",
+                            "pattern": "Program adı izin verilmeyen karakterler içeriyor",
+                            "required": "Program adı gereklidir"
+                        }
+                    },
+                    "slug": {
+                        "label": "Slug",
+                        "error": {
+                            "required": "Bir slug gerekli",
+                            "max": "Slug çok uzun",
+                            "min": "Slug çok kısa",
+                            "exists": "Bu slug ile zaten bir program oluşturdunuz",
+                            "pattern": "Slug izin verilmeyen karakterler içeriyor"
+                        }
+                    }
                 }
             },
             "export": {
@@ -86,7 +115,8 @@
             "donate": "Bağış yap",
             "admin": "Yönetici",
             "submitRuns": "Run gönderin",
-            "selectRuns": "Run seçin"
+            "selectRuns": "Run seçin",
+            "manageSchedules": "Programları yönetin"
         },
         "incentives": {
             "title": "Teşvikler",
@@ -942,7 +972,10 @@
         "cancel": "Vazgeç",
         "accept": "Kabul Et",
         "shareMastodon": "mastodon'da paylaş",
-        "login": "giriş yap"
+        "login": "giriş yap",
+        "create": "Oluştur",
+        "delete": "Sil",
+        "edit": "Düzenle"
     },
     "language": {
         "de": "Almanca",
