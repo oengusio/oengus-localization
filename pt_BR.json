@@ -320,7 +320,8 @@
             "submitRuns": "Enviar corridas",
             "tracker": "Rastreador",
             "viewSubmissions": "Ver inscrições",
-            "manageSchedules": "Gerenciar agendas"
+            "manageSchedules": "Gerenciar agendas",
+            "schedules": "Agendamento"
         },
         "settings": {
             "country": {
