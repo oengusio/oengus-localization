@@ -388,7 +388,8 @@
             "submitRuns": "Postular runs",
             "tracker": "Tracker",
             "viewSubmissions": "Ver postulaciones",
-            "manageSchedules": "Gestionar horarios"
+            "manageSchedules": "Gestionar horarios",
+            "schedules": "Horarios"
         },
         "new": {
             "description": "La siguiente información es necesaria para crear una nueva maratón. Después de su creación, podrás configurar mas detalles.",
