@@ -905,7 +905,8 @@
                 "selectedRuns": "Corridas selecionadas",
                 "help": {
                     "dragAndDrop": "Utilize as setas em cada linha para adicionar ou remover uma corrida do agendamento. Você pode arrastar e soltar linhas na agenda usando as alças",
-                    "save": "Clique em \"Salvar\" para salvar um rascunho ou atualizar o agendamento ao vivo. Clique em “Publicar agendamento” para tornar o agendamento público. Atenção: assim que o agendamento for publicado, a data final da maratona será automaticamente recalculada a cada atualização do cronograma."
+                    "save": "Clique em \"Salvar\" para salvar um rascunho ou atualizar o agendamento ao vivo. Clique em “Publicar agendamento” para tornar o agendamento público. Atenção: assim que o agendamento for publicado, a data final da maratona será automaticamente recalculada a cada atualização do cronograma.",
+                    "patronNudge": "Maratonas criadas por pessoas que apoiam Oengus no patreon têm a possibilidade de criar mais de uma programação. Se você quiser mais horários em sua maratona, considere nos apoiar no patreon."
                 },
                 "title": "Gerenciar agendamentos",
                 "hideCompleteUsers": "Ocultar usuários na linha do tempo quando eles não tiverem mais corridas nas \"corridas selecionadas\"",
