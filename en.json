@@ -97,6 +97,9 @@
     "login": "log in"
   },
   "alert": {
+    "generic": {
+      "validationError": "Something went wrong, please check for validation errors. If the issue persists, please contact support in discord."
+    },
     "category": {
       "deletion": {
         "error": "An error happened during category deletion. Please try again or contact an administrator.",
