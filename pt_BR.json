@@ -164,6 +164,9 @@
                 "error": "Erro durante a atualização dos dados de usuário",
                 "success": "Dados do usuário atualizados"
             }
+        },
+        "generic": {
+            "validationError": "Algo deu errado. Verifique se há erros de validação. Se o problema persistir, entre em contato com o suporte no Discord."
         }
     },
     "calendar": {
