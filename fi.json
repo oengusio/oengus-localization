@@ -100,6 +100,9 @@
                 "success": "Peli poistettu",
                 "error": "Pelin poistossa tapahtui virhe. Yritä uudelleen tai ota yhteyttä ylläpitoon."
             }
+        },
+        "generic": {
+            "validationError": "Jotain meni väärin. Tarkasta ovatko kaikki kentät asiallisesti täytetty. Jos ongelma jatkuu, niin ota tukeen yhteyttä discordissa."
         }
     },
     "action": {
