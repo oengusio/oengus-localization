@@ -188,6 +188,7 @@
         "success": "Your account has been deactivated"
       },
       "login": {
+        "noAccountFound": "Account not found, please register for a new account or sync with an existing account.",
         "disabledAccount": "Your account is disabled. If you wish to use it again, please contact an administrator.",
         "error": "An error happened during authentication. Please retry or contact an administrator.",
         "usernameExists": "The username bound to the account you try to login with already exists. Make sure you didn't already create an Oengus profile with another login method. If you think it is a false positive, please contact an administrator."
