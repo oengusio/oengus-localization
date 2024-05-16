@@ -154,7 +154,8 @@
             "login": {
                 "disabledAccount": "Sua conta está desabilitada. Se você deseja utilizar ela novamente, contate um administrador.",
                 "error": "Um erro ocorreu durante a autenticação. Por favor tente novamente ou contate um administrador.",
-                "usernameExists": "O nome de usuário vinculado na conta que você está tentando logar já existe. Tenha certeza que você já não criou um perfil no Oengus com outro método de login. Se você acha que este é um falso positivo, por favor contate um administrador."
+                "usernameExists": "O nome de usuário vinculado na conta que você está tentando logar já existe. Tenha certeza que você já não criou um perfil no Oengus com outro método de login. Se você acha que este é um falso positivo, por favor contate um administrador.",
+                "noAccountFound": "Conta não encontrada. Cadastre-se para uma nova conta ou sincronize com uma conta existente."
             },
             "sync": {
                 "alreadySynced": "Erro: Esta conta já existe",
