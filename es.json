@@ -154,7 +154,8 @@
             "login": {
                 "disabledAccount": "Tu cuenta ha sido deshabilitada. Si deseas usarla de nuevo, por favor, contacta con un administrador.",
                 "error": "Ha ocurrido un error durante la autentificación. Inténtelo de nuevo o contacta con un administrador.",
-                "usernameExists": "El nombre de usuario vinculado a esta cuenta que quieres acceder ya existe actualmente. Asegúrate de que no has creado un perfil de Oengus con un método de acceso diferente. Si crees que es un error, por favor, contacta con un administrador."
+                "usernameExists": "El nombre de usuario vinculado a esta cuenta que quieres acceder ya existe actualmente. Asegúrate de que no has creado un perfil de Oengus con un método de acceso diferente. Si crees que es un error, por favor, contacta con un administrador.",
+                "noAccountFound": "Cuenta no encontrada, por favor regístrate para crear una nueva cuenta o sincroniza con una cuenta existente."
             },
             "sync": {
                 "alreadySynced": "Error: Esta cuenta ya está en uso",
@@ -164,6 +165,9 @@
                 "error": "Ha ocurrido un error durante la actualización de la información de usuario",
                 "success": "Información de usuario actualizada"
             }
+        },
+        "generic": {
+            "validationError": "Algo ha ido mal, por favor comprueba si hay errores de validación. Si el problema persiste, ponte en contacto con el servicio de asistencia en discord."
         }
     },
     "calendar": {
