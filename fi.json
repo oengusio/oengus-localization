@@ -46,7 +46,8 @@
             "login": {
                 "error": "Todennuksen aikana tapahtui virhe. Ole hyvä ja yritä uudelleen, tai ota yhteyttä ylläpitoon.",
                 "disabledAccount": "Käyttäjätunnuksesi on suljettu. Jos haluat sen takaisin, ota yhteyttä ylläpitoon.",
-                "usernameExists": "Käyttäjänimi jolla yrität kirjautua on jo käytössä. Ole hyvä ja varmista, ettet ole luonut aiemmin Oengus käyttäjää toisella kirjautumistavalla. Jos luulet tämän olevan virhe, ota yhteyttä ylläpitoon."
+                "usernameExists": "Käyttäjänimi jolla yrität kirjautua on jo käytössä. Ole hyvä ja varmista, ettet ole luonut aiemmin Oengus käyttäjää toisella kirjautumistavalla. Jos luulet tämän olevan virhe, ota yhteyttä ylläpitoon.",
+                "noAccountFound": "Tiliä ei löydetty, ole hyvä ja rekisteröidy uutta tiliä varten tai liitä se olemassa olevaan tiliin."
             },
             "deactivate": {
                 "success": "Käyttäjätunnuksesi on suljettu"
