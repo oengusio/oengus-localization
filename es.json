@@ -419,7 +419,8 @@
                 "help": {
                     "dragAndDrop": "Usa las flechas en cada línea para añadir o borrar un run del horario. Puedes arrastrar y soltar líneas en el horario usando los iconos",
                     "save": "Haz clic en \"Guardar\" para actualizar el horario o guardar un borrador. Haz clic en \"Publicar horario\" para hacerlo público. Atención: una vez el horario sea publicado, la fecha de finalización de la maratón será automáticamente recalculada tras cada actualización del horario.",
-                    "patronNudge": "Los maratones creados por personas que apoyan a Oengus en patreon tienen la posibilidad de crear más de un horario. Si quieres más horarios en tu maratón, por favor considera apoyarnos en patreon."
+                    "patronNudge": "Los maratones creados por personas que apoyan a Oengus en patreon tienen la posibilidad de crear más de un horario. Si quieres más horarios en tu maratón, por favor considera apoyarnos en patreon.",
+                    "setupBlock": "Dejar vacío para el texto predeterminado"
                 },
                 "schedule": "Horario",
                 "selectedRuns": "Runs seleccionadas",
@@ -458,7 +459,8 @@
                             "pattern": "El nombre del horario contiene caracteres no permitidos"
                         }
                     },
-                    "editTitle": "Modificando: {{scheduleName}}"
+                    "editTitle": "Modificando: {{scheduleName}}",
+                    "customLabel": "Etiqueta personalizada"
                 },
                 "overview": {
                     "create-new": "crear un nuevo horario",
