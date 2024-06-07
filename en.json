@@ -456,6 +456,7 @@
           "nothingFound": "No schedules found"
         },
         "settings": {
+          "customLabel": "Custom label",
           "createTitle": "Create a new schedule",
           "editTitle": "Editing: {{scheduleName}}",
           "name": {
@@ -485,6 +486,7 @@
           "publish": "Publish schedule"
         },
         "help": {
+          "setupBlock": "Leave empty for default text",
           "patronNudge": "Marathons created by people that support Oengus on patreon have the ability to create more than one schedule. If you want more schedules in your marathon, please consider supporting us on patreon.",
           "dragAndDrop": "Use the arrows on each line to add or remove a run from the schedule. You can drag and drop lines on the schedule by using the handles",
           "save": "Click on \"Save\" to save a draft or update the live schedule. Click on \"Publish schedule\" to make to schedule public. Warning: once the schedule is published, the end date of the marathon will be automatically recalculated at each schedule update."
