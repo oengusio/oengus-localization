@@ -99,7 +99,8 @@
   },
   "alert": {
     "generic": {
-      "validationError": "Something went wrong, please check for validation errors. If the issue persists, please contact support in discord."
+      "validationError": "Something went wrong, please check for validation errors. If the issue persists, please contact support in discord.",
+      "clipboardOk": "Copied to your clipboard!"
     },
     "category": {
       "deletion": {
