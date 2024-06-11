@@ -103,7 +103,8 @@
             }
         },
         "generic": {
-            "validationError": "Jotain meni väärin. Tarkasta ovatko kaikki kentät asiallisesti täytetty. Jos ongelma jatkuu, niin ota tukeen yhteyttä discordissa."
+            "validationError": "Jotain meni väärin. Tarkasta ovatko kaikki kentät asiallisesti täytetty. Jos ongelma jatkuu, niin ota tukeen yhteyttä discordissa.",
+            "clipboardOk": "Kopioitu leikepöydälle!"
         }
     },
     "action": {
@@ -120,7 +121,8 @@
         "login": "kirjaudu sisään",
         "create": "Luo",
         "edit": "Muokkaa",
-        "delete": "Poista"
+        "delete": "Poista",
+        "share": "Jaa"
     },
     "marathon": {
         "submit": {
@@ -648,7 +650,8 @@
                 "help": {
                     "dragAndDrop": "Käytä nuolia riveillä lisätäksesti tai poistaaksesi pelejä aikataulusta. Voit siirrellä hiirellä rivejä hakasten avulla",
                     "save": "Paina tallennus-nappia talentaaksesi luonnoksena tai päivittääksesi aikataulua. Paina 'julkaise aikataulu' julkaistaaksesi aikataulu. Varoitus: kun aikataulu on julkaistu, niin tapahtuman viimeinen päivä automaattisesti päivitetään.",
-                    "patronNudge": "Oenguksen patreon-tukijoilla on mahdollista luoda tapahtumaansa enemmän kuin yhden aikataulun. Jos haluat lisää aikatauluja tapahtumaasi, harkitse meidän tukemista patreonissa."
+                    "patronNudge": "Oenguksen patreon-tukijoilla on mahdollista luoda tapahtumaansa enemmän kuin yhden aikataulun. Jos haluat lisää aikatauluja tapahtumaasi, harkitse meidän tukemista patreonissa.",
+                    "setupBlock": "Jätä tyhjäksi, jos haluat oletustekstin"
                 },
                 "customData": {
                     "inputText": "Mukautettua tietoa, tallennettu tekstina, sallii mahdollisuuden lisätä piilotettua tietoa aikatauluun",
@@ -690,7 +693,8 @@
                             "pattern": "Lyhytvalinta sisältää kiellettyjä merkkejä",
                             "exists": "Sinulla on jo aikataulu tällä lyhytvalinnalla"
                         }
-                    }
+                    },
+                    "customLabel": "Mukautettu nimike"
                 }
             },
             "nextRun": "Seuraava peli {{duration}}",
