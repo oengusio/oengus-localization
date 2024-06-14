@@ -61,7 +61,8 @@
         "login": "iniciar sesión",
         "edit": "Editar",
         "create": "Creado",
-        "delete": "Borrar"
+        "delete": "Borrar",
+        "share": "Compartir"
     },
     "alert": {
         "category": {
@@ -167,7 +168,8 @@
             }
         },
         "generic": {
-            "validationError": "Algo ha ido mal, por favor comprueba si hay errores de validación. Si el problema persiste, ponte en contacto con el servicio de asistencia en discord."
+            "validationError": "Algo ha ido mal, por favor comprueba si hay errores de validación. Si el problema persiste, ponte en contacto con el servicio de asistencia en discord.",
+            "clipboardOk": "¡Copiado en tu portapapeles!"
         }
     },
     "calendar": {
