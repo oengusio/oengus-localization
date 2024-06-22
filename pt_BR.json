@@ -917,7 +917,7 @@
                 },
                 "title": "Gerenciar agendamentos",
                 "hideCompleteUsers": "Ocultar usuários na linha do tempo quando eles não tiverem mais corridas nas \"corridas selecionadas\"",
-                "markdown": "Você pode usar a sintaxe básica do Markdown (*negrito*, _sublinhado_ e [nome do link](https://oengus.io/)) nos campos de jogo e categoria.",
+                "markdown": "Você pode usar a sintaxe básica do Markdown (**negrito**, _itálico_ e [nome do link](https://oengus.io/)) nos campos de jogo e categoria.",
                 "cacheWarning": {
                     "line2": "Isso significa que pode demorar um pouco até que você veja o agendamento atualizada na página da sua maratona.",
                     "line1": "Para manter a carga baixa em nossos próprios servidores, implementamos um cache no Oengus.",
