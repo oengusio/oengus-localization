@@ -424,7 +424,7 @@
                     "line1": "Pour maintenir une charge raisonnable sur nos serveurs, nous avons mis en place un cache sur Oengus."
                 },
                 "hideCompleteUsers": "Cacher les utilisateurs dans la chronologie lorsqu'ils n'ont plus de courses dans les \"courses sélectionnées\"",
-                "markdown": "Vous pouvez utiliser la syntaxe Markdown de base (*bold*, _underline_, et [link name](https://oengus.io/)) dans les champs jeu et catégorie."
+                "markdown": "Vous pouvez utiliser la syntaxe Markdown de base (**bold**, _italic_, et [link name](https://oengus.io/)) dans les champs jeu et catégorie."
             },
             "nextRun": "Prochaine run {{duration}}",
             "setupBlock": "Bloc tampon",

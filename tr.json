@@ -23,7 +23,7 @@
                     "line3": "Düğme 5 saniye içinde etkinleşecek"
                 },
                 "hideCompleteUsers": "\"Seçili çalıştırmalarda\" başka çalıştırmaları olmadığında kullanıcıları zaman çizelgesinde gizle",
-                "markdown": "Oyun ve kategori alanlarında temel Markdown sözdizimini (*bold*, _underline_ ve [link name](https://oengus.io/)) kullanabilirsiniz.",
+                "markdown": "Oyun ve kategori alanlarında temel Markdown sözdizimini (**bold**, _italic_ ve [link name](https://oengus.io/)) kullanabilirsiniz.",
                 "customData": {
                     "inputText": "Metin olarak saklanan özel veriler; bu, bu zamanlama satırına \"gizli\" verileri eklemenizi sağlar",
                     "text": "Özel veri alanlarını Gizle/Göster"

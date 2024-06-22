@@ -412,7 +412,7 @@
           "line3": "De knop zal over 5 seconden actief worden",
           "title": "Het kan 2 tot 5 minuten na publicatie van het schema voordat het te zien is op de website."
         },
-        "markdown": "Je kan generieke Markdown syntax(*bold*, _underline_, and [link name](https://oengus.io/)) in het spel en categorie velden gebruiken.",
+        "markdown": "Je kan generieke Markdown syntax(**bold**, _italic_, and [link name](https://oengus.io/)) in het spel en categorie velden gebruiken.",
         "hideCompleteUsers": "Laat gebruikers niet zien als zij geen runs meer hebben in \"Geselecteerde runs\""
       },
       "nextRun": "Volgende run {{duration}}",
