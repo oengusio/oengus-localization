@@ -664,7 +664,7 @@
                     "line2": "Tämä tarkoittaa sitä, että saataa kestää hetken, että ohjelma näkyy tapahtuman sivulla.",
                     "line3": "Tämä nappi aktivoituu viiden sekunnin jälkeen"
                 },
-                "markdown": "Voit käyttää perussyntaksia (*lihavoitu*, _alleviivaus_ ja [linkin nimi] (https://oengus.io/)) peli ja kategoriakentissä.",
+                "markdown": "Voit käyttää perussyntaksia (**lihavoitu**, _kursivoitu_ ja [linkin nimi] (https://oengus.io/)) peli ja kategoriakentissä.",
                 "hideCompleteUsers": "Piilota käyttäjät aikajanalta, kun niillä ei ole enää valittuja peleja",
                 "overview": {
                     "create-new": "luo uusi aikataulu",
