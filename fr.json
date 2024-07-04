@@ -1077,7 +1077,7 @@
                 }
             },
             "pronouns": {
-                "help": "Les pronoms proviennent de <a href=\"https://en.pronouns.page/\" target=\"_blank\">pronouns.page</a>. Pour en apprendre plus sur leurs travaux et contribuer, veuillez consulter leur site web",
+                "help": "Les pronoms proviennent de <a href=\"https://en.pronouns.page/\" target=\"_blank\">pronouns.page</a>. Pour en apprendre plus sur leurs travaux et contribuer, veuillez consulter leur site web.",
                 "no_results": "Aucun pronom trouvé",
                 "hint": "Recherchez un pronom (en anglais), par exemple : they/them",
                 "title": "Pronoms"
@@ -1476,7 +1476,8 @@
             "tokenMissing": "Votre jeton de réinitialisation de mot de passe est absent, veuillez cliquer à nouveau sur le lien dans votre mail.",
             "instructions": "Afin de réinitialiser votre mot de passe, veuillez entrer votre adresse e-mail.\n    Si votre adresse e-mail est présente dans notre système, nous vous enverrons un lien pour que vous puissiez réinitialiser votre mot de passe.",
             "title": "Réinitialisez votre mot de passe !",
-            "request": "Demander une réinitialisation de mot de passe"
+            "request": "Demander une réinitialisation de mot de passe",
+            "submit": "Réinitialisez votre mot de passe !"
         },
         "emailVerificationRequired": "Veuillez vérifier votre adresse e-mail avant d'utiliser cette fonctionnalité."
     }
