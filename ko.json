@@ -1,1397 +1,1550 @@
 {
-  "homepage": {
-    "sponsors": {
-      "esa": "oengus.io는 <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>를 통해 운영되고 있습니다",
-      "title": "스폰서",
-      "kaspersky": {
-        "banner": "Kaspersky의 후원 덕분에 Oengus v2가 현재 개발 중입니다.",
-        "box": "Kaspersky의 후원 덕분에, Oengus v2가 현재 개발 중입니다.<a href=\"1{{readMoreUrl}}\" target=\"_blank\">자세히 알아보기</a>"
-      }
+    "homepage": {
+        "sponsors": {
+            "esa": "oengus.io는 <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>를 통해 운영되고 있습니다",
+            "title": "스폰서",
+            "kaspersky": {
+                "banner": "Kaspersky의 후원 덕분에 Oengus v2가 현재 개발 중입니다.",
+                "box": "Kaspersky의 후원 덕분에, Oengus v2가 현재 개발 중입니다.<a href=\"1{{readMoreUrl}}\" target=\"_blank\">자세히 알아보기</a>"
+            }
+        },
+        "starts": "{{duration}} 시작",
+        "plannedFeatures": {
+            "1": "협동/경쟁 제출",
+            "2": "다중 런 선택 시스템 (직접 선택, 투표 등)",
+            "3": "직관적인 인터페이스로 제공되는 편한 일정 관리 시스템",
+            "4": "Twitter/Twitch/Google 계정을 연동하여 동기화 제공",
+            "5": "Discord 통합",
+            "6": "이메일 알림",
+            "7": "PayPal을 통한 후원 관리",
+            "title": "예정된 기능",
+            "volunteerManager": "자원봉사 신청 관리"
+        },
+        "marathons": {
+            "upcoming": "예정된 마라톤",
+            "open": "제출이 열린 마라톤",
+            "live": "진행 중인 마라톤",
+            "calendar": "전체 달력",
+            "moderated": "중재한 마라톤"
+        },
+        "ends": "{{duration}} 종료",
+        "welcomeTitle": "Oengus에 오신 것을 환영합니다!",
+        "welcomeText": {
+            "par4": {
+                "sandbox": "<b>이곳은 샌드박스 환경입니다. 테스트 목적으로 사용됩니다. 실제 행사를 생성하려면 <a href=\"https://oengus.io\">메인 웹사이트</a>로 이동해주세요.</b>",
+                "prod": "행사를 생성하기 전에 시험해보고 싶다면, <a href=\"https://sandbox.oengus.io\">샌드박스 환경</a>으로 가주세요. 누구나 시험용으로 사용할 수 있는 사이트입니다."
+            },
+            "par3": "모든 기능에 접근하려면 다음 링크로 로그인하십시오. 새로운 마라톤을 생성하거나 기존 마라톤에 제출할 수 있습니다:",
+            "par1": "Oengus는 스피드런 마라톤을 제출부터 스케줄까지 관리할 수 있도록 해주는 <b>무료</b> 도구입니다."
+        },
+        "submissions_close": "{{duration}} 제출 마감"
     },
-    "starts": "{{duration}} 시작",
-    "plannedFeatures": {
-      "1": "협동/경쟁 제출",
-      "2": "다중 런 선택 시스템 (직접 선택, 투표 등)",
-      "3": "직관적인 인터페이스로 제공되는 편한 일정 관리 시스템",
-      "4": "Twitter/Twitch/Google 계정을 연동하여 동기화 제공",
-      "5": "Discord 통합",
-      "6": "이메일 알림",
-      "7": "PayPal을 통한 후원 관리",
-      "title": "예정된 기능",
-      "volunteerManager": "자원봉사 신청 관리"
+    "global": {
+        "adblocker": "광고를 차단하고 계신 모양이네요. Oengus는 생존하기 위해 광고와 기부에 의존하고 있습니다. 광고 차단기를 꺼주세요.",
+        "emu": "[에뮬]",
+        "enabled": "유효",
+        "disabled": "무효",
+        "non_select": "선택되지 않음",
+        "ads": {
+            "nag2": "Oengus를 무료로 유지하기 위해 후원 캠페인에 동참해 주세요",
+            "nag1": "광고가 싫으신가요?"
+        }
     },
-    "marathons": {
-      "upcoming": "예정된 마라톤",
-      "open": "제출이 열린 마라톤",
-      "live": "진행 중인 마라톤",
-      "calendar": "전체 달력",
-      "moderated": "중재한 마라톤"
+    "footer": {
+        "text": "모든 시간은 접속자의 시간대로 변환됩니다. 감지된 시간대: {{timezone}}",
+        "donate": "Oengus를 잘 이용하고 계시다면, <a href=\"{{donationLink}}\" target=\"_blank\">후원</a>하는 걸 고려해보세요",
+        "patron": {
+            "enjoyOengus": "Oengus가 마음에 드시면 {{patronLink}}에서 후원을 고려해주세요",
+            "list": "Oengus를 모든 사람에게 무료로 제공하는 데 기여한 아래 나열된 후원자에게 감사합니다",
+            "patronLink": "후원자가 돼주세요"
+        },
+        "v1Link": "Oengus v1로 로그인"
     },
-    "ends": "{{duration}} 종료",
-    "welcomeTitle": "Oengus에 오신 것을 환영합니다!",
-    "welcomeText": {
-      "par4": {
-        "sandbox": "<b>이곳은 샌드박스 환경입니다. 테스트 목적으로 사용됩니다. 실제 행사를 생성하려면 <a href=\"https://oengus.io\">메인 웹사이트</a>로 이동해주세요.</b>",
-        "prod": "행사를 생성하기 전에 시험해보고 싶다면, <a href=\"https://sandbox.oengus.io\">샌드박스 환경</a>으로 가주세요. 누구나 시험용으로 사용할 수 있는 사이트입니다."
-      },
-      "par3": "모든 기능에 접근하려면 다음 링크로 로그인하십시오. 새로운 마라톤을 생성하거나 기존 마라톤에 제출할 수 있습니다:",
-      "par1": "Oengus는 스피드런 마라톤을 제출부터 스케줄까지 관리할 수 있도록 해주는 <b>무료</b> 도구입니다."
+    "calendar": {
+        "title": "마라톤 달력",
+        "help": "이벤트를 클릭하면 해당 페이지로 리디렉션됩니다",
+        "allDay": "하루종일",
+        "between": "{{time-range}}",
+        "endsAt": "{{end-time}} 종료",
+        "noMarathons": "이 기간에는 마라톤이 없습니다.",
+        "now": "지금",
+        "startsAt": "{{start-time}} 시작"
     },
-    "submissions_close": "{{duration}} 제출 마감"
-  },
-  "global": {
-    "adblocker": "광고를 차단하고 계신 모양이네요. Oengus는 생존하기 위해 광고와 기부에 의존하고 있습니다. 광고 차단기를 꺼주세요.",
-    "emu": "[에뮬]",
-    "enabled": "유효",
-    "disabled": "무효",
-    "non_select": "선택되지 않음"
-  },
-  "footer": {
-    "text": "모든 시간은 접속자의 시간대로 변환됩니다. 감지된 시간대: {{timezone}}",
-    "donate": "Oengus를 잘 이용하고 계시다면, <a href=\"{{donationLink}}\" target=\"_blank\">후원</a>하는 걸 고려해보세요",
-    "patron": {
-      "enjoyOengus": "Oengus가 마음에 드시면 {{patronLink}}에서 후원을 고려해주세요",
-      "list": "Oengus를 모든 사람에게 무료로 제공하는 데 기여한 아래 나열된 후원자에게 감사합니다",
-      "patronLink": "후원자가 돼주세요"
+    "alert": {
+        "user": {
+            "update": {
+                "success": "사용자 데이터가 업데이트되었습니다",
+                "error": "사용자 데이터 업데이트 중 오류가 발생했습니다"
+            },
+            "sync": {
+                "error": "계정 동기화 중에 오류가 발생했습니다. 일반적으로 이것은 광고 차단기로 인해 발생합니다. Oengus를 허용 목록에 추가하거나 모든 확장을 비활성화한 상태에서 다시 시도하십시오. 확장 프로그램이 설치되지 않은 브라우저를 시도했지만 여전히 이 오류가 표시되면 Oengus Discord 서버의 #bug_or_feature에 대한 도움을 요청하세요.",
+                "alreadySynced": "오류: 이 계정은 이미 사용되고 있습니다"
+            },
+            "login": {
+                "usernameExists": "로그인하려는 계정에 할당된 유저네임이 이미 존재합니다. 다른 로그인 방법을 이용하여 Oengus 프로필을 생성한 건 아닌지 확인하십시오. 잘못되었다고 생각되면 관리자에게 문의해주세요.",
+                "error": "인증하는 동안 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오.",
+                "disabledAccount": "계정이 비활성화되었습니다. 다시 사용하려면 관리자에게 문의하십시오.",
+                "noAccountFound": "계정을 찾을 수 없습니다. 새 계정을 등록하거나 기존 계정과 연동하세요."
+            },
+            "deactivate": {
+                "success": "계정이 비활성화되었습니다"
+            }
+        },
+        "submit": {
+            "SAME_USER": "자신이 생성한 카테고리에 자신을 추가할 수 없습니다",
+            "NOT_MULTIPLAYER": "멀티플레이 카테고리가 아닙니다",
+            "MAX_SIZE_REACHED": "이미 최대 러너 수에 도달하였습니다",
+            "DIFFERENT_MARATHON": "이 코드는 다른 마라톤을 위한 것입니다",
+            "CODE_NOT_FOUND": "존재하지 않는 코드입니다",
+            "ALREADY_IN_OPPONENTS": "이미 이 카테고리에 속합니다",
+            "DISCORD_VERIFIED": "Discord 서버 가입 여부를 확인됐습니다. 이제 제출할 수 있습니다"
+        },
+        "submission": {
+            "save": {
+                "success": "제출이 전송되었습니다",
+                "error": "제출 중 오류가 발생했습니다"
+            },
+            "deletion": {
+                "success": "제출이 삭제되었습니다",
+                "error": "제출 삭제 중 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오."
+            },
+            "cache": "제출 내역이 목록에 표시되려면 30분 이상 걸릴 수 있습니다"
+        },
+        "selection": {
+            "save": {
+                "success": "선택이 저장되었습니다",
+                "error": "선택 항목 저장 중 오류가 발생했습니다"
+            }
+        },
+        "schedule": {
+            "save": {
+                "success": "일정이 저장되었습니다",
+                "error": "예약 저장 중 오류가 발생했습니다"
+            },
+            "export": {
+                "error": "내보내는 동안 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오."
+            }
+        },
+        "marathon": {
+            "update": {
+                "success": "마라톤이 업데이트되었습니다",
+                "error": "마라톤 업데이트 중 오류가 발생했습니다"
+            },
+            "deletion": {
+                "success": "마라톤을 삭제했습니다",
+                "error": "마라톤 삭제 중 오류가 발생했습니다"
+            },
+            "creation": {
+                "success": "마라톤을 생성하였습니다",
+                "error": "마라톤 생성 중 오류가 발생했습니다"
+            }
+        },
+        "incentives": {
+            "save": {
+                "success": "인센티브가 저장되었습니다.",
+                "error": "인센티브를 저장하는 동안 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오."
+            },
+            "delete": {
+                "success": "인센티브가 삭제되었습니다",
+                "error": "인센티브 삭제 중 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오."
+            }
+        },
+        "game": {
+            "export": {
+                "error": "내보내는 동안 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오."
+            },
+            "deletion": {
+                "success": "게임이 삭제되었습니다",
+                "error": "게임을 삭제하는 동안 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오."
+            }
+        },
+        "donation": {
+            "validate": {
+                "success": "후원했습니다. 후원해주셔서 감사합니다!",
+                "error": "후원 과정에서 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오."
+            },
+            "export": {
+                "error": "내보내는 동안 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오."
+            }
+        },
+        "category": {
+            "deletion": {
+                "success": "카테고리가 삭제되었습니다",
+                "error": "카테고리를 삭제하는 동안 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오."
+            }
+        },
+        "generic": {
+            "validationError": "문제가 발생했습니다. 유효성 검사 오류를 확인해 주세요. 문제가 지속되면 디스코드에서 지원팀에 문의하세요.",
+            "clipboardOk": "클립보드에 복사되었습니다!"
+        }
     },
-    "v1Link": "Oengus v1로 로그인"
-  },
-  "calendar": {
-    "title": "마라톤 달력",
-    "help": "이벤트를 클릭하면 해당 페이지로 리디렉션됩니다",
-    "allDay": "하루종일",
-    "between": "{{time-range}}",
-    "endsAt": "{{end-time}} 종료",
-    "noMarathons": "이 기간에는 마라톤이 없습니다.",
-    "now": "지금",
-    "startsAt": "{{start-time}} 시작"
-  },
-  "alert": {
-    "user": {
-      "update": {
-        "success": "사용자 데이터가 업데이트되었습니다",
-        "error": "사용자 데이터 업데이트 중 오류가 발생했습니다"
-      },
-      "sync": {
-        "error": "계정 동기화 중에 오류가 발생했습니다. 일반적으로 이것은 광고 차단기로 인해 발생합니다. Oengus를 허용 목록에 추가하거나 모든 확장을 비활성화한 상태에서 다시 시도하십시오. 확장 프로그램이 설치되지 않은 브라우저를 시도했지만 여전히 이 오류가 표시되면 Oengus Discord 서버의 #bug_or_feature에 대한 도움을 요청하세요.",
-        "alreadySynced": "오류: 이 계정은 이미 사용되고 있습니다"
-      },
-      "login": {
-        "usernameExists": "로그인하려는 계정에 할당된 유저네임이 이미 존재합니다. 다른 로그인 방법을 이용하여 Oengus 프로필을 생성한 건 아닌지 확인하십시오. 잘못되었다고 생각되면 관리자에게 문의해주세요.",
-        "error": "인증하는 동안 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오.",
-        "disabledAccount": "계정이 비활성화되었습니다. 다시 사용하려면 관리자에게 문의하십시오."
-      },
-      "deactivate": {
-        "success": "계정이 비활성화되었습니다"
-      }
+    "action": {
+        "submit": "제출",
+        "sendTweet": "트윗 전송",
+        "save": "저장",
+        "join": "가입",
+        "decline": "거절",
+        "confirm": "확인",
+        "cancel": "취소",
+        "accept": "확인",
+        "clearAvailabilities": "선택한 가능한 시간대 선택 해제",
+        "create": "생성",
+        "share": "공유",
+        "login": "로그인",
+        "edit": "편집",
+        "delete": "삭제",
+        "shareMastodon": "마스토돈에서 공유"
     },
-    "submit": {
-      "SAME_USER": "자신이 생성한 카테고리에 자신을 추가할 수 없습니다",
-      "NOT_MULTIPLAYER": "멀티플레이 카테고리가 아닙니다",
-      "MAX_SIZE_REACHED": "이미 최대 러너 수에 도달하였습니다",
-      "DIFFERENT_MARATHON": "이 코드는 다른 마라톤을 위한 것입니다",
-      "CODE_NOT_FOUND": "존재하지 않는 코드입니다",
-      "ALREADY_IN_OPPONENTS": "이미 이 카테고리에 속합니다",
-      "DISCORD_VERIFIED": "Discord 서버 가입 여부를 확인됐습니다. 이제 제출할 수 있습니다"
-    },
-    "submission": {
-      "save": {
-        "success": "제출이 전송되었습니다",
-        "error": "제출 중 오류가 발생했습니다"
-      },
-      "deletion": {
-        "success": "제출이 삭제되었습니다",
-        "error": "제출 삭제 중 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오."
-      }
-    },
-    "selection": {
-      "save": {
-        "success": "선택이 저장되었습니다",
-        "error": "선택 항목 저장 중 오류가 발생했습니다"
-      }
-    },
-    "schedule": {
-      "save": {
-        "success": "일정이 저장되었습니다",
-        "error": "예약 저장 중 오류가 발생했습니다"
-      },
-      "export": {
-        "error": "내보내는 동안 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오."
-      }
+    "aboutPage": {
+        "contact": {
+            "title": "문의",
+            "par2": "사업/PR 관련 문의는 <a href=\"mailto:contact@oengus.io\" target=\"_blank\">contact@oengus.io</a>로 메일을 부탁드립니다. 영어로 작성된 메일에만 대응합니다.",
+            "par1": "버그를 발견했나요 ? 사이트에 관한 문의가 있으신가요 ? <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">Discord 서버</a>에 들어오세요"
+        },
+        "about": {
+            "title": "관하여",
+            "par6": "정보: Oengus는 시간과 영원을 관장하는 켈트 신입니다. 스피드런 마라톤에 적합한 이름에 관해서 말해보세요!",
+            "par5": "2021년 1월부터 이 사이트는 <a href=\"https://twitter.com/duncte123\" target=\"_blank\">duncte123</a>이 관리합니다.",
+            "par4": "이 사이트는 <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>가 제작하였습니다. Gyoo는 2013년부터 스피드런 커뮤니티에서 진행자로 활동하였으며 다양한 방식으로 스피드런 커뮤니티에 기여하였습니다. <a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a>의 글로벌 중재자를 3년간 했으며, <a href=\"https://twitter.com/SpeedrunWRs\">Speedrun WRs Twitter bot</a>을 개발하였고, 프랑스 청중을 위해 국제 마라톤의 재방송을 제공하는 French Restream 팀의 일원이며, 프랑스의 Games Done Quick인 Bourg la Run의 설립자입니다. 이 모든 경험을 한 곳에 모아 마라톤을 조직하는 데 좋은 공공 도구가 없다는 것을 알고선 Gyoo는 하나를 만들기로 결심했습니다. 그 결과가 바로 Oengus입니다.",
+            "par3": "스피드런 마라톤은 스피드러너들이 모여 온라인 혹은 오프라인에서 청중에게 자신의 런을 보여주는 이벤트입니다. 가장 인기있는 이벤트는 1년에 두 번 열리는 <a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a>입니다.",
+            "par2": "스피드런이란 엔터테인먼트 / 경쟁을 목적으로 가능한 한 빨리 게임을 깨는 행위를 말합니다. 스피드런에 관한 자세한 내용은 <a href=\"https://en.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedia</a>에서 확인할 수 있습니다.",
+            "par1": "Oengus (\"앙거스\"라 읽습니다)는 스피드런 마라톤을 조직하기 위한 도구를 제공하는 사이트입니다."
+        },
+        "privacy": {
+            "log": {
+                "par1": "Oengus 는 로그 파일을 사용하는 표준 절차를 따릅니다. 파일은 방문자가 웹사이트를 방문할 때 기록합니다. 모든 호스팅 회사는 이 작업을 수행하고 호스팅 서비스 분석의 일부에 해당합니다. 로그 파일에 의해 수집된 정보에는 인터넷 프로토콜 (IP) 주소, 브라우저 유형, 인터넷 서비스 제공업체 (ISP), 날짜 및 타임 스탬프, 참조/종료 페이지, 클릭 수 등이 포함됩니다. 이러한 정보는 개인 식별이 가능한 정보와 연결되어 있지 않습니다. 정보의 목적은 동향 분석, 사이트 관리, 웹 사이트에서의 사용자 이동 추적 및 인구 통계 정보 수집입니다.",
+                "title": "로그 파일"
+            },
+            "cookies": {
+                "title": "쿠키 및 웹 비콘",
+                "par1": "다른 웹 사이트와 마찬가지로 Oengus는 '쿠키'를 사용합니다. 이 쿠키는 방문자의 기본 설정, 방문자가 액세스하거나 방문한 웹사이트의 페이지를 포함한 정보를 저장하는 데 사용됩니다. 정보는 방문자의 브라우저 유형 및/또는 기타 정보를 기반으로 웹 페이지 콘텐츠를 사용자 정보를 지정하여 사용자 경험을 최적화하는 데 사용됩니다."
+            },
+            "online": {
+                "par1": "이 개인정보 보호정책은 당사의 온라인 활동에만 적용되며 Oengus에서 공유 및/또는 수집한 정보와 관련하여 당사 웹사이트 방문자에게 유효합니다. 이 정책은 오프라인 또는 이 웹사이트 이외의 채널을 통해 수집된 정보에는 적용되지 않습니다.",
+                "title": "온라인 한정 개인정보 보호정책"
+            },
+            "children": {
+                "title": "자녀 정보",
+                "par1": "우리의 우선 순위의 또 다른 부분은 인터넷을 사용하는 동안 자녀를 보호하는 것입니다. 우리는 부모와 보호자가 온라인 활동을 관찰, 참여 및/또는 모니터링하고 안내할 것을 권장합니다.",
+                "par2": "Oengus는 13세 미만의 어린이로부터 개인 식별 정보를 고의로 수집하지 않습니다. 귀하의 자녀가 당사 웹 사이트에서 이러한 종류의 정보를 제공했다고 생각하는 경우 즉시 당사에 연락부탁드립니다. 우리의 기록에서 그러한 정보를 즉시 제거하도록 최선의 노력을 다할 것입니다."
+            },
+            "title": "개인정보 정책",
+            "par1": "{{oengus-link}}에서 접근할 수 있는 Oengus에 있어서, 방문자의 개인정보는 최우선 과제입니다. 본 개인정보 정책은 Oengus가 수집 및 기록하는 정보 유형과 그 사용방법을 설명합니다.",
+            "par2": "본 사이트의 개인정보 보호 방침에 관해 질문이 있거나 자세한 정보가 필요하다면 문의해주십시오.",
+            "par3": "본 정책이 불일치하는 경우, 영어로 작성된 개인정보 정책이 우선됩니다.",
+            "thirdParty": {
+                "title": "제3자 개인정보 보호정책",
+                "par1": "Oengus의 개인정보 보호정책은 다른 광고주나 웹사이트에 적용되지 않습니다.",
+                "par2": "개별 브라우저 옵션을 통해 쿠키를 비활성화하도록 선택할 수 있습니다. 특정 웹 브라우저의 쿠키 관리에 대한 자세한 내용은 해당 브라우저의 웹사이트에서 확인할 수 있습니다."
+            },
+            "consent": {
+                "title": "동의",
+                "par1": "본 웹 사이트를 사용함으로써 귀하는 개인정보 보호정책에 동의하고 이용약관에 동의하는 것입니다."
+            }
+        }
     },
     "marathon": {
-      "update": {
-        "success": "마라톤이 업데이트되었습니다",
-        "error": "마라톤 업데이트 중 오류가 발생했습니다"
-      },
-      "deletion": {
-        "success": "마라톤을 삭제했습니다",
-        "error": "마라톤 삭제 중 오류가 발생했습니다"
-      },
-      "creation": {
-        "success": "마라톤을 생성하였습니다",
-        "error": "마라톤 생성 중 오류가 발생했습니다"
-      }
-    },
-    "incentives": {
-      "save": {
-        "success": "인센티브가 저장되었습니다.",
-        "error": "인센티브를 저장하는 동안 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오."
-      },
-      "delete": {
-        "success": "인센티브가 삭제되었습니다",
-        "error": "인센티브 삭제 중 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오."
-      }
-    },
-    "game": {
-      "export": {
-        "error": "내보내는 동안 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오."
-      },
-      "deletion": {
-        "success": "게임이 삭제되었습니다",
-        "error": "게임을 삭제하는 동안 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오."
-      }
-    },
-    "donation": {
-      "validate": {
-        "success": "후원했습니다. 후원해주셔서 감사합니다!",
-        "error": "후원 과정에서 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오."
-      },
-      "export": {
-        "error": "내보내는 동안 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오."
-      }
-    },
-    "category": {
-      "deletion": {
-        "success": "카테고리가 삭제되었습니다",
-        "error": "카테고리를 삭제하는 동안 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오."
-      }
-    }
-  },
-  "action": {
-    "submit": "제출",
-    "sendTweet": "트윗 전송",
-    "save": "저장",
-    "join": "가입",
-    "decline": "거절",
-    "confirm": "확인",
-    "cancel": "취소",
-    "accept": "확인",
-    "clearAvailabilities": "선택한 가능한 시간대 선택 해제"
-  },
-  "aboutPage": {
-    "contact": {
-      "title": "문의",
-      "par2": "사업/PR 관련 문의는 <a href=\"mailto:contact@oengus.io\" target=\"_blank\">contact@oengus.io</a>로 메일을 부탁드립니다. 영어로 작성된 메일에만 대응합니다.",
-      "par1": "버그를 발견했나요 ? 사이트에 관한 문의가 있으신가요 ? <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">Discord 서버</a>에 들어오세요"
-    },
-    "about": {
-      "title": "관하여",
-      "par6": "정보: Oengus는 시간과 영원을 관장하는 켈트 신입니다. 스피드런 마라톤에 적합한 이름에 관해서 말해보세요!",
-      "par5": "2021년 1월부터 이 사이트는 <a href=\"https://twitter.com/duncte123\" target=\"_blank\">duncte123</a>이 관리합니다.",
-      "par4": "이 사이트는 <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>가 제작하였습니다. Gyoo는 2013년부터 스피드런 커뮤니티에서 진행자로 활동하였으며 다양한 방식으로 스피드런 커뮤니티에 기여하였습니다. <a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a>의 글로벌 중재자를 3년간 했으며, <a href=\"https://twitter.com/SpeedrunWRs\">Speedrun WRs Twitter bot</a>을 개발하였고, 프랑스 청중을 위해 국제 마라톤의 재방송을 제공하는 French Restream 팀의 일원이며, 프랑스의 Games Done Quick인 Bourg la Run의 설립자입니다. 이 모든 경험을 한 곳에 모아 마라톤을 조직하는 데 좋은 공공 도구가 없다는 것을 알고선 Gyoo는 하나를 만들기로 결심했습니다. 그 결과가 바로 Oengus입니다.",
-      "par3": "스피드런 마라톤은 스피드러너들이 모여 온라인 혹은 오프라인에서 청중에게 자신의 런을 보여주는 이벤트입니다. 가장 인기있는 이벤트는 1년에 두 번 열리는 <a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a>입니다.",
-      "par2": "스피드런이란 엔터테인먼트 / 경쟁을 목적으로 가능한 한 빨리 게임을 깨는 행위를 말합니다. 스피드런에 관한 자세한 내용은 <a href=\"https://en.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedia</a>에서 확인할 수 있습니다.",
-      "par1": "Oengus (\"앙거스\"라 읽습니다)는 스피드런 마라톤을 조직하기 위한 도구를 제공하는 사이트입니다."
-    },
-    "privacy": {
-      "log": {
-        "par1": "Oengus 는 로그 파일을 사용하는 표준 절차를 따릅니다. 파일은 방문자가 웹사이트를 방문할 때 기록합니다. 모든 호스팅 회사는 이 작업을 수행하고 호스팅 서비스 분석의 일부에 해당합니다. 로그 파일에 의해 수집된 정보에는 인터넷 프로토콜 (IP) 주소, 브라우저 유형, 인터넷 서비스 제공업체 (ISP), 날짜 및 타임 스탬프, 참조/종료 페이지, 클릭 수 등이 포함됩니다. 이러한 정보는 개인 식별이 가능한 정보와 연결되어 있지 않습니다. 정보의 목적은 동향 분석, 사이트 관리, 웹 사이트에서의 사용자 이동 추적 및 인구 통계 정보 수집입니다.",
-        "title": "로그 파일"
-      },
-      "cookies": {
-        "title": "쿠키 및 웹 비콘",
-        "par1": "다른 웹 사이트와 마찬가지로 Oengus는 '쿠키'를 사용합니다. 이 쿠키는 방문자의 기본 설정, 방문자가 액세스하거나 방문한 웹사이트의 페이지를 포함한 정보를 저장하는 데 사용됩니다. 정보는 방문자의 브라우저 유형 및/또는 기타 정보를 기반으로 웹 페이지 콘텐츠를 사용자 정보를 지정하여 사용자 경험을 최적화하는 데 사용됩니다."
-      },
-      "online": {
-        "par1": "이 개인정보 보호정책은 당사의 온라인 활동에만 적용되며 Oengus에서 공유 및/또는 수집한 정보와 관련하여 당사 웹사이트 방문자에게 유효합니다. 이 정책은 오프라인 또는 이 웹사이트 이외의 채널을 통해 수집된 정보에는 적용되지 않습니다.",
-        "title": "온라인 한정 개인정보 보호정책"
-      },
-      "children": {
-        "title": "자녀 정보",
-        "par1": "우리의 우선 순위의 또 다른 부분은 인터넷을 사용하는 동안 자녀를 보호하는 것입니다. 우리는 부모와 보호자가 온라인 활동을 관찰, 참여 및/또는 모니터링하고 안내할 것을 권장합니다.",
-        "par2": "Oengus는 13세 미만의 어린이로부터 개인 식별 정보를 고의로 수집하지 않습니다. 귀하의 자녀가 당사 웹 사이트에서 이러한 종류의 정보를 제공했다고 생각하는 경우 즉시 당사에 연락부탁드립니다. 우리의 기록에서 그러한 정보를 즉시 제거하도록 최선의 노력을 다할 것입니다."
-      },
-      "title": "개인정보 정책",
-      "par1": "{{oengus-link}}에서 접근할 수 있는 Oengus에 있어서, 방문자의 개인정보는 최우선 과제입니다. 본 개인정보 정책은 Oengus가 수집 및 기록하는 정보 유형과 그 사용방법을 설명합니다.",
-      "par2": "본 사이트의 개인정보 보호 방침에 관해 질문이 있거나 자세한 정보가 필요하다면 문의해주십시오.",
-      "par3": "본 정책이 불일치하는 경우, 영어로 작성된 개인정보 정책이 우선됩니다.",
-      "thirdParty": {
-        "title": "제3자 개인정보 보호정책",
-        "par1": "Oengus의 개인정보 보호정책은 다른 광고주나 웹사이트에 적용되지 않습니다.",
-        "par2": "개별 브라우저 옵션을 통해 쿠키를 비활성화하도록 선택할 수 있습니다. 특정 웹 브라우저의 쿠키 관리에 대한 자세한 내용은 해당 브라우저의 웹사이트에서 확인할 수 있습니다."
-      },
-      "consent": {
-        "title": "동의",
-        "par1": "본 웹 사이트를 사용함으로써 귀하는 개인정보 보호정책에 동의하고 이용약관에 동의하는 것입니다."
-      }
-    }
-  },
-  "marathon": {
-    "selection": {
-      "availabilities": {
-        "help": "러너 옆의 달력 아이콘을 클릭하면 가능한 시간대를 표시하거나 가릴 수 있습니다."
-      },
-      "action": {
-        "publish": "선택 게시",
-        "decline": "TODO 거부"
-      },
-      "title": "런 선택",
-      "status": {
-        "VALIDATED": "승인",
-        "TODO": "확인 필요",
-        "REJECTED": "거부",
-        "BONUS": "보너스",
-        "BACKUP": "백업",
-        "ALL": "전부"
-      },
-      "statistics": {
-        "title": "통계",
-        "table": {
-          "totalTimeValidated": "검증된 런의 합계 시간 (기본 준비 시간 포함)",
-          "totalTime": "합계 시간",
-          "numberOfRuns": "런 수",
-          "numberOfRunners": "러너 수",
-          "marathonLength": "마라톤 길이",
-          "defaultSetupTime": "기본 준비 시간",
-          "averageEstimate": "평균 예상 시간"
-        }
-      },
-      "selection": {
-        "title": "선택"
-      },
-      "publish": {
-        "help": "\"저장\"을 클릭하여 모든 상태에서 현재 선택 사항을 저장합니다. 모든 런이 \"확인 필요\" 상태가 아닌 경우에만 선택한 항목을 게시할 수 있습니다. 선택 항목을 저장하거나 게시하는 데는 양에 따라 다소 시간을 걸릴 수 있습니다. 경고: 게시 선택은 자동으로 제출을 닫습니다. 선택 항목이 게시되면 \"제출 보기\" 페이지에서 모든 사람에게 표시됩니다."
-      },
-      "help": {
-        "BACKUP": "런을 백업해도 일정 관리의 선택한 런 목록엔 추가되지 않습니다. 이 목록에 추가하려면 승인 혹은 보너스 상태로 전환하십시오."
-      }
-    },
-    "schedule": {
-      "type": {
-        "SINGLE": "1인 플레이",
-        "RACE": "경쟁",
-        "OTHER": "기타",
-        "COOP_RACE": "협동 경쟁",
-        "COOP": "협동 런",
-        "RELAY": "릴레이 런",
-        "RELAY_RACE": "릴레이 레이스"
-      },
-      "title": "일정",
-      "timezone": "모든 일정은 접속자의 시간대에 맞춰 표시됩니다.",
-      "table": {
-        "type": "유형",
-        "time": "시간",
-        "setup": "준비 시간",
-        "runner": "러너",
-        "game": "게임",
-        "estimate": "예상 예산",
-        "console": "기기",
-        "category": "카테고리",
-        "placeholder": "아무 런을 왼쪽 목록에서 이쪽으로 드롭하세요. 이 텍스트는 하나의 런이 일정에 있으면 자동으로 사라집니다.",
-        "actions": "행동",
-        "link": "링크"
-      },
-      "setupBlock": "준비 단계",
-      "nextRun": "{{duration}} 예정된 다음 런",
-      "management": {
-        "title": "일정 관리",
-        "selectedRuns": "선발된 런",
-        "schedule": "일정",
-        "help": {
-          "save": "초안을 저장하거나 실시간 일정을 업데이트하려면 \"저장\"을 클릭하세요. 일정을 공개하려면 \"일정 게시\"를 클릭하세요. 일정이 한 번 개시되면 마라톤 종료 날짜는 일정을 업데이트할 때마다 자동으로 다시 계산됩니다.",
-          "dragAndDrop": "일정에서 런을 추가하거나 제거하려면 각 줄의 화살표를 이용해주세요. 핸들을 사용하여 일정에 선을 끌어다 놓을 수 있습니다"
+        "selection": {
+            "availabilities": {
+                "help": "러너 옆의 달력 아이콘을 클릭하면 가능한 시간대를 표시하거나 가릴 수 있습니다."
+            },
+            "action": {
+                "publish": "선택 게시",
+                "decline": "TODO 거부"
+            },
+            "title": "런 선택",
+            "status": {
+                "VALIDATED": "승인",
+                "TODO": "확인 필요",
+                "REJECTED": "거부",
+                "BONUS": "보너스",
+                "BACKUP": "백업",
+                "ALL": "전부"
+            },
+            "statistics": {
+                "title": "통계",
+                "table": {
+                    "totalTimeValidated": "검증된 런의 합계 시간 (기본 준비 시간 포함)",
+                    "totalTime": "합계 시간",
+                    "numberOfRuns": "런 수",
+                    "numberOfRunners": "러너 수",
+                    "marathonLength": "마라톤 길이",
+                    "defaultSetupTime": "기본 준비 시간",
+                    "averageEstimate": "평균 예상 시간"
+                }
+            },
+            "selection": {
+                "title": "선택"
+            },
+            "publish": {
+                "help": "\"저장\"을 클릭하여 모든 상태에서 현재 선택 사항을 저장합니다. 모든 런이 \"확인 필요\" 상태가 아닌 경우에만 선택한 항목을 게시할 수 있습니다. 선택 항목을 저장하거나 게시하는 데는 양에 따라 다소 시간을 걸릴 수 있습니다. 경고: 게시 선택은 자동으로 제출을 닫습니다. 선택 항목이 게시되면 \"제출 보기\" 페이지에서 모든 사람에게 표시됩니다."
+            },
+            "help": {
+                "BACKUP": "런을 백업해도 일정 관리의 선택한 런 목록엔 추가되지 않습니다. 이 목록에 추가하려면 승인 혹은 보너스 상태로 전환하십시오."
+            }
         },
-        "action": {
-          "publish": "일정 게시",
-          "alreadyPublished": "이미 게시된 일정",
-          "addSetupBlock": "준비 단계 추가",
-          "addRun": "런 추가"
+        "schedule": {
+            "type": {
+                "SINGLE": "1인 플레이",
+                "RACE": "경쟁",
+                "OTHER": "기타",
+                "COOP_RACE": "협동 경쟁",
+                "COOP": "협동 런",
+                "RELAY": "릴레이 런",
+                "RELAY_RACE": "릴레이 레이스"
+            },
+            "title": "일정",
+            "timezone": "모든 일정은 접속자의 시간대에 맞춰 표시됩니다.",
+            "table": {
+                "type": "유형",
+                "time": "시간",
+                "setup": "준비 시간",
+                "runner": "러너",
+                "game": "게임",
+                "estimate": "예상 예산",
+                "console": "기기",
+                "category": "카테고리",
+                "placeholder": "아무 런을 왼쪽 목록에서 이쪽으로 드롭하세요. 이 텍스트는 하나의 런이 일정에 있으면 자동으로 사라집니다.",
+                "actions": "행동",
+                "link": "링크"
+            },
+            "setupBlock": "준비 단계",
+            "nextRun": "{{duration}} 예정된 다음 런",
+            "management": {
+                "title": "일정 관리",
+                "selectedRuns": "선발된 런",
+                "schedule": "일정",
+                "help": {
+                    "save": "초안을 저장하거나 실시간 일정을 업데이트하려면 \"저장\"을 클릭하세요. 일정을 공개하려면 \"일정 게시\"를 클릭하세요. 일정이 한 번 개시되면 마라톤 종료 날짜는 일정을 업데이트할 때마다 자동으로 다시 계산됩니다.",
+                    "dragAndDrop": "일정에서 런을 추가하거나 제거하려면 각 줄의 화살표를 이용해주세요. 핸들을 사용하여 일정에 선을 끌어다 놓을 수 있습니다",
+                    "patronNudge": "Oengus 후원자가 만든 마라톤은 하나 이상의 일정을 만들 수 있습니다. 마라톤에 더 많은 일정을 만들고 싶으시다면 patreon으로 후원해 주세요.",
+                    "setupBlock": "기본 텍스트는 비워둡니다"
+                },
+                "action": {
+                    "publish": "일정 게시",
+                    "alreadyPublished": "이미 게시된 일정",
+                    "addSetupBlock": "준비 단계 추가",
+                    "addRun": "런 추가"
+                },
+                "customData": {
+                    "inputText": "텍스트로 저장된 사용자 정의 데이터를 통해 이 일정 라인에 \"숨겨진\" 데이터를 추가할 수 있습니다",
+                    "text": "커스텀 데이터 항목 비표시/표시"
+                },
+                "settings": {
+                    "createTitle": "새 일정 만들기",
+                    "editTitle": "편집 중: {{scheduleName}}",
+                    "name": {
+                        "label": "일정 이름",
+                        "error": {
+                            "max": "일정 이름이 너무 깁니다",
+                            "min": "일정 이름이 너무 짧습니다",
+                            "required": "일정 이름은 필수입니다",
+                            "pattern": "일정 이름에 허용되지 않는 문자가 포함되어 있습니다"
+                        }
+                    },
+                    "slug": {
+                        "error": {
+                            "max": "슬러그가 너무 깁니다",
+                            "pattern": "슬러그에 허용되지 않는 문자가 포함되어 있습니다",
+                            "required": "슬러그가 필요합니다",
+                            "min": "슬러그가 너무 짧습니다",
+                            "exists": "이 슬러그로 이미 일정을 만들었습니다"
+                        },
+                        "label": "슬러그"
+                    },
+                    "customLabel": "사용자 지정 레이블"
+                },
+                "cacheWarning": {
+                    "header": "이 내용을 주의 깊게 읽어보세요",
+                    "title": "게시 후 일정이 표시되는 데 2~5분 정도 소요됩니다.",
+                    "line1": "자체 서버의 부하를 줄이기 위해 Oengus에 캐시를 구현했습니다.",
+                    "line2": "즉, 마라톤 페이지에 일정이 업데이트되기까지 시간이 걸릴 수 있습니다.",
+                    "line3": "버튼이 5초 후에 활성화됩니다"
+                },
+                "overview": {
+                    "create-new": "새 일정 만들기",
+                    "nothingFound": "일정을 찾을 수 없습니다",
+                    "title": "일정은 관리하거나 {{create-new}}",
+                    "scheduleHeader": "내 일정:"
+                },
+                "hideCompleteUsers": "'선택한 런'에 더 이상 런이 없는 경우 타임라인에서 사용자 숨기기",
+                "markdown": "게임 및 카테고리 필드에 기본 마크다운 구문(**볼드체**, _이탤릭체_, [링크 이름](https://oengus.io/)을 사용할 수 있습니다."
+            },
+            "export": {
+                "title": "일정 내보내기",
+                "json": "JSON (Horaro)로 내보내기",
+                "ics": "ICS로 내보내기",
+                "csv": "CSV로 내보내기"
+            },
+            "dstChange": "마라톤 중에 DST 변경이 발생합니다.",
+            "currentRun": "현재 런"
         },
-        "customData": {
-          "inputText": "텍스트로 저장된 사용자 정의 데이터를 통해 이 일정 라인에 \"숨겨진\" 데이터를 추가할 수 있습니다",
-          "text": "커스텀 데이터 항목 비표시/표시"
-        }
-      },
-      "export": {
-        "title": "일정 내보내기",
-        "json": "JSON (Horaro)로 내보내기",
-        "ics": "ICS로 내보내기",
-        "csv": "CSV로 내보내기"
-      },
-      "dstChange": "마라톤 중에 DST 변경이 발생합니다.",
-      "currentRun": "현재 런"
-    },
-    "new": {
-      "title": "새로운 마라톤 생성",
-      "description": "새로운 마라톤을 만들려면 아래의 정보가 반드시 필요합니다. 생성이 끝나면 더 많은 세부 정보를 설정할 수 있습니다.",
-      "shortDomain": "이 짧은 주소는 SNS 공유를 위해서 자동으로 만들어졌습니다"
-    },
-    "menu": {
-      "viewSubmissions": "제출 보기",
-      "tracker": "트래커",
-      "submitRuns": "런 제출",
-      "settings": "설정",
-      "selectRuns": "런 선택",
-      "schedule": "일정",
-      "overview": "개요",
-      "moderators": "중재자",
-      "manageSchedule": "일정 관리",
-      "manageIncentives": "인센티브 관리",
-      "loginToSubmit": "로그인하여 런 제출",
-      "incentives": "인센티브",
-      "home": "홈",
-      "editSubmission": "제출 내역 수정",
-      "donations": "후원",
-      "donate": "후원",
-      "admin": "관리자"
-    },
-    "incentives": {
-      "title": "인센티브",
-      "management": {
-        "title": "인센티브 관리",
-        "table": {
-          "progress": "진행도",
-          "locked": "잠김",
-          "isBidWar": "후원 목표/입찰 전쟁",
-          "incentive": "인센티브명",
-          "goal": "목표",
-          "game": "게임",
-          "description": "설명",
-          "currentAmount": "현재 금액",
-          "actions": "행동"
+        "new": {
+            "title": "새로운 마라톤 생성",
+            "description": "새로운 마라톤을 만들려면 아래의 정보가 반드시 필요합니다. 생성이 끝나면 더 많은 세부 정보를 설정할 수 있습니다.",
+            "shortDomain": "이 짧은 주소는 SNS 공유를 위해서 자동으로 만들어졌습니다"
         },
-        "openBid": "후원자는 새 입찰을 추가할 수 있습니다",
-        "noSchedule": "인센티브를 추가하기 전에 일정에 내용을 추가해야 합니다",
-        "name": {
-          "error": {
-            "required": "이름이 필요합니다"
-          }
+        "menu": {
+            "viewSubmissions": "제출 보기",
+            "tracker": "트래커",
+            "submitRuns": "런 제출",
+            "settings": "설정",
+            "selectRuns": "런 선택",
+            "schedule": "일정",
+            "overview": "개요",
+            "moderators": "중재자",
+            "manageSchedule": "일정 관리",
+            "manageIncentives": "인센티브 관리",
+            "loginToSubmit": "로그인하여 런 제출",
+            "incentives": "인센티브",
+            "home": "홈",
+            "editSubmission": "제출 내역 수정",
+            "donations": "후원",
+            "donate": "후원",
+            "admin": "관리자",
+            "schedules": "일정",
+            "manageSchedules": "일정 관리"
         },
-        "goal": {
-          "error": {
-            "required": "후원 목표가 필요합니다"
-          }
+        "incentives": {
+            "title": "인센티브",
+            "management": {
+                "title": "인센티브 관리",
+                "table": {
+                    "progress": "진행도",
+                    "locked": "잠김",
+                    "isBidWar": "후원 목표/입찰 전쟁",
+                    "incentive": "인센티브명",
+                    "goal": "목표",
+                    "game": "게임",
+                    "description": "설명",
+                    "currentAmount": "현재 금액",
+                    "actions": "행동"
+                },
+                "openBid": "후원자는 새 입찰을 추가할 수 있습니다",
+                "noSchedule": "인센티브를 추가하기 전에 일정에 내용을 추가해야 합니다",
+                "name": {
+                    "error": {
+                        "required": "이름이 필요합니다"
+                    }
+                },
+                "goal": {
+                    "error": {
+                        "required": "후원 목표가 필요합니다"
+                    }
+                },
+                "donationGoal": "후원 목표",
+                "currentAmount": {
+                    "error": {
+                        "required": "현재 금액이 필요합니다"
+                    }
+                },
+                "bidWar": "입찰 전쟁",
+                "bidName": {
+                    "error": {
+                        "required": "입찰 이름이 필요합니다"
+                    }
+                },
+                "approveBid": "이 입찰은 후원자가 생성했으며 승인이 필요합니다. 승인 후 반드시 저장하세요!",
+                "action": {
+                    "add": "인센티브 추가"
+                }
+            }
         },
-        "donationGoal": "후원 목표",
-        "currentAmount": {
-          "error": {
-            "required": "현재 금액이 필요합니다"
-          }
-        },
-        "bidWar": "입찰 전쟁",
-        "bidName": {
-          "error": {
-            "required": "입찰 이름이 필요합니다"
-          }
-        },
-        "approveBid": "이 입찰은 후원자가 생성했으며 승인이 필요합니다. 승인 후 반드시 저장하세요!",
-        "action": {
-          "add": "인센티브 추가"
-        }
-      }
-    },
-    "home": {
-      "language": "언어",
-      "to": "종료",
-      "location": "위치",
-      "from": "시작"
-    },
-    "help": {
-      "isArchived": "이 마라톤은 보관됩니다. 읽기 전용 모드입니다."
-    },
-    "donations": {
-      "total": "후원 총액",
-      "title": "후원",
-      "table": {
-        "name": "이름",
-        "date": "날짜",
-        "comment": "한마디",
-        "amount": "양"
-      },
-      "max": "최대 후원",
-      "export": "CSV로 내보내기",
-      "count": "후원 횟수",
-      "average": "평균 후원"
-    },
-    "donate": {
-      "title": "후원",
-      "nickname": {
-        "label": "유저네임",
-        "error": {
-          "pattern": "유저네임은 소문자, 대문자, _ 및-로만 구성될 수 있습니다",
-          "max": "유저네임이 너무 깁니다"
-        }
-      },
-      "incentives": {
-        "title": "인센티브",
-        "left": "남은 사용 가능 금액 :",
-        "header": {
-          "incentive": "인센티브",
-          "amount": "양",
-          "action": "행동"
-        },
-        "description": "후원 인센티브는 도전을 추가하고 러너의 선택에 영향을 미치는 데 사용할 수 있습니다. 후원금을 인센티브로 사용하시겠습니까?",
-        "bid": {
-          "new": "(신규)"
-        },
-        "add": "인센티브 추가"
-      },
-      "incentiveAmount": {
-        "error": {
-          "required": "금액을 입력해주세요",
-          "minNumber": "금액은 0보다 커야 합니다"
-        }
-      },
-      "extra": {
-        "title": "추가 정보",
-        "description": "데이터는 어디에도 공개적으로 표시되지 않으며, 이벤트 종료 한 달 후에 삭제됩니다."
-      },
-      "description": "후원금은 {{supportedCharity}}를 지원합니다",
-      "comment": {
-        "label": "한마디"
-      },
-      "amount": {
-        "label": "후원 금액",
-        "error": {
-          "required": "후원 금액을 입력해주세요",
-          "minNumber": "후원 금액은 0보다 커야 합니다"
-        }
-      }
-    },
-    "submit": {
-      "title": "런 제출",
-      "table": {
-        "runners": "러너",
-        "games": "게임",
-        "categories": "카테고리",
-        "actions": "행동"
-      },
-      "submitsClosed": "제출 기간이 끝났습니다. 스케줄이 확정될 때까지 가능한 시간대만 갱신할 수 있습니다.",
-      "submissions": "제출",
-      "racesAllowed": "경쟁/코옵 허용",
-      "multiplayer": {
-        "title": "멀티플레이 카테고리",
-        "code": {
-          "help": "멀티 플레이 제출에 참가하려면 아래의 코드를 입력해주세요"
-        }
-      },
-      "maxNumberOfScreens": "경쟁/협동 런의 최대 참가자 수",
-      "maxGamesPerRunner": "러너당 최대 게임 수",
-      "maxCategoriesPerGame": "게임당 최대 카테고리 수",
-      "game": {
-        "ratio": {
-          "label": "영상 비율/해상도 (16:9, 4:3, 1920x1080…)",
-          "error": {
-            "required": "영상 비율이 필요합니다"
-          }
-        },
-        "name": {
-          "label": "게임 이름",
-          "error": {
-            "required": "게임 이름이 필요합니다"
-          }
-        },
-        "description": {
-          "label": "게임 설명",
-          "help": "게임과 런에 관한 설명을 작성해주세요",
-          "error": {
-            "required": "게임 설명이 필요합니다"
-          }
-        },
-        "console": {
-          "label": "기기",
-          "emulatorNotAllowed": "이 마라톤에선 에뮬레이터를 사용할 수 없습니다",
-          "emulated": "에뮬레이터"
-        }
-      },
-      "details": "세부 정보",
-      "delete": {
-        "action": "제출 삭제"
-      },
-      "dangerZone": "위험 구역",
-      "customField": {
-        "error": {
-          "required": "항목이 필요합니다"
-        }
-      },
-      "category": {
-        "video": {
-          "label": "영상 주소",
-          "error": {
-            "required": "영상 주소가 필요합니다"
-          }
-        },
-        "type": {
-          "label": "유형"
-        },
-        "opponent": {
-          "with": "상대:"
-        },
-        "name": {
-          "label": "카테고리 이름",
-          "error": {
-            "required": "카테고리 이름이 필요합니다"
-          }
-        },
-        "estimate": {
-          "label": "예상 시간",
-          "error": {
-            "required": "예상 시간이 필요합니다",
-            "pattern": "예상 시간이 잘못되었습니다. HH:MM:SS 형식으로 작성되어야 합니다. (시시:분분:초초)",
-            "min": "예상 시간이 잘못되었습니다. 0초보다 많아야 합니다"
-          }
-        },
-        "description": {
-          "label": "카테고리 설명",
-          "help": "이 카테고리에 대한 자세한 설명을 작성해주세요",
-          "error": {
-            "required": "카테고리 설명이 필요합니다"
-          }
-        },
-        "code": {
-          "help": {
-            "withCode": "이 제출 내역에 참여할 수 있도록 다른 러너에게 다음 코드를 제공하세요:",
-            "noCode": "제출 내역을 저장한 후 관심있는 다른 러너와 이 카테고리를 공유할 수 있는 코드가 제공됩니다"
-          }
-        }
-      },
-      "availabilities": {
-        "to": "종료",
-        "label": "가능한 시간대",
-        "from": "시작",
-        "error": {
-          "required": "하나 이상의 가능한 시간대를 추가해야 합니다",
-          "dateRequired": "날짜가 필요합니다",
-          "toDateTooLittle": "종료 일시는 시작 일시보다 1분 이상이어야 합니다."
-        },
-        "duplicate": "다음 날짜로 복사",
-        "add": "가능한 시간대 추가",
-        "actions": "행동"
-      },
-      "action": {
-        "removeGame": "게임 제거",
-        "addCategory": "카테고리 추가"
-      },
-      "tweet": {
-        "submit": "{{marathon}}에 {{games}}(으)로 참여하겠다고 제출했어요"
-      },
-      "requirements": {
-        "discord": {
-          "errors": {
-            "userMissing": "이 마라톤의 디스코드 서버에 가입해주세요 <a href=\"{{invite}}\" target=\"_blank\">{{invite}}</a>",
-            "botMissing": "이 마라톤의 중재자에게 Oengus 디스코드 봇을 초대해달라고 요청하세요"
-          },
-          "back": "뒤로",
-          "check": "확인!",
-          "syncNotice": [
-            "중요: 확인하기 전에 계정과 Discord를 동기화해야 합니다. 자세한 내용은",
-            "유저 설정",
-            "에서 확인해주세요."
-          ],
-          "par2": "Discord 서버에 가입돼있지 않으면 제출할 수 없습니다.",
-          "par1": "마라톤을 제출하기 위해 Discord 서버에 가입돼있는지 확인하려면 아래 \"확인\"을 클릭하세요.",
-          "lead": "이 마라톤을 제출하려면 Discord 서버에 가입돼있어야 합니다",
-          "title": "잠시만요!"
-        }
-      }
-    },
-    "submissions": {
-      "title": "제출",
-      "tabs": {
-        "submissions": "제출",
-        "answers": "답변"
-      },
-      "table": {
-        "type": "유형",
-        "status": "상태",
-        "runner": "러너",
-        "ratio": "비율/해상도",
-        "question": "질문",
-        "marathon": "마라톤",
-        "gameDescription": "게임 설명",
-        "game": "게임",
-        "estimate": "예상 시간",
-        "console": "기기",
-        "categoryDescription": "카테고리 설명",
-        "category": "카테고리",
-        "answer": "답변",
-        "actions": "행동",
-        "date": "일시"
-      },
-      "submission": {
-        "delete": "제출 내역을 삭제합니다. 이 마라톤에서 해당 유저의 모든 게임을 삭제하게 됩니다."
-      },
-      "game": {
-        "delete": "게임을 삭제합니다. 해당 카테고리도 삭제됩니다."
-      },
-      "export": "CSV로 내보내기",
-      "category": {
-        "delete": "카테고리 삭제"
-      },
-      "filter": "유저 및 게임 필터"
-    },
-    "settings": {
-      "youtube": {
-        "help": {
-          "url": "전체 주소를 입력해야 합니다"
-        },
-        "error": {
-          "pattern": "유튜브 채널 주소가 잘못되었습니다"
-        }
-      },
-      "videoRequired": {
-        "label": "영상 요구",
-        "allowed": "영상을 제출해야 합니다"
-      },
-      "unlimited": "제한 없음",
-      "type": {
-        "onsite": "현장 / IRL",
-        "online": "온라인",
-        "label": "마라톤 유형"
-      },
-      "twitter": {
-        "error": {
-          "pattern": "트위치 유저네임이 잘못되었습니다",
-          "max": "트위치 유저네임이 너무 깁니다"
-        }
-      },
-      "twitch": {
-        "error": {
-          "pattern": "트위치 유저네임이 잘못되었습니다",
-          "max": "트위치 유저네임이 너무 깁니다"
-        }
-      },
-      "title": "마라톤 설정",
-      "tabs": {
-        "submissions": "제출",
-        "incentives": "인센티브",
-        "general": "일반 설정",
-        "dangerZone": "위험 구역"
-      },
-      "supportedCharity": {
-        "label": "지원 단체",
-        "error": {
-          "required": "지원 단체 이름이 필요합니다",
-          "max": "지원 단체 이름이 너무 깁니다"
-        }
-      },
-      "submissionsTitle": "제출 설정",
-      "submissionsStartDate": {
-        "label": "제출 시작일",
-        "error": {
-          "required": "제출 마감일이 존재하는 경우 시작일을 입력해야 합니다"
-        }
-      },
-      "submissionsEndDate": {
-        "label": "제출 마감일",
-        "error": {
-          "required": "제출 시작일이 존재하는 경우 마감일을 입력해야 합니다"
-        }
-      },
-      "submissions": {
-        "open": "제출 오픈",
-        "label": "제출",
-        "closed": "제출 마감"
-      },
-      "startDate": {
-        "label": "시작일을 입력해주세요",
-        "error": {
-          "required": "시작일이 필요합니다"
-        }
-      },
-      "shortname": {
-        "label": "약칭",
-        "error": {
-          "required": "마라톤 약칭이 필요합니다",
-          "pattern": "마라톤 약칭이 잘못되었습니다",
-          "min": "마라톤 약칭이 너무 짧습니다",
-          "max": "마라톤 약칭이 너무 깁니다",
-          "exists": "마라톤 약칭이 이미 존재합니다"
-        },
-        "shorturl": "짧은 URL"
-      },
-      "sandbox": {
-        "warning": "주의: Oengus.sandbox는 샌드박스 환경의 Paypal과 통신하고 있습니다. 후원금의 수취인으로 가짜 Paypal 샌드박스 이메일 주소를 사용해야 합니다."
-      },
-      "privacy": {
-        "public": "공개",
-        "private": "비공개",
-        "label": "마라톤 정보",
-        "help": "비공개 마라톤은 메인 페이지에 표시되지 않는다는 점을 제외하면 다른 마라톤과 동일하게 작동합니다. 주소로만 접근할 수 있습니다."
-      },
-      "payee": {
-        "label": "수취인",
-        "help": "수취인은 Paypal 계정에 연결된 이메일 주소여야 합니다",
-        "error": {
-          "required": "수취인이 필요합니다",
-          "max": "수취인이 너무 깁니다",
-          "email": "수취인은 이메일 주소여야 합니다"
-        }
-      },
-      "name": {
-        "label": "이름",
-        "error": {
-          "required": "마라톤 이름이 필요합니다",
-          "pattern": "마라톤 이름이 잘못되었습니다",
-          "min": "마라톤 이름이 너무 짧습니다",
-          "max": "마라톤 이름이 너무 깁니다"
-        }
-      },
-      "multiplayer": {
-        "label": "멀티플레이",
-        "forbidden": "경쟁/협동 런이 금지됩니다",
-        "allowed": "경쟁/협동 런이 허용됩니다"
-      },
-      "moderators": {
-        "label": "중재자"
-      },
-      "maxNumberOfScreens": {
-        "label": "게임당 최대 화면 수",
-        "error": {
-          "required": "최대 화면 수가 필요합니다",
-          "min": "최대 화면 수는 0보다 커야 합니다"
-        },
-        "help": "멀티플레이 런을 허용할 경우 방송에 표시되는 최대 화면 수를 지정할 수 있습니다. 수를 지정하여 경쟁/협동에 참가하는 플레이어 수를 제한할 수 있습니다"
-      },
-      "maxGamesPerRunner": {
-        "label": "러너당 최대 게임 수",
-        "error": {
-          "required": "러너당 최대 게임 수가 필요합니다",
-          "min": "러너당 최대 게임 수는 0보다 커야 합니다"
-        }
-      },
-      "maxCategoriesPerGame": {
-        "label": "게임당 최대 카테고리 수",
-        "error": {
-          "required": "게임당 최대 카테고리 수가 필요합니다",
-          "min": "게임당 최대 카테고리 수는 0보다 커야 합니다",
-          "max": "게임당 최대 카테고리 수가 너무 높습니다"
-        }
-      },
-      "marathonDescription": {
-        "label": "설명",
-        "help": "마크다운 형식 지원"
-      },
-      "location": {
-        "label": "위치"
-      },
-      "language": {
-        "label": "언어"
-      },
-      "incentivesTitle": "인센티브 설정",
-      "incentives": {
-        "label": "인센티브 상태",
-        "hasIncentives": "이 마라톤에는 인센티브가 있습니다",
-        "disabledNotification": "인센티브는 신뢰할 수 없고 선별 옵션이 없기 때문에 현재 비활성화되어 있습니다. 이 기능이 언제 다시 사용될 지에 대한 계획은 없지만 그렇게 된다면 알려드리겠습니다."
-      },
-      "generalTitle": "일반 설정",
-      "endDate": {
-        "label": "예상 종료일",
-        "error": {
-          "required": "예상 종료일이 필요합니다"
-        }
-      },
-      "emulatorAuthorized": {
-        "label": "에뮬레이터를 사용할 수 있습니다",
-        "allowed": "에뮬레이터를 사용할 수 있습니다"
-      },
-      "donationsOpen": {
-        "label": "후원 페이지 표시"
-      },
-      "donations": {
-        "label": "기부금 후원",
-        "hasDonations": "이것은 자선 행사입니다",
-        "donationsOpen": "후원이 열린 상태입니다"
-      },
-      "webhook": {
-        "label": "웹훅",
-        "help": "웹훅을 추가하여 새로운 제출이나 후원이 발생했을 때 정보를 가져올 수 있습니다. 자세한 내용은 관리자에게 문의해주세요.",
-        "error": {
-          "max": "웹훅 링크가 너무 깁니다",
-          "offline": "웹훅에 연결할 수 없습니다. 올바른 주소가 맞나요?",
-          "marathonParameter": "필수 마라톤 매개 변수가 누락되었습니다"
-        },
-        "botNotice": "이것은 Oengus 봇 웹훅입니다. Oengus 봇이 지정된 채널에 임베딩을 보냅니다",
-        "announceAcceptedSubmissions": {
-          "title": "승인된 런 발표"
-        }
-      },
-      "discordPrivacy": {
-        "private": "Discord는 비공개입니다",
-        "label": "Discord 정보",
-        "help": "Discord가 비공개로 설정되어 있으면 초대 링크가 홈페이지에 표시되지 않고, 선택된 러너가 이메일을 통해 안내받게 됩니다."
-      },
-      "discord": {
-        "error": {
-          "pattern": "Discord 주소가 잘못되었습니다"
-        }
-      },
-      "defaultSetupTime": {
-        "label": "기본 준비 시간",
-        "error": {
-          "required": "기본 준비 시간이 필요합니다",
-          "pattern": "기본 준비 시간이 잘못되었습니다. 시:분:초 형식이어야 하며 세 값 다 두 자리여야 합니다. (HH:MM:SS)"
-        }
-      },
-      "dangerZone": "위험 구역",
-      "customFields": {
-        "type": {
-          "option": {
-            "textArea": "텍스트 구역",
-            "text": "텍스트",
-            "select": "선택",
-            "freetext": "자유 텍스트",
-            "checkbox": "체크박스"
-          }
-        },
-        "title": "커스텀 항목",
-        "required": {
-          "title": "필수"
-        },
-        "option": {
-          "error": {
-            "required": "옵션 이름이 필요합니다"
-          }
-        },
-        "label": {
-          "type": "유형",
-          "title": "라벨",
-          "error": {
-            "required": "라벨이 필요합니다"
-          }
-        },
-        "description2": "답변 조언: 간단한 텍스트 항목은 최대 50자로 제한됩니다. 텍스트 영역은 최대 500자로 제한됩니다.",
-        "description1": "커스텀 항목을 추가하여 마라톤에 대한 세부 정보를 러너에게 요청할 수 있습니다. 러너는 제출 과정에서 해당 항목에 답할 수 있습니다. 이미 제출을 마친 러너가 제출을 편집하지 않는 이상 응답하지 않을 수 있으므로, 제출이 열린 이후에는 새로운 항목을 추가하지 않는 것이 좋습니다.",
-        "add": "새 커스텀 항목 추가",
-        "action": {
-          "title": "행동"
-        }
-      },
-      "currencyIso": {
-        "label": "통화 코드",
-        "help": "Paypal의 통화 코드는 ISO-4217 형식이어야 하며 수취인의 기본 통화여야 합니다",
-        "error": {
-          "required": "통화 코드가 필요합니다",
-          "max": "통화 코드가 너무 깁니다"
-        }
-      },
-      "country": {
-        "label": "국가"
-      },
-      "description": "여기서 마라톤 설정을 갱신할 수 있습니다",
-      "delete": {
-        "confirmText": "마라톤을 삭제하시겠습니까? 확인하려면 마라톤의 약칭을 입력하고 \"확인\"을 클릭하세요",
-        "action": "마라톤 삭제"
-      },
-      "discordRequirement": {
-        "found": {
-          "id": "서버 ID: <em>{{guildId}}</em>",
-          "name": "서버 이름: <em>{{guildName}}</em>",
-          "title": "초대에서 서버 발견"
+        "home": {
+            "language": "언어",
+            "to": "종료",
+            "location": "위치",
+            "from": "시작"
         },
         "help": {
-          "1": "Oengus 봇이 Discord 서버에 있어야 합니다. 초대 링크:",
-          "2": "Discord 초대 링크가 작성돼있어야 하며 유효해야 합니다.",
-          "3": "Discord 그룹이 공개 상태여야 합니다.",
-          "title": "이 기능은 다음 조건이 충족되는 경우에만 사용할 수 있습니다:"
+            "isArchived": "이 마라톤은 보관됩니다. 읽기 전용 모드입니다."
         },
-        "required": "Discord 채널에 소속된 상태여야 하도록 요구",
-        "label": "Discord 요구"
-      }
-    }
-  },
-  "login": {
-    "authInProgress": "인증이 진행 중입니다. 잠시 기다려주십시오…",
-    "provider": {
-      "discord": "Discord로 로그인",
-      "twitch": "Twitch로 로그인"
-    }
-  },
-  "user": {
-    "settings": {
-      "accountSync": {
-        "error": {
-          "noService": "계정과 동기화된 서비스가 하나 이상 있어야 합니다"
+        "donations": {
+            "total": "후원 총액",
+            "title": "후원",
+            "table": {
+                "name": "이름",
+                "date": "날짜",
+                "comment": "한마디",
+                "amount": "양"
+            },
+            "max": "최대 후원",
+            "export": "CSV로 내보내기",
+            "count": "후원 횟수",
+            "average": "평균 후원"
         },
-        "description": "이곳에서 SNS 계정을 동기화할 수 있습니다. 그 다음 동기화된 모든 계정으로 Oengus 계정에 연동할 수 있습니다.",
-        "unsync": "계정 삭제",
-        "title": "계정 동기화",
-        "sync": "계정 동기화"
-      },
-      "username": {
-        "error": {
-          "pattern": "유저네임은 소문자, 대문자, _ 및 -로만 구성할 수 있습니다",
-          "required": "유저네임이 필요합니다",
-          "min": "유저네임이 짧습니다",
-          "max": "유저네임이 너무 깁니다",
-          "exists": "이미 존재하는 유저네임입니다. 다른 걸 사용하거나 이미 다른 외부 계정과 동기화된 프로필을 보유하고 있진 않은지 확인해주세요. (Twitch나 Discord 등)"
+        "donate": {
+            "title": "후원",
+            "nickname": {
+                "label": "유저네임",
+                "error": {
+                    "pattern": "유저네임은 소문자, 대문자, _ 및-로만 구성될 수 있습니다",
+                    "max": "유저네임이 너무 깁니다"
+                }
+            },
+            "incentives": {
+                "title": "인센티브",
+                "left": "남은 사용 가능 금액 :",
+                "header": {
+                    "incentive": "인센티브",
+                    "amount": "양",
+                    "action": "행동"
+                },
+                "description": "후원 인센티브는 도전을 추가하고 러너의 선택에 영향을 미치는 데 사용할 수 있습니다. 후원금을 인센티브로 사용하시겠습니까?",
+                "bid": {
+                    "new": "(신규)"
+                },
+                "add": "인센티브 추가"
+            },
+            "incentiveAmount": {
+                "error": {
+                    "required": "금액을 입력해주세요",
+                    "minNumber": "금액은 0보다 커야 합니다"
+                }
+            },
+            "extra": {
+                "title": "추가 정보",
+                "description": "데이터는 어디에도 공개적으로 표시되지 않으며, 이벤트 종료 한 달 후에 삭제됩니다."
+            },
+            "description": "후원금은 {{supportedCharity}}를 지원합니다",
+            "comment": {
+                "label": "한마디"
+            },
+            "amount": {
+                "label": "후원 금액",
+                "error": {
+                    "required": "후원 금액을 입력해주세요",
+                    "minNumber": "후원 금액은 0보다 커야 합니다"
+                }
+            }
         },
-        "label": "유저네임"
-      },
-      "twitter": {
-        "error": {
-          "pattern": "Twitter 이름이 올바르지 않습니다",
-          "max": "Twitter 이름이 너무 깁니다"
+        "submit": {
+            "title": "런 제출",
+            "table": {
+                "runners": "러너",
+                "games": "게임",
+                "categories": "카테고리",
+                "actions": "행동"
+            },
+            "submitsClosed": "제출 기간이 끝났습니다. 스케줄이 확정될 때까지 가능한 시간대만 갱신할 수 있습니다.",
+            "submissions": "제출",
+            "racesAllowed": "경쟁/코옵 허용",
+            "multiplayer": {
+                "title": "멀티플레이 카테고리",
+                "code": {
+                    "help": "멀티 플레이 제출에 참가하려면 아래의 코드를 입력해주세요"
+                }
+            },
+            "maxNumberOfScreens": "경쟁/협동 런의 최대 참가자 수",
+            "maxGamesPerRunner": "러너당 최대 게임 수",
+            "maxCategoriesPerGame": "게임당 최대 카테고리 수",
+            "game": {
+                "ratio": {
+                    "label": "영상 비율/해상도 (16:9, 4:3, 1920x1080…)",
+                    "error": {
+                        "required": "영상 비율이 필요합니다"
+                    }
+                },
+                "name": {
+                    "label": "게임 이름",
+                    "error": {
+                        "required": "게임 이름이 필요합니다"
+                    }
+                },
+                "description": {
+                    "label": "게임 설명",
+                    "help": "게임과 런에 관한 설명을 작성해주세요",
+                    "error": {
+                        "required": "게임 설명이 필요합니다"
+                    }
+                },
+                "console": {
+                    "label": "기기",
+                    "emulatorNotAllowed": "이 마라톤에선 에뮬레이터를 사용할 수 없습니다",
+                    "emulated": "에뮬레이터"
+                }
+            },
+            "details": "세부 정보",
+            "delete": {
+                "action": "제출 삭제"
+            },
+            "dangerZone": "위험 구역",
+            "customField": {
+                "error": {
+                    "required": "항목이 필요합니다"
+                }
+            },
+            "category": {
+                "video": {
+                    "label": "영상 주소",
+                    "error": {
+                        "required": "영상 주소가 필요합니다"
+                    }
+                },
+                "type": {
+                    "label": "유형"
+                },
+                "opponent": {
+                    "with": "상대:"
+                },
+                "name": {
+                    "label": "카테고리 이름",
+                    "error": {
+                        "required": "카테고리 이름이 필요합니다"
+                    }
+                },
+                "estimate": {
+                    "label": "예상 시간",
+                    "error": {
+                        "required": "예상 시간이 필요합니다",
+                        "pattern": "예상 시간이 잘못되었습니다. HH:MM:SS 형식으로 작성되어야 합니다. (시시:분분:초초)",
+                        "min": "예상 시간이 잘못되었습니다. 0초보다 많아야 합니다"
+                    },
+                    "hint": "예상 시간을 입력할 때 PB나 IGT를 제출하지 마세요. 런 중 실수나 인트로와 아웃트로 등 타이머가 시작되기 전에 소요되는 시간을 고려하여 RTA PB에 최소 10분을 추가할 것을 권장합니다."
+                },
+                "description": {
+                    "label": "카테고리 설명",
+                    "help": "이 카테고리에 대한 자세한 설명을 작성해주세요",
+                    "error": {
+                        "required": "카테고리 설명이 필요합니다"
+                    }
+                },
+                "code": {
+                    "help": {
+                        "withCode": "이 제출 내역에 참여할 수 있도록 다른 러너에게 다음 코드를 제공하세요:",
+                        "noCode": "제출 내역을 저장한 후 관심있는 다른 러너와 이 카테고리를 공유할 수 있는 코드가 제공됩니다"
+                    }
+                }
+            },
+            "availabilities": {
+                "to": "종료",
+                "label": "가능한 시간대",
+                "from": "시작",
+                "error": {
+                    "required": "하나 이상의 가능한 시간대를 추가해야 합니다",
+                    "dateRequired": "날짜가 필요합니다",
+                    "toDateTooLittle": "종료 일시는 시작 일시보다 1분 이상이어야 합니다."
+                },
+                "duplicate": "다음 날짜로 복사",
+                "add": "가능한 시간대 추가",
+                "actions": "행동"
+            },
+            "action": {
+                "removeGame": "게임 제거",
+                "addCategory": "카테고리 추가"
+            },
+            "tweet": {
+                "submit": "{{marathon}}에 {{games}}(으)로 참여하겠다고 제출했어요"
+            },
+            "requirements": {
+                "discord": {
+                    "errors": {
+                        "userMissing": "이 마라톤의 디스코드 서버에 가입해주세요 <a href=\"{{invite}}\" target=\"_blank\">{{invite}}</a>",
+                        "botMissing": "이 마라톤의 중재자에게 Oengus 디스코드 봇을 초대해달라고 요청하세요"
+                    },
+                    "back": "뒤로",
+                    "check": "확인!",
+                    "syncNotice": [
+                        "중요: 확인하기 전에 계정과 Discord를 동기화해야 합니다. 자세한 내용은",
+                        "유저 설정",
+                        "에서 확인해주세요."
+                    ],
+                    "par2": "Discord 서버에 가입돼있지 않으면 제출할 수 없습니다.",
+                    "par1": "마라톤을 제출하기 위해 Discord 서버에 가입돼있는지 확인하려면 아래 \"확인\"을 클릭하세요.",
+                    "lead": "이 마라톤을 제출하려면 Discord 서버에 가입돼있어야 합니다",
+                    "title": "잠시만요!"
+                }
+            }
         },
-        "disabled": {
-          "help": "이 항목은 Twitter 계정을 동기화했기 때문에 비활성화되었습니다. Twitter 이름이 바뀐 경우 Twitter 계정을 다시 동기화하여 갱신하십시오."
+        "submissions": {
+            "title": "제출",
+            "tabs": {
+                "submissions": "제출",
+                "answers": "답변"
+            },
+            "table": {
+                "type": "유형",
+                "status": "상태",
+                "runner": "러너",
+                "ratio": "비율/해상도",
+                "question": "질문",
+                "marathon": "마라톤",
+                "gameDescription": "게임 설명",
+                "game": "게임",
+                "estimate": "예상 시간",
+                "console": "기기",
+                "categoryDescription": "카테고리 설명",
+                "category": "카테고리",
+                "answer": "답변",
+                "actions": "행동",
+                "date": "일시"
+            },
+            "submission": {
+                "delete": "제출 내역을 삭제합니다. 이 마라톤에서 해당 유저의 모든 게임을 삭제하게 됩니다."
+            },
+            "game": {
+                "delete": "게임을 삭제합니다. 해당 카테고리도 삭제됩니다."
+            },
+            "export": "CSV로 내보내기",
+            "category": {
+                "delete": "카테고리 삭제"
+            },
+            "filter": "유저 및 게임 필터"
+        },
+        "settings": {
+            "youtube": {
+                "help": {
+                    "url": "전체 주소를 입력해야 합니다"
+                },
+                "error": {
+                    "pattern": "유튜브 채널 주소가 잘못되었습니다"
+                }
+            },
+            "videoRequired": {
+                "label": "영상 요구",
+                "allowed": "영상을 제출해야 합니다"
+            },
+            "unlimited": "제한 없음",
+            "type": {
+                "onsite": "현장 / IRL",
+                "online": "온라인",
+                "label": "마라톤 유형"
+            },
+            "twitter": {
+                "error": {
+                    "pattern": "트위치 유저네임이 잘못되었습니다",
+                    "max": "트위치 유저네임이 너무 깁니다"
+                }
+            },
+            "twitch": {
+                "error": {
+                    "pattern": "트위치 유저네임이 잘못되었습니다",
+                    "max": "트위치 유저네임이 너무 깁니다"
+                }
+            },
+            "title": "마라톤 설정",
+            "tabs": {
+                "submissions": "제출",
+                "incentives": "인센티브",
+                "general": "일반 설정",
+                "dangerZone": "위험 구역",
+                "discord": "디스코드"
+            },
+            "supportedCharity": {
+                "label": "지원 단체",
+                "error": {
+                    "required": "지원 단체 이름이 필요합니다",
+                    "max": "지원 단체 이름이 너무 깁니다"
+                }
+            },
+            "submissionsTitle": "제출 설정",
+            "submissionsStartDate": {
+                "label": "제출 시작일",
+                "error": {
+                    "required": "제출 마감일이 존재하는 경우 시작일을 입력해야 합니다"
+                }
+            },
+            "submissionsEndDate": {
+                "label": "제출 마감일",
+                "error": {
+                    "required": "제출 시작일이 존재하는 경우 마감일을 입력해야 합니다"
+                }
+            },
+            "submissions": {
+                "open": "제출 오픈",
+                "label": "제출",
+                "closed": "제출 마감"
+            },
+            "startDate": {
+                "label": "시작일을 입력해주세요",
+                "error": {
+                    "required": "시작일이 필요합니다"
+                }
+            },
+            "shortname": {
+                "label": "약칭",
+                "error": {
+                    "required": "마라톤 약칭이 필요합니다",
+                    "pattern": "마라톤 약칭이 잘못되었습니다",
+                    "min": "마라톤 약칭이 너무 짧습니다",
+                    "max": "마라톤 약칭이 너무 깁니다",
+                    "exists": "마라톤 약칭이 이미 존재합니다"
+                },
+                "shorturl": "짧은 URL"
+            },
+            "sandbox": {
+                "warning": "주의: Oengus.sandbox는 샌드박스 환경의 Paypal과 통신하고 있습니다. 후원금의 수취인으로 가짜 Paypal 샌드박스 이메일 주소를 사용해야 합니다."
+            },
+            "privacy": {
+                "public": "공개",
+                "private": "비공개",
+                "label": "마라톤 정보",
+                "help": "비공개 마라톤은 메인 페이지에 표시되지 않는다는 점을 제외하면 다른 마라톤과 동일하게 작동합니다. 주소로만 접근할 수 있습니다."
+            },
+            "payee": {
+                "label": "수취인",
+                "help": "수취인은 Paypal 계정에 연결된 이메일 주소여야 합니다",
+                "error": {
+                    "required": "수취인이 필요합니다",
+                    "max": "수취인이 너무 깁니다",
+                    "email": "수취인은 이메일 주소여야 합니다"
+                }
+            },
+            "name": {
+                "label": "이름",
+                "error": {
+                    "required": "마라톤 이름이 필요합니다",
+                    "pattern": "마라톤 이름이 잘못되었습니다",
+                    "min": "마라톤 이름이 너무 짧습니다",
+                    "max": "마라톤 이름이 너무 깁니다"
+                }
+            },
+            "multiplayer": {
+                "label": "멀티플레이",
+                "forbidden": "경쟁/협동 런이 금지됩니다",
+                "allowed": "경쟁/협동 런이 허용됩니다"
+            },
+            "moderators": {
+                "label": "중재자"
+            },
+            "maxNumberOfScreens": {
+                "label": "게임당 최대 화면 수",
+                "error": {
+                    "required": "최대 화면 수가 필요합니다",
+                    "min": "최대 화면 수는 0보다 커야 합니다"
+                },
+                "help": "멀티플레이 런을 허용할 경우 방송에 표시되는 최대 화면 수를 지정할 수 있습니다. 수를 지정하여 경쟁/협동에 참가하는 플레이어 수를 제한할 수 있습니다"
+            },
+            "maxGamesPerRunner": {
+                "label": "러너당 최대 게임 수",
+                "error": {
+                    "required": "러너당 최대 게임 수가 필요합니다",
+                    "min": "러너당 최대 게임 수는 0보다 커야 합니다"
+                }
+            },
+            "maxCategoriesPerGame": {
+                "label": "게임당 최대 카테고리 수",
+                "error": {
+                    "required": "게임당 최대 카테고리 수가 필요합니다",
+                    "min": "게임당 최대 카테고리 수는 0보다 커야 합니다",
+                    "max": "게임당 최대 카테고리 수가 너무 높습니다"
+                }
+            },
+            "marathonDescription": {
+                "label": "설명",
+                "help": "마크다운 형식 지원"
+            },
+            "location": {
+                "label": "위치"
+            },
+            "language": {
+                "label": "언어"
+            },
+            "incentivesTitle": "인센티브 설정",
+            "incentives": {
+                "label": "인센티브 상태",
+                "hasIncentives": "이 마라톤에는 인센티브가 있습니다",
+                "disabledNotification": "인센티브는 신뢰할 수 없고 선별 옵션이 없기 때문에 현재 비활성화되어 있습니다. 이 기능이 언제 다시 사용될 지에 대한 계획은 없지만 그렇게 된다면 알려드리겠습니다."
+            },
+            "generalTitle": "일반 설정",
+            "endDate": {
+                "label": "예상 종료일",
+                "error": {
+                    "required": "예상 종료일이 필요합니다"
+                }
+            },
+            "emulatorAuthorized": {
+                "label": "에뮬레이터를 사용할 수 있습니다",
+                "allowed": "에뮬레이터를 사용할 수 있습니다"
+            },
+            "donationsOpen": {
+                "label": "후원 페이지 표시"
+            },
+            "donations": {
+                "label": "기부금 후원",
+                "hasDonations": "이것은 자선 행사입니다",
+                "donationsOpen": "후원이 열린 상태입니다"
+            },
+            "webhook": {
+                "label": "웹훅",
+                "help": "웹훅을 추가하여 새로운 제출이나 후원이 발생했을 때 정보를 가져올 수 있습니다. 자세한 내용은 관리자에게 문의해주세요.",
+                "error": {
+                    "max": "웹훅 링크가 너무 깁니다",
+                    "offline": "웹훅에 연결할 수 없습니다. 올바른 주소가 맞나요?",
+                    "marathonParameter": "필수 마라톤 매개 변수가 누락되었습니다"
+                },
+                "botNotice": "이것은 Oengus 봇 웹훅입니다. Oengus 봇이 지정된 채널에 임베딩을 보냅니다",
+                "announceAcceptedSubmissions": {
+                    "title": "승인된 런 발표"
+                }
+            },
+            "discordPrivacy": {
+                "private": "Discord는 비공개입니다",
+                "label": "Discord 정보",
+                "help": "Discord가 비공개로 설정되어 있으면 초대 링크가 홈페이지에 표시되지 않고, 선택된 러너가 이메일을 통해 안내받게 됩니다."
+            },
+            "discord": {
+                "error": {
+                    "pattern": "Discord 주소가 잘못되었습니다"
+                }
+            },
+            "defaultSetupTime": {
+                "label": "기본 준비 시간",
+                "error": {
+                    "required": "기본 준비 시간이 필요합니다",
+                    "pattern": "기본 준비 시간이 잘못되었습니다. 시:분:초 형식이어야 하며 세 값 다 두 자리여야 합니다. (HH:MM:SS)"
+                }
+            },
+            "dangerZone": "위험 구역",
+            "customFields": {
+                "type": {
+                    "option": {
+                        "textArea": "텍스트 구역",
+                        "text": "텍스트",
+                        "select": "선택",
+                        "freetext": "자유 텍스트",
+                        "checkbox": "체크박스"
+                    }
+                },
+                "title": "커스텀 항목",
+                "required": {
+                    "title": "필수"
+                },
+                "option": {
+                    "error": {
+                        "required": "옵션 이름이 필요합니다"
+                    }
+                },
+                "label": {
+                    "type": "유형",
+                    "title": "라벨",
+                    "error": {
+                        "required": "라벨이 필요합니다"
+                    }
+                },
+                "description2": "답변 조언: 간단한 텍스트 항목은 최대 50자로 제한됩니다. 텍스트 영역은 최대 500자로 제한됩니다.",
+                "description1": "커스텀 항목을 추가하여 마라톤에 대한 세부 정보를 러너에게 요청할 수 있습니다. 러너는 제출 과정에서 해당 항목에 답할 수 있습니다. 이미 제출을 마친 러너가 제출을 편집하지 않는 이상 응답하지 않을 수 있으므로, 제출이 열린 이후에는 새로운 항목을 추가하지 않는 것이 좋습니다.",
+                "add": "새 커스텀 항목 추가",
+                "action": {
+                    "title": "행동"
+                }
+            },
+            "currencyIso": {
+                "label": "통화 코드",
+                "help": "Paypal의 통화 코드는 ISO-4217 형식이어야 하며 수취인의 기본 통화여야 합니다",
+                "error": {
+                    "required": "통화 코드가 필요합니다",
+                    "max": "통화 코드가 너무 깁니다"
+                }
+            },
+            "country": {
+                "label": "국가"
+            },
+            "description": "여기서 마라톤 설정을 갱신할 수 있습니다",
+            "delete": {
+                "confirmText": "마라톤을 삭제하시겠습니까? 확인하려면 마라톤의 약칭을 입력하고 \"확인\"을 클릭하세요",
+                "action": "마라톤 삭제"
+            },
+            "discordRequirement": {
+                "found": {
+                    "id": "서버 ID: <em>{{guildId}}</em>",
+                    "name": "서버 이름: <em>{{guildName}}</em>",
+                    "title": "초대에서 서버 발견"
+                },
+                "help": {
+                    "1": "Oengus 봇이 Discord 서버에 있어야 합니다. 초대 링크:",
+                    "2": "Discord 초대 링크가 작성돼있어야 하며 유효해야 합니다.",
+                    "3": "Discord 그룹이 공개 상태여야 합니다.",
+                    "title": "이 기능은 다음 조건이 충족되는 경우에만 사용할 수 있습니다:"
+                },
+                "required": "Discord 채널에 소속된 상태여야 하도록 요구",
+                "label": "Discord 요구"
+            },
+            "mastodon": {
+                "error": {
+                    "max": "마스토돈 이름이 너무 깁니다",
+                    "pattern": "마스토돈 사용자 이름이 'user@instance.tld'와 일치하지 않습니다"
+                }
+            }
         }
-      },
-      "twitch": {
-        "error": {
-          "pattern": "Twitch 이름이 올바르지 않습니다",
-          "max": "Twitch 이름이 너무 깁니다"
-        },
-        "disabled": {
-          "help": "이 항목은 Twitch 계정을 동기화했기 때문에 비활성화되었습니다. Twitch 이름이 바뀐 경우 Twitch 계정을 다시 동기화하여 갱신하십시오."
-        }
-      },
-      "title": "내 프로필 수정",
-      "srcom": {
-        "error": {
-          "pattern": "Speedrun.com 유저네임이 잘못되었습니다",
-          "max": "Speedrun.com 유저네임이 너무 깁니다"
-        }
-      },
-      "new": {
-        "description": "당신에 관한 추가 정보가 필요합니다. 잠시 항목을 작성해주세요.",
-        "beforeWeStart": "시작하기 전에…"
-      },
-      "general": "일반 정보",
-      "email": {
-        "label": "이메일",
-        "error": {
-          "required": "이메일이 필요합니다",
-          "email": "이메일이 올바르지 않습니다"
-        },
-        "help": "이 이메일 주소는 <a href=\"https://gravatar.com/\" target=\"_blank\">Gravatar</a>에서 프로필 사진을 가져오는 데 사용되며 PG 등급 이하인 경우에만 작동합니다."
-      },
-      "deactivateAccount": {
-        "title": "내 계정 비활성화 혹은 삭제",
-        "description": "계정을 비활성화하면 다시 로그인할 수 없으며 중재자는 일정에 따라 당신을 마라톤 중재자 또는 러너로 추가할 수 없습니다. 모든 데이터는 일관성을 위해 유지되지만 SNS는 더 이상 일정이나 제출 목록에 표시되지 않습니다. (하지만 여전히 계정에 연결돼있습니다) 나중에 계정을 다시 사용하려면 관리자에게 문의하십시오.",
-        "confirmText": "정말로 계정을 비활성화하시겠습니까? 확인하려면 유저네임을 입력하고 \"확인\"을 클릭하십시오",
-        "action": "비활성화"
-      },
-      "deletingAccount": {
-        "success": "계정이 삭제되었습니다",
-        "btnCancel": "취소 :)",
-        "btnDelete": "계정 삭제 :(",
-        "settingsDeleteBtn": "계정 삭제",
-        "body": [
-          "Oengus 계정을 삭제하려고 합니다.",
-          "삭제하면 되돌릴 수 없게 됩니다!",
-          "유저네임을 아래 칸에 입력하여 삭제할 것임을 다시 한번 확인해주세요."
-        ],
-        "title": "경고!"
-      },
-      "connections": {
-        "title": "연동",
-        "visibility": "전체 공개",
-        "select_platform": "플랫폼 선택",
-        "subtitle": "연동된 소셜 미디어 계정은 프로필에 공개됩니다.",
-        "username": "유저네임"
-      },
-      "discord": {
-        "disabled": {
-          "help": "이 항목은 Discord 계정이 이미 연결되어 있으므로 비활성화되어 있습니다. Discord ID가 변경되면 다시 연동하여 업데이트하십시오."
-        }
-      },
-      "language": {
-        "label": "사용하는 언어",
-        "no_results": "언어를 찾을 수 없습니다",
-        "placeholder": "언어를 검색해주세요"
-      },
-      "pronouns": {
-        "help": "성별 호칭 데이터는 <a href=\"https://en.pronouns.page/\" target=\"_blank\">pronouns.page</a>에 기반합니다. 자세한 정보나 기여 방법은 해당 웹사이트를 방문해주세요",
-        "title": "성별 호칭",
-        "hint": "영문 성별 호칭을 검색하세요. 예: they/them",
-        "no_results": "성별 호칭을 찾을 수 없습니다"
-      }
     },
-    "profile": {
-      "submissions": "제출 기록",
-      "moderator": "중재한 이벤트",
-      "filter": {
-        "temporality": {
-          "title": "임시",
-          "PAST": "지난 마라톤",
-          "FUTURE": "예정 마라톤"
-        },
-        "status": {
-          "title": "상태"
-        }
-      },
-      "unban": "유저 차단 해제",
-      "ban": "유저 차단",
-      "deactivate": "유저 비활성화",
-      "activate": "유저 활성화",
-      "speak": "회화 언어:"
-    }
-  },
-  "navbar": {
-    "twitter": "Twitter 팔로우",
-    "translate": "사이트 번역 돕기",
-    "sourceCode": "소스 코드",
-    "settings": "설정",
-    "profile": "내 프로필",
-    "privacyConsent": "동의를 클릭하면 Oengus가 트래픽 분석을 목적으로 쿠키를 사용할 수 있습니다. 정보 페이지에서 개인정보 보호정책에 관해 자세히 알아보세요.",
-    "logout": "로그아웃",
     "login": {
-      "twitter": "Twitter로 로그인",
-      "twitch": "Twitch로 로그인",
-      "title": "로그인",
-      "discord": "Discord로 로그인",
-      "disclaimer": "경고: 이미 Oengus에 프로필이 있는 경우 프로필과 동기화된 외부 계정으로 로그인해야 합니다. 그렇지 않으면 새 프로필이 생성됩니다"
+        "authInProgress": "인증이 진행 중입니다. 잠시 기다려주십시오…",
+        "provider": {
+            "discord": "Discord로 로그인",
+            "twitch": "Twitch로 로그인",
+            "google": "Google로 로그인",
+            "title": "타 서비스로 로그인"
+        },
+        "2fa": {
+            "label": "2단계 인증 코드"
+        },
+        "button": "로그인",
+        "forgotPass": "비밀번호를 잊으셨나요?",
+        "password": {
+            "show": "비밀번호 표시",
+            "hide": "비밀번호 숨기기"
+        },
+        "title": "Oengus 계정에 로그인"
     },
-    "donate": "후원",
-    "discord": "공식 Discord 서버 가입",
-    "createMarathon": "새로운 마라톤",
-    "bugtracker": "버그 제보 및 제안",
-    "patrons": "Patrons 후원",
-    "about": "관하여"
-  },
-  "errors": {
-    "404": {
-      "body": "Angus 에서 <em>{{path}}</em> 페이지를 찾을 수 없습니다",
-      "title2": "너무 빠른 시도가 감지되었습니다",
-      "title1": "너무 빠르게 시도하였습니다",
-      "title0": "WR이 거부되었습니다",
-      "title3": "글리치 런을 허용하지 않습니다",
-      "title4": "버그가 아니라 기능입니다"
+    "user": {
+        "settings": {
+            "accountSync": {
+                "error": {
+                    "noService": "계정과 동기화된 서비스가 하나 이상 있어야 합니다"
+                },
+                "description": "이곳에서 SNS 계정을 동기화할 수 있습니다. 그 다음 동기화된 모든 계정으로 Oengus 계정에 연동할 수 있습니다.",
+                "unsync": "계정 삭제",
+                "title": "계정 동기화",
+                "sync": "계정 동기화"
+            },
+            "username": {
+                "error": {
+                    "pattern": "유저네임은 소문자, 대문자, 숫자, _, -로만 구성할 수 있습니다",
+                    "required": "유저네임이 필요합니다",
+                    "min": "유저네임이 짧습니다, 최소 3글자 이상만 허용됩니다",
+                    "max": "유저네임이 너무 깁니다. 최대 32글자까지 허용됩니다",
+                    "exists": "이미 존재하는 유저네임입니다. 다른 걸 사용하거나 이미 다른 외부 계정과 동기화된 프로필을 보유하고 있진 않은지 확인해주세요. (Twitch나 Discord 등)"
+                },
+                "label": "유저네임"
+            },
+            "twitter": {
+                "error": {
+                    "pattern": "Twitter 이름이 올바르지 않습니다",
+                    "max": "Twitter 이름이 너무 깁니다"
+                },
+                "disabled": {
+                    "help": "이 항목은 Twitter 계정을 동기화했기 때문에 비활성화되었습니다. Twitter 이름이 바뀐 경우 Twitter 계정을 다시 동기화하여 갱신하십시오."
+                }
+            },
+            "twitch": {
+                "error": {
+                    "pattern": "Twitch 이름이 올바르지 않습니다",
+                    "max": "Twitch 이름이 너무 깁니다"
+                },
+                "disabled": {
+                    "help": "이 항목은 Twitch 계정을 동기화했기 때문에 비활성화되었습니다. Twitch 이름이 바뀐 경우 Twitch 계정을 다시 동기화하여 갱신하십시오."
+                }
+            },
+            "title": "내 프로필 수정",
+            "srcom": {
+                "error": {
+                    "pattern": "Speedrun.com 유저네임이 잘못되었습니다",
+                    "max": "Speedrun.com 유저네임이 너무 깁니다"
+                }
+            },
+            "new": {
+                "description": "당신에 관한 추가 정보가 필요합니다. 잠시 항목을 작성해주세요.",
+                "beforeWeStart": "시작하기 전에…"
+            },
+            "general": "일반 정보",
+            "email": {
+                "label": "이메일",
+                "error": {
+                    "required": "이메일이 필요합니다",
+                    "email": "이메일이 올바르지 않습니다"
+                },
+                "help": "이 이메일 주소는 비공개로 유지되며, <a href=\"https://gravatar.com/\" target=\"_blank\">Gravatar</a>에서 프로필 사진을 가져오는 데 사용됩니다. PG 등급 이하인 경우에만 작동합니다."
+            },
+            "deactivateAccount": {
+                "title": "내 계정 비활성화 혹은 삭제",
+                "description": "계정을 비활성화하면 다시 로그인할 수 없으며 중재자는 일정에 따라 당신을 마라톤 중재자 또는 러너로 추가할 수 없습니다. 모든 데이터는 일관성을 위해 유지되지만 SNS는 더 이상 일정이나 제출 목록에 표시되지 않습니다. (하지만 여전히 계정에 연결돼있습니다) 나중에 계정을 다시 사용하려면 관리자에게 문의하십시오.",
+                "confirmText": "정말로 계정을 비활성화하시겠습니까? 확인하려면 유저네임을 입력하고 \"확인\"을 클릭하십시오",
+                "action": "비활성화"
+            },
+            "deletingAccount": {
+                "success": "계정이 삭제되었습니다",
+                "btnCancel": "취소 :)",
+                "btnDelete": "계정 삭제 :(",
+                "settingsDeleteBtn": "계정 삭제",
+                "body": [
+                    "Oengus 계정을 삭제하려고 합니다.",
+                    "삭제하면 되돌릴 수 없게 됩니다!",
+                    "유저네임을 아래 칸에 입력하여 삭제할 것임을 다시 한번 확인해주세요."
+                ],
+                "title": "경고!"
+            },
+            "connections": {
+                "title": "연동",
+                "visibility": "전체 공개",
+                "select_platform": "플랫폼 선택",
+                "subtitle": "연동된 소셜 미디어 계정은 프로필에 공개됩니다.",
+                "username": "유저네임"
+            },
+            "discord": {
+                "disabled": {
+                    "help": "이 항목은 Discord 계정이 이미 연결되어 있으므로 비활성화되어 있습니다. Discord ID가 변경되면 다시 연동하여 업데이트하십시오."
+                }
+            },
+            "language": {
+                "label": "사용하는 언어",
+                "no_results": "언어를 찾을 수 없습니다",
+                "placeholder": "언어를 검색해주세요"
+            },
+            "pronouns": {
+                "help": "성별 호칭 데이터는 <a href=\"https://en.pronouns.page/\" target=\"_blank\">pronouns.page</a>에 기반합니다. 자세한 정보나 기여 방법은 해당 웹사이트를 방문해주세요.",
+                "title": "성별 호칭",
+                "hint": "영문 성별 호칭을 검색하세요. 예: they/them",
+                "no_results": "성별 호칭을 찾을 수 없습니다"
+            },
+            "displayName": {
+                "error": {
+                    "max": "표시 이름이 너무 깁니다. 최대 32자까지 허용됩니다.",
+                    "required": "표시 이름은 필수입니다",
+                    "min": "표시 이름이 너무 짧습니다. 최소 1자 이상 필요합니다"
+                },
+                "label": "표시 이름",
+                "help": "별칭을 사용하거나 유저네임과 다른 이름을 원하는 경우 이 필드를 사용하여 Oengus에 표시되는 방식을 설정할 수 있습니다."
+            },
+            "mfa": {
+                "modal": {
+                    "manualCode": "또는 코드를 수동으로 입력할 수도 있습니다. 코드: {{code}}",
+                    "imageTop": "인증 앱으로 QR 코드를 스캔하고 아래 입력란에 번호를 입력하세요",
+                    "tagline": "계정을 더욱 안전하게 보호할 준비를 하세요!",
+                    "title": "2FA 설정"
+                },
+                "label": "2단계 인증",
+                "disableButton": "2단계 인증 비활성화",
+                "enableButton": "2단계 인증 활성화"
+            },
+            "profilePicture": {
+                "label": "프로필 사진",
+                "button": "프로필 사진 설정"
+            },
+            "password": {
+                "changeLabel": "비밀번호 변경",
+                "error": {
+                    "required": "비밀번호가 필요합니다"
+                },
+                "label": "비밀번호"
+            }
+        },
+        "profile": {
+            "submissions": "제출 기록",
+            "moderator": "중재한 이벤트",
+            "filter": {
+                "temporality": {
+                    "title": "임시",
+                    "PAST": "지난 마라톤",
+                    "FUTURE": "예정 마라톤"
+                },
+                "status": {
+                    "title": "상태"
+                }
+            },
+            "unban": "유저 차단 해제",
+            "ban": "유저 차단",
+            "deactivate": "유저 비활성화",
+            "activate": "유저 활성화",
+            "speak": "회화 언어:"
+        }
+    },
+    "navbar": {
+        "twitter": "Twitter 팔로우",
+        "translate": "사이트 번역 돕기",
+        "sourceCode": "소스 코드",
+        "settings": "설정",
+        "profile": "내 프로필",
+        "privacyConsent": "동의를 클릭하면 Oengus가 트래픽 분석을 목적으로 쿠키를 사용할 수 있습니다. 정보 페이지에서 개인정보 보호정책에 관해 자세히 알아보세요.",
+        "logout": "로그아웃",
+        "login": {
+            "twitter": "Twitter로 로그인",
+            "twitch": "Twitch로 로그인",
+            "title": "로그인",
+            "discord": "Discord로 로그인",
+            "disclaimer": "경고: 이미 Oengus에 프로필이 있는 경우 프로필과 동기화된 외부 계정으로 로그인해야 합니다. 그렇지 않으면 새 프로필이 생성됩니다",
+            "password": "사용자 이름과 비밀번호로 로그인",
+            "mastodon": "마스토돈으로 로그인",
+            "google": "Google로 로그인"
+        },
+        "donate": "후원",
+        "discord": "공식 Discord 서버 가입",
+        "createMarathon": "새로운 마라톤",
+        "bugtracker": "버그 제보 및 제안",
+        "patrons": "Patrons 후원",
+        "about": "관하여",
+        "mastodon": "마스토돈에서 팔로우하기",
+        "email-verification": {
+            "request-btn": "새 인증 이메일 요청",
+            "message": "안녕하세요! 아직 이메일 주소를 인증하지 않은 것 같습니다. 인증된 이메일이 없는 사용자는 나중에 삭제될 수 있습니다."
+        },
+        "displayNameNotification": "안녕하세요! 프로필에 표시 이름이 누락된 것 같습니다. 설정으로 이동하여 설정하세요!",
+        "register": "등록"
+    },
+    "errors": {
+        "404": {
+            "body": "Angus 에서 <em>{{path}}</em> 페이지를 찾을 수 없습니다",
+            "title2": "너무 빠른 시도가 감지되었습니다",
+            "title1": "너무 빠르게 시도하였습니다",
+            "title0": "WR이 거부되었습니다",
+            "title3": "글리치 런을 허용하지 않습니다",
+            "title4": "버그가 아니라 기능입니다"
+        },
+        "format": {
+            "url": "유효한 URL이 아닙니다"
+        },
+        "403": {
+            "title": "승인되지 않음",
+            "subtitle": "이 페이지를 보려면 로그인해야 합니다!"
+        }
+    },
+    "patrons": {
+        "noPatrons": "표시할 사람이 없습니다. <a href=\"https://www.patreon.com/oengusio\" target=\"_blank\">첫 번째 후원자</a>가 되보시지 않을래요?",
+        "par2": "이 페이지에 나열된 사람과 조직은 <a href=\"https://www.patreon.com/oengusio\" target=\"_blank\">Patreon 캠페인</a>에서 기부하고 Oengus를 무료로 유지할 수 있도록 도와준 사람들입니다.",
+        "par1": "Oengus.io를 계속 운영할 수 있도록 도움을 주는 모든 후원자 분들께 감사드립니다",
+        "title": "Patrons 후원"
+    },
+    "language": {
+        "de": "독일어",
+        "hi": "힌디어",
+        "fil": "필리핀어",
+        "lt": "리투아니아어",
+        "hr": "크로아티아어",
+        "lv": "라트비아어",
+        "hu": "헝가리어",
+        "zh-CN": "중국어",
+        "uk": "우크라이나어",
+        "id": "인도네시아어",
+        "ur": "우르두어",
+        "ml": "말라얄람어",
+        "mr": "마라티어",
+        "ms": "말레이어",
+        "el": "그리스어",
+        "en": "영어",
+        "eo": "에스페란토어",
+        "is": "아이슬란드어",
+        "it": "이탈리아어",
+        "am": "암하라어",
+        "chr": "체로키어",
+        "iw": "히브리어",
+        "es": "스페인어",
+        "et": "에스토니아어",
+        "eu": "바스크어",
+        "ar": "아랍어",
+        "pt-PT": "포르투갈어",
+        "vi": "베트남어",
+        "ja": "일본어",
+        "ro": "루마니아어",
+        "en-GB": "영어",
+        "nl": "네덜란드어",
+        "no": "노르웨이어",
+        "fi": "핀란드어",
+        "ru": "러시아어",
+        "bg": "불가리아어",
+        "bn": "벵골어",
+        "fr": "프랑스어",
+        "sk": "슬로바키아어",
+        "sl": "슬로베니아어",
+        "ca": "카탈로니아어",
+        "sr": "세르비아어",
+        "kn": "칸나다어",
+        "sv": "스웨덴어",
+        "ko": "한국어",
+        "sw": "스와힐리어",
+        "zh_TW": "중국어",
+        "pt_BR": "포르투갈어",
+        "ta": "타밀어",
+        "gu": "구자라트어",
+        "cs": "체코어",
+        "te": "텔루구어",
+        "th": "태국어",
+        "cy": "웨일스어",
+        "pl": "폴란드어",
+        "da": "덴마크어",
+        "tr": "터키어",
+        "pt": "포르투갈어"
+    },
+    "country": {
+        "GA": "가봉",
+        "TF": "프랑스령 남방 및 남극",
+        "PF": "프랑스령 폴리네시아",
+        "GF": "프랑스령 기아나",
+        "FR": "프랑스",
+        "FI": "핀란드",
+        "FJ": "피지",
+        "FO": "페로 제도",
+        "FK": "포클랜드 제도 (말비나스 군도)",
+        "ET": "에티오피아",
+        "SZ": "에스와티니",
+        "EE": "에스토니아",
+        "ER": "에리트레아",
+        "GQ": "적도 기니",
+        "SV": "엘살바도르",
+        "EG": "이집트",
+        "EC": "에콰도르",
+        "GM": "감비아",
+        "GE": "조지아",
+        "ZW": "짐바브웨",
+        "ZM": "잠비아",
+        "YE": "예멘",
+        "EH": "왈리스 푸투나",
+        "WF": "왈리스 푸투나",
+        "VI": "미국령 버진아일랜드",
+        "VG": "영국령 버진아일랜드",
+        "VN": "베트남",
+        "VE": "베네수엘라",
+        "VU": "바누아투",
+        "UZ": "우즈베키스탄",
+        "UY": "우루과이",
+        "UM": "미국령 군소 제도",
+        "US": "미국",
+        "GB": "영국",
+        "AE": "아랍에미리트",
+        "UA": "우크라이나",
+        "UG": "우간다",
+        "TV": "투발루",
+        "TC": "터크스 케이커스 제도",
+        "TM": "투르크메니스탄",
+        "TR": "터키",
+        "TN": "튀니지",
+        "TT": "트리니다드 토바고",
+        "TO": "통가",
+        "TK": "토켈라우",
+        "TG": "토고",
+        "TL": "동티모르",
+        "TH": "태국",
+        "TZ": "탄자니아",
+        "TJ": "타지키스탄",
+        "TW": "대만",
+        "SY": "시리아",
+        "CH": "스위스",
+        "SE": "스웨덴",
+        "SJ": "스발바르 얀마옌 제도",
+        "SR": "수리남",
+        "SD": "수단",
+        "LK": "스리랑카",
+        "ES": "스페인",
+        "SS": "남수단",
+        "GS": "사우스조지아 사우스샌드위치 제도",
+        "ZA": "남아프리카 공화국",
+        "SO": "소말리아",
+        "SB": "솔로몬 제도",
+        "SI": "슬로베니아",
+        "SK": "슬로바키아",
+        "SX": "신트마르턴",
+        "SG": "싱가포르",
+        "SL": "시에라리온",
+        "SC": "세이셸",
+        "RS": "세르비아",
+        "SN": "세네갈",
+        "SA": "사우디아라비아",
+        "ST": "상투메 프린시페",
+        "SM": "산마리노",
+        "WS": "사모아",
+        "VC": "세인트빈센트 그레나딘",
+        "PM": "생피에르 미클롱",
+        "MF": "세인트마틴섬",
+        "LC": "세인트루시아",
+        "KN": "세인트키츠 네비스",
+        "SH": "세인트헬레나 어센션 트리스탄다쿠냐",
+        "BL": "생바르텔레미",
+        "RW": "르완다",
+        "RU": "러시아",
+        "RO": "루마니아",
+        "RE": "레위니옹",
+        "QA": "카타르",
+        "PR": "푸에르토리코",
+        "PT": "포르투갈",
+        "PL": "폴란드",
+        "PN": "핏케언 제도",
+        "PH": "필리핀",
+        "PE": "페루",
+        "PY": "파라과이",
+        "PG": "파푸아뉴기니",
+        "PA": "파나마",
+        "PS": "팔레스타인",
+        "PW": "팔라우",
+        "PK": "파키스탄",
+        "OM": "오만",
+        "NO": "노르웨이",
+        "MP": "북마리아나 제도",
+        "MK": "북마케도니아",
+        "NF": "노퍽섬",
+        "NU": "니우에",
+        "NG": "나이지리아",
+        "NE": "니제르",
+        "NI": "니카라과",
+        "NZ": "뉴질랜드",
+        "NC": "누벨칼레도니",
+        "NL": "네덜란드",
+        "NP": "네팔",
+        "NR": "나우루",
+        "NA": "나미비아",
+        "MM": "미얀마",
+        "MZ": "모잠비크",
+        "MA": "모로코",
+        "MS": "몬트세랫",
+        "ME": "몬테네그로",
+        "MN": "몽골",
+        "MC": "모나코",
+        "MD": "몰도바",
+        "FM": "미크로네시아",
+        "MX": "멕시코",
+        "YT": "마요트",
+        "MU": "모리셔스",
+        "MR": "모리타니",
+        "MQ": "마르티니크",
+        "MH": "마셜 제도",
+        "MT": "몰타",
+        "ML": "말리",
+        "MV": "몰디브",
+        "MY": "말레이시아",
+        "MW": "말라위",
+        "MG": "마다가스카르",
+        "MO": "마카오",
+        "LU": "룩셈부르크",
+        "LT": "리투아니아",
+        "LI": "리히텐슈타인",
+        "LY": "리비아",
+        "LR": "라이베리아",
+        "LS": "레소토",
+        "LB": "레바논",
+        "LV": "라트비아",
+        "LA": "라오스",
+        "KG": "키르기스스탄",
+        "KW": "쿠웨이트",
+        "KR": "한국",
+        "KP": "북한",
+        "KI": "키리바시",
+        "KE": "케냐",
+        "KZ": "카자흐스탄",
+        "JO": "요르단",
+        "JE": "저지섬",
+        "JP": "일본",
+        "JM": "자메이카",
+        "IT": "이탈리아",
+        "IL": "이스라엘",
+        "IM": "맨섬",
+        "IE": "아일랜드",
+        "IQ": "이라크",
+        "IR": "이란",
+        "ID": "인도네시아",
+        "IN": "인도",
+        "IS": "아이슬란드",
+        "HU": "헝가리",
+        "HK": "홍콩",
+        "HN": "온두라스",
+        "VA": "성좌",
+        "HM": "허드 맥도널드 제도",
+        "HT": "아이티",
+        "GY": "가이아나",
+        "GW": "기니비사우",
+        "GN": "기니",
+        "GG": "건지섬",
+        "GT": "과테말라",
+        "GU": "괌",
+        "GP": "과들루프",
+        "GD": "그레나다",
+        "GL": "그린란드",
+        "GR": "그리스",
+        "GI": "지브롤터",
+        "GH": "가나",
+        "DE": "독일",
+        "DM": "도미니카 연방",
+        "DO": "도미니카 공화국",
+        "DJ": "지부티",
+        "DK": "덴마크",
+        "CZ": "체코",
+        "CY": "키프로스",
+        "CW": "퀴라소",
+        "CU": "쿠바",
+        "HR": "크로아티아",
+        "CI": "코트디부아르",
+        "CR": "코스타리카",
+        "CK": "쿡 제도",
+        "CD": "콩고 민주 공화국",
+        "CG": "콩고 공화국",
+        "KM": "코모로",
+        "CO": "콜롬비아",
+        "CC": "코코스 제도",
+        "CX": "크리스마스섬",
+        "CN": "중국",
+        "CL": "칠레",
+        "TD": "차드",
+        "CF": "중앙아프리카 공화국",
+        "KY": "케이맨 제도",
+        "CA": "캐나다",
+        "CM": "카메룬",
+        "KH": "캄보디아",
+        "CV": "카보베르데",
+        "BI": "부룬디",
+        "BF": "부르키나 파소",
+        "BG": "불가리아",
+        "BN": "브루나이",
+        "IO": "영국령 인도양 지역",
+        "BR": "브라질",
+        "BV": "부베섬",
+        "BW": "보츠와나",
+        "BA": "보스니아 헤르체고비나",
+        "BQ": "카리브 네덜란드",
+        "BO": "볼리비아",
+        "BT": "부탄",
+        "BM": "버뮤다",
+        "BJ": "베냉",
+        "BZ": "벨리즈",
+        "BE": "벨기에",
+        "BY": "벨로루시",
+        "BB": "바베이도스",
+        "BD": "방글라데시",
+        "BH": "바레인",
+        "BS": "바하마",
+        "AZ": "아제르바이잔",
+        "AT": "오스트리아",
+        "AU": "오스트레일리아",
+        "AW": "아루바",
+        "AM": "아르메니아",
+        "AR": "아르헨티나",
+        "AG": "앤티가 바부다",
+        "AQ": "남극",
+        "AI": "앵귈라",
+        "AO": "앙골라",
+        "AD": "안도라",
+        "AS": "아메리칸사모아",
+        "DZ": "알제리",
+        "AL": "알바니아",
+        "AX": "올란드 제도",
+        "AF": "아프가니스탄"
+    },
+    "platform": {
+        "SPEEDRUNCOM": "speedrun.com",
+        "TWITTER": "Twitter",
+        "TWITCH": "Twitch",
+        "FACEBOOK": "Facebook",
+        "INSTAGRAM": "Instagram",
+        "SNAPCHAT": "Snapchat",
+        "DISCORD": "디스코드",
+        "EMAIL": "이메일",
+        "PHONE": "휴대전화번호",
+        "NICO": "니코동",
+        "YOUTUBE": "유튜브",
+        "MASTODON": "마스토돈"
+    },
+    "news": {
+        "title": "뉴스"
+    },
+    "register": {
+        "submit": "가입하세요!",
+        "email_sent": "받은 편지함으로 이메일이 전송되었으니 링크를 클릭하여 이메일 주소를 확인하시기 바랍니다.",
+        "login_hint": "또는 원하는 경우 이미 {{login-link}}를 사용할 수도 있습니다.",
+        "thank_you": "감사합니다!"
+    },
+    "auth": {
+        "passwordReset": {
+            "title": "비밀번호를 재설정하세요!",
+            "instructions": "비밀번호를 재설정하려면 이메일 주소를 입력하세요.\n    회원님의 이메일 주소가 시스템에 알려진 경우 비밀번호를 재설정할 수 있는 링크를 보내드립니다.",
+            "request": "비밀번호 재설정 요청",
+            "submit": "비밀번호를 재설정하세요!",
+            "requested": "비밀번호 재설정 요청이 회원님의 이메일 주소로 전송되었습니다. 자세한 안내는 이메일을 확인하시기 바랍니다.",
+            "success": "비밀번호가 성공적으로 재설정되었습니다. 이제 비밀번호로 로그인할 수 있습니다.",
+            "error": {
+                "EMAIL_VERIFICATION_REQUIRED": "이 기능을 사용하기 전에 이메일 주소를 인증해 주세요.",
+                "PASSWORD_RESET_CODE_INVALID": "제공된 비밀번호 재설정 토큰이 유효하지 않으니 새 이메일을 요청해 주세요."
+            },
+            "tokenMissing": "비밀번호 재설정 토큰이 누락되었으니 이메일에 포함된 링크를 다시 클릭하세요."
+        },
+        "emailVerificationRequired": "이 기능을 사용하기 전에 이메일 주소를 인증해 주세요."
+    },
+    "announcements": {
+        "twitterRemoval": "안녕하세요, 곧 트위터를 로그인 옵션에서 제거할 예정입니다. 계정을 잃지 않도록 트위치 또는 디스코드 계정이 Oengus 계정에 연결되어 있는지 확인하세요."
     }
-  },
-  "patrons": {
-    "noPatrons": "표시할 사람이 없습니다. <a href=\"https://www.patreon.com/oengusio\" target=\"_blank\">첫 번째 후원자</a>가 되보시지 않을래요?",
-    "par2": "이 페이지에 나열된 사람과 조직은 <a href=\"https://www.patreon.com/oengusio\" target=\"_blank\">Patreon 캠페인</a>에서 기부하고 Oengus를 무료로 유지할 수 있도록 도와준 사람들입니다.",
-    "par1": "Oengus.io를 계속 운영할 수 있도록 도움을 주는 모든 후원자 분들께 감사드립니다",
-    "title": "Patrons 후원"
-  },
-  "language": {
-    "de": "독일어",
-    "hi": "힌디어",
-    "fil": "필리핀어",
-    "lt": "리투아니아어",
-    "hr": "크로아티아어",
-    "lv": "라트비아어",
-    "hu": "헝가리어",
-    "zh-CN": "중국어",
-    "uk": "우크라이나어",
-    "id": "인도네시아어",
-    "ur": "우르두어",
-    "ml": "말라얄람어",
-    "mr": "마라티어",
-    "ms": "말레이어",
-    "el": "그리스어",
-    "en": "영어",
-    "eo": "에스페란토어",
-    "is": "아이슬란드어",
-    "it": "이탈리아어",
-    "am": "암하라어",
-    "chr": "체로키어",
-    "iw": "히브리어",
-    "es": "스페인어",
-    "et": "에스토니아어",
-    "eu": "바스크어",
-    "ar": "아랍어",
-    "pt-PT": "포르투갈어",
-    "vi": "베트남어",
-    "ja": "일본어",
-    "ro": "루마니아어",
-    "en-GB": "영어",
-    "nl": "네덜란드어",
-    "no": "노르웨이어",
-    "fi": "핀란드어",
-    "ru": "러시아어",
-    "bg": "불가리아어",
-    "bn": "벵골어",
-    "fr": "프랑스어",
-    "sk": "슬로바키아어",
-    "sl": "슬로베니아어",
-    "ca": "카탈로니아어",
-    "sr": "세르비아어",
-    "kn": "칸나다어",
-    "sv": "스웨덴어",
-    "ko": "한국어",
-    "sw": "스와힐리어",
-    "zh_TW": "중국어",
-    "pt_BR": "포르투갈어",
-    "ta": "타밀어",
-    "gu": "구자라트어",
-    "cs": "체코어",
-    "te": "텔루구어",
-    "th": "태국어",
-    "cy": "웨일스어",
-    "pl": "폴란드어",
-    "da": "덴마크어",
-    "tr": "터키어",
-    "pt": "포르투갈어"
-  },
-  "country": {
-    "GA": "가봉",
-    "TF": "프랑스령 남방 및 남극",
-    "PF": "프랑스령 폴리네시아",
-    "GF": "프랑스령 기아나",
-    "FR": "프랑스",
-    "FI": "핀란드",
-    "FJ": "피지",
-    "FO": "페로 제도",
-    "FK": "포클랜드 제도 (말비나스 군도)",
-    "ET": "에티오피아",
-    "SZ": "에스와티니",
-    "EE": "에스토니아",
-    "ER": "에리트레아",
-    "GQ": "적도 기니",
-    "SV": "엘살바도르",
-    "EG": "이집트",
-    "EC": "에콰도르",
-    "GM": "감비아",
-    "GE": "조지아",
-    "ZW": "짐바브웨",
-    "ZM": "잠비아",
-    "YE": "예멘",
-    "EH": "왈리스 푸투나",
-    "WF": "왈리스 푸투나",
-    "VI": "미국령 버진아일랜드",
-    "VG": "영국령 버진아일랜드",
-    "VN": "베트남",
-    "VE": "베네수엘라",
-    "VU": "바누아투",
-    "UZ": "우즈베키스탄",
-    "UY": "우루과이",
-    "UM": "미국령 군소 제도",
-    "US": "미국",
-    "GB": "영국",
-    "AE": "아랍에미리트",
-    "UA": "우크라이나",
-    "UG": "우간다",
-    "TV": "투발루",
-    "TC": "터크스 케이커스 제도",
-    "TM": "투르크메니스탄",
-    "TR": "터키",
-    "TN": "튀니지",
-    "TT": "트리니다드 토바고",
-    "TO": "통가",
-    "TK": "토켈라우",
-    "TG": "토고",
-    "TL": "동티모르",
-    "TH": "태국",
-    "TZ": "탄자니아",
-    "TJ": "타지키스탄",
-    "TW": "대만",
-    "SY": "시리아",
-    "CH": "스위스",
-    "SE": "스웨덴",
-    "SJ": "스발바르 얀마옌 제도",
-    "SR": "수리남",
-    "SD": "수단",
-    "LK": "스리랑카",
-    "ES": "스페인",
-    "SS": "남수단",
-    "GS": "사우스조지아 사우스샌드위치 제도",
-    "ZA": "남아프리카 공화국",
-    "SO": "소말리아",
-    "SB": "솔로몬 제도",
-    "SI": "슬로베니아",
-    "SK": "슬로바키아",
-    "SX": "신트마르턴",
-    "SG": "싱가포르",
-    "SL": "시에라리온",
-    "SC": "세이셸",
-    "RS": "세르비아",
-    "SN": "세네갈",
-    "SA": "사우디아라비아",
-    "ST": "상투메 프린시페",
-    "SM": "산마리노",
-    "WS": "사모아",
-    "VC": "세인트빈센트 그레나딘",
-    "PM": "생피에르 미클롱",
-    "MF": "세인트마틴섬",
-    "LC": "세인트루시아",
-    "KN": "세인트키츠 네비스",
-    "SH": "세인트헬레나 어센션 트리스탄다쿠냐",
-    "BL": "생바르텔레미",
-    "RW": "르완다",
-    "RU": "러시아",
-    "RO": "루마니아",
-    "RE": "레위니옹",
-    "QA": "카타르",
-    "PR": "푸에르토리코",
-    "PT": "포르투갈",
-    "PL": "폴란드",
-    "PN": "핏케언 제도",
-    "PH": "필리핀",
-    "PE": "페루",
-    "PY": "파라과이",
-    "PG": "파푸아뉴기니",
-    "PA": "파나마",
-    "PS": "팔레스타인",
-    "PW": "팔라우",
-    "PK": "파키스탄",
-    "OM": "오만",
-    "NO": "노르웨이",
-    "MP": "북마리아나 제도",
-    "MK": "북마케도니아",
-    "NF": "노퍽섬",
-    "NU": "니우에",
-    "NG": "나이지리아",
-    "NE": "니제르",
-    "NI": "니카라과",
-    "NZ": "뉴질랜드",
-    "NC": "누벨칼레도니",
-    "NL": "네덜란드",
-    "NP": "네팔",
-    "NR": "나우루",
-    "NA": "나미비아",
-    "MM": "미얀마",
-    "MZ": "모잠비크",
-    "MA": "모로코",
-    "MS": "몬트세랫",
-    "ME": "몬테네그로",
-    "MN": "몽골",
-    "MC": "모나코",
-    "MD": "몰도바",
-    "FM": "미크로네시아",
-    "MX": "멕시코",
-    "YT": "마요트",
-    "MU": "모리셔스",
-    "MR": "모리타니",
-    "MQ": "마르티니크",
-    "MH": "마셜 제도",
-    "MT": "몰타",
-    "ML": "말리",
-    "MV": "몰디브",
-    "MY": "말레이시아",
-    "MW": "말라위",
-    "MG": "마다가스카르",
-    "MO": "마카오",
-    "LU": "룩셈부르크",
-    "LT": "리투아니아",
-    "LI": "리히텐슈타인",
-    "LY": "리비아",
-    "LR": "라이베리아",
-    "LS": "레소토",
-    "LB": "레바논",
-    "LV": "라트비아",
-    "LA": "라오스",
-    "KG": "키르기스스탄",
-    "KW": "쿠웨이트",
-    "KR": "한국",
-    "KP": "북한",
-    "KI": "키리바시",
-    "KE": "케냐",
-    "KZ": "카자흐스탄",
-    "JO": "요르단",
-    "JE": "저지섬",
-    "JP": "일본",
-    "JM": "자메이카",
-    "IT": "이탈리아",
-    "IL": "이스라엘",
-    "IM": "맨섬",
-    "IE": "아일랜드",
-    "IQ": "이라크",
-    "IR": "이란",
-    "ID": "인도네시아",
-    "IN": "인도",
-    "IS": "아이슬란드",
-    "HU": "헝가리",
-    "HK": "홍콩",
-    "HN": "온두라스",
-    "VA": "성좌",
-    "HM": "허드 맥도널드 제도",
-    "HT": "아이티",
-    "GY": "가이아나",
-    "GW": "기니비사우",
-    "GN": "기니",
-    "GG": "건지섬",
-    "GT": "과테말라",
-    "GU": "괌",
-    "GP": "과들루프",
-    "GD": "그레나다",
-    "GL": "그린란드",
-    "GR": "그리스",
-    "GI": "지브롤터",
-    "GH": "가나",
-    "DE": "독일",
-    "DM": "도미니카 연방",
-    "DO": "도미니카 공화국",
-    "DJ": "지부티",
-    "DK": "덴마크",
-    "CZ": "체코",
-    "CY": "키프로스",
-    "CW": "퀴라소",
-    "CU": "쿠바",
-    "HR": "크로아티아",
-    "CI": "코트디부아르",
-    "CR": "코스타리카",
-    "CK": "쿡 제도",
-    "CD": "콩고 민주 공화국",
-    "CG": "콩고 공화국",
-    "KM": "코모로",
-    "CO": "콜롬비아",
-    "CC": "코코스 제도",
-    "CX": "크리스마스섬",
-    "CN": "중국",
-    "CL": "칠레",
-    "TD": "차드",
-    "CF": "중앙아프리카 공화국",
-    "KY": "케이맨 제도",
-    "CA": "캐나다",
-    "CM": "카메룬",
-    "KH": "캄보디아",
-    "CV": "카보베르데",
-    "BI": "부룬디",
-    "BF": "부르키나 파소",
-    "BG": "불가리아",
-    "BN": "브루나이",
-    "IO": "영국령 인도양 지역",
-    "BR": "브라질",
-    "BV": "부베섬",
-    "BW": "보츠와나",
-    "BA": "보스니아 헤르체고비나",
-    "BQ": "카리브 네덜란드",
-    "BO": "볼리비아",
-    "BT": "부탄",
-    "BM": "버뮤다",
-    "BJ": "베냉",
-    "BZ": "벨리즈",
-    "BE": "벨기에",
-    "BY": "벨로루시",
-    "BB": "바베이도스",
-    "BD": "방글라데시",
-    "BH": "바레인",
-    "BS": "바하마",
-    "AZ": "아제르바이잔",
-    "AT": "오스트리아",
-    "AU": "오스트레일리아",
-    "AW": "아루바",
-    "AM": "아르메니아",
-    "AR": "아르헨티나",
-    "AG": "앤티가 바부다",
-    "AQ": "남극",
-    "AI": "앵귈라",
-    "AO": "앙골라",
-    "AD": "안도라",
-    "AS": "아메리칸사모아",
-    "DZ": "알제리",
-    "AL": "알바니아",
-    "AX": "올란드 제도",
-    "AF": "아프가니스탄"
-  },
-  "platform": {
-    "SPEEDRUNCOM": "speedrun.com",
-    "TWITTER": "Twitter",
-    "TWITCH": "Twitch",
-    "FACEBOOK": "Facebook",
-    "INSTAGRAM": "Instagram",
-    "SNAPCHAT": "Snapchat",
-    "DISCORD": "Discord",
-    "EMAIL": "이메일",
-    "PHONE": "휴대전화번호",
-    "NICO": "니코동",
-    "YOUTUBE": "유튜브"
-  },
-  "news": {
-    "title": "뉴스"
-  }
 }
