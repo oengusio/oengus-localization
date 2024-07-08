@@ -257,11 +257,12 @@
       "title": "Planned features"
     },
     "sponsors": {
-      "kaspersky": {
-        "banner": "Thanks to the sponsorship of Kaspersky, Oengus v2 is now under development.",
-        "box": "Thanks to the sponsorship of Kaspersky, Oengus v2 is now under development. <a href=\"{{readMoreUrl}}\" target=\"_blank\">Read more</a>"
-      },
       "esa": "oengus.io is hosted by the <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>",
+      "patreon": {
+        "nobody": "Oengus does not have any sponsors!",
+        "but_patreon": "Oengus is completely free for everyone to use because of our {{patrons}}!",
+        "see_footer": "We proudly display our patrons at the bottom of every page!"
+      },
       "title": "Sponsors"
     },
     "starts": "Starts {{duration}}",
@@ -1031,7 +1032,7 @@
     "patrons": "Our Patrons",
     "bugtracker": "Report bugs and suggestions",
     "createMarathon": "New Marathon",
-    "discord": "Join the official Discord server",
+    "discord": "Join the Oengus Discord server",
     "donate": "Donate",
     "displayNameNotification": "Hey! It seems that you are missing your display name on your profile. Please go to your settings to set it!",
     "register": "Register",
