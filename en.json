@@ -261,6 +261,7 @@
       "patreon": {
         "nobody": "Oengus does not have any sponsors!",
         "but_patreon": "Oengus is completely free for everyone to use because of our {{patrons}}!",
+        "patrons": "patrons",
         "see_footer": "We proudly display our patrons at the bottom of every page!"
       },
       "title": "Sponsors"
