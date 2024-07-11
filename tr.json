@@ -4,7 +4,9 @@
             "management": {
                 "help": {
                     "dragAndDrop": "Programdan bir oyun eklemek veya kaldırmak için satırlardaki okları kullanın. Tutamaçları kullanarak programdaki çizgileri sürükleyip bırakabilirsiniz",
-                    "save": "Canlı programı güncellemek veya taslak kaydetmek için \"Kaydet\"e basın. Programı yayınlamak için \"Programı yayınla\"ya basın. Dikkat: program bir kez yayınlandığında, planı her güncellediğinizde maratonun bitiş tarihi tekrardan hesaplanıp güncellenecektir."
+                    "save": "Canlı programı güncellemek veya taslak kaydetmek için \"Kaydet\"e basın. Programı yayınlamak için \"Programı yayınla\"ya basın. Dikkat: program bir kez yayınlandığında, planı her güncellediğinizde maratonun bitiş tarihi tekrardan hesaplanıp güncellenecektir.",
+                    "setupBlock": "Varsayılan metin için boş bırakın",
+                    "patronNudge": "Oengus'u patreon'da destekleyen kişiler tarafından oluşturulan maratonlar, birden fazla program oluşturma yeteneğine sahiptir. Maratonunuzda daha fazla program istiyorsanız, lütfen bizi patreon'da desteklemeyi düşünün."
                 },
                 "action": {
                     "publish": "Programı yayınla",
@@ -55,7 +57,8 @@
                             "exists": "Bu slug ile zaten bir program oluşturdunuz",
                             "pattern": "Slug izin verilmeyen karakterler içeriyor"
                         }
-                    }
+                    },
+                    "customLabel": "Özel etiket"
                 }
             },
             "export": {
@@ -116,7 +119,8 @@
             "admin": "Yönetici",
             "submitRuns": "Run gönderin",
             "selectRuns": "Run seçin",
-            "manageSchedules": "Programları yönetin"
+            "manageSchedules": "Programları yönetin",
+            "schedules": "Programlar"
         },
         "incentives": {
             "title": "Teşvikler",
@@ -871,7 +875,8 @@
             "login": {
                 "usernameExists": "Giriş yapmaya çalıştığınız hesaba ilişkilendirilmiş kullanıcı adı kullanımdadır. Daha önce başka bir giriş yöntemiyle bir Oengus profili oluşturmadığınızdan emin olun. Eğer bir yanlışlık olduğunu düşünüyorsanız bir admin ile irtibata geçin.",
                 "error": "Kullanıcı doğrulama sırasında bir hata meydana geldi. Lütfen tekrar deneyiniz veya bir admin ile irtibata geçiniz.",
-                "disabledAccount": "Hesabınız devre dışıdır. Kullanıma açmak isterseniz bir admin ile irtibata geçiniz."
+                "disabledAccount": "Hesabınız devre dışıdır. Kullanıma açmak isterseniz bir admin ile irtibata geçiniz.",
+                "noAccountFound": "Hesap bulunamadı, lütfen yeni bir hesap için kaydolun veya mevcut bir hesapla senkronize edin."
             },
             "deactivate": {
                 "success": "Hesabınız devre dışı bırakılmıştır"
@@ -959,6 +964,10 @@
                 "success": "Oyun silindi",
                 "error": "Oyun silinirken bir hata meydana geldi. Lütfen tekrar deneyiniz veya bir admin ile irtibata geçiniz."
             }
+        },
+        "generic": {
+            "validationError": "Bir şeyler yanlış gitti, lütfen doğrulama hatalarını kontrol edin. Sorun devam ederse, lütfen discord'da destek ile iletişime geçin.",
+            "clipboardOk": "Panonuza kopyalandı!"
         }
     },
     "action": {
@@ -975,7 +984,8 @@
         "login": "giriş yap",
         "create": "Oluştur",
         "delete": "Sil",
-        "edit": "Düzenle"
+        "edit": "Düzenle",
+        "share": "Paylaş"
     },
     "language": {
         "de": "Almanca",
