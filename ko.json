@@ -2,11 +2,7 @@
     "homepage": {
         "sponsors": {
             "esa": "oengus.io는 <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>를 통해 운영되고 있습니다",
-            "title": "스폰서",
-            "kaspersky": {
-                "banner": "Kaspersky의 후원 덕분에 Oengus v2가 현재 개발 중입니다.",
-                "box": "Kaspersky의 후원 덕분에, Oengus v2가 현재 개발 중입니다.<a href=\"1{{readMoreUrl}}\" target=\"_blank\">자세히 알아보기</a>"
-            }
+            "title": "스폰서"
         },
         "starts": "{{duration}} 시작",
         "plannedFeatures": {

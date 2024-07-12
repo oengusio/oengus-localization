@@ -852,10 +852,6 @@
     "homepage": {
         "sponsors": {
             "title": "Sponsorit",
-            "kaspersky": {
-                "banner": "Oenguksen uusi versio on kehitteillä. Kiitos tuesta Kaspersky.",
-                "box": "Kasperskyn tuen ansiosta Oengus v2 on nyt kehitteillä. <a href=\"{{readMoreUrl}}\" target=\"_blank\">Lue Lisää</a>"
-            },
             "esa": "Oengusta ylläpitää <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>"
         },
         "welcomeText": {

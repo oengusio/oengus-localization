@@ -780,10 +780,6 @@
         },
         "welcomeTitle": "Добро пожаловать на Oengus!",
         "sponsors": {
-            "kaspersky": {
-                "box": "Благодаря спонсорству Kaspersky сейчас в разработке Oengus v2. <a href=\"{{readMoreUrl}}\" target=\"_blank\">Узнать больше</a>",
-                "banner": "Благодаря спонсорству Kaspersky сейчас в разработке Oengus v2."
-            },
             "esa": "Хостинг oengus.io организован <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>",
             "title": "Спонсоры"
         },

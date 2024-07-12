@@ -1476,11 +1476,7 @@
         },
         "sponsors": {
             "title": "Patrocinadores",
-            "esa": "oengus.io é alojado pela <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>",
-            "kaspersky": {
-                "banner": "Graças ao patrocínio da Kaspersky, o Oengus v2 está atualmente em desenvolvimento.",
-                "box": "Graças ao patrocínio de Kaspersky, Oengus v2 está agora a ser desenvolvido. <a href=\"{{readMoreUrl}}\" target=\"_blank\">Ler mais</a>"
-            }
+            "esa": "oengus.io é alojado pela <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>"
         },
         "submissions_close": "As submissões encerram {{duration}}",
         "welcomeText": {

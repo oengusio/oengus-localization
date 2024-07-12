@@ -756,11 +756,7 @@
         "starts": "{{duration}} başlıyor",
         "sponsors": {
             "title": "Sponsorlar",
-            "esa": "oengus.io, <a href=\"https://esamarathon.com/\" target=\"_blank\"> European Speedrunner Assembly</a> tarafından barındırılmaktadır",
-            "kaspersky": {
-                "banner": "Kaspersky'nin sponsorluğu sayesinde Oengus v2 şu anda geliştirilme aşamasındadır.",
-                "box": "Kaspersky'nin sponsorluğu sayesinde Oengus v2 şu anda geliştirilme aşamasındadır. <a href=\"{{readMoreUrl}}\" target=\"_blank\">Daha fazlasını okuyun</a>"
-            }
+            "esa": "oengus.io, <a href=\"https://esamarathon.com/\" target=\"_blank\"> European Speedrunner Assembly</a> tarafından barındırılmaktadır"
         },
         "plannedFeatures": {
             "1": "Kooperatif/yarış başvuruları",
