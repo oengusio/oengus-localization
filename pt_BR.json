@@ -236,7 +236,13 @@
         "submissions_close": "As inscrições fecham {{duration}}",
         "sponsors": {
             "title": "Patrocinadores",
-            "esa": "oengus.io é hospedado pela <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>"
+            "esa": "oengus.io é hospedado pela <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>",
+            "patreon": {
+                "nobody": "Oengus não tem patrocinadores!",
+                "but_patreon": "Oengus é totalmente gratuito para uso de todos, graças aos nossos {{patrons}}!",
+                "patrons": "patrons",
+                "see_footer": "Temos orgulho de exibir nossos clientes no final de cada página!"
+            }
         }
     },
     "login": {
