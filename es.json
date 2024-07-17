@@ -235,7 +235,13 @@
         "welcomeTitle": "¡Bienvenido a Oengus!",
         "sponsors": {
             "title": "Patrocinadores",
-            "esa": "Oengus.io está gestionado por <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>"
+            "esa": "Oengus.io está gestionado por <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>",
+            "patreon": {
+                "but_patreon": "¡Oengus es completamente gratis para todo el mundo gracias a nuestros {{patrons}}!",
+                "patrons": "patrocinadores",
+                "nobody": "¡Oengus no tiene ningún patrocinador!",
+                "see_footer": "¡Mostramos con orgullo a nuestros patrocinadores al final de cada página!"
+            }
         },
         "submissions_close": "Postulaciones cierran {{duration}}"
     },
@@ -987,7 +993,7 @@
         "about": "Acerca de",
         "bugtracker": "Informa sobre bugs y sugerencias",
         "createMarathon": "Nueva maratón",
-        "discord": "Únete al servidor oficial de Discord",
+        "discord": "Únete al servidor de Discord de Oengus",
         "donate": "Donar",
         "login": {
             "disclaimer": "Precaución: Si ya tienes un perfil en Oengus, por favor asegúrate de iniciar sesión con una cuenta externa ya sincronizada con tu perfil, de otra manera se creará un nuevo perfil",
