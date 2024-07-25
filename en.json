@@ -257,7 +257,6 @@
       "title": "Planned features"
     },
     "sponsors": {
-      "esa": "oengus.io is hosted by the <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>",
       "patreon": {
         "nobody": "Oengus does not have any sponsors!",
         "but_patreon": "Oengus is completely free for everyone to use because of our {{patrons}}!",
@@ -453,6 +452,7 @@
         "title": "Export schedule"
       },
       "management": {
+        "plsUseTheNewUi": "You are currently using the old UI for managing schedules. Please switch page marked as \"new\" for a better experience!",
         "overview": {
           "title": "Manage existing or {{create-new}}",
           "create-new": "create a new schedule",
@@ -487,7 +487,8 @@
           "addRun": "Add run",
           "addSetupBlock": "Add setup block",
           "alreadyPublished": "Schedule already published",
-          "publish": "Publish schedule"
+          "publish": "Publish schedule",
+          "published": "Schedule has been published! Page will reflect changes in 2-5 minutes!"
         },
         "help": {
           "setupBlock": "Leave empty for default text",
