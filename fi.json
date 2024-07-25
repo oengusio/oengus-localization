@@ -852,7 +852,13 @@
     "homepage": {
         "sponsors": {
             "title": "Sponsorit",
-            "esa": "Oengusta ylläpitää <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>"
+            "esa": "Oengusta ylläpitää <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>",
+            "patreon": {
+                "but_patreon": "Oengus on täysin ilmainen kaikille, kiitos {{patrons}}!",
+                "see_footer": "Me ylpeästi esitellään patronit jokaisen sivun lopussa!",
+                "patrons": "patronit",
+                "nobody": "Oengusilla ei ole yhtään sponsoria!"
+            }
         },
         "welcomeText": {
             "par1": "Oengus on <b>ilmainen</b> speedrun-tapahtumien hallinnointityökalu.",
@@ -1069,7 +1075,7 @@
             "password": "Kirjaudu käyttäjätunnuksella ja salasanalla"
         },
         "about": "Tietoja",
-        "discord": "Liity viralliselle Discord-palvelimelle",
+        "discord": "Liity Oenguksen viralliselle Discord-palvelimelle",
         "logout": "Kirjaudu ulos",
         "settings": "Asetukset",
         "twitter": "Seuraa meitä Twitterissä",
