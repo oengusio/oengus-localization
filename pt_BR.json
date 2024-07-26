@@ -930,7 +930,8 @@
                     "addSetupBlock": "Adicionar bloco de configuração",
                     "alreadyPublished": "Agendamento já publicado",
                     "publish": "Publicar agendamento",
-                    "addRun": "Adicionar corrida"
+                    "addRun": "Adicionar corrida",
+                    "published": "O agendamento foi publicado! A página refletirá as alterações em 2 a 5 minutos!"
                 },
                 "customData": {
                     "inputText": "Dados personalizados armazenados como texto, permitindo adicionar dados \"ocultos\" a esta linha de agendamento",
@@ -965,7 +966,8 @@
                     },
                     "editTitle": "Editando: {{scheduleName}}",
                     "customLabel": "Rótulo personalizado"
-                }
+                },
+                "plsUseTheNewUi": "No momento, você está usando a interface de usuário antiga para gerenciar agendamento. Mude para a página marcada como \"nova\" para ter uma experiência melhor!"
             },
             "title": "Agendamento",
             "nextRun": "Próxima corrida {{duration}}",
