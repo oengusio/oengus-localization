@@ -224,8 +224,7 @@
         },
         "welcomeTitle": "Bienvenue sur Oengus !",
         "sponsors": {
-            "title": "Sponsors",
-            "esa": "oengus.io est hébergé par l'<a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>"
+            "title": "Sponsors"
         },
         "submissions_close": "Fin des candidatures {{duration}}"
     },

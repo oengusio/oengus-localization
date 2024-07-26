@@ -1475,8 +1475,7 @@
             "3": "Sistema de agendamento fácil com visualização das disponibilidades dos corredores"
         },
         "sponsors": {
-            "title": "Patrocinadores",
-            "esa": "oengus.io é alojado pela <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>"
+            "title": "Patrocinadores"
         },
         "submissions_close": "As submissões encerram {{duration}}",
         "welcomeText": {

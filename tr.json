@@ -755,8 +755,7 @@
         },
         "starts": "{{duration}} başlıyor",
         "sponsors": {
-            "title": "Sponsorlar",
-            "esa": "oengus.io, <a href=\"https://esamarathon.com/\" target=\"_blank\"> European Speedrunner Assembly</a> tarafından barındırılmaktadır"
+            "title": "Sponsorlar"
         },
         "plannedFeatures": {
             "1": "Kooperatif/yarış başvuruları",

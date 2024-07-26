@@ -235,7 +235,6 @@
         "welcomeTitle": "¡Bienvenido a Oengus!",
         "sponsors": {
             "title": "Patrocinadores",
-            "esa": "Oengus.io está gestionado por <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>",
             "patreon": {
                 "but_patreon": "¡Oengus es completamente gratis para todo el mundo gracias a nuestros {{patrons}}!",
                 "patrons": "patrocinadores",

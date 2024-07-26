@@ -1,515 +1,514 @@
 {
-  "alert": {
-    "incentives": {
-      "save": {
-        "error": "Der opstod en fejl under lagring af incitament. Venligst prøv igen eller kontakt en administrator.",
-        "success": "Incitament blev gemt."
-      },
-      "delete": {
-        "success": "Incitament blev slettet",
-        "error": "Fejl under sletning af incitament. Venligst prøv igen eller kontakt en administrator."
-      }
+    "alert": {
+        "incentives": {
+            "save": {
+                "error": "Der opstod en fejl under lagring af incitament. Venligst prøv igen eller kontakt en administrator.",
+                "success": "Incitament blev gemt."
+            },
+            "delete": {
+                "success": "Incitament blev slettet",
+                "error": "Fejl under sletning af incitament. Venligst prøv igen eller kontakt en administrator."
+            }
+        },
+        "game": {
+            "export": {
+                "error": "Der opstod en fejl under eksportering. Venligst prøv igen eller kontakt en administrator."
+            },
+            "deletion": {
+                "success": "Spil blev slettet",
+                "error": "Der opstod en fejl under sletning af spil. Venligst prøv igen eller kontakt en administrator."
+            }
+        },
+        "donation": {
+            "validate": {
+                "success": "Din donation er sendt. Tak fordi at du donerede!",
+                "error": "Der opstod en fejl ved donationsprocessen. Venligst prøv igen eller kontakt en administrator."
+            },
+            "export": {
+                "error": "Der opstod en fejl ved eksportering. Venligst prøv igen eller kontakt en administrator."
+            }
+        },
+        "category": {
+            "deletion": {
+                "success": "Kategori blev slettet",
+                "error": "Der opstod en fejl under kategorisletning. Venligst prøv igen eller kontakt en administrator."
+            }
+        },
+        "user": {
+            "update": {
+                "success": "Brugerdata blev opdateret",
+                "error": "Fejl ved opdatering af brugerdata"
+            },
+            "sync": {
+                "error": "Der opstod en fejl ved kontosynkronisering. Venligst prøv igen eller kontakt en administrator.",
+                "alreadySynced": "Fejl: Denne kontor er allerede brugt"
+            },
+            "login": {
+                "usernameExists": "Brugernavnet forbundet med kontoen du forsøger at logge ind med, eksisterer allerede. Tjek efter om du allerede har oprettet en Oengus-bruger med en anden login-metode. Hvis du mener, at det er en falsk positiv, kontakt venligst en administrator.",
+                "error": "Der opstod en fejl under godkendelse. Venligst prøv igen eller kontakt en administrator.",
+                "disabledAccount": "Din konto er deaktiveret. Hvis du ønsker at bruge den igen, venligst kontakt en administrator."
+            },
+            "deactivate": {
+                "success": "Din konto er blevet deaktiveret"
+            }
+        },
+        "submit": {
+            "SAME_USER": "Du kan ikke tilføje dig selv til en kategori du har oprettet",
+            "NOT_MULTIPLAYER": "Dette er ikke en multiplayer-kategori",
+            "MAX_SIZE_REACHED": "Denne tilmelding har allerede nået det maksimale antal runnere",
+            "DIFFERENT_MARATHON": "Denne kode tilhører et andet maraton",
+            "CODE_NOT_FOUND": "Denne kode eksisterer ikke",
+            "ALREADY_IN_OPPONENTS": "Du er allerede en del af denne kategori"
+        },
+        "submission": {
+            "save": {
+                "success": "Tilmelding blev sendt",
+                "error": "Fejl ved tilmeldingsproces"
+            },
+            "deletion": {
+                "success": "Tilmelding blev gemt",
+                "error": "Der opstod en fejl ved sletning af tilmeldelse. Venligst prøv igen eller kontakt en administrator."
+            }
+        },
+        "selection": {
+            "save": {
+                "success": "Valg blev gemt",
+                "error": "Fejl ved valg af lagring"
+            }
+        },
+        "schedule": {
+            "save": {
+                "success": "Skema blev gemt",
+                "error": "Fejl ved lagring af skema"
+            },
+            "export": {
+                "error": "Der opstod en fejl ved eksportering. Venligst prøv igen eller kontakt en administrator."
+            }
+        },
+        "marathon": {
+            "creation": {
+                "error": "Fejl ved oprettelse af maraton",
+                "success": "Maraton er blevet oprettet"
+            },
+            "deletion": {
+                "error": "Fejl ved sletning af maraton",
+                "success": "Maraton blev slettet"
+            },
+            "update": {
+                "error": "Fejl ved opdatering af maraton",
+                "success": "Maraton blev opdateret"
+            }
+        }
     },
-    "game": {
-      "export": {
-        "error": "Der opstod en fejl under eksportering. Venligst prøv igen eller kontakt en administrator."
-      },
-      "deletion": {
-        "success": "Spil blev slettet",
-        "error": "Der opstod en fejl under sletning af spil. Venligst prøv igen eller kontakt en administrator."
-      }
+    "action": {
+        "submit": "Indsend",
+        "sendTweet": "Send Tweet",
+        "save": "Gem",
+        "join": "Tilmeld",
+        "decline": "Afvis",
+        "confirm": "Bekræft",
+        "clearAvailabilities": "Ryd valgte tilgængeligheder",
+        "cancel": "Annuller",
+        "accept": "Godkend"
     },
-    "donation": {
-      "validate": {
-        "success": "Din donation er sendt. Tak fordi at du donerede!",
-        "error": "Der opstod en fejl ved donationsprocessen. Venligst prøv igen eller kontakt en administrator."
-      },
-      "export": {
-        "error": "Der opstod en fejl ved eksportering. Venligst prøv igen eller kontakt en administrator."
-      }
+    "aboutPage": {
+        "contact": {
+            "title": "Kontakt",
+            "par2": "For henvendelser vedrørende forretning/PR, skriv en email til contact@oengus.io",
+            "par1": "Fundet en fejl? Har du spørgsmål om siden? Forbind dig til <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">Discord serveren</a>"
+        },
+        "about": {
+            "title": "Om",
+            "par6": "Trivia: Oengus er en keltisk guddommelighed som har ansvaret for tid og evighed. Så kan man snakke om et passende navn til speedrunning maratoner!",
+            "par5": "Fra januar 2021 og fremad er siden vedligeholdt af <a href=\"https://twitter.com/duncte123\" target=\"_blank\">duncte123</a>.",
+            "par4": "Denne side er skabt af <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>. Aktør i speedrunning-fællesskabet siden 2013, han har bidraget til speedrunning-fællesskabet på mange måder: global moderator af <a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a> i tre år, skaber af <a href=\"https://twitter.com/SpeedrunWRs\">Speedrun WRs Twitter bot</a>, medlem af det franske restream hold, som giver genspillelser af internationale maratoner for det franske publikum, og grundlægger af Bourg la Run, den franske udgave af Games Done Quick. Efter at have indsamlet al denne erfaring, og vurderet, at der ikke fandtes nogen gode, offentlige værktøjer til at organisere maratoner, bestemte han sig for at skabe én, og Oengus er resultatet.",
+            "par3": "Speedrunnning maratoner er begivenheder, hvor speedrunnere samles for at fremvise deres runs til et publikum, enten online, på stedet, eller begge. Den mest populære begivenhed er <a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a>, afholdt to gange om året.",
+            "par2": "Speedrunning er det at spille et videospil med intentionen om at gennemføre det så hurtigt som muligt, med formålet at underholde og / eller konkurrere. Du kan læse mere om speedrunning på <a href=\"https://en.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedia</a>.",
+            "par1": "Oengus er en side der bidrager med værktøjer til at organisere speedrunning maratoner."
+        }
     },
-    "category": {
-      "deletion": {
-        "success": "Kategori blev slettet",
-        "error": "Der opstod en fejl under kategorisletning. Venligst prøv igen eller kontakt en administrator."
-      }
+    "homepage": {
+        "marathons": {
+            "live": "Live maratoner",
+            "calendar": "Fuld kalender",
+            "upcoming": "Kommende maratoner",
+            "open": "Tilmeldinger åbne",
+            "moderated": "Modererede maratoner"
+        },
+        "ends": "Slutter {{duration}}",
+        "welcomeTitle": "Velkommen til Oengus!",
+        "welcomeText": {
+            "par4": {
+                "prod": "Hvis du ønsker at teste applikationen før du skaber en applikation, venligst besøg <a href=\"https://sandbox.oengus.io\">sandbox-miljøet</a>. Det er tilgængeligt til alle dine test- og opdagelsesformål.",
+                "sandbox": "<b>Du er i sandbox-miljøet, tilgængelig til test- og opdagelsesformål. Hvis du ønsker at skabe et rigtigt maraton, venligst besøg <a href=\"https://oengus.io\">hovedwebstedet</a>.</b>"
+            },
+            "par1": "Oengus er et <b>gratis</b> værktøj til at håndtere dine speedrunning maratoner fra tilmeldinger til skemalægning.",
+            "par3": "For at få adgang til alle funktioner, venligst log ind med det følgende link. Du vil være i stand til at skabe nye maratoner og tilmelde til eksisterende:"
+        },
+        "starts": "Starter {{duration}}",
+        "sponsors": {
+            "title": "Sponsorer"
+        },
+        "plannedFeatures": {
+            "1": "Samarbejds-/ræstilmeldinger",
+            "2": "Adskillige runs valgsystem (direkte valg, stemmer...)",
+            "3": "Nemt skemalægningssystem med runners tilgængelighedsvisualisering",
+            "4": "Kontoer synkroniserer for at forbinde med Twitter/Twitch/Google",
+            "5": "Discord integration",
+            "6": "Mail notifikationer",
+            "7": "Donationsbehandling gennem PayPal",
+            "title": "Planlagte funktioner"
+        }
     },
-    "user": {
-      "update": {
-        "success": "Brugerdata blev opdateret",
-        "error": "Fejl ved opdatering af brugerdata"
-      },
-      "sync": {
-        "error": "Der opstod en fejl ved kontosynkronisering. Venligst prøv igen eller kontakt en administrator.",
-        "alreadySynced": "Fejl: Denne kontor er allerede brugt"
-      },
-      "login": {
-        "usernameExists": "Brugernavnet forbundet med kontoen du forsøger at logge ind med, eksisterer allerede. Tjek efter om du allerede har oprettet en Oengus-bruger med en anden login-metode. Hvis du mener, at det er en falsk positiv, kontakt venligst en administrator.",
-        "error": "Der opstod en fejl under godkendelse. Venligst prøv igen eller kontakt en administrator.",
-        "disabledAccount": "Din konto er deaktiveret. Hvis du ønsker at bruge den igen, venligst kontakt en administrator."
-      },
-      "deactivate": {
-        "success": "Din konto er blevet deaktiveret"
-      }
+    "global": {
+        "adblocker": "Hejsa, det ser ud til at du blokerer reklamer, sluk venligst for din reklameblokker fra på Oengus, da vi er afhængige af reklamer og donationer for at overleve.",
+        "emu": "[Emu]"
     },
-    "submit": {
-      "SAME_USER": "Du kan ikke tilføje dig selv til en kategori du har oprettet",
-      "NOT_MULTIPLAYER": "Dette er ikke en multiplayer-kategori",
-      "MAX_SIZE_REACHED": "Denne tilmelding har allerede nået det maksimale antal runnere",
-      "DIFFERENT_MARATHON": "Denne kode tilhører et andet maraton",
-      "CODE_NOT_FOUND": "Denne kode eksisterer ikke",
-      "ALREADY_IN_OPPONENTS": "Du er allerede en del af denne kategori"
+    "footer": {
+        "text": "Alle tidspunkter konverteres til din tidszone. Opfanget tidszone: {{timezone}}",
+        "donate": "Hvis du kan lide Oengus, kan du overveje at <a href=\"{{donationLink}}\" target=\"_blank\">give en donation</a>"
     },
-    "submission": {
-      "save": {
-        "success": "Tilmelding blev sendt",
-        "error": "Fejl ved tilmeldingsproces"
-      },
-      "deletion": {
-        "success": "Tilmelding blev gemt",
-        "error": "Der opstod en fejl ved sletning af tilmeldelse. Venligst prøv igen eller kontakt en administrator."
-      }
-    },
-    "selection": {
-      "save": {
-        "success": "Valg blev gemt",
-        "error": "Fejl ved valg af lagring"
-      }
-    },
-    "schedule": {
-      "save": {
-        "success": "Skema blev gemt",
-        "error": "Fejl ved lagring af skema"
-      },
-      "export": {
-        "error": "Der opstod en fejl ved eksportering. Venligst prøv igen eller kontakt en administrator."
-      }
+    "calendar": {
+        "title": "Maratonskalender",
+        "help": "Ved at klikke på en begivenhed omdirigeres du til dens side"
     },
     "marathon": {
-      "creation": {
-        "error": "Fejl ved oprettelse af maraton",
-        "success": "Maraton er blevet oprettet"
-      },
-      "deletion": {
-        "error": "Fejl ved sletning af maraton",
-        "success": "Maraton blev slettet"
-      },
-      "update": {
-        "error": "Fejl ved opdatering af maraton",
-        "success": "Maraton blev opdateret"
-      }
-    }
-  },
-  "action": {
-    "submit": "Indsend",
-    "sendTweet": "Send Tweet",
-    "save": "Gem",
-    "join": "Tilmeld",
-    "decline": "Afvis",
-    "confirm": "Bekræft",
-    "clearAvailabilities": "Ryd valgte tilgængeligheder",
-    "cancel": "Annuller",
-    "accept": "Godkend"
-  },
-  "aboutPage": {
-    "contact": {
-      "title": "Kontakt",
-      "par2": "For henvendelser vedrørende forretning/PR, skriv en email til contact@oengus.io",
-      "par1": "Fundet en fejl? Har du spørgsmål om siden? Forbind dig til <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">Discord serveren</a>"
-    },
-    "about": {
-      "title": "Om",
-      "par6": "Trivia: Oengus er en keltisk guddommelighed som har ansvaret for tid og evighed. Så kan man snakke om et passende navn til speedrunning maratoner!",
-      "par5": "Fra januar 2021 og fremad er siden vedligeholdt af <a href=\"https://twitter.com/duncte123\" target=\"_blank\">duncte123</a>.",
-      "par4": "Denne side er skabt af <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>. Aktør i speedrunning-fællesskabet siden 2013, han har bidraget til speedrunning-fællesskabet på mange måder: global moderator af <a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a> i tre år, skaber af <a href=\"https://twitter.com/SpeedrunWRs\">Speedrun WRs Twitter bot</a>, medlem af det franske restream hold, som giver genspillelser af internationale maratoner for det franske publikum, og grundlægger af Bourg la Run, den franske udgave af Games Done Quick. Efter at have indsamlet al denne erfaring, og vurderet, at der ikke fandtes nogen gode, offentlige værktøjer til at organisere maratoner, bestemte han sig for at skabe én, og Oengus er resultatet.",
-      "par3": "Speedrunnning maratoner er begivenheder, hvor speedrunnere samles for at fremvise deres runs til et publikum, enten online, på stedet, eller begge. Den mest populære begivenhed er <a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a>, afholdt to gange om året.",
-      "par2": "Speedrunning er det at spille et videospil med intentionen om at gennemføre det så hurtigt som muligt, med formålet at underholde og / eller konkurrere. Du kan læse mere om speedrunning på <a href=\"https://en.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedia</a>.",
-      "par1": "Oengus er en side der bidrager med værktøjer til at organisere speedrunning maratoner."
-    }
-  },
-  "homepage": {
-    "marathons": {
-      "live": "Live maratoner",
-      "calendar": "Fuld kalender",
-      "upcoming": "Kommende maratoner",
-      "open": "Tilmeldinger åbne",
-      "moderated": "Modererede maratoner"
-    },
-    "ends": "Slutter {{duration}}",
-    "welcomeTitle": "Velkommen til Oengus!",
-    "welcomeText": {
-      "par4": {
-        "prod": "Hvis du ønsker at teste applikationen før du skaber en applikation, venligst besøg <a href=\"https://sandbox.oengus.io\">sandbox-miljøet</a>. Det er tilgængeligt til alle dine test- og opdagelsesformål.",
-        "sandbox": "<b>Du er i sandbox-miljøet, tilgængelig til test- og opdagelsesformål. Hvis du ønsker at skabe et rigtigt maraton, venligst besøg <a href=\"https://oengus.io\">hovedwebstedet</a>.</b>"
-      },
-      "par1": "Oengus er et <b>gratis</b> værktøj til at håndtere dine speedrunning maratoner fra tilmeldinger til skemalægning.",
-      "par3": "For at få adgang til alle funktioner, venligst log ind med det følgende link. Du vil være i stand til at skabe nye maratoner og tilmelde til eksisterende:"
-    },
-    "starts": "Starter {{duration}}",
-    "sponsors": {
-      "title": "Sponsorer",
-      "esa": "oengus.io er hosted af <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>"
-    },
-    "plannedFeatures": {
-      "1": "Samarbejds-/ræstilmeldinger",
-      "2": "Adskillige runs valgsystem (direkte valg, stemmer...)",
-      "3": "Nemt skemalægningssystem med runners tilgængelighedsvisualisering",
-      "4": "Kontoer synkroniserer for at forbinde med Twitter/Twitch/Google",
-      "5": "Discord integration",
-      "6": "Mail notifikationer",
-      "7": "Donationsbehandling gennem PayPal",
-      "title": "Planlagte funktioner"
-    }
-  },
-  "global": {
-    "adblocker": "Hejsa, det ser ud til at du blokerer reklamer, sluk venligst for din reklameblokker fra på Oengus, da vi er afhængige af reklamer og donationer for at overleve.",
-    "emu": "[Emu]"
-  },
-  "footer": {
-    "text": "Alle tidspunkter konverteres til din tidszone. Opfanget tidszone: {{timezone}}",
-    "donate": "Hvis du kan lide Oengus, kan du overveje at <a href=\"{{donationLink}}\" target=\"_blank\">give en donation</a>"
-  },
-  "calendar": {
-    "title": "Maratonskalender",
-    "help": "Ved at klikke på en begivenhed omdirigeres du til dens side"
-  },
-  "marathon": {
-    "donate": {
-      "incentiveAmount": {
-        "error": {
-          "required": "Beløb er påkrævet",
-          "minNumber": "Beløbet skal være højere end nul"
+        "donate": {
+            "incentiveAmount": {
+                "error": {
+                    "required": "Beløb er påkrævet",
+                    "minNumber": "Beløbet skal være højere end nul"
+                }
+            },
+            "extra": {
+                "title": "Ekstra information",
+                "description": "Dataene vises ikke offentligt nogen steder, og bliver slettet én måned efter arrangementet er slut."
+            },
+            "description": "Donationer støtter {{supportedCharity}}",
+            "comment": {
+                "label": "Kommentar"
+            },
+            "amount": {
+                "label": "Donationsbeløb",
+                "error": {
+                    "required": "Donationsbeløb er påkrævet",
+                    "minNumber": "Donationsbeløbet skal være højere end nul"
+                }
+            }
         }
-      },
-      "extra": {
-        "title": "Ekstra information",
-        "description": "Dataene vises ikke offentligt nogen steder, og bliver slettet én måned efter arrangementet er slut."
-      },
-      "description": "Donationer støtter {{supportedCharity}}",
-      "comment": {
-        "label": "Kommentar"
-      },
-      "amount": {
-        "label": "Donationsbeløb",
-        "error": {
-          "required": "Donationsbeløb er påkrævet",
-          "minNumber": "Donationsbeløbet skal være højere end nul"
-        }
-      }
+    },
+    "login": {
+        "authInProgress": "Godkendelse er i gang, vent venligst…"
+    },
+    "country": {
+        "AF": "Afghanistan",
+        "AL": "Albanien",
+        "DZ": "Algeriet",
+        "AS": "Amerikansk Samoa",
+        "AD": "Andorra",
+        "AO": "Angola",
+        "AI": "Anguilla",
+        "AQ": "Antarktika (Antarktis)",
+        "AG": "Antigua og Barbuda",
+        "AR": "Argentina",
+        "AM": "Armenien",
+        "AW": "Aruba",
+        "AU": "Australien",
+        "AZ": "Aserbajdsjan",
+        "BS": "Bahamas",
+        "BH": "Bahrain",
+        "BD": "Bangladesh",
+        "BB": "Barbados",
+        "BE": "Belgien",
+        "BZ": "Belize",
+        "BJ": "Benin",
+        "BM": "Bermuda",
+        "BT": "Bhutan",
+        "BO": "Bolivia",
+        "BA": "Bosnien-Hercegovina",
+        "BW": "Botswana",
+        "BV": "Bouvetøen",
+        "BR": "Brasilien",
+        "IO": "British Indian Ocean Territory",
+        "BN": "Brunei",
+        "BG": "Bulgarien",
+        "BF": "Burkina Faso",
+        "MM": "Burma",
+        "BI": "Burundi",
+        "KH": "Cambodja",
+        "CM": "Cameroun",
+        "CA": "Canada",
+        "KY": "Caymanøerne",
+        "CF": "Centralafrikanske Republik",
+        "CL": "Chile",
+        "CX": "Juleøen",
+        "CC": "Cocosøerne",
+        "CO": "Colombia",
+        "KM": "Comorerne",
+        "CG": "Congo",
+        "CD": "Demokratiske Republik Congo",
+        "CK": "Cookøerne",
+        "CR": "Costa Rica",
+        "CU": "Cuba",
+        "CW": "Curaçao",
+        "CY": "Cypern",
+        "DK": "Danmark",
+        "DJ": "Djibouti",
+        "DM": "Dominica",
+        "DO": "Dominikanske Republik",
+        "EC": "Ecuador",
+        "EG": "Egypten",
+        "CI": "Elfenbenskysten",
+        "SV": "El Salvador",
+        "ER": "Eritrea",
+        "EE": "Estland",
+        "ET": "Etiopien",
+        "FK": "Falklandsøerne",
+        "FJ": "Fiji",
+        "PH": "Filippinerne",
+        "FI": "Finland",
+        "AE": "Forenede Arabiske Emirater",
+        "FR": "Frankrig",
+        "GF": "Fransk Guiana",
+        "PF": "Fransk Polynesien",
+        "TF": "Franske Sydterritorier",
+        "FO": "Færøerne",
+        "GA": "Gabon",
+        "GM": "Gambia",
+        "GE": "Georgien",
+        "GH": "Ghana",
+        "GI": "Gibraltar",
+        "GD": "Grenada",
+        "GR": "Grækenland",
+        "GL": "Grønland",
+        "GP": "Guadeloupe",
+        "GU": "Guam",
+        "GT": "Guatemala",
+        "GG": "Guernsey",
+        "GN": "Guinea",
+        "GW": "Guinea-Bissau",
+        "GY": "Guyana",
+        "HT": "Haiti",
+        "HM": "Heard-øen og McDonald-øerne",
+        "HN": "Honduras",
+        "HK": "Hongkong",
+        "BY": "Hviderusland",
+        "IM": "Isle of Man",
+        "IN": "Indien",
+        "ID": "Indonesien",
+        "IQ": "Irak",
+        "IR": "Iran",
+        "IE": "Irland",
+        "IS": "Island",
+        "IL": "Israel",
+        "IT": "Italien",
+        "JM": "Jamaica",
+        "JP": "Japan",
+        "JE": "Jersey",
+        "VG": "Britiske Jomfruøer",
+        "VI": "Amerikanske Jomfruøer",
+        "JO": "Jordan",
+        "BQ": "Nederlandske Antiller",
+        "CV": "Kap Verde",
+        "KZ": "Kasakhstan",
+        "KE": "Kenya",
+        "CN": "Kina",
+        "KG": "Kirgisistan",
+        "KI": "Kiribati",
+        "HR": "Kroatien",
+        "KW": "Kuwait",
+        "LA": "Laos",
+        "LV": "Letland",
+        "LS": "Lesotho",
+        "LB": "Libanon",
+        "LR": "Liberia",
+        "LY": "Libyen",
+        "LI": "Liechtenstein",
+        "LT": "Litauen",
+        "LU": "Luxembourg",
+        "MO": "Macao",
+        "MG": "Madagaskar",
+        "MK": "Nordmakedonien",
+        "MW": "Malawi",
+        "MY": "Malaysia",
+        "MV": "Maldiverne",
+        "ML": "Mali",
+        "MT": "Malta",
+        "MA": "Marokko",
+        "MH": "Marshalløerne",
+        "MQ": "Martinique",
+        "MR": "Mauretanien",
+        "MU": "Mauritius",
+        "YT": "Mayotte",
+        "MX": "Mexico",
+        "FM": "Mikronesien",
+        "MD": "Moldova",
+        "MC": "Monaco",
+        "MN": "Mongoliet",
+        "ME": "Montenegro",
+        "MS": "Montserrat",
+        "MZ": "Mozambique",
+        "NA": "Namibia",
+        "NR": "Nauru",
+        "NL": "Holland",
+        "NP": "Nepal",
+        "NZ": "New Zealand",
+        "NI": "Nicaragua",
+        "NE": "Niger",
+        "NG": "Nigeria",
+        "NU": "Niue",
+        "KP": "Nordkorea",
+        "MP": "Nordmarianerne",
+        "NF": "Norfolk Island",
+        "NO": "Norge",
+        "NC": "Ny Kaledonien",
+        "OM": "Oman",
+        "PK": "Pakistan",
+        "PW": "Palau",
+        "PS": "Palæstina",
+        "PA": "Panama",
+        "PG": "Papua Ny Guinea",
+        "PY": "Paraguay",
+        "PE": "Peru",
+        "PN": "Pitcairn",
+        "PL": "Polen",
+        "PT": "Portugal",
+        "PR": "Puerto Rico",
+        "QA": "Qatar",
+        "RE": "Réunion",
+        "RO": "Rumænien",
+        "RU": "Rusland",
+        "RW": "Rwanda",
+        "SH": "Sankt Helena",
+        "BL": "Saint Barthélemy",
+        "KN": "Saint Kitts og Nevis",
+        "LC": "Saint Lucia",
+        "MF": "Saint Martin",
+        "PM": "Saint-Pierre og Miquelon",
+        "VC": "Saint Vincent og Grenadinerne",
+        "SB": "Salomonøerne",
+        "WS": "Samoa",
+        "SM": "San Marino",
+        "ST": "São Tomé og Príncipe",
+        "SA": "Saudi-Arabien",
+        "SN": "Senegal",
+        "RS": "Serbien",
+        "SC": "Seychellerne",
+        "SL": "Sierra Leone",
+        "SG": "Singapore",
+        "SX": "Sint Maarten",
+        "SK": "Slovakiet",
+        "SI": "Slovenien",
+        "SO": "Somalia",
+        "ES": "Spanien",
+        "LK": "Sri Lanka",
+        "GB": "Storbritannien",
+        "SD": "Sudan",
+        "SR": "Surinam",
+        "SJ": "Svalbard og Jan Mayen (Norge)",
+        "SE": "Sverige",
+        "CH": "Schweiz",
+        "SZ": "Swaziland",
+        "SY": "Syrien",
+        "ZA": "Sydafrika",
+        "GS": "South Georgia og South Sandwich Islands",
+        "KR": "Sydkorea",
+        "SS": "Sydsudan",
+        "TW": "Taiwan (Republikken Kina)",
+        "TJ": "Tadsjikistan",
+        "TZ": "Tanzania",
+        "TH": "Thailand",
+        "TG": "Togo",
+        "TK": "Tokelau",
+        "TO": "Tonga",
+        "TT": "Trinidad og Tobago",
+        "TD": "Tchad",
+        "CZ": "Tjekkiet",
+        "TN": "Tunesien",
+        "TR": "Tyrkiet",
+        "TM": "Turkmenistan",
+        "TC": "Turks- og Caicosøerne",
+        "DE": "Tyskland",
+        "TV": "Tuvalu",
+        "UG": "Uganda",
+        "UA": "Ukraine",
+        "HU": "Ungarn",
+        "UY": "Uruguay",
+        "US": "USA",
+        "UM": "USA's ydre småøer",
+        "UZ": "Usbekistan",
+        "VU": "Vanuatu",
+        "VA": "Vatikanstaten",
+        "VE": "Venezuela",
+        "EH": "Vestsahara",
+        "VN": "Vietnam",
+        "WF": "Wallis og Futuna",
+        "YE": "Yemen",
+        "ZM": "Zambia",
+        "ZW": "Zimbabwe",
+        "GQ": "Ækvatorialguinea",
+        "AT": "Østrig",
+        "TL": "Østtimor",
+        "AX": "Ålandsøerne"
+    },
+    "language": {
+        "de": "tysk",
+        "hi": "hindi",
+        "fil": "filippinsk",
+        "lt": "litauisk",
+        "hr": "kroatisk",
+        "lv": "lettisk",
+        "hu": "ungarsk",
+        "zh-CN": "kinesisk",
+        "uk": "ukrainsk",
+        "id": "Indonesian",
+        "ur": "urdu",
+        "ml": "malayalam",
+        "mr": "marathisk",
+        "ms": "malajisk",
+        "el": "græsk",
+        "en": "engelsk",
+        "eo": "esperanto",
+        "is": "islandsk",
+        "it": "italiensk",
+        "am": "amharisk",
+        "chr": "cherokee",
+        "iw": "Hebrew",
+        "es": "spansk",
+        "et": "estisk",
+        "eu": "baskisk",
+        "ar": "arabisk",
+        "pt-PT": "portugisisk",
+        "vi": "vietnamesisk",
+        "ja": "japansk",
+        "ro": "rumænsk",
+        "en-GB": "engelsk",
+        "nl": "hollandsk",
+        "no": "norsk",
+        "fi": "finsk",
+        "ru": "russisk",
+        "bg": "bulgarsk",
+        "bn": "bengali",
+        "fr": "fransk",
+        "sk": "slovakisk",
+        "sl": "slovensk",
+        "ca": "catalansk",
+        "sr": "serbisk",
+        "kn": "kannada",
+        "sv": "svensk",
+        "ko": "koreansk",
+        "sw": "swahili",
+        "zh_TW": "kinesisk",
+        "pt_BR": "portugisisk",
+        "ta": "tamil",
+        "gu": "gujarati",
+        "cs": "tjekkisk",
+        "te": "telugu",
+        "th": "thai",
+        "cy": "walisisk",
+        "pl": "polsk",
+        "da": "dansk",
+        "tr": "tyrkisk",
+        "pt": "portugisisk"
     }
-  },
-  "login": {
-    "authInProgress": "Godkendelse er i gang, vent venligst…"
-  },
-  "country": {
-    "AF": "Afghanistan",
-    "AL": "Albanien",
-    "DZ": "Algeriet",
-    "AS": "Amerikansk Samoa",
-    "AD": "Andorra",
-    "AO": "Angola",
-    "AI": "Anguilla",
-    "AQ": "Antarktika (Antarktis)",
-    "AG": "Antigua og Barbuda",
-    "AR": "Argentina",
-    "AM": "Armenien",
-    "AW": "Aruba",
-    "AU": "Australien",
-    "AZ": "Aserbajdsjan",
-    "BS": "Bahamas",
-    "BH": "Bahrain",
-    "BD": "Bangladesh",
-    "BB": "Barbados",
-    "BE": "Belgien",
-    "BZ": "Belize",
-    "BJ": "Benin",
-    "BM": "Bermuda",
-    "BT": "Bhutan",
-    "BO": "Bolivia",
-    "BA": "Bosnien-Hercegovina",
-    "BW": "Botswana",
-    "BV": "Bouvetøen",
-    "BR": "Brasilien",
-    "IO": "British Indian Ocean Territory",
-    "BN": "Brunei",
-    "BG": "Bulgarien",
-    "BF": "Burkina Faso",
-    "MM": "Burma",
-    "BI": "Burundi",
-    "KH": "Cambodja",
-    "CM": "Cameroun",
-    "CA": "Canada",
-    "KY": "Caymanøerne",
-    "CF": "Centralafrikanske Republik",
-    "CL": "Chile",
-    "CX": "Juleøen",
-    "CC": "Cocosøerne",
-    "CO": "Colombia",
-    "KM": "Comorerne",
-    "CG": "Congo",
-    "CD": "Demokratiske Republik Congo",
-    "CK": "Cookøerne",
-    "CR": "Costa Rica",
-    "CU": "Cuba",
-    "CW": "Curaçao",
-    "CY": "Cypern",
-    "DK": "Danmark",
-    "DJ": "Djibouti",
-    "DM": "Dominica",
-    "DO": "Dominikanske Republik",
-    "EC": "Ecuador",
-    "EG": "Egypten",
-    "CI": "Elfenbenskysten",
-    "SV": "El Salvador",
-    "ER": "Eritrea",
-    "EE": "Estland",
-    "ET": "Etiopien",
-    "FK": "Falklandsøerne",
-    "FJ": "Fiji",
-    "PH": "Filippinerne",
-    "FI": "Finland",
-    "AE": "Forenede Arabiske Emirater",
-    "FR": "Frankrig",
-    "GF": "Fransk Guiana",
-    "PF": "Fransk Polynesien",
-    "TF": "Franske Sydterritorier",
-    "FO": "Færøerne",
-    "GA": "Gabon",
-    "GM": "Gambia",
-    "GE": "Georgien",
-    "GH": "Ghana",
-    "GI": "Gibraltar",
-    "GD": "Grenada",
-    "GR": "Grækenland",
-    "GL": "Grønland",
-    "GP": "Guadeloupe",
-    "GU": "Guam",
-    "GT": "Guatemala",
-    "GG": "Guernsey",
-    "GN": "Guinea",
-    "GW": "Guinea-Bissau",
-    "GY": "Guyana",
-    "HT": "Haiti",
-    "HM": "Heard-øen og McDonald-øerne",
-    "HN": "Honduras",
-    "HK": "Hongkong",
-    "BY": "Hviderusland",
-    "IM": "Isle of Man",
-    "IN": "Indien",
-    "ID": "Indonesien",
-    "IQ": "Irak",
-    "IR": "Iran",
-    "IE": "Irland",
-    "IS": "Island",
-    "IL": "Israel",
-    "IT": "Italien",
-    "JM": "Jamaica",
-    "JP": "Japan",
-    "JE": "Jersey",
-    "VG": "Britiske Jomfruøer",
-    "VI": "Amerikanske Jomfruøer",
-    "JO": "Jordan",
-    "BQ": "Nederlandske Antiller",
-    "CV": "Kap Verde",
-    "KZ": "Kasakhstan",
-    "KE": "Kenya",
-    "CN": "Kina",
-    "KG": "Kirgisistan",
-    "KI": "Kiribati",
-    "HR": "Kroatien",
-    "KW": "Kuwait",
-    "LA": "Laos",
-    "LV": "Letland",
-    "LS": "Lesotho",
-    "LB": "Libanon",
-    "LR": "Liberia",
-    "LY": "Libyen",
-    "LI": "Liechtenstein",
-    "LT": "Litauen",
-    "LU": "Luxembourg",
-    "MO": "Macao",
-    "MG": "Madagaskar",
-    "MK": "Nordmakedonien",
-    "MW": "Malawi",
-    "MY": "Malaysia",
-    "MV": "Maldiverne",
-    "ML": "Mali",
-    "MT": "Malta",
-    "MA": "Marokko",
-    "MH": "Marshalløerne",
-    "MQ": "Martinique",
-    "MR": "Mauretanien",
-    "MU": "Mauritius",
-    "YT": "Mayotte",
-    "MX": "Mexico",
-    "FM": "Mikronesien",
-    "MD": "Moldova",
-    "MC": "Monaco",
-    "MN": "Mongoliet",
-    "ME": "Montenegro",
-    "MS": "Montserrat",
-    "MZ": "Mozambique",
-    "NA": "Namibia",
-    "NR": "Nauru",
-    "NL": "Holland",
-    "NP": "Nepal",
-    "NZ": "New Zealand",
-    "NI": "Nicaragua",
-    "NE": "Niger",
-    "NG": "Nigeria",
-    "NU": "Niue",
-    "KP": "Nordkorea",
-    "MP": "Nordmarianerne",
-    "NF": "Norfolk Island",
-    "NO": "Norge",
-    "NC": "Ny Kaledonien",
-    "OM": "Oman",
-    "PK": "Pakistan",
-    "PW": "Palau",
-    "PS": "Palæstina",
-    "PA": "Panama",
-    "PG": "Papua Ny Guinea",
-    "PY": "Paraguay",
-    "PE": "Peru",
-    "PN": "Pitcairn",
-    "PL": "Polen",
-    "PT": "Portugal",
-    "PR": "Puerto Rico",
-    "QA": "Qatar",
-    "RE": "Réunion",
-    "RO": "Rumænien",
-    "RU": "Rusland",
-    "RW": "Rwanda",
-    "SH": "Sankt Helena",
-    "BL": "Saint Barthélemy",
-    "KN": "Saint Kitts og Nevis",
-    "LC": "Saint Lucia",
-    "MF": "Saint Martin",
-    "PM": "Saint-Pierre og Miquelon",
-    "VC": "Saint Vincent og Grenadinerne",
-    "SB": "Salomonøerne",
-    "WS": "Samoa",
-    "SM": "San Marino",
-    "ST": "São Tomé og Príncipe",
-    "SA": "Saudi-Arabien",
-    "SN": "Senegal",
-    "RS": "Serbien",
-    "SC": "Seychellerne",
-    "SL": "Sierra Leone",
-    "SG": "Singapore",
-    "SX": "Sint Maarten",
-    "SK": "Slovakiet",
-    "SI": "Slovenien",
-    "SO": "Somalia",
-    "ES": "Spanien",
-    "LK": "Sri Lanka",
-    "GB": "Storbritannien",
-    "SD": "Sudan",
-    "SR": "Surinam",
-    "SJ": "Svalbard og Jan Mayen (Norge)",
-    "SE": "Sverige",
-    "CH": "Schweiz",
-    "SZ": "Swaziland",
-    "SY": "Syrien",
-    "ZA": "Sydafrika",
-    "GS": "South Georgia og South Sandwich Islands",
-    "KR": "Sydkorea",
-    "SS": "Sydsudan",
-    "TW": "Taiwan (Republikken Kina)",
-    "TJ": "Tadsjikistan",
-    "TZ": "Tanzania",
-    "TH": "Thailand",
-    "TG": "Togo",
-    "TK": "Tokelau",
-    "TO": "Tonga",
-    "TT": "Trinidad og Tobago",
-    "TD": "Tchad",
-    "CZ": "Tjekkiet",
-    "TN": "Tunesien",
-    "TR": "Tyrkiet",
-    "TM": "Turkmenistan",
-    "TC": "Turks- og Caicosøerne",
-    "DE": "Tyskland",
-    "TV": "Tuvalu",
-    "UG": "Uganda",
-    "UA": "Ukraine",
-    "HU": "Ungarn",
-    "UY": "Uruguay",
-    "US": "USA",
-    "UM": "USA's ydre småøer",
-    "UZ": "Usbekistan",
-    "VU": "Vanuatu",
-    "VA": "Vatikanstaten",
-    "VE": "Venezuela",
-    "EH": "Vestsahara",
-    "VN": "Vietnam",
-    "WF": "Wallis og Futuna",
-    "YE": "Yemen",
-    "ZM": "Zambia",
-    "ZW": "Zimbabwe",
-    "GQ": "Ækvatorialguinea",
-    "AT": "Østrig",
-    "TL": "Østtimor",
-    "AX": "Ålandsøerne"
-  },
-  "language": {
-    "de": "tysk",
-    "hi": "hindi",
-    "fil": "filippinsk",
-    "lt": "litauisk",
-    "hr": "kroatisk",
-    "lv": "lettisk",
-    "hu": "ungarsk",
-    "zh-CN": "kinesisk",
-    "uk": "ukrainsk",
-    "id": "Indonesian",
-    "ur": "urdu",
-    "ml": "malayalam",
-    "mr": "marathisk",
-    "ms": "malajisk",
-    "el": "græsk",
-    "en": "engelsk",
-    "eo": "esperanto",
-    "is": "islandsk",
-    "it": "italiensk",
-    "am": "amharisk",
-    "chr": "cherokee",
-    "iw": "Hebrew",
-    "es": "spansk",
-    "et": "estisk",
-    "eu": "baskisk",
-    "ar": "arabisk",
-    "pt-PT": "portugisisk",
-    "vi": "vietnamesisk",
-    "ja": "japansk",
-    "ro": "rumænsk",
-    "en-GB": "engelsk",
-    "nl": "hollandsk",
-    "no": "norsk",
-    "fi": "finsk",
-    "ru": "russisk",
-    "bg": "bulgarsk",
-    "bn": "bengali",
-    "fr": "fransk",
-    "sk": "slovakisk",
-    "sl": "slovensk",
-    "ca": "catalansk",
-    "sr": "serbisk",
-    "kn": "kannada",
-    "sv": "svensk",
-    "ko": "koreansk",
-    "sw": "swahili",
-    "zh_TW": "kinesisk",
-    "pt_BR": "portugisisk",
-    "ta": "tamil",
-    "gu": "gujarati",
-    "cs": "tjekkisk",
-    "te": "telugu",
-    "th": "thai",
-    "cy": "walisisk",
-    "pl": "polsk",
-    "da": "dansk",
-    "tr": "tyrkisk",
-    "pt": "portugisisk"
-  }
 }

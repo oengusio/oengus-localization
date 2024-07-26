@@ -196,7 +196,6 @@
             "title": "Planowane funkcje"
         },
         "sponsors": {
-            "esa": "Strona oengus.io jest zarządzana przez <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>",
             "title": "Sponsorzy"
         },
         "starts": "Zaczyna się {{duration}}",

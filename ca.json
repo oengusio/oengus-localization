@@ -688,8 +688,7 @@
         },
         "starts": "Comença {{duration}}",
         "sponsors": {
-            "title": "Anunciants",
-            "esa": "oengus.io és allotjat per la <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>"
+            "title": "Anunciants"
         },
         "plannedFeatures": {
             "1": "Propostes cooperatives/carreres",

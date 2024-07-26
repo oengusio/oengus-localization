@@ -182,8 +182,7 @@
         },
         "welcomeTitle": "Oengusへようこそ!",
         "sponsors": {
-            "title": "スポンサー",
-            "esa": "oengus.io は <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a> によって運営されています"
+            "title": "スポンサー"
         },
         "submissions_close": "{{duration}} 応募締め切り"
     },

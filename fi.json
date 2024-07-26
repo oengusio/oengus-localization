@@ -852,7 +852,6 @@
     "homepage": {
         "sponsors": {
             "title": "Sponsorit",
-            "esa": "Oengusta ylläpitää <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>",
             "patreon": {
                 "but_patreon": "Oengus on täysin ilmainen kaikille, kiitos {{patrons}}!",
                 "see_footer": "Me ylpeästi esitellään patronit jokaisen sivun lopussa!",

@@ -707,8 +707,7 @@
         },
         "starts": "Inizia {{duration}}",
         "sponsors": {
-            "title": "Sponsor",
-            "esa": "oengus.io è ospitato da <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>"
+            "title": "Sponsor"
         },
         "plannedFeatures": {
             "1": "Proposte di gare / run in co-op",

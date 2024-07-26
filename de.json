@@ -192,8 +192,7 @@
         },
         "welcomeTitle": "Willkommen bei Oengus!",
         "sponsors": {
-            "title": "Sponsors",
-            "esa": "oengus.io wird von der <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a> gehostet"
+            "title": "Sponsors"
         }
     },
     "login": {

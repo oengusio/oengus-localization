@@ -176,8 +176,7 @@
         },
         "starts": "Αρχίζει στις {{duration}}",
         "sponsors": {
-            "title": "Σπόνσορες",
-            "esa": "Το oengus.io λειτουργεί υπό την αιγίδα του <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>"
+            "title": "Σπόνσορες"
         },
         "plannedFeatures": {
             "1": "Υποβολές Coop/races",

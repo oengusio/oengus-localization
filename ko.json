@@ -1,7 +1,6 @@
 {
     "homepage": {
         "sponsors": {
-            "esa": "oengus.io는 <a href=\"https://esamarathon.com/\" target=\"_blank\">European Speedrunner Assembly</a>를 통해 운영되고 있습니다",
             "title": "스폰서"
         },
         "starts": "{{duration}} 시작",
