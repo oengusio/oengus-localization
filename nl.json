@@ -56,7 +56,13 @@
         "join": "Deelnemen",
         "save": "Opslaan",
         "sendTweet": "Verstuur tweet",
-        "submit": "Verzenden"
+        "submit": "Verzenden",
+        "share": "Delen",
+        "shareMastodon": "Deel op mastodon",
+        "login": "log-in",
+        "create": "Aanmaken",
+        "edit": "Edit",
+        "delete": "Verwijder"
     },
     "alert": {
         "category": {
@@ -149,7 +155,8 @@
             "login": {
                 "disabledAccount": "Jouw account is uitgeschakeld. Als je deze weer wil gebruiken, contacteer een administrator.",
                 "error": "Er is een fout opgetreden tijdens de authenticatie. Probeer het opnieuw of contacteer een administrator.",
-                "usernameExists": "De gebruikersnaam die aan het account vastzit waarmee je probeert in te loggen bestaat al. Check even of je niet al een Oengus profiel gecreëerd hebt met een andere login methode. Als je denkt dat dit foutief is, neem dan contact op met een administrator."
+                "usernameExists": "De gebruikersnaam die aan het account vastzit waarmee je probeert in te loggen bestaat al. Check even of je niet al een Oengus profiel gecreëerd hebt met een andere login methode. Als je denkt dat dit foutief is, neem dan contact op met een administrator.",
+                "noAccountFound": "Account niet gevonden, registreer een nieuw account of synchroniseer met een bestaand account."
             },
             "sync": {
                 "alreadySynced": "Foutmelding: Dit account wordt al gebruikt",
@@ -159,6 +166,10 @@
                 "error": "Fout tijdens het bijwerken van gebruikers data",
                 "success": "Gebruikers data bijgewerkt"
             }
+        },
+        "generic": {
+            "validationError": "Er ging iets mis, controleer op errors. Contacteer ons in discord als dit probleem aanhoud.",
+            "clipboardOk": "Gekopieerd naar uw klembord!"
         }
     },
     "calendar": {
@@ -223,7 +234,13 @@
         },
         "welcomeTitle": "Welkom bij Oengus!",
         "sponsors": {
-            "title": "Sponsoren"
+            "title": "Sponsoren",
+            "patreon": {
+                "nobody": "Oengus heeft geen sponsors!",
+                "but_patreon": "Dankzij onze {{patrons}} is Oengus gratis te gebruiken voor iedereen!",
+                "patrons": "patrons",
+                "see_footer": "Met trots presenteren wij onze patrons aan het einde van iedere pagina!"
+            }
         },
         "submissions_close": "Submissies sluiten {{duration}}"
     },
@@ -232,7 +249,18 @@
         "provider": {
             "discord": "Log in met Discord",
             "twitch": "Log in met Twitch",
-            "google": "Login met Google"
+            "google": "Login met Google",
+            "title": "Log-in met een provider"
+        },
+        "2fa": {
+            "label": "Twee-staps verificatie code"
+        },
+        "title": "Log-in op uw Oengus account",
+        "forgotPass": "Wachtwoord vergeten?",
+        "button": "Log-in",
+        "password": {
+            "hide": "Verberg wachtwoord",
+            "show": "Maak wachtwoord zichtbaar"
         }
     },
     "marathon": {
@@ -366,7 +394,9 @@
             "settings": "Instellingen",
             "submitRuns": "Runs voorleggen",
             "tracker": "Tracker",
-            "viewSubmissions": "Submissions bekijken"
+            "viewSubmissions": "Submissions bekijken",
+            "schedules": "Schemas",
+            "manageSchedules": "Beheer schemas"
         },
         "new": {
             "description": "De volgende informatie is verplicht om een marathon aan te maken. Na dit proces kan je meer details aanpassen.",
@@ -387,11 +417,14 @@
                     "addRun": "Run toevoegen",
                     "addSetupBlock": "Voeg setup block toe",
                     "alreadyPublished": "Schema is al gepubliceerd",
-                    "publish": "Schema publiceren"
+                    "publish": "Schema publiceren",
+                    "published": "Schema is gepubliceerd! De veranderingen zijn zichtbaar over 2 tot 5 minuten!"
                 },
                 "help": {
                     "dragAndDrop": "Je kan de pijltjes op elke regel gebruiken om een run aan het schema toe te voegen of te verwijderen. Je kan elke regel slepen door de 3 lijntjes te gebruiken",
-                    "save": "Druk op \"Opslaan\" om een concept op te slaan of om het gepubliceerde schema bij te werken. Druk op \"schema publiceren\" om het schema live te publiceren. Waarschuwing: Wanneer het schema is gepubliceerd, zal de eind-datum automatisch herberekend worden bij elke schema update."
+                    "save": "Druk op \"Opslaan\" om een concept op te slaan of om het gepubliceerde schema bij te werken. Druk op \"schema publiceren\" om het schema live te publiceren. Waarschuwing: Wanneer het schema is gepubliceerd, zal de eind-datum automatisch herberekend worden bij elke schema update.",
+                    "patronNudge": "Marathons gemaakt door mensen die Oengus ondersteunen op Patreon hebben de kracht om meer dan een schema aan te maken. Als U ook meerdere schema's wilt vragen wij u vriendelijk om Oengus te steunen op Patreon.",
+                    "setupBlock": "Laat leeg voor standaard tekst"
                 },
                 "schedule": "Schema",
                 "selectedRuns": "Geselecteerde runs",
@@ -408,7 +441,38 @@
                     "title": "Het kan 2 tot 5 minuten na publicatie van het schema voordat het te zien is op de website."
                 },
                 "markdown": "Je kan generieke Markdown syntax(**bold**, _italic_, and [link name](https://oengus.io/)) in het spel en categorie velden gebruiken.",
-                "hideCompleteUsers": "Laat gebruikers niet zien als zij geen runs meer hebben in \"Geselecteerde runs\""
+                "hideCompleteUsers": "Laat gebruikers niet zien als zij geen runs meer hebben in \"Geselecteerde runs\"",
+                "overview": {
+                    "title": "Beheer bestaande of {{create-new}}",
+                    "create-new": "maak een nieuw schema aan",
+                    "scheduleHeader": "Uw schema's:",
+                    "nothingFound": "Geen schema's gevonden"
+                },
+                "settings": {
+                    "name": {
+                        "error": {
+                            "max": "Schema naam is te lang",
+                            "pattern": "Schema naam heeft tekens die niet toegestaan zijn",
+                            "min": "Schema naam is te kort",
+                            "required": "Schema naam is moet ingevuld zijn"
+                        },
+                        "label": "Schema naam"
+                    },
+                    "slug": {
+                        "error": {
+                            "exists": "U heeft al een schema met deze slug",
+                            "required": "Een slug moet ingevuld zijn",
+                            "max": "De slug is te lang",
+                            "min": "De slug is te kort",
+                            "pattern": "De slug heeft tekens die niet toegestaan zijn"
+                        },
+                        "label": "Url-slug"
+                    },
+                    "customLabel": "Aangepast label",
+                    "createTitle": "Maak een nieuw schema aan",
+                    "editTitle": "In bewerking: {{scheduleName}}"
+                },
+                "plsUseTheNewUi": "U bent op dit moment de oude beheer interface aan het gebruiken. Wij raden U aan om de interface gemarkeerd als \"new\" te gebruiken voor een betere ervaring!"
             },
             "nextRun": "Volgende run {{duration}}",
             "setupBlock": "Setup block",
@@ -930,7 +994,7 @@
         "about": "Over",
         "bugtracker": "Meld fouten en suggesties",
         "createMarathon": "Nieuwe Marathon",
-        "discord": "Word lid van de officiele Discord server",
+        "discord": "Word lid van de Oengus Discord server",
         "donate": "Doneren",
         "login": {
             "disclaimer": "Waarschuwing: Als je al een profiel hebt op Oengus, wees er zeker van dat je inlogt met een extern account dat al is gesynchroniseerd met je profiel. Anders wordt er een nieuw profiel gemaakt",
@@ -951,7 +1015,12 @@
         "sourceCode": "Broncode",
         "patrons": "Onze patrons",
         "mastodon": "Volg ons op Mastodon",
-        "displayNameNotification": "Hey! Het lijkt er op dat jij geen display naam op jouw profiel hebt. Je kan deze in je instellingen instellen!"
+        "displayNameNotification": "Hey! Het lijkt er op dat jij geen display naam op jouw profiel hebt. Je kan deze in je instellingen instellen!",
+        "register": "Registreer",
+        "email-verification": {
+            "message": "Hoi! Het lijkt er op dat uw e-mail adres not niet geverifieerd is. Gebruikers met een ongeverifieerde e-mail hebben de kans om verwijdert te worden in de toekomst.",
+            "request-btn": "Vraag een nieuwe verificatie aan"
+        }
     },
     "user": {
         "profile": {
@@ -995,7 +1064,7 @@
                     "required": "Email is verplicht"
                 },
                 "label": "Email",
-                "help": "Jouw email adres wordt gebruikt om de profielfoto van <a href=\"https://gravatar.com/\" target=\"_blank\">Gravatar</a> te halen en zal alleen werken met een PG rating of lager."
+                "help": "Jouw email adres, word geheim gehouden, maar wordt ook gebruikt om de profielfoto van <a href=\"https://gravatar.com/\" target=\"_blank\">Gravatar</a> te halen en zal alleen werken met een foto die een PG rating of lager heeft."
             },
             "general": "Algemene informatie",
             "new": {
@@ -1058,7 +1127,7 @@
                 "no_results": "Geen voornaamswoorden gevonden",
                 "hint": "Zoek naar een voornaamswoord, voorbeeld: zij/hun",
                 "title": "Pronouns",
-                "help": "Voornaamswoord data wordt van <a href=\"https://en.pronouns.page/\" target=\"_blank\">deze pronouns pagina</a> gehaald. Om meer te leren van deze website en bij te dragen, bezoek alsjeblieft hun website"
+                "help": "Voornaamswoord data wordt van <a href=\"https://en.pronouns.page/\" target=\"_blank\">deze pronouns pagina</a> gehaald. Om meer te leren van deze website en bij te dragen, bezoek alsjeblieft hun website."
             },
             "connections": {
                 "username": "Gebruikersnaam of soortgelijk",
@@ -1076,13 +1145,32 @@
                 "help": "Als je een alias gebruikt of iets anders wilt dan je gebruikersnaam, kun je dit veld gebruiken om in te stellen hoe je wordt weergegeven op Oengus.",
                 "error": {
                     "min": "Schermnaam is te kort, ten minste 1 karakter is benodigd",
-                    "max": "Schermnaam is te lang, maximaal 32 karakters."
+                    "max": "Schermnaam is te lang, maximaal 32 karakters.",
+                    "required": "Display naam moet ingevuld zijn"
                 },
                 "label": "Schermnaam"
             },
             "profilePicture": {
                 "label": "Profielfoto",
                 "button": "Zet profiel foto"
+            },
+            "mfa": {
+                "disableButton": "Zet twee-staps verificatie uit",
+                "modal": {
+                    "tagline": "Maak u klaar om uw account beter te beveiligen!",
+                    "title": "Configureer twee-staps verificatie",
+                    "manualCode": "U kunt ook deze code gebruiken: {{code}}",
+                    "imageTop": "Scan de QR code met uw authenticatie app en vul het nummer in in de input box hier beneden"
+                },
+                "enableButton": "Zet twee-staps verificatie aan",
+                "label": "Twee-staps verificatie"
+            },
+            "password": {
+                "error": {
+                    "required": "Wachtwoord moet ingevuld zijn"
+                },
+                "changeLabel": "Verander wachtwoord",
+                "label": "Wachtwoord"
             }
         }
     },
@@ -1439,5 +1527,27 @@
     },
     "announcements": {
         "twitterRemoval": "Hey, wij gaan Twitter binnenkort verwijderen als login-optie. Zorg ervoor dat je je Twitch of Discord account gelinkt heb aan je Oengus account om te voorkomen dat je buitengesloten wordt."
+    },
+    "auth": {
+        "passwordReset": {
+            "title": "Reset uw wachtwoord!",
+            "requested": "Een wachtwoord reset link is naar uw e-mail gestuurd. Check alstublieft uw e-mail voor verdere instructies.",
+            "success": "Uw wachtwoord is opnieuw ingesteld. U kunt nu inloggen met dit nieuwe wachtwoord.",
+            "tokenMissing": "Het token voor wachtwoord reset is missende, klik de link in de email opnieuw.",
+            "submit": "Reset wachtwoord!",
+            "instructions": "Om uw wachtwoord te resetten moet u uw e-mail invullen.\nAls uw e-mail bekend is in ons systeem krijgt u een link met verdere instructies.",
+            "request": "Vraag een wachtwoord reset aan",
+            "error": {
+                "EMAIL_VERIFICATION_REQUIRED": "Verifieer uw email voordat u deze feature kan gebruiken.",
+                "PASSWORD_RESET_CODE_INVALID": "Het wachtwoord reset token is niet valide, vraag een nieuwe reset aan."
+            }
+        },
+        "emailVerificationRequired": "U moet uw e-mail adres verifiëren voordat u deze feature kan gebruiken."
+    },
+    "register": {
+        "thank_you": "Dank u wel!",
+        "email_sent": "We hebben een e-mail naar u gestuurd. Klik op de link in deze email om uw e-mail adres te valideren.",
+        "login_hint": "U kunt ook al {{login-link}} mocht u dat willen.",
+        "submit": "Registreer!"
     }
 }
