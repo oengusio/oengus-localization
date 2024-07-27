@@ -417,7 +417,8 @@
                     "addRun": "Añadir run",
                     "addSetupBlock": "Añadir bloque de setup",
                     "alreadyPublished": "El horario ya ha sido publicado",
-                    "publish": "Publicar horario"
+                    "publish": "Publicar horario",
+                    "published": "¡El horario ha sido publicado! ¡La página reflejará los cambios en 2-5 minutos!"
                 },
                 "help": {
                     "dragAndDrop": "Usa las flechas en cada línea para añadir o borrar un run del horario. Puedes arrastrar y soltar líneas en el horario usando los iconos",
@@ -470,7 +471,8 @@
                     "scheduleHeader": "Tus horarios:",
                     "nothingFound": "No hay horarios",
                     "title": "Gestionar existente o {{create-new}}"
-                }
+                },
+                "plsUseTheNewUi": "Actualmente estás utilizando la antigua interfaz de usuario para administrar los horarios. ¡Por favor, cambia la página marcada como \"nueva\" para una mejor experiencia!"
             },
             "nextRun": "Próximo run {{duration}}",
             "setupBlock": "Bloque de reserva",
