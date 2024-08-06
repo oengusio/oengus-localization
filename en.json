@@ -503,7 +503,8 @@
         "markdown": "You can use basic Markdown syntax (**bold**, _italic_, and [link name](https://oengus.io/)) in the game and category fields.",
         "customData": {
           "inputText": "Custom data stored as text, this allows you to add \"hidden\" data to this schedule line",
-          "text": "Hide/Show custom data fields"
+          "text": "Hide/Show custom data fields",
+          "newTick": "Show/Hide settings for ALL rows"
         },
         "cacheWarning": {
           "header": "READ THIS CAREFULLY",
