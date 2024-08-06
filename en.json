@@ -452,7 +452,7 @@
         "title": "Export schedule"
       },
       "management": {
-        "plsUseTheNewUi": "You are currently using the old UI for managing schedules. Please switch page marked as \"new\" for a better experience!",
+        "plsUseTheNewUi": "You are currently using the old UI for managing schedules. Please switch to page marked as \"new\" for a better experience!",
         "overview": {
           "title": "Manage existing or {{create-new}}",
           "create-new": "create a new schedule",
