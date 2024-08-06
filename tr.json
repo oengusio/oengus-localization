@@ -12,7 +12,8 @@
                     "publish": "Programı yayınla",
                     "alreadyPublished": "Program zaten yayınlandı",
                     "addSetupBlock": "Kurulum bloğu ekle",
-                    "addRun": "Oyun ekle"
+                    "addRun": "Oyun ekle",
+                    "published": "Program yayınlandı! Sayfa 2-5 dakika içinde değişiklikleri yansıtacaktır!"
                 },
                 "title": "Program yönetimi",
                 "selectedRuns": "Seçili runlar",
@@ -59,7 +60,8 @@
                         }
                     },
                     "customLabel": "Özel etiket"
-                }
+                },
+                "plsUseTheNewUi": "Şu anda programları yönetmek için eski kullanıcı arayüzünü kullanıyorsunuz. Daha iyi bir deneyim için lütfen \"yeni\" olarak işaretlenmiş sayfaya geçin!"
             },
             "export": {
                 "title": "Programı dışa aktar",
@@ -755,7 +757,13 @@
         },
         "starts": "{{duration}} başlıyor",
         "sponsors": {
-            "title": "Sponsorlar"
+            "title": "Sponsorlar",
+            "patreon": {
+                "nobody": "Oengus'un hiç sponsoru yok!",
+                "patrons": "patrons",
+                "but_patreon": "Oengus, {{patrons}} sayesinde herkesin kullanımı için tamamen ücretsizdir!",
+                "see_footer": "Müşterilerimizi her sayfanın altında gururla sergiliyoruz!"
+            }
         },
         "plannedFeatures": {
             "1": "Kooperatif/yarış başvuruları",
@@ -1043,7 +1051,7 @@
         "pt": "Portekizce"
     },
     "navbar": {
-        "discord": "Resmi Discord sunucusuna katılın",
+        "discord": "Oengus Discord sunucusuna katılın",
         "register": "Kayıt ol",
         "login": {
             "twitter": "Twitter'la giriş yap",
