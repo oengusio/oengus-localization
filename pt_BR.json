@@ -935,7 +935,8 @@
                 },
                 "customData": {
                     "inputText": "Dados personalizados armazenados como texto, permitindo adicionar dados \"ocultos\" a esta linha de agendamento",
-                    "text": "Ocultar/Mostrar campos de dados personalizados"
+                    "text": "Ocultar/Mostrar campos de dados personalizados",
+                    "newTick": "Mostrar/ocultar configurações para TODAS as linhas"
                 },
                 "overview": {
                     "title": "Gerenciar existente ou {{create-new}}",
