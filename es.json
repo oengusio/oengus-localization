@@ -431,7 +431,8 @@
                 "title": "Gestión de horarios",
                 "customData": {
                     "text": "Ocultar/Mostrar campos de datos personalizados",
-                    "inputText": "Los datos personalizados son almacenados como texto, esto le permite añadir datos \"ocultos\" a esta línea del horario"
+                    "inputText": "Los datos personalizados son almacenados como texto, esto le permite añadir datos \"ocultos\" a esta línea del horario",
+                    "newTick": "Mostrar/ocultar los ajustes para TODAS las filas"
                 },
                 "cacheWarning": {
                     "line3": "El botón se habilitará en 5 segundos",
