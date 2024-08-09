@@ -29,7 +29,8 @@
                 "markdown": "Oyun ve kategori alanlarında temel Markdown sözdizimini (**bold**, _italic_ ve [link name](https://oengus.io/)) kullanabilirsiniz.",
                 "customData": {
                     "inputText": "Metin olarak saklanan özel veriler; bu, bu zamanlama satırına \"gizli\" verileri eklemenizi sağlar",
-                    "text": "Özel veri alanlarını Gizle/Göster"
+                    "text": "Özel veri alanlarını Gizle/Göster",
+                    "newTick": "TÜM satırlar için ayarları Göster/Gizle"
                 },
                 "overview": {
                     "title": "Var olanı yönetin veya {{create-new}}",
