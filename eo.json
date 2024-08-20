@@ -1,1 +1,292 @@
-{}
+{
+    "marathon": {
+        "donations": {
+            "table": {
+                "comment": "Komento",
+                "date": "Dato",
+                "amount": "Kvanto",
+                "name": "Nomo"
+            },
+            "title": "Donacoj"
+        },
+        "menu": {
+            "donate": "Donaci",
+            "home": "Hejmo",
+            "overview": "Superrigardo",
+            "settings": "Agordoj",
+            "donations": "Donacoj"
+        },
+        "submit": {
+            "table": {
+                "categories": "Kategorioj",
+                "actions": "Agoj",
+                "games": "Ludoj"
+            },
+            "category": {
+                "type": {
+                    "label": "Speco"
+                }
+            },
+            "game": {
+                "console": {
+                    "label": "Konzolo"
+                }
+            },
+            "availabilities": {
+                "from": "De",
+                "actions": "Agoj",
+                "to": "Al"
+            },
+            "requirements": {
+                "discord": {
+                    "syncNotice": [
+                        null,
+                        null,
+                        "."
+                    ]
+                }
+            },
+            "details": "Detaloj",
+            "submissions": "Submetoj"
+        },
+        "submissions": {
+            "table": {
+                "console": "Konzolo",
+                "question": "Demando",
+                "actions": "Agoj",
+                "answer": "Respondo",
+                "category": "Kategorio",
+                "type": "Speco",
+                "marathon": "Maratono",
+                "date": "Dato",
+                "game": "Ludo",
+                "status": "Stato"
+            },
+            "tabs": {
+                "submissions": "Submetoj",
+                "answers": "Respondoj"
+            },
+            "title": "Submetoj"
+        },
+        "donate": {
+            "comment": {
+                "label": "Komento"
+            },
+            "incentives": {
+                "bid": {
+                    "new": "(Nova)"
+                },
+                "header": {
+                    "amount": "Kvanto",
+                    "action": "Ago"
+                }
+            },
+            "title": "Donaci",
+            "nickname": {
+                "label": "Kromnomo"
+            },
+            "amount": {
+                "label": "Kvanto de donaco"
+            }
+        },
+        "home": {
+            "language": "Lingvo",
+            "location": "Loko",
+            "from": "De",
+            "to": "Al"
+        },
+        "incentives": {
+            "management": {
+                "table": {
+                    "game": "Ludo",
+                    "actions": "Agoj",
+                    "description": "Priskribo",
+                    "goal": "Celo",
+                    "locked": "Ŝlosita",
+                    "progress": "Progreso"
+                }
+            }
+        },
+        "schedule": {
+            "title": "Plano",
+            "table": {
+                "actions": "Agoj",
+                "time": "Tempo",
+                "category": "Kategorio",
+                "console": "Konzolo",
+                "type": "Speco",
+                "game": "Ludo"
+            },
+            "management": {
+                "schedule": "Plano"
+            },
+            "type": {
+                "OTHER": "Alia"
+            }
+        },
+        "selection": {
+            "status": {
+                "ALL": "Ĉiuj",
+                "BACKUP": "Savkopio",
+                "VALIDATED": "Akceptita"
+            },
+            "statistics": {
+                "title": "Statistikoj"
+            }
+        },
+        "settings": {
+            "privacy": {
+                "public": "Publika",
+                "private": "Privata"
+            },
+            "customFields": {
+                "action": {
+                    "title": "Ago"
+                },
+                "required": {
+                    "title": "Deviga"
+                },
+                "type": {
+                    "option": {
+                        "text": "Teksto",
+                        "select": "Elekti"
+                    }
+                },
+                "label": {
+                    "title": "Etikedo",
+                    "type": "Speco"
+                }
+            },
+            "location": {
+                "label": "Loko"
+            },
+            "shortname": {
+                "label": "Mallonga nomo"
+            },
+            "tabs": {
+                "general": "Ĝenerala",
+                "submissions": "Submetoj"
+            },
+            "emulatorAuthorized": {
+                "label": "Imitiloj"
+            },
+            "marathonDescription": {
+                "label": "Priskribo"
+            },
+            "country": {
+                "label": "Lando"
+            },
+            "language": {
+                "label": "Lingvo"
+            },
+            "name": {
+                "label": "Nomo"
+            }
+        }
+    },
+    "navbar": {
+        "donate": "Donaci",
+        "about": "Pri",
+        "settings": "Agordoj"
+    },
+    "country": {
+        "AO": "Angolo",
+        "AL": "Albanio",
+        "AF": "Afganio",
+        "DZ": "Alĝerio",
+        "AD": "Andoro"
+    },
+    "global": {
+        "disabled": "Malŝaltita",
+        "enabled": "Ŝaltita"
+    },
+    "login": {
+        "password": {
+            "show": "Malkaŝi pasvorton",
+            "hide": "Kaŝi pasvorton"
+        },
+        "button": "Saluti"
+    },
+    "platform": {
+        "MASTODON": "Mastodon",
+        "SPEEDRUNCOM": "speedrun.com",
+        "TWITTER": "X",
+        "INSTAGRAM": "Instagram",
+        "EMAIL": "Retpoŝto",
+        "YOUTUBE": "YouTube",
+        "TWITCH": "Twitch",
+        "FACEBOOK": "Facebook",
+        "SNAPCHAT": "Snapchat",
+        "DISCORD": "Discord",
+        "PHONE": "Telefonnumero",
+        "NICO": "Nico"
+    },
+    "user": {
+        "settings": {
+            "deletingAccount": {
+                "title": "AVERTO!"
+            },
+            "email": {
+                "label": "Retpoŝta adreso"
+            },
+            "username": {
+                "label": "Salutnomo"
+            },
+            "connections": {
+                "title": "Konektoj"
+            },
+            "pronouns": {
+                "title": "Pronomoj"
+            }
+        },
+        "profile": {
+            "filter": {
+                "status": {
+                    "title": "Stato"
+                }
+            }
+        }
+    },
+    "aboutPage": {
+        "contact": {
+            "title": "Kontakto"
+        },
+        "privacy": {
+            "children": {
+                "title": "Informoj pri infanoj"
+            }
+        },
+        "about": {
+            "title": "Pri"
+        }
+    },
+    "action": {
+        "accept": "Akcepti",
+        "cancel": "Nuligi",
+        "share": "Kunhavigi",
+        "login": "saluti",
+        "create": "Krei",
+        "decline": "Malakcepti",
+        "edit": "Modifi",
+        "delete": "Forviŝi",
+        "join": "Aliĝi",
+        "save": "Konservi",
+        "submit": "Submeti",
+        "confirm": "Konfirmi"
+    },
+    "homepage": {
+        "sponsors": {
+            "title": "Sponsoroj"
+        },
+        "welcomeTitle": "Bonvenon al Oengus!"
+    },
+    "register": {
+        "thank_you": "Dankon!"
+    },
+    "news": {
+        "title": "Novaĵoj"
+    },
+    "calendar": {
+        "now": "Nun"
+    }
+}
