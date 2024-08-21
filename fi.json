@@ -643,7 +643,8 @@
                     "addSetupBlock": "Lisää järjestelytauko",
                     "publish": "Julkaise aikataulu",
                     "alreadyPublished": "Aikataulu on jo julkaistu",
-                    "addRun": "Lisää peli"
+                    "addRun": "Lisää peli",
+                    "published": "Aikataulu on julkaistu! Sivulla muutokset näkyvät 2-5 minuutin kuluttua!"
                 },
                 "selectedRuns": "Valitut pelit",
                 "title": "Aikataulun hallinta",
@@ -655,7 +656,8 @@
                 },
                 "customData": {
                     "inputText": "Mukautettua tietoa, tallennettu tekstina, sallii mahdollisuuden lisätä piilotettua tietoa aikatauluun",
-                    "text": "Piilota/näytä mukautetut tietueet"
+                    "text": "Piilota/näytä mukautetut tietueet",
+                    "newTick": "Näytä/piilota asetukset KAIKILLE riville"
                 },
                 "cacheWarning": {
                     "header": "LUE TÄMÄ VAROVAISESTI",
@@ -695,7 +697,8 @@
                         }
                     },
                     "customLabel": "Mukautettu nimike"
-                }
+                },
+                "plsUseTheNewUi": "Käytät vanhaa ympäristöä aikataulun hallinnoimiseen. Vaihda uuteen ympäristöön, jotta käyttökokemuksesi paranee!"
             },
             "nextRun": "Seuraava peli {{duration}}",
             "timezone": "Päivämäärät ja kellonajat näkyvät paikallisen aikavyöhykkeesi mukaan.",
