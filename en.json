@@ -525,7 +525,7 @@
         "placeholder": "Drop any run from the left table to this one. This text will automatically disappear as soon as one run is in the schedule.",
         "link": "Link",
         "runner": "Runner(s)",
-        "setup": "Setup time",
+        "setup": "Post-run setup time",
         "time": "Time",
         "type": "Type"
       },
