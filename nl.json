@@ -431,7 +431,8 @@
                 "title": "Rooster beheer",
                 "customData": {
                     "text": "Verberg/Toon aangepasta data velden",
-                    "inputText": "Aangepaste gegevens opgeslagen in tekst, dit laat je \"verborgen\" data toevoegen aan deze schema-rij"
+                    "inputText": "Aangepaste gegevens opgeslagen in tekst, dit laat je \"verborgen\" data toevoegen aan deze schema-rij",
+                    "newTick": "Laat alle instellingen zien/verstop alle instellingen"
                 },
                 "cacheWarning": {
                     "line1": "Om ervoor te zorgen dat Oengus niet overbelast wordt is er een cache geïmplementeerd.",
@@ -1160,7 +1161,7 @@
                     "tagline": "Maak u klaar om uw account beter te beveiligen!",
                     "title": "Configureer twee-staps verificatie",
                     "manualCode": "U kunt ook deze code gebruiken: {{code}}",
-                    "imageTop": "Scan de QR code met uw authenticatie app en vul het nummer in in de input box hier beneden"
+                    "imageTop": "Scan de QR code met uw authenticatie app en vul het nummer in op de input box hier beneden"
                 },
                 "enableButton": "Zet twee-staps verificatie aan",
                 "label": "Twee-staps verificatie"
