@@ -473,7 +473,7 @@
                     "nothingFound": "No hay horarios",
                     "title": "Gestionar existente o {{create-new}}"
                 },
-                "plsUseTheNewUi": "Actualmente estás utilizando la antigua interfaz de usuario para administrar los horarios. ¡Por favor, cambia la página marcada como \"nueva\" para una mejor experiencia!"
+                "plsUseTheNewUi": "Actualmente estás utilizando la antigua interfaz de usuario para la gestión de horarios, es inestable y puede fallar. ¡Por favor, cambia a la página marcada como \"nueva\" para una mejor experiencia!"
             },
             "nextRun": "Próximo run {{duration}}",
             "setupBlock": "Bloque de reserva",
@@ -485,7 +485,7 @@
                 "game": "Juego",
                 "placeholder": "Suelta cualquier run de la tabla de la izquierda a esta de aquí. El texto desaparecerá automáticamente tan pronto como haya un run en el horario.",
                 "runner": "Runner(s)",
-                "setup": "Tiempo de preparación",
+                "setup": "Tiempo de preparación tras la carrera",
                 "time": "Tiempo",
                 "type": "Tipo",
                 "link": "Enlaces"
@@ -499,7 +499,7 @@
                 "RACE": "Carrera",
                 "SINGLE": "Run en solitario",
                 "RELAY_RACE": "Carrera de relevos",
-                "RELAY": "Run de relevos"
+                "RELAY": "Carrera de relevos"
             }
         },
         "selection": {
