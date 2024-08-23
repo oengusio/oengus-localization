@@ -904,7 +904,7 @@
                 "estimate": "Estimativa",
                 "placeholder": "Solte qualquer corrida da tabela esquerda para esta. Este texto desaparecerá automaticamente assim que uma corrida estiver no seu agendamento.",
                 "runner": "Corredor(es)",
-                "setup": "Configurar tempo",
+                "setup": "Tempo de configuração pós-execução",
                 "type": "Tipo"
             },
             "management": {
@@ -968,7 +968,7 @@
                     "editTitle": "Editando: {{scheduleName}}",
                     "customLabel": "Rótulo personalizado"
                 },
-                "plsUseTheNewUi": "No momento, você está usando a interface de usuário antiga para gerenciar agendamento. Mude para a página marcada como \"nova\" para ter uma experiência melhor!"
+                "plsUseTheNewUi": "No momento, você está usando a interface antiga para gerenciar agendamentos. Ela é instável e pode falhar. Mude para a página marcada como \"nova\" para uma melhor experiência!"
             },
             "title": "Agendamento",
             "nextRun": "Próxima corrida {{duration}}",
