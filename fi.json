@@ -633,7 +633,7 @@
                 "actions": "Toiminnot",
                 "type": "Tyyppi",
                 "time": "Kellonaika",
-                "setup": "Järjestelyaika",
+                "setup": "Pelin jälkeinen järjestelyaika",
                 "placeholder": "Tipauta mikä tahansa peli vasemmalta tänne. Tämä teksti automaattisesti häviää heti kun yksikin peli on lisätty aikatauluun.",
                 "link": "Linkki"
             },
@@ -698,7 +698,7 @@
                     },
                     "customLabel": "Mukautettu nimike"
                 },
-                "plsUseTheNewUi": "Käytät vanhaa ympäristöä aikataulun hallinnoimiseen. Vaihda uuteen ympäristöön, jotta käyttökokemuksesi paranee!"
+                "plsUseTheNewUi": "Käytät vanhaa ympäristöä aikataulun hallinnoimiseen, se ei välttämättä toimi ja saattaa aiheuttaa ongelmia. Vaihda uuteen ympäristöön, jotta käyttökokemuksesi paranee!"
             },
             "nextRun": "Seuraava peli {{duration}}",
             "timezone": "Päivämäärät ja kellonajat näkyvät paikallisen aikavyöhykkeesi mukaan.",
