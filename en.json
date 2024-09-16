@@ -89,6 +89,7 @@
     "decline": "Decline",
     "edit": "Edit",
     "delete": "Delete",
+    "import": "Import",
     "join": "Join",
     "save": "Save",
     "share": "Share",
@@ -226,15 +227,11 @@
     "v1Link": "Login to Oengus on v1"
   },
   "global": {
-    "ads": {
-      "nag1": "Don't like ads?",
-      "nag2": "Please join our Patreon campaign to help keep Oengus free"
-    },
     "emu": "[Emu]",
-    "adblocker": "Hey there, it seems that you are blocking ads, please turn off your ad blocker on oengus as we rely on ads and donations to survive.",
     "enabled": "Enabled",
     "disabled": "Disabled",
-    "non_select": "None Selected"
+    "non_select": "None Selected",
+    "loading": "Loading..."
   },
   "homepage": {
     "ends": "Ends {{duration}}",
@@ -539,6 +536,18 @@
         "OTHER": "Other",
         "RACE": "Race",
         "SINGLE": "Single run"
+      },
+      "clone": {
+        "title": "Clone schedule!",
+        "help1": "In order to import ***all*** runs from a different schedule you will first need to select one from the list below.",
+        "help2": "Once you have selected a schedule from the dropdown below, please press *Import* to start the import process.",
+        "placeholder": "Select a schedule...",
+        "trigger": "Copy from existing schedule"
+      },
+      "import": {
+        "trigger": "Import schedule from file",
+        "csv": "Import from CSV",
+        "json": "Import from JSON (Horaro)"
       }
     },
     "selection": {
