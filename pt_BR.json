@@ -62,7 +62,8 @@
         "create": "Criar",
         "edit": "Editar",
         "delete": "Excluir",
-        "share": "Compartilhar"
+        "share": "Compartilhar",
+        "import": "Importar"
     },
     "alert": {
         "category": {
@@ -196,7 +197,8 @@
         "emu": "[Emu]",
         "non_select": "Nenhum selecionado",
         "disabled": "Desativado",
-        "enabled": "Ativado"
+        "enabled": "Ativado",
+        "loading": "Carregando…"
     },
     "homepage": {
         "ends": "Termina {{duration}}",
@@ -978,6 +980,18 @@
                 "OTHER": "Outros",
                 "RACE": "Corrida",
                 "SINGLE": "Corrida única"
+            },
+            "clone": {
+                "title": "Clonar agendamento!",
+                "help1": "Para importar ***todas*** as corridas de um agendamento diferente, primeiro será necessário selecionar uma na lista abaixo.",
+                "placeholder": "Escolha uma agenda…",
+                "help2": "Depois de selecionar um agendamento no menu suspenso abaixo, pressione *Importar* para iniciar o processo de importação.",
+                "trigger": "Copiar de uma agenda existente"
+            },
+            "import": {
+                "json": "Importar de um arquivo JSON (Horaro)",
+                "csv": "Importar de um arquivo CSV",
+                "trigger": "Importar agenda de um arquivo"
             }
         },
         "new": {
