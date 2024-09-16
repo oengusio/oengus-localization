@@ -62,7 +62,8 @@
         "edit": "Editar",
         "create": "Creado",
         "delete": "Borrar",
-        "share": "Compartir"
+        "share": "Compartir",
+        "import": "Importar"
     },
     "alert": {
         "category": {
@@ -196,7 +197,8 @@
         "emu": "[Emu]",
         "disabled": "Desactivado",
         "enabled": "Activado",
-        "non_select": "Ninguna seleccionada"
+        "non_select": "Ninguna seleccionada",
+        "loading": "Cargando…"
     },
     "homepage": {
         "ends": "Finaliza {{duration}}",
@@ -495,6 +497,18 @@
                 "SINGLE": "Run en solitario",
                 "RELAY_RACE": "Carrera de relevos",
                 "RELAY": "Carrera de relevos"
+            },
+            "clone": {
+                "placeholder": "Seleccionar un horario...",
+                "trigger": "Copiar de un horario existente",
+                "help1": "Para importar ***todas*** las carreras de un cronograma diferente, primero deberá seleccionar una de la lista a continuación.",
+                "title": "¡Clonar horario!",
+                "help2": "Una vez que haya seleccionado un horario del menú desplegable a continuación, presione *Importar* para iniciar el proceso de importación."
+            },
+            "import": {
+                "trigger": "Importar el horario desde un archivo",
+                "csv": "Importar desde CSV",
+                "json": "Importar desde JSON (Horaro)"
             }
         },
         "selection": {
