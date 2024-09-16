@@ -852,7 +852,6 @@
     "global": {
         "disabled": "Disattivato",
         "enabled": "Attivato",
-        "adblocker": "Hey, sembra che un ad-blocker stia interferendo con la pubblicità, ti preghiamo di disattivarlo su Oengus siccome dipendiamo da pubblicità e donazioni per sopravvivere.",
         "emu": "[Emu]"
     },
     "footer": {

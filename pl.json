@@ -166,15 +166,10 @@
         "text": "Wszystkie czasy są przeliczane na twoją strefę czasową. Wykryta strefa czasowa: {{timezone}}"
     },
     "global": {
-        "ads": {
-            "nag1": "Nie lubisz reklam?",
-            "nag2": "Wspomóż nas na Patreonie aby Oengus pozostał bez reklam"
-        },
         "emu": "[Emulator]",
         "enabled": "Włączony",
         "disabled": "Wyłączony",
-        "non_select": "Brak wybranych elementów",
-        "adblocker": "Cześć, wygląda na to że blokujesz reklamy. Używamy donacji i reklamy aby przetrwać, więc rozważ wyłączenie ad-blocka na Oengusie."
+        "non_select": "Brak wybranych elementów"
     },
     "homepage": {
         "ends": "Kończy się {{duration}}",

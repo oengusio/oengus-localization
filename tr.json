@@ -836,15 +836,10 @@
         }
     },
     "global": {
-        "adblocker": "Selam, görünüşe bakılırsa reklamları engelliyorsunuz, lütfen Oengus'u whitelistinize ekleyin çünkü reklam gelirlerine muhtacız.",
         "emu": "[Emu]",
         "enabled": "Etkin",
         "disabled": "Devre Dışı",
-        "non_select": "Hiçbiri seçilmedi",
-        "ads": {
-            "nag1": "Reklamları sevmiyor musunuz?",
-            "nag2": "Oengus'un özgür kalmasına yardımcı olmak için lütfen Patreon kampanyamıza katılın"
-        }
+        "non_select": "Hiçbiri seçilmedi"
     },
     "footer": {
         "text": "Tüm saatler bulunduğunuz zaman diliminize çevrilmiştir. Algılanan zaman dilimi: {{timezone}}",

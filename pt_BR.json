@@ -196,12 +196,7 @@
         "emu": "[Emu]",
         "non_select": "Nenhum selecionado",
         "disabled": "Desativado",
-        "enabled": "Ativado",
-        "adblocker": "Oi, parece que está bloqueando anúncios. Por favor desative o seu ad blocker no oengus, que é apoiado em anúncios e doações para sobreviver.",
-        "ads": {
-            "nag1": "Não gosta de anúncios?",
-            "nag2": "Junte-se à nossa campanha Patreon para ajudar a manter Oengus gratuito"
-        }
+        "enabled": "Ativado"
     },
     "homepage": {
         "ends": "Termina {{duration}}",

@@ -152,14 +152,9 @@
     },
     "global": {
         "emu": "[Emulator]",
-        "adblocker": "Hallo, es scheint, dass Sie Anzeigen blockieren. Schalten Sie Ihren Werbeblocker bei oengus aus, da wir auf Anzeigen und Spenden angewiesen sind, um zu überleben.",
         "disabled": "Deaktiviert",
         "enabled": "Aktiviert",
-        "non_select": "Nichts ausgewählt",
-        "ads": {
-            "nag1": "Du magst keine Werbung?",
-            "nag2": "Tritt unserer Patreon Kampagne bei, damit Oengus kostenlos bleibt"
-        }
+        "non_select": "Nichts ausgewählt"
     },
     "homepage": {
         "ends": "Endet {{duration}}",

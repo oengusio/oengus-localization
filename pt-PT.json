@@ -1446,14 +1446,9 @@
     },
     "global": {
         "emu": "[Emu]",
-        "adblocker": "Olá, parece que está a bloquear anúncios. Por favor, desative o seu bloqueador de anúncios no oengus, pois dependemos de anúncios e de donativos para sobreviver.",
         "enabled": "Ativado",
         "disabled": "Desativado",
-        "non_select": "Nenhum selecionado",
-        "ads": {
-            "nag1": "Não gosta de anúncios?",
-            "nag2": "Junte-se à nossa campanha no Patreon para ajudar a manter o Oengus livre"
-        }
+        "non_select": "Nenhum selecionado"
     },
     "homepage": {
         "marathons": {

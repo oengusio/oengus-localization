@@ -712,7 +712,6 @@
         "submissions_close": "Enviaments tanquen {{duration}}"
     },
     "global": {
-        "adblocker": "Hola, sembla que estàs bloquejant la publicitat. Si us plau, desactiveu l'adblocker en Oengus, ja que funcionem gràcies a les donacions i els anuncis.",
         "emu": "[Emu]",
         "disabled": "Desactivat",
         "enabled": "Activat",

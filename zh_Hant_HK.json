@@ -148,9 +148,6 @@
     },
     "global": {
         "emu": "[模擬器]",
-        "ads": {
-            "nag1": "移除廣告?"
-        },
         "non_select": "請選擇",
         "enabled": "已啟用",
         "disabled": "已停用"

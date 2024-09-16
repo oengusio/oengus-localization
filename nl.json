@@ -194,14 +194,9 @@
     },
     "global": {
         "emu": "[Emu]",
-        "adblocker": "Hey, het ziet eruit alsof jij ads blokkeert, schakel alsjeblieft je ad blocker uit op oengus aangezien wij afhangen van advertenties en donaties om te overleven.",
         "disabled": "Uitgeschakeld",
         "enabled": "Ingeschakeled",
-        "non_select": "Geen Geselecteerd",
-        "ads": {
-            "nag2": "Doe mee en sluit je aan bij onze Patreon campagne om Oengus gratis te houden",
-            "nag1": "Geen fan van ads?"
-        }
+        "non_select": "Geen Geselecteerd"
     },
     "homepage": {
         "ends": "Eindigt op {{duration}}",

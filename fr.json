@@ -184,14 +184,9 @@
     },
     "global": {
         "emu": "[Emu]",
-        "adblocker": "Salut, il semble que vous bloquiez les publicités, veuillez désactiver votre bloqueur de publicités sur oengus car nous comptons sur les publicités et les dons pour survivre.",
         "disabled": "Désactivé",
         "enabled": "Activé",
-        "non_select": "Aucune sélection",
-        "ads": {
-            "nag1": "Vous n'aimez pas les publicités ?",
-            "nag2": "Rejoignez notre campagne Patreon pour aider à garder Oengus gratuit"
-        }
+        "non_select": "Aucune sélection"
     },
     "homepage": {
         "ends": "Se termine {{duration}}",

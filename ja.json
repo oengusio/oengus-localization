@@ -148,8 +148,7 @@
         "emu": "[エミュ]",
         "non_select": "選択されていません",
         "disabled": "無効",
-        "enabled": "有効",
-        "adblocker": "アドブロッカーをお使いですか？Oengusは広告や寄付によって運営されているので、アドブロッカーの無効化をお願いします。"
+        "enabled": "有効"
     },
     "homepage": {
         "ends": "{{duration}}終了",
