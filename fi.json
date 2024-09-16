@@ -122,7 +122,8 @@
         "create": "Luo",
         "edit": "Muokkaa",
         "delete": "Poista",
-        "share": "Jaa"
+        "share": "Jaa",
+        "import": "Tuo"
     },
     "marathon": {
         "submit": {
@@ -710,7 +711,19 @@
                 "csv": "Vie CSV",
                 "title": "Vie aikataulu"
             },
-            "setupBlock": "Järjestelytauko"
+            "setupBlock": "Järjestelytauko",
+            "clone": {
+                "title": "Kopio aikataulu!",
+                "help1": "Jotta voit tuoda ***kaikki*** pelit toisesta aikataulusta, niin valitse yksi alla olevasta listasta.",
+                "placeholder": "Valitse aikataulu...",
+                "trigger": "Kopioi olemassa olevasta aikataulusta",
+                "help2": "Kun olet valinnut aikataulun valikosta, paina *Tuo* aloittaaksesi prosenssi."
+            },
+            "import": {
+                "csv": "Tuo CSV-tiedostosta",
+                "trigger": "Tuo aikataulu tiedostosta",
+                "json": "Tuo JSON-tiedostosta (Horaro)"
+            }
         },
         "menu": {
             "settings": "Asetukset",
@@ -897,7 +910,8 @@
         "emu": "[EMU]",
         "enabled": "Päällä",
         "non_select": "Ei valintaa",
-        "disabled": "Pois päältä"
+        "disabled": "Pois päältä",
+        "loading": "Ladataan..."
     },
     "aboutPage": {
         "about": {
