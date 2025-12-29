@@ -763,6 +763,16 @@
       "sandbox": {
         "warning": "Caution: Oengus.sandbox is communicating with Paypal's sandbox environment. You need to use a Paypal sandbox email address as the payee for (fake) donations to work."
       },
+      "speedruncom": {
+        "error": {
+          "pattern": "Your username is not valid for speedrun.com"
+        }
+      },
+      "speedrunsme": {
+        "error": {
+          "pattern": "Your username is not valid for speedruns.me"
+        }
+      },
       "shortname": {
         "error": {
           "exists": "Marathon shortname already exists",
