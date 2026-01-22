@@ -246,7 +246,7 @@
       "par1": "Oengus is a <b>free</b> tool to manage your speedrunning marathons from submissions to schedule.",
       "par3": "To have access to all features, please log in with the following link. You will be able to create new marathons and submit to existing ones:",
       "par4": {
-        "prod": "If you wish to test the application before creating an application, please go to the <a href=\"https://sandbox.oengus.io\">sandbox environment</a>. It is available for all your testing and discovery purposes.",
+        "prod": "If you wish to test the application before creating a marathon, please go to the <a href=\"https://sandbox.oengus.io\">sandbox environment</a>. It is available for all your testing and discovery purposes.",
         "sandbox": "<b>You are on the sandbox environment, available for testing and discovery purposes. If you wish to create an actual marathon, please go to the <a href=\"https://oengus.io\">main website</a>.</b>"
       }
     },
