@@ -19,12 +19,16 @@
         "shareMastodon": "Rannañ war mastodon",
         "shareBluesky": "Embann war bluesky",
         "accept": "Aotren",
-        "save": "Enrollañ"
+        "save": "Enrollañ",
+        "edit": "Embann",
+        "join": "Kemer perzh",
+        "confirm": "Kadarnaat"
     },
     "calendar": {
         "now": "Bremañ",
         "title": "Deiziataer ar maratonioù",
-        "allDay": "E-pad an devezh"
+        "allDay": "E-pad an devezh",
+        "between": "{{time-range}}"
     },
     "global": {
         "loading": "O kargañ...",
@@ -174,5 +178,19 @@
     },
     "patrons": {
         "title": "Hor donezonerien"
+    },
+    "alert": {
+        "user": {
+            "sync": {
+                "alreadySynced": "Fazi : implijet eo ar gont-mañ c'hoazh"
+            }
+        }
+    },
+    "editor": {
+        "markdown": {
+            "controls": {
+                "edit": "Embann"
+            }
+        }
     }
 }
