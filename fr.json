@@ -201,7 +201,7 @@
             "par1": "Oengus est un outil <b>gratuit</b> pour gérer vos marathons de speedrun, des candidatures au planning.",
             "par3": "Pour accéder à toutes les fonctionnalités, veuillez vous connecter avec le lien ci-dessous. Vous pourrez créer des marathons et candidater sur les existants :",
             "par4": {
-                "prod": "Si vous souhaitez tester l'application avant de créer un évènement, vous pouvez vous rendre sur l'<a href=\"https://sandbox.oengus.io\">environnement bac à sable</a>, disponible spécifiquement pour découvrir les fonctionnalités.",
+                "prod": "Si vous souhaitez tester l'application avant de créer un marathon, vous pouvez vous rendre sur l'<a href=\"https://sandbox.oengus.io\">environnement bac à sable</a>, disponible spécifiquement pour découvrir les fonctionnalités.",
                 "sandbox": "<b>Vous êtes sur l'environnement bac à sable, mis à disposition pour tester et découvrir l'application. Si vous souhaitez créer un vrai marathon, rendez-vous sur le <a href=\"https://oengus.io\">site principal</a>.</b>"
             }
         },
@@ -812,6 +812,16 @@
                 "error": {
                     "pattern": "Nom d'utilisateur non valide, assurez-vous que votre identifiant commence par '@' (ex : @oengus.bsky.app)",
                     "maxlength": "Le nom bluesky est trop long"
+                }
+            },
+            "speedrunsme": {
+                "error": {
+                    "pattern": "Votre pseudo n'est pas valide pour speedruns.me"
+                }
+            },
+            "speedruncom": {
+                "error": {
+                    "pattern": "Votre pseudo n'est pas valide pour speedrun.com"
                 }
             }
         },
