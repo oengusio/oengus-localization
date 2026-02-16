@@ -84,6 +84,16 @@
         "settings": {
             "country": {
                 "label": "Bro"
+            },
+            "speedruncom": {
+                "error": {
+                    "pattern": "Direizh eo hoc'h anv implijer evit speedrun.com"
+                }
+            },
+            "speedrunsme": {
+                "error": {
+                    "pattern": "Direizh eo hoc'h anv implijer evit speedruns.me"
+                }
             }
         },
         "submit": {
