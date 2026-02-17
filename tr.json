@@ -611,6 +611,16 @@
                     "pattern": "Geçersiz kullanıcı adı, '@' ile başladığından emin olun (örneğin: @oengus.bsky.app)",
                     "maxlength": "Bluesky adı çok uzun"
                 }
+            },
+            "speedruncom": {
+                "error": {
+                    "pattern": "Kullanıcı adınız speedrun.com sitesinde bulunmamakta"
+                }
+            },
+            "speedrunsme": {
+                "error": {
+                    "pattern": "Kullanıcı adınız speedruns.me sitesinde bulunmamakta"
+                }
             }
         },
         "submit": {
@@ -761,7 +771,7 @@
             "import": {
                 "title": "Kaydedilen hız koşusunu içe aktar",
                 "description": "Koşularınızı içe aktarmak için lütfen öğeleri seçin ve ardından içe aktar düğmesine basın. {{ctrlKey}} tuşunu basılı tutarak birden fazla öğeyi seçebilirsiniz.",
-                "settingsHint": "Aşağıdaki liste boşsa, sağ üst köşedeki adınıza tıklayıp \"Kaydedilen Hızlı Koşular\"ı seçerek koşularınızı kaydedebilirsiniz.",
+                "settingsHint": "Aşağıdaki liste boşsa, sağ üst köşedeki adınıza tıklayıp \"Kaydedilen Hızlı Koşular\"ı seçerek koşularınızı kaydedebilirsiniz",
                 "ctrlKey": "ctrl"
             }
         }
