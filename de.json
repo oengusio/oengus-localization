@@ -1321,6 +1321,14 @@
         "twitterRemoval": "Hallo zusammen. Wir werden den Login über Twitter demnächst deaktivieren. Bitte stelle sicher, dass Du deinen Twitch oder Discord Account mit Oengus verknüpft hast, damit Du nicht ausgesperrt wirst."
     },
     "auth": {
-        "emailVerificationRequired": "Bitte verifiziere deine Email Adresse um diese Funktion nutzen zu können."
+        "emailVerificationRequired": "Bitte verifiziere deine Email Adresse um diese Funktion nutzen zu können.",
+        "passwordReset": {
+            "title": "Setze dein Passwort zurück!",
+            "submit": "Setze dein Passwort zurück!",
+            "success": "Dein Passwort wurde erfolgreich zurückgesetzt. Du kannst dich nun mit deinem Passwort anmelden.",
+            "error": {
+                "EMAIL_VERIFICATION_REQUIRED": "Bitte verifiziere deine E-Mail Adresse, bevor du das nutzen kannst."
+            }
+        }
     }
 }
