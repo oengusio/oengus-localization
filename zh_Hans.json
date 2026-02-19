@@ -336,7 +336,8 @@
         "PHONE": "电话号码",
         "YOUTUBE": "YouTube",
         "NICO": "Nico",
-        "BLUESKY": "蓝天"
+        "BLUESKY": "蓝天",
+        "SPEEDRUNSME": "speedruns.me"
     },
     "auth": {
         "passwordReset": {
@@ -387,7 +388,9 @@
         "confirm": "确认",
         "create": "创建",
         "join": "加入",
-        "login": "登陆"
+        "login": "登陆",
+        "clearAvailabilities": "清除选择的可用项",
+        "decline": "拒绝"
     },
     "alert": {
         "generic": {
