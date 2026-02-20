@@ -69,7 +69,9 @@
         },
         "menu": {
             "home": "Degemer",
-            "settings": "Arventennoù"
+            "settings": "Arventennoù",
+            "donations": "Donezonoù",
+            "donate": "Reiñ"
         },
         "new": {
             "title": "Krouiñ ur maraton nevez"
