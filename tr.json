@@ -1561,7 +1561,7 @@
             "title3": "Hatalı çalıştırmaları kabul etmiyoruz"
         },
         "format": {
-            "url": "Bu geçerli bir URL değil"
+            "url": "URL geçerli değildir"
         }
     },
     "auth": {
