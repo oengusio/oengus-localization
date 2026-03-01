@@ -1061,7 +1061,7 @@
             "moderator": "Évènements modérés",
             "submissions": "Historique des candidatures",
             "unban": "Débannir utilisateur",
-            "ban": "Bannir utilisateur",
+            "ban": "Bannir l'utilisateur",
             "deactivate": "Désactiver utilisateur",
             "activate": "Activer utilisateur",
             "speak": "Langues parlées :"
@@ -1139,7 +1139,7 @@
                     "CETTE ACTION NE PEUT ÊTRE ANNULÉE !",
                     "Veuillez entrer votre nom de compte ci-dessous pour confirmer la suppression du compte."
                 ],
-                "title": "Attention !",
+                "title": "ATTENTION !",
                 "settingsDeleteBtn": "Supprimer le compte"
             },
             "language": {
