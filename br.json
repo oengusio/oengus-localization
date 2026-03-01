@@ -101,6 +101,16 @@
         "submit": {
             "import": {
                 "ctrlKey": "ctrl"
+            },
+            "requirements": {
+                "discord": {
+                    "back": "Distro",
+                    "syncNotice": [
+                        null,
+                        null,
+                        "."
+                    ]
+                }
             }
         }
     },
@@ -122,7 +132,8 @@
         "twitter": "Heuilhit ac'hanomp war Twitter",
         "mastodon": "Heuilhit ac'hanomp war Mastodon",
         "patrons": "Hor donezonerien",
-        "sourceCode": "Boneg tarzh"
+        "sourceCode": "Boneg tarzh",
+        "donate": "Reiñ"
     },
     "news": {
         "title": "Keleier"
@@ -167,7 +178,8 @@
             "deletingAccount": {
                 "settingsDeleteBtn": "Dilemel ar gont",
                 "btnDelete": "Dilemel ar gont :(",
-                "btnCancel": "Nullañ :)"
+                "btnCancel": "Nullañ :)",
+                "title": "DIWALL !"
             },
             "language": {
                 "label": "Yezhoù a vez komzet ganeoc'h",
@@ -185,7 +197,12 @@
             }
         },
         "profile": {
-            "speak": "Yezhoù a vez komzet:"
+            "speak": "Yezhoù a vez komzet:",
+            "filter": {
+                "status": {
+                    "title": "Statud"
+                }
+            }
         }
     },
     "patrons": {
