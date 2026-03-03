@@ -11,7 +11,9 @@
         "EMAIL": "Email",
         "PHONE": "Número de telefone",
         "NICO": "Nico",
-        "YOUTUBE": "YouTube"
+        "YOUTUBE": "YouTube",
+        "BLUESKY": "Bluesky",
+        "SPEEDRUNSME": "speedruns.me"
     },
     "announcements": {
         "twitterRemoval": "Oi, removeremos o Twitter como opção de login em breve. Certifique-se de ter sua conta Twitch ou Discord vinculada à sua conta Oengus para evitar o bloqueio."
@@ -49,7 +51,13 @@
         "shareMastodon": "Compartilhar no mastodon",
         "submit": "Enviar",
         "clearAvailabilities": "Limpar disponibilidades selecionadas",
-        "login": "iniciar sessão"
+        "login": "iniciar sessão",
+        "create": "Criar",
+        "edit": "Editar",
+        "delete": "Eliminar",
+        "import": "Importar",
+        "share": "Partilhar",
+        "shareBluesky": "Publicar no bluesky"
     },
     "alert": {
         "category": {
@@ -139,7 +147,9 @@
             "login": {
                 "disabledAccount": "A sua conta está desativada. Se desejar voltar a utilizá-la, contacte um administrador.",
                 "error": "Ocorreu um erro durante a autenticação. Tente novamente ou contacte um administrador.",
-                "usernameExists": "O nome de utilizador associado à conta com que está a tentar iniciar sessão já existe. Certifica-te de que não criaste já um perfil Oengus com outro método de início de sessão. Se considerar que se trata de um falso positivo, contacte um administrador."
+                "usernameExists": "O nome de utilizador associado à conta com que está a tentar iniciar sessão já existe. Certifica-te de que não criaste já um perfil Oengus com outro método de início de sessão. Se considerar que se trata de um falso positivo, contacte um administrador.",
+                "passwordResetRequired": "De modo a iniciar sessão, irá precisar de reiniciar a sua palavra passe, desculpe por isso.",
+                "noAccountFound": "Conta não encontrada, por favor registe-se para uma nova conta ou sincronize-se com uma conta existente."
             },
             "sync": {
                 "alreadySynced": "Erro: Esta conta já está a ser utilizada",
@@ -152,6 +162,10 @@
             "deactivate": {
                 "success": "A sua conta foi desativada"
             }
+        },
+        "generic": {
+            "validationError": "Alguma coisa correu mal, por favor se há erros de validação. Se o erro persiste, por favor entre em contacto com o suporte no discord.",
+            "clipboardOk": "Copiado para a sua área de transferência!"
         }
     },
     "marathon": {
@@ -417,7 +431,7 @@
                     "max": "O nome abreviado da maratona é demasiado longo",
                     "pattern": "O nome abreviado da maratona é inválido"
                 },
-                "shorturl": "URL curto",
+                "shorturl": "url curto",
                 "label": "Nome abreviado"
             },
             "startDate": {
@@ -511,7 +525,8 @@
             },
             "marathonDescription": {
                 "help": "Markdown é suportado",
-                "label": "Descrição"
+                "label": "Descrição",
+                "markdown": "Um guia de markdown está disponível neste link: {{link}}"
             },
             "sandbox": {
                 "warning": "Cuidado: Oengus.sandbox está a comunicar com o ambiente sandbox do PayPal. É necessário usar um endereço de e-mail da sandbox do PayPal como beneficiário para que as doações (falsas) funcionem."
@@ -519,6 +534,22 @@
             "videoRequired": {
                 "allowed": "É necessário um vídeo",
                 "label": "Necessidade de vídeo"
+            },
+            "speedruncom": {
+                "error": {
+                    "pattern": "O seu nome de utilizador não está disponível para speedrun.com"
+                }
+            },
+            "speedrunsme": {
+                "error": {
+                    "pattern": "O seu nome de utilizador não está disponível para speedruns.me"
+                }
+            },
+            "bluesky": {
+                "error": {
+                    "pattern": "Nome de utilizador inválido, certifique-se que o seu identificador começa com '@' (p.ex. @oengus.bsky.app)",
+                    "maxlength": "Nome do bluesky é demasiado longo"
+                }
             }
         },
         "submit": {
@@ -527,7 +558,9 @@
             },
             "category": {
                 "opponent": {
-                    "with": "Com:"
+                    "with": "Com:",
+                    "andMore": "{{opponentList}}, e {{count}} mais",
+                    "waiting": "À espera de {{count}} corredores se juntem..."
                 },
                 "type": {
                     "label": "Tipo"
@@ -564,6 +597,12 @@
                     "help": {
                         "noCode": "Ser-lhe-á dado um código para partilhar esta categoria com os outros corredores interessados depois de guardar a sua candidatura",
                         "withCode": "Dá o seguinte código a outros corredores para que se possam juntar a esta submissão:"
+                    }
+                },
+                "expectedRunners": {
+                    "label": "Número de corredores esperado",
+                    "help": {
+                        "explanation": "Insira o número de quantos corredores são esperados para esta categoria. Este número inclui a si mesmo. Então se esta categoria é uma corrida entre si e outra pessoa, precisa de inserir 2."
                     }
                 }
             },
@@ -632,7 +671,7 @@
             "maxCategoriesPerGame": "Máximo de categorias por jogo",
             "multiplayer": {
                 "code": {
-                    "help": "Introduza abaixo um código para se juntar a uma submissão multi-jogador"
+                    "help": "Se recebeu um código de multiplayer/corrida por favor introduza-o abaixo para juntar-se à categoria"
                 },
                 "title": "Categorias multi-jogador"
             },
@@ -657,7 +696,13 @@
                     "required": "O campo é obrigatório"
                 }
             },
-            "dangerZone": "Zona de perigo"
+            "dangerZone": "Zona de perigo",
+            "import": {
+                "title": "Importar corrida guardada",
+                "description": "Para importar as suas corridas, por favor selecione-as e depois pressione importar. Pode segurar a tecla {{ctrlKey}} para selecionar múltiplos itens.",
+                "settingsHint": "Se a lista abaixo está vazia, pode guardar corridas ao carregar no seu nome no canto superior direito e depois selecionar \"Speedruns Guardadas\"",
+                "ctrlKey": "ctrl"
+            }
         },
         "submissions": {
             "table": {
@@ -734,7 +779,9 @@
             "viewSubmissions": "Ver submissões",
             "moderators": "Moderadores",
             "incentives": "Incentivos",
-            "manageSchedule": "Gerir o calendário"
+            "manageSchedule": "Gerir o calendário",
+            "manageSchedules": "Gerir horários",
+            "schedules": "Horários"
         },
         "new": {
             "title": "Criar uma nova maratona",
@@ -747,20 +794,23 @@
                 "csv": "Exportar para CSV",
                 "json": "Exportar para JSON (Horaro)",
                 "title": "Calendário de exportação",
-                "ics": "Exportar para ICS"
+                "ics": "Exportar para ICS",
+                "gdq": "Rastreador de Doações GDQ (ferramenta externa)"
             },
             "management": {
                 "action": {
                     "addSetupBlock": "Adicionar bloco de configuração",
                     "addRun": "Adicionar execução",
                     "publish": "Publicar calendário",
-                    "alreadyPublished": "Calendário já publicado"
+                    "alreadyPublished": "Calendário já publicado",
+                    "published": "Horário foi publicado! A página irá refletir as mudanças em 2-5 minutos!"
                 },
                 "schedule": "Horário",
                 "selectedRuns": "Corridas selecionadas",
                 "customData": {
                     "inputText": "Dados personalizados armazenados como texto, o que permite adicionar dados \"ocultos\" a esta divisão da agenda",
-                    "text": "Ocultar/mostrar campos de dados personalizados"
+                    "text": "Ocultar/mostrar campos de dados personalizados",
+                    "newTick": "Mostrar/Esconder definições para TODAS as colunas"
                 },
                 "cacheWarning": {
                     "header": "LER ISTO COM ATENÇÃO",
@@ -771,11 +821,49 @@
                 },
                 "help": {
                     "save": "Clique em \"Guardar\" para guardar um rascunho ou atualizar a agenda em direto. Clique em \"Publicar horário\" para tornar o horário público. Atenção: quando o programa for publicado, a data de fim da maratona será automaticamente recalculada em cada atualização do programa.",
-                    "dragAndDrop": "Utilize as setas em cada linha para adicionar ou remover um ciclo do calendário. Pode arrastar e largar linhas no calendário utilizando as pegas"
+                    "dragAndDrop": "Utilize as setas em cada linha para adicionar ou remover um ciclo do calendário. Pode arrastar e largar linhas no calendário utilizando as pegas",
+                    "patronNudge": "Maratonas criadas por pessoas que suportam Oengus no patreon têm a possibilidade de criar mais que um horário. Se quiser mais horários na sua maratona, por favor considere suportar-nos no patreon.",
+                    "setupBlock": "Deixar vazio para texto padrão"
                 },
                 "title": "Gestão do calendário",
-                "markdown": "Pode utilizar a sintaxe básica de Markdown (*negrito*, _underline_ e [nome da ligação](https://oengus.io/)) nos campos de jogo e categoria.",
-                "hideCompleteUsers": "Ocultar utilizadores na cronologia quando não têm mais execuções em \"execuções selecionadas\""
+                "markdown": "Pode utilizar a sintaxe básica de Markdown (**negrito**, _itálico_ e [nome da ligação](https://oengus.io/)) nos campos de jogo e categoria.",
+                "hideCompleteUsers": "Ocultar utilizadores na cronologia quando não têm mais execuções em \"execuções selecionadas\"",
+                "horaro": {
+                    "missingFeature": "Oengus atualmente não suporta a abilidade de personalizar as colunas do seu horário. Precisa desta funcionalidade desesperadamente? Tente {{horaro}}!",
+                    "appName": "Horaro"
+                },
+                "plsUseTheNewUi": "Está atualmente a usar o UI antigo para gerir horários, é instável e pode quebrar. Por favor mude para a página marcada como \"nova\" para uma experiência melhor!",
+                "overview": {
+                    "title": "Gerir existente ou {{create-new}}",
+                    "create-new": "criar um novo horário",
+                    "scheduleHeader": "Os seus horários:",
+                    "nothingFound": "Nenhum horário encontrado",
+                    "scheduleCount": "Atualmente tem {{total}} do máximo de {{maxSchedules}} horário(s) criado(s)."
+                },
+                "settings": {
+                    "customLabel": "Etiqueta personalizada",
+                    "createTitle": "Criar um novo horário",
+                    "editTitle": "Editando: {{scheduleName}}",
+                    "name": {
+                        "label": "Nome do horário",
+                        "error": {
+                            "required": "Nome de horário é necessário",
+                            "max": "Nome de horário é demasiado longo",
+                            "min": "Nome de horário é demasiado curto",
+                            "pattern": "O nome do horário contém caracteres proibidos"
+                        }
+                    },
+                    "slug": {
+                        "label": "Slug",
+                        "error": {
+                            "required": "Uma slug é necessário",
+                            "max": "Slug é demasiado comprida",
+                            "min": "Slug é demasiado curta",
+                            "pattern": "A slug contém caracteres proibidos",
+                            "exists": "Já tem um horário criado com esta slug"
+                        }
+                    }
+                }
             },
             "nextRun": "Próxima corrida {{duration}}",
             "type": {
@@ -796,14 +884,26 @@
                 "estimate": "Estimativa",
                 "placeholder": "Despeje qualquer execução da tabela da esquerda para esta. Este texto desaparecerá automaticamente assim que um ciclo estiver no calendário.",
                 "game": "Jogo",
-                "setup": "Tempo de configuração",
+                "setup": "Tempo de Configuração pós-corrida",
                 "time": "Tempo",
                 "type": "Tipo",
                 "link": "Ligação",
                 "runner": "Corredor(es)"
             },
             "timezone": "Todas as datas e horas são apresentadas no seu fuso horário local.",
-            "title": "Horário"
+            "title": "Horário",
+            "clone": {
+                "title": "Clonar horário!",
+                "help1": "De forma a importar ***todas*** as corridas de um horário diferente primeiro precisa de selecionar uma da lista abaixo.",
+                "help2": "Uma vez que selecionou um horário do menu suspenso abaixo, por favor pressione *Importar* para começar o processo de importação.",
+                "placeholder": "Selecionar um horário...",
+                "trigger": "Copiar de um horário existente"
+            },
+            "import": {
+                "trigger": "Importar horário a partir de ficheiro",
+                "csv": "Importar a partir de CSV",
+                "json": "Importar a partir de JSON (Horaro)"
+            }
         },
         "selection": {
             "action": {
@@ -858,7 +958,7 @@
         },
         "profile": "O meu perfil",
         "about": "Sobre",
-        "patrons": "Os nossos patronos",
+        "patrons": "Os nossos mecenas",
         "logout": "Terminar sessão",
         "sourceCode": "Código fonte",
         "translate": "Ajudar a traduzir o sítio",
@@ -866,16 +966,17 @@
         "register": "Registo",
         "mastodon": "Siga-nos em Mastodon",
         "email-verification": {
-            "message": "Parece que ainda não verificou o seu endereço de correio eletrónico. Os utilizadores sem um e-mail verificado podem ser eliminados no futuro.",
+            "message": "Por favor verifique o seu endereço de email. Até lá não poderá fazer nada, incluindo mas não limitado a submeter para eventos.",
             "request-btn": "Pedir novo e-mail de verificação"
         },
         "bugtracker": "Comunicar erros e sugestões",
         "displayNameNotification": "Parece que não tem o seu nome de apresentação no seu perfil. Por favor, vai às tuas definições para o definir!",
-        "discord": "Junte-se ao servidor Discord oficial",
+        "discord": "Junte-se ao servidor Discord do Oengus",
         "donate": "Doar",
         "privacyConsent": "Ao clicar em Aceitar, está a autorizar a Oengus a utilizar cookies para fins de análise de tráfego. Saiba mais sobre a nossa política de privacidade na página Sobre.",
         "twitter": "Siga-nos no Twitter",
-        "settings": "Definições"
+        "settings": "Definições",
+        "savedGames": "Speedruns Guardadas"
     },
     "user": {
         "profile": {
@@ -1026,7 +1127,17 @@
                 "disabled": {
                     "help": "Este campo está desativado porque sincronizou a sua conta Discord. Se o teu nome Discord mudou, sincroniza novamente a tua conta Discord para o atualizares."
                 }
+            },
+            "savedGames": {
+                "label": "Visibilidade de jogos guardados",
+                "yesOption": "Mostrar os meus jogos guardados publicamente"
             }
+        },
+        "savedGames": {
+            "patronNudge": "Se está a suportar o Oengus no patreon poderá adicionar ou modificar as suas speedruns guardadas aqui",
+            "header": "Definições de Speedruns guardadas",
+            "instruction1": "Speedruns guardadas podem ser exibidas no seu perfil (comutável nas definições) e auto-completáveis quando submetido para eventos.",
+            "cacheWarning": "Quaisquer mudanças que faça aqui poderão demorar até **24 horas** para atualizar no seu perfil. Não se preocupe, auto-preenchimento não é afetado."
         }
     },
     "country": {
@@ -1300,8 +1411,8 @@
         }
     },
     "patrons": {
-        "par1": "Obrigado aos nossos patrocinadores por ajudarem a manter o Oengus.io a funcionar",
-        "title": "Os nossos patronos",
+        "par1": "Obrigado aos nossos mecenas por ajudarem a manter o Oengus.io a funcionar",
+        "title": "Os nossos mecenas",
         "noPatrons": "Ninguém para mostrar aqui, porque não <a href=\"https://www.patreon.com/oengusio\" target=\"_blank\">ser o primeiro</a>?",
         "par2": "As pessoas e organizações listadas nesta página são as que fizeram donativos para a nossa <a href=\"https://www.patreon.com/oengusio\" target=\"_blank\">Campanha Patreon</a> e ajudam a manter o oengus livre para todos."
     },
@@ -1363,7 +1474,10 @@
         "cs": "Checo",
         "te": "Telugu",
         "th": "Tailandês",
-        "pt_BR": "Português (Brasil)"
+        "pt_BR": "Português (Brasil)",
+        "br": "Breton",
+        "la": "Latim",
+        "sq": "Albanês"
     },
     "errors": {
         "403": {
@@ -1411,7 +1525,7 @@
     "footer": {
         "donate": "Se gosta de Oengus, considere a possibilidade de <a href=\"{{donationLink}}\" target=\"_blank\">fazer um donativo</a>",
         "patron": {
-            "patronLink": "tornar-se patrono",
+            "patronLink": "tornar-se mecena",
             "list": "Obrigado aos nossos mecenas abaixo indicados, cujas contribuições mantêm o Oengus gratuito para todos",
             "enjoyOengus": "Se gosta de Oengus, por favor considere {{patronLink}}"
         },
@@ -1422,7 +1536,8 @@
         "emu": "[Emu]",
         "enabled": "Ativado",
         "disabled": "Desativado",
-        "non_select": "Nenhum selecionado"
+        "non_select": "Nenhum selecionado",
+        "loading": "Carregando..."
     },
     "homepage": {
         "marathons": {
@@ -1444,7 +1559,13 @@
             "volunteerManager": "Gestor de candidaturas de voluntariado"
         },
         "sponsors": {
-            "title": "Patrocinadores"
+            "title": "Patrocinadores",
+            "patreon": {
+                "nobody": "Oengus não tem quaisquer patrocinadores!",
+                "but_patreon": "Oengus é completamente grátis para o uso de todos por causa dos nossos {{patrons}}!",
+                "patrons": "mecenas",
+                "see_footer": "Nós orgulhosamente mostramos os nossos mecenas no fundo de todas as páginas!"
+            }
         },
         "submissions_close": "As submissões encerram {{duration}}",
         "welcomeText": {
@@ -1452,7 +1573,7 @@
             "par3": "Para ter acesso a todas as funcionalidades, inicie sessão com a seguinte ligação. Poderá criar novas maratonas e participar em maratonas existentes:",
             "par4": {
                 "sandbox": "<b>Está no ambiente sandbox, disponível para fins de teste e descoberta. Se pretender criar uma maratona real, vá para o <a href=\"https://oengus.io\">site principal</a>.</b>",
-                "prod": "Se pretender testar a aplicação antes de criar uma aplicação, aceda ao <a href=\"https://sandbox.oengus.io\">ambiente sandbox</a>. Este ambiente está disponível para todos os fins de teste e descoberta."
+                "prod": "Se pretende testar a aplicação antes de criar a maratona, por favor vá a<a href=\"https://sandbox.oengus.io\">ambiente sandbox</a>. Está disponível para todos os seus fins de teste e descoberta."
             }
         },
         "welcomeTitle": "Bem-vindo a Oengus!",
@@ -1467,5 +1588,13 @@
     },
     "news": {
         "title": "Notícias"
+    },
+    "editor": {
+        "markdown": {
+            "controls": {
+                "edit": "Editar",
+                "preview": "Pré-visualizar"
+            }
+        }
     }
 }
