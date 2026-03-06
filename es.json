@@ -201,7 +201,7 @@
             "par1": "Oengus es una herramienta <b>libre</b> para planificar maratones de speedruns desde las postulaciones hasta el horario.",
             "par3": "Para tener acceso a todas las funciones, inicia sesión con el siguiente enlace. Esto te permitirá crear nuevas maratones y postular a las ya existentes:",
             "par4": {
-                "prod": "Si deseas probar la herramienta antes de crear una maratón, por favor ve al <a href=\"https://sandbox.oengus.io\">entorno de pruebas</a>. Está disponible para todas tus pruebas y con propósitos de descubrir nuevas funciones.",
+                "prod": "Si deseas probar la aplicación antes de crear un maratón, por favor ve al <a href=\"https://sandbox.oengus.io\">entorno de pruebas</a>. Está disponible para todas tus pruebas y con propósitos de descubrir funciones nuevas.",
                 "sandbox": "<b>Estás en el entorno de pruebas, disponible para probar nuevas funciones. Si deseas crear un maratón, por favor ve a la<a href=\"https://oengus.io\">página principal</a>.</b>"
             }
         },
@@ -810,8 +810,18 @@
             },
             "bluesky": {
                 "error": {
-                    "pattern": "Nombre de usuario inválido, asegúrate de que comienza con '@' (por ejemplo, @oengus.bsky.app)",
+                    "pattern": "Nombre de usuario no válido, asegúrate que comienza con '@' (p. ej., @oengus.bsky.app)",
                     "maxlength": "El nombre de Bluesky es demasiado largo"
+                }
+            },
+            "speedruncom": {
+                "error": {
+                    "pattern": "Su nombre de usuario no es válido para speedrun.com"
+                }
+            },
+            "speedrunsme": {
+                "error": {
+                    "pattern": "Su nombre de usuario no es válido para speedruns.me"
                 }
             }
         },
@@ -997,7 +1007,9 @@
             },
             "import": {
                 "title": "Importar speedrun guardada",
-                "ctrlKey": "ctrl"
+                "ctrlKey": "ctrl",
+                "description": "Para importar sus ejecuciones, selecciónelas y después pulse importar. Puede mantener la tecla {{ctrlKey}} para seleccionar múltiples elementos.",
+                "settingsHint": "Si el listado inferior está vacío, puede guardar ejecuciones pulsando en su nombre en arriba a la derecha y después selecciones «Guardar Speedruns»"
             }
         }
     },
@@ -1183,7 +1195,17 @@
                 },
                 "label": "Doble factor de autenticación",
                 "enableButton": "Activar el doble factor de autenticación"
+            },
+            "savedGames": {
+                "label": "Visibilidad de juegos guardados",
+                "yesOption": "Exhibir públicamente mis juegos guardados"
             }
+        },
+        "savedGames": {
+            "header": "Ajustes de Speedrun Guardado",
+            "patronNudge": "Si está apoyando Oengus en patreon será capaz de añadir y modificar su speedruns guardados aquí",
+            "instruction1": "Saved speedruns can be shown off on your profile (toggleable in settings) and autofillable when submitting to events.",
+            "cacheWarning": "Cualquier cambio que realices aquí podría tardar **24 horas** en actualizarse en tu perfil. No te preocupes, el autocompletado no se verá afectado."
         }
     },
     "errors": {
@@ -1518,7 +1540,9 @@
         "pl": "polaco",
         "da": "danés",
         "tr": "turco",
-        "pt": "portugués"
+        "pt": "portugués",
+        "br": "Bretón",
+        "la": "Latín"
     },
     "platform": {
         "NICO": "Nico",
@@ -1562,6 +1586,14 @@
             "instructions": "Para restablecer su contraseña, introduzca su dirección de correo electrónico.\n    Si su dirección de correo electrónico es conocida en nuestro sistema, le enviaremos un enlace donde podrá restablecer su contraseña.",
             "requested": "Se ha enviado una solicitud de restablecimiento de la contraseña a su dirección de correo electrónico. Consulta tu correo electrónico para recibir más instrucciones.",
             "title": "¡Restablecer su contraseña!"
+        }
+    },
+    "editor": {
+        "markdown": {
+            "controls": {
+                "edit": "Editar",
+                "preview": "Vista previa"
+            }
         }
     }
 }
