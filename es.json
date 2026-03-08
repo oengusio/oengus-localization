@@ -361,7 +361,7 @@
             "manageIncentives": "Gestión de incentivos",
             "manageSchedule": "Gestionar horario",
             "moderators": "Moderadores",
-            "overview": "Vista previa",
+            "overview": "Descripción general",
             "schedule": "Horario",
             "selectRuns": "Seleccionar runs",
             "settings": "Ajustes",
@@ -933,7 +933,7 @@
                     "required": "Se requiere rellenar el campo"
                 }
             },
-            "dangerZone": "Zona de peligro",
+            "dangerZone": "Zona peligrosa",
             "delete": {
                 "action": "Borrar postulación"
             },
@@ -973,14 +973,14 @@
                 },
                 "title": "Categorías multijugador"
             },
-            "racesAllowed": "Se permiten runs cooperativos y carreras",
+            "racesAllowed": "Se permiten carreras y relevos",
             "submissions": "Postulaciones",
             "submitsClosed": "Las postulaciones están cerradas. Solo puedes actualizar tu disponibilidad hasta que el horario sea publicado.",
             "table": {
                 "actions": "Acciones",
                 "categories": "Categorías",
                 "games": "Juegos",
-                "runners": "Runners"
+                "runners": "Corredores"
             },
             "title": "Postular runs",
             "tweet": {
@@ -1009,7 +1009,7 @@
                 "title": "Importar speedrun guardada",
                 "ctrlKey": "ctrl",
                 "description": "Para importar sus ejecuciones, selecciónelas y después pulse importar. Puede mantener la tecla {{ctrlKey}} para seleccionar múltiples elementos.",
-                "settingsHint": "Si el listado inferior está vacío, puede guardar ejecuciones pulsando en su nombre en arriba a la derecha y después selecciones «Guardar Speedruns»"
+                "settingsHint": "Si el listado inferior está vacío, puedes guardar ejecuciones pulsando en su nombre en arriba a la derecha y después selecciona «Guardar Speedruns»"
             }
         }
     },
@@ -1541,8 +1541,9 @@
         "da": "danés",
         "tr": "turco",
         "pt": "portugués",
-        "br": "Bretón",
-        "la": "Latín"
+        "br": "bretón",
+        "la": "Latín",
+        "sq": "albanés"
     },
     "platform": {
         "NICO": "Nico",
