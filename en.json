@@ -266,6 +266,7 @@
     },
     "provider": {
       "title": "Login with a provider",
+      "subtitle": "Logging in with a provider is only possible after linking it to an already existing Oengus account. You are not able to create an account via these buttons.",
       "twitch": "Log in with Twitch",
       "discord": "Log in with Discord",
       "google": "Login with Google"
