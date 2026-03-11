@@ -782,7 +782,8 @@
             "twitch": "Twitch ile giriş yap",
             "google": "Google ile giriş yap",
             "title": "Bir sağlayıcıyla oturum açın",
-            "discord": "Discord ile giriş yap"
+            "discord": "Discord ile giriş yap",
+            "subtitle": "Sağlayıcılar ile oturum açabilmeniz için öncelikle Oengus hesabı oluşturup ardından da sağlayıcıyı bağlamanız gerekmektedir. Sağlayıcılardan herhangi biri ile yeni bir hesap oluşturamazsınız."
         },
         "button": "Giriş",
         "title": "Oengus hesabınıza giriş yapın",
