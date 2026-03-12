@@ -223,7 +223,8 @@
             "discord": "Iniciar sesión con Discord",
             "twitch": "Iniciar sesión con Twitch",
             "google": "Iniciar sesión con Google",
-            "title": "Iniciar sesión con un proveedor"
+            "title": "Iniciar sesión con un proveedor",
+            "subtitle": "Accede con un proveedor solo es posible tras enlazarlo a una cuenta de Oengus ya existente. No es capaz de crear una cuenta a través de estos botones."
         },
         "password": {
             "show": "Hacer visible la contraseña",
@@ -1202,10 +1203,10 @@
             }
         },
         "savedGames": {
-            "header": "Ajustes de Speedrun Guardado",
-            "patronNudge": "Si está apoyando Oengus en patreon será capaz de añadir y modificar su speedruns guardados aquí",
-            "instruction1": "Saved speedruns can be shown off on your profile (toggleable in settings) and autofillable when submitting to events.",
-            "cacheWarning": "Cualquier cambio que realices aquí podría tardar **24 horas** en actualizarse en tu perfil. No te preocupes, el autocompletado no se verá afectado."
+            "header": "Ajustes de Speedrun guardado",
+            "patronNudge": "Si está apoyando a Oengus en patreon será capaz de añadir y modificar su speedruns guardados aquí",
+            "instruction1": "Lo guardado por speedruns puede ser mostrado en su perfil (conmutable en ajustes) y autorelleno cuando envíe a eventos.",
+            "cacheWarning": "Cualquier cambio que realices aquí podría tardar **24 horas** en actualizarse en tu perfil. No te preocupes, el auto‐completado no se verá afectado."
         }
     },
     "errors": {
@@ -1222,7 +1223,7 @@
             "title4": "No es un defecto, es una característica"
         },
         "format": {
-            "url": "Esta no es una URL válida"
+            "url": "Esta no es una url válida"
         }
     },
     "patrons": {
