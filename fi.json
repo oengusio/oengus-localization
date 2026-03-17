@@ -596,6 +596,16 @@
                     "pattern": "Väärin muotoiltu käyttäjänimi, varmista että se alkaa merkillä '@' (esim. @oengus.bsky.app)",
                     "maxlength": "Bluesky-nimi on liian pitkä"
                 }
+            },
+            "speedruncom": {
+                "error": {
+                    "pattern": "Käyttäjänimesi ei ole käypä speedrun.comissa"
+                }
+            },
+            "speedrunsme": {
+                "error": {
+                    "pattern": "Käyttäjänimesi ei ole käypä speedruns.me:ssä"
+                }
             }
         },
         "selection": {
@@ -980,7 +990,8 @@
             "discord": "Kirjaudu sisään Discordilla",
             "twitch": "Kirjaudu sisään Twitchillä",
             "google": "Kirjaudu Googlella",
-            "title": "Kirjaudu sisään palveluntarjoajalla"
+            "title": "Kirjaudu sisään palveluntarjoajalla",
+            "subtitle": "Sisäänkirjautuminen palveluntarjoan kanssa on vain mahdollista sen jälkeen kun olet luonut Oengus-tilin. Nämä napit eivät toimi jos haluaa luoda tilin."
         },
         "password": {
             "show": "Näytä salasana",
