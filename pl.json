@@ -382,18 +382,60 @@
                 "ics": "Eksportuj do pliku ICS",
                 "json": "Eksportuj do pliku JSON (dla Horaro)",
                 "title": "Eksportuj harmonogram",
-                "csv": "Eksportuj do pliku CSV"
+                "csv": "Eksportuj do pliku CSV",
+                "gdq": "GDQ Donation Tracker (narzędzie zewnętrzne)"
             },
             "management": {
                 "action": {
                     "addSetupBlock": "Dodaj blok setupowy",
                     "alreadyPublished": "Harmonogram jest już publiczny",
                     "publish": "Upublicznij harmonogram",
-                    "addRun": "Dodaj run"
+                    "addRun": "Dodaj run",
+                    "published": "Opublikowano harmonogram! Zmiany pojawią się na stronie za 2–5 minut!"
                 },
                 "settings": {
-                    "editTitle": "Edytowanie: {{scheduleName}}"
-                }
+                    "editTitle": "Edytowanie: {{scheduleName}}",
+                    "customLabel": "Etykieta niestandardowa",
+                    "createTitle": "Utwórz nowy harmonogram",
+                    "name": {
+                        "label": "Nazwa harmonogramu",
+                        "error": {
+                            "required": "Nazwa harmonogramu jest wymagana",
+                            "max": "Nazwa harmonogramu jest zbyt długa",
+                            "min": "Nazwa harmonogramu jest zbyt krótka",
+                            "pattern": "Nazwa harmonogramu zawiera niedozwolone znaki"
+                        }
+                    },
+                    "slug": {
+                        "label": "Nazwa",
+                        "error": {
+                            "required": "Wymagane jest wpisanie nazwy",
+                            "max": "Nazwa jest zbyt długa",
+                            "min": "Nazwa jest zbyt krótka",
+                            "pattern": "W treści znajdują się niedozwolone znaki",
+                            "exists": "Utworzono już harmonogram o tej samej nazwie"
+                        }
+                    }
+                },
+                "horaro": {
+                    "missingFeature": "Oengus nie oferuje obecnie możliwości dostosowywania kolumn w harmonogramie. Bardzo potrzebujesz tej funkcji? Wypróbuj {{horaro}}!",
+                    "appName": "Harmonogram"
+                },
+                "plsUseTheNewUi": "Obecnie korzystasz ze starego interfejsu użytkownika do zarządzania harmonogramami, który jest niestabilny i może przestać działać. Przejdź na stronę oznaczoną jako „nowa”, aby zapewnić sobie lepsze wrażenia z użytkowania!",
+                "overview": {
+                    "title": "Zarządzaj istniejącymi lub {{utwórz-nowy}}",
+                    "create-new": "utwórz nowy harmonogram",
+                    "scheduleHeader": "Twoje harmonogramy:",
+                    "nothingFound": "Nie znaleziono żadnych harmonogramów",
+                    "scheduleCount": "Obecnie utworzono {{total}} harmonogramów z maksymalnej liczby {{maxSchedules}}."
+                },
+                "help": {
+                    "setupBlock": "Pozostaw puste, aby użyć tekstu domyślnego",
+                    "patronNudge": "Użytkownicy, którzy wspierają Oengus na Patreonie, mają możliwość tworzenia więcej niż jednego harmonogramu. Jeśli chcesz mieć dostęp do większej liczby harmonogramów w swojej aplikacji, rozważ wsparcie nas na Patreonie.",
+                    "dragAndDrop": "Użyj strzałek przy każdym wierszu, aby dodać lub usunąć zadanie z harmonogramu. Możesz przeciągać i upuszczać wiersze w harmonogramie, korzystając z uchwytów",
+                    "save": "Kliknij „Zapisz”, aby zapisać wersję roboczą lub zaktualizować aktualny harmonogram. Kliknij „Opublikuj harmonogram”, aby udostępnić go publicznie. Uwaga: po opublikowaniu harmonogramu data zakończenia będzie automatycznie przeliczana przy każdej aktualizacji harmonogramu."
+                },
+                "schedule": "Harmonogram"
             },
             "currentRun": "Obecny run"
         }
@@ -409,7 +451,9 @@
         "provider": {
             "discord": "Zaloguj przez Discord",
             "google": "Zaloguj przez Google",
-            "twitch": "Zaloguj przez Twitch"
+            "twitch": "Zaloguj przez Twitch",
+            "title": "Zaloguj się za pośrednictwem dostawcy",
+            "subtitle": "Zalogowanie się za pomocą serwisu zewnętrznego jest możliwe dopiero po powiązaniu go z istniejącym kontem Oengus. Za pomocą tych przycisków nie można utworzyć konta."
         },
         "title": "Zaloguj się do swojego konta Oengus",
         "2fa": {
