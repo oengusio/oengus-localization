@@ -202,6 +202,7 @@
             "par3": "Om toegang te hebben tot alle functies, log in met de volgende link. Je zal nieuwe marathons kunnen aanmaken en submitten naar bestaande marathons:",
             "par4": {
                 "prod": "Als je deze applicatie wil testen voor je een applicatie aanmaakt, ga dan naar de <a href=\"https://sandbox.oengus.io\">sandbox omgeving</a>. Deze is beschikbaar voor alle testing en ontwikkelingsdoeleinden.",
+                "prod_new": "Als je deze applicatie wil testen voor je een applicatie aanmaakt, ga dan naar de [sandbox omgeving](https://sandbox.oengus.io). Deze is beschikbaar voor alle testing en ontwikkelingsdoeleinden.",
                 "sandbox": "<b>Je bent in de sandbox omgeving, deze is beschikbaar voor testen en ontwikkelingsdoeleinden. Als je een daadwerkelijke marathon wil aanmaken, ga alstublieft naar de <a href=\"https://oengus.io\">hoofd website</a>.</b>"
             }
         },
