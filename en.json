@@ -247,7 +247,12 @@
       "par3": "To have access to all features, please log in with the following link. You will be able to create new marathons and submit to existing ones:",
       "par4": {
         "prod": "If you wish to test the application before creating a marathon, please go to the <a href=\"https://sandbox.oengus.io\">sandbox environment</a>. It is available for all your testing and discovery purposes.",
-        "sandbox": "<b>You are on the sandbox environment, available for testing and discovery purposes. If you wish to create an actual marathon, please go to the <a href=\"https://oengus.io\">main website</a>.</b>"
+        "prod_new": "If you wish to test the application before creating a marathon, please go to the [sandbox environment](https://sandbox.oengus.io). It is available for all your testing and discovery purposes.",
+        "sandbox": "<b>You are on the sandbox environment, available for testing and discovery purposes. If you wish to create an actual marathon, please go to the <a href=\"https://oengus.io\">main website</a>.</b>",
+        "sandbox_new": {
+          "line1": "**You are on the sandbox environment, available for testing and discovery purposes. If you wish to create an actual marathon, please go to the [main website](https://oengus.io).**",
+          "line2": "This environment gets reset every Sunday for GDPR compliance. This means you will need to create a new account for testing when this happens."
+        }
       }
     },
     "welcomeTitle": "Welcome to Oengus!"
