@@ -919,7 +919,12 @@
             "par3": "Kirjauduthan sisään seuraavalla linkillä, jotta saat käyttöösi kaikki sivuston ominaisuudet. Voit luoda uusia tapahtumia ja ilmoittautua olemassa oleviin:",
             "par4": {
                 "prod": "Jos haluat testata sovellusta ennen varsinaista käyttöä mene <a href=\"https://sandbox.oengus.io\">hiekkalaatikolle</a>. Se on käytettävissänne kaikkea testausta ja opettelua varten.",
-                "sandbox": "<b>Olet hiekkalaatikolla, voit käyttää sitä testausta ja opettelua varten. Jos haluat luoda oikean tapahtuman mene <a href=\"https://oengus.io\">pääsivulle</a>.</b>"
+                "sandbox": "<b>Olet hiekkalaatikolla, voit käyttää sitä testausta ja opettelua varten. Jos haluat luoda oikean tapahtuman mene <a href=\"https://oengus.io\">pääsivulle</a>.</b>",
+                "prod_new": "Jos haluat testata sivusta ennen tapahtuman luomista mene hiekkalaatikkoympäristöön (https://sandbox.oengus.io). Se on käytettävissä kaikkiin testaus- ja oppimistarpeisiin.",
+                "sandbox_new": {
+                    "line1": "**Olet nyt hiekkalaatikkoympäristössä. Täällä voi testata ja opetella sivuston käyttöä. Jos haluat luoda oikean tapahtuman mene [varsinaiselle verkkosivulle] (https://oengus.io).**",
+                    "line2": "GDPR:n vuoksi tämä ympäristö alustetaan uudelleen joka sunnuntai. Tämä tarkoittaa sitä, että tarvitset aina luoda uuden tili kun tämä tapahtuu."
+                }
             }
         },
         "starts": "Alkaa {{duration}}",
