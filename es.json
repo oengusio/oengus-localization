@@ -202,7 +202,12 @@
             "par3": "Para tener acceso a todas las funciones, inicia sesión con el siguiente enlace. Esto te permitirá crear nuevas maratones y postular a las ya existentes:",
             "par4": {
                 "prod": "Si deseas probar la aplicación antes de crear un maratón, por favor ve al <a href=\"https://sandbox.oengus.io\">entorno de pruebas</a>. Está disponible para todas tus pruebas y con propósitos de descubrir funciones nuevas.",
-                "sandbox": "<b>Estás en el entorno de pruebas, disponible para probar nuevas funciones. Si deseas crear un maratón, por favor ve a la<a href=\"https://oengus.io\">página principal</a>.</b>"
+                "sandbox": "<b>Estás en el entorno de pruebas, disponible para probar nuevas funciones. Si deseas crear un maratón, por favor ve a la<a href=\"https://oengus.io\">página principal</a>.</b>",
+                "prod_new": "Si desea probar la aplicación antes de crear una maratón, diríjase al [entorno de pruebas](https://sandbox.oengus.io). Está disponible para todas sus pruebas y para explorar las posibilidades.",
+                "sandbox_new": {
+                    "line1": "**Estás en el entorno de pruebas, disponible para fines de prueba y descubrimiento. Si deseas crear una maratón real, ve al [sitio web principal](https://oengus.io).**",
+                    "line2": "Este entorno se reinicia todos los domingos para cumplir con el RGPD. Esto significa que deberá crear una nueva cuenta para realizar pruebas cuando esto ocurra."
+                }
             }
         },
         "welcomeTitle": "¡Bienvenido a Oengus!",
