@@ -202,7 +202,12 @@
             "par3": "Pour accéder à toutes les fonctionnalités, veuillez vous connecter avec le lien ci-dessous. Vous pourrez créer des marathons et candidater sur les existants :",
             "par4": {
                 "prod": "Si vous souhaitez tester l'application avant de créer un marathon, vous pouvez vous rendre sur l'<a href=\"https://sandbox.oengus.io\">environnement bac à sable</a>, disponible spécifiquement pour découvrir les fonctionnalités.",
-                "sandbox": "<b>Vous êtes sur l'environnement bac à sable, mis à disposition pour tester et découvrir l'application. Si vous souhaitez créer un vrai marathon, rendez-vous sur le <a href=\"https://oengus.io\">site principal</a>.</b>"
+                "sandbox": "<b>Vous êtes sur l'environnement bac à sable, mis à disposition pour tester et découvrir l'application. Si vous souhaitez créer un vrai marathon, rendez-vous sur le <a href=\"https://oengus.io\">site principal</a>.</b>",
+                "prod_new": "Si vous souhaitez tester l'application avant de créer un marathon, veuillez vous rendre dans l'[environnement bac à sable](https://sandbox.oengus.io). Il est disponible pour tous vos besoins de test et de découverte.",
+                "sandbox_new": {
+                    "line1": "**Vous êtes dans l'environnement bac à sable, disponible à des fins de test et de découverte. Si vous souhaitez créer un vrai marathon, veuillez vous rendre sur le [site principal](https://oengus.io).**",
+                    "line2": "Cet environnement est réinitialisé chaque dimanche pour conformer au GDPR. Cela signifie que vous devrez créer un nouveau compte lorsque ceci aura lieu."
+                }
             }
         },
         "welcomeTitle": "Bienvenue sur Oengus !",
@@ -223,7 +228,8 @@
             "discord": "Connexion avec Discord",
             "twitch": "Connexion avec Twitch",
             "google": "Se connecter avec Google",
-            "title": "Connectez-vous avec un fournisseur"
+            "title": "Connectez-vous avec un fournisseur",
+            "subtitle": "Se connecter à l'aide d'un tiers n'est possible qu'après l'avoir lié à un compte Oengus préexistant. Il n'est pas possible de créer un compte à travers ces boutons."
         },
         "2fa": {
             "label": "Code d'authentification à deux facteurs"
@@ -369,7 +375,7 @@
             "tracker": "Tracker",
             "viewSubmissions": "Voir les candidatures",
             "schedules": "Plannings",
-            "manageSchedules": "Gestion des plannings"
+            "manageSchedules": "Gérer les plannings"
         },
         "new": {
             "description": "Les informations suivantes sont nécessaires à la création d'un marathon. Une fois créé, vous pourrez rajouter plus de détails.",
