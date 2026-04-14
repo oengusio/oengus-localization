@@ -231,7 +231,12 @@
             "par3": "Aby mieć dostęp do wszystkich funkcji, zaloguj się przy użyciu tego linku. Będziesz mógł tworzyć nowe maratony oraz wysyłać zgłoszenia do już istniejących:",
             "par4": {
                 "prod": "Jeżeli chcesz przetestować aplikację przed tworzeniem aplikacji, odwiedź <a href=\"https://sandbox.oengus.io\">sandbox environment</a>. Jest dostępne dla wszystkich twoich",
-                "sandbox": "<b>Znajdujesz się w środowisku sandbox, służącym do celów testowych i poznawczych. Jeśli chcesz utworzyć prawdziwy maraton, przejdź do <a href=\"https://oengus.io\">głównej witryny</a>.</b>"
+                "sandbox": "<b>Znajdujesz się w środowisku sandbox, służącym do celów testowych i poznawczych. Jeśli chcesz utworzyć prawdziwy maraton, przejdź do <a href=\"https://oengus.io\">głównej witryny</a>.</b>",
+                "prod_new": "Jeśli chcesz przetestować aplikację przed utworzeniem maratonu, przejdź do [środowiska testowego](https://sandbox.oengus.io). Jest ono dostępne do wszystkich celów testowych i eksploracyjnych.",
+                "sandbox_new": {
+                    "line1": "**Znajdujesz się w środowisku testowym, dostępnym do celów testowych i eksploracyjnych. Jeśli chcesz utworzyć właściwy maraton, przejdź do [głównej strony](https://oengus.io).**",
+                    "line2": "To środowisko jest resetowane co niedzielę ze względów zgodności z RODO. Oznacza to, że po każdym takim resecie konieczne będzie utworzenie nowego konta do testów."
+                }
             }
         },
         "welcomeTitle": "Witaj na stronie Oengus!"
@@ -419,7 +424,7 @@
                 },
                 "horaro": {
                     "missingFeature": "Oengus nie oferuje obecnie możliwości dostosowywania kolumn w harmonogramie. Bardzo potrzebujesz tej funkcji? Wypróbuj {{horaro}}!",
-                    "appName": "Harmonogram"
+                    "appName": "Horaro"
                 },
                 "plsUseTheNewUi": "Obecnie korzystasz ze starego interfejsu użytkownika do zarządzania harmonogramami, który jest niestabilny i może przestać działać. Przejdź na stronę oznaczoną jako „nowa”, aby zapewnić sobie lepsze wrażenia z użytkowania!",
                 "overview": {
@@ -435,9 +440,66 @@
                     "dragAndDrop": "Użyj strzałek przy każdym wierszu, aby dodać lub usunąć zadanie z harmonogramu. Możesz przeciągać i upuszczać wiersze w harmonogramie, korzystając z uchwytów",
                     "save": "Kliknij „Zapisz”, aby zapisać wersję roboczą lub zaktualizować aktualny harmonogram. Kliknij „Opublikuj harmonogram”, aby udostępnić go publicznie. Uwaga: po opublikowaniu harmonogramu data zakończenia będzie automatycznie przeliczana przy każdej aktualizacji harmonogramu."
                 },
-                "schedule": "Harmonogram"
+                "schedule": "Harmonogram",
+                "title": "Zarządzanie harmonogramem",
+                "hideCompleteUsers": "**Ukryj użytkowników na osi czasu, gdy nie mają już żadnych runów w „Wybrane runy”**",
+                "selectedRuns": "Wybrane runy",
+                "markdown": "W polach gry i kategorii możesz używać podstawowej składni Markdown (**pogrubienie**, *kursywa* oraz [nazwa linku](https://oengus.io/)).",
+                "customData": {
+                    "text": "Ukryj/Pokaż pola danych niestandardowych",
+                    "newTick": "Pokaż/Ukryj ustawienia dla WSZYSTKICH wierszy"
+                },
+                "cacheWarning": {
+                    "header": "PRZECZYTAJ TO UWAŻNIE",
+                    "title": "Po publikacji Twój harmonogram zostanie opublikowany w ciągu 2–5 minut.",
+                    "line1": "Aby ograniczyć obciążenie naszych serwerów, wdrożyliśmy pamięć podręczną na Oengus.",
+                    "line2": "Oznacza to, że może minąć trochę czasu, zanim zobaczysz zaktualizowany harmonogram na stronie swojego maratonu.",
+                    "line3": "Przycisk zostanie aktywowany za 5 sekund"
+                }
             },
-            "currentRun": "Obecny run"
+            "currentRun": "Obecny run",
+            "nextRun": "Następny run {{duration}}",
+            "table": {
+                "actions": "Działania",
+                "category": "Kategoria",
+                "console": "Konsola",
+                "estimate": "Szacowany czas",
+                "game": "Gra",
+                "placeholder": "Przeciągnij dowolny run z tabeli po lewej stronie tutaj. Ten tekst zniknie automatycznie, gdy w harmonogramie pojawi się pierwszy run.",
+                "link": "Link",
+                "runner": "Uczestnik(icy)",
+                "time": "Czas",
+                "type": "Typ"
+            },
+            "timezone": "Wszystkie daty i godziny podawane są w Twojej lokalnej strefie czasowej.",
+            "title": "Harmonogram",
+            "type": {
+                "OTHER": "Inne",
+                "RACE": "Wyścig",
+                "RELAY": "Run sztafetowy",
+                "RELAY_RACE": "Wyścig sztafetowy",
+                "COOP": "Run kooperacyjny",
+                "COOP_RACE": "Wyścig kooperacyjny",
+                "SINGLE": "Run solo"
+            },
+            "clone": {
+                "title": "Klonuj harmonogram!",
+                "help1": "Aby zaimportować ***wszystkie*** runy z innego harmonogramu, musisz najpierw wybrać jeden z poniższej listy.",
+                "help2": "Po wybraniu harmonogramu z listy rozwijanej poniżej naciśnij *Import*, aby rozpocząć proces importu.",
+                "placeholder": "Wybierz harmonogram...",
+                "trigger": "Kopiuj z istniejącego harmonogramu"
+            },
+            "import": {
+                "trigger": "Importuj harmonogram z pliku",
+                "csv": "Importuj z pliku CSV",
+                "json": "Importuj z pliku JSON (Horaro)"
+            }
+        },
+        "selection": {
+            "action": {
+                "publish": "Opublikuj wybór",
+                "decline": "Odrzuć \"TODO\""
+            }
         }
     },
     "login": {
