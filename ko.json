@@ -11,10 +11,10 @@
         },
         "starts": "시작 {{duration}}",
         "plannedFeatures": {
-            "1": "Coop/races 제출",
-            "2": "다중 실행 선택 시스템 (직접 선택, 투표 ...)",
-            "3": "Runners availabilities 시각화를 가진 쉬운 스케줄링 시스템",
-            "4": "Twitter/Twitch/Google과 연결하는 계정 동기화",
+            "1": "협동/경쟁 제출",
+            "2": "다중 런 선택 시스템 (직접 선택, 투표 등)",
+            "3": "직관적인 인터페이스로 제공되는 편리한 일정 관리 시스템",
+            "4": "X/Twitch/Google 계정을 연동하여 동기화 제공",
             "5": "Discord 통합",
             "6": "메일 알림",
             "7": "PayPal을 통한 기부 관리",
@@ -22,13 +22,13 @@
             "volunteerManager": "회사 소개"
         },
         "marathons": {
-            "upcoming": "다가오는 마라톤",
-            "open": "공지사항",
-            "live": "라이브 마라톤",
+            "upcoming": "예정된 마라톤",
+            "open": "제출이 열린 마라톤",
+            "live": "진행 중인 마라톤",
             "calendar": "전체 달력",
-            "moderated": "모의 마라톤"
+            "moderated": "중재한 마라톤"
         },
-        "ends": "종료 {{duration}}",
+        "ends": "{{duration}} 종료",
         "welcomeTitle": "Oengus에 오신 것을 환영합니다!",
         "welcomeText": {
             "par4": {
@@ -41,180 +41,180 @@
         "submissions_close": "제출 닫기 {{duration}}"
     },
     "global": {
-        "emu": "[뮤]",
-        "enabled": "이름 *",
-        "disabled": "장애인",
-        "non_select": "선택 없음",
-        "loading": "로드 중 ..."
+        "emu": "[에뮬]",
+        "enabled": "유효",
+        "disabled": "무효",
+        "non_select": "선택되지 않음",
+        "loading": "로딩중..."
     },
     "footer": {
-        "text": "모든 시간은 시간대로 변환됩니다. 탐지된 시간대: {{timezone}}",
-        "donate": "Oengus를 즐기는 경우, <a href=\"{{donationLink}}\" target=\"_blank\"> 기부</a>",
+        "text": "모든 시간은 접속자의 시간대로 변환됩니다. 감지된 시간대: {{timezone}}",
+        "donate": "Oengus가 마음에 드신다면, <a href=\"{{donationLink}}\" target=\"_blank\">후원</a>하시는 걸 고려보세요",
         "patron": {
-            "enjoyOengus": "Oengus를 즐기는 경우 {{patronLink}}",
-            "list": "우리의 후원자에 감사하십시오 Oengus 무료",
-            "patronLink": "파트론"
+            "enjoyOengus": "Oengus가 마음에 드신다면, {{patronLink}}에서 후원하시는 걸 고려해주세요",
+            "list": "Oengus를 무료로 제공할 수 있도록 기여해주신 아래 후원자들에게 감사를 표합니다",
+            "patronLink": "후원자가 되어주세요"
         },
-        "v1Link": "V1에 Oengus에 로그인"
+        "v1Link": "Oengus v1으로 로그인"
     },
     "calendar": {
         "title": "마라톤 달력",
-        "help": "이벤트를 클릭하면 페이지에 리디렉션됩니다",
-        "allDay": "1일 전",
+        "help": "이벤트를 클릭하면 해당 페이지로 리디렉션됩니다",
+        "allDay": "종일",
         "between": "{{time-range}}",
         "endsAt": "{{end-time}} 종료",
-        "noMarathons": "이 날짜 범위에는 마라톤이 없습니다.",
-        "now": "제품 정보",
-        "startsAt": "시작 {{start-time}}"
+        "noMarathons": "이 기간에는 마라톤이 없습니다.",
+        "now": "지금",
+        "startsAt": "{{start-time}} 시작"
     },
     "alert": {
         "user": {
             "update": {
-                "success": "사용자 데이터 업데이트",
-                "error": "사용자 데이터 업데이트 중 오류"
+                "success": "사용자 데이터가 업데이트되었습니다",
+                "error": "사용자 데이터 업데이트 중 오류가 발생했습니다"
             },
             "sync": {
-                "error": "계정 동기화 중에 오류가 발생했습니다. 보통 이것은 광고 차단제에 기인합니다. oengus whitelisted 또는 모든 확장을 다시 시도하십시오. 설치되지 않고 브라우저를 시도한 경우 이 오류를 보면서 Oengus Discord 서버에 #bug_or_feature에 대한 도움을 요청하십시오.",
-                "alreadySynced": "오류: 이 계정은 이미 사용됩니다"
+                "error": "계정 동기화 중 오류가 발생했습니다. 해당 오류는 보통 광고 차단 프로그램으로 인해 발생합니다. Oengus를 허용 목록에 추가하거나 모든 확장 프로그램을 비활성화한 상태에서 다시 시도해주세요. 확장 프로그램이 설치되지 않은 브라우저를 통해 시도했지만 여전히 이 오류가 표시되면 Oengus Discord 서버의 #bug_or_feature에 대한 도움을 요청하세요.",
+                "alreadySynced": "오류: 이 계정은 이미 사용되고 있습니다"
             },
             "login": {
-                "usernameExists": "로그인을 하려고 하는 계정의 사용자 이름. 이미 Oengus 프로필을 다른 로그인 방법으로 만들지 않았습니다. 거짓 긍정적이라고 생각하면 관리자에게 문의하십시오.",
-                "error": "인증 중 오류가 발생했습니다. 자주 묻는 질문.",
-                "disabledAccount": "계정이 비활성화됩니다. 자주 묻는 질문.",
-                "noAccountFound": "계정을 찾을 수 없습니다. 새 계정 또는 기존 계정과 동기화를 등록하십시오.",
-                "passwordResetRequired": "로그인하려면 비밀번호 재설정이 필요합니다."
+                "usernameExists": "로그인하려는 계정에 할당된 유저네임이 이미 존재합니다. 다른 로그인 방법을 이용하여 Oengus 프로필을 생성한 건 아닌지 확인하십시오. 잘못되었다고 생각되면 관리자에게 문의해주세요.",
+                "error": "인증하는 동안 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오.",
+                "disabledAccount": "계정이 비활성화되었습니다. 다시 사용하려면 관리자에게 문의하십시오.",
+                "noAccountFound": "계정을 찾을 수 없습니다. 새 계정을 등록하거나 기존 계정과 연동하세요.",
+                "passwordResetRequired": "로그인하려면 비밀번호를 재설정해야합니다. 죄송합니다."
             },
             "deactivate": {
                 "success": "계정이 비활성화되었습니다"
             }
         },
         "submit": {
-            "SAME_USER": "당신은 당신이 만든 범주에 자신을 추가 할 수 없습니다",
-            "NOT_MULTIPLAYER": "이것은 멀티플레이어 범주가 아닙니다",
-            "MAX_SIZE_REACHED": "이 제출은 이미 runners의 최대 수에 도달했습니다",
-            "DIFFERENT_MARATHON": "이 코드는 다른 marathon",
-            "CODE_NOT_FOUND": "이 코드는 존재하지 않습니다",
-            "ALREADY_IN_OPPONENTS": "당신은 이미이 범주의 일부입니다",
-            "DISCORD_VERIFIED": "Discord 서버에서 확인되었으므로 이제 제출할 수 있습니다"
+            "SAME_USER": "자신이 생성한 카테고리에 스스로를 추가할 수 없습니다",
+            "NOT_MULTIPLAYER": "멀티플레이어 카테고리가 아닙니다",
+            "MAX_SIZE_REACHED": "이미 최대 러너 수에 도달하였습니다",
+            "DIFFERENT_MARATHON": "다른 마라톤의 코드입니다",
+            "CODE_NOT_FOUND": "존재하지 않는 코드입니다",
+            "ALREADY_IN_OPPONENTS": "이미 이 카테고리에 속해있습니다",
+            "DISCORD_VERIFIED": "디스코드 서버 참여 사실이 확인되었습니다. 이제 제출이 가능합니다"
         },
         "submission": {
             "save": {
-                "success": "제출",
-                "error": "제출 과정에서 오류"
+                "success": "제출이 전송되었습니다",
+                "error": "제출 중 오류가 발생했습니다"
             },
             "deletion": {
-                "success": "제출 취소",
-                "error": "오류는 제출 삭제 중 발생했습니다. 자주 묻는 질문."
+                "success": "제출이 삭제되었습니다",
+                "error": "제출 삭제 중 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오."
             },
-            "cache": "이 목록에서 30 분 이상 제출할 수 있습니다"
+            "cache": "제출 내역이 목록에 표시되려면 30분 이상 걸릴 수 있습니다"
         },
         "selection": {
             "save": {
-                "success": "자주 묻는 질문",
-                "error": "선택 중 오류 저장"
+                "success": "선택 항목이 저장되었습니다",
+                "error": "선택 항목 저장 중 오류가 발생했습니다"
             }
         },
         "schedule": {
             "save": {
-                "success": "자주 묻는 질문",
-                "error": "자주 묻는 질문"
+                "success": "일정이 저장되었습니다",
+                "error": "일정 저장 중 오류가 발생했습니다"
             },
             "export": {
-                "error": "오류는 수출 중 일어난다. 자주 묻는 질문."
+                "error": "내보내는 동안 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오."
             }
         },
         "marathon": {
             "update": {
-                "success": "Marathon 업데이트",
-                "error": "Marathon 업데이트 중 오류"
+                "success": "마라톤이 업데이트되었습니다",
+                "error": "마라톤 업데이트 중 오류가 발생했습니다"
             },
             "deletion": {
-                "success": "Marathon 삭제",
-                "error": "Marathon deletion 도중 과실"
+                "success": "마라톤을 삭제했습니다",
+                "error": "마라톤 삭제 중 오류가 발생했습니다"
             },
             "creation": {
-                "success": "Marathon 생성",
-                "error": "Marathon 작성 중 오류"
+                "success": "마라톤을 생성하였습니다",
+                "error": "마라톤 생성 중 오류가 발생했습니다"
             }
         },
         "incentives": {
             "save": {
-                "success": "저장 된 인센티브.",
-                "error": "Incentives에서 오류가 발생했습니다. 자주 묻는 질문."
+                "success": "인센티브가 저장되었습니다.",
+                "error": "인센티브를 저장하는 동안 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오."
             },
             "delete": {
-                "success": "삭제 된",
+                "success": "인센티브가 삭제되었습니다",
                 "error": "인센티브 deletion 중 오류. 자주 묻는 질문."
             }
         },
         "game": {
             "export": {
-                "error": "오류는 수출 중 일어난다. 자주 묻는 질문."
+                "error": "내보내는 동안 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오."
             },
             "deletion": {
-                "success": "게임 삭제",
-                "error": "오류가 발생했습니다. 자주 묻는 질문."
+                "success": "게임이 삭제되었습니다",
+                "error": "게임을 삭제하는 동안 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오."
             }
         },
         "donation": {
             "validate": {
                 "success": "당신의 기부금이 전송되었습니다. 감사합니다!",
-                "error": "기부 과정에서 오류가 발생했습니다. 자주 묻는 질문."
+                "error": "후원 과정에서 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오."
             },
             "export": {
-                "error": "오류는 수출 중 일어난다. 자주 묻는 질문."
+                "error": "내보내는 동안 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오."
             }
         },
         "category": {
             "deletion": {
-                "success": "분류 삭제",
-                "error": "오류가 발생했습니다. 자주 묻는 질문."
+                "success": "카테고리가 삭제되었습니다",
+                "error": "카테고리를 삭제하는 동안 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오."
             }
         },
         "generic": {
-            "validationError": "뭔가 잘못되었는지 확인하시기 바랍니다 validation errors. 문제가 발생하면 Discord에 연락 주시기 바랍니다.",
-            "clipboardOk": "클립보드에 복사!"
+            "validationError": "문제가 발생했습니다. 유효성 검사 오류를 확인해 주세요. 문제가 지속되면 디스코드에서 지원팀에 문의하세요.",
+            "clipboardOk": "클립보드에 복사되었습니다!"
         }
     },
     "action": {
         "submit": "제출하기",
-        "sendTweet": "트윗 보내기",
-        "save": "구하십시오",
-        "join": "로그인",
-        "decline": "12 월",
-        "confirm": "제품정보",
-        "cancel": "이름 *",
-        "accept": "이름 *",
-        "clearAvailabilities": "선택 사항",
-        "create": "이름 *",
-        "share": "지원하다",
+        "sendTweet": "트윗 전송",
+        "save": "저장",
+        "join": "가입",
+        "decline": "거절",
+        "confirm": "확인",
+        "cancel": "취소",
+        "accept": "확인",
+        "clearAvailabilities": "선택한 가능한 시간대 선택 해제",
+        "create": "생성",
+        "share": "공유",
         "login": "로그인",
-        "edit": "제품정보",
-        "delete": "기타 제품",
-        "shareMastodon": "Mastodon에 공유",
-        "import": "제품정보",
-        "shareBluesky": "Bluesky에 게시"
+        "edit": "편집",
+        "delete": "삭제",
+        "shareMastodon": "마스토돈에서 공유",
+        "import": "불러오기",
+        "shareBluesky": "블루스카이에 게시"
     },
     "aboutPage": {
         "contact": {
-            "title": "제품정보",
-            "par2": "비즈니스/PR 문의는 <a href=\"mailto:contact@oengus.io\" target=\"_blank\">contact@oengus.io</a>로 이메일을 보내주십시오. 우리는 영어로 작성된 이메일에만 응답합니다.",
-            "par1": "버그 발견? 사이트에 대한 질문? <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">에 참여. Discord 서버</a>"
+            "title": "문의",
+            "par2": "사업/PR 관련 문의는 <a href=\"mailto:contact@oengus.io\" target=\"_blank\">contact@oengus.io</a>로 메일을 부탁드립니다. 영어로 작성된 메일에만 대응합니다.",
+            "par1": "버그를 발견했나요? 사이트에 관한 문의가 있으신가요? <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">Discord 서버</a>에 참여해주세요."
         },
         "about": {
-            "title": "제품정보",
-            "par6": "Trivia: Oengus는 시간과 영원의 책임에 있는 celtic divinity입니다. Speedrunning marathons에 적합한 이름을 이야기하십시오!",
-            "par5": "2021년 1월부터 사이트가 <a href=\"https://tech.lgbt/@duncte123\" target=\"_blank\">duncte123</a>에 의해 유지됩니다.",
-            "par4": "이 사이트는 <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>에 의해 생성되었습니다. 2013 년부터 speedrunning 커뮤니티의 배우, 그는 여러 가지 방법으로 speedrunning 커뮤니티에 기여했습니다. <a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a> 3 년 동안, <a> Speedrun WRs Twitter bot</a>, 프랑스 Restream 팀의 구성원 인 Restreams of internationat, Bourgone 및 Quickturnone의 상류를 제공합니다. 이 모든 경험을 수집 한 후, 좋은 공공 도구가 마라톤을 구성하는 데 존재하지 않는 평가, 그는 하나와 Oengus를 만들하기로 결정한 결과입니다.",
-            "par3": "Speedrunning marathons는 speedrunners가 청중, 온라인, 사이트 또는 둘 다에 그들의 뛰기를 전시하는 사건입니다. 가장 인기있는 이벤트는 <a href=\"https://gamesdonequick.com\" target=\"_blank\"> 게임 Done Quick</a> 2 년 두 번 구성.",
-            "par2": "Speedrunning은 비디오 게임을 연주하는 행위로 가능한 한 빨리 완료, 엔터테인먼트 및 / 또는 경쟁의 목적을 위해. <a href=\"https://ko.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedia</a>에 대한 자세한 내용을 읽을 수 있습니다.",
-            "par1": "Oengus (pronounced Angus/ang·guhs)는 speedrunning marathons를 조직하기위한 도구를 제공하는 사이트입니다."
+            "title": "Oengus란",
+            "par6": "정보: Oengus는 시간과 영원을 관장하는 켈트 신입니다. 스피드런 마라톤에 적합한 이름에 관해서 말해보세요!",
+            "par5": "2021년 1월부터 이 사이트는 <a href=\"https://tech.lgbt/@duncte123\" target=\"_blank\">duncte123</a>이 관리합니다.",
+            "par4": "이 사이트는 <a href=\"https://twitter.com/GyooRunsStuff\" target=\"_blank\">Gyoo</a>가 제작하였습니다. Gyoo는 2013년부터 스피드런 커뮤니티에서 러너로 활동하였으며 다양한 방식으로 스피드런 커뮤니티에 기여하였습니다. <a href=\"https://speedrun.com\" target=\"_blank\">speedrun.com</a>에서 3년간 모더레이터 활동을 했으며, <a href=\"https://twitter.com/SpeedrunWRs\">Speedrun WRs Twitter bot</a>을 개발하였고, 프랑스 청중을 위해 국제 마라톤의 재방송을 제공하는 French Restream 팀의 일원이며, 프랑스의 Games Done Quick인 Bourg la Run의 설립자입니다. 이런 경험들에 기반해, Gyoo는 스피드런 마라톤을 조직하는 데 적합한 공공 도구가 없다고 판단하였고, 제작을 결심했습니다. 그 결과물이 바로 Oengus입니다.",
+            "par3": "스피드런 마라톤은 스피드러너들이 모여 온라인 혹은 오프라인에서 청중에게 자신의 런을 보여주는 이벤트입니다. 가장 인기 있는 이벤트는 연 2회 개최되는 <a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a>입니다.",
+            "par2": "스피드런이란 엔터테인먼트 및 경쟁을 목적으로 가능한 한 빠르게 게임을 완료하는 행위를 말합니다. 스피드런에 관한 자세한 내용은 <a href=\"https://en.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedia</a>에서 확인할 수 있습니다.",
+            "par1": "Oengus는 스피드런 마라톤을 조직하기 위한 도구를 제공하는 사이트입니다."
         },
         "privacy": {
-            "title": "회사 소개",
-            "par1": "Oengus에서 {{oengus-link}}에서 액세스 할 수 있으며, 주요 우선 순위 중 하나는 방문자의 개인 정보입니다. 본 개인정보 보호정책 문서는 Oengus에 의해 수집되고 기록되는 정보의 종류와 우리가 사용하는 방법 포함합니다.",
-            "par2": "당신은 베이컨 치즈 질문이 있거나 우리의 개인 정보 보호 정책에 대한 자세한 정보가 필요하면, 저희에게 연락하는 것을 망설이지 마십시오.",
-            "par3": "분쟁의 경우, 이 정책의 영어 버전은 우선권이 소요됩니다."
+            "title": "개인정보 정책",
+            "par1": "{{oengus-link}}에서 접근할 수 있는 Oengus에 있어서, 방문자의 개인정보는 최우선 과제입니다. 본 개인정보 정책은 Oengus가 수집 및 기록하는 정보 유형과 그 사용방법을 설명합니다.",
+            "par2": "본 사이트의 개인정보 보호 방침에 관해 질문이 있거나 자세한 정보가 필요하다면 문의해주십시오.",
+            "par3": "본 정책이 불일치하는 경우, 영어로 작성된 개인정보 정책이 우선됩니다."
         }
     },
     "marathon": {
@@ -1547,20 +1547,20 @@
         "AF": "담당자: Jack"
     },
     "platform": {
-        "SPEEDRUNCOM": "다운로드",
-        "TWITTER": "사이트 맵",
-        "TWITCH": "뚱 베어",
-        "FACEBOOK": "페이스북",
-        "INSTAGRAM": "한국어",
-        "SNAPCHAT": "다운로드",
-        "DISCORD": "공지사항",
-        "EMAIL": "이름 *",
+        "SPEEDRUNCOM": "speedrun.com",
+        "TWITTER": "X",
+        "TWITCH": "Twitch",
+        "FACEBOOK": "Facebook",
+        "INSTAGRAM": "인스타그램",
+        "SNAPCHAT": "스냅챗",
+        "DISCORD": "디스코드",
+        "EMAIL": "이메일",
         "PHONE": "전화번호",
-        "NICO": "한국어",
-        "YOUTUBE": "다운로드",
-        "MASTODON": "마스토돈",
-        "BLUESKY": "Blueskys",
-        "SPEEDRUNSME": "속도.me"
+        "NICO": "니코니코",
+        "YOUTUBE": "유튜브",
+        "MASTODON": "Mastodon",
+        "BLUESKY": "Bluesky",
+        "SPEEDRUNSME": "speedruns.me"
     },
     "news": {
         "title": "(주)"
@@ -1573,22 +1573,22 @@
     },
     "auth": {
         "passwordReset": {
-            "title": "비밀번호 재설정!",
-            "instructions": "비밀번호를 재설정하려면 이메일 주소를 입력하십시오.\n귀하의 이메일 주소가 우리 시스템에 알려지면 암호를 재설정 할 수있는 링크가 전송됩니다.",
+            "title": "비밀번호를 재설정하세요!",
+            "instructions": "비밀번호를 재설정하려면 이메일 주소를 입력하십시오.\n입력된 이메일 주소를 통해 비밀번호를 재설정할 수 있는 링크가 전송됩니다.",
             "request": "비밀번호 재설정",
-            "submit": "비밀번호 재설정!",
-            "requested": "비밀번호 재설정 요청은 이메일 주소로 전송되었습니다. 자주 묻는 질문.",
-            "success": "비밀번호가 성공적으로 재설정되었습니다. 비밀번호로 로그인할 수 있습니다.",
+            "submit": "비밀번호를 재설정합니다!",
+            "requested": "비밀번호 재설정 요청이 회원님의 이메일 주소로 전송되었습니다. 자세한 안내는 이메일을 확인하시기 바랍니다.",
+            "success": "비밀번호가 성공적으로 재설정되었습니다. 설정하신 비밀번호로 로그인할 수 있습니다.",
             "error": {
-                "EMAIL_VERIFICATION_REQUIRED": "이 기능을 사용하기 전에 이메일 주소를 확인합니다.",
-                "PASSWORD_RESET_CODE_INVALID": "제공된 암호 재설정 토큰은 유효하지 않습니다, 새 이메일 요청."
+                "EMAIL_VERIFICATION_REQUIRED": "이 기능을 사용하기 전에 이메일 주소를 인증해 주세요.",
+                "PASSWORD_RESET_CODE_INVALID": "제공된 비밀번호 재설정 토큰이 유효하지 않으니 새 이메일을 요청해 주세요."
             },
-            "tokenMissing": "비밀번호 재설정 토큰이 누락되어 이메일을 다시 클릭합니다."
+            "tokenMissing": "비밀번호 재설정 토큰이 누락되었습니다. 이메일에 포함된 링크를 다시 클릭해주세요."
         },
-        "emailVerificationRequired": "이 기능을 사용하기 전에 이메일 주소를 확인합니다."
+        "emailVerificationRequired": "이 기능을 사용하기 전에 이메일 주소를 인증해 주세요."
     },
     "announcements": {
-        "twitterRemoval": "여기, 우리는 로그 인 옵션으로 트위터를 제거 할 것입니다. Twitch 또는 Discord 계정이 Oengus 계정으로 연결되었는지 확인하십시오."
+        "twitterRemoval": "안녕하세요, 곧 X를 로그인 옵션에서 제거할 예정입니다. 계정을 잃지 않도록 트위치 또는 디스코드 계정이 Oengus 계정에 연결되어 있는지 확인하세요."
     },
     "editor": {
         "markdown": {
