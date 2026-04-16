@@ -33,7 +33,12 @@
         "welcomeText": {
             "par4": {
                 "sandbox": "<b>이곳은 샌드박스 환경입니다. 테스트 목적으로 사용됩니다. 실제 행사를 생성하려면 <a href=\"https://oengus.io\">메인 웹사이트</a>로 이동해주세요.</b>",
-                "prod": "행사를 생성하기 전에 시험해보고 싶다면, <a href=\"https://sandbox.oengus.io\">샌드박스 환경</a>으로 가주세요. 누구나 시험용으로 사용할 수 있는 사이트입니다."
+                "prod": "행사를 생성하기 전에 시험해보고 싶다면, <a href=\"https://sandbox.oengus.io\">샌드박스 환경</a>으로 가주세요. 누구나 시험용으로 사용할 수 있는 사이트입니다.",
+                "prod_new": "마라톤을 생성하기 전에 본 웹사이트를 테스트하고 싶으시다면 [샌드박스 환경](https://sandbox.oengus.io)으로 이동해 주세요. 모든 테스트 및 탐색 목적으로 이용하실 수 있습니다.",
+                "sandbox_new": {
+                    "line1": "**현재 테스트 및 탐색 목적으로 사용할 수 있는 샌드박스 환경에 있습니다. 실제 마라톤을 생성하려면 [메인 웹사이트](https://oengus.io)로 이동해주세요.**",
+                    "line2": "GDPR 규정 준수를 위해 이 웹 사이트는 매주 일요일에 초기화됩니다. 따라서 초기화 후에는 테스트를 위해 새 계정을 생성해야 합니다."
+                }
             },
             "par3": "모든 기능에 접근하려면 다음 링크로 로그인하십시오. 새로운 마라톤을 생성하거나 기존 마라톤에 제출할 수 있습니다:",
             "par1": "Oengus는 스피드런 마라톤을 제출부터 스케줄까지 관리할 수 있도록 해주는 <b>무료</b> 도구입니다."
@@ -44,7 +49,8 @@
         "emu": "[에뮬]",
         "enabled": "유효",
         "disabled": "무효",
-        "non_select": "선택되지 않음"
+        "non_select": "선택되지 않음",
+        "loading": "불러오는 중..."
     },
     "footer": {
         "text": "모든 시간은 접속자의 시간대로 변환됩니다. 감지된 시간대: {{timezone}}",
@@ -80,7 +86,8 @@
                 "usernameExists": "로그인하려는 계정에 할당된 유저네임이 이미 존재합니다. 다른 로그인 방법을 이용하여 Oengus 프로필을 생성한 건 아닌지 확인하십시오. 잘못되었다고 생각되면 관리자에게 문의해주세요.",
                 "error": "인증하는 동안 오류가 발생했습니다. 다시 시도하거나 관리자에게 문의하십시오.",
                 "disabledAccount": "계정이 비활성화되었습니다. 다시 사용하려면 관리자에게 문의하십시오.",
-                "noAccountFound": "계정을 찾을 수 없습니다. 새 계정을 등록하거나 기존 계정과 연동하세요."
+                "noAccountFound": "계정을 찾을 수 없습니다. 새 계정을 등록하거나 기존 계정과 연동하세요.",
+                "passwordResetRequired": "로그인하려면 비밀번호 재설정이 필요합니다."
             },
             "deactivate": {
                 "success": "계정이 비활성화되었습니다"
@@ -170,7 +177,7 @@
             }
         },
         "generic": {
-            "validationError": "문제가 발생했습니다. 유효성 검사 오류를 확인해 주세요. 문제가 지속되면 디스코드에서 지원팀에 문의하세요.",
+            "validationError": "문제가 발생했습니다. 유효성 검사 오류를 확인해 주세요. 문제가 지속되면 Discord에서 지원팀에 문의하세요.",
             "clipboardOk": "클립보드에 복사되었습니다!"
         }
     },
@@ -189,7 +196,9 @@
         "login": "로그인",
         "edit": "편집",
         "delete": "삭제",
-        "shareMastodon": "마스토돈에서 공유"
+        "shareMastodon": "마스토돈에서 공유",
+        "import": "가져오기",
+        "shareBluesky": "Bluesky에 게시"
     },
     "aboutPage": {
         "contact": {
@@ -337,20 +346,38 @@
                     "create-new": "새 일정 만들기",
                     "nothingFound": "일정을 찾을 수 없습니다",
                     "title": "아래에서 일정을 관리하거나 {{create-new}}",
-                    "scheduleHeader": "내 일정:"
+                    "scheduleHeader": "내 일정:",
+                    "scheduleCount": "현재 생성된 스케줄은 {{total}}개입니다. 최대 {{maxSchedules}}개 생성할 수 있습니다."
                 },
                 "hideCompleteUsers": "'선택한 런'에 더 이상 런이 없는 경우 타임라인에서 사용자 숨기기",
                 "markdown": "게임 및 카테고리 필드에 기본 마크다운 구문(**볼드체**, _이탤릭체_, [링크 이름](https://oengus.io/)을 사용할 수 있습니다.",
-                "plsUseTheNewUi": "현재 이전 UI를 사용하여 일정을 관리하고 있으며, 불안정하고 깨질 수 있습니다. 더 나은 환경을 위해 'new!'로 표시된 페이지로 전환하세요!"
+                "plsUseTheNewUi": "현재 이전 UI를 사용하여 일정을 관리하고 있으며, 불안정하고 깨질 수 있습니다. 더 나은 환경을 위해 'new!'로 표시된 페이지로 전환하세요!",
+                "horaro": {
+                    "missingFeature": "Oengus는 현재 일정의 열을 커스터마이즈하는 기능을 지원하지 않습니다. 이 기능이 꼭 필요하시다면 {{horaro}}를 사용해 보세요!",
+                    "appName": "Horaro"
+                }
             },
             "export": {
                 "title": "일정 내보내기",
                 "json": "JSON (Horaro)로 내보내기",
                 "ics": "ICS로 내보내기",
-                "csv": "CSV로 내보내기"
+                "csv": "CSV로 내보내기",
+                "gdq": "GDQ 기부 추적 (외부 도구)"
             },
             "dstChange": "마라톤 중에 DST 변경이 발생합니다.",
-            "currentRun": "현재 런"
+            "currentRun": "현재 런",
+            "clone": {
+                "title": "스케줄을 복제합니다!",
+                "help1": "다른 일정의 ***모든*** 런을 가져오려면 먼저 아래 목록에서 해당 일정을 선택해야 합니다.",
+                "help2": "아래 드롭다운 메뉴에서 일정을 선택하신 후, *가져오기*를 눌러 가져오기 절차를 시작하세요.",
+                "placeholder": "스케줄 선택...",
+                "trigger": "기존 일정에서 복사"
+            },
+            "import": {
+                "trigger": "파일에서 스케줄 가져오기",
+                "csv": "CSV에서 가져오기",
+                "json": "JSON (Horaro)에서 가져오기"
+            }
         },
         "new": {
             "title": "새로운 마라톤 생성",
@@ -558,7 +585,9 @@
                     "label": "유형"
                 },
                 "opponent": {
-                    "with": "상대:"
+                    "with": "상대:",
+                    "andMore": "{{opponentList}} 외 {{count}}명",
+                    "waiting": "{{count}}명의 러너가 참여하길 기다리는 중..."
                 },
                 "name": {
                     "label": "카테고리 이름",
@@ -586,6 +615,12 @@
                     "help": {
                         "withCode": "이 제출 내역에 참여할 수 있도록 다른 러너에게 다음 코드를 제공하세요:",
                         "noCode": "제출 내역을 저장한 후 관심있는 다른 러너와 이 카테고리를 공유할 수 있는 코드가 제공됩니다"
+                    }
+                },
+                "expectedRunners": {
+                    "label": "예상 러너 수",
+                    "help": {
+                        "explanation": "이 카테고리의 예상되는 러너 수를 입력하세요. 이 수에는 본인도 포함됩니다. 따라서 이 카테고리가 본인과 다른 누군가와의 레이스인 경우 2를 입력해야 합니다."
                     }
                 }
             },
@@ -627,6 +662,12 @@
                     "lead": "이 마라톤을 제출하려면 Discord 서버에 가입돼있어야 합니다",
                     "title": "잠시만요!"
                 }
+            },
+            "import": {
+                "title": "저장된 스피드런 가져오기",
+                "description": "런을 가져오려면 선택 후 '가져오기'를 눌러주세요. {{ctrlKey}}를 누르고 있으면 여러 항목을 선택하실 수 있습니다.",
+                "settingsHint": "아래 목록이 비어있다면 오른쪽 상단에 있는 자신의 이름을 클릭한 다음 \"저장된 스피드런\"을 선택하여 런을 저장할 수 있습니다",
+                "ctrlKey": "ctrl"
             }
         },
         "submissions": {
@@ -691,8 +732,8 @@
             },
             "twitch": {
                 "error": {
-                    "pattern": "트위치 유저네임이 잘못되었습니다",
-                    "maxlength": "트위치 유저네임이 너무 깁니다"
+                    "pattern": "Twitch 유저네임이 잘못되었습니다",
+                    "maxlength": "Twitch 유저네임이 너무 깁니다"
                 }
             },
             "title": "마라톤 설정",
@@ -701,7 +742,7 @@
                 "incentives": "인센티브",
                 "general": "일반 설정",
                 "dangerZone": "위험 구역",
-                "discord": "디스코드"
+                "discord": "Discord"
             },
             "supportedCharity": {
                 "label": "지원 단체",
@@ -805,7 +846,8 @@
             },
             "marathonDescription": {
                 "label": "설명",
-                "help": "마크다운 형식 지원"
+                "help": "마크다운 형식 지원",
+                "markdown": "마크다운 가이드는 {{link}}에서 확인하실 수 있습니다"
             },
             "location": {
                 "label": "위치"
@@ -938,6 +980,22 @@
                     "pattern": "마스토돈 사용자 이름이 'user@instance.tld'와 일치하지 않습니다",
                     "maxlength": "마스토돈 이름이 너무 깁니다"
                 }
+            },
+            "speedruncom": {
+                "error": {
+                    "pattern": "유저네임이 speedrun.com에서 유효하지 않습니다"
+                }
+            },
+            "speedrunsme": {
+                "error": {
+                    "pattern": "유저네임이 speedruns.me에서 유효하지 않습니다"
+                }
+            },
+            "bluesky": {
+                "error": {
+                    "pattern": "유효하지 않은 유저네임입니다. '@'로 시작하는지 확인해주세요. (예: @oengus.bsky.app)",
+                    "maxlength": "Bluesky 이름이 너무 깁니다"
+                }
             }
         }
     },
@@ -947,7 +1005,8 @@
             "discord": "Discord로 로그인",
             "twitch": "Twitch로 로그인",
             "google": "Google로 로그인",
-            "title": "타 서비스로 로그인"
+            "title": "소셜 계정으로 로그인",
+            "subtitle": "기존 Oengus 계정에 연결된 경우에만 소셜 계정으로 로그인할 수 있습니다. 이 버튼을 통해서는 계정을 생성할 수 없습니다."
         },
         "2fa": {
             "label": "2단계 인증 코드"
@@ -1090,6 +1149,10 @@
                     "required": "비밀번호가 필요합니다"
                 },
                 "label": "비밀번호"
+            },
+            "savedGames": {
+                "label": "저장된 게임 표시",
+                "yesOption": "나의 저장된 게임을 전체 공개합니다"
             }
         },
         "profile": {
@@ -1110,6 +1173,12 @@
             "deactivate": "유저 비활성화",
             "activate": "유저 활성화",
             "speak": "회화 언어:"
+        },
+        "savedGames": {
+            "header": "저장된 스피드런 설정",
+            "patronNudge": "Patreon에서 Oengus를 후원하고 있다면 저장된 스피드런을 이곳에서 추가하거나 편집할 수 있습니다",
+            "instruction1": "저장된 스피드런은 프로필에 표시할 수 있으며(설정에서 켜고 끌 수 있음), 이벤트 참가 신청 시 자동으로 입력할 수 있습니다.",
+            "cacheWarning": "여기에서 변경한 내용은 프로필에 반영되는 데 약 **24시간**이 소요될 수 있습니다. 자동 완성 기능은 영향을 받지 않으니 걱정하지 마세요."
         }
     },
     "navbar": {
@@ -1226,7 +1295,10 @@
         "pl": "폴란드어",
         "da": "덴마크어",
         "tr": "터키어",
-        "pt": "포르투갈어"
+        "pt": "포르투갈어",
+        "br": "브르타뉴어",
+        "la": "라틴어",
+        "sq": "알바니아어"
     },
     "country": {
         "GA": "가봉",
@@ -1489,7 +1561,7 @@
         "DISCORD": "Discord",
         "EMAIL": "이메일",
         "PHONE": "휴대전화번호",
-        "NICO": "Nico",
+        "NICO": "niconico",
         "YOUTUBE": "유튜브",
         "MASTODON": "Mastodon",
         "BLUESKY": "Bluesky",
@@ -1521,6 +1593,14 @@
         "emailVerificationRequired": "이 기능을 사용하기 전에 이메일 주소를 인증해 주세요."
     },
     "announcements": {
-        "twitterRemoval": "안녕하세요, 곧 X를 로그인 옵션에서 제거할 예정입니다. 계정을 잃지 않도록 트위치 또는 디스코드 계정이 Oengus 계정에 연결되어 있는지 확인하세요."
+        "twitterRemoval": "안녕하세요, 곧 X를 로그인 옵션에서 제거할 예정입니다. 계정을 잃지 않도록 Twitch 또는 Discord 계정이 Oengus 계정에 연결되어 있는지 확인하세요."
+    },
+    "editor": {
+        "markdown": {
+            "controls": {
+                "edit": "편집",
+                "preview": "미리보기"
+            }
+        }
     }
 }
