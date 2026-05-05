@@ -202,7 +202,11 @@
             "par3": "Para ter acesso a todas funcionalidades, por favor acesse através do próximo link. Você poderá criar novas maratonas e realizar submissões para as existentes:",
             "par4": {
                 "prod": "Se você deseja testar a ferramenta antes de criar a sua maratona, por favor visite o <a href=\"https://sandbox.oengus.io\">ambiente de testes</a>. Ele está disponível para todos os testes e descobertas.",
-                "sandbox": "<b>Você está no ambiente de testes, disponível para testes e descobertas. Se você deseja criar uma maratona real, por favor acesse o <a href=\"https://oengus.io\">site principal</a>.</b>"
+                "sandbox": "<b>Você está no ambiente de testes, disponível para testes e descobertas. Se você deseja criar uma maratona real, por favor acesse o <a href=\"https://oengus.io\">site principal</a>.</b>",
+                "prod_new": "Se você deseja testar o aplicativo antes de criar a maratona, por favor ir para o seguinte ambiente sandbox: https://sandbox.oengus.io. Ele está disponível para todos os seus testes e descobertas.",
+                "sandbox_new": {
+                    "line1": "**Você está em um ambiente de sandbox, disponível para testes e descobertas. Se você deseja criar um uma maratona, por favor ir para o website principal: https://oengus.io).**"
+                }
             }
         },
         "welcomeTitle": "Seja bem vindo ao Oengus!",
