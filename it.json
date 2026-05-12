@@ -490,6 +490,16 @@
                     "pattern": "Nome utente non valido, assicurati che inizi con '@' (es. @oengus.bsky.app)",
                     "maxlength": "Il nome Bluesky è troppo lungo"
                 }
+            },
+            "speedruncom": {
+                "error": {
+                    "pattern": "Il tuo nome utente non è valido per speedrun.com"
+                }
+            },
+            "speedrunsme": {
+                "error": {
+                    "pattern": "Il tuo nome utente non è valido per speedruns.me"
+                }
             }
         },
         "selection": {
@@ -794,7 +804,12 @@
         "welcomeText": {
             "par4": {
                 "sandbox": "<b>Ti trovi nell'ambiente sandbox per testing ed esplorazione. Se desideri creare una maratona vera, si prega di procedere sul <a href=\"https://oengus.io\">sito principale</a>.</b>",
-                "prod": "Se desideri testare la piattaforma prima di utilizzarla, è possibile esplorare <a href=\"https://sandbox.oengus.io\">l'ambiente sandbox</a>."
+                "prod": "Se desideri testare l'applicazione prima di creare una maratona, vai nell'<a href=\"https://sandbox.oengus.io\">ambiente sandbox</a>. È a tua disposizione per qualsiasi prova o per scopi esplorativi.",
+                "prod_new": "Se desideri testare l'applicazione prima di creare una maratona, vai nell'[ambiente sandbox] (https://sandbox.oengus.io). È a tua disposizione per qualsiasi prova o per scopi esplorativi.",
+                "sandbox_new": {
+                    "line1": "**Sei nell'ambiente sandbox, disponbile per prova o per scopi esplorativi. Se desideri creare una maratona, vai al [sito principale](https://oengus.io). **",
+                    "line2": "Questo ambiente viene ripristinato ogni domenica per la conformità al GDPR. Ciò significa che, quando accadrà, dovrai creare un nuovo account per i test."
+                }
             },
             "par3": "Per avere accesso a tutte le funzionalità, si prega di effettuare il log-in tramite il link seguente. Sarà poi possibile creare nuove maratone e proporre run per maratone esistenti:",
             "par1": "Oengus è uno strumento <b>gratuito</b> per gestire tutte le tue maratone di speedrunning, dalle proposte alla tabella."
@@ -835,7 +850,8 @@
             "discord": "Login tramite Discord",
             "twitch": "Login tramite Twitch",
             "title": "Accedi con un provider",
-            "google": "Accedi con Google"
+            "google": "Accedi con Google",
+            "subtitle": "L'accesso tramite un provider è possibile solo dopo averlo collegato a un account Oengus già esistente. Non è possibile creare un account utilizzando questi pulsanti."
         },
         "forgotPass": "Hai dimenticato la password?",
         "password": {
