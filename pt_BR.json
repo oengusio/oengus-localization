@@ -609,7 +609,7 @@
                 "table": {
                     "progress": "Progresso",
                     "locked": "Bloqueado",
-                    "isBidWar": "Objetivo de doação/Guerra de propostas",
+                    "isBidWar": "Meta de doação/Disputa de lances",
                     "incentive": "Nome de incentivo",
                     "goal": "Meta",
                     "game": "Jogo",
@@ -983,7 +983,7 @@
                 "plsUseTheNewUi": "No momento, você está usando a interface antiga para gerenciar agendamentos. Ela é instável e pode falhar. Mude para a página marcada como \"nova\" para uma melhor experiência!",
                 "horaro": {
                     "missingFeature": "O Oengus atualmente não oferece suporte à personalização das colunas da sua agenda. Precisa muito dessa funcionalidade? Experimente o {{horaro}}!",
-                    "appName": "Horaro"
+                    "appName": "Agendar"
                 }
             },
             "title": "Agendamento",
