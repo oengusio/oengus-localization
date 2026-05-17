@@ -154,7 +154,7 @@
         "title": "Calendário de maratonas",
         "endsAt": "Termina {{end-time}}",
         "startsAt": "Começa {{start-time}}",
-        "allDay": "O dia todo",
+        "allDay": "Dia todo",
         "now": "Agora",
         "between": "{{time-range}}",
         "noMarathons": "Não há maratonas neste período."
@@ -201,12 +201,12 @@
             "par1": "Oengus é uma ferramenta <b>gratuita</b> para gerenciar as maratonas de speedruns, desde as inscrições até o agendamento do evento.",
             "par3": "Para ter acesso a todas funcionalidades, por favor acesse através do próximo link. Você poderá criar novas maratonas e realizar submissões para as existentes:",
             "par4": {
-                "prod": "Se desejar testar o aplicativo antes de criar uma maratona, acesse o <a href=\"https://sandbox.oengus.io\">ambiente sandbox</a>. Ele está disponível para todos os seus testes e descobertas.",
+                "prod": "Se você deseja testar a ferramenta antes de criar a sua maratona, por favor visite o <a href=\"https://sandbox.oengus.io\">ambiente de testes</a>. Ele está disponível para todos os testes e descobertas.",
                 "sandbox": "<b>Você está no ambiente de testes, disponível para testes e descobertas. Se você deseja criar uma maratona real, por favor acesse o <a href=\"https://oengus.io\">site principal</a>.</b>",
                 "prod_new": "Se você deseja testar o aplicativo antes de criar a maratona, por favor ir para o seguinte ambiente sandbox: https://sandbox.oengus.io. Ele está disponível para todos os seus testes e descobertas.",
                 "sandbox_new": {
                     "line1": "**Você está em um ambiente de sandbox, disponível para testes e descobertas. Se você deseja criar um uma maratona, por favor ir para o website principal: https://oengus.io).**",
-                    "line2": "Este ambiente é reiniciado todos os domingos para conformidade com o RGPD. Isso significa que você precisará criar uma nova conta para testes quando isso acontecer."
+                    "line2": ""
                 }
             }
         },
@@ -217,7 +217,7 @@
             "patreon": {
                 "nobody": "Oengus não tem patrocinadores!",
                 "but_patreon": "Oengus é totalmente gratuito para uso de todos, graças aos nossos {{patrons}}!",
-                "patrons": "patronos",
+                "patrons": "patrons",
                 "see_footer": "Temos orgulho de exibir nossos clientes no final de cada página!"
             }
         }
@@ -229,7 +229,7 @@
             "twitch": "Entrar com Twitch",
             "title": "Fazer login com um provedor",
             "google": "Fazer login com o Google",
-            "subtitle": "Só é possível iniciar sessão com um fornecedor depois de o vincular a uma conta Oengus já existente. Não é possível criar uma conta através destes botões."
+            "subtitle": ""
         },
         "2fa": {
             "label": "Código de autenticação de dois fatores"
@@ -283,7 +283,7 @@
             "nickname": {
                 "label": "Apelido",
                 "error": {
-                    "pattern": "O apelido é composto apenas por letras minúsculas, letras maiúsculas, _ e -",
+                    "pattern": "O nickname pode apenas ser composto por letras minúsculas, LETRAS MAIÚSCULAS, _ e -",
                     "max": "O nickname é demasiado longo"
                 }
             }
@@ -593,12 +593,12 @@
             },
             "speedruncom": {
                 "error": {
-                    "pattern": "Seu nome de usuário não é válido para speedrun.com"
+                    "pattern": ""
                 }
             },
             "speedrunsme": {
                 "error": {
-                    "pattern": "Seu nome de usuário não é válido para speedruns.me"
+                    "pattern": ""
                 }
             }
         },
@@ -609,9 +609,9 @@
                 "table": {
                     "progress": "Progresso",
                     "locked": "Bloqueado",
-                    "isBidWar": "Meta de doação/Disputa de lances",
+                    "isBidWar": "Objetivo de doação/Guerra de propostas",
                     "incentive": "Nome de incentivo",
-                    "goal": "Meta",
+                    "goal": "Objetivo",
                     "game": "Jogo",
                     "description": "Descrição",
                     "currentAmount": "Montante atual",
@@ -648,7 +648,7 @@
             }
         },
         "home": {
-            "to": "Para",
+            "to": "Até",
             "location": "Local",
             "language": "Idioma",
             "from": "De"
@@ -657,7 +657,7 @@
             "isArchived": "A maratona está arquivada. Está agora em modo de leitura."
         },
         "donations": {
-            "total": "Total de doações",
+            "total": "Total doações",
             "title": "Doações",
             "table": {
                 "name": "Nome",
@@ -983,7 +983,7 @@
                 "plsUseTheNewUi": "No momento, você está usando a interface antiga para gerenciar agendamentos. Ela é instável e pode falhar. Mude para a página marcada como \"nova\" para uma melhor experiência!",
                 "horaro": {
                     "missingFeature": "O Oengus atualmente não oferece suporte à personalização das colunas da sua agenda. Precisa muito dessa funcionalidade? Experimente o {{horaro}}!",
-                    "appName": "Agendar"
+                    "appName": "Horaro"
                 }
             },
             "title": "Agendamento",
@@ -1345,7 +1345,7 @@
         "TWITTER": "Twitter",
         "SPEEDRUNCOM": "speedrun.com",
         "YOUTUBE": "YouTube",
-        "MASTODON": "Mastodonte",
+        "MASTODON": "Mastodon",
         "BLUESKY": "Bluesky",
         "SPEEDRUNSME": "speedruns.me"
     },
