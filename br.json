@@ -60,6 +60,9 @@
                 "bid": {
                     "new": "(Nevez)"
                 }
+            },
+            "comment": {
+                "label": "Evezhiadenn"
             }
         },
         "home": {
@@ -82,6 +85,10 @@
                 "horaro": {
                     "appName": "Horaro"
                 }
+            },
+            "table": {
+                "game": "C'hoari",
+                "category": "Rummad"
             }
         },
         "settings": {
@@ -97,6 +104,25 @@
                 "error": {
                     "pattern": "Direizh eo hoc'h anv implijer evit speedruns.me"
                 }
+            },
+            "language": {
+                "label": "Yezh"
+            },
+            "marathonDescription": {
+                "label": "Deskrivadur"
+            },
+            "name": {
+                "label": "Anv"
+            },
+            "privacy": {
+                "private": "Prevez",
+                "public": "Foran"
+            },
+            "tabs": {
+                "general": "Hollek"
+            },
+            "type": {
+                "online": "Enlinenn"
             }
         },
         "submit": {
@@ -112,6 +138,47 @@
                         "."
                     ]
                 }
+            },
+            "category": {
+                "description": {
+                    "label": "Deskrivadur ar rummad"
+                },
+                "name": {
+                    "label": "Rummad"
+                }
+            },
+            "action": {
+                "addCategory": "Ouzhpennañ ur rummad"
+            },
+            "game": {
+                "name": {
+                    "label": "C'hoari"
+                }
+            }
+        },
+        "donations": {
+            "table": {
+                "comment": "Evezhiadenn",
+                "name": "Anv"
+            }
+        },
+        "incentives": {
+            "management": {
+                "table": {
+                    "game": "C'hoari",
+                    "description": "Deskrivadur"
+                }
+            }
+        },
+        "submissions": {
+            "table": {
+                "category": "Rummad",
+                "categoryDescription": "Deskrivadur ar rummad",
+                "game": "C'hoari",
+                "question": "Goulenn"
+            },
+            "category": {
+                "delete": "Dilemel ar rummad"
             }
         }
     },
@@ -134,7 +201,8 @@
         "mastodon": "Heuilhit ac'hanomp war Mastodon",
         "patrons": "Hor donezonerien",
         "sourceCode": "Boneg tarzh",
-        "donate": "Reiñ"
+        "donate": "Reiñ",
+        "savedGames": "Speedruns enrollet"
     },
     "news": {
         "title": "Keleier"
@@ -203,7 +271,8 @@
                 "status": {
                     "title": "Statud"
                 }
-            }
+            },
+            "ban": "Forbanniñ an implijer"
         }
     },
     "patrons": {
@@ -213,6 +282,16 @@
         "user": {
             "sync": {
                 "alreadySynced": "Fazi : implijet eo ar gont-mañ c'hoazh"
+            }
+        },
+        "category": {
+            "deletion": {
+                "success": "Dilamet eo bet ar rummad"
+            }
+        },
+        "game": {
+            "deletion": {
+                "success": "Dilamet eo bet ar c'hoari"
             }
         }
     },
