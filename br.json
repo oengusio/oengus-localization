@@ -22,13 +22,16 @@
         "save": "Enrollañ",
         "edit": "Embann",
         "join": "Kemer perzh",
-        "confirm": "Kadarnaat"
+        "confirm": "Kadarnaat",
+        "decline": "Nac'hañ"
     },
     "calendar": {
         "now": "Bremañ",
         "title": "Deiziataer ar maratonioù",
         "allDay": "E-pad an devezh",
-        "between": "{{time-range}}"
+        "between": "{{time-range}}",
+        "endsAt": "Echuiñ a ra {{end-time}}",
+        "startsAt": "Kregiñ a ra {{start-time}}"
     },
     "global": {
         "loading": "O kargañ...",
@@ -68,7 +71,8 @@
         "home": {
             "language": "Yezh",
             "from": "Adalek",
-            "to": "Betek"
+            "to": "Betek",
+            "location": "Lec'h"
         },
         "menu": {
             "home": "Degemer",
@@ -88,7 +92,11 @@
             },
             "table": {
                 "game": "C'hoari",
-                "category": "Rummad"
+                "category": "Rummad",
+                "link": "Liamm"
+            },
+            "type": {
+                "RACE": "Redadeg"
             }
         },
         "settings": {
@@ -119,10 +127,18 @@
                 "public": "Foran"
             },
             "tabs": {
-                "general": "Hollek"
+                "general": "Hollek",
+                "submissions": "Kinnigoù",
+                "discord": "Discord"
             },
             "type": {
                 "online": "Enlinenn"
+            },
+            "multiplayer": {
+                "label": "Liesc'hoarier"
+            },
+            "submissions": {
+                "label": "Kinnigoù"
             }
         },
         "submit": {
@@ -153,7 +169,14 @@
             "game": {
                 "name": {
                     "label": "C'hoari"
+                },
+                "description": {
+                    "label": "Deskrivadur ar c'hoari"
                 }
+            },
+            "submissions": "Kinnigoù",
+            "table": {
+                "games": "C'hoarioù"
             }
         },
         "donations": {
@@ -175,10 +198,23 @@
                 "category": "Rummad",
                 "categoryDescription": "Deskrivadur ar rummad",
                 "game": "C'hoari",
-                "question": "Goulenn"
+                "question": "Goulenn",
+                "answer": "Respont",
+                "gameDescription": "Deskrivadur ar c'hoari"
             },
             "category": {
                 "delete": "Dilemel ar rummad"
+            },
+            "title": "Kinnigoù",
+            "tabs": {
+                "submissions": "Kinnigoù"
+            }
+        },
+        "selection": {
+            "status": {
+                "BONUS": "Bonus",
+                "VALIDATED": "Degemeret",
+                "REJECTED": "Nac'het"
             }
         }
     },
@@ -320,6 +356,9 @@
             },
             "email": {
                 "label": "Postel"
+            },
+            "pronouns": {
+                "title": "Raganvioù"
             }
         },
         "profile": {
