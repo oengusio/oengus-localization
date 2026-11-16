@@ -1138,6 +1138,10 @@
         "body": [
           "You are about to delete your Oengus account.",
           "THIS ACTION CANNOT BE REVERSED!",
+          "The following things will happen:",
+          "Your places in schedules will be transferred to a ghost user",
+          "Your submissions to marathons will be transferred to a ghost user",
+          "Your own marathons will be deleted",
           "Please type your username in this box to confirm that you want to delete your account."
         ],
         "settingsDeleteBtn": "Delete account",
